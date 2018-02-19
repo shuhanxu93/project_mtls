@@ -1,0 +1,11 @@
+>20180219
+
+Tasks done today:
+
+Pushed my repository online.
+Read the remaining github software carpentry tutorials.
+
+Tasks for tomorrow:
+
+Read first half of python software carpentry tutorials.
+
