@@ -9,3 +9,16 @@ Tasks for tomorrow:
 
 Read first half of python software carpentry tutorials.
 
+>20180220
+
+Tasks done today:
+
+Completed parser and data preprocessing.
+Predictor had an accuracy of ~60% (predicting training set) with window size = 17 and SVM default settings.
+Predictor had an accuracy of ~99% (predicting training set) with window size = 17 and C = 1000.
+
+
+Tasks for tomorrow:
+
+Write script for cross-validation.
+Plot learning curve for predictor to evaluate bias vs variance.
