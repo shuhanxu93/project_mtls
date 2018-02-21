@@ -22,3 +22,9 @@ Tasks for tomorrow:
 
 Write script for cross-validation.
 Plot learning curve for predictor to evaluate bias vs variance.
+
+>20180221
+
+Tasks done today:
+
+Finished first half of python software carpentry tutorials.
