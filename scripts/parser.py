@@ -9,25 +9,23 @@ def main(dataset_file, window_size):
 
     seq_w = fragment(seq, window_size)
 
-    features = encode_attributes(seq_w, window_size)
+    features = encode_attributes(seq_w, window_size)[:10000]
 
-    labels = encode_targets(sec)
+    labels = encode_targets(sec)[:10000]
 
-    print(sec)
-    print(labels)
-
-    '''
     print("Training...")
 
     clf = svm.SVC(C=1000)
-    clf.fit(questions, answers)
 
-    predictions = clf.predict(questions)
+    clf.fit(features, labels)
 
-    accuracy = np.mean(predictions == answers)
+    print("Predicting...")
 
-    print(accuracy)
-    '''
+    predictions = clf.predict(features)
+
+    accuracy = np.mean(predictions == labels)
+
+    print("Accuracy =", accuracy)
 
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
@@ -91,5 +89,7 @@ sec_str = "HEC"
 sec_num = "012"
 trans_table = str.maketrans(sec_str, sec_num)
 
+sec_name = np.array(list(sec_str))
+
 if __name__ == '__main__':
-    main('../datasets/mini.txt', 3)
+    main('../datasets/cas3_removed.txt', 17)
