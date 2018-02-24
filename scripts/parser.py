@@ -9,14 +9,14 @@ def main(dataset_file, window_size):
 
     seq_w = fragment(seq, window_size)
 
-    features = encode(seq_w, window_size)
+    features = encode_attributes(seq_w, window_size)
 
-    print(features)
+    labels = encode_targets(sec)
+
+    print(sec)
+    print(labels)
 
     '''
-    questions = create_dataset(sequences, window_size)
-    answers = create_groundtruth(structures)
-
     print("Training...")
 
     clf = svm.SVC(C=1000)
@@ -63,7 +63,7 @@ def fragment(sequences, window_size):
 
     return fragmented_sequences
 
-def encode(fragmented_sequences, window_size):
+def encode_attributes(fragmented_sequences, window_size):
     """Convert a list of fragmented sequences to a matrix of one-hot encoded vectors"""
 
     encoded_vectors = np.zeros((len(fragmented_sequences), amino_size * window_size), dtype=int)
@@ -73,19 +73,23 @@ def encode(fragmented_sequences, window_size):
 
     return encoded_vectors
 
-'''
-def create_groundtruth(raw_structures):
-    """Create a vector of n_samples of secondary structures"""
-    long_string = ''.join(raw_structures)
-    structure_array = np.array(list(long_string))
-    return structure_array
-'''
+def encode_targets(structures):
+    """Convert a list of secondary structures to a vector of class labels"""
+    labels_str = ''.join(structures).translate(trans_table)
+    labels_list = list(map(int, list(labels_str)))
+    class_labels = np.array(labels_list)
+    return class_labels
 
-# Create amino acid converter
+# Create amino acid converter using dictionary
 amino_acids = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V', '0']
 amino_size = len(amino_acids)
 amino_num = [i for i in range(amino_size)]
 amino2num = dict((x, y) for x, y in zip(amino_acids, amino_num))
+
+# Create secondary structure converter using str.maketrans()
+sec_str = "HEC"
+sec_num = "012"
+trans_table = str.maketrans(sec_str, sec_num)
 
 if __name__ == '__main__':
     main('../datasets/mini.txt', 3)

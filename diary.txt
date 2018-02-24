@@ -76,3 +76,11 @@ How about reporting the accuracy of my predictor?
 Should it be based on Q3 score as well?
 Finally, while optimising 2 parameters may be simple using the grid method, optimising 3 parameters (window size, C and gamma) may not be so trivial.
 I need to read more about optimisation methods in the weekends.
+
+>20180223
+
+I have edited my script to make the structure clearer.
+
+Continue tomorrow
+
+>20180224
