@@ -1,5 +1,9 @@
 import numpy as np
 from sklearn import svm
+from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
+from sklearn.model_selection import learning_curve
+from sklearn.model_selection import ShuffleSplit
 
 def main(dataset_file, window_size):
 
@@ -9,10 +13,21 @@ def main(dataset_file, window_size):
 
     seq_w = fragment(seq, window_size)
 
-    features = encode_attributes(seq_w, window_size)[:10000]
+    features = encode_attributes(seq_w, window_size)
 
-    labels = encode_targets(sec)[:10000]
+    labels = encode_targets(sec)
 
+    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.4)
+
+    title = "Learning Curves (SVM, RBF kernel, C=1.0, gamma='auto', window_size=17)"
+    cv = ShuffleSplit(n_splits=10, test_size=0.2)
+    estimator = svm.SVC()
+    train_sizes = np.linspace(.05, 1.0, 10)
+    plot_learning_curve(estimator, title, X_train, y_train, (0.30, 1.01), cv=cv, n_jobs=4, train_sizes=train_sizes)
+
+    plt.show()
+
+    '''
     print("Training...")
 
     clf = svm.SVC(C=1000)
@@ -26,6 +41,7 @@ def main(dataset_file, window_size):
     accuracy = np.mean(predictions == labels)
 
     print("Accuracy =", accuracy)
+    '''
 
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
@@ -77,6 +93,37 @@ def encode_targets(structures):
     labels_list = list(map(int, list(labels_str)))
     class_labels = np.array(labels_list)
     return class_labels
+
+
+# code from sklearn
+def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
+                        n_jobs=1, train_sizes=np.linspace(.1, 1.0, 5)):
+    plt.figure()
+    plt.title(title)
+    if ylim is not None:
+        plt.ylim(*ylim)
+    plt.xlabel("Training examples")
+    plt.ylabel("Score")
+    train_sizes, train_scores, test_scores = learning_curve(
+        estimator, X, y, cv=cv, n_jobs=n_jobs, train_sizes=train_sizes)
+    train_scores_mean = np.mean(train_scores, axis=1)
+    train_scores_std = np.std(train_scores, axis=1)
+    test_scores_mean = np.mean(test_scores, axis=1)
+    test_scores_std = np.std(test_scores, axis=1)
+    plt.grid()
+
+    plt.fill_between(train_sizes, train_scores_mean - train_scores_std,
+                     train_scores_mean + train_scores_std, alpha=0.1,
+                     color="r")
+    plt.fill_between(train_sizes, test_scores_mean - test_scores_std,
+                     test_scores_mean + test_scores_std, alpha=0.1, color="g")
+    plt.plot(train_sizes, train_scores_mean, 'o-', color="r",
+             label="Training score")
+    plt.plot(train_sizes, test_scores_mean, 'o-', color="g",
+             label="Cross-validation score")
+
+    plt.legend(loc="best")
+    return plt
 
 # Create amino acid converter using dictionary
 amino_acids = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V', '0']
