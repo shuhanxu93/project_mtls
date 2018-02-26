@@ -7,7 +7,7 @@ from sklearn.model_selection import ShuffleSplit
 
 def main(dataset_file, window_size):
 
-    print("Preprocessing training data...")
+    print("Preprocessing training and testing set...")
 
     ids, seq, sec = parse(dataset_file)
 
@@ -18,6 +18,8 @@ def main(dataset_file, window_size):
     labels = encode_targets(sec)
 
     X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.4)
+
+    print("Plotting learning curves...")
 
     title = "Learning Curves (SVM, RBF kernel, C=1.0, gamma='auto', window_size=17)"
     cv = ShuffleSplit(n_splits=10, test_size=0.2)
