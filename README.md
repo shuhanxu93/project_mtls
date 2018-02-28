@@ -1,7 +1,38 @@
 ## project_mtls
 
-### 20180222
+### 20180228
 
+Finally, I have moved my diary to my github project_mtls project page. This has ended the trouble of typing in a .txt file which does not allow one line to spill over to the next line if it is too long. Furthermore, I can put figures in my diary which will make referencing easier.
+
+
+### 20180226
+
+Plotted learning curve for my first predictor.
+
+[learning_curve](https://shuhanxu93.github.com/project_mtls/figures/learning_curve2.png)
+
+Seems like it has a high bias problem as both training and cross-validation scores are low and close to each other.
+
+Need to spend the next few days to optimise the gamma and C hyper-parameters.
+
+John mentioned that it is best practice to treat peripheral windows and internal windows differently. He said that it will be easier for downstream implementations. I do not have as much intuition and experience as him. I will keep my code for now.
+
+
+### 20180224
+
+Create a training sets called cas3_removed.txt which contains all the examples in cas3.3line.txt except sequences which contain 'B', 'X' and 'Z'.
+
+Training does not converge when I use all training examples with window_size = 17 and C = 1000.
+
+
+### 20180223
+
+I have edited my script to make the structure clearer.
+
+Continue tomorrow.
+
+
+### 20180222
 
 I am planning to move my diary to github page during the weekends so that I can put figures in my diary. This will allow me to better track my progress.
 
