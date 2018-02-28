@@ -7,7 +7,7 @@ from sklearn.model_selection import ShuffleSplit
 
 def main(dataset_file, window_size):
 
-    print("Preprocessing training and testing set...")
+    print("Preprocessing training and testing sets...")
 
     ids, seq, sec = parse(dataset_file)
 
@@ -17,15 +17,29 @@ def main(dataset_file, window_size):
 
     labels = encode_targets(sec)
 
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.4)
+    # 'randomly' splitting features and labels datasets into training(60%) and test sets(40%)
+    np.random.seed(seed=0)
+
+    sel = np.random.permutation(len(features))
+
+    sel_train = sel[:round(0.6*len(features))]
+
+    sel_test = sel[round(0.6*len(features)):]
+
+    X_train = features[sel_train]
+
+    X_test = features[sel_test]
+
+    y_train = labels[sel_train]
+
+    y_test = labels[sel_test]
 
     print("Plotting learning curves...")
 
-    title = "Learning Curves (SVM, RBF kernel, C=1.0, gamma='auto', window_size=17)"
-    cv = ShuffleSplit(n_splits=10, test_size=0.2)
-    estimator = svm.SVC()
+    title = "Learning Curves (SVM, RBF kernel, C=1.0, gamma=0.003, window_size=17)"
+    estimator = svm.SVC(C=1.0, gamma=0.003)
     train_sizes = np.linspace(.05, 1.0, 10)
-    plot_learning_curve(estimator, title, X_train, y_train, (0.30, 1.01), cv=cv, n_jobs=4, train_sizes=train_sizes)
+    plot_learning_curve(estimator, title, X_train, y_train, ylim=(0.30, 1.01), cv=10, n_jobs=4, train_sizes=train_sizes)
 
     plt.show()
 
