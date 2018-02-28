@@ -9,7 +9,7 @@ Finally, I have moved my diary to my github project_mtls project page. This has 
 
 Plotted learning curve for my first predictor.
 
-[learning_curve](https://github.com/shuhanxu93/project_mtls/blob/master/figures/learning_curve2.png)
+![learning_curve](https://github.com/shuhanxu93/project_mtls/blob/master/figures/learning_curve2.png)
 
 Seems like it has a high bias problem as both training and cross-validation scores are low and close to each other.
 
