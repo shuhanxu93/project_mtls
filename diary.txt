@@ -84,3 +84,17 @@ I have edited my script to make the structure clearer.
 Continue tomorrow
 
 >20180224
+
+Create a training sets called cas3_removed.txt which contains all the examples in cas3.3line.txt except sequences which contain 'B', 'X' and 'Z'.
+
+Training does not converge when I use all training examples with window_size = 17 and C = 1000.
+
+>20180226
+
+Plotted learning curve for my first predictor. Seems like it has a high bias problem as both training and cross-validation scores are low and close to each other.
+
+Need to spend the next few days to optimise the gamma and C hyper-parameters.
+
+John mentioned that it is best practice to treat peripheral windows and internal windows differently. He said that it will be easier for downstream implementations. I do not have as much intuition and experience as him. I will keep my code for now.
+
+
