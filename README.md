@@ -27,9 +27,23 @@ Training does not converge when I use all training examples with window_size = 1
 
 ### 20180223
 
-I have edited my script to make the structure clearer.
+Participated in the first journal club of the course. Marco said it was specially designed for us.
 
-Continue tomorrow.
+David started off the session with a introduction into deep learning. He began with the history of machine learning from curve fitting to expert systems to feature engineering. Then he spent some time discussing deep learning. What is amazing is that some of the layers of a convolutionary neural network look very similar to the gabor filters used in feature engineering. It is amazing to think about how a machine can learn this from scratch without human intuitions. Although I do not fully understand David's presentation, he gave us website where we can learn deep learning on ourselve such as this one: [Udacity](https://eu.udacity.com/course/deep-learning--ud730).
+
+The second presentation was on visualising convolutionary neural network(CNN) by another member of the lab. It was based on the 2013 paper by Matthew D. Zeiler and Rob Fergus. Many of the ideas in the paper are still alien to me but the basic idea is to develop methods to visualise the hidden layers of the CNN and use that insight to understand how CNN learns. What is fascinating is that in a separate experiment, the authors use a gray square to cover part of the image and test if the computer can still categorise the image correctly. In one instance, they tried to cover different parts of a image of a pomeranian. While the computer can still recoginise the pomeranian when the legs or ear are covered, it is unable to do so when the face of the creature of covered. In a way, this is very similar to the way human see and recognise an object. We do not pay attention to all parts of an object. We only notice the distinctive features of that object. The presenter then gave us this question to ponder: If we can identify the most salient features used by a computer in categorising a image or an amino acid, can we transfer that knowledge back to human intuition? Suppose a computer can use a certain set of features of a protein sequence to correctly categorise the secondary structure of each amino acid, can we learn from that set of features and understand the physics and chemistry of why a particular amino acid of a protein sequence adopts a particular secondary structure? In a way this is similar to reverse engineering. Maybe we shall call this reverse science.
+
+After the journal club and group meeting, I talked to John about the possible problems I face in creating the secondary structure predictor. Below is a summary.
+
+Qn1: What metric should we use to optimise our predictor? Accurarcy score? Matthew correlation coefficient? Q3?
+Ans1: Pick one but you must justify why you use that metric.
+
+Qn2: How shall we optimise 3 parameters such as C, gamma and window size? Is it too time consuming to use try all combinations.
+Ans2: One can do brute force optimisation by trying out all combination of C, gamma and window size. It is preferable to use a more heuristic approach. You can first try test out the different window size and narrow down the range of the range of the window size. Then you can perform a grid search of C and gamma over that small range of window size.
+
+At night, I have reworked my script to make the structure clearer. The functions are much shorter and more modular. I also included a main function to run all the sub functions. Although the performance and the result is the same, I think it is easier for me to improve it later.
+
+I shall continue tomorrow.
 
 
 ### 20180222
@@ -59,8 +73,9 @@ Didn't do coding today as I was tutoring a friend on dynamic programming.
 Tasks done today:
 
 Completed parser and data preprocessing.
-Predictor had an accuracy of ~60% (predicting training set) with window size = 17 and SVM default settings.
-Predictor had an accuracy of ~99% (predicting training set) with window size = 17 and C = 1000.
+* Predictor had an accuracy of ~60% (training set score) with window size = 17 and SVM default settings.
+* Predictor had an accuracy of ~99% (training set score) with window size = 17 and C = 1000.
+It seems that my inputs are processed correctly and SVM is learning from my training set. There is still a long way to go.
 
 Tasks for tomorrow:
 
