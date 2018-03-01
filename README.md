@@ -20,6 +20,12 @@ John mentioned that it is best practice to treat peripheral windows and internal
 
 ### 20180224
 
+Spend most of my time reading and understanding sklearn SVM today.
+
+Although I have some previous understanding of SVM from Professor Andrew Ng's Machine Learning coursera course, it not enough not appreciate the intricate details of SVM. Let me do a short recap of SVM. The mathematical formulation of SVM's cost function consist of an error term, i.e. how much the predicted y-value differs from the actual y-value, and an regularization term, i.e. the sum of squares of the weights. There are two parameters to adjust for a SVM running on a RBF kernal. The first is C which controls how much the error term contributes to the cost function with respect to the regularization term. The larger the value of C, the greater the contribution of the error term and hence, the higher tendency of the model towards overfitting or high variance. The second parameter is gamma which is specific to the RBF kernel. In Professor Ng's video, he used 1/(2sigma) instead but the idea is the same. The kernel gives us the similarity scores of an input vector with respect to each of the training example. In the case of a RBF kernel, the larger the value of gamma, the closer to a training example the input vector needs to be in order for the similarity score to be high. Hence in a way, the greater the value of gamma, the more complex the shape of the decision boundary and hence the greater the tendency for the model to overfit.
+
+However, there are still many inner workings of SVM that I do not yet understand. Unlike logistic regression or neural network, SVM does not calculate the probability of an example to belong to a class. Instead, SVM uses the score produced by the decision function to determine the class of an example. This decision function uses a subset of training examples (also known as support vectors) to calculate the score. This is only of the computational tricks SVM uses to speed up the calculation. Besides this, SVM can also implement an "one vs one" (OVO) approach  to mutlticlass classification. While the traditional "one vs rest" (OVR) approach trains n_class classifiers, the OVO trains <sup>n_class</sup>C<sub>2</sub> classifiers. 
+
 Create a training sets called cas3_removed.txt which contains all the examples in cas3.3line.txt except sequences which contain 'B', 'X' and 'Z'.
 
 Training does not converge when I use all training examples with window_size = 17 and C = 1000.
@@ -73,8 +79,8 @@ Didn't do coding today as I was tutoring a friend on dynamic programming.
 Tasks done today:
 
 Completed parser and data preprocessing.
-* Predictor had an accuracy of ~60% (training set score) with window size = 17 and SVM default settings.
-* Predictor had an accuracy of ~99% (training set score) with window size = 17 and C = 1000.
+* Predictor had an accuracy of ~60% (training set score) with 11000 training examples, window size = 17 and SVM default settings.
+* Predictor had an accuracy of ~99% (training set score) with 11000 training examples, window size = 17 and C = 1000.
 It seems that my inputs are processed correctly and SVM is learning from my training set. There is still a long way to go.
 
 Tasks for tomorrow:
