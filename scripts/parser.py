@@ -3,7 +3,8 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 from sklearn.model_selection import learning_curve
-from sklearn.model_selection import ShuffleSplit
+from sklearn.model_selection import GridSearchCV
+import pandas as pd
 
 def main(dataset_file, window_size):
 
@@ -33,7 +34,8 @@ def main(dataset_file, window_size):
     y_train = labels[sel_train]
 
     y_test = labels[sel_test]
-
+    '''
+    # plot learning curve for SVC
     print("Plotting learning curves...")
 
     title = "Learning Curves (SVM, RBF kernel, C=1.0, gamma=0.003, window_size=17)"
@@ -42,22 +44,33 @@ def main(dataset_file, window_size):
     plot_learning_curve(estimator, title, X_train, y_train, ylim=(0.30, 1.01), cv=10, n_jobs=4, train_sizes=train_sizes)
 
     plt.show()
+    '''
+    #find optimal C and gamma using GridSearchCV
+    C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
+    gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
+    parameters = {'C':C_range, 'gamma':gamma_range}
+    svc = svm.SVC(cache_size=7000)
+    clf = GridSearchCV(svc, parameters, cv=5, error_score=np.NaN)
+    clf.fit(X_train, y_train)
+    df = pd.Dataframe(clf.cv_results_)
+    df.to_csv('../results/gridCV_1.csv', sep='\t', encoding='utf-8')
 
     '''
     print("Training...")
 
-    clf = svm.SVC(C=1000)
+    clf = svm.SVC(C=1000,gamma=0.003, cache_size=7000, verbose=2)
 
-    clf.fit(features, labels)
+    clf.fit(X_train, y_train)
 
     print("Predicting...")
 
-    predictions = clf.predict(features)
+    predictions = clf.predict(X_train) # need to change to X_test
 
-    accuracy = np.mean(predictions == labels)
+    accuracy = np.mean(predictions == y_train) # need to change to y_test
 
     print("Accuracy =", accuracy)
     '''
+
 
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
