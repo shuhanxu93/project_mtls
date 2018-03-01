@@ -4,6 +4,10 @@
 
 Finally, I have moved my diary to my github project_mtls project page. This has ended the trouble of typing in a .txt file which does not allow one line to spill over to the next line if it is too long. Furthermore, I can put figures in my diary which will make referencing easier.
 
+### 20180227
+
+Today, I have spent most of my coding time reading documentation.
+
 
 ### 20180226
 
