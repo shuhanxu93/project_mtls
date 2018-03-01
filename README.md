@@ -7,15 +7,18 @@ Finally, I have moved my diary to my github project_mtls project page. This has 
 
 ### 20180226
 
-Plotted learning curve for my first predictor.
+Today I have plotted the learning curve for my first predictor. I used a window size=17, C=1.0 and gamma=0.003 for the plot. I choose that window size because it is the one used by Jnet and GOR method. C is 1.0 which is the default value used in SVC. Gamma is 0.003 which is approxmiately 1/n_features (1/357), the value used in SVC under default settings. The purpose of plotting a learning curve is to diagnoise whether the predictor is suffering from high bias or high variance.
 
+With few training examples, the training score(accuracy) is high(close to 1) and the cross validation score is low. This is because the predictor is able to fit the training set well but unable to generalise to fit the cross-validation set. As the number of training examples increases, the training score will decrease because it becomes more difficult for the predictor to fit so many training examples well. On the other hand, the cross validation score increases as the predictor is able to produce a better model which can generalise well to the cross-validation set.
+
+In an ideal predictor, the training score will remain high while the cross validation score will be get very close to the training score as the number of training examples increases. If the predictor is suffering from high bias, both the training score and the cross-validation score will be low and they are close to each other when the predictor is trained on large number of training examples. This is because the model is not complex enough to fit either the training or the cross validation set. On the other hand, if the predictor is suffering from high variance, the training score will be high but the cross-validation score will be low because while the model is complex enough to fit the training set, it cannot generalise well to fit the cross-validation set.
+
+Here is my learning curve:
 ![learning_curve2.png](/figures/learning_curve2.png)
 
-Seems like it has a high bias problem as both training and cross-validation scores are low and close to each other.
+I started the plot from less than 1000 training examples. If I use even few examples, one will see the training score dropping from 1 and the cross-validation rising from zero. What is more important is how the curve appears as training size increases. It seems that both the training score and cross-validation scores are flattening out at 0.62. Since both scores are quite low and close to each other, our model seesms to be suffering from high bias. What I will spend the next few days is to tweak the C and gamma hyper-parameters. If I have more time, I will also try out a range of window sizes.
 
-Need to spend the next few days to optimise the gamma and C hyper-parameters.
-
-John mentioned that it is best practice to treat peripheral windows and internal windows differently. He said that it will be easier for downstream implementations. I do not have as much intuition and experience as him. I will keep my code for now.
+On a side note, John mentioned that it is best practice to treat peripheral windows and internal windows separately. He said that it will be easier for downstream implementations. As I do not have as much intuition and experience as him, I cannot forsee the problem that I will face. I think I will stick with my code for now which is simpler. If I face another issues in the future, it will be a stronger lesson for me. Anyway, it will not be that difficult to change the code since it is much modular now.
 
 
 ### 20180224
