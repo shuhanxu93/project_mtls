@@ -1,8 +1,17 @@
 ## project_mtls
 
+### 20180302
+
+Transfer learning
+
+
+
+
 ### 20180228
 
-Finally, I have moved my diary to my github project_mtls project page. This has ended the trouble of typing in a .txt file which does not allow one line to spill over to the next line if it is too long. Furthermore, I can put figures in my diary which will make referencing easier.
+Finally, I have moved my diary to my github project_mtls project page. This has ended the trouble of typing in a .txt file which does not allow one line to be spilled over to the next line if it is too long. Furthermore, I can put links and figures in my diary and this makes referencing much easier.
+
+I worked on the issue of shuffling and splitting my training and test set. The idea of having a separate test set is to evaluate the performance of the predictor on data that it has not seen before. This means that neither the weights nor the hyper-parameters should be learnt from the test set. In other words, values of the weights and hyper-parameters need to be decided based on the information from the training set only. Consequently, I need to make sure that I am always using the same training set when playing with the hyper-parameters. Although I can use a seed to ensure that the `train_test_split` always generate the same training set, this approach may not work if I want to change window size. This is because the array that I feed into the train_test_split will have a different shape and different values after I change to another window size and I cannot guarantee that it will always be split the same way with the same seed. At least I have not tested this notion yet. Hence
 
 ### 20180227
 
