@@ -4,6 +4,30 @@
 
 Hi John, the file for today's submission is week_3_report.py under the scripts directory.
 
+I have listened to another two amazing presentations during journal club today.
+
+David first presented on the topic of transfer learning.
+
+-perform deep learning to distinguish a cat from a human. Does not need to retrain the convolutionary neural network from scratch to make it distinguish armadillo from a platypus.
+-the bulk of the network is extracting features from the image such as performing filters
+-need a smaller training size to retrain the tail module to make the network classify different things
+-raise the idea of building a knowledge base, make a general purpose CNN trained from a giangantic dataset of high quality training examples. user provide a smaller training set to traing the CNN to perform more specific tasks.
+-phi, psi, solvent accessible surface area.
+
+John then presented on machine learning competitions 
+
+-a good place to learn and test out new ideas
+
+key lessons
+- domain knowledge is important
+- break down a difficult task into smaller more managable task. may take more time but the results is worth it
+- willing to share ideas. Not just about competing
+- machine learning is still more of an art than science. be open to new ideas and test things out. You can never be absolutely sure it is a brilliant or poor idea until you test it out.
+
+
+
+I have received a lot of pratical advice
+
 ### 20180301
 
 Was feeling a bit ambitious today. I was planning to perform a grid search for optimum pair of C and gamma for my predictor of window_size=17. Previously I face the issue of SVC not converging for large value of C and hugh training set size. The fact is SVC learning will always converge and it is taking a very long time for that case. I then learnt from StackExchange that if I increase the `cache_size` of SVC, I could reduce the amount of recomputation and speed up the learning. Even so, it is still computationally expensive to perform brute force search for C(2<sup>-5</sup> to 2<sup>15</sup>) and gamma(2<sup>-15</sup> to 2<sup>3</sup>) as recommended by Hsu *et al*<sup>1</sup>.
