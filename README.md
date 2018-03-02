@@ -6,15 +6,12 @@
 Hi John, David and Marco, the file for today's submission is week_3_report.py under the scripts directory.
 ```
 
-I have listened to another two amazing presentations during journal club today.
+I have listened to another two amazing presentations during journal club today and learnt a lot today.
 
-David first presented on the topic of transfer learning.
+David first presented on the topic of transfer learning. It is the concept of borrowing a trained neural network, or any other trained estimator, for a specific task and make minor changes to it so that it can perform a different but similar task. David gave the following example. If we have trained a convolutionary neural network to distinguish a cat from a human, do we need to retrain the neural network from scratch so that it can distinguish an armadillo from a platypus? Since the bulk of the network is extracting features from an image such as applying filters, that part of the model can be retained and it can perform just as well on armadillo and platypus images as on cat and human images. However, we still need to provide a smaller training set of armadillo and platypus images to retrain the decision making module of the network so that it can classify different things. This raises the idea of building a knowledge-base neural network which is a general purpose CNN trained from a giangantic dataset of high quality training examples. The user only need to feed a much smaller training set to traing the CNN to perform more specific tasks. David then bring the topic back to biology. He said phi angles, psi angles and solvent accessible surface area are highly correlated characteristics of a protein. We can use a set of protein primary sequence to train the estimator to predict phi angles, we can use another smaller training set to tweak the estimator to predict psi angle or solvent accesible surface area. Transfer learning seems to be very suited for sequence labeling probelems, such as predicting secondary structure, solvent accessibility, contact number from protein primary sequence.
 
--perform deep learning to distinguish a cat from a human. Does not need to retrain the convolutionary neural network from scratch to make it distinguish armadillo from a platypus.
--the bulk of the network is extracting features from the image such as performing filters
--need a smaller training size to retrain the tail module to make the network classify different things
--raise the idea of building a knowledge base, make a general purpose CNN trained from a giangantic dataset of high quality training examples. user provide a smaller training set to traing the CNN to perform more specific tasks.
--phi, psi, solvent accessible surface area.
+Next, John
+
 
 John then presented on machine learning competitions 
 
@@ -28,7 +25,7 @@ key lessons
 
 
 
-I have received a lot of pratical advice
+I have received a lot of pratical advices
 
 ### 20180301
 
