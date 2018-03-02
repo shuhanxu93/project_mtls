@@ -6,6 +6,14 @@ Transfer learning
 
 ### 20180301
 
+Was feeling a bit ambitious today. I was planning to perform a grid search for optimum pair of C and gamma for my predictor of window_size=17. Previously I face the issue of SVC not converging for large value of C and hugh training set size. The fact is SVC learning will always converge and it is taking a very long time for that case. I then learnt from StackExchange that if I increase the `cache_size` of SVC, I could reduce the amount of recomputation and speed up the learning. Even so, it is still computationally expensive to perform brute force search for C(2<sup>-5</sup> to 2<sup>15</sup>) and gamma(2<sup>-15</sup> to 2<sup>3</sup>) as recommended by Hsu *et al*<sup>1</sup>.
+
+While waiting for the search to complete, I worked on my presentation on Deep Convolutional Neural Fields by Wang *et al*<sup>2</sup>. The paper discusses some of the novel ideas in the deep convolutionary neural network field. It is simply amazing how the predictor can achieve such a high accuracy with a simple architecture and a small window size(11). I am hyped for the presentation next week.
+
+1. Hsu, Chih-Wei, Chih-Chung Chang, and Chih-Jen Lin. "A practical guide to support vector classification." (2003): 1-16.
+
+2. Wang, Sheng, et al. "Protein secondary structure prediction using deep convolutional neural fields." Scientific reports 6 (2016): 18962.
+
 
 ### 20180228
 
