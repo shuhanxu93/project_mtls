@@ -3,7 +3,7 @@
 ### 20180302
 
 ```
-Hi John, the file for today's submission is week_3_report.py under the scripts directory.
+Hi John, David and Marco, the file for today's submission is week_3_report.py under the scripts directory.
 ```
 
 I have listened to another two amazing presentations during journal club today.
