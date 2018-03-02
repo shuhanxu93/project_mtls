@@ -2,7 +2,7 @@
 
 ### 20180302
 
-Transfer learning
+Hi John, the file for today's submission is week_3_report.py under the scripts directory.
 
 ### 20180301
 
