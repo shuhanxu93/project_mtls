@@ -6,7 +6,9 @@ Finally, I have moved my diary to my github project_mtls project page. This has 
 
 ### 20180227
 
-Today, I have spent most of my coding time reading documentation.
+Today, I have spent most of my coding time reading documentation. C and gamma are called hyper-parameters because they cannot be learnt by the estimator. What can be learnt are the weights or theta. Scikit learn has several inbuilt classes which can search for the optimum set of parameters. One of which is the exhaustive grid search. Users just need to specify the range of each of the parameters and put them in a dictionary. The `GridSearchCV` can take this dictionary and calculate the cross-validation score of every combinations of the parameters listed in the dictionary. In addition to the exhaustive grid search, Scikit learn also has a randomised search approach called `RandomisedSearchCV` which can search for the parameters from a distribution of values. Calling the `cv_results_` attribute will return a dictionary of the results which can then be fed into pandas to produce a dataframe. This dataframe can then be used to make contour plots of the C and gamma grid of cross-validation scores. One can also specify `error_score=np.NaN` in case of failures so that the search will be complete.
+
+Beyond reading documentations, I have watched a [youtube video](https://youtu.be/MOdlp1d0PNA) which teaches me the steps to get better in machine learning. Zach Miller mentioned two books in the video which worth reading. One is 'Data Science from Scatch' and another is 'Machine Learning with R'. I am definitely going to grab the first book to read. He also thanked the website [Machine Learning Mastery](https://machinelearningmastery.com/) which taught him a lot. Watching this video makes me feel that I am never alone in my journey to learn machine learning and data science. There will alway be countless of teachers whom I will meet along the way. 
 
 
 ### 20180226
@@ -50,11 +52,11 @@ The second presentation was on visualising convolutionary neural network(CNN) by
 
 After the journal club and group meeting, I talked to John about the possible problems I face in creating the secondary structure predictor. Below is a summary.
 
-Qn1: What metric should we use to optimise our predictor? Accurarcy score? Matthew correlation coefficient? Q3?
-Ans1: Pick one but you must justify why you use that metric.
+* Qn1: What metric should we use to optimise our predictor? Accurarcy score? Matthew correlation coefficient? Q3?
+* Ans1: Pick one but you must justify why you use that metric.
 
-Qn2: How shall we optimise 3 parameters such as C, gamma and window size? Is it too time consuming to use try all combinations.
-Ans2: One can do brute force optimisation by trying out all combination of C, gamma and window size. It is preferable to use a more heuristic approach. You can first try test out the different window size and narrow down the range of the range of the window size. Then you can perform a grid search of C and gamma over that small range of window size.
+* Qn2: How shall we optimise 3 parameters such as C, gamma and window size? Is it too time consuming to use try all combinations.
+* Ans2: One can do brute force optimisation by trying out all combination of C, gamma and window size. It is preferable to use a more heuristic approach. You can first try test out the different window size and narrow down the range of the range of the window size. Then you can perform a grid search of C and gamma over that small range of window size.
 
 At night, I have reworked my script to make the structure clearer. The functions are much shorter and more modular. I also included a main function to run all the sub functions. Although the performance and the result is the same, I think it is easier for me to improve it later.
 
