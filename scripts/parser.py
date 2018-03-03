@@ -50,9 +50,9 @@ def main(dataset_file, window_size):
     gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
     parameters = {'C':C_range, 'gamma':gamma_range}
     svc = svm.SVC(cache_size=7000, verbose=2)
-    clf = GridSearchCV(svc, parameters, cv=5, error_score=np.NaN)
+    clf = GridSearchCV(svc, parameters, cv=5, error_score=np.NaN, return_train_score=False)
     clf.fit(X_train, y_train)
-    df = pd.Dataframe(clf.cv_results_)
+    df = pd.DataFrame(clf.cv_results_)
     df.to_csv('../results/gridCV_1.csv', sep='\t', encoding='utf-8')
 
     '''
