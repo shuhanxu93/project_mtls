@@ -18,7 +18,7 @@ In the competition, the winning team has no prior knowledge on how to identify a
 #### Break down a difficult task into many smaller and more managable tasks.
 Although this may take more manhours but the results is worth it. Training a single CNN to take in a raw image and categorise the whale correctly is difficult. What the team did is to train several CNNs to perform this task. They first have a CNN that locates the head of the whale. Then they have another CNN which orientates the head and produce passport-like photos. Then they have a final CNN which take this preprosessed photo and categorise the whale. While a CNN may perform the whole task well, it can achieve great accuracy for a sub-task. By combining these CNNs together, they can have a great overall performance.
 
-#### Machine learning is still more of an art than science
+#### Machine learning is still more of an art than science.
 A successful machine learning practitioner does not just devote all his or her time on a single idea. The best way approach is still to test out multiple ideas and learn as much as one can in a short period of time. In this case study, there are many instances in which the authors realise that a method is good only after they have tested it out. In essence, you can never be absolutely sure whether your idea is a brilliant or poor until you have tested it out.
 
 
