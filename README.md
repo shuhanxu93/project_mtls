@@ -10,22 +10,17 @@ I have listened to another two amazing presentations during journal club today a
 
 David first presented on the topic of transfer learning. It is the concept of borrowing a trained neural network, or any other trained estimator, for a specific task and make minor changes to it so that it can perform a different but similar task. David gave the following example. If we have trained a convolutionary neural network to distinguish a cat from a human, do we need to retrain the neural network from scratch so that it can distinguish an armadillo from a platypus? Since the bulk of the network is extracting features from an image such as applying filters, that part of the model can be retained and it can perform just as well on armadillo and platypus images as on cat and human images. However, we still need to provide a smaller training set of armadillo and platypus images to retrain the decision making module of the network so that it can classify different things. This raises the idea of building a knowledge-base neural network which is a general purpose CNN trained from a giangantic dataset of high quality training examples. The user only need to feed a much smaller training set to traing the CNN to perform more specific tasks. David then bring the topic back to biology. He said phi angles, psi angles and solvent accessible surface area are highly correlated characteristics of a protein. We can use a set of protein primary sequence to train the estimator to predict phi angles, we can use another smaller training set to tweak the estimator to predict psi angle or solvent accesible surface area. Transfer learning seems to be very suited for sequence labeling probelems, such as predicting secondary structure, solvent accessibility, contact number from protein primary sequence.
 
-Next, John
+Next, John talk about a case study of using machine learning to identify individual whale from photos. [Here](https://blog.deepsense.ai/deep-learning-right-whale-recognition-kaggle/) is the link. It was an competition on [Kaggle](https://www.kaggle.com/competitions), where people can submit their machine learning models to solve real world problems. Below are some of the key ideas I have taken from this case study.
 
+#### Domain knowledge is important to solving machine learning problems.
+In the competition, the winning team has no prior knowledge on how to identify a particular whale from image. The only knowledge they get from wikipedia and the organizer is that the white patch on the whale head can be used to distinguished one specimen from another. And they have used it to great success. Their method focuses on capturing this piece of information from each photo and use it to train their model. This also reminds me of the lecture that Gunnar gave us on membrane protein topology prediction. He mentioned that the positive-inside rule not only tell us the orientation of the transmembrane protein but it can aid predictors in determining the number of transmembrane helices. If the predictor has both a low and high strigency threshold, it can use the positive inside rule as a jury to determine which model produce by the predictor is the more reasonable one.
 
-John then presented on machine learning competitions 
+#### Break down a difficult task into many smaller and more managable tasks.
+Although this may take more manhours but the results is worth it. Training a single CNN to take in a raw image and categorise the whale correctly is difficult. What the team did is to train several CNNs to perform this task. They first have a CNN that locates the head of the whale. Then they have another CNN which orientates the head and produce passport-like photos. Then they have a final CNN which take this preprosessed photo and categorise the whale. While a CNN may perform the whole task well, it can achieve great accuracy for a sub-task. By combining these CNNs together, they can have a great overall performance.
 
--a good place to learn and test out new ideas
+#### Machine learning is still more of an art than science
+A successful machine learning practitioner does not just devote all his or her time on a single idea. The best way approach is still to test out multiple ideas and learn as much as one can in a short period of time. In this case study, there are many instances in which the authors realise that a method is good only after they have tested it out. In essence, you can never be absolutely sure whether your idea is a brilliant or poor until you have tested it out.
 
-key lessons
-- domain knowledge is important
-- break down a difficult task into smaller more managable task. may take more time but the results is worth it
-- willing to share ideas. Not just about competing
-- machine learning is still more of an art than science. be open to new ideas and test things out. You can never be absolutely sure it is a brilliant or poor idea until you test it out.
-
-
-
-I have received a lot of pratical advices
 
 ### 20180301
 
