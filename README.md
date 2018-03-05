@@ -1,5 +1,15 @@
 ## project_mtls
 
+### 20180305
+
+`import this` - the zen of python
+
+Creating some ugly code today.
+
+
+
+
+
 ### 20180302
 
 ```
