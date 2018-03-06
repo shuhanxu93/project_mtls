@@ -2,12 +2,15 @@
 
 ### 20180305
 
-`import this` - the zen of python
+What I like about this course is that there is no clear set of instructions laid out for me. We are required to read to expand out knowledge and we are encouraged to experiment (although this can be time consuming sometimes). Although I am confident of the steps to take at the start of the course, I am continuously challenged to think otherwise during the journey. Each article I read makes me question my method. This uncertainty definitely makes me feel uncomfortable but I know that this will make me a better thinker in the end. It is as if I am traversing along a stochiastic gradient descent (sam would love this). There is no guarantee that each step will leap you to the optimal minimum but you know that you will land somewhere close eventually.
 
-Creating some ugly code today.
+Another thing that I am feeling thankful for is this journal. I can spend hours and hours in front of the computer making no headway. And the longer I stare at the screen, the slower my brains think. Eventually, my thoughts will come to a halt. Then, I will come to this diary, list out all my frustrations and sort them out like a garbage man digging through the trash. Perhaps I can find bits and pieces of ideas that are still useful.
 
+So I was rewriting my code, almost from scratch. This is because the cross-validation function of scikit learn only evaluate a predictor on the level of a window. However, most other research performs cross-validation on the level of a whole protein sequences which makes sense. First of all, the end goal of the predictor is to predict the secondary structure of the whole protein correctly, and not to predict only each residue correctly (although predicting each individual residues correctly will correlate with predicting the whole protein correctly). More importantly, as John mentioned, if we only scikit learn with peptide window, the predictor will be biased towards longer proteins since longer proteins will have more peptide window. The predictor should treat every protein equally.
 
+At the same time, I am writing the code that treats the boundary cases of proteins as special windows. Although I still do not fully comprehend the benefit of doing this, I think it might be better for me to test out different methods to expand my repertoire of coding tricks and techniques.
 
+`import this` The zen of python captures some of the essence of python. It is philosophical in nature but there are some ideas inside that we can all agree upon. Currently my zen level is still 15%, i.e. I can only appreciate 15 percent of the ideas.
 
 
 ### 20180302
