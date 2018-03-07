@@ -13,76 +13,13 @@ def main(dataset_file, window_size):
     # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
     X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
 
-    # creates 5 training datasets using KFold.
-    kf = KFold(n_splits=5)
-    kf_list = list(kf.split(X_train))
+    # fragment X_train into sliding windows and get group labels
+    X_train_fragmented, train_groups = fragment(X_train, window_size)
 
-    X_train_0, X_val_0 = [X_train[i] for i in kf_list[0][0]], [X_train[i] for i in kf_list[0][1]]
-    y_train_0, y_val_0 = [y_train[i] for i in kf_list[0][0]], [y_train[i] for i in kf_list[0][1]]
-
-    X_train_1, X_val_1 = [X_train[i] for i in kf_list[1][0]], [X_train[i] for i in kf_list[1][1]]
-    y_train_1, y_val_1 = [y_train[i] for i in kf_list[1][0]], [y_train[i] for i in kf_list[1][1]]
-
-    X_train_2, X_val_2 = [X_train[i] for i in kf_list[2][0]], [X_train[i] for i in kf_list[2][1]]
-    y_train_2, y_val_2 = [y_train[i] for i in kf_list[2][0]], [y_train[i] for i in kf_list[2][1]]
-
-    X_train_3, X_val_3 = [X_train[i] for i in kf_list[3][0]], [X_train[i] for i in kf_list[3][1]]
-    y_train_3, y_val_3 = [y_train[i] for i in kf_list[3][0]], [y_train[i] for i in kf_list[3][1]]
-
-    X_train_4, X_val_4 = [X_train[i] for i in kf_list[4][0]], [X_train[i] for i in kf_list[4][1]]
-    y_train_4, y_val_4 = [y_train[i] for i in kf_list[4][0]], [y_train[i] for i in kf_list[4][1]]
-
-    X_train_kfold = [X_train_0, X_train_1, X_train_2, X_train_3, X_train_4]
-    X_val_kfold = [X_val_0, X_val_1, X_val_2, X_val_3, X_val_4]
-
-    y_train_kfold = [y_train_0, y_train_1, y_train_2, y_train_3, y_train_4]
-    y_val_kfold = [y_val_0, y_val_1, y_val_2, y_val_3, y_val_4]
-
-    # preprocess datasets
-    X_train_datasets = attributes_preprocess(X_train_kfold, window_size)
-    X_val_datasets = attributes_preprocess(X_val_kfold, window_size)
-
-    y_train_datasets = targets_preprocess(y_train_kfold)
-    y_val_datasets = targets_preprocess(y_val_kfold)
-
-    print(y_train_datasets)
+    # encode X_train into one-hot encodings
+    
 
 
-
-
-    '''
-    for train_index, test_index in kf.split(X_train):
-        train_folds.append(train_index)
-        test_folds.append(test_index)
-
-    print(train_folds)
-    print(test_folds)
-    '''
-
-'''
-    print(sel_train)
-    # split training set into 5 folds
-    kf = KFold(n_splits=5, shuffle=True, random_state=0)
-'''
-#    for train_index, test_index in kf.split(sel_train):
-#        print("TRAIN:", train_index, "TEST:", test_index)
-
-
-'''
-    print("Training...")
-
-    clf = svm.SVC(C=1000,gamma=0.003, cache_size=7000, verbose=2)
-
-    clf.fit(X_train, y_train)
-
-    print("Predicting...")
-
-    predictions = clf.predict(X_train) # need to change to X_test
-
-    accuracy = np.mean(predictions == y_train) # need to change to y_test
-
-    print("Accuracy =", accuracy)
-'''
 
 
 def parse(filename):
@@ -111,17 +48,21 @@ def fragment(sequences, window_size):
     half_window = window_size // 2
 
     fragmented_sequences = []
-    for seq in sequences:
-        for index in range(len(seq)):
-            if index < half_window:
+    groups = []
+    for seq_idx, seq in enumerate(sequences):
+        for amino_idx in range(len(seq)):
+            if amino_idx < half_window:
                 # N-terminal cases
-                fragmented_sequences.append('0' * (half_window - index) + seq[:index + half_window + 1])
-            elif index >= len(seq) - half_window:
+                fragmented_sequences.append('0' * (half_window - amino_idx) + seq[:amino_idx + half_window + 1])
+                groups.append(seq_idx)
+            elif amino_idx >= len(seq) - half_window:
                 # C-terminal cases
-                fragmented_sequences.append(seq[index - half_window:] + '0' * (half_window - len(seq) + index + 1))
+                fragmented_sequences.append(seq[amino_idx - half_window:] + '0' * (half_window - len(seq) + amino_idx + 1))
+                groups.append(seq_idx)
             else:
-                fragmented_sequences.append(seq[index - half_window:index + half_window + 1])
-    return fragmented_sequences
+                fragmented_sequences.append(seq[amino_idx - half_window:amino_idx + half_window + 1])
+                groups.append(seq_idx)
+    return fragmented_sequences, groups
 
 
 def attributes_preprocess(attributes_kfold, window_size):
