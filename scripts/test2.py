@@ -23,7 +23,7 @@ def main(dataset_file):
     group_kfold = GroupKFold(n_splits=5)
 
     results = {'sliding_windows': [], 'dataset_0': [], 'dataset_1': [], 'dataset_2': [], 'dataset_3': [], 'dataset_4': [], 'dataset_average': []}
-    test_windows = [9, 11, 15, 17, 19, 21, 23]
+    test_windows = [3, 5, 7]
 
     for window_size in test_windows:
         X_train_fragmented, train_groups = fragment(X_train, window_size)
