@@ -16,6 +16,8 @@ I think my explaination from previous post is wrong.
 
 Only advantage is that you can do Q3.
 
+What is the advantage of using Q3 for cross validation?
+
 ### 20180305
 
 What I like about this course is that there is no clear set of instructions laid out for me. We are required to read to expand our knowledge and we are encouraged to experiment (although this can be time consuming sometimes). Although I am confident of the steps to take at the start of the course, I am continuously challenged to think otherwise during the journey. Each article I read makes me question my method. This uncertainty definitely makes me feel uncomfortable but I know that this will make me a better thinker in the end. It is as if I am traversing along a stochiastic gradient descent (sam would love this). There is no guarantee that each step will leap you to the optimal minimum but you know that you will land somewhere close eventually.
