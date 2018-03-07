@@ -45,10 +45,7 @@ def main(dataset_file, window_size):
     y_train_datasets = targets_preprocess(y_train_kfold)
     y_val_datasets = targets_preprocess(y_val_kfold)
 
-
-
-
-
+    print(y_train_datasets)
 
 
 
@@ -62,8 +59,6 @@ def main(dataset_file, window_size):
     print(test_folds)
     '''
 
-
-
 '''
     print(sel_train)
     # split training set into 5 folds
@@ -71,16 +66,6 @@ def main(dataset_file, window_size):
 '''
 #    for train_index, test_index in kf.split(sel_train):
 #        print("TRAIN:", train_index, "TEST:", test_index)
-
-
-
-
-
-
-
-
-
-
 
 
 '''
