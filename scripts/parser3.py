@@ -22,7 +22,7 @@ def main(dataset_file, window_size):
     y_train_encoded = encode_targets(y_train)
 
 
-    clf = svm.SVC(cache_size=6000)
+    clf = svm.SVC(cache_size=5000)
     group_kfold = GroupKFold(n_splits=5)
     scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), cv=group_kfold, n_jobs=-1, verbose=2)
 
