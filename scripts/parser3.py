@@ -17,7 +17,8 @@ def main(dataset_file, window_size):
     X_train_fragmented, train_groups = fragment(X_train, window_size)
 
     # encode X_train into one-hot encodings
-    
+    X_train_encoded = encode(X_train_fragmented)
+
 
 
 
@@ -65,24 +66,18 @@ def fragment(sequences, window_size):
     return fragmented_sequences, groups
 
 
-def attributes_preprocess(attributes_kfold, window_size):
-    """Take a list of K-Fold lists of sequences and return a list of K-Fold numpy arrays of one-hot encodings"""
+def encode(fragmented_sequences):
+    """Take a list of fragmented sequences and return a numpy array of one-hot encodings"""
 
-    # fragment sequences in K-Fold
-    kfold_fragmented = []
-    for fold in attributes_kfold:
-        kfold_fragmented.append(fragment(fold, window_size))
+    window_size = len(fragmented_sequences[0])
 
-    # encode fragmented sequences in K-Fold
-    kfold_encoded = []
-    for fold in kfold_fragmented:
-        fold_encoded = np.zeros((len(fold), window_size, 21))
-        for i in range(len(fold)):
-            for j in range(window_size):
-                fold_encoded[i, j] = amino_code[fold[i][j]]
-        kfold_encoded.append(fold_encoded.reshape(len(fold), window_size * 21))
+    encoded_sequences = np.zeros((len(fragmented_sequences), window_size, 21))
+    for i in range(len(fragmented_sequences)):
+        for j in range(window_size):
+            encoded_sequences[i, j] = amino_code[fragmented_sequences[i][j]]
+    encoded_sequences = encoded_sequences.reshape(len(fragmented_sequences), window_size * 21)
 
-    return kfold_encoded
+    return encoded_sequences
 
 
 def targets_preprocess(targets_kfold):
