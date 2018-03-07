@@ -1,5 +1,9 @@
 ## project_mtls
 
+### 20180307
+
+Yesterday was a stressful day for me. I was puzzling ove the simplest and most logical way to train and cross-validate my predictor.
+
 ### 20180306
 
 Project keeps me up at night.
