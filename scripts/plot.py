@@ -11,9 +11,11 @@ plt.ylabel("Score")
 window_sizes = df.loc[:,'sliding_windows'].as_matrix()
 datasets = df.loc[:,['dataset_0', 'dataset_1', 'dataset_2', 'dataset_3', 'dataset_4']].as_matrix()
 
+print(datasets)
 
 datasets_mean = np.mean(datasets, axis=1)
 datasets_std = np.std(datasets, axis=1)
+
 
 plt.grid()
 plt.fill_between(window_sizes, datasets_mean - datasets_std,
