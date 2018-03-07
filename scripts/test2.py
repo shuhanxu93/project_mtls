@@ -1,22 +1,6 @@
-def encode(fragmented_sequences, window_size):
-    """Take a list of fragmented sequences and return a numpy array of one-hot encodings"""
+def encode_targets(structures):
+    """Take a list of secondary structures and return a numpy array of class labels"""
 
-    encoded_sequences = np.zeros((len(fragmented_sequences), window_size, 21))
-    for i in range(len(fragmented_sequences)):
-        for j in range(window_size):
-            encoded_sequences[i, j] = amino_code[fragmented_sequences[i][j]]
-    encoded_sequences = encoded_sequences.reshape(len(fragmented_sequences), window_size * 21)
-
-    return encoded_sequences
-
-
-def encode(fragmented_sequences, window_size):
-    """Take a list of fragmented sequences and return a numpy array of one-hot encodings"""
-
-    encoded_sequences = np.zeros((len(fragmented_sequences), window_size, 21))
-    for i in range(len(fragmented_sequences)):
-        for j in range(window_size):
-            encoded_sequences[i, j] = amino_code[fragmented_sequences[i][j]]
-    encoded_sequences = encoded_sequences.reshape(len(fragmented_sequences), window_size * 21))
-
-    return encoded_sequences
+    structures_str = ''.join(structures).translate(trans_table)
+    encoded_structures = np.array(list(structures_str), dtype=int)
+    return encoded_structures

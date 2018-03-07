@@ -1,9 +1,11 @@
 import numpy as np
 from sklearn import svm
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import KFold
+from sklearn.model_selection import GroupKFold
+from sklearn.model_selection import cross_val_score
 
 np.set_printoptions(threshold=np.nan)
+
 
 def main(dataset_file, window_size):
 
@@ -16,8 +18,17 @@ def main(dataset_file, window_size):
     # fragment X_train into sliding windows and get group labels
     X_train_fragmented, train_groups = fragment(X_train, window_size)
 
-    # encode X_train into one-hot encodings
-    X_train_encoded = encode(X_train_fragmented)
+    X_train_encoded = encode_attributes(X_train_fragmented)
+    y_train_encoded = encode_targets(y_train)
+
+
+    clf = svm.SVC(cache_size=6000)
+    group_kfold = GroupKFold(n_splits=5)
+    scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), cv=group_kfold, n_jobs=-1, verbose=2)
+
+    print(scores)
+
+    print(np.mean(scores))
 
 
 
@@ -66,7 +77,7 @@ def fragment(sequences, window_size):
     return fragmented_sequences, groups
 
 
-def encode(fragmented_sequences):
+def encode_attributes(fragmented_sequences):
     """Take a list of fragmented sequences and return a numpy array of one-hot encodings"""
 
     window_size = len(fragmented_sequences[0])
@@ -80,14 +91,12 @@ def encode(fragmented_sequences):
     return encoded_sequences
 
 
-def targets_preprocess(targets_kfold):
-    """Take a list of K-Fold lists of secondary structures and return a list of K-Fold numpy arrays of class labels"""
+def encode_targets(structures):
+    """Take a list of secondary structures and return a numpy array of class labels"""
 
-    kfold_labelled = []
-    for fold in targets_kfold:
-        fold_str = ''.join(fold).translate(trans_table)
-        kfold_labelled.append(np.array(list(fold_str), dtype=int))
-    return kfold_labelled
+    structures_str = ''.join(structures).translate(trans_table)
+    encoded_structures = np.array(list(structures_str), dtype=int)
+    return encoded_structures
 
 # Create amino acid converter using dictionary
 amino_code = {'A': np.array([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]),
