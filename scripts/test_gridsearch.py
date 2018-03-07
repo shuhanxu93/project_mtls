@@ -3,6 +3,7 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GroupKFold
 from sklearn.model_selection import cross_val_score
+import pandas as pd
 
 np.set_printoptions(threshold=np.nan)
 
