@@ -3,6 +3,7 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold
 
+np.set_printoptions(threshold=np.nan)
 
 def main(dataset_file, window_size):
 
@@ -43,7 +44,6 @@ def main(dataset_file, window_size):
 
     y_train_datasets = targets_preprocess(y_train_kfold)
     y_val_datasets = targets_preprocess(y_val_kfold)
-
 
 
 
@@ -164,11 +164,8 @@ def targets_preprocess(targets_kfold):
 
     kfold_labelled = []
     for fold in targets_kfold:
-        fold_str = ''.join(fold)
-        fold_labelled = np.zeros(len(fold_str))
-        for i in range(len(fold_str)):
-            fold_labelled[i] = structure_code[fold_str[i]]
-        kfold_labelled.append(fold_labelled)
+        fold_str = ''.join(fold).translate(trans_table)
+        kfold_labelled.append(np.array(list(fold_str), dtype=int))
     return kfold_labelled
 
 # Create amino acid converter using dictionary
@@ -200,7 +197,7 @@ amino_code = {'A': np.array([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
 
 
 # Create secondary structure converter using str.maketrans()
-structure_code = {'H': 0, 'E': 1, 'C': 2}
+trans_table = str.maketrans("HEC", "012")
 structure_name = np.array(['H', 'E', 'C'])
 
 

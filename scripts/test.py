@@ -17,6 +17,15 @@ def targets_preprocess(targets_kfold):
         kfold_labelled.append(fold_labelled)
     return kfold_labelled
 
+def targets_preprocess2(targets_kfold):
+    """Take a list of K-Fold lists of secondary structures and return a list of K-Fold numpy arrays of class labels"""
+
+    kfold_labelled = []
+    for fold in targets_kfold:
+        fold_str = ''.join(fold).translate(trans_table)
+        kfold_labelled.append(np.array(list(fold_str), dtype=int))
+    return kfold_labelled
+
 def fragment(sequences, window_size):
     """Take a list of protein sequences and return a list of window-sized sequences"""
 
@@ -83,11 +92,15 @@ amino_code = {'A': np.array([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
               '0': np.array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1])}
 
 # Create secondary structure converter using str.maketrans()
+trans_table = str.maketrans("HEC", "012")
 structure_code = {'H': 0, 'E': 1, 'C': 2}
+
 
 structure_name = np.array(['H', 'E', 'C'])
 
 
 result = targets_preprocess(example_kfold)
+result2 = targets_preprocess2(example_kfold)
 
 print(result)
+print(result2)
