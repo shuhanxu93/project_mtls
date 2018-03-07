@@ -38,7 +38,7 @@ def main(dataset_file):
         results['dataset_average'].append(np.mean(scores))
 
     df = pd.DataFrame(results)
-    df.to_csv('../results/window_size.csv', sep='\t', encoding='utf-8')
+    df.to_csv('../results/window_size2.csv', sep='\t', encoding='utf-8')
 
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
