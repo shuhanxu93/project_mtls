@@ -1,5 +1,19 @@
 ## project_mtls
 
+### 20180307
+
+Yesterday was a stressful day for me. I was puzzling ove the simplest and most logical way to train and cross-validate my predictor. Hence, I consulted the TAs at the earliest time possible today. Marco and David are extremely helpful with my queries (John was busy with other students) and the following points were what I understand:
+
+1. GroupKfold
+
+2. I do not necessarily need Q3 for cross validation
+
+Here is what I have done today:
+
+
+
+
+
 ### 20180306
 
 Project keeps me up at night.
