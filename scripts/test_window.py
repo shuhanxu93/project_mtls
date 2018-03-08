@@ -23,7 +23,7 @@ def main(dataset_file):
     group_kfold = GroupKFold(n_splits=5)
 
     results = {'sliding_windows': [], 'dataset_0': [], 'dataset_1': [], 'dataset_2': [], 'dataset_3': [], 'dataset_4': [], 'dataset_average': []}
-    test_windows = [7, 13]
+    test_windows = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
 
     for window_size in test_windows:
         X_train_fragmented, train_groups = fragment(X_train, window_size)
@@ -38,7 +38,7 @@ def main(dataset_file):
         results['dataset_average'].append(np.mean(scores))
 
     df = pd.DataFrame(results)
-    df.to_csv('../results/window_size3.csv', sep='\t', encoding='utf-8')
+    df.to_csv('../results/window_none.csv', sep='\t', encoding='utf-8')
 
 def parse(filename):
     """Parse though a protein sequence and secondary structure file

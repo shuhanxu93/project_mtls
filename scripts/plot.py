@@ -2,10 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-df = pd.read_csv('../results/window_all.csv', sep='\t', encoding='utf-8')
+df = pd.read_csv('../results/window_none.csv', sep='\t', encoding='utf-8')
 
 plt.figure()
-plt.title("5 fold cross-validation score using different window sizes")
+plt.title("5 fold cross-validation score using different window sizes (class_weight=None)")
 plt.xlabel("Window Size")
 plt.ylabel("Score")
 window_sizes = df.loc[:,'sliding_windows'].as_matrix()

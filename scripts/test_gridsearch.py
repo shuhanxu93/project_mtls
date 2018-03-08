@@ -23,7 +23,7 @@ def main(dataset_file, window_size):
     y_train_encoded = encode_targets(y_train)
 
 
-    svc = svm.SVC(kernel='rbf', cache_size=5000, class_weight='balanced')
+    svc = svm.SVC(kernel='rbf', cache_size=5000)
     C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
     gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
     parameters = {'C':C_range, 'gamma':gamma_range}
@@ -33,7 +33,7 @@ def main(dataset_file, window_size):
     clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
 
     df = pd.DataFrame(clf.cv_results_)
-    df.to_csv('../results/grid_11_balanced.csv', sep='\t', encoding='utf-8')
+    df.to_csv('../results/grid_17_none.csv', sep='\t', encoding='utf-8')
 
 
 
@@ -136,4 +136,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 11)
+    main('../datasets/cas3.3line.txt', 17)
