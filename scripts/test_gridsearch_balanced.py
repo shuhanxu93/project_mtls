@@ -8,7 +8,7 @@ import pandas as pd
 np.set_printoptions(threshold=np.nan)
 
 
-def main(dataset_file, window_size):
+def main(dataset_file):
 
     # parsing file
     ids, seq, sec = parse(dataset_file)
@@ -17,13 +17,10 @@ def main(dataset_file, window_size):
     X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
 
     # fragment X_train into sliding windows and get group labels
-    X_train_fragmented, train_groups = fragment(X_train, window_size)
 
-    X_train_encoded = encode_attributes(X_train_fragmented)
     y_train_encoded = encode_targets(y_train)
 
-
-    svc = svm.SVC(kernel='rbf', cache_size=5000)
+    svc = svm.SVC(kernel='rbf', cache_size=5000, class_weight='balanced')
     C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
     gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
     parameters = {'C':C_range, 'gamma':gamma_range}
@@ -31,11 +28,15 @@ def main(dataset_file, window_size):
 
     clf = GridSearchCV(svc, parameters, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
+    test_windows = [11, 13, 15, 17, 19, 21, 23]
 
-    clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
-
-    df = pd.DataFrame(clf.cv_results_)
-    df.to_csv('../results/grid_19_none.csv', sep='\t', encoding='utf-8')
+    for window_size in test_windows:
+        X_train_fragmented, train_groups = fragment(X_train, window_size)
+        X_train_encoded = encode_attributes(X_train_fragmented)
+        clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
+        df = pd.DataFrame(clf.cv_results_)
+        output_file = '../results/rbf_balanced_' + str(window_size) + '.csv'
+        df.to_csv(output_file, sep='\t', encoding='utf-8')
 
 
 
@@ -138,4 +139,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 19)
+    main('../datasets/cas3.3line.txt')
