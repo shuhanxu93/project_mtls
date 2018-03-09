@@ -134,4 +134,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/test.fasta', '../models/model.pkl', '../outputs/predictions.txt', 17)
+    main('../datasets/test.fasta', '../models/model.pkl', '../outputs/predictions.fasta', 17)
