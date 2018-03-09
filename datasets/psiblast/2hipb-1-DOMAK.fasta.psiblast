@@ -1,0 +1,911 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 2hipb-1-DOMAK
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P04168|HIP1_HALHA High-potential iron-sulfur protein isozyme...  148     2e-46
+  sp|P04169|HIP2_HALHA High-potential iron-sulfur protein isozyme...  100     9e-28
+  sp|P83341|HIP1_ECTMO High-potential iron-sulfur protein isozyme...  49.7    3e-08
+  sp|P38524|HIP2_ECTSH High-potential iron-sulfur protein isozyme...  44.3    3e-06
+  sp|P00264|HIP_HALH2 High-potential iron-sulfur protein OS=Halom...  42.4    2e-05
+  sp|P38941|HIP1_ECTSH High-potential iron-sulfur protein isozyme...  38.9    3e-04
+  sp|P83342|HIP2_ECTMO High-potential iron-sulfur protein isozyme...  37.7    7e-04
+
+
+> sp|P04168|HIP1_HALHA High-potential iron-sulfur protein isozyme 
+I OS=Halorhodospira halophila OX=1053 GN=hip1 PE=1 SV=2
+Length=71
+
+ Score = 148 bits (374),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA
+Sbjct  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+
+Query  61  EGWCSVYAPAS  71
+           EGWCSVYAPAS
+Sbjct  61  EGWCSVYAPAS  71
+
+
+> sp|P04169|HIP2_HALHA High-potential iron-sulfur protein isozyme 
+II OS=Halorhodospira halophila OX=1053 GN=hip2 PE=1 SV=1
+Length=76
+
+ Score = 100 bits (250),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 49/69 (71%), Positives = 57/69 (83%), Gaps = 2/69 (3%)
+
+Query  2   PRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKAE  61
+           P+AED HAHDYVN+AAD + H R+QEGQLCENC FW + V +GWG C HPDF +VLV+ E
+Sbjct  10  PKAEDDHAHDYVNDAAD-TDHARFQEGQLCENCQFWVDYV-NGWGYCQHPDFTDVLVRGE  67
+
+Query  62  GWCSVYAPA  70
+           GWCSVYAPA
+Sbjct  68  GWCSVYAPA  76
+
+
+> sp|P83341|HIP1_ECTMO High-potential iron-sulfur protein isozyme 
+1 OS=Ectothiorhodospira mobilis OX=195064 PE=1 SV=1
+Length=72
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           E  + +  A  YV++A   SGH  YQEGQ C NC  + +  Q+ WG C    F   LV A
+Sbjct  5   EESSAEAKALSYVHDAT-TSGHDSYQEGQKCINCLLYTDPSQEEWGGC--AVFPGKLVNA  61
+
+Query  61  EGWCSVYA  68
+            GWC+ Y 
+Sbjct  62  NGWCTAYV  69
+
+
+> sp|P38524|HIP2_ECTSH High-potential iron-sulfur protein isozyme 
+2 OS=Ectothiorhodospira shaposhnikovii OX=1054 GN=hip2 PE=1 
+SV=1
+Length=71
+
+ Score = 44.3 bits (103),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 27/70 (39%), Positives = 35/70 (50%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASG--HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E  +ED  A   +    DAS   HP Y+EGQ C NC  + +A    WG C+   F   LV
+Sbjct  2   ERLSEDDPAAQALEYRHDASSVQHPAYEEGQTCLNCLLYTDASAQDWGPCSV--FPGKLV  59
+
+Query  59  KAEGWCSVYA  68
+            A GWC+ + 
+Sbjct  60  SANGWCTAWV  69
+
+
+> sp|P00264|HIP_HALH2 High-potential iron-sulfur protein OS=Halomonas 
+halodenitrificans (strain ATCC 12084 / NCIMB 8669) OX=31991 
+GN=hip PE=1 SV=1
+Length=71
+
+ Score = 42.4 bits (98),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 37/68 (54%), Gaps = 6/68 (9%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           +P AE   A +YV + A+A+ HP +QEG+ C+NC F+ +A   G        F +  V+ 
+Sbjct  7   DPSAEQAQALNYVKDTAEAADHPAHQEGEQCDNCMFF-QADSQGCQL-----FPQNSVEP  60
+
+Query  61  EGWCSVYA  68
+            GWC  + 
+Sbjct  61  AGWCQSWT  68
+
+
+> sp|P38941|HIP1_ECTSH High-potential iron-sulfur protein isozyme 
+1 OS=Ectothiorhodospira shaposhnikovii OX=1054 GN=hip1 PE=1 
+SV=1
+Length=72
+
+ Score = 38.9 bits (89),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 22/46 (48%), Gaps = 2/46 (4%)
+
+Query  22  HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKAEGWCSVY  67
+           HP +  GQ C NC  + +     WG C    F   LV A GWC+ Y
+Sbjct  25  HPSHAAGQKCINCLLYTDPSATEWGGCA--VFPNKLVNANGWCTAY  68
+
+
+> sp|P83342|HIP2_ECTMO High-potential iron-sulfur protein isozyme 
+2 OS=Ectothiorhodospira mobilis OX=195064 PE=1 SV=1
+Length=74
+
+ Score = 37.7 bits (86),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 32/70 (46%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASG--HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E  +ED      ++   DASG  H  YQEG  C NC  +       WG C+   F + LV
+Sbjct  4   ERLSEDDATAQALSYTHDASGVTHDSYQEGSRCSNCLLYSNPDAKDWGPCSV--FPKHLV  61
+
+Query  59  KAEGWCSVYA  68
+              GWC+ + 
+Sbjct  62  AEGGWCTAWV  71
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.468    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4919845812
+Results from round 2
+
+
+Query= 2hipb-1-DOMAK
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P04168|HIP1_HALHA High-potential iron-sulfur protein isozyme...  100     1e-27
+  sp|P04169|HIP2_HALHA High-potential iron-sulfur protein isozyme...  92.6    2e-24
+  sp|P38524|HIP2_ECTSH High-potential iron-sulfur protein isozyme...  86.0    5e-22
+  sp|P83341|HIP1_ECTMO High-potential iron-sulfur protein isozyme...  85.7    7e-22
+  sp|P83342|HIP2_ECTMO High-potential iron-sulfur protein isozyme...  84.1    3e-21
+  sp|P38941|HIP1_ECTSH High-potential iron-sulfur protein isozyme...  77.9    6e-19
+  sp|P00264|HIP_HALH2 High-potential iron-sulfur protein OS=Halom...  68.7    2e-15
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P00260|HIP_ALLVD High-potential iron-sulfur protein OS=Alloc...  46.7    7e-07
+  sp|B3EBZ5|HIP_ISOBU High-potential iron-sulfur protein OS=Isoch...  44.4    3e-06
+  sp|P59860|HIP_MARPU High-potential iron-sulfur protein OS=Maric...  44.1    4e-06
+  sp|P80176|HIP_THETI High-potential iron-sulfur protein OS=Therm...  42.9    1e-05
+  sp|P00261|HIP_THIRO High-potential iron-sulfur protein OS=Thioc...  42.9    1e-05
+  sp|Q8XUU7|HIP_RALSO High-potential iron-sulfur protein OS=Ralst...  42.5    2e-05
+  sp|P00262|HIP_MARGR High-potential iron-sulfur protein OS=Maric...  42.1    2e-05
+  sp|B3EBZ4|HIP_THIVI High-potential iron-sulfur protein OS=Thioc...  40.2    9e-05
+  sp|B3EBZ3|HIP_ALLWA High-potential iron-sulfur protein OS=Alloc...  40.2    1e-04
+  sp|P80882|HIP_RHOFE High-potential iron-sulfur protein OS=Rhodo...  39.4    2e-04
+  sp|P00265|HIP_RUBGE High-potential iron-sulfur protein OS=Rubri...  38.7    3e-04
+  sp|B3EBZ6|HIP_HALSE High-potential iron-sulfur protein OS=Haloc...  37.1    0.001
+  sp|P00263|HIP_THIPF High-potential iron-sulfur protein OS=Thioc...  36.0    0.003
+
+
+> sp|P04168|HIP1_HALHA High-potential iron-sulfur protein isozyme 
+I OS=Halorhodospira halophila OX=1053 GN=hip1 PE=1 SV=2
+Length=71
+
+ Score = 100 bits (249),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA
+Sbjct  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+
+Query  61  EGWCSVYAPAS  71
+           EGWCSVYAPAS
+Sbjct  61  EGWCSVYAPAS  71
+
+
+> sp|P04169|HIP2_HALHA High-potential iron-sulfur protein isozyme 
+II OS=Halorhodospira halophila OX=1053 GN=hip2 PE=1 SV=1
+Length=76
+
+ Score = 92.6 bits (228),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 49/69 (71%), Positives = 57/69 (83%), Gaps = 2/69 (3%)
+
+Query  2   PRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKAE  61
+           P+AED HAHDYVN+AAD + H R+QEGQLCENC FW + V +GWG C HPDF +VLV+ E
+Sbjct  10  PKAEDDHAHDYVNDAAD-TDHARFQEGQLCENCQFWVDYV-NGWGYCQHPDFTDVLVRGE  67
+
+Query  62  GWCSVYAPA  70
+           GWCSVYAPA
+Sbjct  68  GWCSVYAPA  76
+
+
+> sp|P38524|HIP2_ECTSH High-potential iron-sulfur protein isozyme 
+2 OS=Ectothiorhodospira shaposhnikovii OX=1054 GN=hip2 PE=1 
+SV=1
+Length=71
+
+ Score = 86.0 bits (211),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 27/70 (39%), Positives = 35/70 (50%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASG--HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E  +ED  A   +    DAS   HP Y+EGQ C NC  + +A    WG C+   F   LV
+Sbjct  2   ERLSEDDPAAQALEYRHDASSVQHPAYEEGQTCLNCLLYTDASAQDWGPCSV--FPGKLV  59
+
+Query  59  KAEGWCSVYA  68
+            A GWC+ + 
+Sbjct  60  SANGWCTAWV  69
+
+
+> sp|P83341|HIP1_ECTMO High-potential iron-sulfur protein isozyme 
+1 OS=Ectothiorhodospira mobilis OX=195064 PE=1 SV=1
+Length=72
+
+ Score = 85.7 bits (210),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 28/68 (41%), Positives = 36/68 (53%), Gaps = 3/68 (4%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           E  + +  A  YV++A   SGH  YQEGQ C NC  + +  Q+ WG C    F   LV A
+Sbjct  5   EESSAEAKALSYVHDAT-TSGHDSYQEGQKCINCLLYTDPSQEEWGGCAV--FPGKLVNA  61
+
+Query  61  EGWCSVYA  68
+            GWC+ Y 
+Sbjct  62  NGWCTAYV  69
+
+
+> sp|P83342|HIP2_ECTMO High-potential iron-sulfur protein isozyme 
+2 OS=Ectothiorhodospira mobilis OX=195064 PE=1 SV=1
+Length=74
+
+ Score = 84.1 bits (206),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 32/70 (46%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASG--HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E  +ED      ++   DASG  H  YQEG  C NC  +       WG C+   F + LV
+Sbjct  4   ERLSEDDATAQALSYTHDASGVTHDSYQEGSRCSNCLLYSNPDAKDWGPCSV--FPKHLV  61
+
+Query  59  KAEGWCSVYA  68
+              GWC+ + 
+Sbjct  62  AEGGWCTAWV  71
+
+
+> sp|P38941|HIP1_ECTSH High-potential iron-sulfur protein isozyme 
+1 OS=Ectothiorhodospira shaposhnikovii OX=1054 GN=hip1 PE=1 
+SV=1
+Length=72
+
+ Score = 77.9 bits (190),  Expect = 6e-19, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 29/70 (41%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADAS--GHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E   E+      +N   D +   HP +  GQ C NC  + +     WG C    F   LV
+Sbjct  2   ERLDENSPEALALNYKHDGASVDHPSHAAGQKCINCLLYTDPSATEWGGCAV--FPNKLV  59
+
+Query  59  KAEGWCSVYA  68
+            A GWC+ Y 
+Sbjct  60  NANGWCTAYV  69
+
+
+> sp|P00264|HIP_HALH2 High-potential iron-sulfur protein OS=Halomonas 
+halodenitrificans (strain ATCC 12084 / NCIMB 8669) OX=31991 
+GN=hip PE=1 SV=1
+Length=71
+
+ Score = 68.7 bits (166),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 37/68 (54%), Gaps = 6/68 (9%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           +P AE   A +YV + A+A+ HP +QEG+ C+NC F+ +A   G        F +  V+ 
+Sbjct  7   DPSAEQAQALNYVKDTAEAADHPAHQEGEQCDNCMFF-QADSQGCQL-----FPQNSVEP  60
+
+Query  61  EGWCSVYA  68
+            GWC  + 
+Sbjct  61  AGWCQSWT  68
+
+
+> sp|P00260|HIP_ALLVD High-potential iron-sulfur protein OS=Allochromatium 
+vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 
+/ NCIMB 10441 / D) OX=572477 GN=hip PE=1 SV=2
+Length=122
+
+ Score = 46.7 bits (109),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 19/75 (25%), Positives = 25/75 (33%), Gaps = 15/75 (20%)
+
+Query  6    DGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWGEAVQ----DGWGRCTHPDF  53
+            D      +    DA+   R          E Q C NC F  +A      D W  C    F
+Sbjct  47   DDATAIALKYNQDATKSERVAAARPGLPPEEQHCANCQF-MQADAAGATDEWKGCQL--F  103
+
+Query  54   DEVLVKAEGWCSVYA  68
+               L+   GWC+ + 
+Sbjct  104  PGKLINVNGWCASWT  118
+
+
+> sp|B3EBZ5|HIP_ISOBU High-potential iron-sulfur protein OS=Isochromatium 
+buderi OX=39440 PE=1 SV=1
+Length=83
+
+ Score = 44.4 bits (103),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 27/77 (35%), Gaps = 11/77 (14%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWG-EAVQDGWGRCTHP  51
+           +   E       +    +A+   R          E Q CENC F   +   D W  C+  
+Sbjct  5   DAVTESDPTAVALKYHRNAAESERVAAARPGLPPEEQHCENCQFMLPDQGADEWRGCSL-  63
+
+Query  52  DFDEVLVKAEGWCSVYA  68
+            F   L+   GWC+ + 
+Sbjct  64  -FPGKLINLNGWCASWT  79
+
+
+> sp|P59860|HIP_MARPU High-potential iron-sulfur protein OS=Marichromatium 
+purpuratum OX=37487 GN=hip PE=1 SV=1
+Length=82
+
+ Score = 44.1 bits (102),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 26/74 (35%), Gaps = 11/74 (15%)
+
+Query  4   AEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWG-EAVQDGWGRCTHPDFD  54
+            E   A   +    DA+   R          E Q CENC F   ++    W  C    F 
+Sbjct  7   TESDPAAVALKYHRDAASSERVAAARPGLPPEEQHCENCQFMNPDSAAADWKGCQL--FP  64
+
+Query  55  EVLVKAEGWCSVYA  68
+             L+   GWC+ + 
+Sbjct  65  GKLINLSGWCASWT  78
+
+
+> sp|P80176|HIP_THETI High-potential iron-sulfur protein OS=Thermochromatium 
+tepidum OX=1050 GN=hip PE=1 SV=1
+Length=83
+
+ Score = 42.9 bits (99),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 25/74 (34%), Gaps = 11/74 (15%)
+
+Query  4   AEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWGEAVQDG-WGRCTHPDFD  54
+             D      +    DA+   R          E Q C NC F    V +G W  C    F 
+Sbjct  8   TADDPTAIALKYNQDATKSERVAAARPGLPPEEQHCANCQFMQANVGEGDWKGCQL--FP  65
+
+Query  55  EVLVKAEGWCSVYA  68
+             L+   GWC+ + 
+Sbjct  66  GKLINVNGWCASWT  79
+
+
+> sp|P00261|HIP_THIRO High-potential iron-sulfur protein OS=Thiocapsa 
+roseopersicina OX=1058 GN=hip PE=1 SV=1
+Length=85
+
+ Score = 42.9 bits (99),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/76 (24%), Positives = 28/76 (37%), Gaps = 13/76 (17%)
+
+Query  4   AEDGHAHDYVNEAADASGHPRYQEG--------QLCENCAFWGEAVQ---DGWGRCTHPD  52
+           A +      +   ADA+   R            Q C NC F  + V    + W  C+   
+Sbjct  8   AANDPTAVALKYNADATKSDRLAAARPGLPPAEQHCANCQFHLDDVAGATEEWHGCSL--  65
+
+Query  53  FDEVLVKAEGWCSVYA  68
+           F   L+  +GWC+ + 
+Sbjct  66  FPGKLINVDGWCASWT  81
+
+
+> sp|Q8XUU7|HIP_RALSO High-potential iron-sulfur protein OS=Ralstonia 
+solanacearum (strain GMI1000) OX=267608 GN=hip PE=3 SV=1
+Length=103
+
+ Score = 42.5 bits (98),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/70 (29%), Positives = 28/70 (40%), Gaps = 8/70 (11%)
+
+Query  4   AEDGHAHDYVNEAADASG-----HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           AE       +   AD +      +P++   Q C NCA +        G C  P F    V
+Sbjct  34  AETDPQAAALGYKADTTKVDQAKYPKHAPDQHCGNCALYQGGTAAQ-GGC--PLFAGKDV  90
+
+Query  59  KAEGWCSVYA  68
+             +GWCS +A
+Sbjct  91  ANKGWCSAWA  100
+
+
+> sp|P00262|HIP_MARGR High-potential iron-sulfur protein OS=Marichromatium 
+gracile OX=1048 GN=hip PE=1 SV=1
+Length=83
+
+ Score = 42.1 bits (97),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/74 (24%), Positives = 26/74 (35%), Gaps = 11/74 (15%)
+
+Query  4   AEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWG-EAVQDGWGRCTHPDFD  54
+            E       +    +A    R          E Q CENC F   +   D W  C+   F 
+Sbjct  8   TESDPTAVALKYHRNAEASERVAAARPGLPPEEQHCENCQFMLPDQGADEWRGCSL--FP  65
+
+Query  55  EVLVKAEGWCSVYA  68
+             L+  +GWC+ + 
+Sbjct  66  GKLINLDGWCASWT  79
+
+
+> sp|B3EBZ4|HIP_THIVI High-potential iron-sulfur protein OS=Thiocystis 
+violacea OX=13725 PE=1 SV=1
+Length=83
+
+ Score = 40.2 bits (92),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 15/72 (21%), Positives = 23/72 (32%), Gaps = 11/72 (15%)
+
+Query  6   DGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFW-GEAVQDGWGRCTHPDFDEV  56
+           D      +     A+   R          E Q C NC F   +  +  +  C    F   
+Sbjct  10  DDPTAQALKYHPSAADSDRVAAARPGLPPEEQHCANCNFMQADVGEGDYKGCQL--FPGK  67
+
+Query  57  LVKAEGWCSVYA  68
+           L+   GWC+ + 
+Sbjct  68  LINVNGWCASWT  79
+
+
+> sp|B3EBZ3|HIP_ALLWA High-potential iron-sulfur protein OS=Allochromatium 
+warmingii OX=61595 PE=1 SV=1
+Length=85
+
+ Score = 40.2 bits (92),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/76 (24%), Positives = 24/76 (32%), Gaps = 13/76 (17%)
+
+Query  4   AEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWGEAVQ---DGWGRCTHPD  52
+           + D      +    DA+   R          E Q C NC F         D W  C    
+Sbjct  8   SADDATAIALKYNQDATKSERVSAARPGLPPEEQHCANCQFMQADAAGATDEWKGCQL--  65
+
+Query  53  FDEVLVKAEGWCSVYA  68
+           F   L+   GWC+ + 
+Sbjct  66  FPGKLINVNGWCASWT  81
+
+
+> sp|P80882|HIP_RHOFE High-potential iron-sulfur protein OS=Rhodoferax 
+fermentans OX=28066 GN=hip PE=1 SV=1
+Length=75
+
+ Score = 39.4 bits (90),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 31/69 (45%), Gaps = 5/69 (7%)
+
+Query  2   PRAEDGHAHDYVNEA--ADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVK  59
+               +  +  YV +   AD + +P++ + Q C  CA +        G C  P F    V 
+Sbjct  7   ETDANAKSLGYVADTTKADKTKYPKHTKDQSCSTCALYQGKTAPQ-GAC--PLFAGKEVV  63
+
+Query  60  AEGWCSVYA  68
+           A+GWCS +A
+Sbjct  64  AKGWCSAWA  72
+
+
+> sp|P00265|HIP_RUBGE High-potential iron-sulfur protein OS=Rubrivivax 
+gelatinosus OX=28068 GN=hip PE=1 SV=1
+Length=74
+
+ Score = 38.7 bits (88),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 23/70 (33%), Positives = 30/70 (43%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--EGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           + +     A  YV++AA A      Q   G  C NCA +     D  G C  P F    V
+Sbjct  4   DEKNPQAVALGYVSDAAKADKAKYKQFVAGSHCGNCALFQGKATDAVGGC--PLFAGKQV  61
+
+Query  59  KAEGWCSVYA  68
+             +GWCS +A
+Sbjct  62  ANKGWCSAWA  71
+
+
+> sp|B3EBZ6|HIP_HALSE High-potential iron-sulfur protein OS=Halochromatium 
+salexigens OX=49447 PE=1 SV=1
+Length=81
+
+ Score = 37.1 bits (84),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 14/42 (33%), Positives = 17/42 (40%), Gaps = 3/42 (7%)
+
+Query  27  EGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKAEGWCSVYA  68
+           E Q C NC F   A    W  C+   F    V   GWC+ + 
+Sbjct  39  EEQFCHNCQF-VLADSGEWRPCSL--FPGKAVHETGWCASWT  77
+
+
+> sp|P00263|HIP_THIPF High-potential iron-sulfur protein OS=Thiococcus 
+pfennigii OX=1057 GN=hip PE=1 SV=1
+Length=81
+
+ Score = 36.0 bits (81),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 17/67 (25%), Positives = 28/67 (42%), Gaps = 8/67 (12%)
+
+Query  7   GHAHDYVNEAADASGHPRYQ-----EGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKAE  61
+             +  Y+ +A  +  +P  +       Q C NC+F  +A    W  CT   +    V  +
+Sbjct  14  AQSLHYIEDANASERNPVTKTELPGSEQFCHNCSF-IQADSGAWRPCTL--YPGYTVSED  70
+
+Query  62  GWCSVYA  68
+           GWC  +A
+Sbjct  71  GWCLSWA  77
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.120    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0368    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4919845812
+Results from round 3
+
+
+Query= 2hipb-1-DOMAK
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P04168|HIP1_HALHA High-potential iron-sulfur protein isozyme...  91.4    4e-24
+  sp|P04169|HIP2_HALHA High-potential iron-sulfur protein isozyme...  86.0    6e-22
+  sp|P38524|HIP2_ECTSH High-potential iron-sulfur protein isozyme...  83.3    6e-21
+  sp|P00260|HIP_ALLVD High-potential iron-sulfur protein OS=Alloc...  82.9    3e-20
+  sp|B3EBZ5|HIP_ISOBU High-potential iron-sulfur protein OS=Isoch...  81.0    5e-20
+  sp|P38941|HIP1_ECTSH High-potential iron-sulfur protein isozyme...  80.6    7e-20
+  sp|P83342|HIP2_ECTMO High-potential iron-sulfur protein isozyme...  79.5    2e-19
+  sp|P83341|HIP1_ECTMO High-potential iron-sulfur protein isozyme...  77.9    7e-19
+  sp|P00262|HIP_MARGR High-potential iron-sulfur protein OS=Maric...  77.9    1e-18
+  sp|P80176|HIP_THETI High-potential iron-sulfur protein OS=Therm...  76.4    4e-18
+  sp|P59860|HIP_MARPU High-potential iron-sulfur protein OS=Maric...  74.9    1e-17
+  sp|B3EBZ3|HIP_ALLWA High-potential iron-sulfur protein OS=Alloc...  71.8    2e-16
+  sp|P00261|HIP_THIRO High-potential iron-sulfur protein OS=Thioc...  71.0    4e-16
+  sp|B3EBZ4|HIP_THIVI High-potential iron-sulfur protein OS=Thioc...  70.6    6e-16
+  sp|Q8XUU7|HIP_RALSO High-potential iron-sulfur protein OS=Ralst...  69.9    2e-15
+  sp|P00264|HIP_HALH2 High-potential iron-sulfur protein OS=Halom...  65.2    5e-14
+  sp|P80882|HIP_RHOFE High-potential iron-sulfur protein OS=Rhodo...  58.7    2e-11
+  sp|P00265|HIP_RUBGE High-potential iron-sulfur protein OS=Rubri...  56.4    1e-10
+  sp|B3EBZ6|HIP_HALSE High-potential iron-sulfur protein OS=Haloc...  54.4    9e-10
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P00263|HIP_THIPF High-potential iron-sulfur protein OS=Thioc...  48.3    2e-07
+
+
+> sp|P04168|HIP1_HALHA High-potential iron-sulfur protein isozyme 
+I OS=Halorhodospira halophila OX=1053 GN=hip1 PE=1 SV=2
+Length=71
+
+ Score = 91.4 bits (225),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 71/71 (100%), Positives = 71/71 (100%), Gaps = 0/71 (0%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA
+Sbjct  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+
+Query  61  EGWCSVYAPAS  71
+           EGWCSVYAPAS
+Sbjct  61  EGWCSVYAPAS  71
+
+
+> sp|P04169|HIP2_HALHA High-potential iron-sulfur protein isozyme 
+II OS=Halorhodospira halophila OX=1053 GN=hip2 PE=1 SV=1
+Length=76
+
+ Score = 86.0 bits (211),  Expect = 6e-22, Method: Composition-based stats.
+ Identities = 49/69 (71%), Positives = 57/69 (83%), Gaps = 2/69 (3%)
+
+Query  2   PRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKAE  61
+           P+AED HAHDYVN+AAD + H R+QEGQLCENC FW + V +GWG C HPDF +VLV+ E
+Sbjct  10  PKAEDDHAHDYVNDAAD-TDHARFQEGQLCENCQFWVDYV-NGWGYCQHPDFTDVLVRGE  67
+
+Query  62  GWCSVYAPA  70
+           GWCSVYAPA
+Sbjct  68  GWCSVYAPA  76
+
+
+> sp|P38524|HIP2_ECTSH High-potential iron-sulfur protein isozyme 
+2 OS=Ectothiorhodospira shaposhnikovii OX=1054 GN=hip2 PE=1 
+SV=1
+Length=71
+
+ Score = 83.3 bits (204),  Expect = 6e-21, Method: Composition-based stats.
+ Identities = 27/70 (39%), Positives = 35/70 (50%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASG--HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E  +ED  A   +    DAS   HP Y+EGQ C NC  + +A    WG C+   F   LV
+Sbjct  2   ERLSEDDPAAQALEYRHDASSVQHPAYEEGQTCLNCLLYTDASAQDWGPCSV--FPGKLV  59
+
+Query  59  KAEGWCSVYA  68
+            A GWC+ + 
+Sbjct  60  SANGWCTAWV  69
+
+
+> sp|P00260|HIP_ALLVD High-potential iron-sulfur protein OS=Allochromatium 
+vinosum (strain ATCC 17899 / DSM 180 / NBRC 103801 
+/ NCIMB 10441 / D) OX=572477 GN=hip PE=1 SV=2
+Length=122
+
+ Score = 82.9 bits (203),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 18/74 (24%), Positives = 23/74 (31%), Gaps = 13/74 (18%)
+
+Query  6    DGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWGEAVQ---DGWGRCTHPDFD  54
+            D      +    DA+   R          E Q C NC F         D W  C    F 
+Sbjct  47   DDATAIALKYNQDATKSERVAAARPGLPPEEQHCANCQFMQADAAGATDEWKGCQL--FP  104
+
+Query  55   EVLVKAEGWCSVYA  68
+              L+   GWC+ + 
+Sbjct  105  GKLINVNGWCASWT  118
+
+
+> sp|B3EBZ5|HIP_ISOBU High-potential iron-sulfur protein OS=Isochromatium 
+buderi OX=39440 PE=1 SV=1
+Length=83
+
+ Score = 81.0 bits (198),  Expect = 5e-20, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 27/77 (35%), Gaps = 11/77 (14%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWG-EAVQDGWGRCTHP  51
+           +   E       +    +A+   R          E Q CENC F   +   D W  C+  
+Sbjct  5   DAVTESDPTAVALKYHRNAAESERVAAARPGLPPEEQHCENCQFMLPDQGADEWRGCSL-  63
+
+Query  52  DFDEVLVKAEGWCSVYA  68
+            F   L+   GWC+ + 
+Sbjct  64  -FPGKLINLNGWCASWT  79
+
+
+> sp|P38941|HIP1_ECTSH High-potential iron-sulfur protein isozyme 
+1 OS=Ectothiorhodospira shaposhnikovii OX=1054 GN=hip1 PE=1 
+SV=1
+Length=72
+
+ Score = 80.6 bits (197),  Expect = 7e-20, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 29/70 (41%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADAS--GHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E   E+      +N   D +   HP +  GQ C NC  + +     WG C    F   LV
+Sbjct  2   ERLDENSPEALALNYKHDGASVDHPSHAAGQKCINCLLYTDPSATEWGGCAV--FPNKLV  59
+
+Query  59  KAEGWCSVYA  68
+            A GWC+ Y 
+Sbjct  60  NANGWCTAYV  69
+
+
+> sp|P83342|HIP2_ECTMO High-potential iron-sulfur protein isozyme 
+2 OS=Ectothiorhodospira mobilis OX=195064 PE=1 SV=1
+Length=74
+
+ Score = 79.5 bits (194),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 24/70 (34%), Positives = 32/70 (46%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASG--HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E  +ED      ++   DASG  H  YQEG  C NC  +       WG C+   F + LV
+Sbjct  4   ERLSEDDATAQALSYTHDASGVTHDSYQEGSRCSNCLLYSNPDAKDWGPCSV--FPKHLV  61
+
+Query  59  KAEGWCSVYA  68
+              GWC+ + 
+Sbjct  62  AEGGWCTAWV  71
+
+
+> sp|P83341|HIP1_ECTMO High-potential iron-sulfur protein isozyme 
+1 OS=Ectothiorhodospira mobilis OX=195064 PE=1 SV=1
+Length=72
+
+ Score = 77.9 bits (190),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 26/70 (37%), Positives = 33/70 (47%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADAS--GHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           E   E       ++   DA+  GH  YQEGQ C NC  + +  Q+ WG C    F   LV
+Sbjct  2   EKLEESSAEAKALSYVHDATTSGHDSYQEGQKCINCLLYTDPSQEEWGGCAV--FPGKLV  59
+
+Query  59  KAEGWCSVYA  68
+            A GWC+ Y 
+Sbjct  60  NANGWCTAYV  69
+
+
+> sp|P00262|HIP_MARGR High-potential iron-sulfur protein OS=Marichromatium 
+gracile OX=1048 GN=hip PE=1 SV=1
+Length=83
+
+ Score = 77.9 bits (190),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 18/77 (23%), Positives = 26/77 (34%), Gaps = 11/77 (14%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWG-EAVQDGWGRCTHP  51
+               E       +    +A    R          E Q CENC F   +   D W  C+  
+Sbjct  5   NAVTESDPTAVALKYHRNAEASERVAAARPGLPPEEQHCENCQFMLPDQGADEWRGCSL-  63
+
+Query  52  DFDEVLVKAEGWCSVYA  68
+            F   L+  +GWC+ + 
+Sbjct  64  -FPGKLINLDGWCASWT  79
+
+
+> sp|P80176|HIP_THETI High-potential iron-sulfur protein OS=Thermochromatium 
+tepidum OX=1050 GN=hip PE=1 SV=1
+Length=83
+
+ Score = 76.4 bits (186),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 25/77 (32%), Gaps = 11/77 (14%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWGEAVQDG-WGRCTHP  51
+                D      +    DA+   R          E Q C NC F    V +G W  C   
+Sbjct  5   NAVTADDPTAIALKYNQDATKSERVAAARPGLPPEEQHCANCQFMQANVGEGDWKGCQL-  63
+
+Query  52  DFDEVLVKAEGWCSVYA  68
+            F   L+   GWC+ + 
+Sbjct  64  -FPGKLINVNGWCASWT  79
+
+
+> sp|P59860|HIP_MARPU High-potential iron-sulfur protein OS=Marichromatium 
+purpuratum OX=37487 GN=hip PE=1 SV=1
+Length=82
+
+ Score = 74.9 bits (182),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 19/77 (25%), Positives = 26/77 (34%), Gaps = 11/77 (14%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWG-EAVQDGWGRCTHP  51
+               E   A   +    DA+   R          E Q CENC F   ++    W  C   
+Sbjct  4   NAVTESDPAAVALKYHRDAASSERVAAARPGLPPEEQHCENCQFMNPDSAAADWKGCQL-  62
+
+Query  52  DFDEVLVKAEGWCSVYA  68
+            F   L+   GWC+ + 
+Sbjct  63  -FPGKLINLSGWCASWT  78
+
+
+> sp|B3EBZ3|HIP_ALLWA High-potential iron-sulfur protein OS=Allochromatium 
+warmingii OX=61595 PE=1 SV=1
+Length=85
+
+ Score = 71.8 bits (174),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 24/79 (30%), Gaps = 13/79 (16%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWGEAVQ---DGWGRCT  49
+              + D      +    DA+   R          E Q C NC F         D W  C 
+Sbjct  5   NAVSADDATAIALKYNQDATKSERVSAARPGLPPEEQHCANCQFMQADAAGATDEWKGCQ  64
+
+Query  50  HPDFDEVLVKAEGWCSVYA  68
+              F   L+   GWC+ + 
+Sbjct  65  L--FPGKLINVNGWCASWT  81
+
+
+> sp|P00261|HIP_THIRO High-potential iron-sulfur protein OS=Thiocapsa 
+roseopersicina OX=1058 GN=hip PE=1 SV=1
+Length=85
+
+ Score = 71.0 bits (172),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 18/79 (23%), Positives = 28/79 (35%), Gaps = 13/79 (16%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQE--------GQLCENCAFWGEAVQ---DGWGRCT  49
+              A +      +   ADA+   R            Q C NC F  + V    + W  C+
+Sbjct  5   NAVAANDPTAVALKYNADATKSDRLAAARPGLPPAEQHCANCQFHLDDVAGATEEWHGCS  64
+
+Query  50  HPDFDEVLVKAEGWCSVYA  68
+              F   L+  +GWC+ + 
+Sbjct  65  L--FPGKLINVDGWCASWT  81
+
+
+> sp|B3EBZ4|HIP_THIVI High-potential iron-sulfur protein OS=Thiocystis 
+violacea OX=13725 PE=1 SV=1
+Length=83
+
+ Score = 70.6 bits (171),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 15/77 (19%), Positives = 23/77 (30%), Gaps = 11/77 (14%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWG-EAVQDGWGRCTHP  51
+                D      +     A+   R          E Q C NC F   +  +  +  C   
+Sbjct  5   NAVTMDDPTAQALKYHPSAADSDRVAAARPGLPPEEQHCANCNFMQADVGEGDYKGCQL-  63
+
+Query  52  DFDEVLVKAEGWCSVYA  68
+            F   L+   GWC+ + 
+Sbjct  64  -FPGKLINVNGWCASWT  79
+
+
+> sp|Q8XUU7|HIP_RALSO High-potential iron-sulfur protein OS=Ralstonia 
+solanacearum (strain GMI1000) OX=267608 GN=hip PE=3 SV=1
+Length=103
+
+ Score = 69.9 bits (169),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 20/71 (28%), Positives = 28/71 (39%), Gaps = 8/71 (11%)
+
+Query  3   RAEDGHAHDYVNEAADASG-----HPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVL  57
+            AE       +   AD +      +P++   Q C NCA +        G C  P F    
+Sbjct  33  VAETDPQAAALGYKADTTKVDQAKYPKHAPDQHCGNCALYQGGTAAQ-GGC--PLFAGKD  89
+
+Query  58  VKAEGWCSVYA  68
+           V  +GWCS +A
+Sbjct  90  VANKGWCSAWA  100
+
+
+> sp|P00264|HIP_HALH2 High-potential iron-sulfur protein OS=Halomonas 
+halodenitrificans (strain ATCC 12084 / NCIMB 8669) OX=31991 
+GN=hip PE=1 SV=1
+Length=71
+
+ Score = 65.2 bits (157),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 36/68 (53%), Gaps = 6/68 (9%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVKA  60
+           +P AE   A +YV + A+A+ HP +QEG+ C+NC F+    Q     C    F +  V+ 
+Sbjct  7   DPSAEQAQALNYVKDTAEAADHPAHQEGEQCDNCMFFQADSQ----GCQL--FPQNSVEP  60
+
+Query  61  EGWCSVYA  68
+            GWC  + 
+Sbjct  61  AGWCQSWT  68
+
+
+> sp|P80882|HIP_RHOFE High-potential iron-sulfur protein OS=Rhodoferax 
+fermentans OX=28066 GN=hip PE=1 SV=1
+Length=75
+
+ Score = 58.7 bits (140),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 20/69 (29%), Positives = 31/69 (45%), Gaps = 5/69 (7%)
+
+Query  2   PRAEDGHAHDYVNEA--ADASGHPRYQEGQLCENCAFWGEAVQDGWGRCTHPDFDEVLVK  59
+               +  +  YV +   AD + +P++ + Q C  CA +        G C  P F    V 
+Sbjct  7   ETDANAKSLGYVADTTKADKTKYPKHTKDQSCSTCALYQGKTAPQ-GAC--PLFAGKEVV  63
+
+Query  60  AEGWCSVYA  68
+           A+GWCS +A
+Sbjct  64  AKGWCSAWA  72
+
+
+> sp|P00265|HIP_RUBGE High-potential iron-sulfur protein OS=Rubrivivax 
+gelatinosus OX=28068 GN=hip PE=1 SV=1
+Length=74
+
+ Score = 56.4 bits (134),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/70 (33%), Positives = 30/70 (43%), Gaps = 4/70 (6%)
+
+Query  1   EPRAEDGHAHDYVNEAADASGHPRYQ--EGQLCENCAFWGEAVQDGWGRCTHPDFDEVLV  58
+           + +     A  YV++AA A      Q   G  C NCA +     D  G C  P F    V
+Sbjct  4   DEKNPQAVALGYVSDAAKADKAKYKQFVAGSHCGNCALFQGKATDAVGGC--PLFAGKQV  61
+
+Query  59  KAEGWCSVYA  68
+             +GWCS +A
+Sbjct  62  ANKGWCSAWA  71
+
+
+> sp|B3EBZ6|HIP_HALSE High-potential iron-sulfur protein OS=Halochromatium 
+salexigens OX=49447 PE=1 SV=1
+Length=81
+
+ Score = 54.4 bits (129),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 17/72 (24%), Positives = 23/72 (32%), Gaps = 11/72 (15%)
+
+Query  5   EDGHAHDYVNEAADASGHPRYQ--------EGQLCENCAFWGEAVQDGWGRCTHPDFDEV  56
+                   +  + DA+   R          E Q C NC F   A    W  C+   F   
+Sbjct  9   ATDPTAQALKYSEDAANADRAAAARPGKPPEEQFCHNCQFVL-ADSGEWRPCSL--FPGK  65
+
+Query  57  LVKAEGWCSVYA  68
+            V   GWC+ + 
+Sbjct  66  AVHETGWCASWT  77
+
+
+> sp|P00263|HIP_THIPF High-potential iron-sulfur protein OS=Thiococcus 
+pfennigii OX=1057 GN=hip PE=1 SV=1
+Length=81
+
+ Score = 48.3 bits (113),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/73 (25%), Positives = 25/73 (34%), Gaps = 11/73 (15%)
+
+Query  4   AEDGHAHDYVNEAADASGHPRY--------QEGQLCENCAFWGEAVQDGWGRCTHPDFDE  55
+           A        ++   DA+   R            Q C NC+F   A    W  CT   +  
+Sbjct  8   AATNPIAQSLHYIEDANASERNPVTKTELPGSEQFCHNCSFIQ-ADSGAWRPCTL--YPG  64
+
+Query  56  VLVKAEGWCSVYA  68
+             V  +GWC  +A
+Sbjct  65  YTVSEDGWCLSWA  77
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.121    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0374    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4919845812
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

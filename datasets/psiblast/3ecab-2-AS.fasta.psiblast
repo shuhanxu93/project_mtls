@@ -1,0 +1,3177 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 3ecab-2-AS
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P00805|ASPG2_ECOLI L-asparaginase 2 OS=Escherichia coli (str...  228     2e-73
+  sp|P43843|ASPG2_HAEIN Probable L-asparaginase periplasmic OS=Ha...  145     2e-41
+  sp|P50286|ASPG_WOLSU L-asparaginase OS=Wolinella succinogenes (...  121     1e-32
+  sp|Q9ZLB9|ASPG_HELPJ Probable L-asparaginase OS=Helicobacter py...  104     2e-26
+  sp|O25424|ASPG_HELPY Probable L-asparaginase OS=Helicobacter py...  94.7    7e-23
+  sp|O68897|ASPQ_PSEFA Glutaminase-asparaginase OS=Pseudomonas fl...  92.8    3e-22
+  sp|O34482|ASPG2_BACSU L-asparaginase 2 OS=Bacillus subtilis (st...  90.9    2e-21
+  sp|P10182|ASPQ_PSES7 Glutaminase-asparaginase OS=Pseudomonas sp...  90.1    3e-21
+  sp|Q9I407|ASPQ_PSEAE Glutaminase-asparaginase OS=Pseudomonas ae...  89.4    7e-21
+  sp|Q88K39|ASPQ_PSEPK Glutaminase-asparaginase OS=Pseudomonas pu...  85.1    3e-19
+  sp|P10172|ASPQ_ACIGL Glutaminase-asparaginase OS=Acinetobacter ...  83.2    1e-18
+  sp|P06608|ASPG_DICCH L-asparaginase OS=Dickeya chrysanthemi OX=...  71.6    2e-14
+  sp|P0CX79|ASP24_YEAST L-asparaginase 2-4 OS=Saccharomyces cerev...  51.2    3e-07
+  sp|P0CX78|ASP23_YEAST L-asparaginase 2-3 OS=Saccharomyces cerev...  51.2    3e-07
+  sp|P0CX77|ASP22_YEAST L-asparaginase 2-2 OS=Saccharomyces cerev...  51.2    3e-07
+  sp|P0CZ17|ASP21_YEAST L-asparaginase 2-1 OS=Saccharomyces cerev...  51.2    3e-07
+  sp|P38986|ASPG1_YEAST L-asparaginase 1 OS=Saccharomyces cerevis...  51.2    3e-07
+  sp|A1RX40|GATD_THEPD Glutamyl-tRNA(Gln) amidotransferase subuni...  48.9    2e-06
+  sp|O59132|GATD_PYRHO Glutamyl-tRNA(Gln) amidotransferase subuni...  40.4    0.001
+  sp|A5UK11|GATD_METS3 Glutamyl-tRNA(Gln) amidotransferase subuni...  40.4    0.001
+  sp|Q9V0T9|GATD_PYRAB Glutamyl-tRNA(Gln) amidotransferase subuni...  40.0    0.002
+  sp|P87015|ASPG1_SCHPO Probable L-asparaginase 1 OS=Schizosaccha...  39.7    0.002
+  sp|Q12X65|GATD_METBU Glutamyl-tRNA(Gln) amidotransferase subuni...  39.7    0.002
+  sp|Q8NKC0|ASPG3_SCHPO Probable L-asparaginase 3 OS=Schizosaccha...  38.5    0.005
+  sp|Q5JI77|GATD_THEKO Glutamyl-tRNA(Gln) amidotransferase subuni...  38.1    0.007
+  sp|Q8U0X0|GATD_PYRFU Glutamyl-tRNA(Gln) amidotransferase subuni...  38.1    0.007
+  sp|Q9HP20|GATD_HALSA Glutamyl-tRNA(Gln) amidotransferase subuni...  38.1    0.008
+  sp|B0R6H4|GATD_HALS3 Glutamyl-tRNA(Gln) amidotransferase subuni...  38.1    0.008
+
+
+> sp|P00805|ASPG2_ECOLI L-asparaginase 2 OS=Escherichia coli (strain 
+K12) OX=83333 GN=ansB PE=1 SV=2
+Length=348
+
+ Score = 228 bits (581),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR
+Sbjct  235  KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  294
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY
+Sbjct  295  VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  348
+
+
+> sp|P43843|ASPG2_HAEIN Probable L-asparaginase periplasmic OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ansB PE=1 SV=1
+Length=349
+
+ Score = 145 bits (365),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 81/114 (71%), Positives = 91/114 (80%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVGI+Y Y+NA   P  AL++AGY GIVSAGVGNGN+  +  D L  AAK    VVRSSR
+Sbjct  236  KVGIIYAYSNAPVEPLNALLNAGYQGIVSAGVGNGNVNAAHLDRLEKAAKDSVVVVRSSR  295
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            VPTG TT+DAEVDD+KYGFVASGTLNPQKARVLLQLALTQTKDP+ IQQ F  +
+Sbjct  296  VPTGYTTRDAEVDDSKYGFVASGTLNPQKARVLLQLALTQTKDPKVIQQYFEDF  349
+
+
+> sp|P50286|ASPG_WOLSU L-asparaginase OS=Wolinella succinogenes 
+(strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 
+602W) OX=273121 GN=ansA PE=1 SV=2
+Length=330
+
+ Score = 121 bits (304),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 61/114 (54%), Positives = 82/114 (72%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y + + +D+   A + AG  GI+ AG+GNGN +    + L  AAK+G  V RSSR
+Sbjct  217  RVDILYAHPDDTDVLVNAALQAGAKGIIHAGMGNGNPFPLTQNALEKAAKSGVVVARSSR  276
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G+TTQ+AEVDD K GFVA+ +LNPQKARVLL LALT+T D + IQ+IF+ Y
+Sbjct  277  VGSGSTTQEAEVDDKKLGFVATESLNPQKARVLLMLALTKTSDREAIQKIFSTY  330
+
+
+> sp|Q9ZLB9|ASPG_HELPJ Probable L-asparaginase OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ansA PE=1 SV=1
+Length=332
+
+ Score = 104 bits (260),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 53/114 (46%), Positives = 74/114 (65%), Gaps = 1/114 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +A  +    +A +++   G+V AGVGNGN+       +  A++ G  +VRSSR
+Sbjct  220  KVDIIYTHAGMTPDLFQASLNSHAKGVVIAGVGNGNVSAGFLKAMQEASQMGVVIVRSSR  279
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G  T   E+DD  YGF+ S  LNPQKARVLLQLALT+T D  +IQ++F +Y
+Sbjct  280  VGSGGVT-SGEIDDKAYGFITSDNLNPQKARVLLQLALTKTNDKAKIQEMFEEY  332
+
+
+> sp|O25424|ASPG_HELPY Probable L-asparaginase OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ansA PE=3 SV=1
+Length=330
+
+ Score = 94.7 bits (234),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 50/114 (44%), Positives = 73/114 (64%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +A  +    +A +++   G+V AGVGNGN+       +  A++ G  +VRSSR
+Sbjct  220  KVDIIYTHAGMTPDLFQASLNSHAKGVVIAGVGNGNVSAGFLKAMQEASQMGVVIVRSSR  279
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G  T   E+DD    F+ S  LNPQKARVLLQLALT+T + ++IQ++F +Y
+Sbjct  280  VNSGEIT-SGEIDDK--AFITSDNLNPQKARVLLQLALTKTNNKEKIQEMFEEY  330
+
+
+> sp|O68897|ASPQ_PSEFA Glutaminase-asparaginase OS=Pseudomonas 
+fluorescens biotype A OX=32035 GN=ansB PE=1 SV=1
+Length=362
+
+ Score = 92.8 bits (229),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 49/114 (43%), Positives = 68/114 (60%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V I Y Y N SD   KAL  AG   I+ AG GNG++   V   L    K G  ++RSS V
+Sbjct  249  VEIAYGYGNVSDTAVKALAQAGAKAIIHAGTGNGSVSSKVVPALQELRKQGVQIIRSSHV  308
+
+Query  62   PTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+              G    ++AE  D KY +V +  LNPQKAR+L  +ALT+T+D +++Q++F +Y
+Sbjct  309  NAGGFVLRNAEQPDDKYDWVVAHDLNPQKARILAMVALTKTQDSKELQRMFWEY  362
+
+
+> sp|O34482|ASPG2_BACSU L-asparaginase 2 OS=Bacillus subtilis (strain 
+168) OX=224308 GN=ansZ PE=2 SV=1
+Length=375
+
+ Score = 90.9 bits (224),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 54/114 (47%), Positives = 68/114 (60%), Gaps = 2/114 (2%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y Y N       A V AG  GIV AG GNG+L  +      +A K G  VVRS+R
+Sbjct  264  QVDIIYGYQNDGSYLFDAAVKAGAKGIVFAGSGNGSLSDAAEKGADSAVKKGVTVVRSTR  323
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+               G  T +   D A+   +AS +LNPQKAR+LL LALT+T DPQ+IQ  FN+Y
+Sbjct  324  TGNGVVTPNQ--DYAEKDLLASNSLNPQKARMLLMLALTKTNDPQKIQAYFNEY  375
+
+
+> sp|P10182|ASPQ_PSES7 Glutaminase-asparaginase OS=Pseudomonas 
+sp. (strain ATCC 29598 / 7A) OX=313 GN=ansB PE=1 SV=2
+Length=337
+
+ Score = 90.1 bits (222),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 46/115 (40%), Positives = 72/115 (63%), Gaps = 1/115 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I Y+Y N +D   KAL   G   ++ AG GNG++   +   L T  KTGT ++RSS 
+Sbjct  223  QVDIAYSYGNVTDTAYKALAQNGAKALIHAGTGNGSVSSRLTPALQTLRKTGTQIIRSSH  282
+
+Query  61   VPTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G    ++AE  D K  +V +  LNP+KAR+L++LA+ +T+D +++Q+IF +Y
+Sbjct  283  VNQGGFVLRNAEQPDDKNDWVVAHDLNPEKARILVELAMVKTQDSKELQRIFWEY  337
+
+
+> sp|Q9I407|ASPQ_PSEAE Glutaminase-asparaginase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 
+14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=ansB 
+PE=1 SV=1
+Length=362
+
+ Score = 89.4 bits (220),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 48/114 (42%), Positives = 69/114 (61%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V I Y+Y N SD   KAL  AG   I+ AG GNG++   V  TL    K G  ++RSS V
+Sbjct  249  VEIAYSYGNVSDTAYKALAQAGAKAIIHAGTGNGSVPARVVPTLQELRKQGVQIIRSSHV  308
+
+Query  62   PTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+              G    ++AE  D K  ++ +  LNPQKAR+L  +A+T+T+D +++Q+IF +Y
+Sbjct  309  NAGGFVLRNAEQPDDKNDWIVAHDLNPQKARILAAVAMTKTQDSKELQRIFWEY  362
+
+
+> sp|Q88K39|ASPQ_PSEPK Glutaminase-asparaginase OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 / KT2440) 
+OX=160488 GN=ansB PE=3 SV=1
+Length=362
+
+ Score = 85.1 bits (209),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 45/115 (39%), Positives = 67/115 (58%), Gaps = 1/115 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I Y Y N +D   KAL   G   ++ AG GNG++   V   L    K G  ++RSS 
+Sbjct  248  QVDIAYGYGNVTDTAYKALAQNGAKALIHAGTGNGSVSSRVVPALQELRKNGVQIIRSSH  307
+
+Query  61   VPTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G    ++AE  D K  +V +  LNPQKAR+L  +A+T+T+D +++Q+IF +Y
+Sbjct  308  VNQGGFVLRNAEQPDDKNDWVVAHDLNPQKARILAMVAMTKTQDSKELQRIFWEY  362
+
+
+> sp|P10172|ASPQ_ACIGL Glutaminase-asparaginase OS=Acinetobacter 
+glutaminasificans OX=474 GN=ansB PE=1 SV=1
+Length=331
+
+ Score = 83.2 bits (204),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 47/114 (41%), Positives = 66/114 (58%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVF-DTLATAAKTGTAVVRSSR  60
+            V IVY   N      +A   AG   I+ AG GNG++   +  +      + G  +VRSSR
+Sbjct  218  VQIVYGSDNMMPDAYQAFAKAGVKAIIHAGTGNGSMANYLVPEVRKLHDEQGLQIVRSSR  277
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G   ++AE  D KYG++A+  LNPQKAR+L+ LALT+T D ++IQ +F  Y
+Sbjct  278  VAQGFVLRNAEQPDDKYGWIAAHDLNPQKARLLMALALTKTNDAKEIQNMFWNY  331
+
+
+> sp|P06608|ASPG_DICCH L-asparaginase OS=Dickeya chrysanthemi OX=556 
+GN=ansB PE=1 SV=1
+Length=348
+
+ Score = 71.6 bits (174),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 44/114 (39%), Positives = 62/114 (54%), Gaps = 5/114 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y Y +  +    A +  G  GIV AG+G G++       +  A + G  V+RS+R
+Sbjct  240  KVDILYGYQDDPEYLYDAAIQHGVKGIVYAGMGAGSVSVRGIAGMRKAMEKGVVVIRSTR  299
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+               G    D E+     G V S +LNP  AR+LL LALT+T DP+ IQ+ F+ Y
+Sbjct  300  TGNGIVPPDEELP----GLV-SDSLNPAHARILLMLALTRTSDPKVIQEYFHTY  348
+
+
+> sp|P0CX79|ASP24_YEAST L-asparaginase 2-4 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-4 PE=1 
+SV=1
+Length=362
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 42/116 (36%), Positives = 59/116 (51%), Gaps = 10/116 (9%)
+
+Query  1    KVGIVYNYANAS-DLPAKALVDAGYDGIVSAGVGNGNLYKS---VFDTLATAAKTGTAVV  56
+            +V I+Y+Y   + +L  KA+ D G  GIV AG G G+   +   V + L    + G  +V
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLY--EEYGIPIV  305
+
+Query  57   RSSRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             S R   G    D    DA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  306  HSRRTADGTVPPD----DAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CX78|ASP23_YEAST L-asparaginase 2-3 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-3 PE=1 
+SV=1
+Length=362
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 42/116 (36%), Positives = 59/116 (51%), Gaps = 10/116 (9%)
+
+Query  1    KVGIVYNYANAS-DLPAKALVDAGYDGIVSAGVGNGNLYKS---VFDTLATAAKTGTAVV  56
+            +V I+Y+Y   + +L  KA+ D G  GIV AG G G+   +   V + L    + G  +V
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLY--EEYGIPIV  305
+
+Query  57   RSSRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             S R   G    D    DA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  306  HSRRTADGTVPPD----DAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CX77|ASP22_YEAST L-asparaginase 2-2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-2 PE=1 
+SV=1
+Length=362
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 42/116 (36%), Positives = 59/116 (51%), Gaps = 10/116 (9%)
+
+Query  1    KVGIVYNYANAS-DLPAKALVDAGYDGIVSAGVGNGNLYKS---VFDTLATAAKTGTAVV  56
+            +V I+Y+Y   + +L  KA+ D G  GIV AG G G+   +   V + L    + G  +V
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLY--EEYGIPIV  305
+
+Query  57   RSSRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             S R   G    D    DA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  306  HSRRTADGTVPPD----DAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CZ17|ASP21_YEAST L-asparaginase 2-1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-1 PE=1 
+SV=1
+Length=362
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 42/116 (36%), Positives = 59/116 (51%), Gaps = 10/116 (9%)
+
+Query  1    KVGIVYNYANAS-DLPAKALVDAGYDGIVSAGVGNGNLYKS---VFDTLATAAKTGTAVV  56
+            +V I+Y+Y   + +L  KA+ D G  GIV AG G G+   +   V + L    + G  +V
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLY--EEYGIPIV  305
+
+Query  57   RSSRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             S R   G    D    DA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  306  HSRRTADGTVPPD----DAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P38986|ASPG1_YEAST L-asparaginase 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP1 PE=1 SV=1
+Length=381
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 38/110 (35%), Positives = 56/110 (51%), Gaps = 12/110 (11%)
+
+Query  8    YANASDLPAKA-LVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR-----V  61
+            YA+ +  PA   LV   YDGIV A +G G+L + V +T     K    +V S R     V
+Sbjct  272  YAHQAFPPAIVNLVADKYDGIVLATMGAGSLPEEVNET---CMKLSLPIVYSKRSMDGMV  328
+
+Query  62   PTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            P     +    +D     +ASG L+P+K+R+LLQL L      ++I+ +F
+Sbjct  329  PIANVPKKGSKED---NLIASGYLSPEKSRILLQLCLAGNYTLEEIKHVF  375
+
+
+> sp|A1RX40|GATD_THEPD Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermofilum pendens (strain DSM 2475 / Hrk 5) OX=368408 
+GN=gatD PE=3 SV=1
+Length=451
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 33/114 (29%), Positives = 57/114 (50%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S       ++ G+ G+V  G G G++  ++ D++    + G  V  +S+
+Sbjct  316  KVALVKFYPGMSPDIFDFYLEKGFKGLVIEGTGLGHVSTALIDSVRRLVREGVFVAMASQ  375
+
+Query  61   VPTGATTQD---AEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +     V+  K G V +G + P+ A V L   L QT+DP++IQ++F
+Sbjct  376  CIFGRVNMNVYRTGVELIKAGVVPAGDMIPETAYVKLSWILGQTEDPEEIQRLF  429
+
+
+> sp|O59132|GATD_PYRHO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 
+/ JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 40.4 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 50/113 (44%), Gaps = 3/113 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S    +  +D GY GIV  G G G+    +  ++  A + G AV  +S+
+Sbjct  306  KVALVKVYPGISSEIIEFFIDKGYRGIVIEGTGLGHTPNDIIPSIQRATEEGIAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+               G    +         K G +    + P+ A V L   L  T+D ++++++
+Sbjct  366  CIYGRVNLNVYATGRRLLKAGVIPCEDMLPETAYVKLMWVLGHTQDLEEVRRM  418
+
+
+> sp|A5UK11|GATD_METS3 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanobrevibacter smithii (strain ATCC 35061 / DSM 
+861 / OCM 144 / PS) OX=420247 GN=gatD PE=3 SV=1
+Length=436
+
+ Score = 40.4 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 31/118 (26%), Positives = 55/118 (47%), Gaps = 7/118 (6%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS-  59
+            KVG++ ++    +   +  +D GY G+V  G G G++   +   LA A      VV +S 
+Sbjct  304  KVGLIKSFPGICEELIEYHIDKGYKGLVIEGTGLGHVPDKLITPLARAHDENIPVVMTSQ  363
+
+Query  60   ----RVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+                RV     +   E+ +A  G ++   + P+ A V L   L QT D  ++ ++ N+
+Sbjct  364  CLYGRVNMNVYSTGREILNA--GVISGRDMTPETAYVKLSWVLGQTNDIGEVAKLMNK  419
+
+
+> sp|Q9V0T9|GATD_PYRAB Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus abyssi (strain GE5 / Orsay) OX=272844 GN=gatD 
+PE=1 SV=1
+Length=438
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 30/113 (27%), Positives = 50/113 (44%), Gaps = 3/113 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S      LVD GY GIV  G G G+    +  ++  A + G AV  +S+
+Sbjct  306  KVALVKVYPGISSEIIDFLVDKGYKGIVIEGTGLGHTPNDIIPSIERAVEEGVAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDAKY---GFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+               G    +      K    G +    + P+ A V L   L  T++ ++++++
+Sbjct  366  CIYGRVNLNVYSTGRKLLKAGVIPCEDMLPETAYVKLMWVLGHTQNLEEVRKM  418
+
+
+> sp|P87015|ASPG1_SCHPO Probable L-asparaginase 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC186.03 
+PE=3 SV=1
+Length=360
+
+ Score = 39.7 bits (91),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 38/114 (33%), Positives = 49/114 (43%), Gaps = 12/114 (11%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            V I+Y Y   +   AKA VD G  G+V AG+G  +       V D L +       VV S
+Sbjct  253  VEILYGYQGLNPNLAKAAVDLGAKGLVLAGMGAASWTDPGNEVIDGLIS--NQSIPVVYS  310
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G         D  Y  + S   NPQKAR +L L++      Q I  IF+
+Sbjct  311  HRTMDG-------FSDYYYNGIPSYFQNPQKARYMLMLSINAGYSIQNITDIFS  357
+
+
+> sp|Q12X65|GATD_METBU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcoides burtonii (strain DSM 6242 / NBRC 107633 
+/ OCM 468 / ACE-M) OX=259564 GN=gatD PE=3 SV=1
+Length=415
+
+ Score = 39.7 bits (91),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 27/94 (29%), Positives = 45/94 (48%), Gaps = 3/94 (3%)
+
+Query  20   VDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVPTGATTQ---DAEVDDAK  76
+            +D+GY G+V  G G G++       +  A + G  V+ +S+  +G       D   D  K
+Sbjct  307  IDSGYKGLVIEGTGLGHVSTDWIPNIKRATENGIPVIMTSQCISGRVCDRVYDTGRDILK  366
+
+Query  77   YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+             G +    + P+ A V L  AL Q+ D  +I++I
+Sbjct  367  AGAIEGEDMLPEVALVKLMWALGQSNDVDEIKEI  400
+
+
+> sp|Q8NKC0|ASPG3_SCHPO Probable L-asparaginase 3 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBPB21E7.09 
+PE=3 SV=1
+Length=360
+
+ Score = 38.5 bits (88),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 37/114 (32%), Positives = 49/114 (43%), Gaps = 12/114 (11%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            V I+Y Y   +   AKA VD G  G+V AG+G  +       V D L +       VV S
+Sbjct  253  VEILYGYQGLNPNLAKAAVDLGAKGLVLAGMGAASWTDPGNEVIDGLIS--NQSIPVVYS  310
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G         D  Y  + +   NPQKAR +L L++      Q I  IF+
+Sbjct  311  HRTMDG-------FSDYYYNGIPAYFQNPQKARYMLMLSINAGYSIQNITDIFS  357
+
+
+> sp|Q5JI77|GATD_THEKO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 
+12380 / KOD1) OX=69014 GN=gatD PE=3 SV=1
+Length=440
+
+ Score = 38.1 bits (87),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 30/113 (27%), Positives = 49/113 (43%), Gaps = 3/113 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+  Y   +    + LVD GY GIV  G G G+    +   +  A + G AV  +S+
+Sbjct  308  KVAILKIYPGVTSELLEFLVDRGYKGIVIEGTGLGHTPNDMIPAIERAVENGVAVCMTSQ  367
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+               G    +         K G +    + P+ A V L   L  T D ++++++
+Sbjct  368  CLYGRVNLNVYSTGRRLLKAGVIPCEDMLPETAYVKLGWVLGHTDDLKEVRRM  420
+
+
+> sp|Q8U0X0|GATD_PYRFU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / 
+JCM 8422 / Vc1) OX=186497 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 38.1 bits (87),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 31/113 (27%), Positives = 47/113 (42%), Gaps = 3/113 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S      LVD GY GIV  G G G+    +  ++  A   G AV  +S+
+Sbjct  306  KVALVKVYPGMSAELIDFLVDKGYKGIVIEGTGLGHTPSDLIPSIKRAVDEGVAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDAKY---GFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+               G    +      K    G +    + P+ A V L   L  T D ++ +++
+Sbjct  366  CLYGRVNLNVYATGRKLLKAGVIPCEDMLPETAYVKLMWVLGHTNDLREAKKM  418
+
+
+> sp|Q9HP20|GATD_HALSA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Halobacterium salinarum (strain ATCC 700922 / JCM 11081 
+/ NRC-1) OX=64091 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 38.1 bits (87),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 28/90 (31%), Positives = 40/90 (44%), Gaps = 3/90 (3%)
+
+Query  23   GYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVPTGATTQ---DAEVDDAKYGF  79
+            G  G+V  G G G+++  + DT+ +    GT VV +S+   G       D   D    G 
+Sbjct  322  GSAGVVIEGTGLGHVHSDLTDTIGSLVDDGTTVVMTSQCLEGRVCDRVYDTGRDLLAAGV  381
+
+Query  80   VASGTLNPQKARVLLQLALTQTKDPQQIQQ  109
+            V +G   P  A+V L  AL    DP+   Q
+Sbjct  382  VEAGDTLPGTAKVKLMWALANADDPEAAMQ  411
+
+
+> sp|B0R6H4|GATD_HALS3 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Halobacterium salinarum (strain ATCC 29341 / DSM 671 
+/ R1) OX=478009 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 38.1 bits (87),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 28/90 (31%), Positives = 40/90 (44%), Gaps = 3/90 (3%)
+
+Query  23   GYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVPTGATTQ---DAEVDDAKYGF  79
+            G  G+V  G G G+++  + DT+ +    GT VV +S+   G       D   D    G 
+Sbjct  322  GSAGVVIEGTGLGHVHSDLTDTIGSLVDDGTTVVMTSQCLEGRVCDRVYDTGRDLLAAGV  381
+
+Query  80   VASGTLNPQKARVLLQLALTQTKDPQQIQQ  109
+            V +G   P  A+V L  AL    DP+   Q
+Sbjct  382  VEAGDTLPGTAKVKLMWALANADDPEAAMQ  411
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.129    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4927763328
+Results from round 2
+
+
+Query= 3ecab-2-AS
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q88K39|ASPQ_PSEPK Glutaminase-asparaginase OS=Pseudomonas pu...  161     2e-47
+  sp|O68897|ASPQ_PSEFA Glutaminase-asparaginase OS=Pseudomonas fl...  161     2e-47
+  sp|Q9I407|ASPQ_PSEAE Glutaminase-asparaginase OS=Pseudomonas ae...  159     1e-46
+  sp|P00805|ASPG2_ECOLI L-asparaginase 2 OS=Escherichia coli (str...  155     2e-45
+  sp|P10182|ASPQ_PSES7 Glutaminase-asparaginase OS=Pseudomonas sp...  154     4e-45
+  sp|Q9ZLB9|ASPG_HELPJ Probable L-asparaginase OS=Helicobacter py...  152     2e-44
+  sp|P10172|ASPQ_ACIGL Glutaminase-asparaginase OS=Acinetobacter ...  152     3e-44
+  sp|P50286|ASPG_WOLSU L-asparaginase OS=Wolinella succinogenes (...  146     4e-42
+  sp|O59132|GATD_PYRHO Glutamyl-tRNA(Gln) amidotransferase subuni...  147     2e-41
+  sp|O25424|ASPG_HELPY Probable L-asparaginase OS=Helicobacter py...  144     3e-41
+  sp|O34482|ASPG2_BACSU L-asparaginase 2 OS=Bacillus subtilis (st...  144     5e-41
+  sp|Q9V0T9|GATD_PYRAB Glutamyl-tRNA(Gln) amidotransferase subuni...  145     6e-41
+  sp|A1RX40|GATD_THEPD Glutamyl-tRNA(Gln) amidotransferase subuni...  142     2e-39
+  sp|P06608|ASPG_DICCH L-asparaginase OS=Dickeya chrysanthemi OX=...  139     4e-39
+  sp|P43843|ASPG2_HAEIN Probable L-asparaginase periplasmic OS=Ha...  131     3e-36
+  sp|A5UK11|GATD_METS3 Glutamyl-tRNA(Gln) amidotransferase subuni...  132     3e-36
+  sp|Q12X65|GATD_METBU Glutamyl-tRNA(Gln) amidotransferase subuni...  129     3e-35
+  sp|P87015|ASPG1_SCHPO Probable L-asparaginase 1 OS=Schizosaccha...  118     2e-31
+  sp|P0CX79|ASP24_YEAST L-asparaginase 2-4 OS=Saccharomyces cerev...  118     3e-31
+  sp|P0CX78|ASP23_YEAST L-asparaginase 2-3 OS=Saccharomyces cerev...  118     3e-31
+  sp|P0CX77|ASP22_YEAST L-asparaginase 2-2 OS=Saccharomyces cerev...  118     3e-31
+  sp|P0CZ17|ASP21_YEAST L-asparaginase 2-1 OS=Saccharomyces cerev...  118     3e-31
+  sp|P38986|ASPG1_YEAST L-asparaginase 1 OS=Saccharomyces cerevis...  101     3e-25
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q8U0X0|GATD_PYRFU Glutamyl-tRNA(Gln) amidotransferase subuni...  141     2e-39
+  sp|Q5JI77|GATD_THEKO Glutamyl-tRNA(Gln) amidotransferase subuni...  139     1e-38
+  sp|O26802|GATD_METTH Glutamyl-tRNA(Gln) amidotransferase subuni...  127     3e-34
+  sp|Q8TV84|GATD_METKA Glutamyl-tRNA(Gln) amidotransferase subuni...  122     2e-32
+  sp|A4YHH3|GATD_METS5 Glutamyl-tRNA(Gln) amidotransferase subuni...  121     4e-32
+  sp|Q8NKC0|ASPG3_SCHPO Probable L-asparaginase 3 OS=Schizosaccha...  117     4e-31
+  sp|Q2NEH1|GATD_METST Glutamyl-tRNA(Gln) amidotransferase subuni...  114     8e-30
+  sp|Q9Y9T8|GATD_AERPE Glutamyl-tRNA(Gln) amidotransferase subuni...  113     2e-29
+  sp|Q971W5|GATD_SULTO Glutamyl-tRNA(Gln) amidotransferase subuni...  109     5e-28
+  sp|Q60331|GATD_METJA Glutamyl-tRNA(Gln) amidotransferase subuni...  107     3e-27
+  sp|A4FWR5|GATD_METM5 Glutamyl-tRNA(Gln) amidotransferase subuni...  105     1e-26
+  sp|Q8TR66|GATD_METAC Glutamyl-tRNA(Gln) amidotransferase subuni...  105     2e-26
+  sp|Q8PUM7|GATD_METMA Glutamyl-tRNA(Gln) amidotransferase subuni...  105     2e-26
+  sp|O29380|GATD_ARCFU Glutamyl-tRNA(Gln) amidotransferase subuni...  104     5e-26
+  sp|Q46GJ6|GATD_METBF Glutamyl-tRNA(Gln) amidotransferase subuni...  104     5e-26
+  sp|A6VGK5|GATD_METM7 Glutamyl-tRNA(Gln) amidotransferase subuni...  103     9e-26
+  sp|Q9UTS7|ASPG2_SCHPO Probable L-asparaginase 2 OS=Schizosaccha...  102     1e-25
+  sp|P61400|GATD_METMP Glutamyl-tRNA(Gln) amidotransferase subuni...  102     3e-25
+  sp|Q8TFF8|ASPG4_SCHPO Probable L-asparaginase 4 OS=Schizosaccha...  101     3e-25
+  sp|A9AA46|GATD_METM6 Glutamyl-tRNA(Gln) amidotransferase subuni...  100     8e-25
+  sp|Q97ZH5|GATD_SULSO Glutamyl-tRNA(Gln) amidotransferase subuni...  100     1e-24
+  sp|Q4J955|GATD_SULAC Glutamyl-tRNA(Gln) amidotransferase subuni...  95.5    1e-22
+  sp|Q8ZY04|GATD_PYRAE Glutamyl-tRNA(Gln) amidotransferase subuni...  94.7    1e-22
+  sp|C3NE01|GATD_SULIY Glutamyl-tRNA(Gln) amidotransferase subuni...  94.7    2e-22
+  sp|C3NHQ2|GATD_SULIN Glutamyl-tRNA(Gln) amidotransferase subuni...  94.7    2e-22
+  sp|C3MYR5|GATD_SULIM Glutamyl-tRNA(Gln) amidotransferase subuni...  94.7    2e-22
+  sp|C4KH13|GATD_SULIK Glutamyl-tRNA(Gln) amidotransferase subuni...  94.7    2e-22
+  sp|C3N5E7|GATD_SULIA Glutamyl-tRNA(Gln) amidotransferase subuni...  94.7    2e-22
+  sp|C3MPS1|GATD_SULIL Glutamyl-tRNA(Gln) amidotransferase subuni...  94.7    2e-22
+  sp|A6UPR4|GATD_METVS Glutamyl-tRNA(Gln) amidotransferase subuni...  90.9    3e-21
+  sp|Q9HP20|GATD_HALSA Glutamyl-tRNA(Gln) amidotransferase subuni...  88.2    4e-20
+  sp|B0R6H4|GATD_HALS3 Glutamyl-tRNA(Gln) amidotransferase subuni...  88.2    4e-20
+  sp|Q18GL3|GATD_HALWD Glutamyl-tRNA(Gln) amidotransferase subuni...  84.7    8e-19
+  sp|Q979L8|GATD_THEVO Glutamyl-tRNA(Gln) amidotransferase subuni...  83.5    2e-18
+  sp|Q9HJJ5|GATD_THEAC Glutamyl-tRNA(Gln) amidotransferase subuni...  70.8    6e-14
+  sp|P61401|GATD_NANEQ Glutamyl-tRNA(Gln) amidotransferase subuni...  68.5    4e-13
+  sp|P26900|ASPG1_BACSU L-asparaginase 1 OS=Bacillus subtilis (st...  67.4    5e-13
+  sp|P9WPX5|ASPG_MYCTU Probable L-asparaginase OS=Mycobacterium t...  65.4    2e-12
+  sp|P9WPX4|ASPG_MYCTO Probable L-asparaginase OS=Mycobacterium t...  65.4    2e-12
+  sp|P63628|ASPG_MYCBO Probable L-asparaginase OS=Mycobacterium b...  65.4    2e-12
+  sp|Q9RRX9|ASPG_DEIRA Probable L-asparaginase OS=Deinococcus rad...  64.7    5e-12
+  sp|O88202|LPP60_RAT 60 kDa lysophospholipase OS=Rattus norvegic...  64.7    1e-11
+  sp|A0JNU3|LPP60_MOUSE 60 kDa lysophospholipase OS=Mus musculus ...  64.7    1e-11
+  sp|Q9X7E6|ASPG_MYCLE Probable L-asparaginase OS=Mycobacterium l...  63.1    1e-11
+  sp|Q86U10|LPP60_HUMAN 60 kDa lysophospholipase OS=Homo sapiens ...  64.3    2e-11
+  sp|P30363|ASPG_BACLI L-asparaginase OS=Bacillus licheniformis O...  62.0    5e-11
+  sp|P0A962|ASPG1_ECOLI L-asparaginase 1 OS=Escherichia coli (str...  61.2    1e-10
+  sp|P0A963|ASPG1_ECO57 L-asparaginase 1 OS=Escherichia coli O157...  61.2    1e-10
+  sp|Q9U518|ASPG_DIRIM L-asparaginase OS=Dirofilaria immitis OX=6...  57.7    3e-09
+
+
+> sp|Q88K39|ASPQ_PSEPK Glutaminase-asparaginase OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 / KT2440) 
+OX=160488 GN=ansB PE=3 SV=1
+Length=362
+
+ Score = 161 bits (407),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 45/115 (39%), Positives = 67/115 (58%), Gaps = 1/115 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I Y Y N +D   KAL   G   ++ AG GNG++   V   L    K G  ++RSS 
+Sbjct  248  QVDIAYGYGNVTDTAYKALAQNGAKALIHAGTGNGSVSSRVVPALQELRKNGVQIIRSSH  307
+
+Query  61   VPTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G    ++AE  D K  +V +  LNPQKAR+L  +A+T+T+D +++Q+IF +Y
+Sbjct  308  VNQGGFVLRNAEQPDDKNDWVVAHDLNPQKARILAMVAMTKTQDSKELQRIFWEY  362
+
+
+> sp|O68897|ASPQ_PSEFA Glutaminase-asparaginase OS=Pseudomonas 
+fluorescens biotype A OX=32035 GN=ansB PE=1 SV=1
+Length=362
+
+ Score = 161 bits (407),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 49/114 (43%), Positives = 68/114 (60%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V I Y Y N SD   KAL  AG   I+ AG GNG++   V   L    K G  ++RSS V
+Sbjct  249  VEIAYGYGNVSDTAVKALAQAGAKAIIHAGTGNGSVSSKVVPALQELRKQGVQIIRSSHV  308
+
+Query  62   PTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+              G    ++AE  D KY +V +  LNPQKAR+L  +ALT+T+D +++Q++F +Y
+Sbjct  309  NAGGFVLRNAEQPDDKYDWVVAHDLNPQKARILAMVALTKTQDSKELQRMFWEY  362
+
+
+> sp|Q9I407|ASPQ_PSEAE Glutaminase-asparaginase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 
+14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=ansB 
+PE=1 SV=1
+Length=362
+
+ Score = 159 bits (402),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 48/114 (42%), Positives = 69/114 (61%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V I Y+Y N SD   KAL  AG   I+ AG GNG++   V  TL    K G  ++RSS V
+Sbjct  249  VEIAYSYGNVSDTAYKALAQAGAKAIIHAGTGNGSVPARVVPTLQELRKQGVQIIRSSHV  308
+
+Query  62   PTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+              G    ++AE  D K  ++ +  LNPQKAR+L  +A+T+T+D +++Q+IF +Y
+Sbjct  309  NAGGFVLRNAEQPDDKNDWIVAHDLNPQKARILAAVAMTKTQDSKELQRIFWEY  362
+
+
+> sp|P00805|ASPG2_ECOLI L-asparaginase 2 OS=Escherichia coli (strain 
+K12) OX=83333 GN=ansB PE=1 SV=2
+Length=348
+
+ Score = 155 bits (393),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR
+Sbjct  235  KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  294
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY
+Sbjct  295  VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  348
+
+
+> sp|P10182|ASPQ_PSES7 Glutaminase-asparaginase OS=Pseudomonas 
+sp. (strain ATCC 29598 / 7A) OX=313 GN=ansB PE=1 SV=2
+Length=337
+
+ Score = 154 bits (390),  Expect = 4e-45, Method: Composition-based stats.
+ Identities = 46/115 (40%), Positives = 72/115 (63%), Gaps = 1/115 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I Y+Y N +D   KAL   G   ++ AG GNG++   +   L T  KTGT ++RSS 
+Sbjct  223  QVDIAYSYGNVTDTAYKALAQNGAKALIHAGTGNGSVSSRLTPALQTLRKTGTQIIRSSH  282
+
+Query  61   VPTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G    ++AE  D K  +V +  LNP+KAR+L++LA+ +T+D +++Q+IF +Y
+Sbjct  283  VNQGGFVLRNAEQPDDKNDWVVAHDLNPEKARILVELAMVKTQDSKELQRIFWEY  337
+
+
+> sp|Q9ZLB9|ASPG_HELPJ Probable L-asparaginase OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ansA PE=1 SV=1
+Length=332
+
+ Score = 152 bits (385),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 53/114 (46%), Positives = 74/114 (65%), Gaps = 1/114 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +A  +    +A +++   G+V AGVGNGN+       +  A++ G  +VRSSR
+Sbjct  220  KVDIIYTHAGMTPDLFQASLNSHAKGVVIAGVGNGNVSAGFLKAMQEASQMGVVIVRSSR  279
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G  T   E+DD  YGF+ S  LNPQKARVLLQLALT+T D  +IQ++F +Y
+Sbjct  280  VGSGGVT-SGEIDDKAYGFITSDNLNPQKARVLLQLALTKTNDKAKIQEMFEEY  332
+
+
+> sp|P10172|ASPQ_ACIGL Glutaminase-asparaginase OS=Acinetobacter 
+glutaminasificans OX=474 GN=ansB PE=1 SV=1
+Length=331
+
+ Score = 152 bits (384),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 47/114 (41%), Positives = 66/114 (58%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAA-KTGTAVVRSSR  60
+            V IVY   N      +A   AG   I+ AG GNG++   +   +     + G  +VRSSR
+Sbjct  218  VQIVYGSDNMMPDAYQAFAKAGVKAIIHAGTGNGSMANYLVPEVRKLHDEQGLQIVRSSR  277
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G   ++AE  D KYG++A+  LNPQKAR+L+ LALT+T D ++IQ +F  Y
+Sbjct  278  VAQGFVLRNAEQPDDKYGWIAAHDLNPQKARLLMALALTKTNDAKEIQNMFWNY  331
+
+
+> sp|P50286|ASPG_WOLSU L-asparaginase OS=Wolinella succinogenes 
+(strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 
+602W) OX=273121 GN=ansA PE=1 SV=2
+Length=330
+
+ Score = 146 bits (369),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 61/114 (54%), Positives = 82/114 (72%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y + + +D+   A + AG  GI+ AG+GNGN +    + L  AAK+G  V RSSR
+Sbjct  217  RVDILYAHPDDTDVLVNAALQAGAKGIIHAGMGNGNPFPLTQNALEKAAKSGVVVARSSR  276
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G+TTQ+AEVDD K GFVA+ +LNPQKARVLL LALT+T D + IQ+IF+ Y
+Sbjct  277  VGSGSTTQEAEVDDKKLGFVATESLNPQKARVLLMLALTKTSDREAIQKIFSTY  330
+
+
+> sp|O59132|GATD_PYRHO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 
+/ JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 147 bits (370),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 29/114 (25%), Positives = 50/114 (44%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S    +  +D GY GIV  G G G+    +  ++  A + G AV  +S+
+Sbjct  306  KVALVKVYPGISSEIIEFFIDKGYRGIVIEGTGLGHTPNDIIPSIQRATEEGIAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T+D ++++++ 
+Sbjct  366  CIYGRVNLNVYATGRRLLKAGVIPCEDMLPETAYVKLMWVLGHTQDLEEVRRMM  419
+
+
+> sp|O25424|ASPG_HELPY Probable L-asparaginase OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ansA PE=3 SV=1
+Length=330
+
+ Score = 144 bits (363),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 50/114 (44%), Positives = 73/114 (64%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +A  +    +A +++   G+V AGVGNGN+       +  A++ G  +VRSSR
+Sbjct  220  KVDIIYTHAGMTPDLFQASLNSHAKGVVIAGVGNGNVSAGFLKAMQEASQMGVVIVRSSR  279
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G  T   E+DD    F+ S  LNPQKARVLLQLALT+T + ++IQ++F +Y
+Sbjct  280  VNSGEIT-SGEIDDKA--FITSDNLNPQKARVLLQLALTKTNNKEKIQEMFEEY  330
+
+
+> sp|O34482|ASPG2_BACSU L-asparaginase 2 OS=Bacillus subtilis (strain 
+168) OX=224308 GN=ansZ PE=2 SV=1
+Length=375
+
+ Score = 144 bits (364),  Expect = 5e-41, Method: Composition-based stats.
+ Identities = 54/114 (47%), Positives = 68/114 (60%), Gaps = 2/114 (2%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y Y N       A V AG  GIV AG GNG+L  +      +A K G  VVRS+R
+Sbjct  264  QVDIIYGYQNDGSYLFDAAVKAGAKGIVFAGSGNGSLSDAAEKGADSAVKKGVTVVRSTR  323
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+               G  T +   D A+   +AS +LNPQKAR+LL LALT+T DPQ+IQ  FN+Y
+Sbjct  324  TGNGVVTPN--QDYAEKDLLASNSLNPQKARMLLMLALTKTNDPQKIQAYFNEY  375
+
+
+> sp|Q9V0T9|GATD_PYRAB Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus abyssi (strain GE5 / Orsay) OX=272844 GN=gatD 
+PE=1 SV=1
+Length=438
+
+ Score = 145 bits (366),  Expect = 6e-41, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 50/114 (44%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S      LVD GY GIV  G G G+    +  ++  A + G AV  +S+
+Sbjct  306  KVALVKVYPGISSEIIDFLVDKGYKGIVIEGTGLGHTPNDIIPSIERAVEEGVAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T++ ++++++ 
+Sbjct  366  CIYGRVNLNVYSTGRKLLKAGVIPCEDMLPETAYVKLMWVLGHTQNLEEVRKMM  419
+
+
+> sp|A1RX40|GATD_THEPD Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermofilum pendens (strain DSM 2475 / Hrk 5) OX=368408 
+GN=gatD PE=3 SV=1
+Length=451
+
+ Score = 142 bits (357),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 33/114 (29%), Positives = 57/114 (50%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S       ++ G+ G+V  G G G++  ++ D++    + G  V  +S+
+Sbjct  316  KVALVKFYPGMSPDIFDFYLEKGFKGLVIEGTGLGHVSTALIDSVRRLVREGVFVAMASQ  375
+
+Query  61   VPTGATTQD---AEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +     V+  K G V +G + P+ A V L   L QT+DP++IQ++F
+Sbjct  376  CIFGRVNMNVYRTGVELIKAGVVPAGDMIPETAYVKLSWILGQTEDPEEIQRLF  429
+
+
+> sp|Q8U0X0|GATD_PYRFU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / 
+JCM 8422 / Vc1) OX=186497 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 141 bits (355),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 31/114 (27%), Positives = 47/114 (41%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S      LVD GY GIV  G G G+    +  ++  A   G AV  +S+
+Sbjct  306  KVALVKVYPGMSAELIDFLVDKGYKGIVIEGTGLGHTPSDLIPSIKRAVDEGVAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T D ++ +++ 
+Sbjct  366  CLYGRVNLNVYATGRKLLKAGVIPCEDMLPETAYVKLMWVLGHTNDLREAKKMM  419
+
+
+> sp|P06608|ASPG_DICCH L-asparaginase OS=Dickeya chrysanthemi OX=556 
+GN=ansB PE=1 SV=1
+Length=348
+
+ Score = 139 bits (350),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 42/114 (37%), Positives = 61/114 (54%), Gaps = 5/114 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y Y +  +    A +  G  GIV AG+G G++       +  A + G  V+RS+R
+Sbjct  240  KVDILYGYQDDPEYLYDAAIQHGVKGIVYAGMGAGSVSVRGIAGMRKAMEKGVVVIRSTR  299
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+               G    D E+       + S +LNP  AR+LL LALT+T DP+ IQ+ F+ Y
+Sbjct  300  TGNGIVPPDEELPG-----LVSDSLNPAHARILLMLALTRTSDPKVIQEYFHTY  348
+
+
+> sp|Q5JI77|GATD_THEKO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 
+12380 / KOD1) OX=69014 GN=gatD PE=3 SV=1
+Length=440
+
+ Score = 139 bits (351),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 49/114 (43%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+  Y   +    + LVD GY GIV  G G G+    +   +  A + G AV  +S+
+Sbjct  308  KVAILKIYPGVTSELLEFLVDRGYKGIVIEGTGLGHTPNDMIPAIERAVENGVAVCMTSQ  367
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T D ++++++ 
+Sbjct  368  CLYGRVNLNVYSTGRRLLKAGVIPCEDMLPETAYVKLGWVLGHTDDLKEVRRMM  421
+
+
+> sp|P43843|ASPG2_HAEIN Probable L-asparaginase periplasmic OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ansB PE=1 SV=1
+Length=349
+
+ Score = 131 bits (330),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 81/114 (71%), Positives = 91/114 (80%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVGI+Y Y+NA   P  AL++AGY GIVSAGVGNGN+  +  D L  AAK    VVRSSR
+Sbjct  236  KVGIIYAYSNAPVEPLNALLNAGYQGIVSAGVGNGNVNAAHLDRLEKAAKDSVVVVRSSR  295
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            VPTG TT+DAEVDD+KYGFVASGTLNPQKARVLLQLALTQTKDP+ IQQ F  +
+Sbjct  296  VPTGYTTRDAEVDDSKYGFVASGTLNPQKARVLLQLALTQTKDPKVIQQYFEDF  349
+
+
+> sp|A5UK11|GATD_METS3 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanobrevibacter smithii (strain ATCC 35061 / DSM 
+861 / OCM 144 / PS) OX=420247 GN=gatD PE=3 SV=1
+Length=436
+
+ Score = 132 bits (333),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 28/116 (24%), Positives = 52/116 (45%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVG++ ++    +   +  +D GY G+V  G G G++   +   LA A      VV +S+
+Sbjct  304  KVGLIKSFPGICEELIEYHIDKGYKGLVIEGTGLGHVPDKLITPLARAHDENIPVVMTSQ  363
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +      +    G ++   + P+ A V L   L QT D  ++ ++ N+
+Sbjct  364  CLYGRVNMNVYSTGREILNAGVISGRDMTPETAYVKLSWVLGQTNDIGEVAKLMNK  419
+
+
+> sp|Q12X65|GATD_METBU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcoides burtonii (strain DSM 6242 / NBRC 107633 
+/ OCM 468 / ACE-M) OX=259564 GN=gatD PE=3 SV=1
+Length=415
+
+ Score = 129 bits (325),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 50/114 (44%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +V     A+       +D+GY G+V  G G G++       +  A + G  V+ +S+
+Sbjct  288  KCSLVKFVPGANPDVLSYYIDSGYKGLVIEGTGLGHVSTDWIPNIKRATENGIPVIMTSQ  347
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+              +G       D   D  K G +    + P+ A V L  AL Q+ D  +I++I 
+Sbjct  348  CISGRVCDRVYDTGRDILKAGAIEGEDMLPEVALVKLMWALGQSNDVDEIKEIM  401
+
+
+> sp|O26802|GATD_METTH Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanothermobacter thermautotrophicus (strain ATCC 
+29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 
+GN=gatD PE=1 SV=1
+Length=435
+
+ Score = 127 bits (318),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 48/116 (41%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V  + +Y   S    K  +D GY GIV  G G G+   ++   +  A   G  V  +S+
+Sbjct  303  RVAFIKSYPGISPDIIKWHLDEGYRGIVIEGTGLGHCPDTLIPVIGEAHDMGVPVAMTSQ  362
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +      +    G +    + P+ A V +   L QT DP+  +++  +
+Sbjct  363  CLNGRVNMNVYSTGRRLLQAGVIPCDDMLPEVAYVKMCWVLGQTDDPEMAREMMRE  418
+
+
+> sp|Q8TV84|GATD_METKA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanopyrus kandleri (strain AV19 / DSM 6324 / JCM 
+9639 / NBRC 100938) OX=190192 GN=gatD PE=3 SV=1
+Length=458
+
+ Score = 122 bits (306),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 28/116 (24%), Positives = 48/116 (41%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V              VD GY GIV  G G G++ +   +++  A   G AVV +S+
+Sbjct  318  KVALVKFAPGMDPEVLDFYVDRGYRGIVLEGTGLGHVSEQWLESIERAVDDGIAVVMTSQ  377
+
+Query  61   VPTGATTQDAEVDD---AKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +           G +    + P+ A V L   L +T D ++++++   
+Sbjct  378  CLYGRVNMNVYRTGRLLRAVGVIPGEDMLPEVAYVKLMYVLDRTDDIKEVERLMRT  433
+
+
+> sp|A4YHH3|GATD_METS5 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Metallosphaera sedula (strain ATCC 51363 / DSM 5348 
+/ JCM 9185 / NBRC 15509 / TH2) OX=399549 GN=gatD PE=3 SV=1
+Length=439
+
+ Score = 121 bits (303),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 29/114 (25%), Positives = 48/114 (42%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V ++  Y          L+ +GY GI+  G G G+      +    A K G  V  +S+
+Sbjct  303  RVFLLKFYPGLRPDIVDILLSSGYRGIIVEGTGLGHTSSDFQEAFKRAVKEGLFVGMTSQ  362
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         + G V  G + P+ A V L  AL QT D +++++I 
+Sbjct  363  CLFGRVNMNVYQTGRLLQQSGVVPLGDMLPEVALVKLMWALGQTSDLEEVKRIM  416
+
+
+> sp|P87015|ASPG1_SCHPO Probable L-asparaginase 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC186.03 
+PE=3 SV=1
+Length=360
+
+ Score = 118 bits (296),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 38/114 (33%), Positives = 49/114 (43%), Gaps = 12/114 (11%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            V I+Y Y   +   AKA VD G  G+V AG+G  +       V D L +       VV S
+Sbjct  253  VEILYGYQGLNPNLAKAAVDLGAKGLVLAGMGAASWTDPGNEVIDGLIS--NQSIPVVYS  310
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G         D  Y  + S   NPQKAR +L L++      Q I  IF+
+Sbjct  311  HRTMDG-------FSDYYYNGIPSYFQNPQKARYMLMLSINAGYSIQNITDIFS  357
+
+
+> sp|P0CX79|ASP24_YEAST L-asparaginase 2-4 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-4 PE=1 
+SV=1
+Length=362
+
+ Score = 118 bits (295),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CX78|ASP23_YEAST L-asparaginase 2-3 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-3 PE=1 
+SV=1
+Length=362
+
+ Score = 118 bits (295),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CX77|ASP22_YEAST L-asparaginase 2-2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-2 PE=1 
+SV=1
+Length=362
+
+ Score = 118 bits (295),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CZ17|ASP21_YEAST L-asparaginase 2-1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-1 PE=1 
+SV=1
+Length=362
+
+ Score = 118 bits (295),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|Q8NKC0|ASPG3_SCHPO Probable L-asparaginase 3 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBPB21E7.09 
+PE=3 SV=1
+Length=360
+
+ Score = 117 bits (294),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 37/114 (32%), Positives = 49/114 (43%), Gaps = 12/114 (11%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            V I+Y Y   +   AKA VD G  G+V AG+G  +       V D L +       VV S
+Sbjct  253  VEILYGYQGLNPNLAKAAVDLGAKGLVLAGMGAASWTDPGNEVIDGLIS--NQSIPVVYS  310
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G         D  Y  + +   NPQKAR +L L++      Q I  IF+
+Sbjct  311  HRTMDG-------FSDYYYNGIPAYFQNPQKARYMLMLSINAGYSIQNITDIFS  357
+
+
+> sp|Q2NEH1|GATD_METST Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosphaera stadtmanae (strain ATCC 43021 / DSM 
+3091 / JCM 11832 / MCB-3) OX=339860 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 114 bits (286),  Expect = 8e-30, Method: Composition-based stats.
+ Identities = 30/116 (26%), Positives = 45/116 (39%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y   S       VD  YDGIV  G G G+    V  ++  A      VV +S+
+Sbjct  305  KVALIKMYPGISPEIIDIYVDKNYDGIVIEGTGLGHCSDDVITSITRATSEDIPVVMTSQ  364
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G T  +      +      +  G + P+ A   L  A  QT +  +I +I   
+Sbjct  365  CLFGRTNMNVYSSGRRLLQNNVIGVGDMLPETAYTKLLWAAGQTDNVSEIYEIMKT  420
+
+
+> sp|Q9Y9T8|GATD_AERPE Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / 
+JCM 9820 / NBRC 100138 / K1) OX=272557 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 113 bits (283),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 24/114 (21%), Positives = 51/114 (45%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V +V ++         AL+D G+ GIV  G G G++      ++  A   G  +V +++
+Sbjct  291  RVALVKHFPGLISEVIDALLDRGFKGIVVEGTGFGHVSSDAIKSIERARDQGVPIVITTQ  350
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +      K    G + +G +  + A   L   L +T++ + ++++F
+Sbjct  351  TVFGRVNLNVYSTGRKMLAAGAIPAGDMTSEAAYAKLSWILARTRELEVVRKMF  404
+
+
+> sp|Q971W5|GATD_SULTO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus tokodaii (strain DSM 16993 / JCM 10545 / 
+NBRC 100140 / 7) OX=273063 GN=gatD PE=3 SV=1
+Length=448
+
+ Score = 109 bits (273),  Expect = 5e-28, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 42/114 (37%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V ++  Y   +    + L+ +G  GI+  G G G+      D    A K G  +  +S+
+Sbjct  307  RVFLLKYYPGINPEIIEYLISSGIRGIIVEGTGLGHTSTEFVDYFKKATKDGVFIGMTSQ  366
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         + G      + P+ A V L   L    D  +I+ + 
+Sbjct  367  CLFGRVNMNVYTTGRLLQESGVTPLEDMLPETALVKLMWVLAHESDLDKIRSLM  420
+
+
+> sp|Q60331|GATD_METJA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanocaldococcus jannaschii (strain ATCC 43067 / 
+DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=gatD 
+PE=3 SV=1
+Length=417
+
+ Score = 107 bits (267),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 51/116 (44%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        +  VD  Y GIV  G G G+  + +F+ +  A   G  VV +++
+Sbjct  288  KVALIKVYPGMDGEIIRFYVDKEYKGIVLEGTGLGHAPEYIFEHIKYATDKGVVVVMTTQ  347
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +     K G +    + P+ A V L   L    +P++++++ N+
+Sbjct  348  TINGRVNMNVYSNGRELQKLGVIGCEDMPPEVALVKLMYLLG-NYEPEEVKKLINK  402
+
+
+> sp|A4FWR5|GATD_METM5 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain C5 / ATCC BAA-1333) 
+OX=402880 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 105 bits (263),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 23/116 (20%), Positives = 48/116 (41%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDNGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +  +    G +    + P+ A V L   L      ++ +++ ++
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLPEVAFVKLMHLLG-NYGFEESKELMSK  404
+
+
+> sp|Q8TR66|GATD_METAC Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosarcina acetivorans (strain ATCC 35395 / DSM 
+2834 / JCM 12185 / C2A) OX=188937 GN=gatD PE=3 SV=1
+Length=424
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 41/116 (35%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +V     A        +  GY G+V  G G G++       L  A      V+ +S+
+Sbjct  297  KCALVKFTPGADPTVLDYYISNGYKGLVVEGTGLGHISTKWIPLLRKATDAKMPVIVTSQ  356
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G       D   D  K G +      P+ A V L   L QT D ++   +  +
+Sbjct  357  CLNGRICDRVYDTGRDMLKAGAIEGEDTLPETALVKLMWVLGQTDDFEKAAGMLRE  412
+
+
+> sp|Q8PUM7|GATD_METMA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 
+/ Goe1 / Go1 / JCM 11833 / OCM 88) OX=192952 GN=gatD PE=3 
+SV=1
+Length=425
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 28/116 (24%), Positives = 42/116 (36%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  IV     A        VD GY G+V  G G G++       +  A      V+ +S+
+Sbjct  298  KCAIVKFTPGADPSVLDCYVDGGYKGLVLEGTGLGHVSTKWIPFIRRAVDAKMPVIVTSQ  357
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G       D   D  K G +      P+ A V L   L QT + ++   +  +
+Sbjct  358  CLNGRVCDRVYDTGRDMLKAGAIEGEDTLPETALVKLMWVLGQTDEFEKAVSMLGE  413
+
+
+> sp|O29380|GATD_ARCFU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / 
+DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 104 bits (259),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 24/113 (21%), Positives = 43/113 (38%), Gaps = 5/113 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  +   S    +     GY G V  G G G++     DTL    +    VV +S+
+Sbjct  293  KVVLIKFFPGLSSDILEYYHSKGYRGFVIEGTGLGHVSTDWIDTLRRVCEDSV-VVMTSQ  351
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+               G       D   D  + G +    + P+ A + L   L      ++ +++
+Sbjct  352  CLWGRVCDRVYDTGRDILRAGVIEGEDMLPEVALIKLMWLLG-NYSIEEAKEM  403
+
+
+> sp|Q46GJ6|GATD_METBF Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=gatD PE=3 SV=1
+Length=424
+
+ Score = 104 bits (259),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 25/116 (22%), Positives = 43/116 (37%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +V     +        +D+GY G+V  G G G++       +  A      V+ +S+
+Sbjct  297  KCALVKFTPGSGPEILDHYIDSGYRGLVLEGTGLGHVSTKWIPKIQKATDAKMPVIVTSQ  356
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G       D   D  K G +      P+ A V L   L QT +  +  ++  +
+Sbjct  357  CLNGRICDRVYDTGRDMLKAGAIEGEDTLPEIALVKLMWVLGQTDEFNEAVKMLRE  412
+
+
+> sp|A6VGK5|GATD_METM7 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain C7 / ATCC BAA-1331) 
+OX=426368 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 103 bits (256),  Expect = 9e-26, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 47/116 (41%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDKGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +  +    G +    +  + A V L   L    + +  +++ ++
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLSEVAFVKLMYLLG-NYEIEDAKELMSK  404
+
+
+> sp|Q9UTS7|ASPG2_SCHPO Probable L-asparaginase 2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC977.12 
+PE=3 SV=1
+Length=356
+
+ Score = 102 bits (255),  Expect = 1e-25, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 52/113 (46%), Gaps = 8/113 (7%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATA-AKTGTAVVRSS  59
+            +V I+Y Y   +   A++ V  G  G+V A +G  +      + +++   +    VV S 
+Sbjct  249  RVDILYGYQGLNPKLAESAVHLGAKGLVLAAMGATSWTDDGNEVISSLIREHNIPVVYSH  308
+
+Query  60   RVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+            R   G ++            + S  LNPQKAR +L LA++     + I+ +F+
+Sbjct  309  RTAEGYSSNSCL-------GIPSYFLNPQKARYMLMLAISSGYSIRDIEDLFS  354
+
+
+> sp|P61400|GATD_METMP Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain S2 / LL) OX=267377 
+GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 102 bits (253),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 48/116 (41%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDNGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +  +    G +    +  + A V L   L    + ++ +++ ++
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLSEVAFVKLMHLLG-NYEFKEAKELMSK  404
+
+
+> sp|P38986|ASPG1_YEAST L-asparaginase 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP1 PE=1 SV=1
+Length=381
+
+ Score = 101 bits (252),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 35/116 (30%), Positives = 55/116 (47%), Gaps = 12/116 (10%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y +          + D  YDGIV A +G G+L + V +T     K    +V S R
+Sbjct  267  EVCILYAHQAFPPAIVNLVADK-YDGIVLATMGAGSLPEEVNET---CMKLSLPIVYSKR  322
+
+Query  61   VPTG-----ATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G        +    +D     +ASG L+P+K+R+LLQL L      ++I+ +F
+Sbjct  323  SMDGMVPIANVPKKGSKED---NLIASGYLSPEKSRILLQLCLAGNYTLEEIKHVF  375
+
+
+> sp|Q8TFF8|ASPG4_SCHPO Probable L-asparaginase 4 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAP8B6.05c 
+PE=3 SV=1
+Length=356
+
+ Score = 101 bits (252),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 52/113 (46%), Gaps = 8/113 (7%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATA-AKTGTAVVRSS  59
+            +V I+Y Y   +   A++ V  G  G+V A +G  +      + +++   +    VV S 
+Sbjct  249  RVDILYGYQGLNPKLAESAVHLGAKGLVLAAMGATSWTDDGNEVISSLIREHNIPVVYSH  308
+
+Query  60   RVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+            R   G ++            + S  LNPQKAR +L LA++     + I+ +F+
+Sbjct  309  RTAEGYSSNSCL-------GIPSYFLNPQKARYMLMLAISSGYSIRDIEGLFS  354
+
+
+> sp|A9AA46|GATD_METM6 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain C6 / ATCC BAA-1332) 
+OX=444158 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 100 bits (250),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 22/114 (19%), Positives = 46/114 (40%), Gaps = 4/114 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDNGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +   +  +    G +    +  + A V L   L    + ++ +++ 
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLSEVAFVKLMHLLG-NYEFEEAKELM  402
+
+
+> sp|Q97ZH5|GATD_SULSO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus solfataricus (strain ATCC 35092 / DSM 1617 
+/ JCM 11322 / P2) OX=273057 GN=gatD PE=3 SV=1
+Length=444
+
+ Score = 100 bits (249),  Expect = 1e-24, Method: Composition-based stats.
+ Identities = 24/115 (21%), Positives = 44/115 (38%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANAS-DLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +V ++Y Y     D   + L +    GI+ AG G G+      +    A K G  +  ++
+Sbjct  307  RVFLLYYYPGLDRDFLEQMLTNTKIRGIIIAGTGLGHTSSDHIELFRKATKDGIFIGMTT  366
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++IQ + 
+Sbjct  367  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIQNLM  421
+
+
+> sp|Q4J955|GATD_SULAC Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 
+639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=gatD 
+PE=3 SV=1
+Length=446
+
+ Score = 95.5 bits (236),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 25/114 (22%), Positives = 46/114 (40%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V ++  Y   S    + L+ +G  GI+  G G G+     ++    A+K G  +  +S+
+Sbjct  305  RVFLLKYYPGLSPDMVEHLISSGIRGIIIEGTGLGHTSSDFYEVFKKASKDGVFIGMTSQ  364
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         + G V    + P+ A V L   L    D  +I++I 
+Sbjct  365  CLFGRVNMNVYTTGRLLQEAGVVPLEDMLPETALVKLMWTLAHENDLDRIKEIM  418
+
+
+> sp|Q8ZY04|GATD_PYRAE Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrobaculum aerophilum (strain ATCC 51768 / IM2 / DSM 
+7523 / JCM 9630 / NBRC 100827) OX=178306 GN=gatD PE=3 SV=1
+Length=417
+
+ Score = 94.7 bits (234),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 21/115 (18%), Positives = 42/115 (37%), Gaps = 4/115 (3%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V +V  Y        +AL++ G  G+V  G G G++ + V   +      G  V  +S+ 
+Sbjct  286  VALVKFYPGMHPRLLEALLEVGMKGVVIEGTGFGHVGEGVLPAVKKLIDAGVIVAMTSQT  345
+
+Query  62   PTGATTQDAEVDDAKY---GFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+              G           +    G +    + P+ A   +  AL      +++ ++   
+Sbjct  346  LYGRVNLYVYRRGRELLSMGVIPLEDMLPETAYAKMSWALA-NFKREEVPRVLTT  399
+
+
+> sp|C3NE01|GATD_SULIY Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain Y.G.57.14 / Yellowstone 
+#1) OX=439386 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 94.7 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 41/112 (37%), Gaps = 4/112 (4%)
+
+Query  4    IVYNYANASDLPAK-ALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVP  62
+            ++Y Y        +  L +    G++ AG G G+      +    A K G  +  +++  
+Sbjct  311  LLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTTQCL  370
+
+Query  63   TGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+             G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  371  FGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3NHQ2|GATD_SULIN Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain Y.N.15.51 / Yellowstone 
+#2) OX=419942 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 94.7 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 41/112 (37%), Gaps = 4/112 (4%)
+
+Query  4    IVYNYANASDLPAK-ALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVP  62
+            ++Y Y        +  L +    G++ AG G G+      +    A K G  +  +++  
+Sbjct  311  LLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTTQCL  370
+
+Query  63   TGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+             G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  371  FGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3MYR5|GATD_SULIM Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain M.14.25 / Kamchatka #1) 
+OX=427317 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 94.7 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 41/112 (37%), Gaps = 4/112 (4%)
+
+Query  4    IVYNYANASDLPAK-ALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVP  62
+            ++Y Y        +  L +    G++ AG G G+      +    A K G  +  +++  
+Sbjct  311  LLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTTQCL  370
+
+Query  63   TGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+             G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  371  FGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C4KH13|GATD_SULIK Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain M.16.4 / Kamchatka #3) 
+OX=426118 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 94.7 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 41/112 (37%), Gaps = 4/112 (4%)
+
+Query  4    IVYNYANASDLPAK-ALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVP  62
+            ++Y Y        +  L +    G++ AG G G+      +    A K G  +  +++  
+Sbjct  311  LLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTTQCL  370
+
+Query  63   TGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+             G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  371  FGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3N5E7|GATD_SULIA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain M.16.27) OX=427318 GN=gatD 
+PE=3 SV=1
+Length=445
+
+ Score = 94.7 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 41/112 (37%), Gaps = 4/112 (4%)
+
+Query  4    IVYNYANASDLPAK-ALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVP  62
+            ++Y Y        +  L +    G++ AG G G+      +    A K G  +  +++  
+Sbjct  311  LLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTTQCL  370
+
+Query  63   TGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+             G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  371  FGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3MPS1|GATD_SULIL Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain L.S.2.15 / Lassen #1) 
+OX=429572 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 94.7 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 20/112 (18%), Positives = 41/112 (37%), Gaps = 4/112 (4%)
+
+Query  4    IVYNYANASDLPAK-ALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRVP  62
+            ++Y Y        +  L +    G++ AG G G+      +    A K G  +  +++  
+Sbjct  311  LLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTTQCL  370
+
+Query  63   TGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+             G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  371  FGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|A6UPR4|GATD_METVS Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus vannielii (strain ATCC 35089 / DSM 1224 
+/ JCM 13029 / OCM 148 / SB) OX=406327 GN=gatD PE=3 SV=1
+Length=426
+
+ Score = 90.9 bits (224),  Expect = 3e-21, Method: Composition-based stats.
+ Identities = 22/113 (19%), Positives = 43/113 (38%), Gaps = 4/113 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K+ ++  Y        K  VD GY  IV  G G G+  ++ F  +  A K    V+ S++
+Sbjct  298  KIALIKVYPGIDSEILKFYVDKGYKAIVLEGTGLGHTPETFFSGIDYANKNNVLVLMSTQ  357
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+               G    +   +  +    G +    +  +   V +   L    D +  +++
+Sbjct  358  TINGRVNMNIYSNGRELQSLGVLPCEDILSEVLFVKIMHLLG-NYDLKDAKKL  409
+
+
+> sp|Q9HP20|GATD_HALSA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Halobacterium salinarum (strain ATCC 700922 / JCM 11081 
+/ NRC-1) OX=64091 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 88.2 bits (217),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 30/107 (28%), Positives = 45/107 (42%), Gaps = 5/107 (5%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V +V      ++    A    G  G+V  G G G+++  + DT+ +    GT VV +S+ 
+Sbjct  303  VELVKFTPGMNESLLAAC--EGSAGVVIEGTGLGHVHSDLTDTIGSLVDDGTTVVMTSQC  360
+
+Query  62   PTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQ  105
+              G       D   D    G V +G   P  A+V L  AL    DP+
+Sbjct  361  LEGRVCDRVYDTGRDLLAAGVVEAGDTLPGTAKVKLMWALANADDPE  407
+
+
+> sp|B0R6H4|GATD_HALS3 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Halobacterium salinarum (strain ATCC 29341 / DSM 671 
+/ R1) OX=478009 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 88.2 bits (217),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 30/107 (28%), Positives = 45/107 (42%), Gaps = 5/107 (5%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V +V      ++    A    G  G+V  G G G+++  + DT+ +    GT VV +S+ 
+Sbjct  303  VELVKFTPGMNESLLAAC--EGSAGVVIEGTGLGHVHSDLTDTIGSLVDDGTTVVMTSQC  360
+
+Query  62   PTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQ  105
+              G       D   D    G V +G   P  A+V L  AL    DP+
+Sbjct  361  LEGRVCDRVYDTGRDLLAAGVVEAGDTLPGTAKVKLMWALANADDPE  407
+
+
+> sp|Q18GL3|GATD_HALWD Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Haloquadratum walsbyi (strain DSM 16790 / HBSQ001) 
+OX=362976 GN=gatD PE=3 SV=1
+Length=442
+
+ Score = 84.7 bits (208),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 44/107 (41%), Gaps = 4/107 (4%)
+
+Query  2    VGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            V ++      +     A + D+  DG++ AG G G+++     T+A     G  V  +S+
+Sbjct  316  VMLLTFTPGMNIDRQTAFLTDSTPDGLIIAGTGLGHVHTEFIPTVAELVADGVVVAMTSQ  375
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDP  104
+               G       D   D  + G V +G   P  A+V L  AL    DP
+Sbjct  376  CIEGRVCDRVYDTGRDLLEAGVVEAGDTLPGTAKVKLMWALANHPDP  422
+
+
+> sp|Q979L8|GATD_THEVO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 
+/ JCM 9571 / NBRC 15438 / GSS1) OX=273116 GN=gatD PE=3 SV=1
+Length=406
+
+ Score = 83.5 bits (205),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 47/116 (41%), Gaps = 5/116 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +        + +++ G   +V  G G G++ K +        K G   + +S+
+Sbjct  276  KVSIIYFHPGLVASDVENMIE-GKHAVVIMGTGLGHIAKDLIPVFKNFTKDGNFAIMTSQ  334
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G+   +      +    G +++G + P+ A V     L      ++   +FN+
+Sbjct  335  CIYGSVDMNVYSTGRELIAAGVISAGDMVPEVAYVKAMFTLG-NYGREEFINVFNR  389
+
+
+> sp|Q9HJJ5|GATD_THEAC Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 
+/ JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=gatD PE=3 
+SV=1
+Length=409
+
+ Score = 70.8 bits (172),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 19/117 (16%), Positives = 44/117 (38%), Gaps = 7/117 (6%)
+
+Query  1    KVGIVYNYANASD-LPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +V ++Y +   +       + +     +V  G G G++ K +   +      G   + +S
+Sbjct  276  RVSMIYFHPGLNAGDLENMIAEKHA--VVILGTGLGHMAKDLIPVVKKYTADGNYAIMAS  333
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+            +   G+T  +      +    G + +G + P+ A V     L Q       + +F +
+Sbjct  334  QCIYGSTDLNVYSTGRELLAAGVIEAGNMVPEVAYVKAMYLLGQ-YPHDLFRDLFRK  389
+
+
+> sp|P61401|GATD_NANEQ Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Nanoarchaeum equitans (strain Kin4-M) OX=228908 GN=gatD 
+PE=3 SV=1
+Length=392
+
+ Score = 68.5 bits (166),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 41/110 (37%), Gaps = 4/110 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +++ Y        +   +  Y GI+ AG G G+  K +   L   +K    +  +++
+Sbjct  280  KGALIWVYPGFDPSILEYYRN--YRGIIIAGTGMGHTSKELIPMLKELSKD-LFIGITTQ  336
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTL-NPQKARVLLQLALTQTKDPQQIQQ  109
+               G T         +    A+     P+K  V L   L +  D   I++
+Sbjct  337  CIYGITHPYVYSRGRELSKFATYLQGTPEKNYVKLLYVLGKESDLDGIKK  386
+
+
+> sp|P26900|ASPG1_BACSU L-asparaginase 1 OS=Bacillus subtilis (strain 
+168) OX=224308 GN=ansA PE=2 SV=1
+Length=329
+
+ Score = 67.4 bits (163),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 20/118 (17%), Positives = 42/118 (36%), Gaps = 7/118 (6%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            V ++  +         AL  + Y GIV    G+G +    + +   +    ++G  VV +
+Sbjct  205  VCLLKLHPGLKPEMFDAL-KSMYKGIVIESYGSGGVPFEGRDILSKVNELIESGIVVVIT  263
+
+Query  59   SRVPTGATTQDAEVDDAKYG---FVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+            ++               +      + S  +N +     L  AL Q+ D   +++I   
+Sbjct  264  TQCLEEGEDMSIYEVGRRVNQDLIIRSRNMNTEAIVPKLMWALGQSSDLPVVKRIMET  321
+
+
+> sp|P9WPX5|ASPG_MYCTU Probable L-asparaginase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=ansA PE=1 
+SV=1
+Length=315
+
+ Score = 65.4 bits (158),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTG---TAVVR  57
+            +V IV  Y  +  +   A V AG   +V   +G+GN   +V + +    + G     +  
+Sbjct  199  RVDIVAVYPGSDAVAMDACVAAGARAVVLEALGSGNAGAAVIEGVRRHCRDGSDPVVIAV  258
+
+Query  58   SSRVPTGATTQ--DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQI  107
+            S+RV             D  + G V    L P +ARVLL  AL        +
+Sbjct  259  STRVAGARVGAGYGPGHDLVEAGAVMVPRLPPSQARVLLMAALAANSPVADV  310
+
+
+> sp|P9WPX4|ASPG_MYCTO Probable L-asparaginase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=ansA PE=3 
+SV=1
+Length=315
+
+ Score = 65.4 bits (158),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTG---TAVVR  57
+            +V IV  Y  +  +   A V AG   +V   +G+GN   +V + +    + G     +  
+Sbjct  199  RVDIVAVYPGSDAVAMDACVAAGARAVVLEALGSGNAGAAVIEGVRRHCRDGSDPVVIAV  258
+
+Query  58   SSRVPTGATTQ--DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQI  107
+            S+RV             D  + G V    L P +ARVLL  AL        +
+Sbjct  259  STRVAGARVGAGYGPGHDLVEAGAVMVPRLPPSQARVLLMAALAANSPVADV  310
+
+
+> sp|P63628|ASPG_MYCBO Probable L-asparaginase OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=ansA PE=3 
+SV=1
+Length=315
+
+ Score = 65.4 bits (158),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTG---TAVVR  57
+            +V IV  Y  +  +   A V AG   +V   +G+GN   +V + +    + G     +  
+Sbjct  199  RVDIVAVYPGSDAVAMDACVAAGARAVVLEALGSGNAGAAVIEGVRRHCRDGSDPVVIAV  258
+
+Query  58   SSRVPTGATTQ--DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQI  107
+            S+RV             D  + G V    L P +ARVLL  AL        +
+Sbjct  259  STRVAGARVGAGYGPGHDLVEAGAVMVPRLPPSQARVLLMAALAANSPVADV  310
+
+
+> sp|Q9RRX9|ASPG_DEIRA Probable L-asparaginase OS=Deinococcus radiodurans 
+(strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 
+4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=ansA PE=3 SV=2
+Length=322
+
+ Score = 64.7 bits (156),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 31/118 (26%), Positives = 50/118 (42%), Gaps = 9/118 (8%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y YA          ++   DG+V A +G GNL   +   +A   K    VV ++R
+Sbjct  206  RVEILYAYAGWQGEGYAGALER-ADGLVIAALGTGNLPPELLPLIAATDK---PVVLATR  261
+
+Query  61   VPTGATTQ-----DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G                + G + +  LN  KAR+LL + L      + I+++F Q
+Sbjct  262  THAGPILPVYGYAGGGATLVEAGAIPASFLNAHKARLLLLVLLNLGASREDIRRVFTQ  319
+
+
+> sp|O88202|LPP60_RAT 60 kDa lysophospholipase OS=Rattus norvegicus 
+OX=10116 GN=Aspg PE=1 SV=1
+Length=564
+
+ Score = 64.7 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 24/103 (23%), Positives = 38/103 (37%), Gaps = 4/103 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            VG++  Y        +  +     G+V    G GNG     +   L  AA+ G  +V  +
+Sbjct  238  VGLLRLYPGIPASLVRTFLQPPLKGVVMETFGSGNGPTKPDLIQELRAAAERGLIIVNCT  297
+
+Query  60   RVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+                GA T D    +  A  G ++   +  + A   L   L Q
+Sbjct  298  HCLQGAVTSDYAPGMAMAGAGIISGFDMTSEAALAKLSYVLGQ  340
+
+
+> sp|A0JNU3|LPP60_MOUSE 60 kDa lysophospholipase OS=Mus musculus 
+OX=10090 GN=Aspg PE=1 SV=1
+Length=564
+
+ Score = 64.7 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 39/103 (38%), Gaps = 4/103 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            VG++  Y        +  +     G+V    G GNG     +   L  AA+ G  +V  +
+Sbjct  238  VGLLRLYPGIPASLVRTFLQPPLKGVVMETFGSGNGPTKPDLLQELRVAAEQGLIIVNCT  297
+
+Query  60   RVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+                GA T D  + +  A  G V+   +  + A   L   L Q
+Sbjct  298  HCLQGAVTSDYASGMAMAGAGIVSGFDMTSEAALAKLSYVLGQ  340
+
+
+> sp|Q9X7E6|ASPG_MYCLE Probable L-asparaginase OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=ansA PE=3 SV=1
+Length=310
+
+ Score = 63.1 bits (152),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 28/94 (30%), Positives = 40/94 (43%), Gaps = 2/94 (2%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V IV  Y  +  +   A V  G  GIV   +G+GN   +V D +      G  +  S+R
+Sbjct  197  RVDIVAAYLGSDSVALDAYVSTGARGIVLEALGSGNAGAAVVDGVRRHCHNGIVIAVSTR  256
+
+Query  61   VPTGATTQ--DAEVDDAKYGFVASGTLNPQKARV  92
+            VP G  +       D  + G V    L P + RV
+Sbjct  257  VPEGHVSAGYGPGHDLVEAGAVLVPWLRPSQVRV  290
+
+
+> sp|Q86U10|LPP60_HUMAN 60 kDa lysophospholipase OS=Homo sapiens 
+OX=9606 GN=ASPG PE=2 SV=3
+Length=573
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 39/103 (38%), Gaps = 4/103 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            VG++  Y        +A +     G+V    G GNG     +   L  A + G  +V  +
+Sbjct  238  VGLLRLYPGIPAALVRAFLQPPLKGVVMETFGSGNGPTKPDLLQELRVATERGLVIVNCT  297
+
+Query  60   RVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+                GA T D  A +  A  G ++   +  + A   L   L Q
+Sbjct  298  HCLQGAVTTDYAAGMAMAGAGVISGFDMTSEAALAKLSYVLGQ  340
+
+
+> sp|P30363|ASPG_BACLI L-asparaginase OS=Bacillus licheniformis 
+OX=1402 GN=ansA PE=3 SV=1
+Length=322
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 27/104 (26%), Positives = 43/104 (41%), Gaps = 5/104 (5%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V IV  Y +      +A V  G +GIV  GVG G +  ++   +  A   G  +V ++  
+Sbjct  208  VDIVKCYLDGDGKFIRAAVREGVEGIVLEGVGRGQVPPNMMADIEQALNQGVYIVITTSA  267
+
+Query  62   PTGATTQ-----DAEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+              G          +  D AK G +     + +KAR+ L + L  
+Sbjct  268  EEGEVYTTYDYAGSSYDLAKKGVILGKDYDSKKARMKLAVLLAS  311
+
+
+> sp|P0A962|ASPG1_ECOLI L-asparaginase 1 OS=Escherichia coli (strain 
+K12) OX=83333 GN=ansA PE=1 SV=1
+Length=338
+
+ Score = 61.2 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/117 (20%), Positives = 42/117 (36%), Gaps = 5/117 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +G+V  Y   S    +  +      ++    GVGN    K+    L  A+  G  VV  +
+Sbjct  212  IGVVTIYPGISADVVRNFLRQPVKALILRSYGVGNAPQNKAFLQELQEASDRGIVVVNLT  271
+
+Query  60   RVPTGATTQDAEVDD---AKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+            +  +G             A  G +    +  +     L   L+Q  D + I++  +Q
+Sbjct  272  QCMSGKVNMGGYATGNALAHAGVIGGADMTVEATLTKLHYLLSQELDTETIRKAMSQ  328
+
+
+> sp|P0A963|ASPG1_ECO57 L-asparaginase 1 OS=Escherichia coli O157:H7 
+OX=83334 GN=ansA PE=3 SV=1
+Length=338
+
+ Score = 61.2 bits (147),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/117 (20%), Positives = 42/117 (36%), Gaps = 5/117 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +G+V  Y   S    +  +      ++    GVGN    K+    L  A+  G  VV  +
+Sbjct  212  IGVVTIYPGISADVVRNFLRQPVKALILRSYGVGNAPQNKAFLQELQEASDRGIVVVNLT  271
+
+Query  60   RVPTGATTQDAEVDD---AKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+            +  +G             A  G +    +  +     L   L+Q  D + I++  +Q
+Sbjct  272  QCMSGKVNMGGYATGNALAHAGVIGGADMTVEATLTKLHYLLSQELDTETIRKAMSQ  328
+
+
+> sp|Q9U518|ASPG_DIRIM L-asparaginase OS=Dirofilaria immitis OX=6287 
+PE=1 SV=1
+Length=590
+
+ Score = 57.7 bits (138),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 20/104 (19%), Positives = 38/104 (37%), Gaps = 5/104 (5%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            VG++  + + S    +A + A  +G+V    G GN+      + D L  A   G  ++  
+Sbjct  239  VGLLRIFPSMSIENVRASLQAPIEGVVLQTFGAGNMPSHRTDIIDELKKAVDRGCIIINC  298
+
+Query  59   SRVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+            S+   G               G +    +  + A   L   L++
+Sbjct  299  SQCVRGQVDIHYLTGKVLYDMGIIPGSDMTAEAALTKLSYVLSK  342
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.137    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0425    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4927763328
+Results from round 3
+
+
+Query= 3ecab-2-AS
+
+Length=114
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|O59132|GATD_PYRHO Glutamyl-tRNA(Gln) amidotransferase subuni...  169     6e-50
+  sp|Q8U0X0|GATD_PYRFU Glutamyl-tRNA(Gln) amidotransferase subuni...  167     3e-49
+  sp|Q9V0T9|GATD_PYRAB Glutamyl-tRNA(Gln) amidotransferase subuni...  166     8e-49
+  sp|Q5JI77|GATD_THEKO Glutamyl-tRNA(Gln) amidotransferase subuni...  163     1e-47
+  sp|A1RX40|GATD_THEPD Glutamyl-tRNA(Gln) amidotransferase subuni...  161     7e-47
+  sp|O26802|GATD_METTH Glutamyl-tRNA(Gln) amidotransferase subuni...  161     9e-47
+  sp|Q12X65|GATD_METBU Glutamyl-tRNA(Gln) amidotransferase subuni...  158     7e-46
+  sp|A4YHH3|GATD_METS5 Glutamyl-tRNA(Gln) amidotransferase subuni...  158     1e-45
+  sp|Q8TV84|GATD_METKA Glutamyl-tRNA(Gln) amidotransferase subuni...  157     3e-45
+  sp|Q971W5|GATD_SULTO Glutamyl-tRNA(Gln) amidotransferase subuni...  154     4e-44
+  sp|A5UK11|GATD_METS3 Glutamyl-tRNA(Gln) amidotransferase subuni...  153     9e-44
+  sp|Q97ZH5|GATD_SULSO Glutamyl-tRNA(Gln) amidotransferase subuni...  147     2e-41
+  sp|A6VGK5|GATD_METM7 Glutamyl-tRNA(Gln) amidotransferase subuni...  146     2e-41
+  sp|Q2NEH1|GATD_METST Glutamyl-tRNA(Gln) amidotransferase subuni...  146     2e-41
+  sp|Q60331|GATD_METJA Glutamyl-tRNA(Gln) amidotransferase subuni...  145     4e-41
+  sp|A4FWR5|GATD_METM5 Glutamyl-tRNA(Gln) amidotransferase subuni...  145     4e-41
+  sp|P61400|GATD_METMP Glutamyl-tRNA(Gln) amidotransferase subuni...  144     2e-40
+  sp|A9AA46|GATD_METM6 Glutamyl-tRNA(Gln) amidotransferase subuni...  143     4e-40
+  sp|Q8PUM7|GATD_METMA Glutamyl-tRNA(Gln) amidotransferase subuni...  142     7e-40
+  sp|O29380|GATD_ARCFU Glutamyl-tRNA(Gln) amidotransferase subuni...  142     7e-40
+  sp|Q46GJ6|GATD_METBF Glutamyl-tRNA(Gln) amidotransferase subuni...  141     1e-39
+  sp|Q8TR66|GATD_METAC Glutamyl-tRNA(Gln) amidotransferase subuni...  141     1e-39
+  sp|Q9Y9T8|GATD_AERPE Glutamyl-tRNA(Gln) amidotransferase subuni...  141     3e-39
+  sp|C3NE01|GATD_SULIY Glutamyl-tRNA(Gln) amidotransferase subuni...  141     3e-39
+  sp|C3NHQ2|GATD_SULIN Glutamyl-tRNA(Gln) amidotransferase subuni...  141     3e-39
+  sp|C3MYR5|GATD_SULIM Glutamyl-tRNA(Gln) amidotransferase subuni...  141     3e-39
+  sp|C4KH13|GATD_SULIK Glutamyl-tRNA(Gln) amidotransferase subuni...  141     3e-39
+  sp|C3N5E7|GATD_SULIA Glutamyl-tRNA(Gln) amidotransferase subuni...  141     3e-39
+  sp|C3MPS1|GATD_SULIL Glutamyl-tRNA(Gln) amidotransferase subuni...  141     3e-39
+  sp|Q4J955|GATD_SULAC Glutamyl-tRNA(Gln) amidotransferase subuni...  137     7e-38
+  sp|Q9ZLB9|ASPG_HELPJ Probable L-asparaginase OS=Helicobacter py...  135     1e-37
+  sp|P50286|ASPG_WOLSU L-asparaginase OS=Wolinella succinogenes (...  132     9e-37
+  sp|O68897|ASPQ_PSEFA Glutaminase-asparaginase OS=Pseudomonas fl...  132     2e-36
+  sp|Q88K39|ASPQ_PSEPK Glutaminase-asparaginase OS=Pseudomonas pu...  131     3e-36
+  sp|P10172|ASPQ_ACIGL Glutaminase-asparaginase OS=Acinetobacter ...  130     8e-36
+  sp|P00805|ASPG2_ECOLI L-asparaginase 2 OS=Escherichia coli (str...  129     1e-35
+  sp|Q9I407|ASPQ_PSEAE Glutaminase-asparaginase OS=Pseudomonas ae...  129     2e-35
+  sp|A6UPR4|GATD_METVS Glutamyl-tRNA(Gln) amidotransferase subuni...  129     3e-35
+  sp|O25424|ASPG_HELPY Probable L-asparaginase OS=Helicobacter py...  127     7e-35
+  sp|Q8ZY04|GATD_PYRAE Glutamyl-tRNA(Gln) amidotransferase subuni...  128     1e-34
+  sp|O34482|ASPG2_BACSU L-asparaginase 2 OS=Bacillus subtilis (st...  125     6e-34
+  sp|P10182|ASPQ_PSES7 Glutaminase-asparaginase OS=Pseudomonas sp...  123     3e-33
+  sp|Q979L8|GATD_THEVO Glutamyl-tRNA(Gln) amidotransferase subuni...  123     6e-33
+  sp|P06608|ASPG_DICCH L-asparaginase OS=Dickeya chrysanthemi OX=...  120     4e-32
+  sp|Q9HP20|GATD_HALSA Glutamyl-tRNA(Gln) amidotransferase subuni...  116     2e-30
+  sp|B0R6H4|GATD_HALS3 Glutamyl-tRNA(Gln) amidotransferase subuni...  116     2e-30
+  sp|Q18GL3|GATD_HALWD Glutamyl-tRNA(Gln) amidotransferase subuni...  116     3e-30
+  sp|Q9HJJ5|GATD_THEAC Glutamyl-tRNA(Gln) amidotransferase subuni...  114     1e-29
+  sp|P43843|ASPG2_HAEIN Probable L-asparaginase periplasmic OS=Ha...  113     1e-29
+  sp|P26900|ASPG1_BACSU L-asparaginase 1 OS=Bacillus subtilis (st...  110     1e-28
+  sp|P61401|GATD_NANEQ Glutamyl-tRNA(Gln) amidotransferase subuni...  109     6e-28
+  sp|P0A962|ASPG1_ECOLI L-asparaginase 1 OS=Escherichia coli (str...  108     6e-28
+  sp|P0A963|ASPG1_ECO57 L-asparaginase 1 OS=Escherichia coli O157...  108     6e-28
+  sp|Q9UTS7|ASPG2_SCHPO Probable L-asparaginase 2 OS=Schizosaccha...  105     1e-26
+  sp|O88202|LPP60_RAT 60 kDa lysophospholipase OS=Rattus norvegic...  106     2e-26
+  sp|P87015|ASPG1_SCHPO Probable L-asparaginase 1 OS=Schizosaccha...  104     3e-26
+  sp|P0CX79|ASP24_YEAST L-asparaginase 2-4 OS=Saccharomyces cerev...  104     4e-26
+  sp|P0CX78|ASP23_YEAST L-asparaginase 2-3 OS=Saccharomyces cerev...  104     4e-26
+  sp|P0CX77|ASP22_YEAST L-asparaginase 2-2 OS=Saccharomyces cerev...  104     4e-26
+  sp|P0CZ17|ASP21_YEAST L-asparaginase 2-1 OS=Saccharomyces cerev...  104     4e-26
+  sp|Q8NKC0|ASPG3_SCHPO Probable L-asparaginase 3 OS=Schizosaccha...  104     4e-26
+  sp|Q8TFF8|ASPG4_SCHPO Probable L-asparaginase 4 OS=Schizosaccha...  103     5e-26
+  sp|A0JNU3|LPP60_MOUSE 60 kDa lysophospholipase OS=Mus musculus ...  103     3e-25
+  sp|Q86U10|LPP60_HUMAN 60 kDa lysophospholipase OS=Homo sapiens ...   99     6e-24
+  sp|Q9U518|ASPG_DIRIM L-asparaginase OS=Dirofilaria immitis OX=6...  99.2    1e-23
+  sp|P38986|ASPG1_YEAST L-asparaginase 1 OS=Saccharomyces cerevis...  95.7    5e-23
+  sp|P9WPX5|ASPG_MYCTU Probable L-asparaginase OS=Mycobacterium t...  94.5    9e-23
+  sp|P9WPX4|ASPG_MYCTO Probable L-asparaginase OS=Mycobacterium t...  94.5    9e-23
+  sp|P63628|ASPG_MYCBO Probable L-asparaginase OS=Mycobacterium b...  94.5    9e-23
+  sp|P30363|ASPG_BACLI L-asparaginase OS=Bacillus licheniformis O...  93.4    2e-22
+  sp|Q9X7E6|ASPG_MYCLE Probable L-asparaginase OS=Mycobacterium l...  88.4    1e-20
+  sp|Q9RRX9|ASPG_DEIRA Probable L-asparaginase OS=Deinococcus rad...  82.6    1e-18
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|O59132|GATD_PYRHO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 
+/ JCM 9974 / NBRC 100139 / OT-3) OX=70601 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 169 bits (429),  Expect = 6e-50, Method: Composition-based stats.
+ Identities = 29/114 (25%), Positives = 50/114 (44%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S    +  +D GY GIV  G G G+    +  ++  A + G AV  +S+
+Sbjct  306  KVALVKVYPGISSEIIEFFIDKGYRGIVIEGTGLGHTPNDIIPSIQRATEEGIAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T+D ++++++ 
+Sbjct  366  CIYGRVNLNVYATGRRLLKAGVIPCEDMLPETAYVKLMWVLGHTQDLEEVRRMM  419
+
+
+> sp|Q8U0X0|GATD_PYRFU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus furiosus (strain ATCC 43587 / DSM 3638 / 
+JCM 8422 / Vc1) OX=186497 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 167 bits (424),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 31/114 (27%), Positives = 47/114 (41%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S      LVD GY GIV  G G G+    +  ++  A   G AV  +S+
+Sbjct  306  KVALVKVYPGMSAELIDFLVDKGYKGIVIEGTGLGHTPSDLIPSIKRAVDEGVAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T D ++ +++ 
+Sbjct  366  CLYGRVNLNVYATGRKLLKAGVIPCEDMLPETAYVKLMWVLGHTNDLREAKKMM  419
+
+
+> sp|Q9V0T9|GATD_PYRAB Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrococcus abyssi (strain GE5 / Orsay) OX=272844 GN=gatD 
+PE=1 SV=1
+Length=438
+
+ Score = 166 bits (422),  Expect = 8e-49, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 50/114 (44%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S      LVD GY GIV  G G G+    +  ++  A + G AV  +S+
+Sbjct  306  KVALVKVYPGISSEIIDFLVDKGYKGIVIEGTGLGHTPNDIIPSIERAVEEGVAVCMTSQ  365
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T++ ++++++ 
+Sbjct  366  CIYGRVNLNVYSTGRKLLKAGVIPCEDMLPETAYVKLMWVLGHTQNLEEVRKMM  419
+
+
+> sp|Q5JI77|GATD_THEKO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 
+12380 / KOD1) OX=69014 GN=gatD PE=3 SV=1
+Length=440
+
+ Score = 163 bits (414),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 49/114 (43%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+  Y   +    + LVD GY GIV  G G G+    +   +  A + G AV  +S+
+Sbjct  308  KVAILKIYPGVTSELLEFLVDRGYKGIVIEGTGLGHTPNDMIPAIERAVENGVAVCMTSQ  367
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         K G +    + P+ A V L   L  T D ++++++ 
+Sbjct  368  CLYGRVNLNVYSTGRRLLKAGVIPCEDMLPETAYVKLGWVLGHTDDLKEVRRMM  421
+
+
+> sp|A1RX40|GATD_THEPD Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermofilum pendens (strain DSM 2475 / Hrk 5) OX=368408 
+GN=gatD PE=3 SV=1
+Length=451
+
+ Score = 161 bits (409),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 32/115 (28%), Positives = 55/115 (48%), Gaps = 3/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V  Y   S       ++ G+ G+V  G G G++  ++ D++    + G  V  +S+
+Sbjct  316  KVALVKFYPGMSPDIFDFYLEKGFKGLVIEGTGLGHVSTALIDSVRRLVREGVFVAMASQ  375
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+               G    +         K G V +G + P+ A V L   L QT+DP++IQ++F 
+Sbjct  376  CIFGRVNMNVYRTGVELIKAGVVPAGDMIPETAYVKLSWILGQTEDPEEIQRLFT  430
+
+
+> sp|O26802|GATD_METTH Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanothermobacter thermautotrophicus (strain ATCC 
+29096 / DSM 1053 / JCM 10044 / NBRC 100330 / Delta H) OX=187420 
+GN=gatD PE=1 SV=1
+Length=435
+
+ Score = 161 bits (407),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 48/116 (41%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V  + +Y   S    K  +D GY GIV  G G G+   ++   +  A   G  V  +S+
+Sbjct  303  RVAFIKSYPGISPDIIKWHLDEGYRGIVIEGTGLGHCPDTLIPVIGEAHDMGVPVAMTSQ  362
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +      +    G +    + P+ A V +   L QT DP+  +++  +
+Sbjct  363  CLNGRVNMNVYSTGRRLLQAGVIPCDDMLPEVAYVKMCWVLGQTDDPEMAREMMRE  418
+
+
+> sp|Q12X65|GATD_METBU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcoides burtonii (strain DSM 6242 / NBRC 107633 
+/ OCM 468 / ACE-M) OX=259564 GN=gatD PE=3 SV=1
+Length=415
+
+ Score = 158 bits (400),  Expect = 7e-46, Method: Composition-based stats.
+ Identities = 28/115 (24%), Positives = 48/115 (42%), Gaps = 3/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +V     A+       +D+GY G+V  G G G++       +  A + G  V+ +S+
+Sbjct  288  KCSLVKFVPGANPDVLSYYIDSGYKGLVIEGTGLGHVSTDWIPNIKRATENGIPVIMTSQ  347
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+              +G              K G +    + P+ A V L  AL Q+ D  +I++I  
+Sbjct  348  CISGRVCDRVYDTGRDILKAGAIEGEDMLPEVALVKLMWALGQSNDVDEIKEIMR  402
+
+
+> sp|A4YHH3|GATD_METS5 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Metallosphaera sedula (strain ATCC 51363 / DSM 5348 
+/ JCM 9185 / NBRC 15509 / TH2) OX=399549 GN=gatD PE=3 SV=1
+Length=439
+
+ Score = 158 bits (399),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 29/114 (25%), Positives = 48/114 (42%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V ++  Y          L+ +GY GI+  G G G+      +    A K G  V  +S+
+Sbjct  303  RVFLLKFYPGLRPDIVDILLSSGYRGIIVEGTGLGHTSSDFQEAFKRAVKEGLFVGMTSQ  362
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         + G V  G + P+ A V L  AL QT D +++++I 
+Sbjct  363  CLFGRVNMNVYQTGRLLQQSGVVPLGDMLPEVALVKLMWALGQTSDLEEVKRIM  416
+
+
+> sp|Q8TV84|GATD_METKA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanopyrus kandleri (strain AV19 / DSM 6324 / JCM 
+9639 / NBRC 100938) OX=190192 GN=gatD PE=3 SV=1
+Length=458
+
+ Score = 157 bits (398),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 28/116 (24%), Positives = 48/116 (41%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV +V              VD GY GIV  G G G++ +   +++  A   G AVV +S+
+Sbjct  318  KVALVKFAPGMDPEVLDFYVDRGYRGIVLEGTGLGHVSEQWLESIERAVDDGIAVVMTSQ  377
+
+Query  61   VPTGATTQDAEVDD---AKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +           G +    + P+ A V L   L +T D ++++++   
+Sbjct  378  CLYGRVNMNVYRTGRLLRAVGVIPGEDMLPEVAYVKLMYVLDRTDDIKEVERLMRT  433
+
+
+> sp|Q971W5|GATD_SULTO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus tokodaii (strain DSM 16993 / JCM 10545 / 
+NBRC 100140 / 7) OX=273063 GN=gatD PE=3 SV=1
+Length=448
+
+ Score = 154 bits (389),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 42/114 (37%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V ++  Y   +    + L+ +G  GI+  G G G+      D    A K G  +  +S+
+Sbjct  307  RVFLLKYYPGINPEIIEYLISSGIRGIIVEGTGLGHTSTEFVDYFKKATKDGVFIGMTSQ  366
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         + G      + P+ A V L   L    D  +I+ + 
+Sbjct  367  CLFGRVNMNVYTTGRLLQESGVTPLEDMLPETALVKLMWVLAHESDLDKIRSLM  420
+
+
+> sp|A5UK11|GATD_METS3 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanobrevibacter smithii (strain ATCC 35061 / DSM 
+861 / OCM 144 / PS) OX=420247 GN=gatD PE=3 SV=1
+Length=436
+
+ Score = 153 bits (387),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 28/116 (24%), Positives = 52/116 (45%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVG++ ++    +   +  +D GY G+V  G G G++   +   LA A      VV +S+
+Sbjct  304  KVGLIKSFPGICEELIEYHIDKGYKGLVIEGTGLGHVPDKLITPLARAHDENIPVVMTSQ  363
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +      +    G ++   + P+ A V L   L QT D  ++ ++ N+
+Sbjct  364  CLYGRVNMNVYSTGREILNAGVISGRDMTPETAYVKLSWVLGQTNDIGEVAKLMNK  419
+
+
+> sp|Q97ZH5|GATD_SULSO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus solfataricus (strain ATCC 35092 / DSM 1617 
+/ JCM 11322 / P2) OX=273057 GN=gatD PE=3 SV=1
+Length=444
+
+ Score = 147 bits (371),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 23/115 (20%), Positives = 43/115 (37%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAK-ALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +V ++Y Y        +  L +    GI+ AG G G+      +    A K G  +  ++
+Sbjct  307  RVFLLYYYPGLDRDFLEQMLTNTKIRGIIIAGTGLGHTSSDHIELFRKATKDGIFIGMTT  366
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++IQ + 
+Sbjct  367  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIQNLM  421
+
+
+> sp|A6VGK5|GATD_METM7 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain C7 / ATCC BAA-1331) 
+OX=426368 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 146 bits (370),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 47/116 (41%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDKGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +  +    G +    +  + A V L   L    + +  +++ ++
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLSEVAFVKLMYLLG-NYEIEDAKELMSK  404
+
+
+> sp|Q2NEH1|GATD_METST Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosphaera stadtmanae (strain ATCC 43021 / DSM 
+3091 / JCM 11832 / MCB-3) OX=339860 GN=gatD PE=3 SV=1
+Length=438
+
+ Score = 146 bits (369),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 30/116 (26%), Positives = 45/116 (39%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y   S       VD  YDGIV  G G G+    V  ++  A      VV +S+
+Sbjct  305  KVALIKMYPGISPEIIDIYVDKNYDGIVIEGTGLGHCSDDVITSITRATSEDIPVVMTSQ  364
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G T  +      +      +  G + P+ A   L  A  QT +  +I +I   
+Sbjct  365  CLFGRTNMNVYSSGRRLLQNNVIGVGDMLPETAYTKLLWAAGQTDNVSEIYEIMKT  420
+
+
+> sp|Q60331|GATD_METJA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanocaldococcus jannaschii (strain ATCC 43067 / 
+DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440) OX=243232 GN=gatD 
+PE=3 SV=1
+Length=417
+
+ Score = 145 bits (367),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 51/116 (44%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        +  VD  Y GIV  G G G+  + +F+ +  A   G  VV +++
+Sbjct  288  KVALIKVYPGMDGEIIRFYVDKEYKGIVLEGTGLGHAPEYIFEHIKYATDKGVVVVMTTQ  347
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +     K G +    + P+ A V L   L    +P++++++ N+
+Sbjct  348  TINGRVNMNVYSNGRELQKLGVIGCEDMPPEVALVKLMYLLG-NYEPEEVKKLINK  402
+
+
+> sp|A4FWR5|GATD_METM5 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain C5 / ATCC BAA-1333) 
+OX=402880 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 145 bits (367),  Expect = 4e-41, Method: Composition-based stats.
+ Identities = 23/116 (20%), Positives = 48/116 (41%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDNGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +  +    G +    + P+ A V L   L      ++ +++ ++
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLPEVAFVKLMHLLG-NYGFEESKELMSK  404
+
+
+> sp|P61400|GATD_METMP Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain S2 / LL) OX=267377 
+GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 144 bits (363),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 48/116 (41%), Gaps = 4/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDNGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +   +  +    G +    +  + A V L   L    + ++ +++ ++
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLSEVAFVKLMHLLG-NYEFKEAKELMSK  404
+
+
+> sp|A9AA46|GATD_METM6 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus maripaludis (strain C6 / ATCC BAA-1332) 
+OX=444158 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 143 bits (360),  Expect = 4e-40, Method: Composition-based stats.
+ Identities = 22/114 (19%), Positives = 46/114 (40%), Gaps = 4/114 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  Y        K  VD GY GI+  G G G+  ++ F+ +  A +    V  +++
+Sbjct  290  KVALIKVYPGIDSEILKFYVDNGYKGIILEGTGLGHTPETFFEGIDYANENNVLVAMTTQ  349
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +   +  +    G +    +  + A V L   L    + ++ +++ 
+Sbjct  350  TINGRVNMNVYSNGRELQAKGVIPCEDMLSEVAFVKLMHLLG-NYEFEEAKELM  402
+
+
+> sp|Q8PUM7|GATD_METMA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosarcina mazei (strain ATCC BAA-159 / DSM 3647 
+/ Goe1 / Go1 / JCM 11833 / OCM 88) OX=192952 GN=gatD PE=3 
+SV=1
+Length=425
+
+ Score = 142 bits (359),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 28/116 (24%), Positives = 42/116 (36%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  IV     A        VD GY G+V  G G G++       +  A      V+ +S+
+Sbjct  298  KCAIVKFTPGADPSVLDCYVDGGYKGLVLEGTGLGHVSTKWIPFIRRAVDAKMPVIVTSQ  357
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G       D   D  K G +      P+ A V L   L QT + ++   +  +
+Sbjct  358  CLNGRVCDRVYDTGRDMLKAGAIEGEDTLPETALVKLMWVLGQTDEFEKAVSMLGE  413
+
+
+> sp|O29380|GATD_ARCFU Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / 
+DSM 4304 / JCM 9628 / NBRC 100126) OX=224325 GN=gatD PE=3 SV=1
+Length=418
+
+ Score = 142 bits (358),  Expect = 7e-40, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 42/116 (36%), Gaps = 5/116 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV ++  +   S    +     GY G V  G G G++     DTL    +    VV +S+
+Sbjct  293  KVVLIKFFPGLSSDILEYYHSKGYRGFVIEGTGLGHVSTDWIDTLRRVCEDSV-VVMTSQ  351
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G              + G +    + P+ A + L   L      ++ +++  +
+Sbjct  352  CLWGRVCDRVYDTGRDILRAGVIEGEDMLPEVALIKLMWLLG-NYSIEEAKEMVKK  406
+
+
+> sp|Q46GJ6|GATD_METBF Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosarcina barkeri (strain Fusaro / DSM 804) OX=269797 
+GN=gatD PE=3 SV=1
+Length=424
+
+ Score = 141 bits (357),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 25/116 (22%), Positives = 43/116 (37%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +V     +        +D+GY G+V  G G G++       +  A      V+ +S+
+Sbjct  297  KCALVKFTPGSGPEILDHYIDSGYRGLVLEGTGLGHVSTKWIPKIQKATDAKMPVIVTSQ  356
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G       D   D  K G +      P+ A V L   L QT +  +  ++  +
+Sbjct  357  CLNGRICDRVYDTGRDMLKAGAIEGEDTLPEIALVKLMWVLGQTDEFNEAVKMLRE  412
+
+
+> sp|Q8TR66|GATD_METAC Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanosarcina acetivorans (strain ATCC 35395 / DSM 
+2834 / JCM 12185 / C2A) OX=188937 GN=gatD PE=3 SV=1
+Length=424
+
+ Score = 141 bits (357),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 27/116 (23%), Positives = 41/116 (35%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +V     A        +  GY G+V  G G G++       L  A      V+ +S+
+Sbjct  297  KCALVKFTPGADPTVLDYYISNGYKGLVVEGTGLGHISTKWIPLLRKATDAKMPVIVTSQ  356
+
+Query  61   VPTGATTQ---DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G       D   D  K G +      P+ A V L   L QT D ++   +  +
+Sbjct  357  CLNGRICDRVYDTGRDMLKAGAIEGEDTLPETALVKLMWVLGQTDDFEKAAGMLRE  412
+
+
+> sp|Q9Y9T8|GATD_AERPE Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Aeropyrum pernix (strain ATCC 700893 / DSM 11879 / 
+JCM 9820 / NBRC 100138 / K1) OX=272557 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 24/116 (21%), Positives = 52/116 (45%), Gaps = 3/116 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V +V ++         AL+D G+ GIV  G G G++      ++  A   G  +V +++
+Sbjct  291  RVALVKHFPGLISEVIDALLDRGFKGIVVEGTGFGHVSSDAIKSIERARDQGVPIVITTQ  350
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G    +      K    G + +G +  + A   L   L +T++ + ++++F +
+Sbjct  351  TVFGRVNLNVYSTGRKMLAAGAIPAGDMTSEAAYAKLSWILARTRELEVVRKMFQR  406
+
+
+> sp|C3NE01|GATD_SULIY Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain Y.G.57.14 / Yellowstone 
+#1) OX=439386 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 19/115 (17%), Positives = 43/115 (37%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +  ++Y Y        + ++ +    G++ AG G G+      +    A K G  +  ++
+Sbjct  308  RAFLLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTT  367
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  368  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3NHQ2|GATD_SULIN Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain Y.N.15.51 / Yellowstone 
+#2) OX=419942 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 19/115 (17%), Positives = 43/115 (37%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +  ++Y Y        + ++ +    G++ AG G G+      +    A K G  +  ++
+Sbjct  308  RAFLLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTT  367
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  368  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3MYR5|GATD_SULIM Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain M.14.25 / Kamchatka #1) 
+OX=427317 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 19/115 (17%), Positives = 43/115 (37%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +  ++Y Y        + ++ +    G++ AG G G+      +    A K G  +  ++
+Sbjct  308  RAFLLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTT  367
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  368  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C4KH13|GATD_SULIK Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain M.16.4 / Kamchatka #3) 
+OX=426118 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 19/115 (17%), Positives = 43/115 (37%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +  ++Y Y        + ++ +    G++ AG G G+      +    A K G  +  ++
+Sbjct  308  RAFLLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTT  367
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  368  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3N5E7|GATD_SULIA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain M.16.27) OX=427318 GN=gatD 
+PE=3 SV=1
+Length=445
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 19/115 (17%), Positives = 43/115 (37%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +  ++Y Y        + ++ +    G++ AG G G+      +    A K G  +  ++
+Sbjct  308  RAFLLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTT  367
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  368  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|C3MPS1|GATD_SULIL Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus islandicus (strain L.S.2.15 / Lassen #1) 
+OX=429572 GN=gatD PE=3 SV=1
+Length=445
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 19/115 (17%), Positives = 43/115 (37%), Gaps = 4/115 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            +  ++Y Y        + ++ +    G++ AG G G+      +    A K G  +  ++
+Sbjct  308  RAFLLYYYPGLDRDFLEHILTNTKIRGLIIAGTGLGHTSSDYVELFRKATKDGIFIGMTT  367
+
+Query  60   RVPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+            +   G    +      +    G      + P+ A V L   L   +D ++I+ + 
+Sbjct  368  QCLFGRVNMNVYTTGRQLLDAGVTPLEDMLPEVALVKLMWVLAHEQDLEKIRSLM  422
+
+
+> sp|Q4J955|GATD_SULAC Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Sulfolobus acidocaldarius (strain ATCC 33909 / DSM 
+639 / JCM 8929 / NBRC 15157 / NCIMB 11770) OX=330779 GN=gatD 
+PE=3 SV=1
+Length=446
+
+ Score = 137 bits (345),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 25/114 (22%), Positives = 46/114 (40%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V ++  Y   S    + L+ +G  GI+  G G G+     ++    A+K G  +  +S+
+Sbjct  305  RVFLLKYYPGLSPDMVEHLISSGIRGIIIEGTGLGHTSSDFYEVFKKASKDGVFIGMTSQ  364
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+               G    +         + G V    + P+ A V L   L    D  +I++I 
+Sbjct  365  CLFGRVNMNVYTTGRLLQEAGVVPLEDMLPETALVKLMWTLAHENDLDRIKEIM  418
+
+
+> sp|Q9ZLB9|ASPG_HELPJ Probable L-asparaginase OS=Helicobacter 
+pylori (strain J99 / ATCC 700824) OX=85963 GN=ansA PE=1 SV=1
+Length=332
+
+ Score = 135 bits (340),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 53/114 (46%), Positives = 74/114 (65%), Gaps = 1/114 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +A  +    +A +++   G+V AGVGNGN+       +  A++ G  +VRSSR
+Sbjct  220  KVDIIYTHAGMTPDLFQASLNSHAKGVVIAGVGNGNVSAGFLKAMQEASQMGVVIVRSSR  279
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G  T   E+DD  YGF+ S  LNPQKARVLLQLALT+T D  +IQ++F +Y
+Sbjct  280  VGSGGVT-SGEIDDKAYGFITSDNLNPQKARVLLQLALTKTNDKAKIQEMFEEY  332
+
+
+> sp|P50286|ASPG_WOLSU L-asparaginase OS=Wolinella succinogenes 
+(strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 
+602W) OX=273121 GN=ansA PE=1 SV=2
+Length=330
+
+ Score = 132 bits (333),  Expect = 9e-37, Method: Composition-based stats.
+ Identities = 61/114 (54%), Positives = 82/114 (72%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y + + +D+   A + AG  GI+ AG+GNGN +    + L  AAK+G  V RSSR
+Sbjct  217  RVDILYAHPDDTDVLVNAALQAGAKGIIHAGMGNGNPFPLTQNALEKAAKSGVVVARSSR  276
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G+TTQ+AEVDD K GFVA+ +LNPQKARVLL LALT+T D + IQ+IF+ Y
+Sbjct  277  VGSGSTTQEAEVDDKKLGFVATESLNPQKARVLLMLALTKTSDREAIQKIFSTY  330
+
+
+> sp|O68897|ASPQ_PSEFA Glutaminase-asparaginase OS=Pseudomonas 
+fluorescens biotype A OX=32035 GN=ansB PE=1 SV=1
+Length=362
+
+ Score = 132 bits (332),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 49/114 (43%), Positives = 68/114 (60%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V I Y Y N SD   KAL  AG   I+ AG GNG++   V   L    K G  ++RSS V
+Sbjct  249  VEIAYGYGNVSDTAVKALAQAGAKAIIHAGTGNGSVSSKVVPALQELRKQGVQIIRSSHV  308
+
+Query  62   PTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+              G    ++AE  D KY +V +  LNPQKAR+L  +ALT+T+D +++Q++F +Y
+Sbjct  309  NAGGFVLRNAEQPDDKYDWVVAHDLNPQKARILAMVALTKTQDSKELQRMFWEY  362
+
+
+> sp|Q88K39|ASPQ_PSEPK Glutaminase-asparaginase OS=Pseudomonas 
+putida (strain ATCC 47054 / DSM 6125 / NCIMB 11950 / KT2440) 
+OX=160488 GN=ansB PE=3 SV=1
+Length=362
+
+ Score = 131 bits (331),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 45/115 (39%), Positives = 67/115 (58%), Gaps = 1/115 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I Y Y N +D   KAL   G   ++ AG GNG++   V   L    K G  ++RSS 
+Sbjct  248  QVDIAYGYGNVTDTAYKALAQNGAKALIHAGTGNGSVSSRVVPALQELRKNGVQIIRSSH  307
+
+Query  61   VPTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G    ++AE  D K  +V +  LNPQKAR+L  +A+T+T+D +++Q+IF +Y
+Sbjct  308  VNQGGFVLRNAEQPDDKNDWVVAHDLNPQKARILAMVAMTKTQDSKELQRIFWEY  362
+
+
+> sp|P10172|ASPQ_ACIGL Glutaminase-asparaginase OS=Acinetobacter 
+glutaminasificans OX=474 GN=ansB PE=1 SV=1
+Length=331
+
+ Score = 130 bits (327),  Expect = 8e-36, Method: Composition-based stats.
+ Identities = 47/114 (41%), Positives = 66/114 (58%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAA-KTGTAVVRSSR  60
+            V IVY   N      +A   AG   I+ AG GNG++   +   +     + G  +VRSSR
+Sbjct  218  VQIVYGSDNMMPDAYQAFAKAGVKAIIHAGTGNGSMANYLVPEVRKLHDEQGLQIVRSSR  277
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G   ++AE  D KYG++A+  LNPQKAR+L+ LALT+T D ++IQ +F  Y
+Sbjct  278  VAQGFVLRNAEQPDDKYGWIAAHDLNPQKARLLMALALTKTNDAKEIQNMFWNY  331
+
+
+> sp|P00805|ASPG2_ECOLI L-asparaginase 2 OS=Escherichia coli (strain 
+K12) OX=83333 GN=ansB PE=1 SV=2
+Length=348
+
+ Score = 129 bits (326),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR
+Sbjct  235  KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  294
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY
+Sbjct  295  VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  348
+
+
+> sp|Q9I407|ASPQ_PSEAE Glutaminase-asparaginase OS=Pseudomonas 
+aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 
+14847 / LMG 12228 / 1C / PRS 101 / PAO1) OX=208964 GN=ansB 
+PE=1 SV=1
+Length=362
+
+ Score = 129 bits (325),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 48/114 (42%), Positives = 69/114 (61%), Gaps = 1/114 (1%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V I Y+Y N SD   KAL  AG   I+ AG GNG++   V  TL    K G  ++RSS V
+Sbjct  249  VEIAYSYGNVSDTAYKALAQAGAKAIIHAGTGNGSVPARVVPTLQELRKQGVQIIRSSHV  308
+
+Query  62   PTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+              G    ++AE  D K  ++ +  LNPQKAR+L  +A+T+T+D +++Q+IF +Y
+Sbjct  309  NAGGFVLRNAEQPDDKNDWIVAHDLNPQKARILAAVAMTKTQDSKELQRIFWEY  362
+
+
+> sp|A6UPR4|GATD_METVS Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Methanococcus vannielii (strain ATCC 35089 / DSM 1224 
+/ JCM 13029 / OCM 148 / SB) OX=406327 GN=gatD PE=3 SV=1
+Length=426
+
+ Score = 129 bits (326),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 22/113 (19%), Positives = 43/113 (38%), Gaps = 4/113 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K+ ++  Y        K  VD GY  IV  G G G+  ++ F  +  A K    V+ S++
+Sbjct  298  KIALIKVYPGIDSEILKFYVDKGYKAIVLEGTGLGHTPETFFSGIDYANKNNVLVLMSTQ  357
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQI  110
+               G    +   +  +    G +    +  +   V +   L    D +  +++
+Sbjct  358  TINGRVNMNIYSNGRELQSLGVLPCEDILSEVLFVKIMHLLG-NYDLKDAKKL  409
+
+
+> sp|O25424|ASPG_HELPY Probable L-asparaginase OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=ansA PE=3 SV=1
+Length=330
+
+ Score = 127 bits (320),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 50/114 (44%), Positives = 73/114 (64%), Gaps = 3/114 (3%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +A  +    +A +++   G+V AGVGNGN+       +  A++ G  +VRSSR
+Sbjct  220  KVDIIYTHAGMTPDLFQASLNSHAKGVVIAGVGNGNVSAGFLKAMQEASQMGVVIVRSSR  279
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V +G  T   E+DD    F+ S  LNPQKARVLLQLALT+T + ++IQ++F +Y
+Sbjct  280  VNSGEIT-SGEIDDKA--FITSDNLNPQKARVLLQLALTKTNNKEKIQEMFEEY  330
+
+
+> sp|Q8ZY04|GATD_PYRAE Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Pyrobaculum aerophilum (strain ATCC 51768 / IM2 / DSM 
+7523 / JCM 9630 / NBRC 100827) OX=178306 GN=gatD PE=3 SV=1
+Length=417
+
+ Score = 128 bits (321),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 21/115 (18%), Positives = 42/115 (37%), Gaps = 4/115 (3%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V +V  Y        +AL++ G  G+V  G G G++ + V   +      G  V  +S+ 
+Sbjct  286  VALVKFYPGMHPRLLEALLEVGMKGVVIEGTGFGHVGEGVLPAVKKLIDAGVIVAMTSQT  345
+
+Query  62   PTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+              G           +    G +    + P+ A   +  AL      +++ ++   
+Sbjct  346  LYGRVNLYVYRRGRELLSMGVIPLEDMLPETAYAKMSWALA-NFKREEVPRVLTT  399
+
+
+> sp|O34482|ASPG2_BACSU L-asparaginase 2 OS=Bacillus subtilis (strain 
+168) OX=224308 GN=ansZ PE=2 SV=1
+Length=375
+
+ Score = 125 bits (315),  Expect = 6e-34, Method: Composition-based stats.
+ Identities = 54/114 (47%), Positives = 68/114 (60%), Gaps = 2/114 (2%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y Y N       A V AG  GIV AG GNG+L  +      +A K G  VVRS+R
+Sbjct  264  QVDIIYGYQNDGSYLFDAAVKAGAKGIVFAGSGNGSLSDAAEKGADSAVKKGVTVVRSTR  323
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+               G  T +   D A+   +AS +LNPQKAR+LL LALT+T DPQ+IQ  FN+Y
+Sbjct  324  TGNGVVTPN--QDYAEKDLLASNSLNPQKARMLLMLALTKTNDPQKIQAYFNEY  375
+
+
+> sp|P10182|ASPQ_PSES7 Glutaminase-asparaginase OS=Pseudomonas 
+sp. (strain ATCC 29598 / 7A) OX=313 GN=ansB PE=1 SV=2
+Length=337
+
+ Score = 123 bits (309),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 46/115 (40%), Positives = 72/115 (63%), Gaps = 1/115 (1%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I Y+Y N +D   KAL   G   ++ AG GNG++   +   L T  KTGT ++RSS 
+Sbjct  223  QVDIAYSYGNVTDTAYKALAQNGAKALIHAGTGNGSVSSRLTPALQTLRKTGTQIIRSSH  282
+
+Query  61   VPTGA-TTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            V  G    ++AE  D K  +V +  LNP+KAR+L++LA+ +T+D +++Q+IF +Y
+Sbjct  283  VNQGGFVLRNAEQPDDKNDWVVAHDLNPEKARILVELAMVKTQDSKELQRIFWEY  337
+
+
+> sp|Q979L8|GATD_THEVO Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermoplasma volcanium (strain ATCC 51530 / DSM 4299 
+/ JCM 9571 / NBRC 15438 / GSS1) OX=273116 GN=gatD PE=3 SV=1
+Length=406
+
+ Score = 123 bits (309),  Expect = 6e-33, Method: Composition-based stats.
+ Identities = 22/116 (19%), Positives = 47/116 (41%), Gaps = 5/116 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y +        + +++ G   +V  G G G++ K +        K G   + +S+
+Sbjct  276  KVSIIYFHPGLVASDVENMIE-GKHAVVIMGTGLGHIAKDLIPVFKNFTKDGNFAIMTSQ  334
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G+   +      +    G +++G + P+ A V     L      ++   +FN+
+Sbjct  335  CIYGSVDMNVYSTGRELIAAGVISAGDMVPEVAYVKAMFTLG-NYGREEFINVFNR  389
+
+
+> sp|P06608|ASPG_DICCH L-asparaginase OS=Dickeya chrysanthemi OX=556 
+GN=ansB PE=1 SV=1
+Length=348
+
+ Score = 120 bits (302),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 42/114 (37%), Positives = 61/114 (54%), Gaps = 5/114 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KV I+Y Y +  +    A +  G  GIV AG+G G++       +  A + G  V+RS+R
+Sbjct  240  KVDILYGYQDDPEYLYDAAIQHGVKGIVYAGMGAGSVSVRGIAGMRKAMEKGVVVIRSTR  299
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+               G    D E+       + S +LNP  AR+LL LALT+T DP+ IQ+ F+ Y
+Sbjct  300  TGNGIVPPDEELPG-----LVSDSLNPAHARILLMLALTRTSDPKVIQEYFHTY  348
+
+
+> sp|Q9HP20|GATD_HALSA Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Halobacterium salinarum (strain ATCC 700922 / JCM 11081 
+/ NRC-1) OX=64091 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 116 bits (292),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 43/107 (40%), Gaps = 5/107 (5%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V +V      ++    A    G  G+V  G G G+++  + DT+ +    GT VV +S+ 
+Sbjct  303  VELVKFTPGMNESLLAAC--EGSAGVVIEGTGLGHVHSDLTDTIGSLVDDGTTVVMTSQC  360
+
+Query  62   PTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQ  105
+              G                G V +G   P  A+V L  AL    DP+
+Sbjct  361  LEGRVCDRVYDTGRDLLAAGVVEAGDTLPGTAKVKLMWALANADDPE  407
+
+
+> sp|B0R6H4|GATD_HALS3 Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Halobacterium salinarum (strain ATCC 29341 / DSM 671 
+/ R1) OX=478009 GN=gatD PE=3 SV=1
+Length=427
+
+ Score = 116 bits (292),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 43/107 (40%), Gaps = 5/107 (5%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V +V      ++    A    G  G+V  G G G+++  + DT+ +    GT VV +S+ 
+Sbjct  303  VELVKFTPGMNESLLAAC--EGSAGVVIEGTGLGHVHSDLTDTIGSLVDDGTTVVMTSQC  360
+
+Query  62   PTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQ  105
+              G                G V +G   P  A+V L  AL    DP+
+Sbjct  361  LEGRVCDRVYDTGRDLLAAGVVEAGDTLPGTAKVKLMWALANADDPE  407
+
+
+> sp|Q18GL3|GATD_HALWD Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Haloquadratum walsbyi (strain DSM 16790 / HBSQ001) 
+OX=362976 GN=gatD PE=3 SV=1
+Length=442
+
+ Score = 116 bits (290),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 26/112 (23%), Positives = 43/112 (38%), Gaps = 4/112 (4%)
+
+Query  2    VGIVYNYANASDLPAKALV-DAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            V ++      +     A + D+  DG++ AG G G+++     T+A     G  V  +S+
+Sbjct  316  VMLLTFTPGMNIDRQTAFLTDSTPDGLIIAGTGLGHVHTEFIPTVAELVADGVVVAMTSQ  375
+
+Query  61   VPTGATTQDAEVDDA---KYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQ  109
+               G              + G V +G   P  A+V L  AL    DP    +
+Sbjct  376  CIEGRVCDRVYDTGRDLLEAGVVEAGDTLPGTAKVKLMWALANHPDPTNAMR  427
+
+
+> sp|Q9HJJ5|GATD_THEAC Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 
+/ JCM 9062 / NBRC 15155 / AMRC-C165) OX=273075 GN=gatD PE=3 
+SV=1
+Length=409
+
+ Score = 114 bits (285),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 19/116 (16%), Positives = 45/116 (39%), Gaps = 5/116 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V ++Y +   +    + ++      +V  G G G++ K +   +      G   + +S+
+Sbjct  276  RVSMIYFHPGLNAGDLENMIAEK-HAVVILGTGLGHMAKDLIPVVKKYTADGNYAIMASQ  334
+
+Query  61   VPTGATTQDAEVDDAK---YGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G+T  +      +    G + +G + P+ A V     L Q       + +F +
+Sbjct  335  CIYGSTDLNVYSTGRELLAAGVIEAGNMVPEVAYVKAMYLLGQ-YPHDLFRDLFRK  389
+
+
+> sp|P43843|ASPG2_HAEIN Probable L-asparaginase periplasmic OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 
+/ Rd) OX=71421 GN=ansB PE=1 SV=1
+Length=349
+
+ Score = 113 bits (283),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 81/114 (71%), Positives = 91/114 (80%), Gaps = 0/114 (0%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            KVGI+Y Y+NA   P  AL++AGY GIVSAGVGNGN+  +  D L  AAK    VVRSSR
+Sbjct  236  KVGIIYAYSNAPVEPLNALLNAGYQGIVSAGVGNGNVNAAHLDRLEKAAKDSVVVVRSSR  295
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQY  114
+            VPTG TT+DAEVDD+KYGFVASGTLNPQKARVLLQLALTQTKDP+ IQQ F  +
+Sbjct  296  VPTGYTTRDAEVDDSKYGFVASGTLNPQKARVLLQLALTQTKDPKVIQQYFEDF  349
+
+
+> sp|P26900|ASPG1_BACSU L-asparaginase 1 OS=Bacillus subtilis (strain 
+168) OX=224308 GN=ansA PE=2 SV=1
+Length=329
+
+ Score = 110 bits (276),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 19/118 (16%), Positives = 42/118 (36%), Gaps = 7/118 (6%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            V ++  +         A + + Y GIV    G+G +    + +   +    ++G  VV +
+Sbjct  205  VCLLKLHPGLKPEMFDA-LKSMYKGIVIESYGSGGVPFEGRDILSKVNELIESGIVVVIT  263
+
+Query  59   SRVPTGATTQDAEVDDAKYG---FVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+            ++               +      + S  +N +     L  AL Q+ D   +++I   
+Sbjct  264  TQCLEEGEDMSIYEVGRRVNQDLIIRSRNMNTEAIVPKLMWALGQSSDLPVVKRIMET  321
+
+
+> sp|P61401|GATD_NANEQ Glutamyl-tRNA(Gln) amidotransferase subunit 
+D OS=Nanoarchaeum equitans (strain Kin4-M) OX=228908 GN=gatD 
+PE=3 SV=1
+Length=392
+
+ Score = 109 bits (272),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 22/114 (19%), Positives = 42/114 (37%), Gaps = 4/114 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            K  +++ Y        +   +  Y GI+ AG G G+  K +   L   +K    +  +++
+Sbjct  280  KGALIWVYPGFDPSILEYYRN--YRGIIIAGTGMGHTSKELIPMLKELSKD-LFIGITTQ  336
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTL-NPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G T         +    A+     P+K  V L   L +  D   I++   +
+Sbjct  337  CIYGITHPYVYSRGRELSKFATYLQGTPEKNYVKLLYVLGKESDLDGIKKEMKR  390
+
+
+> sp|P0A962|ASPG1_ECOLI L-asparaginase 1 OS=Escherichia coli (strain 
+K12) OX=83333 GN=ansA PE=1 SV=1
+Length=338
+
+ Score = 108 bits (271),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 22/117 (19%), Positives = 41/117 (35%), Gaps = 5/117 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY--KSVFDTLATAAKTGTAVVRSS  59
+            +G+V  Y   S    +  +      ++    G GN    K+    L  A+  G  VV  +
+Sbjct  212  IGVVTIYPGISADVVRNFLRQPVKALILRSYGVGNAPQNKAFLQELQEASDRGIVVVNLT  271
+
+Query  60   RVPTGATTQDAEVDD---AKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+            +  +G             A  G +    +  +     L   L+Q  D + I++  +Q
+Sbjct  272  QCMSGKVNMGGYATGNALAHAGVIGGADMTVEATLTKLHYLLSQELDTETIRKAMSQ  328
+
+
+> sp|P0A963|ASPG1_ECO57 L-asparaginase 1 OS=Escherichia coli O157:H7 
+OX=83334 GN=ansA PE=3 SV=1
+Length=338
+
+ Score = 108 bits (271),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 22/117 (19%), Positives = 41/117 (35%), Gaps = 5/117 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY--KSVFDTLATAAKTGTAVVRSS  59
+            +G+V  Y   S    +  +      ++    G GN    K+    L  A+  G  VV  +
+Sbjct  212  IGVVTIYPGISADVVRNFLRQPVKALILRSYGVGNAPQNKAFLQELQEASDRGIVVVNLT  271
+
+Query  60   RVPTGATTQDAEVDD---AKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+            +  +G             A  G +    +  +     L   L+Q  D + I++  +Q
+Sbjct  272  QCMSGKVNMGGYATGNALAHAGVIGGADMTVEATLTKLHYLLSQELDTETIRKAMSQ  328
+
+
+> sp|Q9UTS7|ASPG2_SCHPO Probable L-asparaginase 2 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC977.12 
+PE=3 SV=1
+Length=356
+
+ Score = 105 bits (262),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 52/113 (46%), Gaps = 8/113 (7%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATA-AKTGTAVVRSS  59
+            +V I+Y Y   +   A++ V  G  G+V A +G  +      + +++   +    VV S 
+Sbjct  249  RVDILYGYQGLNPKLAESAVHLGAKGLVLAAMGATSWTDDGNEVISSLIREHNIPVVYSH  308
+
+Query  60   RVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+            R   G ++            + S  LNPQKAR +L LA++     + I+ +F+
+Sbjct  309  RTAEGYSSNSCL-------GIPSYFLNPQKARYMLMLAISSGYSIRDIEDLFS  354
+
+
+> sp|O88202|LPP60_RAT 60 kDa lysophospholipase OS=Rattus norvegicus 
+OX=10116 GN=Aspg PE=1 SV=1
+Length=564
+
+ Score = 106 bits (266),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 24/103 (23%), Positives = 38/103 (37%), Gaps = 4/103 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            VG++  Y        +  +     G+V    G GNG     +   L  AA+ G  +V  +
+Sbjct  238  VGLLRLYPGIPASLVRTFLQPPLKGVVMETFGSGNGPTKPDLIQELRAAAERGLIIVNCT  297
+
+Query  60   RVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+                GA T D    +  A  G ++   +  + A   L   L Q
+Sbjct  298  HCLQGAVTSDYAPGMAMAGAGIISGFDMTSEAALAKLSYVLGQ  340
+
+
+> sp|P87015|ASPG1_SCHPO Probable L-asparaginase 1 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAC186.03 
+PE=3 SV=1
+Length=360
+
+ Score = 104 bits (260),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 35/112 (31%), Positives = 48/112 (43%), Gaps = 8/112 (7%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATA-AKTGTAVVRSSR  60
+            V I+Y Y   +   AKA VD G  G+V AG+G  +      + +    +     VV S R
+Sbjct  253  VEILYGYQGLNPNLAKAAVDLGAKGLVLAGMGAASWTDPGNEVIDGLISNQSIPVVYSHR  312
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+               G         D  Y  + S   NPQKAR +L L++      Q I  IF+
+Sbjct  313  TMDG-------FSDYYYNGIPSYFQNPQKARYMLMLSINAGYSIQNITDIFS  357
+
+
+> sp|P0CX79|ASP24_YEAST L-asparaginase 2-4 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-4 PE=1 
+SV=1
+Length=362
+
+ Score = 104 bits (259),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CX78|ASP23_YEAST L-asparaginase 2-3 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-3 PE=1 
+SV=1
+Length=362
+
+ Score = 104 bits (259),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CX77|ASP22_YEAST L-asparaginase 2-2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-2 PE=1 
+SV=1
+Length=362
+
+ Score = 104 bits (259),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|P0CZ17|ASP21_YEAST L-asparaginase 2-1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP3-1 PE=1 
+SV=1
+Length=362
+
+ Score = 104 bits (259),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 39/114 (34%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPA-KALVDAGYDGIVSAGVGNGNLYKSV-FDTLATAAKTGTAVVRS  58
+            +V I+Y+Y   +     KA+ D G  GIV AG G G+   +          + G  +V S
+Sbjct  248  EVIILYSYQGLNPELIVKAVKDLGAKGIVLAGSGAGSWTATGSIVNEQLYEEYGIPIVHS  307
+
+Query  59   SRVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+             R   G        DDA    + SG LNPQK+R+LLQL L       QI+ +F+
+Sbjct  308  RRTADGTVPP----DDAPEYAIGSGYLNPQKSRILLQLCLYSGYGMDQIRSVFS  357
+
+
+> sp|Q8NKC0|ASPG3_SCHPO Probable L-asparaginase 3 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBPB21E7.09 
+PE=3 SV=1
+Length=360
+
+ Score = 104 bits (259),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 34/112 (30%), Positives = 48/112 (43%), Gaps = 8/112 (7%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATA-AKTGTAVVRSSR  60
+            V I+Y Y   +   AKA VD G  G+V AG+G  +      + +    +     VV S R
+Sbjct  253  VEILYGYQGLNPNLAKAAVDLGAKGLVLAGMGAASWTDPGNEVIDGLISNQSIPVVYSHR  312
+
+Query  61   VPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+               G         D  Y  + +   NPQKAR +L L++      Q I  IF+
+Sbjct  313  TMDG-------FSDYYYNGIPAYFQNPQKARYMLMLSINAGYSIQNITDIFS  357
+
+
+> sp|Q8TFF8|ASPG4_SCHPO Probable L-asparaginase 4 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPAP8B6.05c 
+PE=3 SV=1
+Length=356
+
+ Score = 103 bits (258),  Expect = 5e-26, Method: Composition-based stats.
+ Identities = 29/113 (26%), Positives = 52/113 (46%), Gaps = 8/113 (7%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATA-AKTGTAVVRSS  59
+            +V I+Y Y   +   A++ V  G  G+V A +G  +      + +++   +    VV S 
+Sbjct  249  RVDILYGYQGLNPKLAESAVHLGAKGLVLAAMGATSWTDDGNEVISSLIREHNIPVVYSH  308
+
+Query  60   RVPTGATTQDAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+            R   G ++            + S  LNPQKAR +L LA++     + I+ +F+
+Sbjct  309  RTAEGYSSNSCL-------GIPSYFLNPQKARYMLMLAISSGYSIRDIEGLFS  354
+
+
+> sp|A0JNU3|LPP60_MOUSE 60 kDa lysophospholipase OS=Mus musculus 
+OX=10090 GN=Aspg PE=1 SV=1
+Length=564
+
+ Score = 103 bits (258),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 25/103 (24%), Positives = 39/103 (38%), Gaps = 4/103 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            VG++  Y        +  +     G+V    G GNG     +   L  AA+ G  +V  +
+Sbjct  238  VGLLRLYPGIPASLVRTFLQPPLKGVVMETFGSGNGPTKPDLLQELRVAAEQGLIIVNCT  297
+
+Query  60   RVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+                GA T D  + +  A  G V+   +  + A   L   L Q
+Sbjct  298  HCLQGAVTSDYASGMAMAGAGIVSGFDMTSEAALAKLSYVLGQ  340
+
+
+> sp|Q86U10|LPP60_HUMAN 60 kDa lysophospholipase OS=Homo sapiens 
+OX=9606 GN=ASPG PE=2 SV=3
+Length=573
+
+ Score =  99 bits (248),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 25/117 (21%), Positives = 43/117 (37%), Gaps = 5/117 (4%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSA--GVGNGNLYKSVFDTLATAAKTGTAVVRSS  59
+            VG++  Y        +A +     G+V    G GNG     +   L  A + G  +V  +
+Sbjct  238  VGLLRLYPGIPAALVRAFLQPPLKGVVMETFGSGNGPTKPDLLQELRVATERGLVIVNCT  297
+
+Query  60   RVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ-TKDPQQIQQIFNQ  113
+                GA T D  A +  A  G ++   +  + A   L   L Q        +++  +
+Sbjct  298  HCLQGAVTTDYAAGMAMAGAGVISGFDMTSEAALAKLSYVLGQPGLSLDVRKELLTK  354
+
+
+> sp|Q9U518|ASPG_DIRIM L-asparaginase OS=Dirofilaria immitis OX=6287 
+PE=1 SV=1
+Length=590
+
+ Score = 99.2 bits (246),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 20/104 (19%), Positives = 38/104 (37%), Gaps = 5/104 (5%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLY---KSVFDTLATAAKTGTAVVRS  58
+            VG++  + + S    +A + A  +G+V    G GN+      + D L  A   G  ++  
+Sbjct  239  VGLLRIFPSMSIENVRASLQAPIEGVVLQTFGAGNMPSHRTDIIDELKKAVDRGCIIINC  298
+
+Query  59   SRVPTGATTQD--AEVDDAKYGFVASGTLNPQKARVLLQLALTQ  100
+            S+   G               G +    +  + A   L   L++
+Sbjct  299  SQCVRGQVDIHYLTGKVLYDMGIIPGSDMTAEAALTKLSYVLSK  342
+
+
+> sp|P38986|ASPG1_YEAST L-asparaginase 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=ASP1 PE=1 SV=1
+Length=381
+
+ Score = 95.7 bits (237),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 34/114 (30%), Positives = 54/114 (47%), Gaps = 6/114 (5%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y +          + D  YDGIV A +G G+L + V +T     K    +V S R
+Sbjct  267  EVCILYAHQAFPPAIVNLVADK-YDGIVLATMGAGSLPEEVNET---CMKLSLPIVYSKR  322
+
+Query  61   VPTGATTQ-DAEVDD-AKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFN  112
+               G     +       +   +ASG L+P+K+R+LLQL L      ++I+ +F 
+Sbjct  323  SMDGMVPIANVPKKGSKEDNLIASGYLSPEKSRILLQLCLAGNYTLEEIKHVFT  376
+
+
+> sp|P9WPX5|ASPG_MYCTU Probable L-asparaginase OS=Mycobacterium 
+tuberculosis (strain ATCC 25618 / H37Rv) OX=83332 GN=ansA PE=1 
+SV=1
+Length=315
+
+ Score = 94.5 bits (234),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTG---TAVVR  57
+            +V IV  Y  +  +   A V AG   +V   +G+GN   +V + +    + G     +  
+Sbjct  199  RVDIVAVYPGSDAVAMDACVAAGARAVVLEALGSGNAGAAVIEGVRRHCRDGSDPVVIAV  258
+
+Query  58   SSRVPTGATTQ--DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQI  107
+            S+RV             D  + G V    L P +ARVLL  AL        +
+Sbjct  259  STRVAGARVGAGYGPGHDLVEAGAVMVPRLPPSQARVLLMAALAANSPVADV  310
+
+
+> sp|P9WPX4|ASPG_MYCTO Probable L-asparaginase OS=Mycobacterium 
+tuberculosis (strain CDC 1551 / Oshkosh) OX=83331 GN=ansA PE=3 
+SV=1
+Length=315
+
+ Score = 94.5 bits (234),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTG---TAVVR  57
+            +V IV  Y  +  +   A V AG   +V   +G+GN   +V + +    + G     +  
+Sbjct  199  RVDIVAVYPGSDAVAMDACVAAGARAVVLEALGSGNAGAAVIEGVRRHCRDGSDPVVIAV  258
+
+Query  58   SSRVPTGATTQ--DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQI  107
+            S+RV             D  + G V    L P +ARVLL  AL        +
+Sbjct  259  STRVAGARVGAGYGPGHDLVEAGAVMVPRLPPSQARVLLMAALAANSPVADV  310
+
+
+> sp|P63628|ASPG_MYCBO Probable L-asparaginase OS=Mycobacterium 
+bovis (strain ATCC BAA-935 / AF2122/97) OX=233413 GN=ansA PE=3 
+SV=1
+Length=315
+
+ Score = 94.5 bits (234),  Expect = 9e-23, Method: Composition-based stats.
+ Identities = 29/112 (26%), Positives = 44/112 (39%), Gaps = 5/112 (4%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTG---TAVVR  57
+            +V IV  Y  +  +   A V AG   +V   +G+GN   +V + +    + G     +  
+Sbjct  199  RVDIVAVYPGSDAVAMDACVAAGARAVVLEALGSGNAGAAVIEGVRRHCRDGSDPVVIAV  258
+
+Query  58   SSRVPTGATTQ--DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQI  107
+            S+RV             D  + G V    L P +ARVLL  AL        +
+Sbjct  259  STRVAGARVGAGYGPGHDLVEAGAVMVPRLPPSQARVLLMAALAANSPVADV  310
+
+
+> sp|P30363|ASPG_BACLI L-asparaginase OS=Bacillus licheniformis 
+OX=1402 GN=ansA PE=3 SV=1
+Length=322
+
+ Score = 93.4 bits (231),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 30/115 (26%), Positives = 48/115 (42%), Gaps = 7/115 (6%)
+
+Query  2    VGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSRV  61
+            V IV  Y +      +A V  G +GIV  GVG G +  ++   +  A   G  +V ++  
+Sbjct  208  VDIVKCYLDGDGKFIRAAVREGVEGIVLEGVGRGQVPPNMMADIEQALNQGVYIVITTSA  267
+
+Query  62   PTGATTQ-----DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIF  111
+              G          +  D AK G +     + +KAR+ L + L   K  + I+  F
+Sbjct  268  EEGEVYTTYDYAGSSYDLAKKGVILGKDYDSKKARMKLAVLLASYK--EGIKDKF  320
+
+
+> sp|Q9X7E6|ASPG_MYCLE Probable L-asparaginase OS=Mycobacterium 
+leprae (strain TN) OX=272631 GN=ansA PE=3 SV=1
+Length=310
+
+ Score = 88.4 bits (218),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 28/94 (30%), Positives = 40/94 (43%), Gaps = 2/94 (2%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V IV  Y  +  +   A V  G  GIV   +G+GN   +V D +      G  +  S+R
+Sbjct  197  RVDIVAAYLGSDSVALDAYVSTGARGIVLEALGSGNAGAAVVDGVRRHCHNGIVIAVSTR  256
+
+Query  61   VPTGATTQ--DAEVDDAKYGFVASGTLNPQKARV  92
+            VP G  +       D  + G V    L P + RV
+Sbjct  257  VPEGHVSAGYGPGHDLVEAGAVLVPWLRPSQVRV  290
+
+
+> sp|Q9RRX9|ASPG_DEIRA Probable L-asparaginase OS=Deinococcus radiodurans 
+(strain ATCC 13939 / DSM 20539 / JCM 16871 / LMG 
+4051 / NBRC 15346 / NCIMB 9279 / R1 / VKM B-1422) OX=243230 
+GN=ansA PE=3 SV=2
+Length=322
+
+ Score = 82.6 bits (203),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 31/118 (26%), Positives = 50/118 (42%), Gaps = 9/118 (8%)
+
+Query  1    KVGIVYNYANASDLPAKALVDAGYDGIVSAGVGNGNLYKSVFDTLATAAKTGTAVVRSSR  60
+            +V I+Y YA          ++   DG+V A +G GNL   +   +A   K    VV ++R
+Sbjct  206  RVEILYAYAGWQGEGYAGALER-ADGLVIAALGTGNLPPELLPLIAATDK---PVVLATR  261
+
+Query  61   VPTGATTQ-----DAEVDDAKYGFVASGTLNPQKARVLLQLALTQTKDPQQIQQIFNQ  113
+               G                + G + +  LN  KAR+LL + L      + I+++F Q
+Sbjct  262  THAGPILPVYGYAGGGATLVEAGAIPASFLNAHKARLLLLVLLNLGASREDIRRVFTQ  319
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.155    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0477    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4927763328
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

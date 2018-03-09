@@ -1,0 +1,5188 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 9insb
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|F8WCM5|INSR2_HUMAN Insulin, isoform 2 OS=Homo sapiens OX=960...  70.9    6e-16
+  sp|P01314|INS_BALBO Insulin OS=Balaenoptera borealis OX=9768 GN...  65.9    5e-15
+  sp|P67974|INS_PHYCD Insulin OS=Physeter catodon OX=9755 GN=INS ...  65.5    5e-15
+  sp|P67973|INS_BALPH Insulin OS=Balaenoptera physalus OX=9770 GN...  65.5    5e-15
+  sp|P01321|INS_CANLF Insulin OS=Canis lupus familiaris OX=9615 G...  67.0    6e-15
+  sp|P06306|INS_FELCA Insulin OS=Felis catus OX=9685 GN=INS PE=1 ...  67.0    6e-15
+  sp|P01315|INS_PIG Insulin OS=Sus scrofa OX=9823 GN=INS PE=1 SV=2    66.6    6e-15
+  sp|P01319|INS_CAPHI Insulin OS=Capra hircus OX=9925 GN=INS PE=1...  65.5    7e-15
+  sp|P01317|INS_BOVIN Insulin OS=Bos taurus OX=9913 GN=INS PE=1 SV=2  66.2    8e-15
+  sp|P01310|INS_HORSE Insulin OS=Equus caballus OX=9796 GN=INS PE...  65.9    9e-15
+  sp|P01318|INS_SHEEP Insulin OS=Ovis aries OX=9940 GN=INS PE=1 SV=2  66.2    1e-14
+  sp|P01313|INS_CRILO Insulin OS=Cricetulus longicaudatus OX=1003...  65.9    1e-14
+  sp|P01311|INS_RABIT Insulin OS=Oryctolagus cuniculus OX=9986 GN...  65.9    1e-14
+  sp|P01324|INS_ACOCA Insulin OS=Acomys cahirinus OX=10068 GN=INS...  64.3    2e-14
+  sp|Q91XI3|INS_ICTTR Insulin OS=Ictidomys tridecemlineatus OX=43...  65.5    2e-14
+  sp|P01320|INS_CAMDR Insulin OS=Camelus dromedarius OX=9838 GN=I...  64.3    2e-14
+  sp|P18109|INS_DIDVI Insulin OS=Didelphis virginiana OX=9267 GN=...  63.9    2e-14
+  sp|P01316|INS_ELEMA Insulin OS=Elephas maximus OX=9783 GN=INS P...  63.9    2e-14
+  sp|Q8HXV2|INS_PONPY Insulin OS=Pongo pygmaeus OX=9600 GN=INS PE...  65.1    3e-14
+  sp|P30410|INS_PANTR Insulin OS=Pan troglodytes OX=9598 GN=INS P...  65.1    3e-14
+  sp|P01308|INS_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1...  65.1    3e-14
+  sp|Q6YK33|INS_GORGO Insulin OS=Gorilla gorilla gorilla OX=9595 ...  65.1    3e-14
+  sp|P30406|INS_MACFA Insulin OS=Macaca fascicularis OX=9541 GN=I...  65.1    3e-14
+  sp|P30407|INS_CHLAE Insulin OS=Chlorocebus aethiops OX=9534 GN=...  65.1    3e-14
+  sp|Q62587|INS_PSAOB Insulin OS=Psammomys obesus OX=48139 GN=INS...  64.7    4e-14
+  sp|P51463|INS_SELRF Insulin (Fragment) OS=Selasphorus rufus OX=...  62.4    2e-13
+  sp|P83770|INSL_VIGUN Insulin-like protein (Fragments) OS=Vigna ...  60.8    4e-13
+  sp|P69048|INS_TRASC Insulin OS=Trachemys scripta OX=34903 GN=IN...  60.8    4e-13
+  sp|P69047|INS_TRADO Insulin OS=Trachemys dorbigni OX=31137 GN=I...  60.8    4e-13
+  sp|P67969|INS_STRCA Insulin OS=Struthio camelus OX=8801 GN=INS ...  60.8    4e-13
+  sp|P67968|INS_MELGA Insulin OS=Meleagris gallopavo OX=9103 GN=I...  60.8    4e-13
+  sp|P01322|INS1_RAT Insulin-1 OS=Rattus norvegicus OX=10116 GN=I...  61.6    5e-13
+  sp|P67971|INS_SAISC Insulin OS=Saimiri sciureus OX=9521 GN=INS ...  60.5    6e-13
+  sp|P01325|INS1_MOUSE Insulin-1 OS=Mus musculus OX=10090 GN=Ins1...  61.6    6e-13
+  sp|P67970|INS_CHICK Insulin OS=Gallus gallus OX=9031 GN=INS PE=...  61.6    6e-13
+  sp|P67972|INS_AOTTR Insulin OS=Aotus trivirgatus OX=9505 GN=INS...  61.2    7e-13
+  sp|P01326|INS2_MOUSE Insulin-2 OS=Mus musculus OX=10090 GN=Ins2...  60.8    9e-13
+  sp|P01327|INS_CHICH Insulin OS=Chinchilla chinchilla OX=10152 G...  60.5    1e-12
+  sp|P01323|INS2_RAT Insulin-2 OS=Rattus norvegicus OX=10116 GN=I...  60.8    1e-12
+  sp|P68243|INS_CAIMO Insulin OS=Cairina moschata OX=8855 GN=INS ...  59.3    2e-12
+  sp|P68245|INS_ANSAN Insulin OS=Anser anser anser OX=8844 GN=INS...  59.3    2e-12
+  sp|P01328|INS_HYSCR Insulin OS=Hystrix cristata OX=10137 GN=INS...  58.9    2e-12
+  sp|P81423|INS_ACIGU Insulin OS=Acipenser gueldenstaedtii OX=790...  58.5    3e-12
+  sp|P01333|INS_ANAPL Insulin OS=Anas platyrhynchos OX=8839 GN=IN...  58.9    3e-12
+  sp|P12706|INS1_XENLA Insulin-1 OS=Xenopus laevis OX=8355 GN=ins...  59.3    4e-12
+  sp|P21563|INS_RODSP Insulin OS=Rodentia sp. OX=69158 GN=INS PE=...  58.9    5e-12
+  sp|C0HJI8|INS2_HUSDA Insulin-2 OS=Huso dauricus OX=55293 PE=1 SV=1  57.4    9e-12
+  sp|P12707|INS2_XENLA Insulin-2 OS=Xenopus laevis OX=8355 GN=ins...  57.8    2e-11
+  sp|Q9W7R2|INS_VERMO Insulin OS=Verasper moseri OX=98923 GN=ins ...  57.0    3e-11
+  sp|Q9TQY7|INS_ORNAN Insulin OS=Ornithorhynchus anatinus OX=9258...  55.8    3e-11
+  sp|P04667|INS_ONCKE Insulin OS=Oncorhynchus keta OX=8018 GN=ins...  56.6    4e-11
+  sp|P12703|INS_ALLMI Insulin OS=Alligator mississippiensis OX=84...  55.5    4e-11
+  sp|P09477|INS_PLAFE Insulin OS=Platichthys flesus OX=8260 GN=in...  55.5    4e-11
+  sp|P09476|INS_ATRSP Insulin OS=Atractosteus spatula OX=7917 GN=...  55.5    5e-11
+  sp|P01340|INS_KATPE Insulin OS=Katsuwonus pelamis OX=8226 GN=in...  55.1    6e-11
+  sp|C0HJI3|INS2_KATPE Insulin-2 OS=Katsuwonus pelamis OX=8226 PE...  55.1    6e-11
+  sp|P69045|INS_LOPAM Insulin OS=Lophius americanus OX=8073 GN=in...  55.5    1e-10
+  sp|P01336|INS_GADMC Insulin OS=Gadus morhua subsp. callarias OX...  54.3    1e-10
+  sp|P69046|INS_LOPPI Insulin OS=Lophius piscatorius OX=8074 GN=i...  54.3    1e-10
+  sp|P07453|INS_MYOSC Insulin OS=Myoxocephalus scorpius OX=8097 G...  54.3    1e-10
+  sp|P01339|INS_THUTH Insulin OS=Thunnus thynnus OX=8237 GN=ins P...  54.3    1e-10
+  sp|C0HJT9|INS_SERQU Insulin OS=Seriola quinqueradiata OX=8161 G...  54.3    1e-10
+  sp|C0HJI1|INS_CARSE Insulin OS=Caranx sexfasciatus OX=173346 PE...  54.3    1e-10
+  sp|C0HJI6|INS2_THUOR Insulin-2 OS=Thunnus orientalis OX=8238 PE...  54.3    1e-10
+  sp|P01337|INS1_BATSP Insulin-1 OS=Batrachoididae sp. OX=8066 GN...  54.3    1e-10
+  sp|C0HJU0|INS_PLATA Insulin OS=Platax teira OX=334891 GN=ins PE...  54.3    1e-10
+  sp|C0HJI4|INS_PAGMA Insulin OS=Pagrus major OX=143350 PE=1 SV=1     54.3    1e-10
+  sp|P68990|INS_ONCKI Insulin OS=Oncorhynchus kisutch OX=8019 GN=...  53.9    1e-10
+  sp|P68989|INS_ONCGO Insulin OS=Oncorhynchus gorbuscha OX=8017 G...  53.9    1e-10
+  sp|Q98TA8|INS_PANBU Insulin OS=Pantodon buchholzi OX=8276 GN=in...  54.3    3e-10
+  sp|P01334|INS_CROAT Insulin OS=Crotalus atrox OX=8730 GN=INS PE...  53.1    3e-10
+  sp|P81025|INS_ORENI Insulin OS=Oreochromis niloticus OX=8128 GN...  53.9    4e-10
+  sp|P0C236|INS_POLSE Insulin OS=Polypterus senegalus OX=55291 GN...  53.1    4e-10
+  sp|C0HJI7|INS1_HUSDA Insulin-1 OS=Huso dauricus OX=55293 PE=1 SV=1  52.8    5e-10
+  sp|P12708|INS_PTYDH Insulin OS=Ptyas dhumnades OX=8587 GN=INS P...  52.8    5e-10
+  sp|P68987|INS_PETMA Insulin OS=Petromyzon marinus OX=7757 GN=in...  52.4    8e-10
+  sp|P68988|INS_LAMFL Insulin OS=Lampetra fluviatilis OX=7748 GN=...  52.4    8e-10
+  sp|C0HJI5|INS1_THUOR Insulin-1 OS=Thunnus orientalis OX=8238 PE...  51.6    1e-09
+  sp|P13190|INS_CALMI Insulin OS=Callorhinchus milii OX=7868 GN=i...  52.4    1e-09
+  sp|C0HJI2|INS1_KATPE Insulin-1 OS=Katsuwonus pelamis OX=8226 PE...  51.6    1e-09
+  sp|P68992|INS_HYDCO Insulin OS=Hydrolagus colliei OX=7873 GN=in...  51.2    2e-09
+  sp|P68991|INS_CHIMO Insulin OS=Chimaera monstrosa OX=7871 GN=in...  51.2    2e-09
+  sp|P29335|INS_AMICA Insulin OS=Amia calva OX=7924 GN=ins PE=1 SV=1  51.2    2e-09
+  sp|P42633|INS_ANGRO Insulin OS=Anguilla rostrata OX=7938 GN=ins...  50.8    2e-09
+  sp|P81881|INS_PIAME Insulin OS=Piaractus mesopotamicus OX=42528...  50.8    3e-09
+  sp|P01335|INS_CYPCA Insulin OS=Cyprinus carpio OX=7962 GN=ins P...  51.6    3e-09
+  sp|P12705|INS_TORMA Insulin (Fragments) OS=Torpedo marmorata OX...  50.8    3e-09
+  sp|O73727|INS_DANRE Insulin OS=Danio rerio OX=7955 GN=ins PE=3 ...  50.8    5e-09
+  sp|P01338|INS2_BATSP Insulin 2 OS=Batrachoididae sp. OX=8066 GN...  49.3    9e-09
+  sp|P12704|INS_SQUAC Insulin OS=Squalus acanthias OX=7797 GN=ins...  49.3    1e-08
+  sp|P01329|INS_CAVPO Insulin OS=Cavia porcellus OX=10141 GN=INS ...  47.4    9e-08
+  sp|P01342|INS_MYXGL Insulin OS=Myxine glutinosa OX=7769 GN=ins ...  43.1    3e-06
+  sp|P17715|INS_OCTDE Insulin OS=Octodon degus OX=10160 GN=INS PE...  41.6    9e-06
+  sp|P22618|IGF_MYXGL Insulin-like growth factor (Fragment) OS=My...  37.7    4e-04
+  sp|P01330|INS_MYOCO Insulin OS=Myocastor coypus OX=10157 GN=INS...  36.6    5e-04
+  sp|P01331|INS_PROGU Insulin OS=Proechimys guairae OX=10163 GN=I...  35.8    9e-04
+  sp|Q28933|IGF1_SUNMU Insulin-like growth factor I (Fragment) OS...  35.4    0.001
+  sp|Q95222|IGF1_RABIT Insulin-like growth factor I OS=Oryctolagu...  36.2    0.002
+  sp|P51462|IGF1_COTJA Insulin-like growth factor I (Fragment) OS...  35.4    0.002
+  sp|P05019|IGF1_HUMAN Insulin-like growth factor I OS=Homo sapie...  36.2    0.003
+  sp|P17647|IGF1_CAVPO Insulin-like growth factor I OS=Cavia porc...  35.0    0.003
+  sp|P51458|IGF1_HORSE Insulin-like growth factor I (Fragment) OS...  35.0    0.003
+  sp|P51457|IGF1_CAPHI Insulin-like growth factor I OS=Capra hirc...  35.4    0.004
+  sp|Q68LC0|IGF1_RHIRO Insulin-like growth factor I OS=Rhinopithe...  35.4    0.004
+  sp|Q6IVA5|IGF1_AILFU Insulin-like growth factor I OS=Ailurus fu...  35.4    0.004
+  sp|P10763|IGF1_SHEEP Insulin-like growth factor I OS=Ovis aries...  35.4    0.004
+  sp|P07455|IGF1_BOVIN Insulin-like growth factor I OS=Bos taurus...  35.4    0.004
+  sp|P18254|IGF1_CHICK Insulin-like growth factor I OS=Gallus gal...  35.4    0.004
+  sp|P33712|IGF1_CANLF Insulin-like growth factor I OS=Canis lupu...  35.0    0.004
+  sp|P16545|IGF1_PIG Insulin-like growth factor I OS=Sus scrofa O...  35.0    0.004
+  sp|Q6JLX1|IGF1_AILME Insulin-like growth factor I OS=Ailuropoda...  35.0    0.004
+  sp|Q6GUL6|IGF1_PANTA Insulin-like growth factor I OS=Panthera t...  35.0    0.005
+  sp|P33717|IGF2_CHICK Insulin-like growth factor II OS=Gallus ga...  35.4    0.005
+  sp|P23695|IGF2_PIG Insulin-like growth factor II OS=Sus scrofa ...  35.4    0.005
+  sp|P51459|IGF2_HORSE Insulin-like growth factor II OS=Equus cab...  35.4    0.005
+  sp|P10764|IGF2_SHEEP Insulin-like growth factor II OS=Ovis arie...  35.4    0.005
+  sp|Q02815|IGF1_ONCMY Insulin-like growth factor I OS=Oncorhynch...  35.0    0.006
+  sp|Q08279|IGF2_CAVPO Insulin-like growth factor II (Fragment) O...  34.3    0.006
+  sp|P01344|IGF2_HUMAN Insulin-like growth factor II OS=Homo sapi...  35.0    0.006
+  sp|P07456|IGF2_BOVIN Insulin-like growth factor II OS=Bos tauru...  35.0    0.007
+  sp|Q90WW4|IGF2A_XENLA Insulin-like growth factor II-A OS=Xenopu...  35.0    0.007
+  sp|P17085|IGF1_ONCKI Insulin-like growth factor I OS=Oncorhynch...  34.7    0.008
+  sp|Q6INW9|IGF2B_XENLA Insulin-like growth factor II-B OS=Xenopu...  35.0    0.008
+  sp|P08025|IGF1_RAT Insulin-like growth factor I OS=Rattus norve...  34.3    0.009
+  sp|P05017|IGF1_MOUSE Insulin-like growth factor I OS=Mus muscul...  34.3    0.009
+
+
+> sp|F8WCM5|INSR2_HUMAN Insulin, isoform 2 OS=Homo sapiens OX=9606 
+GN=INS-IGF2 PE=2 SV=1
+Length=200
+
+ Score = 70.9 bits (172),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> sp|P01314|INS_BALBO Insulin OS=Balaenoptera borealis OX=9768 
+GN=INS PE=1 SV=1
+Length=51
+
+ Score = 65.9 bits (159),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P67974|INS_PHYCD Insulin OS=Physeter catodon OX=9755 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 65.5 bits (158),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P67973|INS_BALPH Insulin OS=Balaenoptera physalus OX=9770 
+GN=INS PE=1 SV=1
+Length=51
+
+ Score = 65.5 bits (158),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01321|INS_CANLF Insulin OS=Canis lupus familiaris OX=9615 
+GN=INS PE=1 SV=1
+Length=110
+
+ Score = 67.0 bits (162),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P06306|INS_FELCA Insulin OS=Felis catus OX=9685 GN=INS PE=1 
+SV=2
+Length=110
+
+ Score = 67.0 bits (162),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01315|INS_PIG Insulin OS=Sus scrofa OX=9823 GN=INS PE=1 SV=2
+Length=108
+
+ Score = 66.6 bits (161),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01319|INS_CAPHI Insulin OS=Capra hircus OX=9925 GN=INS PE=1 
+SV=1
+Length=51
+
+ Score = 65.5 bits (158),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01317|INS_BOVIN Insulin OS=Bos taurus OX=9913 GN=INS PE=1 
+SV=2
+Length=105
+
+ Score = 66.2 bits (160),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01310|INS_HORSE Insulin OS=Equus caballus OX=9796 GN=INS 
+PE=1 SV=1
+Length=86
+
+ Score = 65.9 bits (159),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01318|INS_SHEEP Insulin OS=Ovis aries OX=9940 GN=INS PE=1 
+SV=2
+Length=105
+
+ Score = 66.2 bits (160),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01313|INS_CRILO Insulin OS=Cricetulus longicaudatus OX=10030 
+GN=INS PE=1 SV=2
+Length=110
+
+ Score = 65.9 bits (159),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01311|INS_RABIT Insulin OS=Oryctolagus cuniculus OX=9986 
+GN=INS PE=1 SV=2
+Length=110
+
+ Score = 65.9 bits (159),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01324|INS_ACOCA Insulin OS=Acomys cahirinus OX=10068 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 64.3 bits (155),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV+QHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  1   FVBQHLCGSHLVEALYLVCGERGFFYTPKS  30
+
+
+> sp|Q91XI3|INS_ICTTR Insulin OS=Ictidomys tridecemlineatus OX=43179 
+GN=INS PE=3 SV=1
+Length=110
+
+ Score = 65.5 bits (158),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01320|INS_CAMDR Insulin OS=Camelus dromedarius OX=9838 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 64.3 bits (155),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           F NQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FANQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P18109|INS_DIDVI Insulin OS=Didelphis virginiana OX=9267 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 63.9 bits (154),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            VNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   LVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01316|INS_ELEMA Insulin OS=Elephas maximus OX=9783 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 63.9 bits (154),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKT  30
+
+
+> sp|Q8HXV2|INS_PONPY Insulin OS=Pongo pygmaeus OX=9600 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P30410|INS_PANTR Insulin OS=Pan troglodytes OX=9598 GN=INS 
+PE=1 SV=1
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P01308|INS_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1 
+SV=1
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> sp|Q6YK33|INS_GORGO Insulin OS=Gorilla gorilla gorilla OX=9595 
+GN=INS PE=3 SV=1
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> sp|P30406|INS_MACFA Insulin OS=Macaca fascicularis OX=9541 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> sp|P30407|INS_CHLAE Insulin OS=Chlorocebus aethiops OX=9534 GN=INS 
+PE=1 SV=1
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|Q62587|INS_PSAOB Insulin OS=Psammomys obesus OX=48139 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 64.7 bits (156),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> sp|P51463|INS_SELRF Insulin (Fragment) OS=Selasphorus rufus OX=29060 
+GN=INS PE=3 SV=1
+Length=103
+
+ Score = 62.4 bits (150),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  22  VNQHLCGSHLVEALYLVCGERGFFYSPKA  50
+
+
+> sp|P83770|INSL_VIGUN Insulin-like protein (Fragments) OS=Vigna 
+unguiculata OX=3917 PE=1 SV=1
+Length=51
+
+ Score = 60.8 bits (146),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHL GSHLVEALYLV GERGFFYTPKA
+Sbjct  1   FVNQHLXGSHLVEALYLVXGERGFFYTPKA  30
+
+
+> sp|P69048|INS_TRASC Insulin OS=Trachemys scripta OX=34903 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 60.8 bits (146),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P69047|INS_TRADO Insulin OS=Trachemys dorbigni OX=31137 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 60.8 bits (146),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P67969|INS_STRCA Insulin OS=Struthio camelus OX=8801 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 60.8 bits (146),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P67968|INS_MELGA Insulin OS=Meleagris gallopavo OX=9103 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 60.8 bits (146),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P01322|INS1_RAT Insulin-1 OS=Rattus norvegicus OX=10116 GN=Ins1 
+PE=1 SV=1
+Length=110
+
+ Score = 61.6 bits (148),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCG HLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVKQHLCGPHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P67971|INS_SAISC Insulin OS=Saimiri sciureus OX=9521 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 60.5 bits (145),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  1   FVNQHLCGPHLVEALYLVCGERGFFYAPKT  30
+
+
+> sp|P01325|INS1_MOUSE Insulin-1 OS=Mus musculus OX=10090 GN=Ins1 
+PE=1 SV=1
+Length=108
+
+ Score = 61.6 bits (148),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCG HLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVKQHLCGPHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P67970|INS_CHICK Insulin OS=Gallus gallus OX=9031 GN=INS PE=1 
+SV=1
+Length=107
+
+ Score = 61.6 bits (148),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  26  ANQHLCGSHLVEALYLVCGERGFFYSPKA  54
+
+
+> sp|P67972|INS_AOTTR Insulin OS=Aotus trivirgatus OX=9505 GN=INS 
+PE=3 SV=1
+Length=108
+
+ Score = 61.2 bits (147),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKT  54
+
+
+> sp|P01326|INS2_MOUSE Insulin-2 OS=Mus musculus OX=10090 GN=Ins2 
+PE=1 SV=1
+Length=110
+
+ Score = 60.8 bits (146),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> sp|P01327|INS_CHICH Insulin OS=Chinchilla chinchilla OX=10152 
+GN=INS PE=1 SV=2
+Length=86
+
+ Score = 60.5 bits (145),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 26/30 (87%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVN+HLCGSHLV+ALYLVCG+RGFFYTP A
+Sbjct  1   FVNKHLCGSHLVDALYLVCGDRGFFYTPMA  30
+
+
+> sp|P01323|INS2_RAT Insulin-2 OS=Rattus norvegicus OX=10116 GN=Ins2 
+PE=1 SV=1
+Length=110
+
+ Score = 60.8 bits (146),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> sp|P68243|INS_CAIMO Insulin OS=Cairina moschata OX=8855 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 59.3 bits (142),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P68245|INS_ANSAN Insulin OS=Anser anser anser OX=8844 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 59.3 bits (142),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P01328|INS_HYSCR Insulin OS=Hystrix cristata OX=10137 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 58.9 bits (141),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCG  GFFY PKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGNDGFFYRPKA  30
+
+
+> sp|P81423|INS_ACIGU Insulin OS=Acipenser gueldenstaedtii OX=7902 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 58.5 bits (140),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 26/28 (93%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGERGFFYTP 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYTPN  29
+
+
+> sp|P01333|INS_ANAPL Insulin OS=Anas platyrhynchos OX=8839 GN=INS 
+PE=1 SV=1
+Length=81
+
+ Score = 58.9 bits (141),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P12706|INS1_XENLA Insulin-1 OS=Xenopus laevis OX=8355 GN=ins-a 
+PE=1 SV=2
+Length=106
+
+ Score = 59.3 bits (142),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 26/30 (87%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            VNQHLCGSHLVEALYLVCG+RGFFY PK 
+Sbjct  24  LVNQHLCGSHLVEALYLVCGDRGFFYYPKV  53
+
+
+> sp|P21563|INS_RODSP Insulin OS=Rodentia sp. OX=69158 GN=INS PE=3 
+SV=1
+Length=108
+
+ Score = 58.9 bits (141),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 28/31 (90%), Positives = 29/31 (94%), Gaps = 1/31 (3%)
+
+Query  1   FVNQHLCGSHLVEALY-LVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALY LVCGERGFFYTP +
+Sbjct  24  FVNQHLCGSHLVEALYILVCGERGFFYTPMS  54
+
+
+> sp|C0HJI8|INS2_HUSDA Insulin-2 OS=Huso dauricus OX=55293 PE=1 
+SV=1
+Length=52
+
+ Score = 57.4 bits (137),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 25/28 (89%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCG+HLVEALYLVCGERGFFYTP 
+Sbjct  2   ANQHLCGAHLVEALYLVCGERGFFYTPN  29
+
+
+> sp|P12707|INS2_XENLA Insulin-2 OS=Xenopus laevis OX=8355 GN=ins-b 
+PE=1 SV=2
+Length=106
+
+ Score = 57.8 bits (138),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             NQHLCGSHLVEALYLVCG+RGFFY PK
+Sbjct  24  LANQHLCGSHLVEALYLVCGDRGFFYYPK  52
+
+
+> sp|Q9W7R2|INS_VERMO Insulin OS=Verasper moseri OX=98923 GN=ins 
+PE=3 SV=1
+Length=115
+
+ Score = 57.0 bits (136),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 24/26 (92%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCG+HLV+ALYLVCGERGFFYTPK
+Sbjct  29  QHLCGAHLVDALYLVCGERGFFYTPK  54
+
+
+> sp|Q9TQY7|INS_ORNAN Insulin OS=Ornithorhynchus anatinus OX=9258 
+GN=INS PE=1 SV=2
+Length=51
+
+ Score = 55.8 bits (133),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           F NQHLCGSHLVEALYLVCGE+GF+Y P+
+Sbjct  1   FPNQHLCGSHLVEALYLVCGEKGFYYIPR  29
+
+
+> sp|P04667|INS_ONCKE Insulin OS=Oncorhynchus keta OX=8018 GN=ins 
+PE=1 SV=2
+Length=105
+
+ Score = 56.6 bits (135),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 24/26 (92%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCGE+GFFYTPK
+Sbjct  26  QHLCGSHLVDALYLVCGEKGFFYTPK  51
+
+
+> sp|P12703|INS_ALLMI Insulin OS=Alligator mississippiensis OX=8496 
+GN=INS PE=1 SV=2
+Length=51
+
+ Score = 55.5 bits (132),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQ LCGSHLV+ALYLVCGERGFFY+PK 
+Sbjct  2   ANQRLCGSHLVDALYLVCGERGFFYSPKG  30
+
+
+> sp|P09477|INS_PLAFE Insulin OS=Platichthys flesus OX=8260 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 55.5 bits (132),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 24/27 (89%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCG+HLV+ALYLVCGERGFFYTPK 
+Sbjct  5   QHLCGAHLVDALYLVCGERGFFYTPKG  31
+
+
+> sp|P09476|INS_ATRSP Insulin OS=Atractosteus spatula OX=7917 GN=ins 
+PE=1 SV=1
+Length=52
+
+ Score = 55.5 bits (132),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 24/28 (86%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGE+GFFY P 
+Sbjct  2   ANQHLCGSHLVEALYLVCGEKGFFYNPN  29
+
+
+> sp|P01340|INS_KATPE Insulin OS=Katsuwonus pelamis OX=8226 GN=ins 
+PE=1 SV=1
+Length=50
+
+ Score = 55.1 bits (131),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            N HLCGSHLVEALYLVCGERGFFY PK 
+Sbjct  2   ANPHLCGSHLVEALYLVCGERGFFYQPKG  30
+
+
+> sp|C0HJI3|INS2_KATPE Insulin-2 OS=Katsuwonus pelamis OX=8226 
+PE=1 SV=1
+Length=51
+
+ Score = 55.1 bits (131),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCGERGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGERGFFYNPKG  31
+
+
+> sp|P69045|INS_LOPAM Insulin OS=Lophius americanus OX=8073 GN=ins 
+PE=3 SV=1
+Length=116
+
+ Score = 55.5 bits (132),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/26 (88%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG+RGFFY PK
+Sbjct  29  QHLCGSHLVDALYLVCGDRGFFYNPK  54
+
+
+> sp|P01336|INS_GADMC Insulin OS=Gadus morhua subsp. callarias 
+OX=8053 GN=ins PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P69046|INS_LOPPI Insulin OS=Lophius piscatorius OX=8074 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P07453|INS_MYOSC Insulin OS=Myoxocephalus scorpius OX=8097 
+GN=ins PE=1 SV=1
+Length=50
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  4   QHLCGSHLVDALYLVCGDRGFFYNPKG  30
+
+
+> sp|P01339|INS_THUTH Insulin OS=Thunnus thynnus OX=8237 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJT9|INS_SERQU Insulin OS=Seriola quinqueradiata OX=8161 
+GN=ins PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI1|INS_CARSE Insulin OS=Caranx sexfasciatus OX=173346 
+PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI6|INS2_THUOR Insulin-2 OS=Thunnus orientalis OX=8238 
+PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P01337|INS1_BATSP Insulin-1 OS=Batrachoididae sp. OX=8066 
+GN=ins1 PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJU0|INS_PLATA Insulin OS=Platax teira OX=334891 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI4|INS_PAGMA Insulin OS=Pagrus major OX=143350 PE=1 SV=1
+Length=51
+
+ Score = 54.3 bits (129),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P68990|INS_ONCKI Insulin OS=Oncorhynchus kisutch OX=8019 GN=ins 
+PE=1 SV=1
+Length=50
+
+ Score = 53.9 bits (128),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCGE+GFFY PK 
+Sbjct  4   QHLCGSHLVDALYLVCGEKGFFYNPKG  30
+
+
+> sp|P68989|INS_ONCGO Insulin OS=Oncorhynchus gorbuscha OX=8017 
+GN=ins PE=1 SV=1
+Length=50
+
+ Score = 53.9 bits (128),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCGE+GFFY PK 
+Sbjct  4   QHLCGSHLVDALYLVCGEKGFFYNPKG  30
+
+
+> sp|Q98TA8|INS_PANBU Insulin OS=Pantodon buchholzi OX=8276 GN=ins 
+PE=3 SV=1
+Length=110
+
+ Score = 54.3 bits (129),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLV+ALY+VCGE+GFFY PK 
+Sbjct  26  SQHLCGSHLVDALYMVCGEKGFFYQPKT  53
+
+
+> sp|P01334|INS_CROAT Insulin OS=Crotalus atrox OX=8730 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 53.1 bits (126),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           NQ LCGSHLVEAL+L+CGERGF+Y+P++
+Sbjct  3   NQRLCGSHLVEALFLICGERGFYYSPRS  30
+
+
+> sp|P81025|INS_ORENI Insulin OS=Oreochromis niloticus OX=8128 
+GN=ins PE=1 SV=2
+Length=113
+
+ Score = 53.9 bits (128),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 22/26 (85%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG+RGFFY P+
+Sbjct  29  QHLCGSHLVDALYLVCGDRGFFYNPR  54
+
+
+> sp|P0C236|INS_POLSE Insulin OS=Polypterus senegalus OX=55291 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 53.1 bits (126),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 23/28 (82%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            N+HLCGSHLVEALYLVCG RGFFY P 
+Sbjct  2   ANRHLCGSHLVEALYLVCGNRGFFYIPS  29
+
+
+> sp|C0HJI7|INS1_HUSDA Insulin-1 OS=Huso dauricus OX=55293 PE=1 
+SV=1
+Length=58
+
+ Score = 52.8 bits (125),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 1/29 (3%)
+
+Query  2   VNQHL-CGSHLVEALYLVCGERGFFYTPK  29
+            NQHL CG+HLVEALYLVCGERGFFYTP 
+Sbjct  7   ANQHLWCGAHLVEALYLVCGERGFFYTPN  35
+
+
+> sp|P12708|INS_PTYDH Insulin OS=Ptyas dhumnades OX=8587 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 52.8 bits (125),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           NQ LCGSHLVEAL+L+CGERGF+Y+P+ 
+Sbjct  3   NQRLCGSHLVEALFLICGERGFYYSPRT  30
+
+
+> sp|P68987|INS_PETMA Insulin OS=Petromyzon marinus OX=7757 GN=ins 
+PE=1 SV=1
+Length=57
+
+ Score = 52.4 bits (124),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 22/25 (88%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTPK  29
+           HLCGSHLVEALY+VCG+RGFFYTP 
+Sbjct  10  HLCGSHLVEALYVVCGDRGFFYTPS  34
+
+
+> sp|P68988|INS_LAMFL Insulin OS=Lampetra fluviatilis OX=7748 GN=ins 
+PE=1 SV=1
+Length=57
+
+ Score = 52.4 bits (124),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 22/25 (88%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTPK  29
+           HLCGSHLVEALY+VCG+RGFFYTP 
+Sbjct  10  HLCGSHLVEALYVVCGDRGFFYTPS  34
+
+
+> sp|C0HJI5|INS1_THUOR Insulin-1 OS=Thunnus orientalis OX=8238 
+PE=1 SV=1
+Length=50
+
+ Score = 51.6 bits (122),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLVEAL LVCG+RGFFY P+ 
+Sbjct  3   SQHLCGSHLVEALNLVCGDRGFFYNPRG  30
+
+
+> sp|P13190|INS_CALMI Insulin OS=Callorhinchus milii OX=7868 GN=ins 
+PE=1 SV=2
+Length=89
+
+ Score = 52.4 bits (124),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  3   TQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> sp|C0HJI2|INS1_KATPE Insulin-1 OS=Katsuwonus pelamis OX=8226 
+PE=1 SV=1
+Length=50
+
+ Score = 51.6 bits (122),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLVEAL LVCG+RGFFY P+ 
+Sbjct  3   SQHLCGSHLVEALNLVCGDRGFFYNPRG  30
+
+
+> sp|P68992|INS_HYDCO Insulin OS=Hydrolagus colliei OX=7873 GN=ins 
+PE=1 SV=1
+Length=59
+
+ Score = 51.2 bits (121),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            Q LCGSHLV+ALY VCGERGFFY+PK 
+Sbjct  3   TQRLCGSHLVDALYFVCGERGFFYSPKP  30
+
+
+> sp|P68991|INS_CHIMO Insulin OS=Chimaera monstrosa OX=7871 GN=ins 
+PE=1 SV=1
+Length=59
+
+ Score = 51.2 bits (121),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            Q LCGSHLV+ALY VCGERGFFY+PK 
+Sbjct  3   TQRLCGSHLVDALYFVCGERGFFYSPKP  30
+
+
+> sp|P29335|INS_AMICA Insulin OS=Amia calva OX=7924 GN=ins PE=1 
+SV=1
+Length=52
+
+ Score = 51.2 bits (121),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            +QHLCGSHLVEAL+LVCGE GFFY P 
+Sbjct  2   ASQHLCGSHLVEALFLVCGESGFFYNPN  29
+
+
+> sp|P42633|INS_ANGRO Insulin OS=Anguilla rostrata OX=7938 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 50.8 bits (120),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLVEALYLVCG  GFF+ PK
+Sbjct  4   QHLCGSHLVEALYLVCGSNGFFFNPK  29
+
+
+> sp|P81881|INS_PIAME Insulin OS=Piaractus mesopotamicus OX=42528 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 50.8 bits (120),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 22/27 (81%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG  GFFY PK 
+Sbjct  6   QHLCGSHLVDALYLVCGPSGFFYNPKG  32
+
+
+> sp|P01335|INS_CYPCA Insulin OS=Cyprinus carpio OX=7962 GN=ins 
+PE=1 SV=1
+Length=108
+
+ Score = 51.6 bits (122),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  27  QHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> sp|P12705|INS_TORMA Insulin (Fragments) OS=Torpedo marmorata 
+OX=7788 GN=ins PE=1 SV=1
+Length=70
+
+ Score = 50.8 bits (120),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLVEALY VCG +GF+Y PKA
+Sbjct  3   SQHLCGSHLVEALYFVCGPKGFYYLPKA  30
+
+
+> sp|O73727|INS_DANRE Insulin OS=Danio rerio OX=7955 GN=ins PE=3 
+SV=1
+Length=108
+
+ Score = 50.8 bits (120),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  27  QHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> sp|P01338|INS2_BATSP Insulin 2 OS=Batrachoididae sp. OX=8066 
+GN=ins2 PE=1 SV=1
+Length=50
+
+ Score = 49.3 bits (116),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 21/24 (88%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           QHLCGSHLV+ALYLVCG+RGFFY 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYN  28
+
+
+> sp|P12704|INS_SQUAC Insulin OS=Squalus acanthias OX=7797 GN=ins 
+PE=1 SV=1
+Length=54
+
+ Score = 49.3 bits (116),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 21/27 (78%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+           +QHLCGSHLVEALY VCG +GF+Y PK
+Sbjct  3   SQHLCGSHLVEALYFVCGPKGFYYLPK  29
+
+
+> sp|P01329|INS_CAVPO Insulin OS=Cavia porcellus OX=10141 GN=INS 
+PE=1 SV=2
+Length=110
+
+ Score = 47.4 bits (111),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FV++HLCGS+LVE LY VC + GFFY PK
+Sbjct  25  FVSRHLCGSNLVETLYSVCQDDGFFYIPK  53
+
+
+> sp|P01342|INS_MYXGL Insulin OS=Myxine glutinosa OX=7769 GN=ins 
+PE=1 SV=1
+Length=115
+
+ Score = 43.1 bits (100),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTP  28
+           HLCG  LV ALY+ CG RGFFY P
+Sbjct  31  HLCGKDLVNALYIACGVRGFFYDP  54
+
+
+> sp|P17715|INS_OCTDE Insulin OS=Octodon degus OX=10160 GN=INS 
+PE=1 SV=2
+Length=109
+
+ Score = 41.6 bits (96),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 16/25 (64%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           + +QHLCGS+LVEALY+ CG  GF+
+Sbjct  25  YSSQHLCGSNLVEALYMTCGRSGFY  49
+
+
+> sp|P22618|IGF_MYXGL Insulin-like growth factor (Fragment) OS=Myxine 
+glutinosa OX=7769 PE=2 SV=1
+Length=139
+
+ Score = 37.7 bits (86),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 14/27 (52%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+           ++ LCGS LV+ L  VC +RGFF+ P+
+Sbjct  40  SETLCGSELVDTLQFVCDDRGFFFVPQ  66
+
+
+> sp|P01330|INS_MYOCO Insulin OS=Myocastor coypus OX=10157 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 36.6 bits (83),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           +V+Q LCGS LV+ LY VC  RGF+
+Sbjct  1   YVSQRLCGSQLVDTLYSVCRHRGFY  25
+
+
+> sp|P01331|INS_PROGU Insulin OS=Proechimys guairae OX=10163 GN=INS 
+PE=1 SV=1
+Length=50
+
+ Score = 35.8 bits (81),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 15/25 (60%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           +V Q LCGS LV+ LY VC  RGF+
+Sbjct  1   YVGQRLCGSQLVDTLYSVCKHRGFY  25
+
+
+> sp|Q28933|IGF1_SUNMU Insulin-like growth factor I (Fragment) 
+OS=Suncus murinus OX=9378 GN=IGF1 PE=2 SV=1
+Length=81
+
+ Score = 35.4 bits (80),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  7   ETLCGAELVDALQFVCGDRGFYFN  30
+
+
+> sp|Q95222|IGF1_RABIT Insulin-like growth factor I OS=Oryctolagus 
+cuniculus OX=9986 GN=IGF1 PE=2 SV=3
+Length=143
+
+ Score = 36.2 bits (82),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  35  ETLCGAELVDALQFVCGDRGFYF  57
+
+
+> sp|P51462|IGF1_COTJA Insulin-like growth factor I (Fragment) 
+OS=Coturnix japonica OX=93934 GN=IGF1 PE=2 SV=1
+Length=124
+
+ Score = 35.4 bits (80),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF+++
+Sbjct  22  ETLCGAELVDALQFVCGDRGFYFS  45
+
+
+> sp|P05019|IGF1_HUMAN Insulin-like growth factor I OS=Homo sapiens 
+OX=9606 GN=IGF1 PE=1 SV=1
+Length=195
+
+ Score = 36.2 bits (82),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYF  73
+
+
+> sp|P17647|IGF1_CAVPO Insulin-like growth factor I OS=Cavia porcellus 
+OX=10141 GN=IGF1 PE=2 SV=1
+Length=130
+
+ Score = 35.0 bits (79),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  28  ETLCGAELVDALQFVCGDRGFYFN  51
+
+
+> sp|P51458|IGF1_HORSE Insulin-like growth factor I (Fragment) 
+OS=Equus caballus OX=9796 GN=IGF1 PE=2 SV=1
+Length=122
+
+ Score = 35.0 bits (79),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYF  73
+
+
+> sp|P51457|IGF1_CAPHI Insulin-like growth factor I OS=Capra hircus 
+OX=9925 GN=IGF1 PE=2 SV=2
+Length=154
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  52  ETLCGAELVDALQFVCGDRGFYF  74
+
+
+> sp|Q68LC0|IGF1_RHIRO Insulin-like growth factor I OS=Rhinopithecus 
+roxellana OX=61622 GN=IGF1 PE=2 SV=1
+Length=153
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYF  73
+
+
+> sp|Q6IVA5|IGF1_AILFU Insulin-like growth factor I OS=Ailurus 
+fulgens OX=9649 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYF  73
+
+
+> sp|P10763|IGF1_SHEEP Insulin-like growth factor I OS=Ovis aries 
+OX=9940 GN=IGF1 PE=1 SV=2
+Length=154
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  52  ETLCGAELVDALQFVCGDRGFYF  74
+
+
+> sp|P07455|IGF1_BOVIN Insulin-like growth factor I OS=Bos taurus 
+OX=9913 GN=IGF1 PE=1 SV=2
+Length=154
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  52  ETLCGAELVDALQFVCGDRGFYF  74
+
+
+> sp|P18254|IGF1_CHICK Insulin-like growth factor I OS=Gallus gallus 
+OX=9031 GN=IGF1 PE=1 SV=1
+Length=153
+
+ Score = 35.4 bits (80),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF+++
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFS  74
+
+
+> sp|P33712|IGF1_CANLF Insulin-like growth factor I OS=Canis lupus 
+familiaris OX=9615 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 35.0 bits (79),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P16545|IGF1_PIG Insulin-like growth factor I OS=Sus scrofa 
+OX=9823 GN=IGF1 PE=2 SV=1
+Length=153
+
+ Score = 35.0 bits (79),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG+RGF++
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYF  73
+
+
+> sp|Q6JLX1|IGF1_AILME Insulin-like growth factor I OS=Ailuropoda 
+melanoleuca OX=9646 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 35.0 bits (79),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|Q6GUL6|IGF1_PANTA Insulin-like growth factor I OS=Panthera 
+tigris altaica OX=74533 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 35.0 bits (79),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P33717|IGF2_CHICK Insulin-like growth factor II OS=Gallus 
+gallus OX=9031 GN=IGF2 PE=1 SV=2
+Length=187
+
+ Score = 35.4 bits (80),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG  LV+ L  VCG+RGF+++
+Sbjct  29  ETLCGGELVDTLQFVCGDRGFYFS  52
+
+
+> sp|P23695|IGF2_PIG Insulin-like growth factor II OS=Sus scrofa 
+OX=9823 GN=IGF2 PE=1 SV=2
+Length=181
+
+ Score = 35.4 bits (80),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 20/28 (71%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           ++ LCG  LV+ L  VCG+RGF+++  A
+Sbjct  29  SETLCGGELVDTLQFVCGDRGFYFSRPA  56
+
+
+> sp|P51459|IGF2_HORSE Insulin-like growth factor II OS=Equus caballus 
+OX=9796 GN=IGF2 PE=2 SV=2
+Length=181
+
+ Score = 35.4 bits (80),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 20/28 (71%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           ++ LCG  LV+ L  VCG+RGF+++  A
+Sbjct  29  SETLCGGELVDTLQFVCGDRGFYFSRPA  56
+
+
+> sp|P10764|IGF2_SHEEP Insulin-like growth factor II OS=Ovis aries 
+OX=9940 GN=IGF2 PE=1 SV=2
+Length=179
+
+ Score = 35.4 bits (80),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+           ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  29  SETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|Q02815|IGF1_ONCMY Insulin-like growth factor I OS=Oncorhynchus 
+mykiss OX=8022 GN=igf1 PE=2 SV=1
+Length=176
+
+ Score = 35.0 bits (79),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  6   LCGSHLVEALYLVCGERGFFYT  27
+           LCG+ LV+ L  VCGERGF+++
+Sbjct  49  LCGAELVDTLQFVCGERGFYFS  70
+
+
+> sp|Q08279|IGF2_CAVPO Insulin-like growth factor II (Fragment) 
+OS=Cavia porcellus OX=10141 GN=IGF2 PE=2 SV=1
+Length=128
+
+ Score = 34.3 bits (77),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 20/28 (71%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           ++ LCG  LV+ L  VCG+RGF+++  A
+Sbjct  29  SETLCGGELVDTLQFVCGDRGFYFSRPA  56
+
+
+> sp|P01344|IGF2_HUMAN Insulin-like growth factor II OS=Homo sapiens 
+OX=9606 GN=IGF2 PE=1 SV=1
+Length=180
+
+ Score = 35.0 bits (79),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 13/28 (46%), Positives = 20/28 (71%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           ++ LCG  LV+ L  VCG+RGF+++  A
+Sbjct  29  SETLCGGELVDTLQFVCGDRGFYFSRPA  56
+
+
+> sp|P07456|IGF2_BOVIN Insulin-like growth factor II OS=Bos taurus 
+OX=9913 GN=IGF2 PE=1 SV=4
+Length=179
+
+ Score = 35.0 bits (79),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+           ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  29  SETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|Q90WW4|IGF2A_XENLA Insulin-like growth factor II-A OS=Xenopus 
+laevis OX=8355 GN=igf2-a PE=2 SV=1
+Length=217
+
+ Score = 35.0 bits (79),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG  LV+ L  VCG+RGF+++
+Sbjct  61  ETLCGGELVDTLQFVCGDRGFYFS  84
+
+
+> sp|P17085|IGF1_ONCKI Insulin-like growth factor I OS=Oncorhynchus 
+kisutch OX=8019 GN=igf1 PE=1 SV=2
+Length=188
+
+ Score = 34.7 bits (78),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 13/22 (59%), Positives = 18/22 (82%), Gaps = 0/22 (0%)
+
+Query  6   LCGSHLVEALYLVCGERGFFYT  27
+           LCG+ LV+ L  VCGERGF+++
+Sbjct  49  LCGAELVDTLQFVCGERGFYFS  70
+
+
+> sp|Q6INW9|IGF2B_XENLA Insulin-like growth factor II-B OS=Xenopus 
+laevis OX=8355 GN=igf2-b PE=2 SV=2
+Length=217
+
+ Score = 35.0 bits (79),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG  LV+ L  VCG+RGF+++
+Sbjct  61  ETLCGGELVDTLQFVCGDRGFYFS  84
+
+
+> sp|P08025|IGF1_RAT Insulin-like growth factor I OS=Rattus norvegicus 
+OX=10116 GN=Igf1 PE=1 SV=3
+Length=153
+
+ Score = 34.3 bits (77),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/23 (57%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG RGF++
+Sbjct  51  ETLCGAELVDALQFVCGPRGFYF  73
+
+
+> sp|P05017|IGF1_MOUSE Insulin-like growth factor I OS=Mus musculus 
+OX=10090 GN=Igf1 PE=1 SV=2
+Length=153
+
+ Score = 34.3 bits (77),  Expect = 0.009, Method: Composition-based stats.
+ Identities = 13/23 (57%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           + LCG+ LV+AL  VCG RGF++
+Sbjct  51  ETLCGAELVDALQFVCGPRGFYF  73
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.146    0.494    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4921703225
+Results from round 2
+
+
+Query= 9insb
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|F8WCM5|INSR2_HUMAN Insulin, isoform 2 OS=Homo sapiens OX=960...  64.9    7e-14
+  sp|P01313|INS_CRILO Insulin OS=Cricetulus longicaudatus OX=1003...  59.8    2e-12
+  sp|P01321|INS_CANLF Insulin OS=Canis lupus familiaris OX=9615 G...  59.8    2e-12
+  sp|P06306|INS_FELCA Insulin OS=Felis catus OX=9685 GN=INS PE=1 ...  59.8    3e-12
+  sp|P01315|INS_PIG Insulin OS=Sus scrofa OX=9823 GN=INS PE=1 SV=2    59.1    5e-12
+  sp|P30406|INS_MACFA Insulin OS=Macaca fascicularis OX=9541 GN=I...  58.7    6e-12
+  sp|P01317|INS_BOVIN Insulin OS=Bos taurus OX=9913 GN=INS PE=1 SV=2  58.7    6e-12
+  sp|P30407|INS_CHLAE Insulin OS=Chlorocebus aethiops OX=9534 GN=...  58.7    6e-12
+  sp|Q8HXV2|INS_PONPY Insulin OS=Pongo pygmaeus OX=9600 GN=INS PE...  58.7    6e-12
+  sp|P01308|INS_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1...  58.7    6e-12
+  sp|Q6YK33|INS_GORGO Insulin OS=Gorilla gorilla gorilla OX=9595 ...  58.7    6e-12
+  sp|P30410|INS_PANTR Insulin OS=Pan troglodytes OX=9598 GN=INS P...  58.7    7e-12
+  sp|Q91XI3|INS_ICTTR Insulin OS=Ictidomys tridecemlineatus OX=43...  58.7    7e-12
+  sp|P01318|INS_SHEEP Insulin OS=Ovis aries OX=9940 GN=INS PE=1 SV=2  57.9    1e-11
+  sp|Q62587|INS_PSAOB Insulin OS=Psammomys obesus OX=48139 GN=INS...  57.9    1e-11
+  sp|P01311|INS_RABIT Insulin OS=Oryctolagus cuniculus OX=9986 GN...  57.5    2e-11
+  sp|P01322|INS1_RAT Insulin-1 OS=Rattus norvegicus OX=10116 GN=I...  57.1    3e-11
+  sp|P01323|INS2_RAT Insulin-2 OS=Rattus norvegicus OX=10116 GN=I...  56.8    4e-11
+  sp|P01326|INS2_MOUSE Insulin-2 OS=Mus musculus OX=10090 GN=Ins2...  56.4    5e-11
+  sp|P67972|INS_AOTTR Insulin OS=Aotus trivirgatus OX=9505 GN=INS...  56.4    5e-11
+  sp|P01325|INS1_MOUSE Insulin-1 OS=Mus musculus OX=10090 GN=Ins1...  56.4    5e-11
+  sp|P01310|INS_HORSE Insulin OS=Equus caballus OX=9796 GN=INS PE...  55.2    8e-11
+  sp|P67970|INS_CHICK Insulin OS=Gallus gallus OX=9031 GN=INS PE=...  55.6    1e-10
+  sp|P12707|INS2_XENLA Insulin-2 OS=Xenopus laevis OX=8355 GN=ins...  55.2    1e-10
+  sp|P12706|INS1_XENLA Insulin-1 OS=Xenopus laevis OX=8355 GN=ins...  54.8    2e-10
+  sp|P01327|INS_CHICH Insulin OS=Chinchilla chinchilla OX=10152 G...  54.5    2e-10
+  sp|P51463|INS_SELRF Insulin (Fragment) OS=Selasphorus rufus OX=...  54.8    2e-10
+  sp|P69045|INS_LOPAM Insulin OS=Lophius americanus OX=8073 GN=in...  54.8    2e-10
+  sp|P81025|INS_ORENI Insulin OS=Oreochromis niloticus OX=8128 GN...  54.5    3e-10
+  sp|Q9W7R2|INS_VERMO Insulin OS=Verasper moseri OX=98923 GN=ins ...  53.7    5e-10
+  sp|P04667|INS_ONCKE Insulin OS=Oncorhynchus keta OX=8018 GN=ins...  53.3    6e-10
+  sp|Q98TA8|INS_PANBU Insulin OS=Pantodon buchholzi OX=8276 GN=in...  52.9    8e-10
+  sp|P21563|INS_RODSP Insulin OS=Rodentia sp. OX=69158 GN=INS PE=...  52.9    1e-09
+  sp|P01333|INS_ANAPL Insulin OS=Anas platyrhynchos OX=8839 GN=IN...  52.1    1e-09
+  sp|P67974|INS_PHYCD Insulin OS=Physeter catodon OX=9755 GN=INS ...  51.4    1e-09
+  sp|P67973|INS_BALPH Insulin OS=Balaenoptera physalus OX=9770 GN...  51.4    1e-09
+  sp|P01314|INS_BALBO Insulin OS=Balaenoptera borealis OX=9768 GN...  51.4    2e-09
+  sp|P01324|INS_ACOCA Insulin OS=Acomys cahirinus OX=10068 GN=INS...  51.0    2e-09
+  sp|P01319|INS_CAPHI Insulin OS=Capra hircus OX=9925 GN=INS PE=1...  51.0    2e-09
+  sp|P01335|INS_CYPCA Insulin OS=Cyprinus carpio OX=7962 GN=ins P...  51.8    2e-09
+  sp|P01316|INS_ELEMA Insulin OS=Elephas maximus OX=9783 GN=INS P...  51.0    2e-09
+  sp|P01320|INS_CAMDR Insulin OS=Camelus dromedarius OX=9838 GN=I...  51.0    2e-09
+  sp|P18109|INS_DIDVI Insulin OS=Didelphis virginiana OX=9267 GN=...  50.6    3e-09
+  sp|P13190|INS_CALMI Insulin OS=Callorhinchus milii OX=7868 GN=i...  51.0    3e-09
+  sp|O73727|INS_DANRE Insulin OS=Danio rerio OX=7955 GN=ins PE=3 ...  51.4    3e-09
+  sp|P07453|INS_MYOSC Insulin OS=Myoxocephalus scorpius OX=8097 G...  49.8    5e-09
+  sp|P01336|INS_GADMC Insulin OS=Gadus morhua subsp. callarias OX...  49.8    6e-09
+  sp|P68243|INS_CAIMO Insulin OS=Cairina moschata OX=8855 GN=INS ...  49.8    6e-09
+  sp|P68245|INS_ANSAN Insulin OS=Anser anser anser OX=8844 GN=INS...  49.8    6e-09
+  sp|P01337|INS1_BATSP Insulin-1 OS=Batrachoididae sp. OX=8066 GN...  49.8    7e-09
+  sp|P01339|INS_THUTH Insulin OS=Thunnus thynnus OX=8237 GN=ins P...  49.4    8e-09
+  sp|C0HJT9|INS_SERQU Insulin OS=Seriola quinqueradiata OX=8161 G...  49.4    8e-09
+  sp|C0HJI1|INS_CARSE Insulin OS=Caranx sexfasciatus OX=173346 PE...  49.4    8e-09
+  sp|C0HJI6|INS2_THUOR Insulin-2 OS=Thunnus orientalis OX=8238 PE...  49.4    8e-09
+  sp|C0HJU0|INS_PLATA Insulin OS=Platax teira OX=334891 GN=ins PE...  49.4    8e-09
+  sp|C0HJI4|INS_PAGMA Insulin OS=Pagrus major OX=143350 PE=1 SV=1     49.4    8e-09
+  sp|C0HJI3|INS2_KATPE Insulin-2 OS=Katsuwonus pelamis OX=8226 PE...  49.4    8e-09
+  sp|P69046|INS_LOPPI Insulin OS=Lophius piscatorius OX=8074 GN=i...  49.4    9e-09
+  sp|P83770|INSL_VIGUN Insulin-like protein (Fragments) OS=Vigna ...  49.4    9e-09
+  sp|P69048|INS_TRASC Insulin OS=Trachemys scripta OX=34903 GN=IN...  49.4    9e-09
+  sp|P69047|INS_TRADO Insulin OS=Trachemys dorbigni OX=31137 GN=I...  49.4    9e-09
+  sp|P67969|INS_STRCA Insulin OS=Struthio camelus OX=8801 GN=INS ...  49.4    9e-09
+  sp|P67971|INS_SAISC Insulin OS=Saimiri sciureus OX=9521 GN=INS ...  49.4    9e-09
+  sp|P67968|INS_MELGA Insulin OS=Meleagris gallopavo OX=9103 GN=I...  49.4    9e-09
+  sp|P68990|INS_ONCKI Insulin OS=Oncorhynchus kisutch OX=8019 GN=...  48.7    2e-08
+  sp|P68989|INS_ONCGO Insulin OS=Oncorhynchus gorbuscha OX=8017 G...  48.7    2e-08
+  sp|P09476|INS_ATRSP Insulin OS=Atractosteus spatula OX=7917 GN=...  48.7    2e-08
+  sp|P81423|INS_ACIGU Insulin OS=Acipenser gueldenstaedtii OX=790...  48.7    2e-08
+  sp|P01329|INS_CAVPO Insulin OS=Cavia porcellus OX=10141 GN=INS ...  49.4    2e-08
+  sp|P12703|INS_ALLMI Insulin OS=Alligator mississippiensis OX=84...  48.3    2e-08
+  sp|P01328|INS_HYSCR Insulin OS=Hystrix cristata OX=10137 GN=INS...  48.3    2e-08
+  sp|Q9TQY7|INS_ORNAN Insulin OS=Ornithorhynchus anatinus OX=9258...  48.3    2e-08
+  sp|P09477|INS_PLAFE Insulin OS=Platichthys flesus OX=8260 GN=in...  48.3    2e-08
+  sp|P68992|INS_HYDCO Insulin OS=Hydrolagus colliei OX=7873 GN=in...  47.9    4e-08
+  sp|P68991|INS_CHIMO Insulin OS=Chimaera monstrosa OX=7871 GN=in...  47.9    4e-08
+  sp|C0HJI8|INS2_HUSDA Insulin-2 OS=Huso dauricus OX=55293 PE=1 SV=1  47.5    4e-08
+  sp|C0HJI2|INS1_KATPE Insulin-1 OS=Katsuwonus pelamis OX=8226 PE...  47.5    4e-08
+  sp|C0HJI5|INS1_THUOR Insulin-1 OS=Thunnus orientalis OX=8238 PE...  47.5    4e-08
+  sp|P0C236|INS_POLSE Insulin OS=Polypterus senegalus OX=55291 GN...  47.1    6e-08
+  sp|P81881|INS_PIAME Insulin OS=Piaractus mesopotamicus OX=42528...  47.1    7e-08
+  sp|P29335|INS_AMICA Insulin OS=Amia calva OX=7924 GN=ins PE=1 SV=1  46.7    9e-08
+  sp|P01340|INS_KATPE Insulin OS=Katsuwonus pelamis OX=8226 GN=in...  46.0    2e-07
+  sp|P12708|INS_PTYDH Insulin OS=Ptyas dhumnades OX=8587 GN=INS P...  46.0    2e-07
+  sp|P12705|INS_TORMA Insulin (Fragments) OS=Torpedo marmorata OX...  46.4    2e-07
+  sp|P01334|INS_CROAT Insulin OS=Crotalus atrox OX=8730 GN=INS PE...  46.0    2e-07
+  sp|P42633|INS_ANGRO Insulin OS=Anguilla rostrata OX=7938 GN=ins...  45.2    3e-07
+  sp|P68987|INS_PETMA Insulin OS=Petromyzon marinus OX=7757 GN=in...  45.2    4e-07
+  sp|P68988|INS_LAMFL Insulin OS=Lampetra fluviatilis OX=7748 GN=...  45.2    4e-07
+  sp|P01338|INS2_BATSP Insulin 2 OS=Batrachoididae sp. OX=8066 GN...  44.8    5e-07
+  sp|P12704|INS_SQUAC Insulin OS=Squalus acanthias OX=7797 GN=ins...  44.4    7e-07
+  sp|C0HJI7|INS1_HUSDA Insulin-1 OS=Huso dauricus OX=55293 PE=1 SV=1  44.4    8e-07
+  sp|P01342|INS_MYXGL Insulin OS=Myxine glutinosa OX=7769 GN=ins ...  44.4    1e-06
+  sp|P17715|INS_OCTDE Insulin OS=Octodon degus OX=10160 GN=INS PE...  43.3    2e-06
+  sp|P22618|IGF_MYXGL Insulin-like growth factor (Fragment) OS=My...  42.9    4e-06
+  sp|Q95222|IGF1_RABIT Insulin-like growth factor I OS=Oryctolagu...  41.4    2e-05
+  sp|Q28933|IGF1_SUNMU Insulin-like growth factor I (Fragment) OS...  39.0    7e-05
+  sp|P01330|INS_MYOCO Insulin OS=Myocastor coypus OX=10157 GN=INS...  38.7    8e-05
+  sp|P01331|INS_PROGU Insulin OS=Proechimys guairae OX=10163 GN=I...  37.5    2e-04
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P05019|IGF1_HUMAN Insulin-like growth factor I OS=Homo sapie...  41.0    4e-05
+  sp|Q90WW4|IGF2A_XENLA Insulin-like growth factor II-A OS=Xenopu...  41.4    5e-05
+  sp|P17647|IGF1_CAVPO Insulin-like growth factor I OS=Cavia porc...  39.8    5e-05
+  sp|Q68LC0|IGF1_RHIRO Insulin-like growth factor I OS=Rhinopithe...  40.2    6e-05
+  sp|Q6IVA5|IGF1_AILFU Insulin-like growth factor I OS=Ailurus fu...  40.2    6e-05
+  sp|P10764|IGF2_SHEEP Insulin-like growth factor II OS=Ovis arie...  40.6    6e-05
+  sp|P51459|IGF2_HORSE Insulin-like growth factor II OS=Equus cab...  40.2    7e-05
+  sp|P33717|IGF2_CHICK Insulin-like growth factor II OS=Gallus ga...  40.2    7e-05
+  sp|P23695|IGF2_PIG Insulin-like growth factor II OS=Sus scrofa ...  40.2    7e-05
+  sp|P07456|IGF2_BOVIN Insulin-like growth factor II OS=Bos tauru...  40.2    8e-05
+  sp|Q6INW9|IGF2B_XENLA Insulin-like growth factor II-B OS=Xenopu...  40.6    8e-05
+  sp|P01344|IGF2_HUMAN Insulin-like growth factor II OS=Homo sapi...  40.2    8e-05
+  sp|P07455|IGF1_BOVIN Insulin-like growth factor I OS=Bos taurus...  39.8    8e-05
+  sp|P51457|IGF1_CAPHI Insulin-like growth factor I OS=Capra hirc...  39.4    8e-05
+  sp|P05017|IGF1_MOUSE Insulin-like growth factor I OS=Mus muscul...  39.4    9e-05
+  sp|P08025|IGF1_RAT Insulin-like growth factor I OS=Rattus norve...  39.4    9e-05
+  sp|P10763|IGF1_SHEEP Insulin-like growth factor I OS=Ovis aries...  39.4    1e-04
+  sp|Q6JLX1|IGF1_AILME Insulin-like growth factor I OS=Ailuropoda...  39.4    1e-04
+  sp|P16545|IGF1_PIG Insulin-like growth factor I OS=Sus scrofa O...  39.4    1e-04
+  sp|Q6GUL6|IGF1_PANTA Insulin-like growth factor I OS=Panthera t...  39.4    1e-04
+  sp|P33712|IGF1_CANLF Insulin-like growth factor I OS=Canis lupu...  39.4    1e-04
+  sp|P51462|IGF1_COTJA Insulin-like growth factor I (Fragment) OS...  38.7    1e-04
+  sp|Q08279|IGF2_CAVPO Insulin-like growth factor II (Fragment) O...  38.7    1e-04
+  sp|P51458|IGF1_HORSE Insulin-like growth factor I (Fragment) OS...  38.3    2e-04
+  sp|P18254|IGF1_CHICK Insulin-like growth factor I OS=Gallus gal...  38.7    2e-04
+  sp|Q02816|IGF2_ONCMY Insulin-like growth factor II OS=Oncorhync...  39.4    2e-04
+  sp|Q02815|IGF1_ONCMY Insulin-like growth factor I OS=Oncorhynch...  38.7    3e-04
+  sp|P41694|IGF2_NEOVI Insulin-like growth factor II (Fragment) O...  37.5    4e-04
+  sp|P16501|IGF1A_XENLA Insulin-like growth factor I-A OS=Xenopus...  37.9    4e-04
+  sp|P17085|IGF1_ONCKI Insulin-like growth factor I OS=Oncorhynch...  38.3    4e-04
+  sp|P01346|IGF2_RAT Insulin-like growth factor II OS=Rattus norv...  37.9    5e-04
+  sp|Q90326|IGF1B_CYPCA Insulin-like growth factor I, juvenile fo...  37.5    5e-04
+  sp|Q90325|IGF1A_CYPCA Insulin-like growth factor I, adult form ...  37.5    6e-04
+  sp|P09535|IGF2_MOUSE Insulin-like growth factor II OS=Mus muscu...  37.1    0.001
+
+
+> sp|F8WCM5|INSR2_HUMAN Insulin, isoform 2 OS=Homo sapiens OX=9606 
+GN=INS-IGF2 PE=2 SV=1
+Length=200
+
+ Score = 64.9 bits (157),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P01313|INS_CRILO Insulin OS=Cricetulus longicaudatus OX=10030 
+GN=INS PE=1 SV=2
+Length=110
+
+ Score = 59.8 bits (144),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01321|INS_CANLF Insulin OS=Canis lupus familiaris OX=9615 
+GN=INS PE=1 SV=1
+Length=110
+
+ Score = 59.8 bits (144),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P06306|INS_FELCA Insulin OS=Felis catus OX=9685 GN=INS PE=1 
+SV=2
+Length=110
+
+ Score = 59.8 bits (144),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01315|INS_PIG Insulin OS=Sus scrofa OX=9823 GN=INS PE=1 SV=2
+Length=108
+
+ Score = 59.1 bits (142),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P30406|INS_MACFA Insulin OS=Macaca fascicularis OX=9541 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P01317|INS_BOVIN Insulin OS=Bos taurus OX=9913 GN=INS PE=1 
+SV=2
+Length=105
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P30407|INS_CHLAE Insulin OS=Chlorocebus aethiops OX=9534 GN=INS 
+PE=1 SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|Q8HXV2|INS_PONPY Insulin OS=Pongo pygmaeus OX=9600 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P01308|INS_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1 
+SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|Q6YK33|INS_GORGO Insulin OS=Gorilla gorilla gorilla OX=9595 
+GN=INS PE=3 SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P30410|INS_PANTR Insulin OS=Pan troglodytes OX=9598 GN=INS 
+PE=1 SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|Q91XI3|INS_ICTTR Insulin OS=Ictidomys tridecemlineatus OX=43179 
+GN=INS PE=3 SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01318|INS_SHEEP Insulin OS=Ovis aries OX=9940 GN=INS PE=1 
+SV=2
+Length=105
+
+ Score = 57.9 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|Q62587|INS_PSAOB Insulin OS=Psammomys obesus OX=48139 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 57.9 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> sp|P01311|INS_RABIT Insulin OS=Oryctolagus cuniculus OX=9986 
+GN=INS PE=1 SV=2
+Length=110
+
+ Score = 57.5 bits (138),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01322|INS1_RAT Insulin-1 OS=Rattus norvegicus OX=10116 GN=Ins1 
+PE=1 SV=1
+Length=110
+
+ Score = 57.1 bits (137),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCG HLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVKQHLCGPHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01323|INS2_RAT Insulin-2 OS=Rattus norvegicus OX=10116 GN=Ins2 
+PE=1 SV=1
+Length=110
+
+ Score = 56.8 bits (136),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> sp|P01326|INS2_MOUSE Insulin-2 OS=Mus musculus OX=10090 GN=Ins2 
+PE=1 SV=1
+Length=110
+
+ Score = 56.4 bits (135),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> sp|P67972|INS_AOTTR Insulin OS=Aotus trivirgatus OX=9505 GN=INS 
+PE=3 SV=1
+Length=108
+
+ Score = 56.4 bits (135),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKT  54
+
+
+> sp|P01325|INS1_MOUSE Insulin-1 OS=Mus musculus OX=10090 GN=Ins1 
+PE=1 SV=1
+Length=108
+
+ Score = 56.4 bits (135),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCG HLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVKQHLCGPHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01310|INS_HORSE Insulin OS=Equus caballus OX=9796 GN=INS 
+PE=1 SV=1
+Length=86
+
+ Score = 55.2 bits (132),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P67970|INS_CHICK Insulin OS=Gallus gallus OX=9031 GN=INS PE=1 
+SV=1
+Length=107
+
+ Score = 55.6 bits (133),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  26  ANQHLCGSHLVEALYLVCGERGFFYSPKA  54
+
+
+> sp|P12707|INS2_XENLA Insulin-2 OS=Xenopus laevis OX=8355 GN=ins-b 
+PE=1 SV=2
+Length=106
+
+ Score = 55.2 bits (132),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             NQHLCGSHLVEALYLVCG+RGFFY PK
+Sbjct  24  LANQHLCGSHLVEALYLVCGDRGFFYYPK  52
+
+
+> sp|P12706|INS1_XENLA Insulin-1 OS=Xenopus laevis OX=8355 GN=ins-a 
+PE=1 SV=2
+Length=106
+
+ Score = 54.8 bits (131),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            VNQHLCGSHLVEALYLVCG+RGFFY PK
+Sbjct  24  LVNQHLCGSHLVEALYLVCGDRGFFYYPK  52
+
+
+> sp|P01327|INS_CHICH Insulin OS=Chinchilla chinchilla OX=10152 
+GN=INS PE=1 SV=2
+Length=86
+
+ Score = 54.5 bits (130),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 26/30 (87%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVN+HLCGSHLV+ALYLVCG+RGFFYTP A
+Sbjct  1   FVNKHLCGSHLVDALYLVCGDRGFFYTPMA  30
+
+
+> sp|P51463|INS_SELRF Insulin (Fragment) OS=Selasphorus rufus OX=29060 
+GN=INS PE=3 SV=1
+Length=103
+
+ Score = 54.8 bits (131),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  22  VNQHLCGSHLVEALYLVCGERGFFYSPKA  50
+
+
+> sp|P69045|INS_LOPAM Insulin OS=Lophius americanus OX=8073 GN=ins 
+PE=3 SV=1
+Length=116
+
+ Score = 54.8 bits (131),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCG+RGFFY PK
+Sbjct  27  PAQHLCGSHLVDALYLVCGDRGFFYNPK  54
+
+
+> sp|P81025|INS_ORENI Insulin OS=Oreochromis niloticus OX=8128 
+GN=ins PE=1 SV=2
+Length=113
+
+ Score = 54.5 bits (130),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG+RGFFY P+
+Sbjct  29  QHLCGSHLVDALYLVCGDRGFFYNPR  54
+
+
+> sp|Q9W7R2|INS_VERMO Insulin OS=Verasper moseri OX=98923 GN=ins 
+PE=3 SV=1
+Length=115
+
+ Score = 53.7 bits (128),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCG+HLV+ALYLVCGERGFFYTPK
+Sbjct  29  QHLCGAHLVDALYLVCGERGFFYTPK  54
+
+
+> sp|P04667|INS_ONCKE Insulin OS=Oncorhynchus keta OX=8018 GN=ins 
+PE=1 SV=2
+Length=105
+
+ Score = 53.3 bits (127),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCGE+GFFYTPK
+Sbjct  24  AAQHLCGSHLVDALYLVCGEKGFFYTPK  51
+
+
+> sp|Q98TA8|INS_PANBU Insulin OS=Pantodon buchholzi OX=8276 GN=ins 
+PE=3 SV=1
+Length=110
+
+ Score = 52.9 bits (126),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLV+ALY+VCGE+GFFY PK 
+Sbjct  25  SSQHLCGSHLVDALYMVCGEKGFFYQPKT  53
+
+
+> sp|P21563|INS_RODSP Insulin OS=Rodentia sp. OX=69158 GN=INS PE=3 
+SV=1
+Length=108
+
+ Score = 52.9 bits (126),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 28/31 (90%), Positives = 29/31 (94%), Gaps = 1/31 (3%)
+
+Query  1   FVNQHLCGSHLVEALY-LVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALY LVCGERGFFYTP +
+Sbjct  24  FVNQHLCGSHLVEALYILVCGERGFFYTPMS  54
+
+
+> sp|P01333|INS_ANAPL Insulin OS=Anas platyrhynchos OX=8839 GN=INS 
+PE=1 SV=1
+Length=81
+
+ Score = 52.1 bits (124),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P67974|INS_PHYCD Insulin OS=Physeter catodon OX=9755 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.4 bits (122),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P67973|INS_BALPH Insulin OS=Balaenoptera physalus OX=9770 
+GN=INS PE=1 SV=1
+Length=51
+
+ Score = 51.4 bits (122),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01314|INS_BALBO Insulin OS=Balaenoptera borealis OX=9768 
+GN=INS PE=1 SV=1
+Length=51
+
+ Score = 51.4 bits (122),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01324|INS_ACOCA Insulin OS=Acomys cahirinus OX=10068 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV+QHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  1   FVBQHLCGSHLVEALYLVCGERGFFYTPKS  30
+
+
+> sp|P01319|INS_CAPHI Insulin OS=Capra hircus OX=9925 GN=INS PE=1 
+SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01335|INS_CYPCA Insulin OS=Cyprinus carpio OX=7962 GN=ins 
+PE=1 SV=1
+Length=108
+
+ Score = 51.8 bits (123),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  25  APQHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> sp|P01316|INS_ELEMA Insulin OS=Elephas maximus OX=9783 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKT  30
+
+
+> sp|P01320|INS_CAMDR Insulin OS=Camelus dromedarius OX=9838 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           F NQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FANQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P18109|INS_DIDVI Insulin OS=Didelphis virginiana OX=9267 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 50.6 bits (120),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            VNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   LVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P13190|INS_CALMI Insulin OS=Callorhinchus milii OX=7868 GN=ins 
+PE=1 SV=2
+Length=89
+
+ Score = 51.0 bits (121),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  2   PTQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> sp|O73727|INS_DANRE Insulin OS=Danio rerio OX=7955 GN=ins PE=3 
+SV=1
+Length=108
+
+ Score = 51.4 bits (122),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  27  QHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> sp|P07453|INS_MYOSC Insulin OS=Myoxocephalus scorpius OX=8097 
+GN=ins PE=1 SV=1
+Length=50
+
+ Score = 49.8 bits (118),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  4   QHLCGSHLVDALYLVCGDRGFFYNPKG  30
+
+
+> sp|P01336|INS_GADMC Insulin OS=Gadus morhua subsp. callarias 
+OX=8053 GN=ins PE=1 SV=1
+Length=51
+
+ Score = 49.8 bits (118),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P68243|INS_CAIMO Insulin OS=Cairina moschata OX=8855 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.8 bits (118),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P68245|INS_ANSAN Insulin OS=Anser anser anser OX=8844 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.8 bits (118),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P01337|INS1_BATSP Insulin-1 OS=Batrachoididae sp. OX=8066 
+GN=ins1 PE=1 SV=1
+Length=51
+
+ Score = 49.8 bits (118),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P01339|INS_THUTH Insulin OS=Thunnus thynnus OX=8237 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJT9|INS_SERQU Insulin OS=Seriola quinqueradiata OX=8161 
+GN=ins PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI1|INS_CARSE Insulin OS=Caranx sexfasciatus OX=173346 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI6|INS2_THUOR Insulin-2 OS=Thunnus orientalis OX=8238 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJU0|INS_PLATA Insulin OS=Platax teira OX=334891 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI4|INS_PAGMA Insulin OS=Pagrus major OX=143350 PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI3|INS2_KATPE Insulin-2 OS=Katsuwonus pelamis OX=8226 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLV+ALYLVCGERGFFY PK 
+Sbjct  5   QHLCGSHLVDALYLVCGERGFFYNPKG  31
+
+
+> sp|P69046|INS_LOPPI Insulin OS=Lophius piscatorius OX=8074 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PAQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P83770|INSL_VIGUN Insulin-like protein (Fragments) OS=Vigna 
+unguiculata OX=3917 PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHL GSHLVEALYLV GERGFFYTPKA
+Sbjct  1   FVNQHLXGSHLVEALYLVXGERGFFYTPKA  30
+
+
+> sp|P69048|INS_TRASC Insulin OS=Trachemys scripta OX=34903 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P69047|INS_TRADO Insulin OS=Trachemys dorbigni OX=31137 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P67969|INS_STRCA Insulin OS=Struthio camelus OX=8801 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P67971|INS_SAISC Insulin OS=Saimiri sciureus OX=9521 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  1   FVNQHLCGPHLVEALYLVCGERGFFYAPKT  30
+
+
+> sp|P67968|INS_MELGA Insulin OS=Meleagris gallopavo OX=9103 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.4 bits (117),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P68990|INS_ONCKI Insulin OS=Oncorhynchus kisutch OX=8019 GN=ins 
+PE=1 SV=1
+Length=50
+
+ Score = 48.7 bits (115),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCGE+GFFY PK 
+Sbjct  2   AAQHLCGSHLVDALYLVCGEKGFFYNPKG  30
+
+
+> sp|P68989|INS_ONCGO Insulin OS=Oncorhynchus gorbuscha OX=8017 
+GN=ins PE=1 SV=1
+Length=50
+
+ Score = 48.7 bits (115),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCGE+GFFY PK 
+Sbjct  2   AAQHLCGSHLVDALYLVCGEKGFFYNPKG  30
+
+
+> sp|P09476|INS_ATRSP Insulin OS=Atractosteus spatula OX=7917 GN=ins 
+PE=1 SV=1
+Length=52
+
+ Score = 48.7 bits (115),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGE+GFFY P 
+Sbjct  2   ANQHLCGSHLVEALYLVCGEKGFFYNPN  29
+
+
+> sp|P81423|INS_ACIGU Insulin OS=Acipenser gueldenstaedtii OX=7902 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 48.7 bits (115),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 26/28 (93%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGERGFFYTP 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYTPN  29
+
+
+> sp|P01329|INS_CAVPO Insulin OS=Cavia porcellus OX=10141 GN=INS 
+PE=1 SV=2
+Length=110
+
+ Score = 49.4 bits (117),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FV++HLCGS+LVE LY VC + GFFY PK
+Sbjct  25  FVSRHLCGSNLVETLYSVCQDDGFFYIPK  53
+
+
+> sp|P12703|INS_ALLMI Insulin OS=Alligator mississippiensis OX=8496 
+GN=INS PE=1 SV=2
+Length=51
+
+ Score = 48.3 bits (114),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQ LCGSHLV+ALYLVCGERGFFY+PK 
+Sbjct  2   ANQRLCGSHLVDALYLVCGERGFFYSPKG  30
+
+
+> sp|P01328|INS_HYSCR Insulin OS=Hystrix cristata OX=10137 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 48.3 bits (114),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCG  GFFY PKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGNDGFFYRPKA  30
+
+
+> sp|Q9TQY7|INS_ORNAN Insulin OS=Ornithorhynchus anatinus OX=9258 
+GN=INS PE=1 SV=2
+Length=51
+
+ Score = 48.3 bits (114),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 24/29 (83%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           F NQHLCGSHLVEALYLVCGE+GF+Y P+
+Sbjct  1   FPNQHLCGSHLVEALYLVCGEKGFYYIPR  29
+
+
+> sp|P09477|INS_PLAFE Insulin OS=Platichthys flesus OX=8260 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 48.3 bits (114),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCG+HLV+ALYLVCGERGFFYTPK 
+Sbjct  5   QHLCGAHLVDALYLVCGERGFFYTPKG  31
+
+
+> sp|P68992|INS_HYDCO Insulin OS=Hydrolagus colliei OX=7873 GN=ins 
+PE=1 SV=1
+Length=59
+
+ Score = 47.9 bits (113),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  2   PTQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> sp|P68991|INS_CHIMO Insulin OS=Chimaera monstrosa OX=7871 GN=ins 
+PE=1 SV=1
+Length=59
+
+ Score = 47.9 bits (113),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  2   PTQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> sp|C0HJI8|INS2_HUSDA Insulin-2 OS=Huso dauricus OX=55293 PE=1 
+SV=1
+Length=52
+
+ Score = 47.5 bits (112),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 25/28 (89%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCG+HLVEALYLVCGERGFFYTP 
+Sbjct  2   ANQHLCGAHLVEALYLVCGERGFFYTPN  29
+
+
+> sp|C0HJI2|INS1_KATPE Insulin-1 OS=Katsuwonus pelamis OX=8226 
+PE=1 SV=1
+Length=50
+
+ Score = 47.5 bits (112),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLVEAL LVCG+RGFFY P+ 
+Sbjct  2   SSQHLCGSHLVEALNLVCGDRGFFYNPRG  30
+
+
+> sp|C0HJI5|INS1_THUOR Insulin-1 OS=Thunnus orientalis OX=8238 
+PE=1 SV=1
+Length=50
+
+ Score = 47.5 bits (112),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLVEAL LVCG+RGFFY P+ 
+Sbjct  2   SSQHLCGSHLVEALNLVCGDRGFFYNPRG  30
+
+
+> sp|P0C236|INS_POLSE Insulin OS=Polypterus senegalus OX=55291 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 47.1 bits (111),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            N+HLCGSHLVEALYLVCG RGFFY P 
+Sbjct  2   ANRHLCGSHLVEALYLVCGNRGFFYIPS  29
+
+
+> sp|P81881|INS_PIAME Insulin OS=Piaractus mesopotamicus OX=42528 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 47.1 bits (111),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG  GFFY PK 
+Sbjct  4   APQHLCGSHLVDALYLVCGPSGFFYNPKG  32
+
+
+> sp|P29335|INS_AMICA Insulin OS=Amia calva OX=7924 GN=ins PE=1 
+SV=1
+Length=52
+
+ Score = 46.7 bits (110),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            +QHLCGSHLVEAL+LVCGE GFFY P 
+Sbjct  2   ASQHLCGSHLVEALFLVCGESGFFYNPN  29
+
+
+> sp|P01340|INS_KATPE Insulin OS=Katsuwonus pelamis OX=8226 GN=ins 
+PE=1 SV=1
+Length=50
+
+ Score = 46.0 bits (108),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 25/29 (86%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            N HLCGSHLVEALYLVCGERGFFY PK 
+Sbjct  2   ANPHLCGSHLVEALYLVCGERGFFYQPKG  30
+
+
+> sp|P12708|INS_PTYDH Insulin OS=Ptyas dhumnades OX=8587 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 46.0 bits (108),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/29 (72%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQ LCGSHLVEAL+L+CGERGF+Y+P+ 
+Sbjct  2   PNQRLCGSHLVEALFLICGERGFYYSPRT  30
+
+
+> sp|P12705|INS_TORMA Insulin (Fragments) OS=Torpedo marmorata 
+OX=7788 GN=ins PE=1 SV=1
+Length=70
+
+ Score = 46.4 bits (109),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             +QHLCGSHLVEALY VCG +GF+Y PKA
+Sbjct  1   LPSQHLCGSHLVEALYFVCGPKGFYYLPKA  30
+
+
+> sp|P01334|INS_CROAT Insulin OS=Crotalus atrox OX=8730 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 46.0 bits (108),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQ LCGSHLVEAL+L+CGERGF+Y+P++
+Sbjct  2   PNQRLCGSHLVEALFLICGERGFYYSPRS  30
+
+
+> sp|P42633|INS_ANGRO Insulin OS=Anguilla rostrata OX=7938 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 45.2 bits (106),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLVEALYLVCG  GFF+ PK
+Sbjct  2   STQHLCGSHLVEALYLVCGSNGFFFNPK  29
+
+
+> sp|P68987|INS_PETMA Insulin OS=Petromyzon marinus OX=7757 GN=ins 
+PE=1 SV=1
+Length=57
+
+ Score = 45.2 bits (106),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 22/25 (88%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTPK  29
+           HLCGSHLVEALY+VCG+RGFFYTP 
+Sbjct  10  HLCGSHLVEALYVVCGDRGFFYTPS  34
+
+
+> sp|P68988|INS_LAMFL Insulin OS=Lampetra fluviatilis OX=7748 GN=ins 
+PE=1 SV=1
+Length=57
+
+ Score = 45.2 bits (106),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 22/25 (88%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTPK  29
+           HLCGSHLVEALY+VCG+RGFFYTP 
+Sbjct  10  HLCGSHLVEALYVVCGDRGFFYTPS  34
+
+
+> sp|P01338|INS2_BATSP Insulin 2 OS=Batrachoididae sp. OX=8066 
+GN=ins2 PE=1 SV=1
+Length=50
+
+ Score = 44.8 bits (105),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 21/24 (88%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           QHLCGSHLV+ALYLVCG+RGFFY 
+Sbjct  5   QHLCGSHLVDALYLVCGDRGFFYN  28
+
+
+> sp|P12704|INS_SQUAC Insulin OS=Squalus acanthias OX=7797 GN=ins 
+PE=1 SV=1
+Length=54
+
+ Score = 44.4 bits (104),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 21/29 (72%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             +QHLCGSHLVEALY VCG +GF+Y PK
+Sbjct  1   LPSQHLCGSHLVEALYFVCGPKGFYYLPK  29
+
+
+> sp|C0HJI7|INS1_HUSDA Insulin-1 OS=Huso dauricus OX=55293 PE=1 
+SV=1
+Length=58
+
+ Score = 44.4 bits (104),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 1/29 (3%)
+
+Query  2   VNQHL-CGSHLVEALYLVCGERGFFYTPK  29
+            NQHL CG+HLVEALYLVCGERGFFYTP 
+Sbjct  7   ANQHLWCGAHLVEALYLVCGERGFFYTPN  35
+
+
+> sp|P01342|INS_MYXGL Insulin OS=Myxine glutinosa OX=7769 GN=ins 
+PE=1 SV=1
+Length=115
+
+ Score = 44.4 bits (104),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTP  28
+           HLCG  LV ALY+ CG RGFFY P
+Sbjct  31  HLCGKDLVNALYIACGVRGFFYDP  54
+
+
+> sp|P17715|INS_OCTDE Insulin OS=Octodon degus OX=10160 GN=INS 
+PE=1 SV=2
+Length=109
+
+ Score = 43.3 bits (101),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 16/25 (64%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           + +QHLCGS+LVEALY+ CG  GF+
+Sbjct  25  YSSQHLCGSNLVEALYMTCGRSGFY  49
+
+
+> sp|P22618|IGF_MYXGL Insulin-like growth factor (Fragment) OS=Myxine 
+glutinosa OX=7769 PE=2 SV=1
+Length=139
+
+ Score = 42.9 bits (100),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 14/27 (52%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+           ++ LCGS LV+ L  VC +RGFF+ P+
+Sbjct  40  SETLCGSELVDTLQFVCDDRGFFFVPQ  66
+
+
+> sp|Q95222|IGF1_RABIT Insulin-like growth factor I OS=Oryctolagus 
+cuniculus OX=9986 GN=IGF1 PE=2 SV=3
+Length=143
+
+ Score = 41.4 bits (96),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  35  ETLCGAELVDALQFVCGDRGFYFN  58
+
+
+> sp|P05019|IGF1_HUMAN Insulin-like growth factor I OS=Homo sapiens 
+OX=9606 GN=IGF1 PE=1 SV=1
+Length=195
+
+ Score = 41.0 bits (95),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|Q90WW4|IGF2A_XENLA Insulin-like growth factor II-A OS=Xenopus 
+laevis OX=8355 GN=igf2-a PE=2 SV=1
+Length=217
+
+ Score = 41.4 bits (96),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+ L  VCG+RGF+++
+Sbjct  59  ATETLCGGELVDTLQFVCGDRGFYFS  84
+
+
+> sp|P17647|IGF1_CAVPO Insulin-like growth factor I OS=Cavia porcellus 
+OX=10141 GN=IGF1 PE=2 SV=1
+Length=130
+
+ Score = 39.8 bits (92),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  28  ETLCGAELVDALQFVCGDRGFYFN  51
+
+
+> sp|Q68LC0|IGF1_RHIRO Insulin-like growth factor I OS=Rhinopithecus 
+roxellana OX=61622 GN=IGF1 PE=2 SV=1
+Length=153
+
+ Score = 40.2 bits (93),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|Q6IVA5|IGF1_AILFU Insulin-like growth factor I OS=Ailurus 
+fulgens OX=9649 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 40.2 bits (93),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P10764|IGF2_SHEEP Insulin-like growth factor II OS=Ovis aries 
+OX=9940 GN=IGF2 PE=1 SV=2
+Length=179
+
+ Score = 40.6 bits (94),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P51459|IGF2_HORSE Insulin-like growth factor II OS=Equus caballus 
+OX=9796 GN=IGF2 PE=2 SV=2
+Length=181
+
+ Score = 40.2 bits (93),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|Q28933|IGF1_SUNMU Insulin-like growth factor I (Fragment) 
+OS=Suncus murinus OX=9378 GN=IGF1 PE=2 SV=1
+Length=81
+
+ Score = 39.0 bits (90),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  7   ETLCGAELVDALQFVCGDRGFYFN  30
+
+
+> sp|P33717|IGF2_CHICK Insulin-like growth factor II OS=Gallus 
+gallus OX=9031 GN=IGF2 PE=1 SV=2
+Length=187
+
+ Score = 40.2 bits (93),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG  LV+ L  VCG+RGF+++
+Sbjct  29  ETLCGGELVDTLQFVCGDRGFYFS  52
+
+
+> sp|P23695|IGF2_PIG Insulin-like growth factor II OS=Sus scrofa 
+OX=9823 GN=IGF2 PE=1 SV=2
+Length=181
+
+ Score = 40.2 bits (93),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P01330|INS_MYOCO Insulin OS=Myocastor coypus OX=10157 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 38.7 bits (89),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           +V+Q LCGS LV+ LY VC  RGF+
+Sbjct  1   YVSQRLCGSQLVDTLYSVCRHRGFY  25
+
+
+> sp|P07456|IGF2_BOVIN Insulin-like growth factor II OS=Bos taurus 
+OX=9913 GN=IGF2 PE=1 SV=4
+Length=179
+
+ Score = 40.2 bits (93),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|Q6INW9|IGF2B_XENLA Insulin-like growth factor II-B OS=Xenopus 
+laevis OX=8355 GN=igf2-b PE=2 SV=2
+Length=217
+
+ Score = 40.6 bits (94),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+ L  VCG+RGF+++
+Sbjct  59  PTETLCGGELVDTLQFVCGDRGFYFS  84
+
+
+> sp|P01344|IGF2_HUMAN Insulin-like growth factor II OS=Homo sapiens 
+OX=9606 GN=IGF2 PE=1 SV=1
+Length=180
+
+ Score = 40.2 bits (93),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P07455|IGF1_BOVIN Insulin-like growth factor I OS=Bos taurus 
+OX=9913 GN=IGF1 PE=1 SV=2
+Length=154
+
+ Score = 39.8 bits (92),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  52  ETLCGAELVDALQFVCGDRGFYFN  75
+
+
+> sp|P51457|IGF1_CAPHI Insulin-like growth factor I OS=Capra hircus 
+OX=9925 GN=IGF1 PE=2 SV=2
+Length=154
+
+ Score = 39.4 bits (91),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  52  ETLCGAELVDALQFVCGDRGFYFN  75
+
+
+> sp|P05017|IGF1_MOUSE Insulin-like growth factor I OS=Mus musculus 
+OX=10090 GN=Igf1 PE=1 SV=2
+Length=153
+
+ Score = 39.4 bits (91),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGPRGFYFN  74
+
+
+> sp|P08025|IGF1_RAT Insulin-like growth factor I OS=Rattus norvegicus 
+OX=10116 GN=Igf1 PE=1 SV=3
+Length=153
+
+ Score = 39.4 bits (91),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGPRGFYFN  74
+
+
+> sp|P10763|IGF1_SHEEP Insulin-like growth factor I OS=Ovis aries 
+OX=9940 GN=IGF1 PE=1 SV=2
+Length=154
+
+ Score = 39.4 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  52  ETLCGAELVDALQFVCGDRGFYFN  75
+
+
+> sp|Q6JLX1|IGF1_AILME Insulin-like growth factor I OS=Ailuropoda 
+melanoleuca OX=9646 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 39.4 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P16545|IGF1_PIG Insulin-like growth factor I OS=Sus scrofa 
+OX=9823 GN=IGF1 PE=2 SV=1
+Length=153
+
+ Score = 39.4 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|Q6GUL6|IGF1_PANTA Insulin-like growth factor I OS=Panthera 
+tigris altaica OX=74533 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 39.4 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P33712|IGF1_CANLF Insulin-like growth factor I OS=Canis lupus 
+familiaris OX=9615 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 39.4 bits (91),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P51462|IGF1_COTJA Insulin-like growth factor I (Fragment) 
+OS=Coturnix japonica OX=93934 GN=IGF1 PE=2 SV=1
+Length=124
+
+ Score = 38.7 bits (89),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF+++
+Sbjct  22  ETLCGAELVDALQFVCGDRGFYFS  45
+
+
+> sp|Q08279|IGF2_CAVPO Insulin-like growth factor II (Fragment) 
+OS=Cavia porcellus OX=10141 GN=IGF2 PE=2 SV=1
+Length=128
+
+ Score = 38.7 bits (89),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P51458|IGF1_HORSE Insulin-like growth factor I (Fragment) 
+OS=Equus caballus OX=9796 GN=IGF1 PE=2 SV=1
+Length=122
+
+ Score = 38.3 bits (88),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P01331|INS_PROGU Insulin OS=Proechimys guairae OX=10163 GN=INS 
+PE=1 SV=1
+Length=50
+
+ Score = 37.5 bits (86),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/25 (60%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           +V Q LCGS LV+ LY VC  RGF+
+Sbjct  1   YVGQRLCGSQLVDTLYSVCKHRGFY  25
+
+
+> sp|P18254|IGF1_CHICK Insulin-like growth factor I OS=Gallus gallus 
+OX=9031 GN=IGF1 PE=1 SV=1
+Length=153
+
+ Score = 38.7 bits (89),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+AL  VCG+RGF+++
+Sbjct  51  ETLCGAELVDALQFVCGDRGFYFS  74
+
+
+> sp|Q02816|IGF2_ONCMY Insulin-like growth factor II OS=Oncorhynchus 
+mykiss OX=8022 GN=igf2 PE=2 SV=1
+Length=214
+
+ Score = 39.4 bits (91),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+AL  VC +RGF+++
+Sbjct  51  SAETLCGGELVDALQFVCEDRGFYFS  76
+
+
+> sp|Q02815|IGF1_ONCMY Insulin-like growth factor I OS=Oncorhynchus 
+mykiss OX=8022 GN=igf1 PE=2 SV=1
+Length=176
+
+ Score = 38.7 bits (89),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+ L  VCGERGF+++
+Sbjct  47  ETLCGAELVDTLQFVCGERGFYFS  70
+
+
+> sp|P41694|IGF2_NEOVI Insulin-like growth factor II (Fragment) 
+OS=Neovison vison OX=452646 GN=IGF2 PE=2 SV=1
+Length=129
+
+ Score = 37.5 bits (86),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFY  26
+            ++ LCG  LV+ L  VCG+RGF++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYF  52
+
+
+> sp|P16501|IGF1A_XENLA Insulin-like growth factor I-A OS=Xenopus 
+laevis OX=8355 GN=igf1-a PE=2 SV=2
+Length=153
+
+ Score = 37.9 bits (87),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+ L  VCG+RGF+++
+Sbjct  51  ETLCGAELVDTLQFVCGDRGFYFS  74
+
+
+> sp|P17085|IGF1_ONCKI Insulin-like growth factor I OS=Oncorhynchus 
+kisutch OX=8019 GN=igf1 PE=1 SV=2
+Length=188
+
+ Score = 38.3 bits (88),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+ L  VCGERGF+++
+Sbjct  47  ETLCGAELVDTLQFVCGERGFYFS  70
+
+
+> sp|P01346|IGF2_RAT Insulin-like growth factor II OS=Rattus norvegicus 
+OX=10116 GN=Igf2 PE=1 SV=1
+Length=180
+
+ Score = 37.9 bits (87),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VC +RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCSDRGFYFS  53
+
+
+> sp|Q90326|IGF1B_CYPCA Insulin-like growth factor I, juvenile 
+form OS=Cyprinus carpio OX=7962 PE=2 SV=1
+Length=161
+
+ Score = 37.5 bits (86),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+ L  VCG+RGF+++
+Sbjct  47  ETLCGAELVDTLQFVCGDRGFYFS  70
+
+
+> sp|Q90325|IGF1A_CYPCA Insulin-like growth factor I, adult form 
+OS=Cyprinus carpio OX=7962 PE=2 SV=1
+Length=161
+
+ Score = 37.5 bits (86),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYT  27
+           + LCG+ LV+ L  VCG+RGF+++
+Sbjct  47  ETLCGAELVDTLQFVCGDRGFYFS  70
+
+
+> sp|P09535|IGF2_MOUSE Insulin-like growth factor II OS=Mus musculus 
+OX=10090 GN=Igf2 PE=1 SV=1
+Length=180
+
+ Score = 37.1 bits (85),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+ L  VC +RGF+++
+Sbjct  28  PGETLCGGELVDTLQFVCSDRGFYFS  53
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.157    0.571    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0481    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4921703225
+Results from round 3
+
+
+Query= 9insb
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|F8WCM5|INSR2_HUMAN Insulin, isoform 2 OS=Homo sapiens OX=960...  65.2    5e-14
+  sp|P01321|INS_CANLF Insulin OS=Canis lupus familiaris OX=9615 G...  60.6    1e-12
+  sp|P01313|INS_CRILO Insulin OS=Cricetulus longicaudatus OX=1003...  60.6    1e-12
+  sp|P06306|INS_FELCA Insulin OS=Felis catus OX=9685 GN=INS PE=1 ...  60.2    2e-12
+  sp|Q8HXV2|INS_PONPY Insulin OS=Pongo pygmaeus OX=9600 GN=INS PE...  59.9    3e-12
+  sp|P30406|INS_MACFA Insulin OS=Macaca fascicularis OX=9541 GN=I...  59.9    3e-12
+  sp|P01308|INS_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1...  59.9    3e-12
+  sp|Q6YK33|INS_GORGO Insulin OS=Gorilla gorilla gorilla OX=9595 ...  59.9    3e-12
+  sp|P30407|INS_CHLAE Insulin OS=Chlorocebus aethiops OX=9534 GN=...  59.9    3e-12
+  sp|P30410|INS_PANTR Insulin OS=Pan troglodytes OX=9598 GN=INS P...  59.9    3e-12
+  sp|P01315|INS_PIG Insulin OS=Sus scrofa OX=9823 GN=INS PE=1 SV=2    59.5    3e-12
+  sp|P01317|INS_BOVIN Insulin OS=Bos taurus OX=9913 GN=INS PE=1 SV=2  59.1    4e-12
+  sp|Q91XI3|INS_ICTTR Insulin OS=Ictidomys tridecemlineatus OX=43...  59.1    5e-12
+  sp|Q62587|INS_PSAOB Insulin OS=Psammomys obesus OX=48139 GN=INS...  58.7    6e-12
+  sp|P01318|INS_SHEEP Insulin OS=Ovis aries OX=9940 GN=INS PE=1 SV=2  58.7    7e-12
+  sp|P01311|INS_RABIT Insulin OS=Oryctolagus cuniculus OX=9986 GN...  57.9    1e-11
+  sp|P69045|INS_LOPAM Insulin OS=Lophius americanus OX=8073 GN=in...  57.9    1e-11
+  sp|P01322|INS1_RAT Insulin-1 OS=Rattus norvegicus OX=10116 GN=I...  57.9    1e-11
+  sp|P01323|INS2_RAT Insulin-2 OS=Rattus norvegicus OX=10116 GN=I...  57.2    2e-11
+  sp|P67972|INS_AOTTR Insulin OS=Aotus trivirgatus OX=9505 GN=INS...  57.2    2e-11
+  sp|P01326|INS2_MOUSE Insulin-2 OS=Mus musculus OX=10090 GN=Ins2...  57.2    2e-11
+  sp|Q9W7R2|INS_VERMO Insulin OS=Verasper moseri OX=98923 GN=ins ...  57.2    3e-11
+  sp|P67970|INS_CHICK Insulin OS=Gallus gallus OX=9031 GN=INS PE=...  57.2    3e-11
+  sp|P01325|INS1_MOUSE Insulin-1 OS=Mus musculus OX=10090 GN=Ins1...  56.8    3e-11
+  sp|P12707|INS2_XENLA Insulin-2 OS=Xenopus laevis OX=8355 GN=ins...  56.4    5e-11
+  sp|P01310|INS_HORSE Insulin OS=Equus caballus OX=9796 GN=INS PE...  56.0    5e-11
+  sp|P81025|INS_ORENI Insulin OS=Oreochromis niloticus OX=8128 GN...  56.0    6e-11
+  sp|P51463|INS_SELRF Insulin (Fragment) OS=Selasphorus rufus OX=...  56.0    6e-11
+  sp|P01327|INS_CHICH Insulin OS=Chinchilla chinchilla OX=10152 G...  55.6    7e-11
+  sp|P12706|INS1_XENLA Insulin-1 OS=Xenopus laevis OX=8355 GN=ins...  55.6    8e-11
+  sp|P04667|INS_ONCKE Insulin OS=Oncorhynchus keta OX=8018 GN=ins...  55.2    1e-10
+  sp|Q98TA8|INS_PANBU Insulin OS=Pantodon buchholzi OX=8276 GN=in...  54.8    2e-10
+  sp|P01333|INS_ANAPL Insulin OS=Anas platyrhynchos OX=8839 GN=IN...  53.7    3e-10
+  sp|P13190|INS_CALMI Insulin OS=Callorhinchus milii OX=7868 GN=i...  54.1    3e-10
+  sp|P01335|INS_CYPCA Insulin OS=Cyprinus carpio OX=7962 GN=ins P...  54.1    3e-10
+  sp|P01336|INS_GADMC Insulin OS=Gadus morhua subsp. callarias OX...  52.5    5e-10
+  sp|P67974|INS_PHYCD Insulin OS=Physeter catodon OX=9755 GN=INS ...  52.5    5e-10
+  sp|P67973|INS_BALPH Insulin OS=Balaenoptera physalus OX=9770 GN...  52.5    5e-10
+  sp|P21563|INS_RODSP Insulin OS=Rodentia sp. OX=69158 GN=INS PE=...  53.3    6e-10
+  sp|P01337|INS1_BATSP Insulin-1 OS=Batrachoididae sp. OX=8066 GN...  52.5    6e-10
+  sp|P01339|INS_THUTH Insulin OS=Thunnus thynnus OX=8237 GN=ins P...  52.5    6e-10
+  sp|C0HJT9|INS_SERQU Insulin OS=Seriola quinqueradiata OX=8161 G...  52.5    6e-10
+  sp|C0HJU0|INS_PLATA Insulin OS=Platax teira OX=334891 GN=ins PE...  52.5    6e-10
+  sp|C0HJI4|INS_PAGMA Insulin OS=Pagrus major OX=143350 PE=1 SV=1     52.5    6e-10
+  sp|C0HJI1|INS_CARSE Insulin OS=Caranx sexfasciatus OX=173346 PE...  52.5    6e-10
+  sp|C0HJI6|INS2_THUOR Insulin-2 OS=Thunnus orientalis OX=8238 PE...  52.5    6e-10
+  sp|P69046|INS_LOPPI Insulin OS=Lophius piscatorius OX=8074 GN=i...  52.5    6e-10
+  sp|P01314|INS_BALBO Insulin OS=Balaenoptera borealis OX=9768 GN...  52.2    7e-10
+  sp|P01320|INS_CAMDR Insulin OS=Camelus dromedarius OX=9838 GN=I...  52.2    7e-10
+  sp|P01324|INS_ACOCA Insulin OS=Acomys cahirinus OX=10068 GN=INS...  52.2    7e-10
+  sp|C0HJI3|INS2_KATPE Insulin-2 OS=Katsuwonus pelamis OX=8226 PE...  52.2    8e-10
+  sp|P01316|INS_ELEMA Insulin OS=Elephas maximus OX=9783 GN=INS P...  52.2    8e-10
+  sp|P07453|INS_MYOSC Insulin OS=Myoxocephalus scorpius OX=8097 G...  52.2    8e-10
+  sp|P01319|INS_CAPHI Insulin OS=Capra hircus OX=9925 GN=INS PE=1...  52.2    8e-10
+  sp|O73727|INS_DANRE Insulin OS=Danio rerio OX=7955 GN=ins PE=3 ...  52.9    1e-09
+  sp|P18109|INS_DIDVI Insulin OS=Didelphis virginiana OX=9267 GN=...  51.8    1e-09
+  sp|P68243|INS_CAIMO Insulin OS=Cairina moschata OX=8855 GN=INS ...  51.4    1e-09
+  sp|P68245|INS_ANSAN Insulin OS=Anser anser anser OX=8844 GN=INS...  51.4    1e-09
+  sp|P69048|INS_TRASC Insulin OS=Trachemys scripta OX=34903 GN=IN...  51.0    2e-09
+  sp|P69047|INS_TRADO Insulin OS=Trachemys dorbigni OX=31137 GN=I...  51.0    2e-09
+  sp|P67969|INS_STRCA Insulin OS=Struthio camelus OX=8801 GN=INS ...  51.0    2e-09
+  sp|P67968|INS_MELGA Insulin OS=Meleagris gallopavo OX=9103 GN=I...  51.0    2e-09
+  sp|P09477|INS_PLAFE Insulin OS=Platichthys flesus OX=8260 GN=in...  51.0    2e-09
+  sp|P68990|INS_ONCKI Insulin OS=Oncorhynchus kisutch OX=8019 GN=...  50.6    3e-09
+  sp|P68989|INS_ONCGO Insulin OS=Oncorhynchus gorbuscha OX=8017 G...  50.6    3e-09
+  sp|P67971|INS_SAISC Insulin OS=Saimiri sciureus OX=9521 GN=INS ...  50.6    3e-09
+  sp|P68992|INS_HYDCO Insulin OS=Hydrolagus colliei OX=7873 GN=in...  50.6    3e-09
+  sp|P68991|INS_CHIMO Insulin OS=Chimaera monstrosa OX=7871 GN=in...  50.6    3e-09
+  sp|P83770|INSL_VIGUN Insulin-like protein (Fragments) OS=Vigna ...  50.6    3e-09
+  sp|Q9TQY7|INS_ORNAN Insulin OS=Ornithorhynchus anatinus OX=9258...  50.6    4e-09
+  sp|P12703|INS_ALLMI Insulin OS=Alligator mississippiensis OX=84...  50.2    4e-09
+  sp|P09476|INS_ATRSP Insulin OS=Atractosteus spatula OX=7917 GN=...  49.8    5e-09
+  sp|P81423|INS_ACIGU Insulin OS=Acipenser gueldenstaedtii OX=790...  49.8    6e-09
+  sp|C0HJI2|INS1_KATPE Insulin-1 OS=Katsuwonus pelamis OX=8226 PE...  49.5    7e-09
+  sp|C0HJI5|INS1_THUOR Insulin-1 OS=Thunnus orientalis OX=8238 PE...  49.5    8e-09
+  sp|P81881|INS_PIAME Insulin OS=Piaractus mesopotamicus OX=42528...  49.1    1e-08
+  sp|P01328|INS_HYSCR Insulin OS=Hystrix cristata OX=10137 GN=INS...  49.1    1e-08
+  sp|C0HJI8|INS2_HUSDA Insulin-2 OS=Huso dauricus OX=55293 PE=1 SV=1  49.1    1e-08
+  sp|P01329|INS_CAVPO Insulin OS=Cavia porcellus OX=10141 GN=INS ...  49.8    1e-08
+  sp|P12708|INS_PTYDH Insulin OS=Ptyas dhumnades OX=8587 GN=INS P...  48.3    2e-08
+  sp|P12705|INS_TORMA Insulin (Fragments) OS=Torpedo marmorata OX...  48.7    2e-08
+  sp|P0C236|INS_POLSE Insulin OS=Polypterus senegalus OX=55291 GN...  47.9    3e-08
+  sp|P01334|INS_CROAT Insulin OS=Crotalus atrox OX=8730 GN=INS PE...  47.9    3e-08
+  sp|P29335|INS_AMICA Insulin OS=Amia calva OX=7924 GN=ins PE=1 SV=1  47.9    3e-08
+  sp|P01340|INS_KATPE Insulin OS=Katsuwonus pelamis OX=8226 GN=in...  47.1    5e-08
+  sp|P01338|INS2_BATSP Insulin 2 OS=Batrachoididae sp. OX=8066 GN...  47.1    6e-08
+  sp|P42633|INS_ANGRO Insulin OS=Anguilla rostrata OX=7938 GN=ins...  47.1    7e-08
+  sp|P12704|INS_SQUAC Insulin OS=Squalus acanthias OX=7797 GN=ins...  46.8    1e-07
+  sp|P68987|INS_PETMA Insulin OS=Petromyzon marinus OX=7757 GN=in...  46.4    1e-07
+  sp|P68988|INS_LAMFL Insulin OS=Lampetra fluviatilis OX=7748 GN=...  46.4    1e-07
+  sp|C0HJI7|INS1_HUSDA Insulin-1 OS=Huso dauricus OX=55293 PE=1 SV=1  45.6    2e-07
+  sp|P22618|IGF_MYXGL Insulin-like growth factor (Fragment) OS=My...  46.0    3e-07
+  sp|Q6INW9|IGF2B_XENLA Insulin-like growth factor II-B OS=Xenopu...  46.8    4e-07
+  sp|P01342|INS_MYXGL Insulin OS=Myxine glutinosa OX=7769 GN=ins ...  45.6    4e-07
+  sp|Q90WW4|IGF2A_XENLA Insulin-like growth factor II-A OS=Xenopu...  46.8    4e-07
+  sp|P10764|IGF2_SHEEP Insulin-like growth factor II OS=Ovis arie...  46.0    5e-07
+  sp|P51459|IGF2_HORSE Insulin-like growth factor II OS=Equus cab...  46.0    6e-07
+  sp|P07456|IGF2_BOVIN Insulin-like growth factor II OS=Bos tauru...  45.6    6e-07
+  sp|P23695|IGF2_PIG Insulin-like growth factor II OS=Sus scrofa ...  45.6    6e-07
+  sp|Q95222|IGF1_RABIT Insulin-like growth factor I OS=Oryctolagu...  45.2    7e-07
+  sp|P01344|IGF2_HUMAN Insulin-like growth factor II OS=Homo sapi...  45.6    7e-07
+  sp|P17715|INS_OCTDE Insulin OS=Octodon degus OX=10160 GN=INS PE...  44.8    8e-07
+  sp|P33717|IGF2_CHICK Insulin-like growth factor II OS=Gallus ga...  45.6    8e-07
+  sp|Q02816|IGF2_ONCMY Insulin-like growth factor II OS=Oncorhync...  45.2    1e-06
+  sp|Q08279|IGF2_CAVPO Insulin-like growth factor II (Fragment) O...  44.1    2e-06
+  sp|P05019|IGF1_HUMAN Insulin-like growth factor I OS=Homo sapie...  44.8    2e-06
+  sp|P17647|IGF1_CAVPO Insulin-like growth factor I OS=Cavia porc...  43.7    2e-06
+  sp|Q68LC0|IGF1_RHIRO Insulin-like growth factor I OS=Rhinopithe...  43.7    2e-06
+  sp|Q6IVA5|IGF1_AILFU Insulin-like growth factor I OS=Ailurus fu...  43.7    2e-06
+  sp|P07455|IGF1_BOVIN Insulin-like growth factor I OS=Bos taurus...  43.3    3e-06
+  sp|P51457|IGF1_CAPHI Insulin-like growth factor I OS=Capra hirc...  43.3    3e-06
+  sp|P10763|IGF1_SHEEP Insulin-like growth factor I OS=Ovis aries...  43.3    4e-06
+  sp|P05017|IGF1_MOUSE Insulin-like growth factor I OS=Mus muscul...  43.3    4e-06
+  sp|P08025|IGF1_RAT Insulin-like growth factor I OS=Rattus norve...  43.3    4e-06
+  sp|Q6JLX1|IGF1_AILME Insulin-like growth factor I OS=Ailuropoda...  43.3    4e-06
+  sp|P51462|IGF1_COTJA Insulin-like growth factor I (Fragment) OS...  42.9    4e-06
+  sp|P16545|IGF1_PIG Insulin-like growth factor I OS=Sus scrofa O...  43.3    4e-06
+  sp|P01346|IGF2_RAT Insulin-like growth factor II OS=Rattus norv...  43.7    4e-06
+  sp|Q28933|IGF1_SUNMU Insulin-like growth factor I (Fragment) OS...  42.5    4e-06
+  sp|Q6GUL6|IGF1_PANTA Insulin-like growth factor I OS=Panthera t...  42.9    4e-06
+  sp|P33712|IGF1_CANLF Insulin-like growth factor I OS=Canis lupu...  42.9    4e-06
+  sp|P18254|IGF1_CHICK Insulin-like growth factor I OS=Gallus gal...  42.5    6e-06
+  sp|P41694|IGF2_NEOVI Insulin-like growth factor II (Fragment) O...  42.1    7e-06
+  sp|Q02815|IGF1_ONCMY Insulin-like growth factor I OS=Oncorhynch...  42.9    7e-06
+  sp|P09535|IGF2_MOUSE Insulin-like growth factor II OS=Mus muscu...  42.5    1e-05
+  sp|P51458|IGF1_HORSE Insulin-like growth factor I (Fragment) OS...  41.8    1e-05
+  sp|P16501|IGF1A_XENLA Insulin-like growth factor I-A OS=Xenopus...  42.1    1e-05
+  sp|P17085|IGF1_ONCKI Insulin-like growth factor I OS=Oncorhynch...  42.5    1e-05
+  sp|Q90326|IGF1B_CYPCA Insulin-like growth factor I, juvenile fo...  41.8    1e-05
+  sp|Q90325|IGF1A_CYPCA Insulin-like growth factor I, adult form ...  41.4    2e-05
+  sp|P01330|INS_MYOCO Insulin OS=Myocastor coypus OX=10157 GN=INS...  39.8    3e-05
+  sp|P01331|INS_PROGU Insulin OS=Proechimys guairae OX=10163 GN=I...  38.3    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+  sp|Q90WX8|IGF3_XENLA Insulin-like growth factor III OS=Xenopus ...  35.2    0.003
+  sp|P22334|ILP_BRACL Insulin-like peptide OS=Branchiostoma calif...  36.4    0.004
+
+
+> sp|F8WCM5|INSR2_HUMAN Insulin, isoform 2 OS=Homo sapiens OX=9606 
+GN=INS-IGF2 PE=2 SV=1
+Length=200
+
+ Score = 65.2 bits (158),  Expect = 5e-14, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P01321|INS_CANLF Insulin OS=Canis lupus familiaris OX=9615 
+GN=INS PE=1 SV=1
+Length=110
+
+ Score = 60.6 bits (146),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01313|INS_CRILO Insulin OS=Cricetulus longicaudatus OX=10030 
+GN=INS PE=1 SV=2
+Length=110
+
+ Score = 60.6 bits (146),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P06306|INS_FELCA Insulin OS=Felis catus OX=9685 GN=INS PE=1 
+SV=2
+Length=110
+
+ Score = 60.2 bits (145),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|Q8HXV2|INS_PONPY Insulin OS=Pongo pygmaeus OX=9600 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 59.9 bits (144),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P30406|INS_MACFA Insulin OS=Macaca fascicularis OX=9541 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 59.9 bits (144),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P01308|INS_HUMAN Insulin OS=Homo sapiens OX=9606 GN=INS PE=1 
+SV=1
+Length=110
+
+ Score = 59.9 bits (144),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|Q6YK33|INS_GORGO Insulin OS=Gorilla gorilla gorilla OX=9595 
+GN=INS PE=3 SV=1
+Length=110
+
+ Score = 59.9 bits (144),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P30407|INS_CHLAE Insulin OS=Chlorocebus aethiops OX=9534 GN=INS 
+PE=1 SV=1
+Length=110
+
+ Score = 59.9 bits (144),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P30410|INS_PANTR Insulin OS=Pan troglodytes OX=9598 GN=INS 
+PE=1 SV=1
+Length=110
+
+ Score = 59.9 bits (144),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> sp|P01315|INS_PIG Insulin OS=Sus scrofa OX=9823 GN=INS PE=1 SV=2
+Length=108
+
+ Score = 59.5 bits (143),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01317|INS_BOVIN Insulin OS=Bos taurus OX=9913 GN=INS PE=1 
+SV=2
+Length=105
+
+ Score = 59.1 bits (142),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|Q91XI3|INS_ICTTR Insulin OS=Ictidomys tridecemlineatus OX=43179 
+GN=INS PE=3 SV=1
+Length=110
+
+ Score = 59.1 bits (142),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|Q62587|INS_PSAOB Insulin OS=Psammomys obesus OX=48139 GN=INS 
+PE=3 SV=1
+Length=110
+
+ Score = 58.7 bits (141),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> sp|P01318|INS_SHEEP Insulin OS=Ovis aries OX=9940 GN=INS PE=1 
+SV=2
+Length=105
+
+ Score = 58.7 bits (141),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> sp|P01311|INS_RABIT Insulin OS=Oryctolagus cuniculus OX=9986 
+GN=INS PE=1 SV=2
+Length=110
+
+ Score = 57.9 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P69045|INS_LOPAM Insulin OS=Lophius americanus OX=8073 GN=ins 
+PE=3 SV=1
+Length=116
+
+ Score = 57.9 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCG+RGFFY PK
+Sbjct  27  PAQHLCGSHLVDALYLVCGDRGFFYNPK  54
+
+
+> sp|P01322|INS1_RAT Insulin-1 OS=Rattus norvegicus OX=10116 GN=Ins1 
+PE=1 SV=1
+Length=110
+
+ Score = 57.9 bits (139),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCG HLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVKQHLCGPHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P01323|INS2_RAT Insulin-2 OS=Rattus norvegicus OX=10116 GN=Ins2 
+PE=1 SV=1
+Length=110
+
+ Score = 57.2 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> sp|P67972|INS_AOTTR Insulin OS=Aotus trivirgatus OX=9505 GN=INS 
+PE=3 SV=1
+Length=108
+
+ Score = 57.2 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKT  54
+
+
+> sp|P01326|INS2_MOUSE Insulin-2 OS=Mus musculus OX=10090 GN=Ins2 
+PE=1 SV=1
+Length=110
+
+ Score = 57.2 bits (137),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> sp|Q9W7R2|INS_VERMO Insulin OS=Verasper moseri OX=98923 GN=ins 
+PE=3 SV=1
+Length=115
+
+ Score = 57.2 bits (137),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+              QHLCG+HLV+ALYLVCGERGFFYTPK
+Sbjct  26  LPPQHLCGAHLVDALYLVCGERGFFYTPK  54
+
+
+> sp|P67970|INS_CHICK Insulin OS=Gallus gallus OX=9031 GN=INS PE=1 
+SV=1
+Length=107
+
+ Score = 57.2 bits (137),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  26  ANQHLCGSHLVEALYLVCGERGFFYSPKA  54
+
+
+> sp|P01325|INS1_MOUSE Insulin-1 OS=Mus musculus OX=10090 GN=Ins1 
+PE=1 SV=1
+Length=108
+
+ Score = 56.8 bits (136),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCG HLVEALYLVCGERGFFYTPK+
+Sbjct  25  FVKQHLCGPHLVEALYLVCGERGFFYTPKS  54
+
+
+> sp|P12707|INS2_XENLA Insulin-2 OS=Xenopus laevis OX=8355 GN=ins-b 
+PE=1 SV=2
+Length=106
+
+ Score = 56.4 bits (135),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             NQHLCGSHLVEALYLVCG+RGFFY PK
+Sbjct  24  LANQHLCGSHLVEALYLVCGDRGFFYYPK  52
+
+
+> sp|P01310|INS_HORSE Insulin OS=Equus caballus OX=9796 GN=INS 
+PE=1 SV=1
+Length=86
+
+ Score = 56.0 bits (134),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P81025|INS_ORENI Insulin OS=Oreochromis niloticus OX=8128 
+GN=ins PE=1 SV=2
+Length=113
+
+ Score = 56.0 bits (134),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            QHLCGSHLV+ALYLVCG+RGFFY P+
+Sbjct  28  PQHLCGSHLVDALYLVCGDRGFFYNPR  54
+
+
+> sp|P51463|INS_SELRF Insulin (Fragment) OS=Selasphorus rufus OX=29060 
+GN=INS PE=3 SV=1
+Length=103
+
+ Score = 56.0 bits (134),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  22  VNQHLCGSHLVEALYLVCGERGFFYSPKA  50
+
+
+> sp|P01327|INS_CHICH Insulin OS=Chinchilla chinchilla OX=10152 
+GN=INS PE=1 SV=2
+Length=86
+
+ Score = 55.6 bits (133),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 26/30 (87%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVN+HLCGSHLV+ALYLVCG+RGFFYTP A
+Sbjct  1   FVNKHLCGSHLVDALYLVCGDRGFFYTPMA  30
+
+
+> sp|P12706|INS1_XENLA Insulin-1 OS=Xenopus laevis OX=8355 GN=ins-a 
+PE=1 SV=2
+Length=106
+
+ Score = 55.6 bits (133),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            VNQHLCGSHLVEALYLVCG+RGFFY PK
+Sbjct  24  LVNQHLCGSHLVEALYLVCGDRGFFYYPK  52
+
+
+> sp|P04667|INS_ONCKE Insulin OS=Oncorhynchus keta OX=8018 GN=ins 
+PE=1 SV=2
+Length=105
+
+ Score = 55.2 bits (132),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCGE+GFFYTPK
+Sbjct  24  AAQHLCGSHLVDALYLVCGEKGFFYTPK  51
+
+
+> sp|Q98TA8|INS_PANBU Insulin OS=Pantodon buchholzi OX=8276 GN=ins 
+PE=3 SV=1
+Length=110
+
+ Score = 54.8 bits (131),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLV+ALY+VCGE+GFFY PK 
+Sbjct  25  SSQHLCGSHLVDALYMVCGEKGFFYQPKT  53
+
+
+> sp|P01333|INS_ANAPL Insulin OS=Anas platyrhynchos OX=8839 GN=INS 
+PE=1 SV=1
+Length=81
+
+ Score = 53.7 bits (128),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P13190|INS_CALMI Insulin OS=Callorhinchus milii OX=7868 GN=ins 
+PE=1 SV=2
+Length=89
+
+ Score = 54.1 bits (129),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  2   PTQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> sp|P01335|INS_CYPCA Insulin OS=Cyprinus carpio OX=7962 GN=ins 
+PE=1 SV=1
+Length=108
+
+ Score = 54.1 bits (129),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  25  APQHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> sp|P01336|INS_GADMC Insulin OS=Gadus morhua subsp. callarias 
+OX=8053 GN=ins PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P67974|INS_PHYCD Insulin OS=Physeter catodon OX=9755 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P67973|INS_BALPH Insulin OS=Balaenoptera physalus OX=9770 
+GN=INS PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P21563|INS_RODSP Insulin OS=Rodentia sp. OX=69158 GN=INS PE=3 
+SV=1
+Length=108
+
+ Score = 53.3 bits (127),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 28/31 (90%), Positives = 29/31 (94%), Gaps = 1/31 (3%)
+
+Query  1   FVNQHLCGSHLVEALY-LVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALY LVCGERGFFYTP +
+Sbjct  24  FVNQHLCGSHLVEALYILVCGERGFFYTPMS  54
+
+
+> sp|P01337|INS1_BATSP Insulin-1 OS=Batrachoididae sp. OX=8066 
+GN=ins1 PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P01339|INS_THUTH Insulin OS=Thunnus thynnus OX=8237 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJT9|INS_SERQU Insulin OS=Seriola quinqueradiata OX=8161 
+GN=ins PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJU0|INS_PLATA Insulin OS=Platax teira OX=334891 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI4|INS_PAGMA Insulin OS=Pagrus major OX=143350 PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI1|INS_CARSE Insulin OS=Caranx sexfasciatus OX=173346 
+PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|C0HJI6|INS2_THUOR Insulin-2 OS=Thunnus orientalis OX=8238 
+PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P69046|INS_LOPPI Insulin OS=Lophius piscatorius OX=8074 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 52.5 bits (125),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PAQHLCGSHLVDALYLVCGDRGFFYNPKG  31
+
+
+> sp|P01314|INS_BALBO Insulin OS=Balaenoptera borealis OX=9768 
+GN=INS PE=1 SV=1
+Length=51
+
+ Score = 52.2 bits (124),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01320|INS_CAMDR Insulin OS=Camelus dromedarius OX=9838 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 52.2 bits (124),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           F NQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FANQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P01324|INS_ACOCA Insulin OS=Acomys cahirinus OX=10068 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 52.2 bits (124),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV+QHLCGSHLVEALYLVCGERGFFYTPK+
+Sbjct  1   FVBQHLCGSHLVEALYLVCGERGFFYTPKS  30
+
+
+> sp|C0HJI3|INS2_KATPE Insulin-2 OS=Katsuwonus pelamis OX=8226 
+PE=1 SV=1
+Length=51
+
+ Score = 52.2 bits (124),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 24/29 (83%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCGERGFFY PK 
+Sbjct  3   PPQHLCGSHLVDALYLVCGERGFFYNPKG  31
+
+
+> sp|P01316|INS_ELEMA Insulin OS=Elephas maximus OX=9783 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 52.2 bits (124),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKT  30
+
+
+> sp|P07453|INS_MYOSC Insulin OS=Myoxocephalus scorpius OX=8097 
+GN=ins PE=1 SV=1
+Length=50
+
+ Score = 52.2 bits (124),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            QHLCGSHLV+ALYLVCG+RGFFY PK 
+Sbjct  3   PQHLCGSHLVDALYLVCGDRGFFYNPKG  30
+
+
+> sp|P01319|INS_CAPHI Insulin OS=Capra hircus OX=9925 GN=INS PE=1 
+SV=1
+Length=51
+
+ Score = 52.2 bits (124),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|O73727|INS_DANRE Insulin OS=Danio rerio OX=7955 GN=ins PE=3 
+SV=1
+Length=108
+
+ Score = 52.9 bits (126),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  26  PQHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> sp|P18109|INS_DIDVI Insulin OS=Didelphis virginiana OX=9267 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.8 bits (123),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            VNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   LVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> sp|P68243|INS_CAIMO Insulin OS=Cairina moschata OX=8855 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.4 bits (122),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P68245|INS_ANSAN Insulin OS=Anser anser anser OX=8844 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.4 bits (122),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> sp|P69048|INS_TRASC Insulin OS=Trachemys scripta OX=34903 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P69047|INS_TRADO Insulin OS=Trachemys dorbigni OX=31137 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P67969|INS_STRCA Insulin OS=Struthio camelus OX=8801 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P67968|INS_MELGA Insulin OS=Meleagris gallopavo OX=9103 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKA  30
+
+
+> sp|P09477|INS_PLAFE Insulin OS=Platichthys flesus OX=8260 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 51.0 bits (121),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCG+HLV+ALYLVCGERGFFYTPK 
+Sbjct  3   PPQHLCGAHLVDALYLVCGERGFFYTPKG  31
+
+
+> sp|P68990|INS_ONCKI Insulin OS=Oncorhynchus kisutch OX=8019 GN=ins 
+PE=1 SV=1
+Length=50
+
+ Score = 50.6 bits (120),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCGE+GFFY PK 
+Sbjct  2   AAQHLCGSHLVDALYLVCGEKGFFYNPKG  30
+
+
+> sp|P68989|INS_ONCGO Insulin OS=Oncorhynchus gorbuscha OX=8017 
+GN=ins PE=1 SV=1
+Length=50
+
+ Score = 50.6 bits (120),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 23/29 (79%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCGE+GFFY PK 
+Sbjct  2   AAQHLCGSHLVDALYLVCGEKGFFYNPKG  30
+
+
+> sp|P67971|INS_SAISC Insulin OS=Saimiri sciureus OX=9521 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 50.6 bits (120),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  1   FVNQHLCGPHLVEALYLVCGERGFFYAPKT  30
+
+
+> sp|P68992|INS_HYDCO Insulin OS=Hydrolagus colliei OX=7873 GN=ins 
+PE=1 SV=1
+Length=59
+
+ Score = 50.6 bits (120),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  2   PTQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> sp|P68991|INS_CHIMO Insulin OS=Chimaera monstrosa OX=7871 GN=ins 
+PE=1 SV=1
+Length=59
+
+ Score = 50.6 bits (120),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  2   PTQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> sp|P83770|INSL_VIGUN Insulin-like protein (Fragments) OS=Vigna 
+unguiculata OX=3917 PE=1 SV=1
+Length=51
+
+ Score = 50.6 bits (120),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHL GSHLVEALYLV GERGFFYTPKA
+Sbjct  1   FVNQHLXGSHLVEALYLVXGERGFFYTPKA  30
+
+
+> sp|Q9TQY7|INS_ORNAN Insulin OS=Ornithorhynchus anatinus OX=9258 
+GN=INS PE=1 SV=2
+Length=51
+
+ Score = 50.6 bits (120),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 24/29 (83%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           F NQHLCGSHLVEALYLVCGE+GF+Y P+
+Sbjct  1   FPNQHLCGSHLVEALYLVCGEKGFYYIPR  29
+
+
+> sp|P12703|INS_ALLMI Insulin OS=Alligator mississippiensis OX=8496 
+GN=INS PE=1 SV=2
+Length=51
+
+ Score = 50.2 bits (119),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 24/29 (83%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQ LCGSHLV+ALYLVCGERGFFY+PK 
+Sbjct  2   ANQRLCGSHLVDALYLVCGERGFFYSPKG  30
+
+
+> sp|P09476|INS_ATRSP Insulin OS=Atractosteus spatula OX=7917 GN=ins 
+PE=1 SV=1
+Length=52
+
+ Score = 49.8 bits (118),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGE+GFFY P 
+Sbjct  2   ANQHLCGSHLVEALYLVCGEKGFFYNPN  29
+
+
+> sp|P81423|INS_ACIGU Insulin OS=Acipenser gueldenstaedtii OX=7902 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 49.8 bits (118),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 26/28 (93%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGERGFFYTP 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYTPN  29
+
+
+> sp|C0HJI2|INS1_KATPE Insulin-1 OS=Katsuwonus pelamis OX=8226 
+PE=1 SV=1
+Length=50
+
+ Score = 49.5 bits (117),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLVEAL LVCG+RGFFY P+ 
+Sbjct  2   SSQHLCGSHLVEALNLVCGDRGFFYNPRG  30
+
+
+> sp|C0HJI5|INS1_THUOR Insulin-1 OS=Thunnus orientalis OX=8238 
+PE=1 SV=1
+Length=50
+
+ Score = 49.5 bits (117),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLVEAL LVCG+RGFFY P+ 
+Sbjct  2   SSQHLCGSHLVEALNLVCGDRGFFYNPRG  30
+
+
+> sp|P81881|INS_PIAME Insulin OS=Piaractus mesopotamicus OX=42528 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 49.1 bits (116),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 23/29 (79%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             QHLCGSHLV+ALYLVCG  GFFY PK 
+Sbjct  4   APQHLCGSHLVDALYLVCGPSGFFYNPKG  32
+
+
+> sp|P01328|INS_HYSCR Insulin OS=Hystrix cristata OX=10137 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 49.1 bits (116),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCG  GFFY PKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGNDGFFYRPKA  30
+
+
+> sp|C0HJI8|INS2_HUSDA Insulin-2 OS=Huso dauricus OX=55293 PE=1 
+SV=1
+Length=52
+
+ Score = 49.1 bits (116),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 25/28 (89%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCG+HLVEALYLVCGERGFFYTP 
+Sbjct  2   ANQHLCGAHLVEALYLVCGERGFFYTPN  29
+
+
+> sp|P01329|INS_CAVPO Insulin OS=Cavia porcellus OX=10141 GN=INS 
+PE=1 SV=2
+Length=110
+
+ Score = 49.8 bits (118),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FV++HLCGS+LVE LY VC + GFFY PK
+Sbjct  25  FVSRHLCGSNLVETLYSVCQDDGFFYIPK  53
+
+
+> sp|P12708|INS_PTYDH Insulin OS=Ptyas dhumnades OX=8587 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 48.3 bits (114),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/29 (72%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQ LCGSHLVEAL+L+CGERGF+Y+P+ 
+Sbjct  2   PNQRLCGSHLVEALFLICGERGFYYSPRT  30
+
+
+> sp|P12705|INS_TORMA Insulin (Fragments) OS=Torpedo marmorata 
+OX=7788 GN=ins PE=1 SV=1
+Length=70
+
+ Score = 48.7 bits (115),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+             +QHLCGSHLVEALY VCG +GF+Y PKA
+Sbjct  1   LPSQHLCGSHLVEALYFVCGPKGFYYLPKA  30
+
+
+> sp|P0C236|INS_POLSE Insulin OS=Polypterus senegalus OX=55291 
+GN=ins PE=1 SV=1
+Length=52
+
+ Score = 47.9 bits (113),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            N+HLCGSHLVEALYLVCG RGFFY P 
+Sbjct  2   ANRHLCGSHLVEALYLVCGNRGFFYIPS  29
+
+
+> sp|P01334|INS_CROAT Insulin OS=Crotalus atrox OX=8730 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 47.9 bits (113),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 21/29 (72%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQ LCGSHLVEAL+L+CGERGF+Y+P++
+Sbjct  2   PNQRLCGSHLVEALFLICGERGFYYSPRS  30
+
+
+> sp|P29335|INS_AMICA Insulin OS=Amia calva OX=7924 GN=ins PE=1 
+SV=1
+Length=52
+
+ Score = 47.9 bits (113),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            +QHLCGSHLVEAL+LVCGE GFFY P 
+Sbjct  2   ASQHLCGSHLVEALFLVCGESGFFYNPN  29
+
+
+> sp|P01340|INS_KATPE Insulin OS=Katsuwonus pelamis OX=8226 GN=ins 
+PE=1 SV=1
+Length=50
+
+ Score = 47.1 bits (111),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 25/29 (86%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            N HLCGSHLVEALYLVCGERGFFY PK 
+Sbjct  2   ANPHLCGSHLVEALYLVCGERGFFYQPKG  30
+
+
+> sp|P01338|INS2_BATSP Insulin 2 OS=Batrachoididae sp. OX=8066 
+GN=ins2 PE=1 SV=1
+Length=50
+
+ Score = 47.1 bits (111),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             QHLCGSHLV+ALYLVCG+RGFFY 
+Sbjct  3   PPQHLCGSHLVDALYLVCGDRGFFYN  28
+
+
+> sp|P42633|INS_ANGRO Insulin OS=Anguilla rostrata OX=7938 GN=ins 
+PE=1 SV=1
+Length=51
+
+ Score = 47.1 bits (111),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLVEALYLVCG  GFF+ PK
+Sbjct  2   STQHLCGSHLVEALYLVCGSNGFFFNPK  29
+
+
+> sp|P12704|INS_SQUAC Insulin OS=Squalus acanthias OX=7797 GN=ins 
+PE=1 SV=1
+Length=54
+
+ Score = 46.8 bits (110),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 21/29 (72%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             +QHLCGSHLVEALY VCG +GF+Y PK
+Sbjct  1   LPSQHLCGSHLVEALYFVCGPKGFYYLPK  29
+
+
+> sp|P68987|INS_PETMA Insulin OS=Petromyzon marinus OX=7757 GN=ins 
+PE=1 SV=1
+Length=57
+
+ Score = 46.4 bits (109),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 22/25 (88%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTPK  29
+           HLCGSHLVEALY+VCG+RGFFYTP 
+Sbjct  10  HLCGSHLVEALYVVCGDRGFFYTPS  34
+
+
+> sp|P68988|INS_LAMFL Insulin OS=Lampetra fluviatilis OX=7748 GN=ins 
+PE=1 SV=1
+Length=57
+
+ Score = 46.4 bits (109),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 22/25 (88%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTPK  29
+           HLCGSHLVEALY+VCG+RGFFYTP 
+Sbjct  10  HLCGSHLVEALYVVCGDRGFFYTPS  34
+
+
+> sp|C0HJI7|INS1_HUSDA Insulin-1 OS=Huso dauricus OX=55293 PE=1 
+SV=1
+Length=58
+
+ Score = 45.6 bits (107),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 25/29 (86%), Positives = 26/29 (90%), Gaps = 1/29 (3%)
+
+Query  2   VNQHL-CGSHLVEALYLVCGERGFFYTPK  29
+            NQHL CG+HLVEALYLVCGERGFFYTP 
+Sbjct  7   ANQHLWCGAHLVEALYLVCGERGFFYTPN  35
+
+
+> sp|P22618|IGF_MYXGL Insulin-like growth factor (Fragment) OS=Myxine 
+glutinosa OX=7769 PE=2 SV=1
+Length=139
+
+ Score = 46.0 bits (108),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 14/27 (52%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+           ++ LCGS LV+ L  VC +RGFF+ P+
+Sbjct  40  SETLCGSELVDTLQFVCDDRGFFFVPQ  66
+
+
+> sp|Q6INW9|IGF2B_XENLA Insulin-like growth factor II-B OS=Xenopus 
+laevis OX=8355 GN=igf2-b PE=2 SV=2
+Length=217
+
+ Score = 46.8 bits (110),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+ L  VCG+RGF+++
+Sbjct  59  PTETLCGGELVDTLQFVCGDRGFYFS  84
+
+
+> sp|P01342|INS_MYXGL Insulin OS=Myxine glutinosa OX=7769 GN=ins 
+PE=1 SV=1
+Length=115
+
+ Score = 45.6 bits (107),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTP  28
+           HLCG  LV ALY+ CG RGFFY P
+Sbjct  31  HLCGKDLVNALYIACGVRGFFYDP  54
+
+
+> sp|Q90WW4|IGF2A_XENLA Insulin-like growth factor II-A OS=Xenopus 
+laevis OX=8355 GN=igf2-a PE=2 SV=1
+Length=217
+
+ Score = 46.8 bits (110),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+ L  VCG+RGF+++
+Sbjct  59  ATETLCGGELVDTLQFVCGDRGFYFS  84
+
+
+> sp|P10764|IGF2_SHEEP Insulin-like growth factor II OS=Ovis aries 
+OX=9940 GN=IGF2 PE=1 SV=2
+Length=179
+
+ Score = 46.0 bits (108),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P51459|IGF2_HORSE Insulin-like growth factor II OS=Equus caballus 
+OX=9796 GN=IGF2 PE=2 SV=2
+Length=181
+
+ Score = 46.0 bits (108),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P07456|IGF2_BOVIN Insulin-like growth factor II OS=Bos taurus 
+OX=9913 GN=IGF2 PE=1 SV=4
+Length=179
+
+ Score = 45.6 bits (107),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P23695|IGF2_PIG Insulin-like growth factor II OS=Sus scrofa 
+OX=9823 GN=IGF2 PE=1 SV=2
+Length=181
+
+ Score = 45.6 bits (107),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|Q95222|IGF1_RABIT Insulin-like growth factor I OS=Oryctolagus 
+cuniculus OX=9986 GN=IGF1 PE=2 SV=3
+Length=143
+
+ Score = 45.2 bits (106),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  34  PETLCGAELVDALQFVCGDRGFYFN  58
+
+
+> sp|P01344|IGF2_HUMAN Insulin-like growth factor II OS=Homo sapiens 
+OX=9606 GN=IGF2 PE=1 SV=1
+Length=180
+
+ Score = 45.6 bits (107),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P17715|INS_OCTDE Insulin OS=Octodon degus OX=10160 GN=INS 
+PE=1 SV=2
+Length=109
+
+ Score = 44.8 bits (105),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 16/25 (64%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           + +QHLCGS+LVEALY+ CG  GF+
+Sbjct  25  YSSQHLCGSNLVEALYMTCGRSGFY  49
+
+
+> sp|P33717|IGF2_CHICK Insulin-like growth factor II OS=Gallus 
+gallus OX=9031 GN=IGF2 PE=1 SV=2
+Length=187
+
+ Score = 45.6 bits (107),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG  LV+ L  VCG+RGF+++
+Sbjct  28  AETLCGGELVDTLQFVCGDRGFYFS  52
+
+
+> sp|Q02816|IGF2_ONCMY Insulin-like growth factor II OS=Oncorhynchus 
+mykiss OX=8022 GN=igf2 PE=2 SV=1
+Length=214
+
+ Score = 45.2 bits (106),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+AL  VC +RGF+++
+Sbjct  51  SAETLCGGELVDALQFVCEDRGFYFS  76
+
+
+> sp|Q08279|IGF2_CAVPO Insulin-like growth factor II (Fragment) 
+OS=Cavia porcellus OX=10141 GN=IGF2 PE=2 SV=1
+Length=128
+
+ Score = 44.1 bits (103),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYFS  53
+
+
+> sp|P05019|IGF1_HUMAN Insulin-like growth factor I OS=Homo sapiens 
+OX=9606 GN=IGF1 PE=1 SV=1
+Length=195
+
+ Score = 44.8 bits (105),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P17647|IGF1_CAVPO Insulin-like growth factor I OS=Cavia porcellus 
+OX=10141 GN=IGF1 PE=2 SV=1
+Length=130
+
+ Score = 43.7 bits (102),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  27  PETLCGAELVDALQFVCGDRGFYFN  51
+
+
+> sp|Q68LC0|IGF1_RHIRO Insulin-like growth factor I OS=Rhinopithecus 
+roxellana OX=61622 GN=IGF1 PE=2 SV=1
+Length=153
+
+ Score = 43.7 bits (102),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|Q6IVA5|IGF1_AILFU Insulin-like growth factor I OS=Ailurus 
+fulgens OX=9649 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 43.7 bits (102),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P07455|IGF1_BOVIN Insulin-like growth factor I OS=Bos taurus 
+OX=9913 GN=IGF1 PE=1 SV=2
+Length=154
+
+ Score = 43.3 bits (101),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  PETLCGAELVDALQFVCGDRGFYFN  75
+
+
+> sp|P51457|IGF1_CAPHI Insulin-like growth factor I OS=Capra hircus 
+OX=9925 GN=IGF1 PE=2 SV=2
+Length=154
+
+ Score = 43.3 bits (101),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  PETLCGAELVDALQFVCGDRGFYFN  75
+
+
+> sp|P10763|IGF1_SHEEP Insulin-like growth factor I OS=Ovis aries 
+OX=9940 GN=IGF1 PE=1 SV=2
+Length=154
+
+ Score = 43.3 bits (101),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  51  PETLCGAELVDALQFVCGDRGFYFN  75
+
+
+> sp|P05017|IGF1_MOUSE Insulin-like growth factor I OS=Mus musculus 
+OX=10090 GN=Igf1 PE=1 SV=2
+Length=153
+
+ Score = 43.3 bits (101),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGPRGFYFN  74
+
+
+> sp|P08025|IGF1_RAT Insulin-like growth factor I OS=Rattus norvegicus 
+OX=10116 GN=Igf1 PE=1 SV=3
+Length=153
+
+ Score = 43.3 bits (101),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGPRGFYFN  74
+
+
+> sp|Q6JLX1|IGF1_AILME Insulin-like growth factor I OS=Ailuropoda 
+melanoleuca OX=9646 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 43.3 bits (101),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P51462|IGF1_COTJA Insulin-like growth factor I (Fragment) 
+OS=Coturnix japonica OX=93934 GN=IGF1 PE=2 SV=1
+Length=124
+
+ Score = 42.9 bits (100),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 20/25 (80%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF+++
+Sbjct  21  PETLCGAELVDALQFVCGDRGFYFS  45
+
+
+> sp|P16545|IGF1_PIG Insulin-like growth factor I OS=Sus scrofa 
+OX=9823 GN=IGF1 PE=2 SV=1
+Length=153
+
+ Score = 43.3 bits (101),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P01346|IGF2_RAT Insulin-like growth factor II OS=Rattus norvegicus 
+OX=10116 GN=Igf2 PE=1 SV=1
+Length=180
+
+ Score = 43.7 bits (102),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VC +RGF+++
+Sbjct  28  PSETLCGGELVDTLQFVCSDRGFYFS  53
+
+
+> sp|Q28933|IGF1_SUNMU Insulin-like growth factor I (Fragment) 
+OS=Suncus murinus OX=9378 GN=IGF1 PE=2 SV=1
+Length=81
+
+ Score = 42.5 bits (99),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  6   PETLCGAELVDALQFVCGDRGFYFN  30
+
+
+> sp|Q6GUL6|IGF1_PANTA Insulin-like growth factor I OS=Panthera 
+tigris altaica OX=74533 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 42.9 bits (100),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P33712|IGF1_CANLF Insulin-like growth factor I OS=Canis lupus 
+familiaris OX=9615 GN=IGF1 PE=2 SV=2
+Length=153
+
+ Score = 42.9 bits (100),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P18254|IGF1_CHICK Insulin-like growth factor I OS=Gallus gallus 
+OX=9031 GN=IGF1 PE=1 SV=1
+Length=153
+
+ Score = 42.5 bits (99),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 20/25 (80%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF+++
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFS  74
+
+
+> sp|P41694|IGF2_NEOVI Insulin-like growth factor II (Fragment) 
+OS=Neovison vison OX=452646 GN=IGF2 PE=2 SV=1
+Length=129
+
+ Score = 42.1 bits (98),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFY  26
+            ++ LCG  LV+ L  VCG+RGF++
+Sbjct  28  PSETLCGGELVDTLQFVCGDRGFYF  52
+
+
+> sp|Q02815|IGF1_ONCMY Insulin-like growth factor I OS=Oncorhynchus 
+mykiss OX=8022 GN=igf1 PE=2 SV=1
+Length=176
+
+ Score = 42.9 bits (100),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+ L  VCGERGF+++
+Sbjct  46  PETLCGAELVDTLQFVCGERGFYFS  70
+
+
+> sp|P09535|IGF2_MOUSE Insulin-like growth factor II OS=Mus musculus 
+OX=10090 GN=Igf2 PE=1 SV=1
+Length=180
+
+ Score = 42.5 bits (99),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG  LV+ L  VC +RGF+++
+Sbjct  28  PGETLCGGELVDTLQFVCSDRGFYFS  53
+
+
+> sp|P51458|IGF1_HORSE Insulin-like growth factor I (Fragment) 
+OS=Equus caballus OX=9796 GN=IGF1 PE=2 SV=1
+Length=122
+
+ Score = 41.8 bits (97),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> sp|P16501|IGF1A_XENLA Insulin-like growth factor I-A OS=Xenopus 
+laevis OX=8355 GN=igf1-a PE=2 SV=2
+Length=153
+
+ Score = 42.1 bits (98),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+ L  VCG+RGF+++
+Sbjct  50  PETLCGAELVDTLQFVCGDRGFYFS  74
+
+
+> sp|P17085|IGF1_ONCKI Insulin-like growth factor I OS=Oncorhynchus 
+kisutch OX=8019 GN=igf1 PE=1 SV=2
+Length=188
+
+ Score = 42.5 bits (99),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+ L  VCGERGF+++
+Sbjct  46  PETLCGAELVDTLQFVCGERGFYFS  70
+
+
+> sp|Q90326|IGF1B_CYPCA Insulin-like growth factor I, juvenile 
+form OS=Cyprinus carpio OX=7962 PE=2 SV=1
+Length=161
+
+ Score = 41.8 bits (97),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+ L  VCG+RGF+++
+Sbjct  46  PETLCGAELVDTLQFVCGDRGFYFS  70
+
+
+> sp|Q90325|IGF1A_CYPCA Insulin-like growth factor I, adult form 
+OS=Cyprinus carpio OX=7962 PE=2 SV=1
+Length=161
+
+ Score = 41.4 bits (96),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+ L  VCG+RGF+++
+Sbjct  46  PETLCGAELVDTLQFVCGDRGFYFS  70
+
+
+> sp|P01330|INS_MYOCO Insulin OS=Myocastor coypus OX=10157 GN=INS 
+PE=1 SV=1
+Length=51
+
+ Score = 39.8 bits (92),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 15/25 (60%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           +V+Q LCGS LV+ LY VC  RGF+
+Sbjct  1   YVSQRLCGSQLVDTLYSVCRHRGFY  25
+
+
+> sp|P01331|INS_PROGU Insulin OS=Proechimys guairae OX=10163 GN=INS 
+PE=1 SV=1
+Length=50
+
+ Score = 38.3 bits (88),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 15/25 (60%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFF  25
+           +V Q LCGS LV+ LY VC  RGF+
+Sbjct  1   YVGQRLCGSQLVDTLYSVCKHRGFY  25
+
+
+> sp|Q90WX8|IGF3_XENLA Insulin-like growth factor III OS=Xenopus 
+laevis OX=8355 GN=igf3 PE=2 SV=1
+Length=127
+
+ Score = 35.2 bits (80),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCGS LV+ L  +CG  GF+ +
+Sbjct  56  SKELLCGSELVDILQFICGPTGFYVS  81
+
+
+> sp|P22334|ILP_BRACL Insulin-like peptide OS=Branchiostoma californiense 
+OX=7738 GN=ILP PE=2 SV=1
+Length=305
+
+ Score = 36.4 bits (83),  Expect = 0.004, Method: Composition-based stats.
+ Identities = 12/27 (44%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            ++LCGS L + L  VCG RG+   P+
+Sbjct  24  AEYLCGSTLADVLSFVCGNRGYNSQPR  50
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.156    0.540    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0483    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4921703225
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

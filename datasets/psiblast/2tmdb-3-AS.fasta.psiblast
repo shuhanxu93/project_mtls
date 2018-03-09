@@ -1,0 +1,171 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 2tmdb-3-AS
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P16099|DHTM_METME Trimethylamine dehydrogenase OS=Methylophi...  322     6e-105
+  sp|Q48303|DHDM_HYPSX Dimethylamine dehydrogenase OS=Hyphomicrob...  188     8e-55 
+
+
+> sp|P16099|DHTM_METME Trimethylamine dehydrogenase OS=Methylophilus 
+methylotrophus OX=17 GN=tmd PE=1 SV=3
+Length=730
+
+ Score = 322 bits (825),  Expect = 6e-105, Method: Compositional matrix adjust.
+ Identities = 152/152 (100%), Positives = 152/152 (100%), Gaps = 0/152 (0%)
+
+Query  1    NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT  60
+            NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT
+Sbjct  493  NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT  552
+
+Query  61   AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG  120
+            AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG
+Sbjct  553  AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG  612
+
+Query  121  SKRTYRGPGVSPRDANTSHRWIEFDSLVLVTG  152
+            SKRTYRGPGVSPRDANTSHRWIEFDSLVLVTG
+Sbjct  613  SKRTYRGPGVSPRDANTSHRWIEFDSLVLVTG  644
+
+
+> sp|Q48303|DHDM_HYPSX Dimethylamine dehydrogenase OS=Hyphomicrobium 
+sp. (strain x) OX=79673 GN=dmd PE=3 SV=3
+Length=736
+
+ Score = 188 bits (477),  Expect = 8e-55, Method: Compositional matrix adjust.
+ Identities = 88/151 (58%), Positives = 114/151 (75%), Gaps = 0/151 (0%)
+
+Query  1    NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT  60
+            +T G N  TH+PIPGADASLP  LTPEQV +GKK +GKRV+I+N D Y+ APSLAEK A 
+Sbjct  499  STTGVNHRTHEPIPGADASLPHVLTPEQVYEGKKAVGKRVMIINYDAYYTAPSLAEKFAR  558
+
+Query  61   AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG  120
+            AGH+VT+ +   L  YM +TLE  NM R +HEL ++ LG+  CSR+E GR+E++NIWG+G
+Sbjct  559  AGHDVTVATVCGLGAYMEYTLEGANMQRLIHELGIKVLGETGCSRVEQGRVELFNIWGEG  618
+
+Query  121  SKRTYRGPGVSPRDANTSHRWIEFDSLVLVT  151
+             KR+Y+G G  PR+ NTSH W E D+++LVT
+Sbjct  619  YKRSYKGAGQLPRNENTSHEWHECDTVILVT  649
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6303239055
+Results from round 2
+
+
+Query= 2tmdb-3-AS
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P16099|DHTM_METME Trimethylamine dehydrogenase OS=Methylophi...  295     1e-94
+  sp|Q48303|DHDM_HYPSX Dimethylamine dehydrogenase OS=Hyphomicrob...  288     5e-92
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P16099|DHTM_METME Trimethylamine dehydrogenase OS=Methylophilus 
+methylotrophus OX=17 GN=tmd PE=1 SV=3
+Length=730
+
+ Score = 295 bits (755),  Expect = 1e-94, Method: Composition-based stats.
+ Identities = 152/152 (100%), Positives = 152/152 (100%), Gaps = 0/152 (0%)
+
+Query  1    NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT  60
+            NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT
+Sbjct  493  NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT  552
+
+Query  61   AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG  120
+            AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG
+Sbjct  553  AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG  612
+
+Query  121  SKRTYRGPGVSPRDANTSHRWIEFDSLVLVTG  152
+            SKRTYRGPGVSPRDANTSHRWIEFDSLVLVTG
+Sbjct  613  SKRTYRGPGVSPRDANTSHRWIEFDSLVLVTG  644
+
+
+> sp|Q48303|DHDM_HYPSX Dimethylamine dehydrogenase OS=Hyphomicrobium 
+sp. (strain x) OX=79673 GN=dmd PE=3 SV=3
+Length=736
+
+ Score = 288 bits (738),  Expect = 5e-92, Method: Composition-based stats.
+ Identities = 88/151 (58%), Positives = 114/151 (75%), Gaps = 0/151 (0%)
+
+Query  1    NTDGTNCLTHDPIPGADASLPDQLTPEQVMDGKKKIGKRVVILNADTYFMAPSLAEKLAT  60
+            +T G N  TH+PIPGADASLP  LTPEQV +GKK +GKRV+I+N D Y+ APSLAEK A 
+Sbjct  499  STTGVNHRTHEPIPGADASLPHVLTPEQVYEGKKAVGKRVMIINYDAYYTAPSLAEKFAR  558
+
+Query  61   AGHEVTIVSGVHLANYMHFTLEYPNMMRRLHELHVEELGDHFCSRIEPGRMEIYNIWGDG  120
+            AGH+VT+ +   L  YM +TLE  NM R +HEL ++ LG+  CSR+E GR+E++NIWG+G
+Sbjct  559  AGHDVTVATVCGLGAYMEYTLEGANMQRLIHELGIKVLGETGCSRVEQGRVELFNIWGEG  618
+
+Query  121  SKRTYRGPGVSPRDANTSHRWIEFDSLVLVT  151
+             KR+Y+G G  PR+ NTSH W E D+++LVT
+Sbjct  619  YKRSYKGAGQLPRNENTSHEWHECDTVILVT  649
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.139    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0408    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6303239055
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

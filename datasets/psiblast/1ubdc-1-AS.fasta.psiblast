@@ -1,0 +1,308 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 1ubdc-1-AS
+
+Length=27
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=H...  62.0    4e-12
+  sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=M...  62.0    4e-12
+  sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus O...  55.1    1e-09
+  sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicu...  53.5    4e-09
+  sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus ...  53.5    4e-09
+  sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanoga...  53.5    5e-09
+  sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens O...  45.8    2e-06
+  sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo sa...  38.5    6e-04
+
+
+> sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=Homo 
+sapiens OX=9606 GN=YY1 PE=1 SV=2
+Length=414
+
+ Score = 62.0 bits (149),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
+
+
+> sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=Mus 
+musculus OX=10090 GN=Yy1 PE=1 SV=1
+Length=414
+
+ Score = 62.0 bits (149),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
+
+
+> sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus 
+OX=10090 GN=Yy2 PE=2 SV=1
+Length=378
+
+ Score = 55.1 bits (131),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IAC HKGC KMF+DNSAMRKHLH HG
+Sbjct  260  IACSHKGCEKMFKDNSAMRKHLHIHG  285
+
+
+> sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicus 
+OX=10116 GN=Yy2 PE=3 SV=1
+Length=376
+
+ Score = 53.5 bits (127),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +AC HKGC KMF+DNSAMRKHLH HG
+Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
+
+
+> sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus 
+OX=10117 GN=Yy2 PE=3 SV=1
+Length=376
+
+ Score = 53.5 bits (127),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +AC HKGC KMF+DNSAMRKHLH HG
+Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
+
+
+> sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanogaster 
+OX=7227 GN=pho PE=1 SV=2
+Length=520
+
+ Score = 53.5 bits (127),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  357  IACPHKGCNKHFRDSSAMRKHLHTHG  382
+
+
+> sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens 
+OX=9606 GN=YY2 PE=2 SV=1
+Length=372
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C + GC KMFRD +AMRKHLH HG
+Sbjct  253  TVPCSYSGCEKMFRDYAAMRKHLHIHG  279
+
+
+> sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo 
+sapiens OX=9606 GN=ZFP42 PE=1 SV=2
+Length=310
+
+ Score = 38.5 bits (88),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/26 (58%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP  GCT+  R+ +A+RKHL  HG
+Sbjct  188  IACPQSGCTRKLRNRAALRKHLLIHG  213
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.133    0.466    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4963465100
+Results from round 2
+
+
+Query= 1ubdc-1-AS
+
+Length=27
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus O...  55.8    5e-10
+  sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus ...  54.7    1e-09
+  sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicu...  54.7    1e-09
+  sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens O...  54.3    2e-09
+  sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=H...  53.1    5e-09
+  sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=M...  53.1    6e-09
+  sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanoga...  52.0    2e-08
+  sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo sa...  44.6    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P22227|ZFP42_MOUSE Zinc finger protein 42 OS=Mus musculus OX...  36.9    0.002
+
+
+> sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus 
+OX=10090 GN=Yy2 PE=2 SV=1
+Length=378
+
+ Score = 55.8 bits (133),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IAC HKGC KMF+DNSAMRKHLH HG
+Sbjct  260  IACSHKGCEKMFKDNSAMRKHLHIHG  285
+
+
+> sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus 
+OX=10117 GN=Yy2 PE=3 SV=1
+Length=376
+
+ Score = 54.7 bits (130),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +AC HKGC KMF+DNSAMRKHLH HG
+Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
+
+
+> sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicus 
+OX=10116 GN=Yy2 PE=3 SV=1
+Length=376
+
+ Score = 54.7 bits (130),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +AC HKGC KMF+DNSAMRKHLH HG
+Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
+
+
+> sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens 
+OX=9606 GN=YY2 PE=2 SV=1
+Length=372
+
+ Score = 54.3 bits (129),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C + GC KMFRD +AMRKHLH HG
+Sbjct  253  TVPCSYSGCEKMFRDYAAMRKHLHIHG  279
+
+
+> sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=Homo 
+sapiens OX=9606 GN=YY1 PE=1 SV=2
+Length=414
+
+ Score = 53.1 bits (126),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
+
+
+> sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=Mus 
+musculus OX=10090 GN=Yy1 PE=1 SV=1
+Length=414
+
+ Score = 53.1 bits (126),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
+
+
+> sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanogaster 
+OX=7227 GN=pho PE=1 SV=2
+Length=520
+
+ Score = 52.0 bits (123),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  357  IACPHKGCNKHFRDSSAMRKHLHTHG  382
+
+
+> sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo 
+sapiens OX=9606 GN=ZFP42 PE=1 SV=2
+Length=310
+
+ Score = 44.6 bits (104),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 15/26 (58%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP  GCT+  R+ +A+RKHL  HG
+Sbjct  188  IACPQSGCTRKLRNRAALRKHLLIHG  213
+
+
+> sp|P22227|ZFP42_MOUSE Zinc finger protein 42 OS=Mus musculus 
+OX=10090 GN=Zfp42 PE=1 SV=1
+Length=288
+
+ Score = 36.9 bits (84),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 12/26 (46%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K  R  +A+RKH+  HG
+Sbjct  170  LECPQAGCKKKLRGKTALRKHMLVHG  195
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0415    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4963465100
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

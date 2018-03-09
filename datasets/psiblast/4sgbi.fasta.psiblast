@@ -1,0 +1,698 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 4sgbi
+
+Length=51
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P01080|IP2K_SOLTU Proteinase inhibitor type-2 K OS=Solanum t...  107     1e-29
+  sp|Q41488|IP25_SOLTU Proteinase inhibitor type-2 P303.51 OS=Sol...  100     3e-27
+  sp|Q00782|IP2X_SOLTU Proteinase inhibitor type-2 OS=Solanum tub...  99.4    1e-26
+  sp|Q41489|IP2Y_SOLTU Proteinase inhibitor type-2 OS=Solanum tub...  90.9    2e-23
+  sp|P01079|IP21_SOLTU Proteinase inhibitor PTI OS=Solanum tubero...  87.8    3e-23
+  sp|P84813|POTM1_SOLTU Potamin-1 (Fragment) OS=Solanum tuberosum...  87.4    4e-23
+  sp|Q41435|IP2T_SOLTU Proteinase inhibitor type-2 T OS=Solanum t...  87.4    3e-22
+  sp|Q40561|IP21_TOBAC Proteinase inhibitor type-2 OS=Nicotiana t...  88.6    4e-22
+  sp|P05119|IP21_SOLLC Wound-induced proteinase inhibitor 2 OS=So...  86.7    9e-22
+  sp|Q43502|IP23_SOLLC Proteinase inhibitor type-2 CEVI57 OS=Sola...  87.4    1e-21
+  sp|P56615|IP21_CAPAN Proteinase inhibitor PSI-1.1 OS=Capsicum a...  83.6    2e-21
+  sp|O49146|IP22_CAPAN Wound-induced proteinase inhibitor 2 OS=Ca...  86.3    3e-21
+  sp|Q43652|IP27_SOLTU Proteinase inhibitor type-2 CM7 OS=Solanum...  85.1    4e-21
+  sp|P01078|IPR_SOLME Proteinase inhibitor OS=Solanum melongena O...  72.8    2e-17
+  sp|Q43710|IP22_SOLLC Proteinase inhibitor type-2 TR8 OS=Solanum...  52.4    8e-09
+  sp|P01081|IP2A_SOLTU Proteinase inhibitor IIA (Fragment) OS=Sol...  35.4    0.003
+
+
+> sp|P01080|IP2K_SOLTU Proteinase inhibitor type-2 K OS=Solanum 
+tuberosum OX=4113 GN=PIN2K PE=1 SV=2
+Length=153
+
+ Score = 107 bits (267),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR
+Sbjct  55   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  105
+
+
+ Score = 45.1 bits (105),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 20/35 (57%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACP  37
+            CT CC GYKGC Y+  NG F+CEG+SD  K    P
+Sbjct  117  CTTCCTGYKGCYYFGKNGKFVCEGESDEPKANMYP  151
+
+
+> sp|Q41488|IP25_SOLTU Proteinase inhibitor type-2 P303.51 OS=Solanum 
+tuberosum OX=4113 PE=2 SV=1
+Length=154
+
+ Score = 100 bits (250),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 48/50 (96%), Positives = 49/50 (98%), Gaps = 0/50 (0%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            ICTNCCAGYKGCNYYSANGAFICEG+SDPKKPKACP NCDPHIAYSKCPR
+Sbjct  57   ICTNCCAGYKGCNYYSANGAFICEGESDPKKPKACPRNCDPHIAYSKCPR  106
+
+
+ Score = 45.1 bits (105),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 20/35 (57%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACP  37
+            CT CC GYKGC Y+  NG F+CEG+SD  K    P
+Sbjct  118  CTTCCTGYKGCYYFGKNGKFVCEGESDEPKANMYP  152
+
+
+> sp|Q00782|IP2X_SOLTU Proteinase inhibitor type-2 OS=Solanum tuberosum 
+OX=4113 PE=3 SV=1
+Length=158
+
+ Score = 99.4 bits (246),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 47/51 (92%), Positives = 47/51 (92%), Gaps = 0/51 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            PICTNCCAGYKGCNYYSANG FICEGQS PK PKACP NCDPHIAYSKCPR
+Sbjct  55   PICTNCCAGYKGCNYYSANGTFICEGQSHPKNPKACPRNCDPHIAYSKCPR  105
+
+
+ Score = 45.8 bits (107),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 21/42 (50%), Positives = 27/42 (64%), Gaps = 2/42 (5%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHI  44
+            CT CC GY  C Y+  +G F+CEG+S   +PKAC L CD  +
+Sbjct  117  CTTCCTGYTDCYYFGKDGKFVCEGES--IEPKACTLECDSRL  156
+
+
+> sp|Q41489|IP2Y_SOLTU Proteinase inhibitor type-2 OS=Solanum tuberosum 
+OX=4113 PE=3 SV=1
+Length=147
+
+ Score = 90.9 bits (224),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PIC NCC+GYKGCNYYSA G FICEG+SDPK PKACPLNCD +IAYS+CPR
+Sbjct  50  PICINCCSGYKGCNYYSAFGRFICEGESDPKNPKACPLNCDTNIAYSRCPR  100
+
+
+ Score = 47.8 bits (112),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKP  33
+            CT CC GYKGC Y+  NG F+CEG+SD  KP
+Sbjct  112  CTTCCTGYKGCYYFGTNGKFVCEGESDEPKP  142
+
+
+> sp|P01079|IP21_SOLTU Proteinase inhibitor PTI OS=Solanum tuberosum 
+OX=4113 PE=1 SV=1
+Length=51
+
+ Score = 87.8 bits (216),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 42/50 (84%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           ICTNCCAGYKGCNYYSANGAFICEG+SDPK P  CP NCD +IAYSKC R
+Sbjct  2   ICTNCCAGYKGCNYYSANGAFICEGESDPKNPNVCPRNCDTNIAYSKCLR  51
+
+
+> sp|P84813|POTM1_SOLTU Potamin-1 (Fragment) OS=Solanum tuberosum 
+OX=4113 PE=1 SV=1
+Length=47
+
+ Score = 87.4 bits (215),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 42/46 (91%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYS  47
+           ICTNCCAG KGCN  SANGAFICEGQSDPKKPKACPLNCDPHIAY+
+Sbjct  2   ICTNCCAGTKGCNTTSANGAFICEGQSDPKKPKACPLNCDPHIAYA  47
+
+
+> sp|Q41435|IP2T_SOLTU Proteinase inhibitor type-2 T OS=Solanum 
+tuberosum OX=4113 GN=PIN2T PE=2 SV=1
+Length=147
+
+ Score = 87.4 bits (215),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 40/51 (78%), Positives = 45/51 (88%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PIC NCC+GYKGCNYYSA G  IC+G+SDPK PKACPLNCD +IAYS+CPR
+Sbjct  50  PICINCCSGYKGCNYYSAFGDLICQGESDPKNPKACPLNCDTNIAYSRCPR  100
+
+
+ Score = 47.8 bits (112),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 20/31 (65%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKP  33
+            CT CC GYKGC Y+  NG F+CEG+SD  KP
+Sbjct  112  CTTCCTGYKGCYYFGTNGKFVCEGESDEPKP  142
+
+
+> sp|Q40561|IP21_TOBAC Proteinase inhibitor type-2 OS=Nicotiana 
+tabacum OX=4097 PE=2 SV=1
+Length=197
+
+ Score = 88.6 bits (218),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 42/51 (82%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PICT CCAGYKGCNYYSANG FICEG SDPK P  CP  CDP IAYSKCPR
+Sbjct  49  PICTTCCAGYKGCNYYSANGTFICEGSSDPKNPNVCPQFCDPDIAYSKCPR  99
+
+
+ Score = 57.8 bits (138),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 26/48 (54%), Positives = 33/48 (69%), Gaps = 2/48 (4%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCP  50
+            CT CC GYKGC Y+  +G F+CEG+SD  +PK+C   CDP +A   CP
+Sbjct  111  CTTCCTGYKGCYYFGQDGEFVCEGESD--EPKSCTTECDPRVATISCP  156
+
+
+> sp|P05119|IP21_SOLLC Wound-induced proteinase inhibitor 2 OS=Solanum 
+lycopersicum OX=4081 PE=1 SV=1
+Length=148
+
+ Score = 86.7 bits (213),  Expect = 9e-22, Method: Compositional matrix adjust.
+ Identities = 38/51 (75%), Positives = 45/51 (88%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PIC NCC+GYKGCNYY++ G FICEG+SDPK+P AC  NCDP+IAYS+CPR
+Sbjct  50  PICINCCSGYKGCNYYNSFGKFICEGESDPKRPNACTFNCDPNIAYSRCPR  100
+
+
+ Score = 44.7 bits (104),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 19/36 (53%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPL  38
+            CT CC GYKGC Y+  +G F+CEG+SD  K    P+
+Sbjct  112  CTTCCTGYKGCYYFGKDGKFVCEGESDEPKANMYPV  147
+
+
+> sp|Q43502|IP23_SOLLC Proteinase inhibitor type-2 CEVI57 OS=Solanum 
+lycopersicum OX=4081 GN=CEVI57 PE=2 SV=1
+Length=201
+
+ Score = 87.4 bits (215),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 41/51 (80%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            PICTNCC+GYKGCNYY ANG FICEG SDPK P  CP  CDP IAYSKCPR
+Sbjct  52   PICTNCCSGYKGCNYYYANGTFICEGTSDPKNPNICPSYCDPQIAYSKCPR  102
+
+
+ Score = 57.0 bits (136),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 32/49 (65%), Gaps = 2/49 (4%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            CT CC GYKGC Y+  +G F+CEG+S   +PK C   CDP +AY  CP 
+Sbjct  114  CTTCCTGYKGCYYFGQDGEFVCEGES--IEPKGCTKECDPRVAYMTCPS  160
+
+
+> sp|P56615|IP21_CAPAN Proteinase inhibitor PSI-1.1 OS=Capsicum 
+annuum OX=4072 PE=1 SV=1
+Length=55
+
+ Score = 83.6 bits (205),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 40/50 (80%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           ICTNCCAG KGCNYYSA+G FICEG+SDP  PKACP  CD  IAYSKCPR
+Sbjct  2   ICTNCCAGRKGCNYYSADGTFICEGESDPNNPKACPRYCDTRIAYSKCPR  51
+
+
+> sp|O49146|IP22_CAPAN Wound-induced proteinase inhibitor 2 OS=Capsicum 
+annuum OX=4072 GN=PIN2 PE=2 SV=1
+Length=204
+
+ Score = 86.3 bits (212),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 41/51 (80%), Positives = 43/51 (84%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PICTNCCAG KGCNYYSA+G FICEG+SDP  PK C LNCDP I YSKCPR
+Sbjct  36  PICTNCCAGRKGCNYYSADGTFICEGESDPNNPKPCTLNCDPRIFYSKCPR  86
+
+
+ Score = 84.0 bits (206),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 40/50 (80%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            ICTNCCAG KGCNYYSA+G FICEG+SDP  PK C LNCDP I YSKCPR
+Sbjct  95   ICTNCCAGRKGCNYYSADGTFICEGESDPNNPKPCTLNCDPRIFYSKCPR  144
+
+
+ Score = 82.8 bits (203),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKC  49
+            PICTNCCAG KGCNYY+A+G FICEG+SDP  PKACP NCDP+IAYS C
+Sbjct  152  PICTNCCAGLKGCNYYNADGTFICEGESDPNHPKACPKNCDPNIAYSLC  200
+
+
+> sp|Q43652|IP27_SOLTU Proteinase inhibitor type-2 CM7 OS=Solanum 
+tuberosum OX=4113 GN=PIN2-CM7 PE=3 SV=1
+Length=154
+
+ Score = 85.1 bits (209),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 39/51 (76%), Positives = 43/51 (84%), Gaps = 0/51 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            PIC NCC+GYKGCNYYS  G FICEG+SD K PKACPLNCD +IAYS+CP 
+Sbjct  56   PICINCCSGYKGCNYYSVFGRFICEGESDLKNPKACPLNCDTNIAYSRCPH  106
+
+
+ Score = 45.8 bits (107),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 20/35 (57%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACP  37
+            CT CC GYKGC Y+  NG F+CEG+SD  K    P
+Sbjct  118  CTTCCTGYKGCYYFGKNGKFVCEGESDEPKANMYP  152
+
+
+> sp|P01078|IPR_SOLME Proteinase inhibitor OS=Solanum melongena 
+OX=4111 PE=1 SV=2
+Length=52
+
+ Score = 72.8 bits (177),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 33/49 (67%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCP  50
+           ICTNCCAG KGC+Y+S +G FIC+G+S+P+ PKACP NCD  IAY  CP
+Sbjct  2   ICTNCCAGRKGCSYFSEDGTFICKGESNPENPKACPRNCDGRIAYGICP  50
+
+
+> sp|Q43710|IP22_SOLLC Proteinase inhibitor type-2 TR8 OS=Solanum 
+lycopersicum OX=4081 GN=ARPI PE=2 SV=1
+Length=223
+
+ Score = 52.4 bits (124),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 25/55 (45%), Positives = 33/55 (60%), Gaps = 6/55 (11%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKKP------KACPLNCDPHIAYSKCP  50
+            +CTNCCAG KGC Y+S +G +IC+G+S+          KAC   CD  I +  CP
+Sbjct  51   LCTNCCAGKKGCKYFSKDGTYICDGESEWVSEKNNNLKKACTKECDTRIDFGICP  105
+
+
+ Score = 52.0 bits (123),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 25/55 (45%), Positives = 32/55 (58%), Gaps = 6/55 (11%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQS------DPKKPKACPLNCDPHIAYSKCP  50
+            +CTNCCAG KGC Y+S +G +IC+G+S      D    K C   CD  I +  CP
+Sbjct  115  LCTNCCAGKKGCKYFSKDGTYICDGESEWVSEKDNNLEKDCTKECDTRIDFGICP  169
+
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 18/28 (64%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSD  29
+            +CTNCCAG KGC Y+SA+G +IC+G+S+
+Sbjct  179  LCTNCCAGKKGCKYFSADGTYICDGESE  206
+
+
+> sp|P01081|IP2A_SOLTU Proteinase inhibitor IIA (Fragment) OS=Solanum 
+tuberosum OX=4113 PE=1 SV=1
+Length=45
+
+ Score = 35.4 bits (80),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 20/34 (59%), Positives = 23/34 (68%), Gaps = 4/34 (12%)
+
+Query  2   ICTNCCAGYKGCNY----YSANGAFICEGQSDPK  31
+           ICTN CAGYKGCNY      A+   +CEG+ DPK
+Sbjct  9   ICTNNCAGYKGCNYNCDTNIASYKSVCEGEFDPK  42
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.519    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5029788258
+Results from round 2
+
+
+Query= 4sgbi
+
+Length=51
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P01080|IP2K_SOLTU Proteinase inhibitor type-2 K OS=Solanum t...  89.7    5e-23
+  sp|Q00782|IP2X_SOLTU Proteinase inhibitor type-2 OS=Solanum tub...  89.7    8e-23
+  sp|Q41489|IP2Y_SOLTU Proteinase inhibitor type-2 OS=Solanum tub...  85.0    4e-21
+  sp|Q41488|IP25_SOLTU Proteinase inhibitor type-2 P303.51 OS=Sol...  83.9    1e-20
+  sp|P05119|IP21_SOLLC Wound-induced proteinase inhibitor 2 OS=So...  82.7    2e-20
+  sp|Q43652|IP27_SOLTU Proteinase inhibitor type-2 CM7 OS=Solanum...  82.3    4e-20
+  sp|Q41435|IP2T_SOLTU Proteinase inhibitor type-2 T OS=Solanum t...  82.0    6e-20
+  sp|Q43502|IP23_SOLLC Proteinase inhibitor type-2 CEVI57 OS=Sola...  82.0    1e-19
+  sp|Q40561|IP21_TOBAC Proteinase inhibitor type-2 OS=Nicotiana t...  78.9    2e-18
+  sp|O49146|IP22_CAPAN Wound-induced proteinase inhibitor 2 OS=Ca...  76.6    1e-17
+  sp|P56615|IP21_CAPAN Proteinase inhibitor PSI-1.1 OS=Capsicum a...  71.6    7e-17
+  sp|P01079|IP21_SOLTU Proteinase inhibitor PTI OS=Solanum tubero...  69.2    5e-16
+  sp|P01078|IPR_SOLME Proteinase inhibitor OS=Solanum melongena O...  67.3    3e-15
+  sp|Q43710|IP22_SOLLC Proteinase inhibitor type-2 TR8 OS=Solanum...  65.8    8e-14
+  sp|P84813|POTM1_SOLTU Potamin-1 (Fragment) OS=Solanum tuberosum...  61.2    6e-13
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P01080|IP2K_SOLTU Proteinase inhibitor type-2 K OS=Solanum 
+tuberosum OX=4113 GN=PIN2K PE=1 SV=2
+Length=153
+
+ Score = 89.7 bits (221),  Expect = 5e-23, Method: Composition-based stats.
+ Identities = 51/51 (100%), Positives = 51/51 (100%), Gaps = 0/51 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR
+Sbjct  55   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  105
+
+
+ Score = 41.5 bits (96),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 20/35 (57%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACP  37
+            CT CC GYKGC Y+  NG F+CEG+SD  K    P
+Sbjct  117  CTTCCTGYKGCYYFGKNGKFVCEGESDEPKANMYP  151
+
+
+> sp|Q00782|IP2X_SOLTU Proteinase inhibitor type-2 OS=Solanum tuberosum 
+OX=4113 PE=3 SV=1
+Length=158
+
+ Score = 89.7 bits (221),  Expect = 8e-23, Method: Composition-based stats.
+ Identities = 47/51 (92%), Positives = 47/51 (92%), Gaps = 0/51 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            PICTNCCAGYKGCNYYSANG FICEGQS PK PKACP NCDPHIAYSKCPR
+Sbjct  55   PICTNCCAGYKGCNYYSANGTFICEGQSHPKNPKACPRNCDPHIAYSKCPR  105
+
+
+ Score = 45.8 bits (107),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/42 (50%), Positives = 27/42 (64%), Gaps = 2/42 (5%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHI  44
+            CT CC GY  C Y+  +G F+CEG+S   +PKAC L CD  +
+Sbjct  117  CTTCCTGYTDCYYFGKDGKFVCEGES--IEPKACTLECDSRL  156
+
+
+> sp|Q41489|IP2Y_SOLTU Proteinase inhibitor type-2 OS=Solanum tuberosum 
+OX=4113 PE=3 SV=1
+Length=147
+
+ Score = 85.0 bits (209),  Expect = 4e-21, Method: Composition-based stats.
+ Identities = 42/51 (82%), Positives = 46/51 (90%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PIC NCC+GYKGCNYYSA G FICEG+SDPK PKACPLNCD +IAYS+CPR
+Sbjct  50  PICINCCSGYKGCNYYSAFGRFICEGESDPKNPKACPLNCDTNIAYSRCPR  100
+
+
+ Score = 43.1 bits (100),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 20/31 (65%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKP  33
+            CT CC GYKGC Y+  NG F+CEG+SD  KP
+Sbjct  112  CTTCCTGYKGCYYFGTNGKFVCEGESDEPKP  142
+
+
+> sp|Q41488|IP25_SOLTU Proteinase inhibitor type-2 P303.51 OS=Solanum 
+tuberosum OX=4113 PE=2 SV=1
+Length=154
+
+ Score = 83.9 bits (206),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 48/50 (96%), Positives = 49/50 (98%), Gaps = 0/50 (0%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            ICTNCCAGYKGCNYYSANGAFICEG+SDPKKPKACP NCDPHIAYSKCPR
+Sbjct  57   ICTNCCAGYKGCNYYSANGAFICEGESDPKKPKACPRNCDPHIAYSKCPR  106
+
+
+ Score = 41.5 bits (96),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 20/35 (57%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACP  37
+            CT CC GYKGC Y+  NG F+CEG+SD  K    P
+Sbjct  118  CTTCCTGYKGCYYFGKNGKFVCEGESDEPKANMYP  152
+
+
+> sp|P05119|IP21_SOLLC Wound-induced proteinase inhibitor 2 OS=Solanum 
+lycopersicum OX=4081 PE=1 SV=1
+Length=148
+
+ Score = 82.7 bits (203),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 38/51 (75%), Positives = 45/51 (88%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PIC NCC+GYKGCNYY++ G FICEG+SDPK+P AC  NCDP+IAYS+CPR
+Sbjct  50  PICINCCSGYKGCNYYNSFGKFICEGESDPKRPNACTFNCDPNIAYSRCPR  100
+
+
+ Score = 43.4 bits (101),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 19/35 (54%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACP  37
+            CT CC GYKGC Y+  +G F+CEG+SD  K    P
+Sbjct  112  CTTCCTGYKGCYYFGKDGKFVCEGESDEPKANMYP  146
+
+
+> sp|Q43652|IP27_SOLTU Proteinase inhibitor type-2 CM7 OS=Solanum 
+tuberosum OX=4113 GN=PIN2-CM7 PE=3 SV=1
+Length=154
+
+ Score = 82.3 bits (202),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 39/50 (78%), Positives = 43/50 (86%), Gaps = 0/50 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCP  50
+            PIC NCC+GYKGCNYYS  G FICEG+SD K PKACPLNCD +IAYS+CP
+Sbjct  56   PICINCCSGYKGCNYYSVFGRFICEGESDLKNPKACPLNCDTNIAYSRCP  105
+
+
+ Score = 45.0 bits (105),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 20/35 (57%), Positives = 23/35 (66%), Gaps = 0/35 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACP  37
+            CT CC GYKGC Y+  NG F+CEG+SD  K    P
+Sbjct  118  CTTCCTGYKGCYYFGKNGKFVCEGESDEPKANMYP  152
+
+
+> sp|Q41435|IP2T_SOLTU Proteinase inhibitor type-2 T OS=Solanum 
+tuberosum OX=4113 GN=PIN2T PE=2 SV=1
+Length=147
+
+ Score = 82.0 bits (201),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 40/51 (78%), Positives = 45/51 (88%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PIC NCC+GYKGCNYYSA G  IC+G+SDPK PKACPLNCD +IAYS+CPR
+Sbjct  50  PICINCCSGYKGCNYYSAFGDLICQGESDPKNPKACPLNCDTNIAYSRCPR  100
+
+
+ Score = 43.4 bits (101),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 20/31 (65%), Positives = 23/31 (74%), Gaps = 0/31 (0%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKP  33
+            CT CC GYKGC Y+  NG F+CEG+SD  KP
+Sbjct  112  CTTCCTGYKGCYYFGTNGKFVCEGESDEPKP  142
+
+
+> sp|Q43502|IP23_SOLLC Proteinase inhibitor type-2 CEVI57 OS=Solanum 
+lycopersicum OX=4081 GN=CEVI57 PE=2 SV=1
+Length=201
+
+ Score = 82.0 bits (201),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 41/51 (80%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            PICTNCC+GYKGCNYY ANG FICEG SDPK P  CP  CDP IAYSKCPR
+Sbjct  52   PICTNCCSGYKGCNYYYANGTFICEGTSDPKNPNICPSYCDPQIAYSKCPR  102
+
+
+ Score = 55.0 bits (131),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 26/48 (54%), Positives = 32/48 (67%), Gaps = 2/48 (4%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCP  50
+            CT CC GYKGC Y+  +G F+CEG+S   +PK C   CDP +AY  CP
+Sbjct  114  CTTCCTGYKGCYYFGQDGEFVCEGES--IEPKGCTKECDPRVAYMTCP  159
+
+
+> sp|Q40561|IP21_TOBAC Proteinase inhibitor type-2 OS=Nicotiana 
+tabacum OX=4097 PE=2 SV=1
+Length=197
+
+ Score = 78.9 bits (193),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 42/51 (82%), Positives = 42/51 (82%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PICT CCAGYKGCNYYSANG FICEG SDPK P  CP  CDP IAYSKCPR
+Sbjct  49  PICTTCCAGYKGCNYYSANGTFICEGSSDPKNPNVCPQFCDPDIAYSKCPR  99
+
+
+ Score = 51.5 bits (122),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/48 (54%), Positives = 33/48 (69%), Gaps = 2/48 (4%)
+
+Query  3    CTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCP  50
+            CT CC GYKGC Y+  +G F+CEG+SD  +PK+C   CDP +A   CP
+Sbjct  111  CTTCCTGYKGCYYFGQDGEFVCEGESD--EPKSCTTECDPRVATISCP  156
+
+
+> sp|O49146|IP22_CAPAN Wound-induced proteinase inhibitor 2 OS=Capsicum 
+annuum OX=4072 GN=PIN2 PE=2 SV=1
+Length=204
+
+ Score = 76.6 bits (187),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 41/51 (80%), Positives = 43/51 (84%), Gaps = 0/51 (0%)
+
+Query  1   PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           PICTNCCAG KGCNYYSA+G FICEG+SDP  PK C LNCDP I YSKCPR
+Sbjct  36  PICTNCCAGRKGCNYYSADGTFICEGESDPNNPKPCTLNCDPRIFYSKCPR  86
+
+
+ Score = 74.6 bits (182),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 40/50 (80%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+            ICTNCCAG KGCNYYSA+G FICEG+SDP  PK C LNCDP I YSKCPR
+Sbjct  95   ICTNCCAGRKGCNYYSADGTFICEGESDPNNPKPCTLNCDPRIFYSKCPR  144
+
+
+ Score = 71.6 bits (174),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 39/49 (80%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  1    PICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKC  49
+            PICTNCCAG KGCNYY+A+G FICEG+SDP  PKACP NCDP+IAYS C
+Sbjct  152  PICTNCCAGLKGCNYYNADGTFICEGESDPNHPKACPKNCDPNIAYSLC  200
+
+
+> sp|P56615|IP21_CAPAN Proteinase inhibitor PSI-1.1 OS=Capsicum 
+annuum OX=4072 PE=1 SV=1
+Length=55
+
+ Score = 71.6 bits (174),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 40/50 (80%), Positives = 42/50 (84%), Gaps = 0/50 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           ICTNCCAG KGCNYYSA+G FICEG+SDP  PKACP  CD  IAYSKCPR
+Sbjct  2   ICTNCCAGRKGCNYYSADGTFICEGESDPNNPKACPRYCDTRIAYSKCPR  51
+
+
+> sp|P01079|IP21_SOLTU Proteinase inhibitor PTI OS=Solanum tuberosum 
+OX=4113 PE=1 SV=1
+Length=51
+
+ Score = 69.2 bits (168),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 42/50 (84%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCPR  51
+           ICTNCCAGYKGCNYYSANGAFICEG+SDPK P  CP NCD +IAYSKC R
+Sbjct  2   ICTNCCAGYKGCNYYSANGAFICEGESDPKNPNVCPRNCDTNIAYSKCLR  51
+
+
+> sp|P01078|IPR_SOLME Proteinase inhibitor OS=Solanum melongena 
+OX=4111 PE=1 SV=2
+Length=52
+
+ Score = 67.3 bits (163),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 33/49 (67%), Positives = 40/49 (82%), Gaps = 0/49 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYSKCP  50
+           ICTNCCAG KGC+Y+S +G FIC+G+S+P+ PKACP NCD  IAY  CP
+Sbjct  2   ICTNCCAGRKGCSYFSEDGTFICKGESNPENPKACPRNCDGRIAYGICP  50
+
+
+> sp|Q43710|IP22_SOLLC Proteinase inhibitor type-2 TR8 OS=Solanum 
+lycopersicum OX=4081 GN=ARPI PE=2 SV=1
+Length=223
+
+ Score = 65.8 bits (159),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 25/55 (45%), Positives = 33/55 (60%), Gaps = 6/55 (11%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKKP------KACPLNCDPHIAYSKCP  50
+            +CTNCCAG KGC Y+S +G +IC+G+S+          KAC   CD  I +  CP
+Sbjct  51   LCTNCCAGKKGCKYFSKDGTYICDGESEWVSEKNNNLKKACTKECDTRIDFGICP  105
+
+
+ Score = 64.2 bits (155),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 24/55 (44%), Positives = 32/55 (58%), Gaps = 6/55 (11%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKK------PKACPLNCDPHIAYSKCP  50
+            +CTNCCAG KGC Y+S +G +IC+G+S+          K C   CD  I +  CP
+Sbjct  115  LCTNCCAGKKGCKYFSKDGTYICDGESEWVSEKDNNLEKDCTKECDTRIDFGICP  169
+
+
+ Score = 50.4 bits (119),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 18/32 (56%), Positives = 25/32 (78%), Gaps = 0/32 (0%)
+
+Query  2    ICTNCCAGYKGCNYYSANGAFICEGQSDPKKP  33
+            +CTNCCAG KGC Y+SA+G +IC+G+S+    
+Sbjct  179  LCTNCCAGKKGCKYFSADGTYICDGESEWVSE  210
+
+
+> sp|P84813|POTM1_SOLTU Potamin-1 (Fragment) OS=Solanum tuberosum 
+OX=4113 PE=1 SV=1
+Length=47
+
+ Score = 61.2 bits (147),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 42/46 (91%), Positives = 43/46 (93%), Gaps = 0/46 (0%)
+
+Query  2   ICTNCCAGYKGCNYYSANGAFICEGQSDPKKPKACPLNCDPHIAYS  47
+           ICTNCCAG KGCN  SANGAFICEGQSDPKKPKACPLNCDPHIAY+
+Sbjct  2   ICTNCCAGTKGCNTTSANGAFICEGQSDPKKPKACPLNCDPHIAYA  47
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.141    0.532    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5029788258
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

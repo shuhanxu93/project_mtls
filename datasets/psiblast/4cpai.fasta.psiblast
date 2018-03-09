@@ -1,0 +1,139 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 4cpai
+
+Length=37
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P01075|MCPI_SOLTU Metallocarboxypeptidase inhibitor OS=Solan...  80.1    1e-20
+  sp|P01076|MCPI_SOLLC Metallocarboxypeptidase inhibitor OS=Solan...  61.6    5e-13
+
+
+> sp|P01075|MCPI_SOLTU Metallocarboxypeptidase inhibitor OS=Solanum 
+tuberosum OX=4113 PE=1 SV=1
+Length=39
+
+ Score = 80.1 bits (196),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 36/37 (97%), Positives = 37/37 (100%), Gaps = 0/37 (0%)
+
+Query  1   ZHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV  37
+           +HADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV
+Sbjct  2   QHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV  38
+
+
+> sp|P01076|MCPI_SOLLC Metallocarboxypeptidase inhibitor OS=Solanum 
+lycopersicum OX=4081 PE=1 SV=2
+Length=77
+
+ Score = 61.6 bits (148),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 25/37 (68%), Positives = 28/37 (76%), Gaps = 0/37 (0%)
+
+Query  1   ZHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV  37
+           +  DP+C+KPC T DDCSG  FCQACW  A TCGPYV
+Sbjct  33  QQYDPVCHKPCSTQDDCSGGTFCQACWRFAGTCGPYV  69
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.137    0.567    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5031706654
+Results from round 2
+
+
+Query= 4cpai
+
+Length=37
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P01076|MCPI_SOLLC Metallocarboxypeptidase inhibitor OS=Solan...  70.8    1e-16
+  sp|P01075|MCPI_SOLTU Metallocarboxypeptidase inhibitor OS=Solan...  54.2    1e-10
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P01076|MCPI_SOLLC Metallocarboxypeptidase inhibitor OS=Solanum 
+lycopersicum OX=4081 PE=1 SV=2
+Length=77
+
+ Score = 70.8 bits (172),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 25/37 (68%), Positives = 28/37 (76%), Gaps = 0/37 (0%)
+
+Query  1   ZHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV  37
+           +  DP+C+KPC T DDCSG  FCQACW  A TCGPYV
+Sbjct  33  QQYDPVCHKPCSTQDDCSGGTFCQACWRFAGTCGPYV  69
+
+
+> sp|P01075|MCPI_SOLTU Metallocarboxypeptidase inhibitor OS=Solanum 
+tuberosum OX=4113 PE=1 SV=1
+Length=39
+
+ Score = 54.2 bits (129),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 36/37 (97%), Positives = 37/37 (100%), Gaps = 0/37 (0%)
+
+Query  1   ZHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV  37
+           +HADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV
+Sbjct  2   QHADPICNKPCKTHDDCSGAWFCQACWNSARTCGPYV  38
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.140    0.556    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5031706654
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,321 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 2mev4
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P12296|POLG_ENMGO Genome polyprotein OS=Mengo encephalomyoca...  120     1e-31
+  sp|P32540|POLG_ENMG3 Genome polyprotein (Fragment) OS=Mengo enc...  118     5e-31
+  sp|Q66765|POLG_EMCVR Genome polyprotein OS=Encephalomyocarditis...  115     7e-30
+  sp|P17593|POLG_EMCVB Genome polyprotein OS=Encephalomyocarditis...  115     1e-29
+  sp|P17594|POLG_EMCVD Genome polyprotein OS=Encephalomyocarditis...  115     1e-29
+  sp|P03304|POLG_EMCV Genome polyprotein OS=Encephalomyocarditis ...  96.7    3e-23
+  sp|P08544|POLG_TMEVB Genome polyprotein OS=Theiler's murine enc...  80.9    8e-18
+  sp|P13899|POLG_TMEVD Genome polyprotein OS=Theiler's murine enc...  79.3    3e-17
+  sp|P08545|POLG_TMEVG Genome polyprotein OS=Theiler's murine enc...  77.0    2e-16
+
+
+> sp|P12296|POLG_ENMGO Genome polyprotein OS=Mengo encephalomyocarditis 
+virus OX=12107 PE=1 SV=3
+Length=2293
+
+ Score = 120 bits (301),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  137
+
+
+> sp|P32540|POLG_ENMG3 Genome polyprotein (Fragment) OS=Mengo encephalomyocarditis 
+virus (strain 37A) OX=31702 PE=1 SV=1
+Length=901
+
+ Score = 118 bits (295),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  137
+
+
+> sp|Q66765|POLG_EMCVR Genome polyprotein OS=Encephalomyocarditis 
+virus (strain Rueckert) OX=650129 PE=1 SV=1
+Length=2292
+
+ Score = 115 bits (289),  Expect = 7e-30, Method: Composition-based stats.
+ Identities = 55/58 (95%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANA GSDPP+TYGQFSNL SGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANAAGSDPPRTYGQFSNLFSGAVNAFSNMLPLLA  137
+
+
+> sp|P17593|POLG_EMCVB Genome polyprotein OS=Encephalomyocarditis 
+virus (strain emc-b nondiabetogenic) OX=12105 PE=3 SV=1
+Length=2292
+
+ Score = 115 bits (288),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 54/56 (96%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            GNEGVIINNFYSNQYQNSIDLSANATGSDPP+TYGQFSNLLSGAVNAFSNM+PLLA
+Sbjct  82   GNEGVIINNFYSNQYQNSIDLSANATGSDPPRTYGQFSNLLSGAVNAFSNMIPLLA  137
+
+
+> sp|P17594|POLG_EMCVD Genome polyprotein OS=Encephalomyocarditis 
+virus (strain emc-d diabetogenic) OX=12106 PE=1 SV=2
+Length=2292
+
+ Score = 115 bits (287),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 54/56 (96%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            GNEGVIINNFYSNQYQNSIDLSANATGSDPP+TYGQFSNLLSGAVNAFSNM+PLLA
+Sbjct  82   GNEGVIINNFYSNQYQNSIDLSANATGSDPPRTYGQFSNLLSGAVNAFSNMIPLLA  137
+
+
+> sp|P03304|POLG_EMCV Genome polyprotein OS=Encephalomyocarditis 
+virus OX=12104 PE=1 SV=1
+Length=2290
+
+ Score = 96.7 bits (239),  Expect = 3e-23, Method: Composition-based stats.
+ Identities = 49/58 (84%), Positives = 51/58 (88%), Gaps = 1/58 (2%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANA GSDPP+    F + LSGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANAAGSDPPRLRSIFES-LSGAVNAFSNMLPLLA  136
+
+
+> sp|P08544|POLG_TMEVB Genome polyprotein OS=Theiler's murine encephalomyelitis 
+virus (strain BeAn 8386) OX=12125 PE=1 SV=1
+Length=2303
+
+ Score = 80.9 bits (198),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 44/56 (79%), Gaps = 1/56 (2%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSAN-ATGSDPPKTYGQFSNLLSGAVNAFSNMLPLL  57
+            GNEGVIINNFYSNQYQNSIDLSA+     D P+T GQ SN+L GA NAF+ M PLL
+Sbjct  91   GNEGVIINNFYSNQYQNSIDLSASGGNAGDAPQTNGQLSNILGGAANAFATMAPLL  146
+
+
+> sp|P13899|POLG_TMEVD Genome polyprotein OS=Theiler's murine encephalomyelitis 
+virus (strain DA) OX=12126 PE=1 SV=1
+Length=2301
+
+ Score = 79.3 bits (194),  Expect = 3e-17, Method: Composition-based stats.
+ Identities = 39/56 (70%), Positives = 43/56 (77%), Gaps = 1/56 (2%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSAN-ATGSDPPKTYGQFSNLLSGAVNAFSNMLPLL  57
+            GNEGVIINNFYSNQYQNSIDLSA+     D P+  GQ SN+L GA NAF+ M PLL
+Sbjct  91   GNEGVIINNFYSNQYQNSIDLSASGGNAGDAPQNNGQLSNILGGAANAFATMAPLL  146
+
+
+> sp|P08545|POLG_TMEVG Genome polyprotein OS=Theiler's murine encephalomyelitis 
+virus (strain GDVII) OX=12127 PE=3 SV=2
+Length=2303
+
+ Score = 77.0 bits (188),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 38/56 (68%), Positives = 43/56 (77%), Gaps = 1/56 (2%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSAN-ATGSDPPKTYGQFSNLLSGAVNAFSNMLPLL  57
+            GNEGVIINNFYSNQYQNSIDLSA+     D P+  GQ S++L GA NAF+ M PLL
+Sbjct  91   GNEGVIINNFYSNQYQNSIDLSASGGNAGDAPQNNGQLSSILGGAANAFATMAPLL  146
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.128    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4924548333
+Results from round 2
+
+
+Query= 2mev4
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P12296|POLG_ENMGO Genome polyprotein OS=Mengo encephalomyoca...  119     3e-31
+  sp|Q66765|POLG_EMCVR Genome polyprotein OS=Encephalomyocarditis...  119     4e-31
+  sp|P17593|POLG_EMCVB Genome polyprotein OS=Encephalomyocarditis...  116     4e-30
+  sp|P17594|POLG_EMCVD Genome polyprotein OS=Encephalomyocarditis...  116     4e-30
+  sp|P32540|POLG_ENMG3 Genome polyprotein (Fragment) OS=Mengo enc...  113     2e-29
+  sp|P03304|POLG_EMCV Genome polyprotein OS=Encephalomyocarditis ...  106     1e-26
+  sp|P08544|POLG_TMEVB Genome polyprotein OS=Theiler's murine enc...  97.4    1e-23
+  sp|P13899|POLG_TMEVD Genome polyprotein OS=Theiler's murine enc...  95.5    7e-23
+  sp|P08545|POLG_TMEVG Genome polyprotein OS=Theiler's murine enc...  94.4    2e-22
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P12296|POLG_ENMGO Genome polyprotein OS=Mengo encephalomyocarditis 
+virus OX=12107 PE=1 SV=3
+Length=2293
+
+ Score = 119 bits (299),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  137
+
+
+> sp|Q66765|POLG_EMCVR Genome polyprotein OS=Encephalomyocarditis 
+virus (strain Rueckert) OX=650129 PE=1 SV=1
+Length=2292
+
+ Score = 119 bits (298),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 55/58 (95%), Positives = 56/58 (97%), Gaps = 0/58 (0%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANA GSDPP+TYGQFSNL SGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANAAGSDPPRTYGQFSNLFSGAVNAFSNMLPLLA  137
+
+
+> sp|P17593|POLG_EMCVB Genome polyprotein OS=Encephalomyocarditis 
+virus (strain emc-b nondiabetogenic) OX=12105 PE=3 SV=1
+Length=2292
+
+ Score = 116 bits (291),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 54/56 (96%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            GNEGVIINNFYSNQYQNSIDLSANATGSDPP+TYGQFSNLLSGAVNAFSNM+PLLA
+Sbjct  82   GNEGVIINNFYSNQYQNSIDLSANATGSDPPRTYGQFSNLLSGAVNAFSNMIPLLA  137
+
+
+> sp|P17594|POLG_EMCVD Genome polyprotein OS=Encephalomyocarditis 
+virus (strain emc-d diabetogenic) OX=12106 PE=1 SV=2
+Length=2292
+
+ Score = 116 bits (290),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 54/56 (96%), Positives = 56/56 (100%), Gaps = 0/56 (0%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            GNEGVIINNFYSNQYQNSIDLSANATGSDPP+TYGQFSNLLSGAVNAFSNM+PLLA
+Sbjct  82   GNEGVIINNFYSNQYQNSIDLSANATGSDPPRTYGQFSNLLSGAVNAFSNMIPLLA  137
+
+
+> sp|P32540|POLG_ENMG3 Genome polyprotein (Fragment) OS=Mengo encephalomyocarditis 
+virus (strain 37A) OX=31702 PE=1 SV=1
+Length=901
+
+ Score = 113 bits (283),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  137
+
+
+> sp|P03304|POLG_EMCV Genome polyprotein OS=Encephalomyocarditis 
+virus OX=12104 PE=1 SV=1
+Length=2290
+
+ Score = 106 bits (265),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 49/58 (84%), Positives = 51/58 (88%), Gaps = 1/58 (2%)
+
+Query  1    SEGNEGVIINNFYSNQYQNSIDLSANATGSDPPKTYGQFSNLLSGAVNAFSNMLPLLA  58
+            SEGNEGVIINNFYSNQYQNSIDLSANA GSDPP+    F + LSGAVNAFSNMLPLLA
+Sbjct  80   SEGNEGVIINNFYSNQYQNSIDLSANAAGSDPPRLRSIFES-LSGAVNAFSNMLPLLA  136
+
+
+> sp|P08544|POLG_TMEVB Genome polyprotein OS=Theiler's murine encephalomyelitis 
+virus (strain BeAn 8386) OX=12125 PE=1 SV=1
+Length=2303
+
+ Score = 97.4 bits (241),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 40/56 (71%), Positives = 44/56 (79%), Gaps = 1/56 (2%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSAN-ATGSDPPKTYGQFSNLLSGAVNAFSNMLPLL  57
+            GNEGVIINNFYSNQYQNSIDLSA+     D P+T GQ SN+L GA NAF+ M PLL
+Sbjct  91   GNEGVIINNFYSNQYQNSIDLSASGGNAGDAPQTNGQLSNILGGAANAFATMAPLL  146
+
+
+> sp|P13899|POLG_TMEVD Genome polyprotein OS=Theiler's murine encephalomyelitis 
+virus (strain DA) OX=12126 PE=1 SV=1
+Length=2301
+
+ Score = 95.5 bits (236),  Expect = 7e-23, Method: Composition-based stats.
+ Identities = 39/56 (70%), Positives = 43/56 (77%), Gaps = 1/56 (2%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSAN-ATGSDPPKTYGQFSNLLSGAVNAFSNMLPLL  57
+            GNEGVIINNFYSNQYQNSIDLSA+     D P+  GQ SN+L GA NAF+ M PLL
+Sbjct  91   GNEGVIINNFYSNQYQNSIDLSASGGNAGDAPQNNGQLSNILGGAANAFATMAPLL  146
+
+
+> sp|P08545|POLG_TMEVG Genome polyprotein OS=Theiler's murine encephalomyelitis 
+virus (strain GDVII) OX=12127 PE=3 SV=2
+Length=2303
+
+ Score = 94.4 bits (233),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 38/56 (68%), Positives = 43/56 (77%), Gaps = 1/56 (2%)
+
+Query  3    GNEGVIINNFYSNQYQNSIDLSAN-ATGSDPPKTYGQFSNLLSGAVNAFSNMLPLL  57
+            GNEGVIINNFYSNQYQNSIDLSA+     D P+  GQ S++L GA NAF+ M PLL
+Sbjct  91   GNEGVIINNFYSNQYQNSIDLSASGGNAGDAPQNNGQLSSILGGAANAFATMAPLL  146
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.134    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4924548333
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

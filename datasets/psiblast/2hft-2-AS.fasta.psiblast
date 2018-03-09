@@ -1,0 +1,291 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 2hft-2-AS
+
+Length=103
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P13726|TF_HUMAN Tissue factor OS=Homo sapiens OX=9606 GN=F3 ...  209     7e-67
+  sp|P24055|TF_RABIT Tissue factor OS=Oryctolagus cuniculus OX=99...  168     6e-51
+  sp|P30931|TF_BOVIN Tissue factor OS=Bos taurus OX=9913 GN=F3 PE...  167     1e-50
+  sp|Q9JLU8|TF_CAVPO Tissue factor OS=Cavia porcellus OX=10141 GN...  147     4e-43
+  sp|P42533|TF_RAT Tissue factor OS=Rattus norvegicus OX=10116 GN...  118     7e-32
+  sp|P20352|TF_MOUSE Tissue factor OS=Mus musculus OX=10090 GN=F3...  117     3e-31
+
+
+> sp|P13726|TF_HUMAN Tissue factor OS=Homo sapiens OX=9606 GN=F3 
+PE=1 SV=1
+Length=295
+
+ Score = 209 bits (532),  Expect = 7e-67, Method: Compositional matrix adjust.
+ Identities = 103/105 (98%), Positives = 103/105 (98%), Gaps = 2/105 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKK  58
+            NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK  SSGKK
+Sbjct  139  NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWKSSSSGKK  198
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVECMG  103
+            TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVECMG
+Sbjct  199  TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVECMG  243
+
+
+> sp|P24055|TF_RABIT Tissue factor OS=Oryctolagus cuniculus OX=9986 
+GN=F3 PE=1 SV=1
+Length=292
+
+ Score = 168 bits (425),  Expect = 6e-51, Method: Compositional matrix adjust.
+ Identities = 83/103 (81%), Positives = 90/103 (87%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWKSS--GKK  58
+            NLGQPTIQSFEQVGTK+NVTV+D RTLVRRN TFLSLR VFGKDL YTLYYW++S  GKK
+Sbjct  137  NLGQPTIQSFEQVGTKLNVTVQDARTLVRRNGTFLSLRAVFGKDLNYTLYYWRASSTGKK  196
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+            TA TNTNEFLIDVDKGENYCFSVQAVIPSR   ++S +S  EC
+Sbjct  197  TATTNTNEFLIDVDKGENYCFSVQAVIPSRKRKQRSPESLTEC  239
+
+
+> sp|P30931|TF_BOVIN Tissue factor OS=Bos taurus OX=9913 GN=F3 
+PE=1 SV=1
+Length=292
+
+ Score = 167 bits (423),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 82/103 (80%), Positives = 90/103 (87%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWKSS--GKK  58
+            NLGQPTIQSFEQVGTK+NVTV+D RTLVR N+ FLSLRDVFGKDL YTLYYWK+S  GKK
+Sbjct  136  NLGQPTIQSFEQVGTKLNVTVQDARTLVRANSAFLSLRDVFGKDLNYTLYYWKASSTGKK  195
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+             A TNTN FLIDVDKGENYCF VQAVI SR VN+KS +SP++C
+Sbjct  196  KATTNTNGFLIDVDKGENYCFHVQAVILSRRVNQKSPESPIKC  238
+
+
+> sp|Q9JLU8|TF_CAVPO Tissue factor OS=Cavia porcellus OX=10141 
+GN=F3 PE=2 SV=1
+Length=289
+
+ Score = 147 bits (372),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 73/103 (71%), Positives = 84/103 (82%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWKSS--GKK  58
+            NLGQP I+SF+ VGTK+NVTV D +TL R N TFLSLRD+FGK+L Y LYYW+SS  GKK
+Sbjct  134  NLGQPKIESFKLVGTKLNVTVRDTQTLARSNGTFLSLRDIFGKNLQYMLYYWRSSTTGKK  193
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+            TA TNTNEFLIDVDKG++YCF VQAVIPSR  N+KS +S   C
+Sbjct  194  TAMTNTNEFLIDVDKGQDYCFFVQAVIPSRKDNKKSPESITVC  236
+
+
+> sp|P42533|TF_RAT Tissue factor OS=Rattus norvegicus OX=10116 
+GN=F3 PE=2 SV=1
+Length=295
+
+ Score = 118 bits (296),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 62/102 (61%), Positives = 75/102 (74%), Gaps = 2/102 (2%)
+
+Query  2    LGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKKT  59
+            +GQP IQ +EQ GTK+ VTV+D  TLVR+N TFL+LR VFG DL Y L Y K  S+G+KT
+Sbjct  141  IGQPVIQKYEQGGTKLKVTVKDSFTLVRKNGTFLTLRQVFGNDLGYILTYRKDSSTGRKT  200
+
+Query  60   AKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+              T+TNEFLIDV+KG +YCF  QAVI SR  N KS +S  +C
+Sbjct  201  NTTHTNEFLIDVEKGVSYCFFAQAVIFSRKTNHKSPESITKC  242
+
+
+> sp|P20352|TF_MOUSE Tissue factor OS=Mus musculus OX=10090 GN=F3 
+PE=1 SV=2
+Length=294
+
+ Score = 117 bits (292),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 63/103 (61%), Positives = 74/103 (72%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKK  58
+            NLGQP IQ FEQ G K+NV V+D  TLVR+N TFL+LR VFGKDL Y + Y K  S+GKK
+Sbjct  139  NLGQPVIQQFEQDGRKLNVVVKDSLTLVRKNGTFLTLRQVFGKDLGYIITYRKGSSTGKK  198
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+            T  TNTNEF IDV++G +YCF VQA+I SR  N+ S  S   C
+Sbjct  199  TNITNTNEFSIDVEEGVSYCFFVQAMIFSRKTNQNSPGSSTVC  241
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4946386474
+Results from round 2
+
+
+Query= 2hft-2-AS
+
+Length=103
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P24055|TF_RABIT Tissue factor OS=Oryctolagus cuniculus OX=99...  179     2e-55
+  sp|P30931|TF_BOVIN Tissue factor OS=Bos taurus OX=9913 GN=F3 PE...  177     1e-54
+  sp|P13726|TF_HUMAN Tissue factor OS=Homo sapiens OX=9606 GN=F3 ...  177     1e-54
+  sp|Q9JLU8|TF_CAVPO Tissue factor OS=Cavia porcellus OX=10141 GN...  176     5e-54
+  sp|P20352|TF_MOUSE Tissue factor OS=Mus musculus OX=10090 GN=F3...  168     6e-51
+  sp|P42533|TF_RAT Tissue factor OS=Rattus norvegicus OX=10116 GN...  167     2e-50
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P24055|TF_RABIT Tissue factor OS=Oryctolagus cuniculus OX=9986 
+GN=F3 PE=1 SV=1
+Length=292
+
+ Score = 179 bits (455),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 83/103 (81%), Positives = 90/103 (87%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKK  58
+            NLGQPTIQSFEQVGTK+NVTV+D RTLVRRN TFLSLR VFGKDL YTLYYW+  S+GKK
+Sbjct  137  NLGQPTIQSFEQVGTKLNVTVQDARTLVRRNGTFLSLRAVFGKDLNYTLYYWRASSTGKK  196
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+            TA TNTNEFLIDVDKGENYCFSVQAVIPSR   ++S +S  EC
+Sbjct  197  TATTNTNEFLIDVDKGENYCFSVQAVIPSRKRKQRSPESLTEC  239
+
+
+> sp|P30931|TF_BOVIN Tissue factor OS=Bos taurus OX=9913 GN=F3 
+PE=1 SV=1
+Length=292
+
+ Score = 177 bits (450),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 82/103 (80%), Positives = 90/103 (87%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKK  58
+            NLGQPTIQSFEQVGTK+NVTV+D RTLVR N+ FLSLRDVFGKDL YTLYYWK  S+GKK
+Sbjct  136  NLGQPTIQSFEQVGTKLNVTVQDARTLVRANSAFLSLRDVFGKDLNYTLYYWKASSTGKK  195
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+             A TNTN FLIDVDKGENYCF VQAVI SR VN+KS +SP++C
+Sbjct  196  KATTNTNGFLIDVDKGENYCFHVQAVILSRRVNQKSPESPIKC  238
+
+
+> sp|P13726|TF_HUMAN Tissue factor OS=Homo sapiens OX=9606 GN=F3 
+PE=1 SV=1
+Length=295
+
+ Score = 177 bits (450),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 103/105 (98%), Positives = 103/105 (98%), Gaps = 2/105 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKK  58
+            NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK  SSGKK
+Sbjct  139  NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWKSSSSGKK  198
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVECMG  103
+            TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVECMG
+Sbjct  199  TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVECMG  243
+
+
+> sp|Q9JLU8|TF_CAVPO Tissue factor OS=Cavia porcellus OX=10141 
+GN=F3 PE=2 SV=1
+Length=289
+
+ Score = 176 bits (445),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 73/103 (71%), Positives = 84/103 (82%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWKSS--GKK  58
+            NLGQP I+SF+ VGTK+NVTV D +TL R N TFLSLRD+FGK+L Y LYYW+SS  GKK
+Sbjct  134  NLGQPKIESFKLVGTKLNVTVRDTQTLARSNGTFLSLRDIFGKNLQYMLYYWRSSTTGKK  193
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+            TA TNTNEFLIDVDKG++YCF VQAVIPSR  N+KS +S   C
+Sbjct  194  TAMTNTNEFLIDVDKGQDYCFFVQAVIPSRKDNKKSPESITVC  236
+
+
+> sp|P20352|TF_MOUSE Tissue factor OS=Mus musculus OX=10090 GN=F3 
+PE=1 SV=2
+Length=294
+
+ Score = 168 bits (425),  Expect = 6e-51, Method: Composition-based stats.
+ Identities = 63/103 (61%), Positives = 74/103 (72%), Gaps = 2/103 (2%)
+
+Query  1    NLGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKK  58
+            NLGQP IQ FEQ G K+NV V+D  TLVR+N TFL+LR VFGKDL Y + Y K  S+GKK
+Sbjct  139  NLGQPVIQQFEQDGRKLNVVVKDSLTLVRKNGTFLTLRQVFGKDLGYIITYRKGSSTGKK  198
+
+Query  59   TAKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+            T  TNTNEF IDV++G +YCF VQA+I SR  N+ S  S   C
+Sbjct  199  TNITNTNEFSIDVEEGVSYCFFVQAMIFSRKTNQNSPGSSTVC  241
+
+
+> sp|P42533|TF_RAT Tissue factor OS=Rattus norvegicus OX=10116 
+GN=F3 PE=2 SV=1
+Length=295
+
+ Score = 167 bits (422),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 62/102 (61%), Positives = 75/102 (74%), Gaps = 2/102 (2%)
+
+Query  2    LGQPTIQSFEQVGTKVNVTVEDERTLVRRNNTFLSLRDVFGKDLIYTLYYWK--SSGKKT  59
+            +GQP IQ +EQ GTK+ VTV+D  TLVR+N TFL+LR VFG DL Y L Y K  S+G+KT
+Sbjct  141  IGQPVIQKYEQGGTKLKVTVKDSFTLVRKNGTFLTLRQVFGNDLGYILTYRKDSSTGRKT  200
+
+Query  60   AKTNTNEFLIDVDKGENYCFSVQAVIPSRTVNRKSTDSPVEC  101
+              T+TNEFLIDV+KG +YCF  QAVI SR  N KS +S  +C
+Sbjct  201  NTTHTNEFLIDVEKGVSYCFFAQAVIFSRKTNHKSPESITKC  242
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.135    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0412    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4946386474
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

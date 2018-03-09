@@ -1,0 +1,3410 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 3pmgb-3-AS
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P00949|PGM1_RABIT Phosphoglucomutase-1 OS=Oryctolagus cunicu...  248     7e-79
+  sp|Q9D0F9|PGM1_MOUSE Phosphoglucomutase-1 OS=Mus musculus OX=10...  246     7e-78
+  sp|Q4R5E4|PGM1_MACFA Phosphoglucomutase-1 OS=Macaca fasciculari...  244     2e-77
+  sp|Q08DP0|PGM1_BOVIN Phosphoglucomutase-1 OS=Bos taurus OX=9913...  244     2e-77
+  sp|P36871|PGM1_HUMAN Phosphoglucomutase-1 OS=Homo sapiens OX=96...  243     1e-76
+  sp|P38652|PGM1_RAT Phosphoglucomutase-1 OS=Rattus norvegicus OX...  241     3e-76
+  sp|Q8BZF8|PGM5_MOUSE Phosphoglucomutase-like protein 5 OS=Mus m...  194     2e-58
+  sp|Q15124|PGM5_HUMAN Phosphoglucomutase-like protein 5 OS=Homo ...  194     3e-58
+  sp|Q23919|PGM1_DICDI Phosphoglucomutase-1 OS=Dictyostelium disc...  172     5e-50
+  sp|Q9SCY0|PGMP_ARATH Phosphoglucomutase, chloroplastic OS=Arabi...  168     1e-48
+  sp|Q9M4G5|PGMP_SOLTU Phosphoglucomutase, chloroplastic OS=Solan...  168     1e-48
+  sp|Q9SM59|PGMP_PEA Phosphoglucomutase, chloroplastic OS=Pisum s...  167     3e-48
+  sp|Q9VUY9|PGM_DROME Phosphoglucomutase OS=Drosophila melanogast...  166     5e-48
+  sp|Q7KHA1|PGM_DROSI Phosphoglucomutase OS=Drosophila simulans O...  166     6e-48
+  sp|Q9SMM0|PGMP_BRANA Phosphoglucomutase, chloroplastic OS=Brass...  166     1e-47
+  sp|P39671|PGM_RHIRD Phosphoglucomutase OS=Rhizobium radiobacter...  165     1e-47
+  sp|P93805|PGMC2_MAIZE Phosphoglucomutase, cytoplasmic 2 OS=Zea ...  160     6e-46
+  sp|P93804|PGMC1_MAIZE Phosphoglucomutase, cytoplasmic 1 OS=Zea ...  160     7e-46
+  sp|Q9SM60|PGMC_PEA Phosphoglucomutase, cytoplasmic OS=Pisum sat...  160     7e-46
+  sp|Q9M4G4|PGMC_SOLTU Phosphoglucomutase, cytoplasmic OS=Solanum...  160     1e-45
+  sp|Q9ZSQ4|PGMC_POPTN Phosphoglucomutase, cytoplasmic OS=Populus...  160     1e-45
+  sp|Q9SGC1|PGMC2_ARATH Probable phosphoglucomutase, cytoplasmic ...  159     2e-45
+  sp|Q9SNX2|PGMC_BROIN Phosphoglucomutase, cytoplasmic OS=Bromus ...  157     8e-45
+  sp|P93262|PGMC_MESCR Phosphoglucomutase, cytoplasmic OS=Mesembr...  157     1e-44
+  sp|O02606|PGM2_PARTE Phosphoglucomutase-2 OS=Paramecium tetraur...  154     2e-43
+  sp|P47244|PGM1_PARTE Phosphoglucomutase-1 OS=Paramecium tetraur...  153     3e-43
+  sp|O74374|PGM_SCHPO Phosphoglucomutase OS=Schizosaccharomyces p...  152     6e-43
+  sp|P57749|PGM_ASPOR Phosphoglucomutase OS=Aspergillus oryzae (s...  148     2e-41
+  sp|P37012|PGM2_YEAST Phosphoglucomutase 2 OS=Saccharomyces cere...  148     2e-41
+  sp|O49299|PGMC1_ARATH Probable phosphoglucomutase, cytoplasmic ...  146     1e-40
+  sp|Q9P931|PGM_EMENI Phosphoglucomutase OS=Emericella nidulans (...  145     2e-40
+  sp|P33401|PGM1_YEAST Phosphoglucomutase 1 OS=Saccharomyces cere...  145     2e-40
+  sp|Q4WY53|PGM_ASPFU Phosphoglucomutase OS=Neosartorya fumigata ...  143     8e-40
+  sp|O18719|PGM_ENTDI Phosphoglucomutase OS=Entamoeba dispar OX=4...  142     2e-39
+  sp|O15820|PGM_ENTHI Phosphoglucomutase OS=Entamoeba histolytica...  141     4e-39
+  sp|Q57290|Y740_HAEIN Probable phosphomannomutase OS=Haemophilus...  38.1    0.007
+
+
+> sp|P00949|PGM1_RABIT Phosphoglucomutase-1 OS=Oryctolagus cuniculus 
+OX=9986 GN=PGM1 PE=1 SV=2
+Length=562
+
+ Score = 248 bits (634),  Expect = 7e-79, Method: Compositional matrix adjust.
+ Identities = 117/117 (100%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  420
+
+
+> sp|Q9D0F9|PGM1_MOUSE Phosphoglucomutase-1 OS=Mus musculus OX=10090 
+GN=Pgm1 PE=1 SV=4
+Length=562
+
+ Score = 246 bits (627),  Expect = 7e-78, Method: Compositional matrix adjust.
+ Identities = 116/117 (99%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW KF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKF  420
+
+
+> sp|Q4R5E4|PGM1_MACFA Phosphoglucomutase-1 OS=Macaca fascicularis 
+OX=9541 GN=PGM1 PE=2 SV=3
+Length=562
+
+ Score = 244 bits (624),  Expect = 2e-77, Method: Compositional matrix adjust.
+ Identities = 115/117 (98%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|Q08DP0|PGM1_BOVIN Phosphoglucomutase-1 OS=Bos taurus OX=9913 
+GN=PGM1 PE=2 SV=1
+Length=562
+
+ Score = 244 bits (624),  Expect = 2e-77, Method: Compositional matrix adjust.
+ Identities = 115/117 (98%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|P36871|PGM1_HUMAN Phosphoglucomutase-1 OS=Homo sapiens OX=9606 
+GN=PGM1 PE=1 SV=3
+Length=562
+
+ Score = 243 bits (619),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 114/117 (97%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVA+ATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVASATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|P38652|PGM1_RAT Phosphoglucomutase-1 OS=Rattus norvegicus 
+OX=10116 GN=Pgm1 PE=1 SV=2
+Length=562
+
+ Score = 241 bits (615),  Expect = 3e-76, Method: Compositional matrix adjust.
+ Identities = 114/117 (97%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIA YETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIASYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ VEDILKDHW KF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQRVEDILKDHWQKF  420
+
+
+> sp|Q8BZF8|PGM5_MOUSE Phosphoglucomutase-like protein 5 OS=Mus 
+musculus OX=10090 GN=Pgm5 PE=1 SV=2
+Length=567
+
+ Score = 194 bits (494),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 85/117 (73%), Positives = 102/117 (87%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+IAAN+  IPYF+Q GVRGF RSMPTS ALDRVA + K+ +YETP GW+FF 
+Sbjct  309  VSPSDSLAIIAANLSCIPYFRQMGVRGFGRSMPTSTALDRVAKSMKVPVYETPAGWRFFS  368
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMD+ + SLCGEESFGTGSDH+REKDGLWAVL WLSI+A RKQSVE+I++DHW K+
+Sbjct  369  NLMDSGRCSLCGEESFGTGSDHLREKDGLWAVLVWLSIIAARKQSVEEIVRDHWAKY  425
+
+
+> sp|Q15124|PGM5_HUMAN Phosphoglucomutase-like protein 5 OS=Homo 
+sapiens OX=9606 GN=PGM5 PE=1 SV=2
+Length=567
+
+ Score = 194 bits (493),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 85/117 (73%), Positives = 102/117 (87%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+IAAN+  IPYF+Q GVRGF RSMPTS ALDRVA + K+ +YETP GW+FF 
+Sbjct  309  VSPSDSLAIIAANLSCIPYFRQMGVRGFGRSMPTSMALDRVAKSMKVPVYETPAGWRFFS  368
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMD+ + +LCGEESFGTGSDH+REKDGLWAVL WLSI+A RKQSVE+I++DHW KF
+Sbjct  369  NLMDSGRCNLCGEESFGTGSDHLREKDGLWAVLVWLSIIAARKQSVEEIVRDHWAKF  425
+
+
+> sp|Q23919|PGM1_DICDI Phosphoglucomutase-1 OS=Dictyostelium discoideum 
+OX=44689 GN=pgmA PE=2 SV=1
+Length=572
+
+ Score = 172 bits (435),  Expect = 5e-50, Method: Compositional matrix adjust.
+ Identities = 78/125 (62%), Positives = 95/125 (76%), Gaps = 8/125 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            +NPSDSVAVIA+N  +IPYF + G++G ARSMPTS AL+RVA   K+  +E PTGWKFFG
+Sbjct  303  LNPSDSVAVIASNYKAIPYFNKGGLKGLARSMPTSAALERVATDLKVPFFEVPTGWKFFG  362
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ--------SVEDILKD  112
+            NLMDA  LS+CGEESFGTGSDHIREKDG+WA++ WL IL    Q        S+E+I+K 
+Sbjct  363  NLMDAGTLSICGEESFGTGSDHIREKDGIWAIICWLQILTHHNQSTNDKNFVSIEEIVKQ  422
+
+Query  113  HWHKF  117
+            HW K+
+Sbjct  423  HWAKY  427
+
+
+> sp|Q9SCY0|PGMP_ARATH Phosphoglucomutase, chloroplastic OS=Arabidopsis 
+thaliana OX=3702 GN=PGMP PE=1 SV=2
+Length=623
+
+ Score = 168 bits (426),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 84/127 (66%), Positives = 98/127 (77%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF+  G +G ARSMPTSGALDRVA   K+  +E PTGWKFF
+Sbjct  361  VTPSDSVAIIAANAQEAIPYFR-AGPKGLARSMPTSGALDRVAEKLKLPFFEVPTGWKFF  419
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  420  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAHRNKDTKPGDKLVSVADVV  479
+
+Query  111  KDHWHKF  117
+            K++W  +
+Sbjct  480  KEYWATY  486
+
+
+> sp|Q9M4G5|PGMP_SOLTU Phosphoglucomutase, chloroplastic OS=Solanum 
+tuberosum OX=4113 GN=PGMP PE=2 SV=1
+Length=632
+
+ Score = 168 bits (426),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 83/127 (65%), Positives = 97/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAA   ++I YFQ +G +G ARSMPTSG+LDRVA    +  +E PTGWKFF
+Sbjct  370  VTPSDSVAIIAAQCQYAIHYFQ-SGPKGLARSMPTSGSLDRVAQKLNLPFFEVPTGWKFF  428
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  429  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAYRNKDKKSGEKLVSVADVV  488
+
+Query  111  KDHWHKF  117
+            KDHW  +
+Sbjct  489  KDHWATY  495
+
+
+> sp|Q9SM59|PGMP_PEA Phosphoglucomutase, chloroplastic OS=Pisum 
+sativum OX=3888 GN=PGMP PE=2 SV=1
+Length=626
+
+ Score = 167 bits (423),  Expect = 3e-48, Method: Compositional matrix adjust.
+ Identities = 82/127 (65%), Positives = 97/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANIF-SIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVAVIAAN   +IPYF+ + ++G ARSMPTSGALDRVA    +  +E PTGWKFF
+Sbjct  364  VTPSDSVAVIAANAKEAIPYFKDS-IKGLARSMPTSGALDRVAEKLNLPFFEVPTGWKFF  422
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA  LS+CGEESFGTGSDHIREKDG+WAVLAWLSI+A R +         SV D++
+Sbjct  423  GNLMDAGNLSICGEESFGTGSDHIREKDGIWAVLAWLSIIAHRNKDTKPGEKLVSVSDVV  482
+
+Query  111  KDHWHKF  117
+            K+HW  +
+Sbjct  483  KEHWATY  489
+
+
+> sp|Q9VUY9|PGM_DROME Phosphoglucomutase OS=Drosophila melanogaster 
+OX=7227 GN=Pgm PE=1 SV=1
+Length=560
+
+ Score = 166 bits (420),  Expect = 5e-48, Method: Compositional matrix adjust.
+ Identities = 73/117 (62%), Positives = 92/117 (79%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIA  + +IPYFQ+ GV+GFARSMPT+ A+D V       ++E PTGWK+FG
+Sbjct  304  VTPSDSLAVIAHYLEAIPYFQKNGVQGFARSMPTASAVDLVGRKLGKEVFEVPTGWKYFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA +L LCGEESFGTGS+HIREKDG+WAVLAW+S++    + +EDILK HW  +
+Sbjct  364  NLMDAGRLCLCGEESFGTGSNHIREKDGIWAVLAWISVMQHTGKGIEDILKQHWSVY  420
+
+
+> sp|Q7KHA1|PGM_DROSI Phosphoglucomutase OS=Drosophila simulans 
+OX=7240 GN=Pgm PE=3 SV=1
+Length=560
+
+ Score = 166 bits (420),  Expect = 6e-48, Method: Compositional matrix adjust.
+ Identities = 73/117 (62%), Positives = 92/117 (79%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIA  + +IPYFQ+ GV+GFARSMPT+ A+D V       ++E PTGWK+FG
+Sbjct  304  VTPSDSLAVIAHYLEAIPYFQKNGVQGFARSMPTASAVDLVGRKLGKEVFEVPTGWKYFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA +L LCGEESFGTGS+HIREKDG+WAVLAW+S++    + +EDILK HW  +
+Sbjct  364  NLMDAGRLCLCGEESFGTGSNHIREKDGIWAVLAWISVMQHTGKGIEDILKQHWSVY  420
+
+
+> sp|Q9SMM0|PGMP_BRANA Phosphoglucomutase, chloroplastic OS=Brassica 
+napus OX=3708 GN=PGMP PE=2 SV=1
+Length=629
+
+ Score = 166 bits (419),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 83/127 (65%), Positives = 97/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANIF-SIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF+  G +G ARSMPTSGALDRVA   K+  +E PTGWKFF
+Sbjct  367  VTPSDSVAIIAANAQEAIPYFR-AGPKGLARSMPTSGALDRVAEKLKLPFFEVPTGWKFF  425
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  426  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAHRIKDKKPGEKLVSVADVV  485
+
+Query  111  KDHWHKF  117
+             ++W  +
+Sbjct  486  NEYWATY  492
+
+
+> sp|P39671|PGM_RHIRD Phosphoglucomutase OS=Rhizobium radiobacter 
+OX=358 GN=pgm PE=1 SV=1
+Length=542
+
+ Score = 165 bits (417),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 75/117 (64%), Positives = 93/117 (79%), Gaps = 1/117 (1%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+A+IAAN    P +   G+ G ARSMPTS A DRVA    + +YETPTGWKFFG
+Sbjct  291  VTPSDSLAIIAANAKLAPGYA-AGISGIARSMPTSAAADRVAEKLGLGMYETPTGWKFFG  349
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA K+++CGEESFGTGS+H+REKDGLWAVL WL+I+A RK+SV+DI+  HW ++
+Sbjct  350  NLMDAGKVTICGEESFGTGSNHVREKDGLWAVLYWLNIVAARKESVKDIVTKHWAEY  406
+
+
+> sp|P93805|PGMC2_MAIZE Phosphoglucomutase, cytoplasmic 2 OS=Zea 
+mays OX=4577 PE=2 SV=2
+Length=583
+
+ Score = 160 bits (406),  Expect = 6e-46, Method: Compositional matrix adjust.
+ Identities = 79/127 (62%), Positives = 95/127 (75%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSI+A + +         +VEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSIIAFKNKDNLGGDKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWATY  440
+
+
+> sp|P93804|PGMC1_MAIZE Phosphoglucomutase, cytoplasmic 1 OS=Zea 
+mays OX=4577 PE=2 SV=2
+Length=583
+
+ Score = 160 bits (406),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 79/127 (62%), Positives = 95/127 (75%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSI+A + +         +VEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSIIAFKNKDNLGGDKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWATY  440
+
+
+> sp|Q9SM60|PGMC_PEA Phosphoglucomutase, cytoplasmic OS=Pisum sativum 
+OX=3888 GN=PGM1 PE=2 SV=1
+Length=582
+
+ Score = 160 bits (406),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 80/126 (63%), Positives = 94/126 (75%), Gaps = 10/126 (8%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVEAIPYFS-AGLKGVARSMPTSAALDVVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ--------SVEDILK  111
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +        SVEDI++
+Sbjct  374  GNLMDAGLCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKTKDNLESKLVSVEDIVR  433
+
+Query  112  DHWHKF  117
+             HW  +
+Sbjct  434  QHWATY  439
+
+
+> sp|Q9M4G4|PGMC_SOLTU Phosphoglucomutase, cytoplasmic OS=Solanum 
+tuberosum OX=4113 GN=PGM1 PE=2 SV=1
+Length=583
+
+ Score = 160 bits (404),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 80/124 (65%), Positives = 93/124 (75%), Gaps = 11/124 (9%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQAIPYFS-GGLKGVARSMPTSAALDIVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         SVEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSILAYKNKDNLGEGNLVSVEDIV  433
+
+Query  111  KDHW  114
+            + HW
+Sbjct  434  RQHW  437
+
+
+> sp|Q9ZSQ4|PGMC_POPTN Phosphoglucomutase, cytoplasmic OS=Populus 
+tremula OX=113636 GN=PGM1 PE=2 SV=1
+Length=582
+
+ Score = 160 bits (404),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 79/127 (62%), Positives = 95/127 (75%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + +IPYF   G++G ARSMPTS ALD VA +  +  +E PTGWKFF
+Sbjct  314  VTPSDSVAIIAANAVEAIPYFS-AGLKGVARSMPTSAALDVVAKSLNLKFFEVPTGWKFF  372
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         +VEDI+
+Sbjct  373  GNLMDAGLCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKNRENLGGGKLVTVEDIV  432
+
+Query  111  KDHWHKF  117
+             +HW  +
+Sbjct  433  HNHWATY  439
+
+
+> sp|Q9SGC1|PGMC2_ARATH Probable phosphoglucomutase, cytoplasmic 
+2 OS=Arabidopsis thaliana OX=3702 GN=At1g70730 PE=1 SV=1
+Length=585
+
+ Score = 159 bits (403),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 79/128 (62%), Positives = 95/128 (74%), Gaps = 12/128 (9%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + +IPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  316  VTPSDSVAIIAANAVGAIPYFS-SGLKGVARSMPTSAALDVVAKNLGLKFFEVPTGWKFF  374
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ----------SVEDI  109
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +          +VEDI
+Sbjct  375  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAHKNKETLDGNAKLVTVEDI  434
+
+Query  110  LKDHWHKF  117
+            ++ HW  +
+Sbjct  435  VRQHWATY  442
+
+
+> sp|Q9SNX2|PGMC_BROIN Phosphoglucomutase, cytoplasmic OS=Bromus 
+inermis OX=15371 GN=PGM1 PE=2 SV=1
+Length=581
+
+ Score = 157 bits (398),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 79/124 (64%), Positives = 93/124 (75%), Gaps = 11/124 (9%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  313  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  371
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         +VE+I+
+Sbjct  372  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKNKDNLGGDKLVTVENIV  431
+
+Query  111  KDHW  114
+              HW
+Sbjct  432  LQHW  435
+
+
+> sp|P93262|PGMC_MESCR Phosphoglucomutase, cytoplasmic OS=Mesembryanthemum 
+crystallinum OX=3544 GN=PGM1 PE=2 SV=1
+Length=583
+
+ Score = 157 bits (396),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 78/127 (61%), Positives = 93/127 (73%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAAN-IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN + +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVEAIPYFS-GGLKGVARSMPTSAALDVVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDH+REKDG+WAVLAWLSILA + +         +VEDI+
+Sbjct  374  GNLMDAGVCSICGEESFGTGSDHVREKDGIWAVLAWLSILAHKNKDNLNGEKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+              HW  +
+Sbjct  434  CQHWATY  440
+
+
+> sp|O02606|PGM2_PARTE Phosphoglucomutase-2 OS=Paramecium tetraurelia 
+OX=5888 GN=pp63-2 PE=2 SV=1
+Length=572
+
+ Score = 154 bits (388),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 78/126 (62%), Positives = 95/126 (75%), Gaps = 15/126 (12%)
+
+Query  1    VNPSDSVAVIAAN---IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWK  57
+            V PSDS+AVIAAN   IF      + G+ G ARSMPTSGALD+VA    I L+ETPTGWK
+Sbjct  323  VTPSDSLAVIAANANLIF------KNGLLGAARSMPTSGALDKVAAKNGIKLFETPTGWK  376
+
+Query  58   FFGNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILK  111
+            FFGNLMDA  ++LCGEESFGTGS+HIREKDG+WAVLAWL+ILA + +      +VE+I+ 
+Sbjct  377  FFGNLMDAGLINLCGEESFGTGSNHIREKDGIWAVLAWLTILAHKNKNTDHFVTVEEIVT  436
+
+Query  112  DHWHKF  117
+             +W +F
+Sbjct  437  QYWQQF  442
+
+
+> sp|P47244|PGM1_PARTE Phosphoglucomutase-1 OS=Paramecium tetraurelia 
+OX=5888 GN=pp63-1 PE=1 SV=4
+Length=572
+
+ Score = 153 bits (387),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 78/126 (62%), Positives = 95/126 (75%), Gaps = 15/126 (12%)
+
+Query  1    VNPSDSVAVIAAN---IFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWK  57
+            V PSDS+AVIAAN   IF      + G+ G ARSMPTSGALD+VA    I L+ETPTGWK
+Sbjct  323  VTPSDSLAVIAANANLIF------KNGLLGAARSMPTSGALDKVAAKNGIKLFETPTGWK  376
+
+Query  58   FFGNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILK  111
+            FFGNLMDA  ++LCGEESFGTGS+HIREKDG+WAVLAWL+ILA + +      +VE+I+ 
+Sbjct  377  FFGNLMDAGLINLCGEESFGTGSNHIREKDGIWAVLAWLTILAHKNKNTDHFVTVEEIVT  436
+
+Query  112  DHWHKF  117
+             +W +F
+Sbjct  437  QYWQQF  442
+
+
+> sp|O74374|PGM_SCHPO Phosphoglucomutase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC32F12.10 PE=1 
+SV=1
+Length=554
+
+ Score = 152 bits (384),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 72/123 (59%), Positives = 90/123 (73%), Gaps = 6/123 (5%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDSVA+IA +   IPYF+  GV GFARSMPTSGA+DRV       +YE PTGWKFF 
+Sbjct  293  VTPSDSVAIIAHHAELIPYFRDGGVHGFARSMPTSGAIDRVGKYKGKNVYEVPTGWKFFC  352
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA------TRKQSVEDILKDHW  114
+            NL DA +LS+CGEESFGTGSDHIREKDG+W +L WL+ILA       + +++ D+ KD +
+Sbjct  353  NLFDAKRLSICGEESFGTGSDHIREKDGVWGILCWLNILAGLNAQNPKIKTLIDVKKDFY  412
+
+Query  115  HKF  117
+            + +
+Sbjct  413  NIY  415
+
+
+> sp|P57749|PGM_ASPOR Phosphoglucomutase OS=Aspergillus oryzae 
+(strain ATCC 42149 / RIB 40) OX=510516 GN=pgmA PE=2 SV=1
+Length=555
+
+ Score = 148 bits (374),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 70/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+I+ +   IPYFQ+ GV G ARSMPTSGA+D VA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIISHHAKLIPYFQKQGVYGLARSMPTSGAVDLVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDGLWA++AWL+I+A        +  S+  I  D 
+Sbjct  354  NLFDNKKISICGEESFGTGSNHIREKDGLWAIVAWLNIIAGVAKEKPDQTPSIASIQNDF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WQAY  417
+
+
+> sp|P37012|PGM2_YEAST Phosphoglucomutase 2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=PGM2 PE=1 
+SV=1
+Length=569
+
+ Score = 148 bits (374),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 70/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DSVA+IA     IPYF + G+ G ARS PTSGA+DRVA A  +  YE PTGWKFF 
+Sbjct  306  VSPGDSVAIIAEYAAEIPYFAKQGIYGLARSFPTSGAIDRVAKAHGLNCYEVPTGWKFFC  365
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ-------SVEDILKDH  113
+             L DA KLS+CGEESFGTGS+H+REKDG+WA++AWL+ILA   +       S++ I  + 
+Sbjct  366  ALFDAKKLSICGEESFGTGSNHVREKDGVWAIMAWLNILAIYNKHHPENEASIKTIQNEF  425
+
+Query  114  WHKF  117
+            W K+
+Sbjct  426  WAKY  429
+
+
+> sp|O49299|PGMC1_ARATH Probable phosphoglucomutase, cytoplasmic 
+1 OS=Arabidopsis thaliana OX=3702 GN=At1g23190 PE=2 SV=2
+Length=583
+
+ Score = 146 bits (368),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 78/128 (61%), Positives = 93/128 (73%), Gaps = 12/128 (9%)
+
+Query  1    VNPSDSVAVIAANIFSI-PYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN     PYF  +G++G ARSMPTS ALD VA +  +  +E PTGWKFF
+Sbjct  314  VTPSDSVAIIAANAIGAIPYFS-SGLKGVARSMPTSAALDVVAKSLNLKFFEVPTGWKFF  372
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ----------SVEDI  109
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAW+SILA + +          SVEDI
+Sbjct  373  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWMSILAHKNKGNIDGNAKLVSVEDI  432
+
+Query  110  LKDHWHKF  117
+            ++ HW  +
+Sbjct  433  VRQHWATY  440
+
+
+> sp|Q9P931|PGM_EMENI Phosphoglucomutase OS=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) 
+OX=227321 GN=pgmB PE=3 SV=2
+Length=556
+
+ Score = 145 bits (366),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 65/100 (65%), Positives = 82/100 (82%), Gaps = 0/100 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+IA +   IP+FQ+ GV G ARSMPTSGA+DRVA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIIAHHAKLIPWFQKHGVDGLARSMPTSGAVDRVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA  100
+            NL D  K+S+CGEESFGTGS+HIREKDG+WA++AWL+++A
+Sbjct  354  NLFDNKKMSICGEESFGTGSNHIREKDGVWAIVAWLNVIA  393
+
+
+> sp|P33401|PGM1_YEAST Phosphoglucomutase 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=PGM1 PE=1 
+SV=1
+Length=570
+
+ Score = 145 bits (366),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 69/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DSVA+IA     IPYF + G+ G ARS PTS A+DRVA    +  YE PTGWKFF 
+Sbjct  307  VSPGDSVAIIAEYAPEIPYFAKQGIYGLARSFPTSSAIDRVAAKKGLRCYEVPTGWKFFC  366
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILAT-------RKQSVEDILKDH  113
+             L DA KLS+CGEESFGTGS+HIREKDGLWA++AWL+ILA        ++ S++ I  + 
+Sbjct  367  ALFDAKKLSICGEESFGTGSNHIREKDGLWAIIAWLNILAIYHRRNPEKEASIKTIQDEF  426
+
+Query  114  WHKF  117
+            W+++
+Sbjct  427  WNEY  430
+
+
+> sp|Q4WY53|PGM_ASPFU Phosphoglucomutase OS=Neosartorya fumigata 
+(strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100) OX=330879 
+GN=pgmA PE=3 SV=1
+Length=555
+
+ Score = 143 bits (361),  Expect = 8e-40, Method: Compositional matrix adjust.
+ Identities = 68/124 (55%), Positives = 87/124 (70%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+IA +   IP+FQ+ GV G ARSMPTSGA+D VA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIIAHHAKLIPWFQKQGVYGLARSMPTSGAVDLVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDG+WA++AWL+I+A           S+  I  + 
+Sbjct  354  NLFDNKKISICGEESFGTGSNHIREKDGVWAIVAWLNIIAGVAKQKPNETPSIASIQNEF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WQTY  417
+
+
+> sp|O18719|PGM_ENTDI Phosphoglucomutase OS=Entamoeba dispar OX=46681 
+GN=pgm PE=2 SV=1
+Length=553
+
+ Score = 142 bits (358),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 68/123 (55%), Positives = 88/123 (72%), Gaps = 11/123 (9%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+++     IP+F + G +G ARSMPTS A+D V + T     ETPTGWKFFG
+Sbjct  304  VSPSDSLAILSTKYNDIPFFVKNGFKGVARSMPTSAAVDHVTSIT-----ETPTGWKFFG  358
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMD+ K+SLCGEESFGTG   IREKDG+WA L W+SILA   +       V++IL++HW
+Sbjct  359  NLMDSGKISLCGEESFGTGCCGIREKDGIWAALCWVSILAAESERAQRLVGVKEILENHW  418
+
+Query  115  HKF  117
+             K+
+Sbjct  419  AKY  421
+
+
+> sp|O15820|PGM_ENTHI Phosphoglucomutase OS=Entamoeba histolytica 
+OX=5759 GN=pgm PE=2 SV=1
+Length=553
+
+ Score = 141 bits (356),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 68/123 (55%), Positives = 87/123 (71%), Gaps = 11/123 (9%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+++     IP+F + G +G ARSMPTS A+D V + T     ETPTGWKFFG
+Sbjct  304  VSPSDSLAILSTKYNDIPFFVKNGFKGVARSMPTSAAVDHVTSIT-----ETPTGWKFFG  358
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMD+ K+SLCGEESFGTG   IREKDG+WA L W+SILA   +       V++IL+ HW
+Sbjct  359  NLMDSGKISLCGEESFGTGCCGIREKDGIWAALCWVSILAAESERAQRLVGVKEILESHW  418
+
+Query  115  HKF  117
+             K+
+Sbjct  419  AKY  421
+
+
+> sp|Q57290|Y740_HAEIN Probable phosphomannomutase OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=HI_0740 PE=1 SV=1
+Length=485
+
+ Score = 38.1 bits (87),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 31/100 (31%), Positives = 50/100 (50%), Gaps = 7/100 (7%)
+
+Query  21   QQTGVRG-FARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG--  77
+            Q  G +G  A S+ +S AL  +A        ET TG+K+ G +   S L    EE+ G  
+Sbjct  272  QYQGKQGTLACSLVSSPALAEIAKKYSFQSEETLTGFKYIGKV---SGLLFGFEEALGYL  328
+
+Query  78   TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+               D +R+KDG+ A + +L ++   K+  +  L D+  +F
+Sbjct  329  VDPDKVRDKDGISAAIVFLDLVRNLKKQGK-TLADYADEF  367
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4874308128
+Results from round 2
+
+
+Query= 3pmgb-3-AS
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q08DP0|PGM1_BOVIN Phosphoglucomutase-1 OS=Bos taurus OX=9913...  223     3e-69
+  sp|Q4R5E4|PGM1_MACFA Phosphoglucomutase-1 OS=Macaca fasciculari...  222     4e-69
+  sp|P36871|PGM1_HUMAN Phosphoglucomutase-1 OS=Homo sapiens OX=96...  222     5e-69
+  sp|Q9D0F9|PGM1_MOUSE Phosphoglucomutase-1 OS=Mus musculus OX=10...  221     1e-68
+  sp|P00949|PGM1_RABIT Phosphoglucomutase-1 OS=Oryctolagus cunicu...  221     2e-68
+  sp|P38652|PGM1_RAT Phosphoglucomutase-1 OS=Rattus norvegicus OX...  219     1e-67
+  sp|Q8BZF8|PGM5_MOUSE Phosphoglucomutase-like protein 5 OS=Mus m...  216     9e-67
+  sp|Q23919|PGM1_DICDI Phosphoglucomutase-1 OS=Dictyostelium disc...  215     5e-66
+  sp|Q15124|PGM5_HUMAN Phosphoglucomutase-like protein 5 OS=Homo ...  213     2e-65
+  sp|Q7KHA1|PGM_DROSI Phosphoglucomutase OS=Drosophila simulans O...  212     2e-65
+  sp|Q9VUY9|PGM_DROME Phosphoglucomutase OS=Drosophila melanogast...  212     3e-65
+  sp|Q9M4G4|PGMC_SOLTU Phosphoglucomutase, cytoplasmic OS=Solanum...  212     6e-65
+  sp|P93262|PGMC_MESCR Phosphoglucomutase, cytoplasmic OS=Mesembr...  211     1e-64
+  sp|Q9SM60|PGMC_PEA Phosphoglucomutase, cytoplasmic OS=Pisum sat...  210     2e-64
+  sp|Q9SGC1|PGMC2_ARATH Probable phosphoglucomutase, cytoplasmic ...  210     3e-64
+  sp|P93804|PGMC1_MAIZE Phosphoglucomutase, cytoplasmic 1 OS=Zea ...  210     5e-64
+  sp|Q9SCY0|PGMP_ARATH Phosphoglucomutase, chloroplastic OS=Arabi...  210     6e-64
+  sp|P93805|PGMC2_MAIZE Phosphoglucomutase, cytoplasmic 2 OS=Zea ...  209     7e-64
+  sp|Q9SM59|PGMP_PEA Phosphoglucomutase, chloroplastic OS=Pisum s...  209     2e-63
+  sp|Q9ZSQ4|PGMC_POPTN Phosphoglucomutase, cytoplasmic OS=Populus...  207     3e-63
+  sp|Q9SMM0|PGMP_BRANA Phosphoglucomutase, chloroplastic OS=Brass...  207     9e-63
+  sp|Q9M4G5|PGMP_SOLTU Phosphoglucomutase, chloroplastic OS=Solan...  206     2e-62
+  sp|Q9SNX2|PGMC_BROIN Phosphoglucomutase, cytoplasmic OS=Bromus ...  204     6e-62
+  sp|O74374|PGM_SCHPO Phosphoglucomutase OS=Schizosaccharomyces p...  202     3e-61
+  sp|P39671|PGM_RHIRD Phosphoglucomutase OS=Rhizobium radiobacter...  202     3e-61
+  sp|P37012|PGM2_YEAST Phosphoglucomutase 2 OS=Saccharomyces cere...  201     5e-61
+  sp|Q4WY53|PGM_ASPFU Phosphoglucomutase OS=Neosartorya fumigata ...  200     1e-60
+  sp|P57749|PGM_ASPOR Phosphoglucomutase OS=Aspergillus oryzae (s...  200     2e-60
+  sp|Q9P931|PGM_EMENI Phosphoglucomutase OS=Emericella nidulans (...  198     8e-60
+  sp|P33401|PGM1_YEAST Phosphoglucomutase 1 OS=Saccharomyces cere...  197     1e-59
+  sp|O02606|PGM2_PARTE Phosphoglucomutase-2 OS=Paramecium tetraur...  195     9e-59
+  sp|P47244|PGM1_PARTE Phosphoglucomutase-1 OS=Paramecium tetraur...  195     9e-59
+  sp|O49299|PGMC1_ARATH Probable phosphoglucomutase, cytoplasmic ...  193     6e-58
+  sp|O18719|PGM_ENTDI Phosphoglucomutase OS=Entamoeba dispar OX=4...  184     8e-55
+  sp|O15820|PGM_ENTHI Phosphoglucomutase OS=Entamoeba histolytica...  184     2e-54
+
+Sequences not found previously or not previously below threshold:
+
+  sp|P38569|PGM_KOMXY Phosphoglucomutase OS=Komagataeibacter xyli...  48.0    5e-06
+  sp|P36938|PGM_ECOLI Phosphoglucomutase OS=Escherichia coli (str...  44.2    9e-05
+  sp|Q57290|Y740_HAEIN Probable phosphomannomutase OS=Haemophilus...  41.9    4e-04
+
+
+> sp|Q08DP0|PGM1_BOVIN Phosphoglucomutase-1 OS=Bos taurus OX=9913 
+GN=PGM1 PE=2 SV=1
+Length=562
+
+ Score = 223 bits (568),  Expect = 3e-69, Method: Composition-based stats.
+ Identities = 115/117 (98%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|Q4R5E4|PGM1_MACFA Phosphoglucomutase-1 OS=Macaca fascicularis 
+OX=9541 GN=PGM1 PE=2 SV=3
+Length=562
+
+ Score = 222 bits (567),  Expect = 4e-69, Method: Composition-based stats.
+ Identities = 115/117 (98%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|P36871|PGM1_HUMAN Phosphoglucomutase-1 OS=Homo sapiens OX=9606 
+GN=PGM1 PE=1 SV=3
+Length=562
+
+ Score = 222 bits (567),  Expect = 5e-69, Method: Composition-based stats.
+ Identities = 114/117 (97%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVA+ATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVASATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|Q9D0F9|PGM1_MOUSE Phosphoglucomutase-1 OS=Mus musculus OX=10090 
+GN=Pgm1 PE=1 SV=4
+Length=562
+
+ Score = 221 bits (564),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 116/117 (99%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW KF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKF  420
+
+
+> sp|P00949|PGM1_RABIT Phosphoglucomutase-1 OS=Oryctolagus cuniculus 
+OX=9986 GN=PGM1 PE=1 SV=2
+Length=562
+
+ Score = 221 bits (563),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 117/117 (100%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  420
+
+
+> sp|P38652|PGM1_RAT Phosphoglucomutase-1 OS=Rattus norvegicus 
+OX=10116 GN=Pgm1 PE=1 SV=2
+Length=562
+
+ Score = 219 bits (557),  Expect = 1e-67, Method: Composition-based stats.
+ Identities = 114/117 (97%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIA YETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIASYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ VEDILKDHW KF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQRVEDILKDHWQKF  420
+
+
+> sp|Q8BZF8|PGM5_MOUSE Phosphoglucomutase-like protein 5 OS=Mus 
+musculus OX=10090 GN=Pgm5 PE=1 SV=2
+Length=567
+
+ Score = 216 bits (551),  Expect = 9e-67, Method: Composition-based stats.
+ Identities = 85/117 (73%), Positives = 102/117 (87%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+IAAN+  IPYF+Q GVRGF RSMPTS ALDRVA + K+ +YETP GW+FF 
+Sbjct  309  VSPSDSLAIIAANLSCIPYFRQMGVRGFGRSMPTSTALDRVAKSMKVPVYETPAGWRFFS  368
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMD+ + SLCGEESFGTGSDH+REKDGLWAVL WLSI+A RKQSVE+I++DHW K+
+Sbjct  369  NLMDSGRCSLCGEESFGTGSDHLREKDGLWAVLVWLSIIAARKQSVEEIVRDHWAKY  425
+
+
+> sp|Q23919|PGM1_DICDI Phosphoglucomutase-1 OS=Dictyostelium discoideum 
+OX=44689 GN=pgmA PE=2 SV=1
+Length=572
+
+ Score = 215 bits (547),  Expect = 5e-66, Method: Composition-based stats.
+ Identities = 78/125 (62%), Positives = 95/125 (76%), Gaps = 8/125 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            +NPSDSVAVIA+N  +IPYF + G++G ARSMPTS AL+RVA   K+  +E PTGWKFFG
+Sbjct  303  LNPSDSVAVIASNYKAIPYFNKGGLKGLARSMPTSAALERVATDLKVPFFEVPTGWKFFG  362
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ--------SVEDILKD  112
+            NLMDA  LS+CGEESFGTGSDHIREKDG+WA++ WL IL    Q        S+E+I+K 
+Sbjct  363  NLMDAGTLSICGEESFGTGSDHIREKDGIWAIICWLQILTHHNQSTNDKNFVSIEEIVKQ  422
+
+Query  113  HWHKF  117
+            HW K+
+Sbjct  423  HWAKY  427
+
+
+> sp|Q15124|PGM5_HUMAN Phosphoglucomutase-like protein 5 OS=Homo 
+sapiens OX=9606 GN=PGM5 PE=1 SV=2
+Length=567
+
+ Score = 213 bits (542),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 85/117 (73%), Positives = 102/117 (87%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+IAAN+  IPYF+Q GVRGF RSMPTS ALDRVA + K+ +YETP GW+FF 
+Sbjct  309  VSPSDSLAIIAANLSCIPYFRQMGVRGFGRSMPTSMALDRVAKSMKVPVYETPAGWRFFS  368
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMD+ + +LCGEESFGTGSDH+REKDGLWAVL WLSI+A RKQSVE+I++DHW KF
+Sbjct  369  NLMDSGRCNLCGEESFGTGSDHLREKDGLWAVLVWLSIIAARKQSVEEIVRDHWAKF  425
+
+
+> sp|Q7KHA1|PGM_DROSI Phosphoglucomutase OS=Drosophila simulans 
+OX=7240 GN=Pgm PE=3 SV=1
+Length=560
+
+ Score = 212 bits (541),  Expect = 2e-65, Method: Composition-based stats.
+ Identities = 73/117 (62%), Positives = 92/117 (79%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIA  + +IPYFQ+ GV+GFARSMPT+ A+D V       ++E PTGWK+FG
+Sbjct  304  VTPSDSLAVIAHYLEAIPYFQKNGVQGFARSMPTASAVDLVGRKLGKEVFEVPTGWKYFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA +L LCGEESFGTGS+HIREKDG+WAVLAW+S++    + +EDILK HW  +
+Sbjct  364  NLMDAGRLCLCGEESFGTGSNHIREKDGIWAVLAWISVMQHTGKGIEDILKQHWSVY  420
+
+
+> sp|Q9VUY9|PGM_DROME Phosphoglucomutase OS=Drosophila melanogaster 
+OX=7227 GN=Pgm PE=1 SV=1
+Length=560
+
+ Score = 212 bits (541),  Expect = 3e-65, Method: Composition-based stats.
+ Identities = 73/117 (62%), Positives = 92/117 (79%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIA  + +IPYFQ+ GV+GFARSMPT+ A+D V       ++E PTGWK+FG
+Sbjct  304  VTPSDSLAVIAHYLEAIPYFQKNGVQGFARSMPTASAVDLVGRKLGKEVFEVPTGWKYFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA +L LCGEESFGTGS+HIREKDG+WAVLAW+S++    + +EDILK HW  +
+Sbjct  364  NLMDAGRLCLCGEESFGTGSNHIREKDGIWAVLAWISVMQHTGKGIEDILKQHWSVY  420
+
+
+> sp|Q9M4G4|PGMC_SOLTU Phosphoglucomutase, cytoplasmic OS=Solanum 
+tuberosum OX=4113 GN=PGM1 PE=2 SV=1
+Length=583
+
+ Score = 212 bits (540),  Expect = 6e-65, Method: Composition-based stats.
+ Identities = 80/127 (63%), Positives = 93/127 (73%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQAIPYFS-GGLKGVARSMPTSAALDIVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         SVEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSILAYKNKDNLGEGNLVSVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWAIY  440
+
+
+> sp|P93262|PGMC_MESCR Phosphoglucomutase, cytoplasmic OS=Mesembryanthemum 
+crystallinum OX=3544 GN=PGM1 PE=2 SV=1
+Length=583
+
+ Score = 211 bits (537),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 78/127 (61%), Positives = 92/127 (72%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVEAIPYFS-GGLKGVARSMPTSAALDVVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDH+REKDG+WAVLAWLSILA + +         +VEDI+
+Sbjct  374  GNLMDAGVCSICGEESFGTGSDHVREKDGIWAVLAWLSILAHKNKDNLNGEKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+              HW  +
+Sbjct  434  CQHWATY  440
+
+
+> sp|Q9SM60|PGMC_PEA Phosphoglucomutase, cytoplasmic OS=Pisum sativum 
+OX=3888 GN=PGM1 PE=2 SV=1
+Length=582
+
+ Score = 210 bits (536),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 80/126 (63%), Positives = 93/126 (74%), Gaps = 10/126 (8%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVEAIPYFS-AGLKGVARSMPTSAALDVVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ--------SVEDILK  111
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +        SVEDI++
+Sbjct  374  GNLMDAGLCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKTKDNLESKLVSVEDIVR  433
+
+Query  112  DHWHKF  117
+             HW  +
+Sbjct  434  QHWATY  439
+
+
+> sp|Q9SGC1|PGMC2_ARATH Probable phosphoglucomutase, cytoplasmic 
+2 OS=Arabidopsis thaliana OX=3702 GN=At1g70730 PE=1 SV=1
+Length=585
+
+ Score = 210 bits (535),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 79/128 (62%), Positives = 94/128 (73%), Gaps = 12/128 (9%)
+
+Query  1    VNPSDSVAVIAANIF-SIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  316  VTPSDSVAIIAANAVGAIPYFS-SGLKGVARSMPTSAALDVVAKNLGLKFFEVPTGWKFF  374
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ----------SVEDI  109
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +          +VEDI
+Sbjct  375  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAHKNKETLDGNAKLVTVEDI  434
+
+Query  110  LKDHWHKF  117
+            ++ HW  +
+Sbjct  435  VRQHWATY  442
+
+
+> sp|P93804|PGMC1_MAIZE Phosphoglucomutase, cytoplasmic 1 OS=Zea 
+mays OX=4577 PE=2 SV=2
+Length=583
+
+ Score = 210 bits (534),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 94/127 (74%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSI+A + +         +VEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSIIAFKNKDNLGGDKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWATY  440
+
+
+> sp|Q9SCY0|PGMP_ARATH Phosphoglucomutase, chloroplastic OS=Arabidopsis 
+thaliana OX=3702 GN=PGMP PE=1 SV=2
+Length=623
+
+ Score = 210 bits (535),  Expect = 6e-64, Method: Composition-based stats.
+ Identities = 84/127 (66%), Positives = 98/127 (77%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF+  G +G ARSMPTSGALDRVA   K+  +E PTGWKFF
+Sbjct  361  VTPSDSVAIIAANAQEAIPYFR-AGPKGLARSMPTSGALDRVAEKLKLPFFEVPTGWKFF  419
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  420  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAHRNKDTKPGDKLVSVADVV  479
+
+Query  111  KDHWHKF  117
+            K++W  +
+Sbjct  480  KEYWATY  486
+
+
+> sp|P93805|PGMC2_MAIZE Phosphoglucomutase, cytoplasmic 2 OS=Zea 
+mays OX=4577 PE=2 SV=2
+Length=583
+
+ Score = 209 bits (533),  Expect = 7e-64, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 94/127 (74%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSI+A + +         +VEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSIIAFKNKDNLGGDKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWATY  440
+
+
+> sp|Q9SM59|PGMP_PEA Phosphoglucomutase, chloroplastic OS=Pisum 
+sativum OX=3888 GN=PGMP PE=2 SV=1
+Length=626
+
+ Score = 209 bits (531),  Expect = 2e-63, Method: Composition-based stats.
+ Identities = 82/127 (65%), Positives = 97/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVAVIAAN   +IPYF+ + ++G ARSMPTSGALDRVA    +  +E PTGWKFF
+Sbjct  364  VTPSDSVAVIAANAKEAIPYFKDS-IKGLARSMPTSGALDRVAEKLNLPFFEVPTGWKFF  422
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA  LS+CGEESFGTGSDHIREKDG+WAVLAWLSI+A R +         SV D++
+Sbjct  423  GNLMDAGNLSICGEESFGTGSDHIREKDGIWAVLAWLSIIAHRNKDTKPGEKLVSVSDVV  482
+
+Query  111  KDHWHKF  117
+            K+HW  +
+Sbjct  483  KEHWATY  489
+
+
+> sp|Q9ZSQ4|PGMC_POPTN Phosphoglucomutase, cytoplasmic OS=Populus 
+tremula OX=113636 GN=PGM1 PE=2 SV=1
+Length=582
+
+ Score = 207 bits (528),  Expect = 3e-63, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 94/127 (74%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA +  +  +E PTGWKFF
+Sbjct  314  VTPSDSVAIIAANAVEAIPYFS-AGLKGVARSMPTSAALDVVAKSLNLKFFEVPTGWKFF  372
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         +VEDI+
+Sbjct  373  GNLMDAGLCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKNRENLGGGKLVTVEDIV  432
+
+Query  111  KDHWHKF  117
+             +HW  +
+Sbjct  433  HNHWATY  439
+
+
+> sp|Q9SMM0|PGMP_BRANA Phosphoglucomutase, chloroplastic OS=Brassica 
+napus OX=3708 GN=PGMP PE=2 SV=1
+Length=629
+
+ Score = 207 bits (527),  Expect = 9e-63, Method: Composition-based stats.
+ Identities = 83/127 (65%), Positives = 97/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF+  G +G ARSMPTSGALDRVA   K+  +E PTGWKFF
+Sbjct  367  VTPSDSVAIIAANAQEAIPYFR-AGPKGLARSMPTSGALDRVAEKLKLPFFEVPTGWKFF  425
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  426  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAHRIKDKKPGEKLVSVADVV  485
+
+Query  111  KDHWHKF  117
+             ++W  +
+Sbjct  486  NEYWATY  492
+
+
+> sp|Q9M4G5|PGMP_SOLTU Phosphoglucomutase, chloroplastic OS=Solanum 
+tuberosum OX=4113 GN=PGMP PE=2 SV=1
+Length=632
+
+ Score = 206 bits (525),  Expect = 2e-62, Method: Composition-based stats.
+ Identities = 83/127 (65%), Positives = 96/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANIF-SIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAA    +I YFQ +G +G ARSMPTSG+LDRVA    +  +E PTGWKFF
+Sbjct  370  VTPSDSVAIIAAQCQYAIHYFQ-SGPKGLARSMPTSGSLDRVAQKLNLPFFEVPTGWKFF  428
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  429  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAYRNKDKKSGEKLVSVADVV  488
+
+Query  111  KDHWHKF  117
+            KDHW  +
+Sbjct  489  KDHWATY  495
+
+
+> sp|Q9SNX2|PGMC_BROIN Phosphoglucomutase, cytoplasmic OS=Bromus 
+inermis OX=15371 GN=PGM1 PE=2 SV=1
+Length=581
+
+ Score = 204 bits (519),  Expect = 6e-62, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 93/127 (73%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  313  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  371
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         +VE+I+
+Sbjct  372  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKNKDNLGGDKLVTVENIV  431
+
+Query  111  KDHWHKF  117
+              HW  +
+Sbjct  432  LQHWGIY  438
+
+
+> sp|O74374|PGM_SCHPO Phosphoglucomutase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC32F12.10 PE=1 
+SV=1
+Length=554
+
+ Score = 202 bits (513),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 72/123 (59%), Positives = 90/123 (73%), Gaps = 6/123 (5%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDSVA+IA +   IPYF+  GV GFARSMPTSGA+DRV       +YE PTGWKFF 
+Sbjct  293  VTPSDSVAIIAHHAELIPYFRDGGVHGFARSMPTSGAIDRVGKYKGKNVYEVPTGWKFFC  352
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA------TRKQSVEDILKDHW  114
+            NL DA +LS+CGEESFGTGSDHIREKDG+W +L WL+ILA       + +++ D+ KD +
+Sbjct  353  NLFDAKRLSICGEESFGTGSDHIREKDGVWGILCWLNILAGLNAQNPKIKTLIDVKKDFY  412
+
+Query  115  HKF  117
+            + +
+Sbjct  413  NIY  415
+
+
+> sp|P39671|PGM_RHIRD Phosphoglucomutase OS=Rhizobium radiobacter 
+OX=358 GN=pgm PE=1 SV=1
+Length=542
+
+ Score = 202 bits (513),  Expect = 3e-61, Method: Composition-based stats.
+ Identities = 75/117 (64%), Positives = 93/117 (79%), Gaps = 1/117 (1%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+A+IAAN    P +   G+ G ARSMPTS A DRVA    + +YETPTGWKFFG
+Sbjct  291  VTPSDSLAIIAANAKLAPGYA-AGISGIARSMPTSAAADRVAEKLGLGMYETPTGWKFFG  349
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA K+++CGEESFGTGS+H+REKDGLWAVL WL+I+A RK+SV+DI+  HW ++
+Sbjct  350  NLMDAGKVTICGEESFGTGSNHVREKDGLWAVLYWLNIVAARKESVKDIVTKHWAEY  406
+
+
+> sp|P37012|PGM2_YEAST Phosphoglucomutase 2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=PGM2 PE=1 
+SV=1
+Length=569
+
+ Score = 201 bits (512),  Expect = 5e-61, Method: Composition-based stats.
+ Identities = 70/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DSVA+IA     IPYF + G+ G ARS PTSGA+DRVA A  +  YE PTGWKFF 
+Sbjct  306  VSPGDSVAIIAEYAAEIPYFAKQGIYGLARSFPTSGAIDRVAKAHGLNCYEVPTGWKFFC  365
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ-------SVEDILKDH  113
+             L DA KLS+CGEESFGTGS+H+REKDG+WA++AWL+ILA   +       S++ I  + 
+Sbjct  366  ALFDAKKLSICGEESFGTGSNHVREKDGVWAIMAWLNILAIYNKHHPENEASIKTIQNEF  425
+
+Query  114  WHKF  117
+            W K+
+Sbjct  426  WAKY  429
+
+
+> sp|Q4WY53|PGM_ASPFU Phosphoglucomutase OS=Neosartorya fumigata 
+(strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100) OX=330879 
+GN=pgmA PE=3 SV=1
+Length=555
+
+ Score = 200 bits (508),  Expect = 1e-60, Method: Composition-based stats.
+ Identities = 68/124 (55%), Positives = 87/124 (70%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+IA +   IP+FQ+ GV G ARSMPTSGA+D VA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIIAHHAKLIPWFQKQGVYGLARSMPTSGAVDLVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDG+WA++AWL+I+A           S+  I  + 
+Sbjct  354  NLFDNKKISICGEESFGTGSNHIREKDGVWAIVAWLNIIAGVAKQKPNETPSIASIQNEF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WQTY  417
+
+
+> sp|P57749|PGM_ASPOR Phosphoglucomutase OS=Aspergillus oryzae 
+(strain ATCC 42149 / RIB 40) OX=510516 GN=pgmA PE=2 SV=1
+Length=555
+
+ Score = 200 bits (508),  Expect = 2e-60, Method: Composition-based stats.
+ Identities = 70/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+I+ +   IPYFQ+ GV G ARSMPTSGA+D VA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIISHHAKLIPYFQKQGVYGLARSMPTSGAVDLVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDGLWA++AWL+I+A        +  S+  I  D 
+Sbjct  354  NLFDNKKISICGEESFGTGSNHIREKDGLWAIVAWLNIIAGVAKEKPDQTPSIASIQNDF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WQAY  417
+
+
+> sp|Q9P931|PGM_EMENI Phosphoglucomutase OS=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) 
+OX=227321 GN=pgmB PE=3 SV=2
+Length=556
+
+ Score = 198 bits (503),  Expect = 8e-60, Method: Composition-based stats.
+ Identities = 68/124 (55%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+IA +   IP+FQ+ GV G ARSMPTSGA+DRVA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIIAHHAKLIPWFQKHGVDGLARSMPTSGAVDRVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDG+WA++AWL+++A           S+  I  + 
+Sbjct  354  NLFDNKKMSICGEESFGTGSNHIREKDGVWAIVAWLNVIAGVAEQKPNETPSIASIQAEF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WETY  417
+
+
+> sp|P33401|PGM1_YEAST Phosphoglucomutase 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=PGM1 PE=1 
+SV=1
+Length=570
+
+ Score = 197 bits (502),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 69/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DSVA+IA     IPYF + G+ G ARS PTS A+DRVA    +  YE PTGWKFF 
+Sbjct  307  VSPGDSVAIIAEYAPEIPYFAKQGIYGLARSFPTSSAIDRVAAKKGLRCYEVPTGWKFFC  366
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILAT-------RKQSVEDILKDH  113
+             L DA KLS+CGEESFGTGS+HIREKDGLWA++AWL+ILA        ++ S++ I  + 
+Sbjct  367  ALFDAKKLSICGEESFGTGSNHIREKDGLWAIIAWLNILAIYHRRNPEKEASIKTIQDEF  426
+
+Query  114  WHKF  117
+            W+++
+Sbjct  427  WNEY  430
+
+
+> sp|O02606|PGM2_PARTE Phosphoglucomutase-2 OS=Paramecium tetraurelia 
+OX=5888 GN=pp63-2 PE=2 SV=1
+Length=572
+
+ Score = 195 bits (497),  Expect = 9e-59, Method: Composition-based stats.
+ Identities = 77/123 (63%), Positives = 94/123 (76%), Gaps = 9/123 (7%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIAAN   I    + G+ G ARSMPTSGALD+VA    I L+ETPTGWKFFG
+Sbjct  323  VTPSDSLAVIAANANLI---FKNGLLGAARSMPTSGALDKVAAKNGIKLFETPTGWKFFG  379
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMDA  ++LCGEESFGTGS+HIREKDG+WAVLAWL+ILA + +      +VE+I+  +W
+Sbjct  380  NLMDAGLINLCGEESFGTGSNHIREKDGIWAVLAWLTILAHKNKNTDHFVTVEEIVTQYW  439
+
+Query  115  HKF  117
+             +F
+Sbjct  440  QQF  442
+
+
+> sp|P47244|PGM1_PARTE Phosphoglucomutase-1 OS=Paramecium tetraurelia 
+OX=5888 GN=pp63-1 PE=1 SV=4
+Length=572
+
+ Score = 195 bits (497),  Expect = 9e-59, Method: Composition-based stats.
+ Identities = 77/123 (63%), Positives = 94/123 (76%), Gaps = 9/123 (7%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIAAN   I    + G+ G ARSMPTSGALD+VA    I L+ETPTGWKFFG
+Sbjct  323  VTPSDSLAVIAANANLI---FKNGLLGAARSMPTSGALDKVAAKNGIKLFETPTGWKFFG  379
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMDA  ++LCGEESFGTGS+HIREKDG+WAVLAWL+ILA + +      +VE+I+  +W
+Sbjct  380  NLMDAGLINLCGEESFGTGSNHIREKDGIWAVLAWLTILAHKNKNTDHFVTVEEIVTQYW  439
+
+Query  115  HKF  117
+             +F
+Sbjct  440  QQF  442
+
+
+> sp|O49299|PGMC1_ARATH Probable phosphoglucomutase, cytoplasmic 
+1 OS=Arabidopsis thaliana OX=3702 GN=At1g23190 PE=2 SV=2
+Length=583
+
+ Score = 193 bits (491),  Expect = 6e-58, Method: Composition-based stats.
+ Identities = 78/128 (61%), Positives = 93/128 (73%), Gaps = 12/128 (9%)
+
+Query  1    VNPSDSVAVIAANIFSI-PYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN     PYF  +G++G ARSMPTS ALD VA +  +  +E PTGWKFF
+Sbjct  314  VTPSDSVAIIAANAIGAIPYFS-SGLKGVARSMPTSAALDVVAKSLNLKFFEVPTGWKFF  372
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ----------SVEDI  109
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAW+SILA + +          SVEDI
+Sbjct  373  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWMSILAHKNKGNIDGNAKLVSVEDI  432
+
+Query  110  LKDHWHKF  117
+            ++ HW  +
+Sbjct  433  VRQHWATY  440
+
+
+> sp|O18719|PGM_ENTDI Phosphoglucomutase OS=Entamoeba dispar OX=46681 
+GN=pgm PE=2 SV=1
+Length=553
+
+ Score = 184 bits (468),  Expect = 8e-55, Method: Composition-based stats.
+ Identities = 68/123 (55%), Positives = 88/123 (72%), Gaps = 11/123 (9%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+++     IP+F + G +G ARSMPTS A+D V + T     ETPTGWKFFG
+Sbjct  304  VSPSDSLAILSTKYNDIPFFVKNGFKGVARSMPTSAAVDHVTSIT-----ETPTGWKFFG  358
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMD+ K+SLCGEESFGTG   IREKDG+WA L W+SILA   +       V++IL++HW
+Sbjct  359  NLMDSGKISLCGEESFGTGCCGIREKDGIWAALCWVSILAAESERAQRLVGVKEILENHW  418
+
+Query  115  HKF  117
+             K+
+Sbjct  419  AKY  421
+
+
+> sp|O15820|PGM_ENTHI Phosphoglucomutase OS=Entamoeba histolytica 
+OX=5759 GN=pgm PE=2 SV=1
+Length=553
+
+ Score = 184 bits (466),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 68/123 (55%), Positives = 87/123 (71%), Gaps = 11/123 (9%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+++     IP+F + G +G ARSMPTS A+D V + T     ETPTGWKFFG
+Sbjct  304  VSPSDSLAILSTKYNDIPFFVKNGFKGVARSMPTSAAVDHVTSIT-----ETPTGWKFFG  358
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMD+ K+SLCGEESFGTG   IREKDG+WA L W+SILA   +       V++IL+ HW
+Sbjct  359  NLMDSGKISLCGEESFGTGCCGIREKDGIWAALCWVSILAAESERAQRLVGVKEILESHW  418
+
+Query  115  HKF  117
+             K+
+Sbjct  419  AKY  421
+
+
+> sp|P38569|PGM_KOMXY Phosphoglucomutase OS=Komagataeibacter xylinus 
+OX=28448 GN=celB PE=3 SV=1
+Length=555
+
+ Score = 48.0 bits (113),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/65 (31%), Positives = 33/65 (51%), Gaps = 2/65 (3%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFGTGSDHIREK  86
+            G  +++ +S  +DRVA      L E P G+K+F + +    L   GEES   G+  +R  
+Sbjct  347  GVGKTVVSSSMIDRVAKEIGRKLVEVPVGFKWFVDGLYNGTLGFGGEES--AGASFLRRA  404
+
+Query  87   DGLWA  91
+              +W+
+Sbjct  405  GTVWS  409
+
+
+> sp|P36938|PGM_ECOLI Phosphoglucomutase OS=Escherichia coli (strain 
+K12) OX=83333 GN=pgm PE=1 SV=1
+Length=546
+
+ Score = 44.2 bits (103),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 23/87 (26%), Positives = 39/87 (45%), Gaps = 6/87 (7%)
+
+Query  28   FARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFGT------GSD  81
+              +++ +S  +DRV N     L E P G+K+F + +        GEES G       G+ 
+Sbjct  345  VGKTLVSSAMIDRVVNDLGRKLVEVPVGFKWFVDGLFDGSFGFGGEESAGASFLRFDGTP  404
+
+Query  82   HIREKDGLWAVLAWLSILATRKQSVED  108
+               +KDG+   L    I A   ++ ++
+Sbjct  405  WSTDKDGIIMCLLAAEITAVTGKNPQE  431
+
+
+> sp|Q57290|Y740_HAEIN Probable phosphomannomutase OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=HI_0740 PE=1 SV=1
+Length=485
+
+ Score = 41.9 bits (97),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 29/103 (28%), Positives = 50/103 (49%), Gaps = 9/103 (9%)
+
+Query  21   QQTGVRG-FARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG--  77
+            Q  G +G  A S+ +S AL  +A        ET TG+K+ G +  +  L    EE+ G  
+Sbjct  272  QYQGKQGTLACSLVSSPALAEIAKKYSFQSEETLTGFKYIGKV--SGLL-FGFEEALGYL  328
+
+Query  78   TGSDHIREKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+               D +R+KDG+ A + +L +   L  + +++ D   +   +F
+Sbjct  329  VDPDKVRDKDGISAAIVFLDLVRNLKKQGKTLADYADEFTKEF  371
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.144    0.483    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0437    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4874308128
+Results from round 3
+
+
+Query= 3pmgb-3-AS
+
+Length=117
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|Q08DP0|PGM1_BOVIN Phosphoglucomutase-1 OS=Bos taurus OX=9913...  199     5e-60
+  sp|Q4R5E4|PGM1_MACFA Phosphoglucomutase-1 OS=Macaca fasciculari...  198     7e-60
+  sp|Q9D0F9|PGM1_MOUSE Phosphoglucomutase-1 OS=Mus musculus OX=10...  197     1e-59
+  sp|P36871|PGM1_HUMAN Phosphoglucomutase-1 OS=Homo sapiens OX=96...  197     2e-59
+  sp|P00949|PGM1_RABIT Phosphoglucomutase-1 OS=Oryctolagus cunicu...  197     2e-59
+  sp|Q8BZF8|PGM5_MOUSE Phosphoglucomutase-like protein 5 OS=Mus m...  197     3e-59
+  sp|P38652|PGM1_RAT Phosphoglucomutase-1 OS=Rattus norvegicus OX...  195     1e-58
+  sp|Q7KHA1|PGM_DROSI Phosphoglucomutase OS=Drosophila simulans O...  194     2e-58
+  sp|Q9VUY9|PGM_DROME Phosphoglucomutase OS=Drosophila melanogast...  194     2e-58
+  sp|Q15124|PGM5_HUMAN Phosphoglucomutase-like protein 5 OS=Homo ...  194     3e-58
+  sp|Q23919|PGM1_DICDI Phosphoglucomutase-1 OS=Dictyostelium disc...  193     5e-58
+  sp|Q9M4G4|PGMC_SOLTU Phosphoglucomutase, cytoplasmic OS=Solanum...  188     5e-56
+  sp|P93262|PGMC_MESCR Phosphoglucomutase, cytoplasmic OS=Mesembr...  188     6e-56
+  sp|Q9SM60|PGMC_PEA Phosphoglucomutase, cytoplasmic OS=Pisum sat...  187     1e-55
+  sp|Q9SCY0|PGMP_ARATH Phosphoglucomutase, chloroplastic OS=Arabi...  187     1e-55
+  sp|Q9SGC1|PGMC2_ARATH Probable phosphoglucomutase, cytoplasmic ...  187     2e-55
+  sp|Q9ZSQ4|PGMC_POPTN Phosphoglucomutase, cytoplasmic OS=Populus...  185     5e-55
+  sp|P93804|PGMC1_MAIZE Phosphoglucomutase, cytoplasmic 1 OS=Zea ...  185     6e-55
+  sp|Q9SM59|PGMP_PEA Phosphoglucomutase, chloroplastic OS=Pisum s...  186     6e-55
+  sp|P93805|PGMC2_MAIZE Phosphoglucomutase, cytoplasmic 2 OS=Zea ...  185     8e-55
+  sp|Q9SMM0|PGMP_BRANA Phosphoglucomutase, chloroplastic OS=Brass...  184     2e-54
+  sp|O74374|PGM_SCHPO Phosphoglucomutase OS=Schizosaccharomyces p...  182     5e-54
+  sp|Q9M4G5|PGMP_SOLTU Phosphoglucomutase, chloroplastic OS=Solan...  183     6e-54
+  sp|P37012|PGM2_YEAST Phosphoglucomutase 2 OS=Saccharomyces cere...  182     1e-53
+  sp|Q9SNX2|PGMC_BROIN Phosphoglucomutase, cytoplasmic OS=Bromus ...  181     2e-53
+  sp|Q4WY53|PGM_ASPFU Phosphoglucomutase OS=Neosartorya fumigata ...  180     4e-53
+  sp|P33401|PGM1_YEAST Phosphoglucomutase 1 OS=Saccharomyces cere...  180     7e-53
+  sp|P39671|PGM_RHIRD Phosphoglucomutase OS=Rhizobium radiobacter...  179     9e-53
+  sp|O02606|PGM2_PARTE Phosphoglucomutase-2 OS=Paramecium tetraur...  178     2e-52
+  sp|P47244|PGM1_PARTE Phosphoglucomutase-1 OS=Paramecium tetraur...  178     2e-52
+  sp|P57749|PGM_ASPOR Phosphoglucomutase OS=Aspergillus oryzae (s...  178     3e-52
+  sp|Q9P931|PGM_EMENI Phosphoglucomutase OS=Emericella nidulans (...  176     1e-51
+  sp|O49299|PGMC1_ARATH Probable phosphoglucomutase, cytoplasmic ...  168     1e-48
+  sp|O18719|PGM_ENTDI Phosphoglucomutase OS=Entamoeba dispar OX=4...  165     2e-47
+  sp|O15820|PGM_ENTHI Phosphoglucomutase OS=Entamoeba histolytica...  163     5e-47
+  sp|P36938|PGM_ECOLI Phosphoglucomutase OS=Escherichia coli (str...  102     6e-25
+  sp|Q57290|Y740_HAEIN Probable phosphomannomutase OS=Haemophilus...  93.5    7e-22
+  sp|P38569|PGM_KOMXY Phosphoglucomutase OS=Komagataeibacter xyli...  93.1    2e-21
+
+Sequences not found previously or not previously below threshold:
+
+  sp|O74478|PGM3_SCHPO Probable phosphoribomutase OS=Schizosaccha...  53.8    5e-08
+  sp|Q5RFI8|PGM2_PONAB Phosphoglucomutase-2 OS=Pongo abelii OX=96...  50.7    5e-07
+  sp|Q96G03|PGM2_HUMAN Phosphoglucomutase-2 OS=Homo sapiens OX=96...  50.7    5e-07
+  sp|Q7TSV4|PGM2_MOUSE Phosphoglucomutase-2 OS=Mus musculus OX=10...  49.2    2e-06
+  sp|Q7A3K7|PGCA_STAAN Phosphoglucomutase OS=Staphylococcus aureu...  47.7    6e-06
+  sp|Q99RE2|PGCA_STAAM Phosphoglucomutase OS=Staphylococcus aureu...  47.7    6e-06
+  sp|Q2YW66|PGCA_STAAB Phosphoglucomutase OS=Staphylococcus aureu...  47.3    7e-06
+  sp|P47723|MANB_MYCPI Phosphomannomutase OS=Mycoplasma pirum OX=...  47.3    8e-06
+  sp|Q92M99|GLMM_RHIME Phosphoglucosamine mutase OS=Rhizobium mel...  46.5    1e-05
+  sp|A6UCS2|GLMM_SINMW Phosphoglucosamine mutase OS=Sinorhizobium...  46.5    1e-05
+  sp|Q8NUV4|PGCA_STAAW Phosphoglucomutase OS=Staphylococcus aureu...  46.5    1e-05
+  sp|Q6G6I3|PGCA_STAAS Phosphoglucomutase OS=Staphylococcus aureu...  46.5    1e-05
+  sp|Q6GDU9|PGCA_STAAR Phosphoglucomutase OS=Staphylococcus aureu...  46.5    1e-05
+  sp|Q5HD61|PGCA_STAAC Phosphoglucomutase OS=Staphylococcus aureu...  46.5    1e-05
+  sp|Q2FVC1|PGCA_STAA8 Phosphoglucomutase OS=Staphylococcus aureu...  46.5    1e-05
+  sp|Q2FE11|PGCA_STAA3 Phosphoglucomutase OS=Staphylococcus aureu...  46.5    1e-05
+  sp|Q49WH7|PGCA_STAS1 Phosphoglucomutase OS=Staphylococcus sapro...  46.5    1e-05
+  sp|P18159|PGCA_BACSU Phosphoglucomutase OS=Bacillus subtilis (s...  46.5    1e-05
+  sp|B9L5Z7|GLMM_NAUPA Phosphoglucosamine mutase OS=Nautilia prof...  45.4    3e-05
+  sp|Q4L9R5|PGCA_STAHJ Phosphoglucomutase OS=Staphylococcus haemo...  45.0    4e-05
+  sp|Q03262|PGM3_YEAST Phosphoribomutase OS=Saccharomyces cerevis...  45.0    4e-05
+  sp|Q5R979|PGM2L_PONAB Glucose 1,6-bisphosphate synthase OS=Pong...  44.2    9e-05
+  sp|Q6PCE3|PGM2L_HUMAN Glucose 1,6-bisphosphate synthase OS=Homo...  44.2    9e-05
+  sp|Q2RVE4|GLMM_RHORT Phosphoglucosamine mutase OS=Rhodospirillu...  43.4    1e-04
+  sp|Q6AMQ5|GLMM_DESPS Phosphoglucosamine mutase OS=Desulfotalea ...  43.0    2e-04
+  sp|Q54UQ2|PGM2_DICDI Probable phosphoglucomutase-2 OS=Dictyoste...  43.0    2e-04
+  sp|Q8CAA7|PGM2L_MOUSE Glucose 1,6-bisphosphate synthase OS=Mus ...  42.7    2e-04
+  sp|B0T1V6|GLMM_CAUSK Phosphoglucosamine mutase OS=Caulobacter s...  42.3    3e-04
+  sp|Q3J5C2|GLMM_RHOS4 Phosphoglucosamine mutase OS=Rhodobacter s...  42.3    3e-04
+  sp|B9KM35|GLMM_RHOSK Phosphoglucosamine mutase OS=Rhodobacter s...  42.3    3e-04
+  sp|A3PH12|GLMM_RHOS1 Phosphoglucosamine mutase OS=Rhodobacter s...  42.3    3e-04
+  sp|Q89DN1|GLMM_BRADU Phosphoglucosamine mutase OS=Bradyrhizobiu...  42.3    3e-04
+  sp|A5V2D8|GLMM_SPHWW Phosphoglucosamine mutase OS=Sphingomonas ...  41.9    4e-04
+  sp|A5FWQ4|GLMM_ACICJ Phosphoglucosamine mutase OS=Acidiphilium ...  41.9    4e-04
+  sp|A4WQ91|GLMM_RHOS5 Phosphoglucosamine mutase OS=Rhodobacter s...  41.9    4e-04
+  sp|B9KJ94|GLMM_ANAMF Phosphoglucosamine mutase OS=Anaplasma mar...  41.9    5e-04
+  sp|Q5PA34|GLMM_ANAMM Phosphoglucosamine mutase OS=Anaplasma mar...  41.5    6e-04
+  sp|Q9ABV3|GLMM_CAUCR Phosphoglucosamine mutase OS=Caulobacter c...  41.5    6e-04
+  sp|B8GXK7|GLMM_CAUCN Phosphoglucosamine mutase OS=Caulobacter c...  41.5    6e-04
+  sp|Q07IZ1|GLMM_RHOP5 Phosphoglucosamine mutase OS=Rhodopseudomo...  41.5    6e-04
+  sp|Q8CN38|PGCA_STAES Phosphoglucomutase OS=Staphylococcus epide...  41.1    7e-04
+  sp|Q5HLD2|PGCA_STAEQ Phosphoglucomutase OS=Staphylococcus epide...  41.1    7e-04
+  sp|Q1GE79|GLMM_RUEST Phosphoglucosamine mutase OS=Ruegeria sp. ...  40.7    9e-04
+  sp|Q98F91|GLMM_RHILO Phosphoglucosamine mutase OS=Rhizobium lot...  40.7    0.001
+  sp|Q83GU5|GLMM_TROWT Phosphoglucosamine mutase OS=Tropheryma wh...  40.3    0.001
+  sp|Q83NS5|GLMM_TROW8 Phosphoglucosamine mutase OS=Tropheryma wh...  40.3    0.001
+  sp|Q83BY7|GLMM_COXBU Phosphoglucosamine mutase OS=Coxiella burn...  40.3    0.001
+  sp|A9N8M1|GLMM_COXBR Phosphoglucosamine mutase OS=Coxiella burn...  40.3    0.001
+  sp|B6IZD8|GLMM_COXB2 Phosphoglucosamine mutase OS=Coxiella burn...  40.0    0.002
+  sp|B6J7Z9|GLMM_COXB1 Phosphoglucosamine mutase OS=Coxiella burn...  40.0    0.002
+  sp|A9KGE3|GLMM_COXBN Phosphoglucosamine mutase OS=Coxiella burn...  40.0    0.002
+  sp|Q39UF9|GLMM_GEOMG Phosphoglucosamine mutase OS=Geobacter met...  39.6    0.002
+  sp|Q28NS0|GLMM_JANSC Phosphoglucosamine mutase OS=Jannaschia sp...  39.6    0.002
+  sp|B4R906|GLMM_PHEZH Phosphoglucosamine mutase OS=Phenylobacter...  39.2    0.003
+  sp|Q57BJ0|GLMM_BRUAB Phosphoglucosamine mutase OS=Brucella abor...  38.8    0.005
+  sp|Q2YQH8|GLMM_BRUA2 Phosphoglucosamine mutase OS=Brucella abor...  38.8    0.005
+  sp|Q8YIU8|GLMM_BRUME Phosphoglucosamine mutase OS=Brucella meli...  38.8    0.005
+  sp|Q8FZ13|GLMM_BRUSU Phosphoglucosamine mutase OS=Brucella suis...  38.8    0.005
+  sp|A9WWG7|GLMM_BRUSI Phosphoglucosamine mutase OS=Brucella suis...  38.8    0.005
+  sp|A5VS47|GLMM_BRUO2 Phosphoglucosamine mutase OS=Brucella ovis...  38.8    0.005
+  sp|A9M7I9|GLMM_BRUC2 Phosphoglucosamine mutase OS=Brucella cani...  38.8    0.005
+  sp|Q68BJ6|PGMMM_THEKO Phosphoglucomutase/phosphomannomutase OS=...  38.4    0.005
+  sp|A1AZG3|GLMM_PARDP Phosphoglucosamine mutase OS=Paracoccus de...  38.4    0.006
+
+
+> sp|Q08DP0|PGM1_BOVIN Phosphoglucomutase-1 OS=Bos taurus OX=9913 
+GN=PGM1 PE=2 SV=1
+Length=562
+
+ Score = 199 bits (505),  Expect = 5e-60, Method: Composition-based stats.
+ Identities = 115/117 (98%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|Q4R5E4|PGM1_MACFA Phosphoglucomutase-1 OS=Macaca fascicularis 
+OX=9541 GN=PGM1 PE=2 SV=3
+Length=562
+
+ Score = 198 bits (504),  Expect = 7e-60, Method: Composition-based stats.
+ Identities = 115/117 (98%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|Q9D0F9|PGM1_MOUSE Phosphoglucomutase-1 OS=Mus musculus OX=10090 
+GN=Pgm1 PE=1 SV=4
+Length=562
+
+ Score = 197 bits (502),  Expect = 1e-59, Method: Composition-based stats.
+ Identities = 116/117 (99%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW KF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKF  420
+
+
+> sp|P36871|PGM1_HUMAN Phosphoglucomutase-1 OS=Homo sapiens OX=9606 
+GN=PGM1 PE=1 SV=3
+Length=562
+
+ Score = 197 bits (501),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 114/117 (97%), Positives = 116/117 (99%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVA+ATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVASATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW K+
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWQKY  420
+
+
+> sp|P00949|PGM1_RABIT Phosphoglucomutase-1 OS=Oryctolagus cuniculus 
+OX=9986 GN=PGM1 PE=1 SV=2
+Length=562
+
+ Score = 197 bits (501),  Expect = 2e-59, Method: Composition-based stats.
+ Identities = 117/117 (100%), Positives = 117/117 (100%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  420
+
+
+> sp|Q8BZF8|PGM5_MOUSE Phosphoglucomutase-like protein 5 OS=Mus 
+musculus OX=10090 GN=Pgm5 PE=1 SV=2
+Length=567
+
+ Score = 197 bits (500),  Expect = 3e-59, Method: Composition-based stats.
+ Identities = 85/117 (73%), Positives = 102/117 (87%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+IAAN+  IPYF+Q GVRGF RSMPTS ALDRVA + K+ +YETP GW+FF 
+Sbjct  309  VSPSDSLAIIAANLSCIPYFRQMGVRGFGRSMPTSTALDRVAKSMKVPVYETPAGWRFFS  368
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMD+ + SLCGEESFGTGSDH+REKDGLWAVL WLSI+A RKQSVE+I++DHW K+
+Sbjct  369  NLMDSGRCSLCGEESFGTGSDHLREKDGLWAVLVWLSIIAARKQSVEEIVRDHWAKY  425
+
+
+> sp|P38652|PGM1_RAT Phosphoglucomutase-1 OS=Rattus norvegicus 
+OX=10116 GN=Pgm1 PE=1 SV=2
+Length=562
+
+ Score = 195 bits (496),  Expect = 1e-58, Method: Composition-based stats.
+ Identities = 114/117 (97%), Positives = 114/117 (97%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIA YETPTGWKFFG
+Sbjct  304  VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIASYETPTGWKFFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ VEDILKDHW KF
+Sbjct  364  NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQRVEDILKDHWQKF  420
+
+
+> sp|Q7KHA1|PGM_DROSI Phosphoglucomutase OS=Drosophila simulans 
+OX=7240 GN=Pgm PE=3 SV=1
+Length=560
+
+ Score = 194 bits (494),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 73/117 (62%), Positives = 92/117 (79%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIA  + +IPYFQ+ GV+GFARSMPT+ A+D V       ++E PTGWK+FG
+Sbjct  304  VTPSDSLAVIAHYLEAIPYFQKNGVQGFARSMPTASAVDLVGRKLGKEVFEVPTGWKYFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA +L LCGEESFGTGS+HIREKDG+WAVLAW+S++    + +EDILK HW  +
+Sbjct  364  NLMDAGRLCLCGEESFGTGSNHIREKDGIWAVLAWISVMQHTGKGIEDILKQHWSVY  420
+
+
+> sp|Q9VUY9|PGM_DROME Phosphoglucomutase OS=Drosophila melanogaster 
+OX=7227 GN=Pgm PE=1 SV=1
+Length=560
+
+ Score = 194 bits (494),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 73/117 (62%), Positives = 92/117 (79%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIA  + +IPYFQ+ GV+GFARSMPT+ A+D V       ++E PTGWK+FG
+Sbjct  304  VTPSDSLAVIAHYLEAIPYFQKNGVQGFARSMPTASAVDLVGRKLGKEVFEVPTGWKYFG  363
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA +L LCGEESFGTGS+HIREKDG+WAVLAW+S++    + +EDILK HW  +
+Sbjct  364  NLMDAGRLCLCGEESFGTGSNHIREKDGIWAVLAWISVMQHTGKGIEDILKQHWSVY  420
+
+
+> sp|Q15124|PGM5_HUMAN Phosphoglucomutase-like protein 5 OS=Homo 
+sapiens OX=9606 GN=PGM5 PE=1 SV=2
+Length=567
+
+ Score = 194 bits (493),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 85/117 (73%), Positives = 102/117 (87%), Gaps = 0/117 (0%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+IAAN+  IPYF+Q GVRGF RSMPTS ALDRVA + K+ +YETP GW+FF 
+Sbjct  309  VSPSDSLAIIAANLSCIPYFRQMGVRGFGRSMPTSMALDRVAKSMKVPVYETPAGWRFFS  368
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMD+ + +LCGEESFGTGSDH+REKDGLWAVL WLSI+A RKQSVE+I++DHW KF
+Sbjct  369  NLMDSGRCNLCGEESFGTGSDHLREKDGLWAVLVWLSIIAARKQSVEEIVRDHWAKF  425
+
+
+> sp|Q23919|PGM1_DICDI Phosphoglucomutase-1 OS=Dictyostelium discoideum 
+OX=44689 GN=pgmA PE=2 SV=1
+Length=572
+
+ Score = 193 bits (491),  Expect = 5e-58, Method: Composition-based stats.
+ Identities = 78/125 (62%), Positives = 95/125 (76%), Gaps = 8/125 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            +NPSDSVAVIA+N  +IPYF + G++G ARSMPTS AL+RVA   K+  +E PTGWKFFG
+Sbjct  303  LNPSDSVAVIASNYKAIPYFNKGGLKGLARSMPTSAALERVATDLKVPFFEVPTGWKFFG  362
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ--------SVEDILKD  112
+            NLMDA  LS+CGEESFGTGSDHIREKDG+WA++ WL IL    Q        S+E+I+K 
+Sbjct  363  NLMDAGTLSICGEESFGTGSDHIREKDGIWAIICWLQILTHHNQSTNDKNFVSIEEIVKQ  422
+
+Query  113  HWHKF  117
+            HW K+
+Sbjct  423  HWAKY  427
+
+
+> sp|Q9M4G4|PGMC_SOLTU Phosphoglucomutase, cytoplasmic OS=Solanum 
+tuberosum OX=4113 GN=PGM1 PE=2 SV=1
+Length=583
+
+ Score = 188 bits (478),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 80/127 (63%), Positives = 93/127 (73%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQAIPYFS-GGLKGVARSMPTSAALDIVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         SVEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSILAYKNKDNLGEGNLVSVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWAIY  440
+
+
+> sp|P93262|PGMC_MESCR Phosphoglucomutase, cytoplasmic OS=Mesembryanthemum 
+crystallinum OX=3544 GN=PGM1 PE=2 SV=1
+Length=583
+
+ Score = 188 bits (477),  Expect = 6e-56, Method: Composition-based stats.
+ Identities = 78/127 (61%), Positives = 92/127 (72%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVEAIPYFS-GGLKGVARSMPTSAALDVVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDH+REKDG+WAVLAWLSILA + +         +VEDI+
+Sbjct  374  GNLMDAGVCSICGEESFGTGSDHVREKDGIWAVLAWLSILAHKNKDNLNGEKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+              HW  +
+Sbjct  434  CQHWATY  440
+
+
+> sp|Q9SM60|PGMC_PEA Phosphoglucomutase, cytoplasmic OS=Pisum sativum 
+OX=3888 GN=PGM1 PE=2 SV=1
+Length=582
+
+ Score = 187 bits (475),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 80/126 (63%), Positives = 93/126 (74%), Gaps = 10/126 (8%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVEAIPYFS-AGLKGVARSMPTSAALDVVAKHLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ--------SVEDILK  111
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +        SVEDI++
+Sbjct  374  GNLMDAGLCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKTKDNLESKLVSVEDIVR  433
+
+Query  112  DHWHKF  117
+             HW  +
+Sbjct  434  QHWATY  439
+
+
+> sp|Q9SCY0|PGMP_ARATH Phosphoglucomutase, chloroplastic OS=Arabidopsis 
+thaliana OX=3702 GN=PGMP PE=1 SV=2
+Length=623
+
+ Score = 187 bits (476),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 84/127 (66%), Positives = 98/127 (77%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF+  G +G ARSMPTSGALDRVA   K+  +E PTGWKFF
+Sbjct  361  VTPSDSVAIIAANAQEAIPYFR-AGPKGLARSMPTSGALDRVAEKLKLPFFEVPTGWKFF  419
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  420  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAHRNKDTKPGDKLVSVADVV  479
+
+Query  111  KDHWHKF  117
+            K++W  +
+Sbjct  480  KEYWATY  486
+
+
+> sp|Q9SGC1|PGMC2_ARATH Probable phosphoglucomutase, cytoplasmic 
+2 OS=Arabidopsis thaliana OX=3702 GN=At1g70730 PE=1 SV=1
+Length=585
+
+ Score = 187 bits (475),  Expect = 2e-55, Method: Composition-based stats.
+ Identities = 79/128 (62%), Positives = 94/128 (73%), Gaps = 12/128 (9%)
+
+Query  1    VNPSDSVAVIAANIF-SIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  316  VTPSDSVAIIAANAVGAIPYFS-SGLKGVARSMPTSAALDVVAKNLGLKFFEVPTGWKFF  374
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ----------SVEDI  109
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +          +VEDI
+Sbjct  375  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAHKNKETLDGNAKLVTVEDI  434
+
+Query  110  LKDHWHKF  117
+            ++ HW  +
+Sbjct  435  VRQHWATY  442
+
+
+> sp|Q9ZSQ4|PGMC_POPTN Phosphoglucomutase, cytoplasmic OS=Populus 
+tremula OX=113636 GN=PGM1 PE=2 SV=1
+Length=582
+
+ Score = 185 bits (471),  Expect = 5e-55, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 94/127 (74%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF   G++G ARSMPTS ALD VA +  +  +E PTGWKFF
+Sbjct  314  VTPSDSVAIIAANAVEAIPYFS-AGLKGVARSMPTSAALDVVAKSLNLKFFEVPTGWKFF  372
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         +VEDI+
+Sbjct  373  GNLMDAGLCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKNRENLGGGKLVTVEDIV  432
+
+Query  111  KDHWHKF  117
+             +HW  +
+Sbjct  433  HNHWATY  439
+
+
+> sp|P93804|PGMC1_MAIZE Phosphoglucomutase, cytoplasmic 1 OS=Zea 
+mays OX=4577 PE=2 SV=2
+Length=583
+
+ Score = 185 bits (470),  Expect = 6e-55, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 94/127 (74%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSI+A + +         +VEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSIIAFKNKDNLGGDKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWATY  440
+
+
+> sp|Q9SM59|PGMP_PEA Phosphoglucomutase, chloroplastic OS=Pisum 
+sativum OX=3888 GN=PGMP PE=2 SV=1
+Length=626
+
+ Score = 186 bits (472),  Expect = 6e-55, Method: Composition-based stats.
+ Identities = 82/127 (65%), Positives = 97/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVAVIAAN   +IPYF+ + ++G ARSMPTSGALDRVA    +  +E PTGWKFF
+Sbjct  364  VTPSDSVAVIAANAKEAIPYFKDS-IKGLARSMPTSGALDRVAEKLNLPFFEVPTGWKFF  422
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA  LS+CGEESFGTGSDHIREKDG+WAVLAWLSI+A R +         SV D++
+Sbjct  423  GNLMDAGNLSICGEESFGTGSDHIREKDGIWAVLAWLSIIAHRNKDTKPGEKLVSVSDVV  482
+
+Query  111  KDHWHKF  117
+            K+HW  +
+Sbjct  483  KEHWATY  489
+
+
+> sp|P93805|PGMC2_MAIZE Phosphoglucomutase, cytoplasmic 2 OS=Zea 
+mays OX=4577 PE=2 SV=2
+Length=583
+
+ Score = 185 bits (470),  Expect = 8e-55, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 94/127 (74%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  315  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  373
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSI+A + +         +VEDI+
+Sbjct  374  GNLMDAGMCSICGEESFGTGSDHIREKDGIWAVLAWLSIIAFKNKDNLGGDKLVTVEDIV  433
+
+Query  111  KDHWHKF  117
+            + HW  +
+Sbjct  434  RQHWATY  440
+
+
+> sp|Q9SMM0|PGMP_BRANA Phosphoglucomutase, chloroplastic OS=Brassica 
+napus OX=3708 GN=PGMP PE=2 SV=1
+Length=629
+
+ Score = 184 bits (468),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 83/127 (65%), Positives = 97/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   +IPYF+  G +G ARSMPTSGALDRVA   K+  +E PTGWKFF
+Sbjct  367  VTPSDSVAIIAANAQEAIPYFR-AGPKGLARSMPTSGALDRVAEKLKLPFFEVPTGWKFF  425
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  426  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAHRIKDKKPGEKLVSVADVV  485
+
+Query  111  KDHWHKF  117
+             ++W  +
+Sbjct  486  NEYWATY  492
+
+
+> sp|O74374|PGM_SCHPO Phosphoglucomutase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPBC32F12.10 PE=1 
+SV=1
+Length=554
+
+ Score = 182 bits (463),  Expect = 5e-54, Method: Composition-based stats.
+ Identities = 72/123 (59%), Positives = 90/123 (73%), Gaps = 6/123 (5%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDSVA+IA +   IPYF+  GV GFARSMPTSGA+DRV       +YE PTGWKFF 
+Sbjct  293  VTPSDSVAIIAHHAELIPYFRDGGVHGFARSMPTSGAIDRVGKYKGKNVYEVPTGWKFFC  352
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA------TRKQSVEDILKDHW  114
+            NL DA +LS+CGEESFGTGSDHIREKDG+W +L WL+ILA       + +++ D+ KD +
+Sbjct  353  NLFDAKRLSICGEESFGTGSDHIREKDGVWGILCWLNILAGLNAQNPKIKTLIDVKKDFY  412
+
+Query  115  HKF  117
+            + +
+Sbjct  413  NIY  415
+
+
+> sp|Q9M4G5|PGMP_SOLTU Phosphoglucomutase, chloroplastic OS=Solanum 
+tuberosum OX=4113 GN=PGMP PE=2 SV=1
+Length=632
+
+ Score = 183 bits (465),  Expect = 6e-54, Method: Composition-based stats.
+ Identities = 83/127 (65%), Positives = 96/127 (76%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANIF-SIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAA    +I YFQ +G +G ARSMPTSG+LDRVA    +  +E PTGWKFF
+Sbjct  370  VTPSDSVAIIAAQCQYAIHYFQ-SGPKGLARSMPTSGSLDRVAQKLNLPFFEVPTGWKFF  428
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA KLS+CGEESFGTGSDHIREKDG+WAVLAWLSILA R +         SV D++
+Sbjct  429  GNLMDAGKLSICGEESFGTGSDHIREKDGIWAVLAWLSILAYRNKDKKSGEKLVSVADVV  488
+
+Query  111  KDHWHKF  117
+            KDHW  +
+Sbjct  489  KDHWATY  495
+
+
+> sp|P37012|PGM2_YEAST Phosphoglucomutase 2 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=PGM2 PE=1 
+SV=1
+Length=569
+
+ Score = 182 bits (461),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 70/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DSVA+IA     IPYF + G+ G ARS PTSGA+DRVA A  +  YE PTGWKFF 
+Sbjct  306  VSPGDSVAIIAEYAAEIPYFAKQGIYGLARSFPTSGAIDRVAKAHGLNCYEVPTGWKFFC  365
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ-------SVEDILKDH  113
+             L DA KLS+CGEESFGTGS+H+REKDG+WA++AWL+ILA   +       S++ I  + 
+Sbjct  366  ALFDAKKLSICGEESFGTGSNHVREKDGVWAIMAWLNILAIYNKHHPENEASIKTIQNEF  425
+
+Query  114  WHKF  117
+            W K+
+Sbjct  426  WAKY  429
+
+
+> sp|Q9SNX2|PGMC_BROIN Phosphoglucomutase, cytoplasmic OS=Bromus 
+inermis OX=15371 GN=PGM1 PE=2 SV=1
+Length=581
+
+ Score = 181 bits (459),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 79/127 (62%), Positives = 93/127 (73%), Gaps = 11/127 (9%)
+
+Query  1    VNPSDSVAVIAANI-FSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN   SIPYF  +G++G ARSMPTS ALD VA    +  +E PTGWKFF
+Sbjct  313  VTPSDSVAIIAANAVQSIPYFA-SGLKGVARSMPTSAALDVVAKNLNLKFFEVPTGWKFF  371
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ---------SVEDIL  110
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAWLSILA + +         +VE+I+
+Sbjct  372  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWLSILAYKNKDNLGGDKLVTVENIV  431
+
+Query  111  KDHWHKF  117
+              HW  +
+Sbjct  432  LQHWGIY  438
+
+
+> sp|Q4WY53|PGM_ASPFU Phosphoglucomutase OS=Neosartorya fumigata 
+(strain ATCC MYA-4609 / Af293 / CBS 101355 / FGSC A1100) OX=330879 
+GN=pgmA PE=3 SV=1
+Length=555
+
+ Score = 180 bits (457),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 68/124 (55%), Positives = 87/124 (70%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+IA +   IP+FQ+ GV G ARSMPTSGA+D VA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIIAHHAKLIPWFQKQGVYGLARSMPTSGAVDLVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDG+WA++AWL+I+A           S+  I  + 
+Sbjct  354  NLFDNKKISICGEESFGTGSNHIREKDGVWAIVAWLNIIAGVAKQKPNETPSIASIQNEF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WQTY  417
+
+
+> sp|P33401|PGM1_YEAST Phosphoglucomutase 1 OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=PGM1 PE=1 
+SV=1
+Length=570
+
+ Score = 180 bits (456),  Expect = 7e-53, Method: Composition-based stats.
+ Identities = 69/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DSVA+IA     IPYF + G+ G ARS PTS A+DRVA    +  YE PTGWKFF 
+Sbjct  307  VSPGDSVAIIAEYAPEIPYFAKQGIYGLARSFPTSSAIDRVAAKKGLRCYEVPTGWKFFC  366
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILAT-------RKQSVEDILKDH  113
+             L DA KLS+CGEESFGTGS+HIREKDGLWA++AWL+ILA        ++ S++ I  + 
+Sbjct  367  ALFDAKKLSICGEESFGTGSNHIREKDGLWAIIAWLNILAIYHRRNPEKEASIKTIQDEF  426
+
+Query  114  WHKF  117
+            W+++
+Sbjct  427  WNEY  430
+
+
+> sp|P39671|PGM_RHIRD Phosphoglucomutase OS=Rhizobium radiobacter 
+OX=358 GN=pgm PE=1 SV=1
+Length=542
+
+ Score = 179 bits (454),  Expect = 9e-53, Method: Composition-based stats.
+ Identities = 75/117 (64%), Positives = 93/117 (79%), Gaps = 1/117 (1%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+A+IAAN    P +   G+ G ARSMPTS A DRVA    + +YETPTGWKFFG
+Sbjct  291  VTPSDSLAIIAANAKLAPGYA-AGISGIARSMPTSAAADRVAEKLGLGMYETPTGWKFFG  349
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+            NLMDA K+++CGEESFGTGS+H+REKDGLWAVL WL+I+A RK+SV+DI+  HW ++
+Sbjct  350  NLMDAGKVTICGEESFGTGSNHVREKDGLWAVLYWLNIVAARKESVKDIVTKHWAEY  406
+
+
+> sp|O02606|PGM2_PARTE Phosphoglucomutase-2 OS=Paramecium tetraurelia 
+OX=5888 GN=pp63-2 PE=2 SV=1
+Length=572
+
+ Score = 178 bits (452),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 77/123 (63%), Positives = 94/123 (76%), Gaps = 9/123 (7%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIAAN   I    + G+ G ARSMPTSGALD+VA    I L+ETPTGWKFFG
+Sbjct  323  VTPSDSLAVIAANANLI---FKNGLLGAARSMPTSGALDKVAAKNGIKLFETPTGWKFFG  379
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMDA  ++LCGEESFGTGS+HIREKDG+WAVLAWL+ILA + +      +VE+I+  +W
+Sbjct  380  NLMDAGLINLCGEESFGTGSNHIREKDGIWAVLAWLTILAHKNKNTDHFVTVEEIVTQYW  439
+
+Query  115  HKF  117
+             +F
+Sbjct  440  QQF  442
+
+
+> sp|P47244|PGM1_PARTE Phosphoglucomutase-1 OS=Paramecium tetraurelia 
+OX=5888 GN=pp63-1 PE=1 SV=4
+Length=572
+
+ Score = 178 bits (452),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 77/123 (63%), Positives = 94/123 (76%), Gaps = 9/123 (7%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V PSDS+AVIAAN   I    + G+ G ARSMPTSGALD+VA    I L+ETPTGWKFFG
+Sbjct  323  VTPSDSLAVIAANANLI---FKNGLLGAARSMPTSGALDKVAAKNGIKLFETPTGWKFFG  379
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMDA  ++LCGEESFGTGS+HIREKDG+WAVLAWL+ILA + +      +VE+I+  +W
+Sbjct  380  NLMDAGLINLCGEESFGTGSNHIREKDGIWAVLAWLTILAHKNKNTDHFVTVEEIVTQYW  439
+
+Query  115  HKF  117
+             +F
+Sbjct  440  QQF  442
+
+
+> sp|P57749|PGM_ASPOR Phosphoglucomutase OS=Aspergillus oryzae 
+(strain ATCC 42149 / RIB 40) OX=510516 GN=pgmA PE=2 SV=1
+Length=555
+
+ Score = 178 bits (451),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 70/124 (56%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+I+ +   IPYFQ+ GV G ARSMPTSGA+D VA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIISHHAKLIPYFQKQGVYGLARSMPTSGAVDLVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDGLWA++AWL+I+A        +  S+  I  D 
+Sbjct  354  NLFDNKKISICGEESFGTGSNHIREKDGLWAIVAWLNIIAGVAKEKPDQTPSIASIQNDF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WQAY  417
+
+
+> sp|Q9P931|PGM_EMENI Phosphoglucomutase OS=Emericella nidulans 
+(strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139) 
+OX=227321 GN=pgmB PE=3 SV=2
+Length=556
+
+ Score = 176 bits (447),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 68/124 (55%), Positives = 88/124 (71%), Gaps = 7/124 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+P DS+A+IA +   IP+FQ+ GV G ARSMPTSGA+DRVA A  +  YE PTGWKFF 
+Sbjct  294  VSPGDSLAIIAHHAKLIPWFQKHGVDGLARSMPTSGAVDRVAKAQGLQSYEVPTGWKFFC  353
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILA-------TRKQSVEDILKDH  113
+            NL D  K+S+CGEESFGTGS+HIREKDG+WA++AWL+++A           S+  I  + 
+Sbjct  354  NLFDNKKMSICGEESFGTGSNHIREKDGVWAIVAWLNVIAGVAEQKPNETPSIASIQAEF  413
+
+Query  114  WHKF  117
+            W  +
+Sbjct  414  WETY  417
+
+
+> sp|O49299|PGMC1_ARATH Probable phosphoglucomutase, cytoplasmic 
+1 OS=Arabidopsis thaliana OX=3702 GN=At1g23190 PE=2 SV=2
+Length=583
+
+ Score = 168 bits (425),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 78/128 (61%), Positives = 93/128 (73%), Gaps = 12/128 (9%)
+
+Query  1    VNPSDSVAVIAANIFSI-PYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFF  59
+            V PSDSVA+IAAN     PYF  +G++G ARSMPTS ALD VA +  +  +E PTGWKFF
+Sbjct  314  VTPSDSVAIIAANAIGAIPYFS-SGLKGVARSMPTSAALDVVAKSLNLKFFEVPTGWKFF  372
+
+Query  60   GNLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ----------SVEDI  109
+            GNLMDA   S+CGEESFGTGSDHIREKDG+WAVLAW+SILA + +          SVEDI
+Sbjct  373  GNLMDAGMCSVCGEESFGTGSDHIREKDGIWAVLAWMSILAHKNKGNIDGNAKLVSVEDI  432
+
+Query  110  LKDHWHKF  117
+            ++ HW  +
+Sbjct  433  VRQHWATY  440
+
+
+> sp|O18719|PGM_ENTDI Phosphoglucomutase OS=Entamoeba dispar OX=46681 
+GN=pgm PE=2 SV=1
+Length=553
+
+ Score = 165 bits (417),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 67/123 (54%), Positives = 88/123 (72%), Gaps = 11/123 (9%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+++     IP+F + G +G ARSMPTS A+D V +     + ETPTGWKFFG
+Sbjct  304  VSPSDSLAILSTKYNDIPFFVKNGFKGVARSMPTSAAVDHVTS-----ITETPTGWKFFG  358
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMD+ K+SLCGEESFGTG   IREKDG+WA L W+SILA   +       V++IL++HW
+Sbjct  359  NLMDSGKISLCGEESFGTGCCGIREKDGIWAALCWVSILAAESERAQRLVGVKEILENHW  418
+
+Query  115  HKF  117
+             K+
+Sbjct  419  AKY  421
+
+
+> sp|O15820|PGM_ENTHI Phosphoglucomutase OS=Entamoeba histolytica 
+OX=5759 GN=pgm PE=2 SV=1
+Length=553
+
+ Score = 163 bits (413),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 67/123 (54%), Positives = 87/123 (71%), Gaps = 11/123 (9%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V+PSDS+A+++     IP+F + G +G ARSMPTS A+D V +     + ETPTGWKFFG
+Sbjct  304  VSPSDSLAILSTKYNDIPFFVKNGFKGVARSMPTSAAVDHVTS-----ITETPTGWKFFG  358
+
+Query  61   NLMDASKLSLCGEESFGTGSDHIREKDGLWAVLAWLSILATRKQ------SVEDILKDHW  114
+            NLMD+ K+SLCGEESFGTG   IREKDG+WA L W+SILA   +       V++IL+ HW
+Sbjct  359  NLMDSGKISLCGEESFGTGCCGIREKDGIWAALCWVSILAAESERAQRLVGVKEILESHW  418
+
+Query  115  HKF  117
+             K+
+Sbjct  419  AKY  421
+
+
+> sp|P36938|PGM_ECOLI Phosphoglucomutase OS=Escherichia coli (strain 
+K12) OX=83333 GN=pgm PE=1 SV=1
+Length=546
+
+ Score = 102 bits (255),  Expect = 6e-25, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 52/123 (42%), Gaps = 7/123 (6%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            +NP+  +AV A N       Q        +++ +S  +DRV N     L E P G+K+F 
+Sbjct  319  MNPNHYLAV-AINYLFQHRPQWGKDVAVGKTLVSSAMIDRVVNDLGRKLVEVPVGFKWFV  377
+
+Query  61   NLMDASKLSLCGEESFGT------GSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW  114
+            + +        GEES G       G+    +KDG+   L    I A   ++ ++   +  
+Sbjct  378  DGLFDGSFGFGGEESAGASFLRFDGTPWSTDKDGIIMCLLAAEITAVTGKNPQEHYNELA  437
+
+Query  115  HKF  117
+             +F
+Sbjct  438  KRF  440
+
+
+> sp|Q57290|Y740_HAEIN Probable phosphomannomutase OS=Haemophilus 
+influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd) OX=71421 
+GN=HI_0740 PE=1 SV=1
+Length=485
+
+ Score = 93.5 bits (231),  Expect = 7e-22, Method: Composition-based stats.
+ Identities = 29/103 (28%), Positives = 50/103 (49%), Gaps = 9/103 (9%)
+
+Query  21   QQTGVRG-FARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG--  77
+            Q  G +G  A S+ +S AL  +A        ET TG+K+ G +  +  L    EE+ G  
+Sbjct  272  QYQGKQGTLACSLVSSPALAEIAKKYSFQSEETLTGFKYIGKV--SGLL-FGFEEALGYL  328
+
+Query  78   TGSDHIREKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+               D +R+KDG+ A + +L +   L  + +++ D   +   +F
+Sbjct  329  VDPDKVRDKDGISAAIVFLDLVRNLKKQGKTLADYADEFTKEF  371
+
+
+> sp|P38569|PGM_KOMXY Phosphoglucomutase OS=Komagataeibacter xylinus 
+OX=28448 GN=celB PE=3 SV=1
+Length=555
+
+ Score = 93.1 bits (230),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/86 (30%), Positives = 40/86 (47%), Gaps = 6/86 (7%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG------TGS  80
+            G  +++ +S  +DRVA      L E P G+K+F + +    L   GEES G       G+
+Sbjct  347  GVGKTVVSSSMIDRVAKEIGRKLVEVPVGFKWFVDGLYNGTLGFGGEESAGASFLRRAGT  406
+
+Query  81   DHIREKDGLWAVLAWLSILATRKQSV  106
+                +KDG+   L    I A  K++ 
+Sbjct  407  VWSTDKDGIILGLLAAEITARTKRTP  432
+
+
+> sp|O74478|PGM3_SCHPO Probable phosphoribomutase OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=SPCC1840.05c 
+PE=1 SV=1
+Length=587
+
+ Score = 53.8 bits (128),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 28/118 (24%), Positives = 50/118 (42%), Gaps = 20/118 (17%)
+
+Query  19   YFQQTGVRGFAR---------SMPTSGALDRVANATKIALYETPTGWKFFGN----LMDA  65
+            YF     +   +         +  +S  +  +A        ET TG+K+ GN    L   
+Sbjct  336  YFIFQEYKNVGKPIDDFYVLSTTVSSAMVKSMAKVEGFHHVETLTGFKWLGNKALELEKQ  395
+
+Query  66   SKL-SLCGEESFG--TGSDHIREKDGLWAVLAWLSILAT---RKQSVEDILKDHWHKF  117
+             K   L  EE+ G   GS  +R+KDG+ A++ +L +L     +  S+ ++ +    K+
+Sbjct  396  GKFIGLAYEEALGYMVGS-IVRDKDGVNALITFLHLLKRLQLQNLSITEVFEQMSKKY  452
+
+
+> sp|Q5RFI8|PGM2_PONAB Phosphoglucomutase-2 OS=Pongo abelii OX=9601 
+GN=PGM2 PE=2 SV=3
+Length=612
+
+ Score = 50.7 bits (120),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 27/96 (28%), Positives = 44/96 (46%), Gaps = 9/96 (9%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGN----LMDASK-LSLCGEESFG-TGSDHIR  84
+            S  +S  L  +A        ET TG+K+ GN    L+D  K +    EE+ G      + 
+Sbjct  377  STVSSKILRAIALKEGFHFEETLTGFKWMGNRAKQLIDQGKTVLFAFEEAIGYMCCPFVL  436
+
+Query  85   EKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+            +KDG+ A +    +   LAT+  S+   LK  + ++
+Sbjct  437  DKDGVSAAVISAELASFLATKNLSLSQQLKAIYVEY  472
+
+
+> sp|Q96G03|PGM2_HUMAN Phosphoglucomutase-2 OS=Homo sapiens OX=9606 
+GN=PGM2 PE=1 SV=4
+Length=612
+
+ Score = 50.7 bits (120),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 27/96 (28%), Positives = 44/96 (46%), Gaps = 9/96 (9%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGN----LMDASK-LSLCGEESFG-TGSDHIR  84
+            S  +S  L  +A        ET TG+K+ GN    L+D  K +    EE+ G      + 
+Sbjct  377  STVSSKILRAIALKEGFHFEETLTGFKWMGNRAKQLIDQGKTVLFAFEEAIGYMCCPFVL  436
+
+Query  85   EKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+            +KDG+ A +    +   LAT+  S+   LK  + ++
+Sbjct  437  DKDGVSAAVISAELASFLATKNLSLSQQLKAIYVEY  472
+
+
+> sp|Q7TSV4|PGM2_MOUSE Phosphoglucomutase-2 OS=Mus musculus OX=10090 
+GN=Pgm2 PE=1 SV=1
+Length=620
+
+ Score = 49.2 bits (116),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 26/96 (27%), Positives = 42/96 (44%), Gaps = 9/96 (9%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGN----LMDASK-LSLCGEESFG-TGSDHIR  84
+            S  +S  L  +A        ET TG+K+ GN    L D  K +    EE+ G      + 
+Sbjct  385  STVSSKILRAIALKEGFHFEETLTGFKWMGNRAQQLGDQGKTVLFAFEEAIGYMCCPFVL  444
+
+Query  85   EKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+            +KDG+ A +    +   LAT+  S+   L   + ++
+Sbjct  445  DKDGVSAAVICAELASFLATKNLSLSQQLNAIYVEY  480
+
+
+> sp|Q7A3K7|PGCA_STAAN Phosphoglucomutase OS=Staphylococcus aureus 
+(strain N315) OX=158879 GN=pgcA PE=1 SV=2
+Length=552
+
+ Score = 47.7 bits (112),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVKYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q99RE2|PGCA_STAAM Phosphoglucomutase OS=Staphylococcus aureus 
+(strain Mu50 / ATCC 700699) OX=158878 GN=pgcA PE=3 SV=2
+Length=552
+
+ Score = 47.7 bits (112),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVKYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q2YW66|PGCA_STAAB Phosphoglucomutase OS=Staphylococcus aureus 
+(strain bovine RF122 / ET3-1) OX=273036 GN=pgcA PE=3 SV=2
+Length=552
+
+ Score = 47.3 bits (111),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVEYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDALEQIYQT  436
+
+
+> sp|P47723|MANB_MYCPI Phosphomannomutase OS=Mycoplasma pirum OX=2122 
+GN=manB PE=3 SV=1
+Length=544
+
+ Score = 47.3 bits (111),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 20/86 (23%), Positives = 39/86 (45%), Gaps = 5/86 (6%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGN----LMDASKLSLCGEESFGTGSDHI-RE  85
+            S  ++  +DR+       +Y   TG+K+ G+    + D+ +  +  EE+ G  +  I R+
+Sbjct  344  SYVSTNLIDRIIKEYHGEVYRVGTGFKWVGDKINKIKDSEEFVVGFEEAVGALNSTINRD  403
+
+Query  86   KDGLWAVLAWLSILATRKQSVEDILK  111
+            KD   A    L I     ++  +I+ 
+Sbjct  404  KDAYQAAALALEIYNECLKNNINIID  429
+
+
+> sp|Q92M99|GLMM_RHIME Phosphoglucosamine mutase OS=Rhizobium meliloti 
+(strain 1021) OX=266834 GN=glmM PE=3 SV=1
+Length=450
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 27/114 (24%), Positives = 54/114 (47%), Gaps = 3/114 (3%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V   D +  + A+ ++     + G  G A ++ ++  L+R   A ++ L+ T  G ++  
+Sbjct  258  VIDGDQLMAVIADSWAADGMLKGG--GIAATVMSNLGLERYLQARRLKLHRTKVGDRYVV  315
+
+Query  61   NLMDASKLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              M    L++ GE+S     SD     DGL A L  L+++  + ++V +I +  
+Sbjct  316  EQMRQDGLNVGGEQSGHIVLSDFGTTGDGLVAALQILAVVKRQGKTVSEICRRF  369
+
+
+> sp|A6UCS2|GLMM_SINMW Phosphoglucosamine mutase OS=Sinorhizobium 
+medicae (strain WSM419) OX=366394 GN=glmM PE=3 SV=1
+Length=451
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 27/114 (24%), Positives = 54/114 (47%), Gaps = 3/114 (3%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V   D +  + A+ ++     + G  G A ++ ++  L+R   A ++ L+ T  G ++  
+Sbjct  258  VIDGDQLMAVIADSWAADGMLKGG--GIAATVMSNLGLERYLQARRLKLHRTKVGDRYVV  315
+
+Query  61   NLMDASKLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              M    L++ GE+S     SD     DGL A L  L+++  + ++V +I +  
+Sbjct  316  EQMRQDGLNVGGEQSGHIVLSDFGTTGDGLVAALQILAVVKRQGKTVSEICRRF  369
+
+
+> sp|Q8NUV4|PGCA_STAAW Phosphoglucomutase OS=Staphylococcus aureus 
+(strain MW2) OX=196620 GN=pgcA PE=3 SV=2
+Length=552
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVEYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q6G6I3|PGCA_STAAS Phosphoglucomutase OS=Staphylococcus aureus 
+(strain MSSA476) OX=282459 GN=pgcA PE=3 SV=1
+Length=552
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVEYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q6GDU9|PGCA_STAAR Phosphoglucomutase OS=Staphylococcus aureus 
+(strain MRSA252) OX=282458 GN=pgcA PE=3 SV=1
+Length=552
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVEYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q5HD61|PGCA_STAAC Phosphoglucomutase OS=Staphylococcus aureus 
+(strain COL) OX=93062 GN=pgcA PE=3 SV=2
+Length=552
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVEYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q2FVC1|PGCA_STAA8 Phosphoglucomutase OS=Staphylococcus aureus 
+(strain NCTC 8325) OX=93061 GN=pgcA PE=1 SV=2
+Length=552
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVEYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q2FE11|PGCA_STAA3 Phosphoglucomutase OS=Staphylococcus aureus 
+(strain USA300) OX=367830 GN=pgcA PE=3 SV=2
+Length=552
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/95 (23%), Positives = 41/95 (43%), Gaps = 8/95 (8%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ +S     +A    +   E  TG+KF       L D   +    EES+G      +R
+Sbjct  342  QSIVSSELTKSLARYNNVEYKEVLTGFKFIAQEIRQLDDHQNMIFAFEESYGFLSEPFVR  401
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKDHWHK  116
+            +KD +  V   + + S L    ++++D L+  +  
+Sbjct  402  DKDAVQIVPLIIKYASELKLYGKTLKDELEQIYQT  436
+
+
+> sp|Q49WH7|PGCA_STAS1 Phosphoglucomutase OS=Staphylococcus saprophyticus 
+subsp. saprophyticus (strain ATCC 15305 / DSM 20229) 
+OX=342451 GN=pgcA PE=3 SV=1
+Length=552
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 23/95 (24%), Positives = 47/95 (49%), Gaps = 10/95 (11%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFGNLM------DASKLSLCGEESFG-TGSDH  82
+            +S+ TS   +R+A +  + + +  TG+KF  +L+      D  +L L  EES G      
+Sbjct  337  KSIVTSELAERLATSLNVEVNDVLTGFKFISDLIEHKQKDDDKQLLLAFEESHGYLAQPI  396
+
+Query  83   IREKDGLWAV---LAWLSILATRKQSVEDILKDHW  114
+             R+KD +  V   + + ++L     + ++ ++D +
+Sbjct  397  SRDKDAIQMVPLLVKYKNLLDKNGITFKETIEDIY  431
+
+
+> sp|P18159|PGCA_BACSU Phosphoglucomutase OS=Bacillus subtilis 
+(strain 168) OX=224308 GN=pgcA PE=1 SV=3
+Length=581
+
+ Score = 46.5 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 23/100 (23%), Positives = 46/100 (46%), Gaps = 10/100 (10%)
+
+Query  28   FARSMPTSGALDRVANATKIALYETPTGWKFFGNLMD----AS--KLSLCGEESFG-TGS  80
+              +++ TS     VA++  +   +T TG+KF G  +     +         EES+G    
+Sbjct  352  VLKTIVTSEIGRAVASSFGLDTIDTLTGFKFIGEKIKEYEASGQYTFQFGYEESYGYLIG  411
+
+Query  81   DHIREKDGLWAVLAWLSILA---TRKQSVEDILKDHWHKF  117
+            D  R+KD + A L  + + A    +  S+ + L + ++++
+Sbjct  412  DFARDKDAIQAALLAVEVCAFYKKQGMSLYEALINLFNEY  451
+
+
+> sp|B9L5Z7|GLMM_NAUPA Phosphoglucosamine mutase OS=Nautilia profundicola 
+(strain ATCC BAA-1463 / DSM 18972 / AmH) OX=598659 
+GN=glmM PE=3 SV=1
+Length=440
+
+ Score = 45.4 bits (106),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 22/88 (25%), Positives = 41/88 (47%), Gaps = 1/88 (1%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIRE  85
+            G A ++ ++GAL++  N   I +Y +  G K+   +M    L+  GE+S     SD+ + 
+Sbjct  276  GVAVTVMSNGALEKFLNDMGIKVYRSNVGDKYVLEVMKEKDLNFGGEQSGHIIFSDYAKT  335
+
+Query  86   KDGLWAVLAWLSILATRKQSVEDILKDH  113
+             DGL + L  ++ L    +   +     
+Sbjct  336  GDGLVSALQAVAYLIQSGKKASEAFDLF  363
+
+
+> sp|Q4L9R5|PGCA_STAHJ Phosphoglucomutase OS=Staphylococcus haemolyticus 
+(strain JCSC1435) OX=279808 GN=pgcA PE=3 SV=1
+Length=548
+
+ Score = 45.0 bits (105),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 23/93 (25%), Positives = 41/93 (44%), Gaps = 8/93 (9%)
+
+Query  28   FARSMPTSGALDRVANATKIALYETPTGWKFFGN----LMDASKLSLCGEESFG-TGSDH  82
+              +S+ +     R+A   ++ + E   G+K        L D        EES+G    D 
+Sbjct  333  VIQSIVSGELGKRLAQQHEVTVKEVLIGFKHIAKAIRELDDTESFLFAYEESYGYLADDF  392
+
+Query  83   IREKDGLWAV---LAWLSILATRKQSVEDILKD  112
+            +R+KD +  V   + + SIL    +++ D LK+
+Sbjct  393  VRDKDAIQIVPLIIKYTSILKNEGKTLHDALKE  425
+
+
+> sp|Q03262|PGM3_YEAST Phosphoribomutase OS=Saccharomyces cerevisiae 
+(strain ATCC 204508 / S288c) OX=559292 GN=PRM15 PE=1 SV=1
+Length=622
+
+ Score = 45.0 bits (105),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 20/84 (24%), Positives = 36/84 (43%), Gaps = 6/84 (7%)
+
+Query  20   FQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGN---LMDAS--KLSLCGEE  74
+            FQ         S  +S  + ++A        +T TG+K+ GN   L++     +    EE
+Sbjct  370  FQHVHPLAMLNSTVSSQMIKKMAEIEGFHYEDTLTGFKWIGNRAILLEKKGYYVPFGFEE  429
+
+Query  75   SFGTGSDHIR-EKDGLWAVLAWLS  97
+            + G     +  +KDG+ A + +L 
+Sbjct  430  AIGYMFPAMEHDKDGISASIVFLQ  453
+
+
+> sp|Q5R979|PGM2L_PONAB Glucose 1,6-bisphosphate synthase OS=Pongo 
+abelii OX=9601 GN=PGM2L1 PE=2 SV=1
+Length=622
+
+ Score = 44.2 bits (103),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 23/97 (24%), Positives = 43/97 (44%), Gaps = 11/97 (11%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASK-LSLCGEESFG--TGSDHI  83
+            +  +S  L  +A        ET  G+K+ G    +L++  K +    EES G   G+  +
+Sbjct  387  TTVSSKILKAIALKEGFHFEETLPGFKWIGSRIIDLLENGKEVLFAFEESIGFLCGTS-V  445
+
+Query  84   REKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+             +KDG+ A +    +   L T   +++  L   + K+
+Sbjct  446  LDKDGVSAAVVVAEMASYLETMNITLKQQLVKVYEKY  482
+
+
+> sp|Q6PCE3|PGM2L_HUMAN Glucose 1,6-bisphosphate synthase OS=Homo 
+sapiens OX=9606 GN=PGM2L1 PE=1 SV=3
+Length=622
+
+ Score = 44.2 bits (103),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 23/97 (24%), Positives = 43/97 (44%), Gaps = 11/97 (11%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASK-LSLCGEESFG--TGSDHI  83
+            +  +S  L  +A        ET  G+K+ G    +L++  K +    EES G   G+  +
+Sbjct  387  TTVSSKILKAIALKEGFHFEETLPGFKWIGSRIIDLLENGKEVLFAFEESIGFLCGTS-V  445
+
+Query  84   REKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+             +KDG+ A +    +   L T   +++  L   + K+
+Sbjct  446  LDKDGVSAAVVVAEMASYLETMNITLKQQLVKVYEKY  482
+
+
+> sp|Q2RVE4|GLMM_RHORT Phosphoglucosamine mutase OS=Rhodospirillum 
+rubrum (strain ATCC 11170 / ATH 1.1.1 / DSM 467 / LMG 4362 
+/ NCIB 8255 / S1) OX=269796 GN=glmM PE=3 SV=1
+Length=452
+
+ Score = 43.4 bits (101),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 29/109 (27%), Positives = 44/109 (40%), Gaps = 4/109 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +A+I  N       Q     G   ++ ++  L+R      +AL  TP G ++    M A 
+Sbjct  266  LALIGRNWKRAGTLQGG---GVVATVMSNLGLERFLKDEGLALARTPVGDRYVVEHMRAE  322
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW  114
+              +L GE+S     SD     DGL A L  LS L    +   ++L    
+Sbjct  323  GYNLGGEQSGHIVMSDFGTTGDGLMAALQVLSALVAEDRPASEVLDVFT  371
+
+
+> sp|Q6AMQ5|GLMM_DESPS Phosphoglucosamine mutase OS=Desulfotalea 
+psychrophila (strain LSv54 / DSM 12343) OX=177439 GN=glmM 
+PE=3 SV=1
+Length=450
+
+ Score = 43.0 bits (100),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/108 (19%), Positives = 46/108 (43%), Gaps = 1/108 (1%)
+
+Query  5    DSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMD  64
+            D   V+A     +   +++  +    ++ ++  L+         L     G ++    M 
+Sbjct  260  DGDHVMAICAKELLAQRKSKKKTLVATVMSNMGLEVAMKKMGGHLVRADVGDRYVVECMR  319
+
+Query  65   ASKLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILK  111
+             +  S  GE+S      +H+   DG+ A L  L+I+  RK+++ ++ +
+Sbjct  320  KNGYSFGGEQSGHLVFLEHMTTGDGILAALQILAIMKKRKKTLSELAQ  367
+
+
+> sp|Q54UQ2|PGM2_DICDI Probable phosphoglucomutase-2 OS=Dictyostelium 
+discoideum OX=44689 GN=pgmB PE=3 SV=1
+Length=603
+
+ Score = 43.0 bits (100),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 22/98 (22%), Positives = 39/98 (40%), Gaps = 11/98 (11%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFG-------NLMDASKLSLCGEESFGTG-SDH  82
+            +  +S  L  ++        E  TG+K+ G       N  D +      EE+ G    D 
+Sbjct  367  TAVSSAMLKTMSEKEGFIHQECLTGFKWIGNAAYNAINNNDGTTFLFGYEEAIGFQYGDV  426
+
+Query  83   IREKDGLWAVLAWLSI---LATRKQSVEDILKDHWHKF  117
+              +KDG+ A   +      L  +  SV+D L+  + ++
+Sbjct  427  SFDKDGVRAAAIFAEFALSLYKKGSSVQDHLESMYKRY  464
+
+
+> sp|Q8CAA7|PGM2L_MOUSE Glucose 1,6-bisphosphate synthase OS=Mus 
+musculus OX=10090 GN=Pgm2l1 PE=1 SV=1
+Length=621
+
+ Score = 42.7 bits (99),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/94 (20%), Positives = 37/94 (39%), Gaps = 8/94 (9%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASK-LSLCGEESFG--TGSDHI  83
+            +  +S  L  +A        ET  G+K+ G    +L+   K +    EES G   G+  +
+Sbjct  386  TTVSSKILKAIALKEGFHFEETLPGFKWIGSRIKDLLGNGKEVLFAFEESIGFLCGTS-V  444
+
+Query  84   REKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+             +KDG+ A      + +        +++     +
+Sbjct  445  LDKDGVSAAAVVAEMASFLDTRKVTLMEQLTKVY  478
+
+
+> sp|B0T1V6|GLMM_CAUSK Phosphoglucosamine mutase OS=Caulobacter 
+sp. (strain K31) OX=366602 GN=glmM PE=3 SV=1
+Length=448
+
+ Score = 42.3 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 18/88 (20%), Positives = 37/88 (42%), Gaps = 1/88 (1%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFGT-GSDHIRE  85
+            G   ++ ++  L+R+     + L  T  G ++    M     ++ GE+S     SD    
+Sbjct  284  GVVATVMSNLGLERLMTDNGLKLERTSVGDRYVMARMREGGFNIGGEQSGHVILSDFSTT  343
+
+Query  86   KDGLWAVLAWLSILATRKQSVEDILKDH  113
+             DGL A L  L+++    + +  + +  
+Sbjct  344  GDGLIAALQVLAVMIETGRPMSALGRQF  371
+
+
+> sp|Q3J5C2|GLMM_RHOS4 Phosphoglucosamine mutase OS=Rhodobacter 
+sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 158) 
+OX=272943 GN=glmM PE=3 SV=1
+Length=447
+
+ Score = 42.3 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/84 (25%), Positives = 38/84 (45%), Gaps = 1/84 (1%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIREKDGL  89
+            ++ ++  L+R   A  + L  TP G ++    M     +L GE+S     +D     DGL
+Sbjct  285  TVMSNLGLERFLGARGLRLERTPVGDRYVVEAMRRGGWNLGGEQSGHIVMTDFATTGDGL  344
+
+Query  90   WAVLAWLSILATRKQSVEDILKDH  113
+             A L +L+ +A   +   D+ +  
+Sbjct  345  LAGLQFLAAMAQTGRRASDLARSF  368
+
+
+> sp|B9KM35|GLMM_RHOSK Phosphoglucosamine mutase OS=Rhodobacter 
+sphaeroides (strain KD131 / KCTC 12085) OX=557760 GN=glmM PE=3 
+SV=1
+Length=447
+
+ Score = 42.3 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/84 (25%), Positives = 38/84 (45%), Gaps = 1/84 (1%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIREKDGL  89
+            ++ ++  L+R   A  + L  TP G ++    M     +L GE+S     +D     DGL
+Sbjct  285  TVMSNLGLERFLGARGLRLERTPVGDRYVVEAMRRGGWNLGGEQSGHIVMTDFATTGDGL  344
+
+Query  90   WAVLAWLSILATRKQSVEDILKDH  113
+             A L +L+ +A   +   D+ +  
+Sbjct  345  LAGLQFLAAMAQTGRRASDLARSF  368
+
+
+> sp|A3PH12|GLMM_RHOS1 Phosphoglucosamine mutase OS=Rhodobacter 
+sphaeroides (strain ATCC 17029 / ATH 2.4.9) OX=349101 GN=glmM 
+PE=3 SV=1
+Length=447
+
+ Score = 42.3 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 21/84 (25%), Positives = 38/84 (45%), Gaps = 1/84 (1%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIREKDGL  89
+            ++ ++  L+R   A  + L  TP G ++    M     +L GE+S     +D     DGL
+Sbjct  285  TVMSNLGLERFLGARGLRLERTPVGDRYVVEAMRRGGWNLGGEQSGHIVMTDFATTGDGL  344
+
+Query  90   WAVLAWLSILATRKQSVEDILKDH  113
+             A L +L+ +A   +   D+ +  
+Sbjct  345  LAGLQFLAAMAQTGRRASDLARSF  368
+
+
+> sp|Q89DN1|GLMM_BRADU Phosphoglucosamine mutase OS=Bradyrhizobium 
+diazoefficiens (strain JCM 10833 / IAM 13628 / NBRC 14792 
+/ USDA 110) OX=224911 GN=glmM PE=3 SV=2
+Length=447
+
+ Score = 42.3 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/88 (23%), Positives = 39/88 (44%), Gaps = 1/88 (1%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIRE  85
+            G   ++ ++  L+R      + L  TP G ++    M +   +L GE+S     SD+   
+Sbjct  281  GIVATVMSNLGLERFLKGQGLDLVRTPVGDRYVLEQMLSGGYNLGGEQSGHIILSDYATT  340
+
+Query  86   KDGLWAVLAWLSILATRKQSVEDILKDH  113
+             DG  A L  L+++   ++ V ++    
+Sbjct  341  GDGFVAALQVLAVVQKSRRPVSEVCHRF  368
+
+
+> sp|A5V2D8|GLMM_SPHWW Phosphoglucosamine mutase OS=Sphingomonas 
+wittichii (strain RW1 / DSM 6014 / JCM 10273) OX=392499 GN=glmM 
+PE=3 SV=1
+Length=445
+
+ Score = 41.9 bits (97),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/88 (24%), Positives = 39/88 (44%), Gaps = 1/88 (1%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIRE  85
+            G   ++ ++  L+R      ++L+ T  G ++    M A   ++ GE+S     +DH   
+Sbjct  280  GIVATVMSNLGLERFLAEQGLSLHRTKVGDRYVVEAMRAEGFNIGGEQSGHIVMTDHATT  339
+
+Query  86   KDGLWAVLAWLSILATRKQSVEDILKDH  113
+             DGL A L  L+ L    +   ++L   
+Sbjct  340  GDGLVAALQVLAQLVESGKPASELLHQF  367
+
+
+> sp|A5FWQ4|GLMM_ACICJ Phosphoglucosamine mutase OS=Acidiphilium 
+cryptum (strain JF-5) OX=349163 GN=glmM PE=3 SV=1
+Length=456
+
+ Score = 41.9 bits (97),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 26/99 (26%), Positives = 44/99 (44%), Gaps = 4/99 (4%)
+
+Query  20   FQQTGV---RGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESF  76
+            FQ  G     G   ++ ++  L+R      +AL+ TP G ++    M A  L+L GE+S 
+Sbjct  279  FQADGRLSGSGIVATVMSNLGLERYLGGLGLALHRTPVGDRYVAEHMRAHGLNLGGEQSG  338
+
+Query  77   GT-GSDHIREKDGLWAVLAWLSILATRKQSVEDILKDHW  114
+                +D     DGL A L  L++L    +   ++ +   
+Sbjct  339  HVILADFATTGDGLIAALQVLAVLVREGRPASEVCRLFT  377
+
+
+> sp|A4WQ91|GLMM_RHOS5 Phosphoglucosamine mutase OS=Rhodobacter 
+sphaeroides (strain ATCC 17025 / ATH 2.4.3) OX=349102 GN=glmM 
+PE=3 SV=1
+Length=447
+
+ Score = 41.9 bits (97),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 20/84 (24%), Positives = 39/84 (46%), Gaps = 1/84 (1%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIREKDGL  89
+            ++ ++  L+R  +A  + L  TP G ++    M     +L GE+S     +D     DGL
+Sbjct  285  TVMSNLGLERFLSARGLRLERTPVGDRYVVEAMRRGGWNLGGEQSGHIVMTDFATTGDGL  344
+
+Query  90   WAVLAWLSILATRKQSVEDILKDH  113
+             A L +L+ +A   +   ++ +  
+Sbjct  345  LAGLQFLAAMAQTGRKASELSRSF  368
+
+
+> sp|B9KJ94|GLMM_ANAMF Phosphoglucosamine mutase OS=Anaplasma marginale 
+(strain Florida) OX=320483 GN=glmM PE=3 SV=1
+Length=452
+
+ Score = 41.9 bits (97),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 22/86 (26%), Positives = 36/86 (42%), Gaps = 1/86 (1%)
+
+Query  29   ARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFGTGS-DHIREKD  87
+            A +  +S ++D  A    + L+ +  G +   + M     S+ GE+S      +H    D
+Sbjct  278  AVTTMSSKSIDSYARELGVRLHRSEVGDRHLVDTMRQHSCSVGGEKSGHIILWEHSTTSD  337
+
+Query  88   GLWAVLAWLSILATRKQSVEDILKDH  113
+             L A L  LSI+    +S   I  D 
+Sbjct  338  SLVAALQILSIMLLENKSASSIFGDF  363
+
+
+> sp|Q5PA34|GLMM_ANAMM Phosphoglucosamine mutase OS=Anaplasma marginale 
+(strain St. Maries) OX=234826 GN=glmM PE=3 SV=1
+Length=452
+
+ Score = 41.5 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 22/86 (26%), Positives = 36/86 (42%), Gaps = 1/86 (1%)
+
+Query  29   ARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFGTGS-DHIREKD  87
+            A +  +S ++D  A    + L+ +  G +   + M     S+ GE+S      +H    D
+Sbjct  278  AVTTMSSKSIDSYARELGVRLHRSEVGDRHLVDTMRRHSCSVGGEKSGHIILWEHSTTSD  337
+
+Query  88   GLWAVLAWLSILATRKQSVEDILKDH  113
+             L A L  LSI+    +S   I  D 
+Sbjct  338  SLVAALQILSIMLLENKSASSIFGDF  363
+
+
+> sp|Q9ABV3|GLMM_CAUCR Phosphoglucosamine mutase OS=Caulobacter 
+crescentus (strain ATCC 19089 / CB15) OX=190650 GN=glmM PE=3 
+SV=1
+Length=448
+
+ Score = 41.5 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 24/114 (21%), Positives = 45/114 (39%), Gaps = 3/114 (3%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V   D +  I A         + G  G   ++ ++  L+R  N   ++L  T  G ++  
+Sbjct  260  VVDGDQIMAIIAAASHKAGTLKGG--GVVATVMSNLGLERQLNTMGLSLERTAVGDRYVM  317
+
+Query  61   NLMDASKLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              M     ++ GE+S     SD     DGL A L  L+++    + +  + +  
+Sbjct  318  QRMREGGFNVGGEQSGHLILSDFSTTGDGLIAALQVLAVMVETDKPMSALGRQF  371
+
+
+> sp|B8GXK7|GLMM_CAUCN Phosphoglucosamine mutase OS=Caulobacter 
+crescentus (strain NA1000 / CB15N) OX=565050 GN=glmM PE=3 SV=1
+Length=448
+
+ Score = 41.5 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 24/114 (21%), Positives = 45/114 (39%), Gaps = 3/114 (3%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V   D +  I A         + G  G   ++ ++  L+R  N   ++L  T  G ++  
+Sbjct  260  VVDGDQIMAIIAAASHKAGTLKGG--GVVATVMSNLGLERQLNTMGLSLERTAVGDRYVM  317
+
+Query  61   NLMDASKLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              M     ++ GE+S     SD     DGL A L  L+++    + +  + +  
+Sbjct  318  QRMREGGFNVGGEQSGHLILSDFSTTGDGLIAALQVLAVMVETDKPMSALGRQF  371
+
+
+> sp|Q07IZ1|GLMM_RHOP5 Phosphoglucosamine mutase OS=Rhodopseudomonas 
+palustris (strain BisA53) OX=316055 GN=glmM PE=3 SV=1
+Length=450
+
+ Score = 41.5 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 24/108 (22%), Positives = 44/108 (41%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +        + G+     ++ ++  L+R      I +  TP G ++    M   
+Sbjct  264  LAVIAQSWQEDGRLSKPGIVA---TVMSNLGLERFLEGHGIEMVRTPVGDRYVLEQMMTG  320
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              +L GE S     SD+    DG  A L  L+++    + V ++    
+Sbjct  321  GYNLGGEPSGHIILSDYATTGDGFVAALQVLAVVQKLGRPVSEVCHKF  368
+
+
+> sp|Q8CN38|PGCA_STAES Phosphoglucomutase OS=Staphylococcus epidermidis 
+(strain ATCC 12228) OX=176280 GN=pgcA PE=3 SV=1
+Length=546
+
+ Score = 41.1 bits (95),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 20/91 (22%), Positives = 39/91 (43%), Gaps = 8/91 (9%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ + G    +A    +   E  TG+K+      +L          EES+G      +R
+Sbjct  335  QSIVSGGLAKSLAQYHNVNFKEVLTGFKYIAAEIRHLSPEQNFIFGYEESYGFLARPFVR  394
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKD  112
+            +KD +  V   + + + L    + ++D L+D
+Sbjct  395  DKDAIQIVPLMIKYAAELKNEGRMLKDELED  425
+
+
+> sp|Q5HLD2|PGCA_STAEQ Phosphoglucomutase OS=Staphylococcus epidermidis 
+(strain ATCC 35984 / RP62A) OX=176279 GN=pgcA PE=3 
+SV=1
+Length=546
+
+ Score = 41.1 bits (95),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 20/91 (22%), Positives = 39/91 (43%), Gaps = 8/91 (9%)
+
+Query  30   RSMPTSGALDRVANATKIALYETPTGWKFFG----NLMDASKLSLCGEESFG-TGSDHIR  84
+            +S+ + G    +A    +   E  TG+K+      +L          EES+G      +R
+Sbjct  335  QSIVSGGLAKSLAQYHNVNFKEVLTGFKYIAAEIRHLSPEQNFIFGYEESYGFLARPFVR  394
+
+Query  85   EKDGLWAV---LAWLSILATRKQSVEDILKD  112
+            +KD +  V   + + + L    + ++D L+D
+Sbjct  395  DKDAIQIVPLMIKYAAELKNEGRMLKDELED  425
+
+
+> sp|Q1GE79|GLMM_RUEST Phosphoglucosamine mutase OS=Ruegeria sp. 
+(strain TM1040) OX=292414 GN=glmM PE=3 SV=1
+Length=447
+
+ Score = 40.7 bits (94),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 27/114 (24%), Positives = 47/114 (41%), Gaps = 3/114 (3%)
+
+Query  1    VNPSDSVAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFG  60
+            V   D +  + A+ +S       G      ++ ++  L+R  N   I L  T  G ++  
+Sbjct  256  VADGDQLMALLASAWSADGRLSGG--ALVATVMSNLGLERFLNERGIGLERTGVGDRYVV  313
+
+Query  61   NLMDASKLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              M     +L GE+S     SD+    DGL A L +L+ +  R Q   ++ +  
+Sbjct  314  ERMRQGGFNLGGEQSGHIVMSDYATTGDGLMAGLHFLAEMVRRGQKASELARQF  367
+
+
+> sp|Q98F91|GLMM_RHILO Phosphoglucosamine mutase OS=Rhizobium loti 
+(strain MAFF303099) OX=266835 GN=glmM PE=3 SV=1
+Length=450
+
+ Score = 40.7 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 22/88 (25%), Positives = 41/88 (47%), Gaps = 1/88 (1%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIRE  85
+            G   ++ ++  L+R     K+ L+ T  G ++    M A  L++ GE+S     SD    
+Sbjct  282  GVVSTVMSNLGLERFLGDMKLQLHRTKVGDRYVVEHMRAHGLNVGGEQSGHIVLSDFSTT  341
+
+Query  86   KDGLWAVLAWLSILATRKQSVEDILKDH  113
+             DGL + L  L+ +  + + V ++ K  
+Sbjct  342  GDGLVSALQVLACIKRQGRPVSELSKKF  369
+
+
+> sp|Q83GU5|GLMM_TROWT Phosphoglucosamine mutase OS=Tropheryma 
+whipplei (strain Twist) OX=203267 GN=glmM PE=3 SV=1
+Length=453
+
+ Score = 40.3 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 19/86 (22%), Positives = 36/86 (42%), Gaps = 1/86 (1%)
+
+Query  26   RGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIR  84
+            +    ++ ++  LDR      I L  T  G ++    M     ++ GE+S     SD+  
+Sbjct  285  KTLVTTIMSNIGLDRAMKKLGINLKRTQVGDRYVIEAMTQGGFNIGGEQSGHIILSDYST  344
+
+Query  85   EKDGLWAVLAWLSILATRKQSVEDIL  110
+              DG+ A L   + +    +S+ D+ 
+Sbjct  345  AGDGILAGLHLCAEIIRTGKSLTDLA  370
+
+
+> sp|Q83NS5|GLMM_TROW8 Phosphoglucosamine mutase OS=Tropheryma 
+whipplei (strain TW08/27) OX=218496 GN=glmM PE=3 SV=1
+Length=453
+
+ Score = 40.3 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 19/86 (22%), Positives = 36/86 (42%), Gaps = 1/86 (1%)
+
+Query  26   RGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIR  84
+            +    ++ ++  LDR      I L  T  G ++    M     ++ GE+S     SD+  
+Sbjct  285  KTLVTTIMSNIGLDRAMKKLGINLKRTQVGDRYVIEAMTQGGFNIGGEQSGHIILSDYST  344
+
+Query  85   EKDGLWAVLAWLSILATRKQSVEDIL  110
+              DG+ A L   + +    +S+ D+ 
+Sbjct  345  AGDGILAGLHLCAEIIRTGKSLTDLA  370
+
+
+> sp|Q83BY7|GLMM_COXBU Phosphoglucosamine mutase OS=Coxiella burnetii 
+(strain RSA 493 / Nine Mile phase I) OX=227377 GN=glmM 
+PE=3 SV=1
+Length=446
+
+ Score = 40.3 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/94 (21%), Positives = 37/94 (39%), Gaps = 1/94 (1%)
+
+Query  19   YFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-  77
+            Y ++    G   ++ ++  L+       IA   +P G ++  +LM      L GE S   
+Sbjct  271  YLKENAPLGVVGTIMSNLGLEHTLKRHHIAFERSPVGDRYVLDLMQQKGWFLGGESSGHI  330
+
+Query  78   TGSDHIREKDGLWAVLAWLSILATRKQSVEDILK  111
+                     DG+   L  L I+   ++ + D+ K
+Sbjct  331  VDLGFTTTGDGVITALQILRIMQQAEKPLADLKK  364
+
+
+> sp|A9N8M1|GLMM_COXBR Phosphoglucosamine mutase OS=Coxiella burnetii 
+(strain RSA 331 / Henzerling II) OX=360115 GN=glmM PE=3 
+SV=1
+Length=446
+
+ Score = 40.3 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 20/94 (21%), Positives = 37/94 (39%), Gaps = 1/94 (1%)
+
+Query  19   YFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-  77
+            Y ++    G   ++ ++  L+       IA   +P G ++  +LM      L GE S   
+Sbjct  271  YLKENAPLGVVGTIMSNLGLEHTLKRHHIAFERSPVGDRYVLDLMQQKGWFLGGESSGHI  330
+
+Query  78   TGSDHIREKDGLWAVLAWLSILATRKQSVEDILK  111
+                     DG+   L  L I+   ++ + D+ K
+Sbjct  331  VDLGFTTTGDGVITALQILRIMQQAEKPLADLKK  364
+
+
+> sp|B6IZD8|GLMM_COXB2 Phosphoglucosamine mutase OS=Coxiella burnetii 
+(strain CbuG_Q212) OX=434923 GN=glmM PE=3 SV=1
+Length=446
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/94 (21%), Positives = 38/94 (40%), Gaps = 1/94 (1%)
+
+Query  19   YFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-  77
+            Y ++    G   ++ ++  L++      IA   +P G ++  +LM      L GE S   
+Sbjct  271  YLKENAPLGVVGTIMSNLGLEQTLKRHHIAFERSPVGDRYVLDLMQQKGWFLGGESSGHI  330
+
+Query  78   TGSDHIREKDGLWAVLAWLSILATRKQSVEDILK  111
+                     DG+   L  L I+   ++ + D+ K
+Sbjct  331  VDLGFTTTGDGVITALQILRIMQQAEKPLADLKK  364
+
+
+> sp|B6J7Z9|GLMM_COXB1 Phosphoglucosamine mutase OS=Coxiella burnetii 
+(strain CbuK_Q154) OX=434924 GN=glmM PE=3 SV=1
+Length=446
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/94 (21%), Positives = 38/94 (40%), Gaps = 1/94 (1%)
+
+Query  19   YFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-  77
+            Y ++    G   ++ ++  L++      IA   +P G ++  +LM      L GE S   
+Sbjct  271  YLKENAPLGVVGTIMSNLGLEQTLKRHHIAFERSPVGDRYVLDLMQQKGWFLGGESSGHI  330
+
+Query  78   TGSDHIREKDGLWAVLAWLSILATRKQSVEDILK  111
+                     DG+   L  L I+   ++ + D+ K
+Sbjct  331  VDLGFTTTGDGVITALQILRIMQQAEKPLADLKK  364
+
+
+> sp|A9KGE3|GLMM_COXBN Phosphoglucosamine mutase OS=Coxiella burnetii 
+(strain Dugway 5J108-111) OX=434922 GN=glmM PE=3 SV=1
+Length=446
+
+ Score = 40.0 bits (92),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 20/94 (21%), Positives = 38/94 (40%), Gaps = 1/94 (1%)
+
+Query  19   YFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-  77
+            Y ++    G   ++ ++  L++      IA   +P G ++  +LM      L GE S   
+Sbjct  271  YLKENAPLGVVGTIMSNLGLEQTLKRHHIAFERSPVGDRYVLDLMQQKGWFLGGESSGHI  330
+
+Query  78   TGSDHIREKDGLWAVLAWLSILATRKQSVEDILK  111
+                     DG+   L  L I+   ++ + D+ K
+Sbjct  331  VDLGFTTTGDGVITALQILRIMQQAEKPLADLKK  364
+
+
+> sp|Q39UF9|GLMM_GEOMG Phosphoglucosamine mutase OS=Geobacter metallireducens 
+(strain GS-15 / ATCC 53774 / DSM 7210) OX=269799 
+GN=glmM PE=3 SV=1
+Length=451
+
+ Score = 39.6 bits (91),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 16/82 (20%), Positives = 36/82 (44%), Gaps = 1/82 (1%)
+
+Query  31   SMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEES-FGTGSDHIREKDGL  89
+            ++ ++  LD         + +T  G ++    M     +L GE+S      DH    DG+
+Sbjct  286  TVMSNMGLDIAVKKAGGKVIKTAVGDRYVVEEMLKGGYNLGGEQSGHMIFLDHNTTGDGM  345
+
+Query  90   WAVLAWLSILATRKQSVEDILK  111
+             + L  L+I+    +++ ++ +
+Sbjct  346  LSALQVLAIMRRSGKTLSELAE  367
+
+
+> sp|Q28NS0|GLMM_JANSC Phosphoglucosamine mutase OS=Jannaschia 
+sp. (strain CCS1) OX=290400 GN=glmM PE=3 SV=1
+Length=447
+
+ Score = 39.6 bits (91),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 23/89 (26%), Positives = 40/89 (45%), Gaps = 1/89 (1%)
+
+Query  26   RGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFG-TGSDHIR  84
+            R  A ++ ++  L+R      I L+ T  G ++    M A   +L GE+S     +D+  
+Sbjct  280  RTLAATVMSNLGLERFLADESIVLHRTAVGDRYVVEAMRAGGFNLGGEQSGHIVMTDYAT  339
+
+Query  85   EKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              DGL A L +L+ +    QS   +  + 
+Sbjct  340  TGDGLIAGLQFLAEMVRTGQSASTLAHNF  368
+
+
+> sp|B4R906|GLMM_PHEZH Phosphoglucosamine mutase OS=Phenylobacterium 
+zucineum (strain HLK1) OX=450851 GN=glmM PE=3 SV=1
+Length=450
+
+ Score = 39.2 bits (90),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 20/88 (23%), Positives = 37/88 (42%), Gaps = 1/88 (1%)
+
+Query  27   GFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFGT-GSDHIRE  85
+            G   ++ ++  L+R   A  + L  T  G ++    M     ++ GE+S     SD    
+Sbjct  284  GVVATVMSNLGLERFLKARNLKLERTQVGDRYVMARMREGGFNVGGEQSGHVILSDLSTT  343
+
+Query  86   KDGLWAVLAWLSILATRKQSVEDILKDH  113
+             DGL A L  L++L    + +  + +  
+Sbjct  344  GDGLLAALQVLAVLQESDRPMSALARQF  371
+
+
+> sp|Q57BJ0|GLMM_BRUAB Phosphoglucosamine mutase OS=Brucella abortus 
+biovar 1 (strain 9-941) OX=262698 GN=glmM PE=3 SV=1
+Length=451
+
+ Score = 38.8 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/108 (20%), Positives = 46/108 (43%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +  +    +  G+     ++ ++  L+R      + L  T  G ++    M   
+Sbjct  265  MAVIAESWAASNRLEGGGIVA---TVMSNLGLERFLADRNLTLARTKVGDRYVVEHMREH  321
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              ++ GE+S     SD     DGL + L  L++   + + + D+ +  
+Sbjct  322  GFNVGGEQSGHIVLSDFATTGDGLISALQILAVAQEQNKPISDVCRKF  369
+
+
+> sp|Q2YQH8|GLMM_BRUA2 Phosphoglucosamine mutase OS=Brucella abortus 
+(strain 2308) OX=359391 GN=glmM PE=3 SV=1
+Length=451
+
+ Score = 38.8 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/108 (20%), Positives = 46/108 (43%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +  +    +  G+     ++ ++  L+R      + L  T  G ++    M   
+Sbjct  265  MAVIAESWAASNRLEGGGIVA---TVMSNLGLERFLADRNLTLARTKVGDRYVVEHMREH  321
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              ++ GE+S     SD     DGL + L  L++   + + + D+ +  
+Sbjct  322  GFNVGGEQSGHIVLSDFATTGDGLISALQILAVAQEQNKPISDVCRKF  369
+
+
+> sp|Q8YIU8|GLMM_BRUME Phosphoglucosamine mutase OS=Brucella melitensis 
+biotype 1 (strain 16M / ATCC 23456 / NCTC 10094) OX=224914 
+GN=glmM PE=3 SV=2
+Length=451
+
+ Score = 38.8 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/108 (20%), Positives = 46/108 (43%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +  +    +  G+     ++ ++  L+R      + L  T  G ++    M   
+Sbjct  265  MAVIAESWAASNRLEGGGIVA---TVMSNLGLERFLADRNLTLARTKVGDRYVVEHMREH  321
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              ++ GE+S     SD     DGL + L  L++   + + + D+ +  
+Sbjct  322  GFNVGGEQSGHIVLSDFATTGDGLISALQILAVAQEQNKPISDVCRKF  369
+
+
+> sp|Q8FZ13|GLMM_BRUSU Phosphoglucosamine mutase OS=Brucella suis 
+biovar 1 (strain 1330) OX=204722 GN=glmM PE=3 SV=1
+Length=451
+
+ Score = 38.8 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/108 (20%), Positives = 46/108 (43%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +  +    +  G+     ++ ++  L+R      + L  T  G ++    M   
+Sbjct  265  MAVIAESWAASNRLEGGGIVA---TVMSNLGLERFLADRNLTLARTKVGDRYVVEHMREH  321
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              ++ GE+S     SD     DGL + L  L++   + + + D+ +  
+Sbjct  322  GFNVGGEQSGHIVLSDFATTGDGLISALQILAVAQEQNKPISDVCRKF  369
+
+
+> sp|A9WWG7|GLMM_BRUSI Phosphoglucosamine mutase OS=Brucella suis 
+(strain ATCC 23445 / NCTC 10510) OX=470137 GN=glmM PE=3 SV=2
+Length=451
+
+ Score = 38.8 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/108 (20%), Positives = 46/108 (43%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +  +    +  G+     ++ ++  L+R      + L  T  G ++    M   
+Sbjct  265  MAVIAESWAASNRLEGGGIVA---TVMSNLGLERFLADRNLTLARTKVGDRYVVEHMREH  321
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              ++ GE+S     SD     DGL + L  L++   + + + D+ +  
+Sbjct  322  GFNVGGEQSGHIVLSDFATTGDGLISALQILAVAQEQNKPISDVCRKF  369
+
+
+> sp|A5VS47|GLMM_BRUO2 Phosphoglucosamine mutase OS=Brucella ovis 
+(strain ATCC 25840 / 63/290 / NCTC 10512) OX=444178 GN=glmM 
+PE=3 SV=1
+Length=451
+
+ Score = 38.8 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/108 (20%), Positives = 46/108 (43%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +  +    +  G+     ++ ++  L+R      + L  T  G ++    M   
+Sbjct  265  MAVIAESWAASNRLEGGGIVA---TVMSNLGLERFLADRNLTLARTKVGDRYVVEHMREH  321
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              ++ GE+S     SD     DGL + L  L++   + + + D+ +  
+Sbjct  322  GFNVGGEQSGHIVLSDFATTGDGLISALQILAVAQEQNKPISDVCRKF  369
+
+
+> sp|A9M7I9|GLMM_BRUC2 Phosphoglucosamine mutase OS=Brucella canis 
+(strain ATCC 23365 / NCTC 10854) OX=483179 GN=glmM PE=3 
+SV=2
+Length=451
+
+ Score = 38.8 bits (89),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 22/108 (20%), Positives = 46/108 (43%), Gaps = 4/108 (4%)
+
+Query  7    VAVIAANIFSIPYFQQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDAS  66
+            +AVIA +  +    +  G+     ++ ++  L+R      + L  T  G ++    M   
+Sbjct  265  MAVIAESWAASNRLEGGGIVA---TVMSNLGLERFLADRNLTLARTKVGDRYVVEHMREH  321
+
+Query  67   KLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+              ++ GE+S     SD     DGL + L  L++   + + + D+ +  
+Sbjct  322  GFNVGGEQSGHIVLSDFATTGDGLISALQILAVAQEQNKPISDVCRKF  369
+
+
+> sp|Q68BJ6|PGMMM_THEKO Phosphoglucomutase/phosphomannomutase OS=Thermococcus 
+kodakarensis (strain ATCC BAA-918 / JCM 12380 
+/ KOD1) OX=69014 GN=TK1108 PE=1 SV=1
+Length=456
+
+ Score = 38.4 bits (88),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 17/98 (17%), Positives = 37/98 (38%), Gaps = 1/98 (1%)
+
+Query  21   QQTGVRGFARSMPTSGALDRVANATKIALYETPTGWKFFGNLMDASKLSLCGEESFGT-G  79
+            ++ G      ++ TS  LD +A      +  T  G       +  +  ++ GEE+ G   
+Sbjct  274  RENGGGLLVTTIATSNLLDDIAKRNGAKVMRTKVGDLIVARALLENNGTIGGEENGGVIF  333
+
+Query  80   SDHIREKDGLWAVLAWLSILATRKQSVEDILKDHWHKF  117
+             D +  +DG       + I A   +   +++ +    +
+Sbjct  334  PDFVLGRDGAMTTAKIVEIFAKSGKKFSELIDELPKYY  371
+
+
+> sp|A1AZG3|GLMM_PARDP Phosphoglucosamine mutase OS=Paracoccus 
+denitrificans (strain Pd 1222) OX=318586 GN=glmM PE=3 SV=1
+Length=447
+
+ Score = 38.4 bits (88),  Expect = 0.006, Method: Composition-based stats.
+ Identities = 27/117 (23%), Positives = 51/117 (44%), Gaps = 9/117 (8%)
+
+Query  1    VNPSDSV-AVIAANIFSIPYFQQTGVRG--FARSMPTSGALDRVANATKIALYETPTGWK  57
+            V   D + A++AA      +  Q  +RG     ++ ++  L+R      + L  T  G +
+Sbjct  257  VADGDQIMALLAAR-----WAAQGRLRGGALVATVMSNLGLERFLQGRGLRLERTAVGDR  311
+
+Query  58   FFGNLMDASKLSLCGEESFG-TGSDHIREKDGLWAVLAWLSILATRKQSVEDILKDH  113
+            +    M  +  +L GE+S     +D+    DGL A L +L+ L+   Q   +++   
+Sbjct  312  YVVERMRGAGFNLGGEQSGHIVMTDYATTGDGLIASLQFLAALSDSGQRASELVAQF  368
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.142    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0434    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4874308128
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,293 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot.fasta
+           556,825 sequences; 199,652,254 total letters
+
+Results from round 1
+
+
+Query= 1vjs-3-GJB
+
+Length=89
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  sp|P06278|AMY_BACLI Alpha-amylase OS=Bacillus licheniformis OX=...  185     7e-56
+  sp|P00692|AMY_BACAM Alpha-amylase OS=Bacillus amyloliquefaciens...  151     4e-43
+  sp|P06279|AMY_GEOSE Alpha-amylase OS=Geobacillus stearothermoph...  133     1e-36
+  sp|P19571|AMT6_BACS7 Glucan 1,4-alpha-maltohexaosidase OS=Bacil...  122     6e-33
+  sp|P26613|AMY2_SALTY Cytoplasmic alpha-amylase OS=Salmonella ty...  67.8    4e-13
+  sp|P26612|AMY2_ECOLI Cytoplasmic alpha-amylase OS=Escherichia c...  63.9    1e-11
+
+
+> sp|P06278|AMY_BACLI Alpha-amylase OS=Bacillus licheniformis OX=1402 
+GN=amyS PE=1 SV=1
+Length=512
+
+ Score = 185 bits (470),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 89/89 (100%), Positives = 89/89 (100%), Gaps = 0/89 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT
+Sbjct  423  YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  482
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYVQ  89
+            GNRSEPVVINSEGWGEFHVNGGSVSIYVQ
+Sbjct  483  GNRSEPVVINSEGWGEFHVNGGSVSIYVQ  511
+
+
+> sp|P00692|AMY_BACAM Alpha-amylase OS=Bacillus amyloliquefaciens 
+OX=1390 PE=1 SV=1
+Length=514
+
+ Score = 151 bits (381),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 71/89 (80%), Positives = 78/89 (88%), Gaps = 0/89 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYG QHDY DH D++GWTREGDSS A SGLAALITDGPGG+KRMY G +NAGETW+DIT
+Sbjct  425  YAYGPQHDYIDHPDVIGWTREGDSSAAKSGLAALITDGPGGSKRMYAGLKNAGETWYDIT  484
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYVQ  89
+            GNRS+ V I S+GWGEFHVN GSVSIYVQ
+Sbjct  485  GNRSDTVKIGSDGWGEFHVNDGSVSIYVQ  513
+
+
+> sp|P06279|AMY_GEOSE Alpha-amylase OS=Geobacillus stearothermophilus 
+OX=1422 GN=amyS PE=1 SV=3
+Length=549
+
+ Score = 133 bits (335),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 62/88 (70%), Positives = 75/88 (85%), Gaps = 0/88 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYG QHDY DH DI+GWTREG +    SGLAALITDGPGG+K MYVG+Q+AG+ ++D+T
+Sbjct  428  YAYGTQHDYLDHSDIIGWTREGVTEKPGSGLAALITDGPGGSKWMYVGKQHAGKVFYDLT  487
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNRS+ V INS+GWGEF VNGGSVS++V
+Sbjct  488  GNRSDTVTINSDGWGEFKVNGGSVSVWV  515
+
+
+> sp|P19571|AMT6_BACS7 Glucan 1,4-alpha-maltohexaosidase OS=Bacillus 
+sp. (strain 707) OX=1416 PE=1 SV=1
+Length=518
+
+ Score = 122 bits (307),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 56/88 (64%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYG Q+DY DHH+I+GWTREG+++  NSGLA +++DG GG+K M+VGR  AG+ W DIT
+Sbjct  429  YAYGKQNDYLDHHNIIGWTREGNTAHPNSGLATIMSDGAGGSKWMFVGRNKAGQVWSDIT  488
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNR+  V IN++GWG F VNGGSVSI+V
+Sbjct  489  GNRTGTVTINADGWGNFSVNGGSVSIWV  516
+
+
+> sp|P26613|AMY2_SALTY Cytoplasmic alpha-amylase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=amyA 
+PE=3 SV=3
+Length=494
+
+ Score = 67.8 bits (164),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 33/88 (38%), Positives = 50/88 (57%), Gaps = 2/88 (2%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            +A+G Q  +FDH + + ++R G     N G   ++++G  G K + +G   A +TW D  
+Sbjct  405  FAHGIQTLFFDHPNCIAFSRSGTEE--NPGCVVVLSNGDDGEKTLLLGDNYANKTWRDFL  462
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNR E VV N +G   F  N GSVS++V
+Sbjct  463  GNRDEYVVTNDQGEATFFCNAGSVSVWV  490
+
+
+> sp|P26612|AMY2_ECOLI Cytoplasmic alpha-amylase OS=Escherichia 
+coli (strain K12) OX=83333 GN=amyA PE=1 SV=3
+Length=495
+
+ Score = 63.9 bits (154),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 31/88 (35%), Positives = 49/88 (56%), Gaps = 2/88 (2%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            +A+G Q  +FDH + + ++R G       G   ++++G  G K +++G     +TW D  
+Sbjct  405  FAHGVQTLFFDHPNCIAFSRSGTDEF--PGCVVVMSNGDDGEKTIHLGENYGNKTWRDFL  462
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNR E VV +  G   F  NGGSVS++V
+Sbjct  463  GNRQERVVTDENGEATFFCNGGSVSVWV  490
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5003987370
+Results from round 2
+
+
+Query= 1vjs-3-GJB
+
+Length=89
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  sp|P06278|AMY_BACLI Alpha-amylase OS=Bacillus licheniformis OX=...  150     9e-43
+  sp|P00692|AMY_BACAM Alpha-amylase OS=Bacillus amyloliquefaciens...  145     3e-41
+  sp|P06279|AMY_GEOSE Alpha-amylase OS=Geobacillus stearothermoph...  145     8e-41
+  sp|P26612|AMY2_ECOLI Cytoplasmic alpha-amylase OS=Escherichia c...  139     5e-39
+  sp|P19571|AMT6_BACS7 Glucan 1,4-alpha-maltohexaosidase OS=Bacil...  139     5e-39
+  sp|P26613|AMY2_SALTY Cytoplasmic alpha-amylase OS=Salmonella ty...  138     2e-38
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> sp|P06278|AMY_BACLI Alpha-amylase OS=Bacillus licheniformis OX=1402 
+GN=amyS PE=1 SV=1
+Length=512
+
+ Score = 150 bits (378),  Expect = 9e-43, Method: Composition-based stats.
+ Identities = 89/89 (100%), Positives = 89/89 (100%), Gaps = 0/89 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT
+Sbjct  423  YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  482
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYVQ  89
+            GNRSEPVVINSEGWGEFHVNGGSVSIYVQ
+Sbjct  483  GNRSEPVVINSEGWGEFHVNGGSVSIYVQ  511
+
+
+> sp|P00692|AMY_BACAM Alpha-amylase OS=Bacillus amyloliquefaciens 
+OX=1390 PE=1 SV=1
+Length=514
+
+ Score = 145 bits (367),  Expect = 3e-41, Method: Composition-based stats.
+ Identities = 71/89 (80%), Positives = 78/89 (88%), Gaps = 0/89 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYG QHDY DH D++GWTREGDSS A SGLAALITDGPGG+KRMY G +NAGETW+DIT
+Sbjct  425  YAYGPQHDYIDHPDVIGWTREGDSSAAKSGLAALITDGPGGSKRMYAGLKNAGETWYDIT  484
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYVQ  89
+            GNRS+ V I S+GWGEFHVN GSVSIYVQ
+Sbjct  485  GNRSDTVKIGSDGWGEFHVNDGSVSIYVQ  513
+
+
+> sp|P06279|AMY_GEOSE Alpha-amylase OS=Geobacillus stearothermophilus 
+OX=1422 GN=amyS PE=1 SV=3
+Length=549
+
+ Score = 145 bits (365),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 62/88 (70%), Positives = 75/88 (85%), Gaps = 0/88 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYG QHDY DH DI+GWTREG +    SGLAALITDGPGG+K MYVG+Q+AG+ ++D+T
+Sbjct  428  YAYGTQHDYLDHSDIIGWTREGVTEKPGSGLAALITDGPGGSKWMYVGKQHAGKVFYDLT  487
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNRS+ V INS+GWGEF VNGGSVS++V
+Sbjct  488  GNRSDTVTINSDGWGEFKVNGGSVSVWV  515
+
+
+> sp|P26612|AMY2_ECOLI Cytoplasmic alpha-amylase OS=Escherichia 
+coli (strain K12) OX=83333 GN=amyA PE=1 SV=3
+Length=495
+
+ Score = 139 bits (351),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 31/88 (35%), Positives = 49/88 (56%), Gaps = 2/88 (2%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            +A+G Q  +FDH + + ++R G       G   ++++G  G K +++G     +TW D  
+Sbjct  405  FAHGVQTLFFDHPNCIAFSRSGTDEF--PGCVVVMSNGDDGEKTIHLGENYGNKTWRDFL  462
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNR E VV +  G   F  NGGSVS++V
+Sbjct  463  GNRQERVVTDENGEATFFCNGGSVSVWV  490
+
+
+> sp|P19571|AMT6_BACS7 Glucan 1,4-alpha-maltohexaosidase OS=Bacillus 
+sp. (strain 707) OX=1416 PE=1 SV=1
+Length=518
+
+ Score = 139 bits (351),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 56/88 (64%), Positives = 72/88 (82%), Gaps = 0/88 (0%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            YAYG Q+DY DHH+I+GWTREG+++  NSGLA +++DG GG+K M+VGR  AG+ W DIT
+Sbjct  429  YAYGKQNDYLDHHNIIGWTREGNTAHPNSGLATIMSDGAGGSKWMFVGRNKAGQVWSDIT  488
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNR+  V IN++GWG F VNGGSVSI+V
+Sbjct  489  GNRTGTVTINADGWGNFSVNGGSVSIWV  516
+
+
+> sp|P26613|AMY2_SALTY Cytoplasmic alpha-amylase OS=Salmonella 
+typhimurium (strain LT2 / SGSC1412 / ATCC 700720) OX=99287 GN=amyA 
+PE=3 SV=3
+Length=494
+
+ Score = 138 bits (348),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 33/88 (38%), Positives = 50/88 (57%), Gaps = 2/88 (2%)
+
+Query  1    YAYGAQHDYFDHHDIVGWTREGDSSVANSGLAALITDGPGGAKRMYVGRQNAGETWHDIT  60
+            +A+G Q  +FDH + + ++R G     N G   ++++G  G K + +G   A +TW D  
+Sbjct  405  FAHGIQTLFFDHPNCIAFSRSGTEE--NPGCVVVLSNGDDGEKTLLLGDNYANKTWRDFL  462
+
+Query  61   GNRSEPVVINSEGWGEFHVNGGSVSIYV  88
+            GNR E VV N +G   F  N GSVS++V
+Sbjct  463  GNRDEYVVTNDQGEATFFCNAGSVSVWV  490
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.140    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5003987370
+
+Search has CONVERGED!
+
+
+  Database: uniprot_sprot.fasta
+    Posted date:  Mar 8, 2018  2:51 PM
+  Number of letters in database: 199,652,254
+  Number of sequences in database:  556,825
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
