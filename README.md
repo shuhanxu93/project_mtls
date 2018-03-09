@@ -8,7 +8,7 @@ Hi John, David and Marco, for this week's submission:
 The file ./scripts/train.py trains the model using window size of 17 and save the model as ./models/model.pkl.
 This step has already been done.
 
-The file ./scripts/predict.py predicts the secondary structures of the proteins in ./datasets/test.fasta using window size of 17 and output the results on screen and also in the fasta file ./outputs/predictions.fasta.
+The file ./scripts/predict.py predicts the secondary structures of the proteins in ./datasets/test.fasta using window size of 17 and outputs the results on screen and also in the fasta file ./outputs/predictions.fasta.
 ```
 
 
