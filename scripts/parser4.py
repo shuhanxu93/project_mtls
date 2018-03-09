@@ -2,8 +2,7 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GroupKFold
-from sklearn.model_selection import GridSearchCV
-import pandas as pd
+from sklearn.model_selection import cross_val_score
 
 np.set_printoptions(threshold=np.nan)
 
@@ -23,19 +22,14 @@ def main(dataset_file, window_size):
     y_train_encoded = encode_targets(y_train)
 
 
-    svc = svm.SVC(kernel='rbf', cache_size=5000)
-    C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
-    gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
-    parameters = {'C':C_range, 'gamma':gamma_range}
+    clf = svm.SVC(cache_size=5000)
     group_kfold = GroupKFold(n_splits=5)
+    scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), cv=group_kfold, n_jobs=-1, verbose=2)
 
-    clf = GridSearchCV(svc, parameters, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
+    print(scores)
 
+    print(np.mean(scores))
 
-    clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
-
-    df = pd.DataFrame(clf.cv_results_)
-    df.to_csv('../results/grid_19_none.csv', sep='\t', encoding='utf-8')
 
 
 
@@ -138,4 +132,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 19)
+    main('../datasets/cas3.3line.txt', 17)

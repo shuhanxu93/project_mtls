@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 from matplotlib import ticker, cm
 import pandas as pd
 
-df = pd.read_csv('../results/svm_rbf/grid_rbf_17_none.csv', sep='\t', encoding='utf-8')
+df = pd.read_csv('../results/svm_rbf/grid_rbf_15_none.csv', sep='\t', encoding='utf-8')
 
 df2 = pd.pivot_table(df, values='mean_test_score', index='param_gamma', columns='param_C')
 
-# print(df2)
+print(df2)
 
 
 x = df2.columns.values

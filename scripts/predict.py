@@ -5,7 +5,7 @@ from sklearn.externals import joblib
 np.set_printoptions(threshold=np.nan)
 
 
-def main(query_file, model_file, window_size):
+def main(query_file, model_file, output_file, window_size):
 
 
     # parsing file
@@ -14,6 +14,8 @@ def main(query_file, model_file, window_size):
     # load model
     clf = joblib.load(model_file)
 
+    writefile = open(output_file, 'w')
+
     for index in range(len(ids)):
         name = ids[index]
         sequence = [seq[index]]
@@ -21,24 +23,17 @@ def main(query_file, model_file, window_size):
         sequence_encoded = encode_attributes(sequence_fragmented)
         prediction = clf.predict(sequence_encoded)
         structure = ''.join(structure_name[prediction])
+        writefile.write('>' + name + '\n')
+        writefile.write(''.join(sequence) + '\n')
+        writefile.write(structure + '\n')
         print('>' + name)
-        print(*sequence)
+        print(''.join(sequence))
         print(structure)
 
+    writefile.close()
 
 
 
-
-    '''
-    # fragment X_train into sliding windows and get group labels
-    X_train_fragmented, train_groups = fragment(X_train, window_size)
-
-    X_train_encoded = encode_attributes(X_train_fragmented)
-    y_train_encoded = encode_targets(y_train)
-
-
-    clf = svm.SVC(cache_size=5000)
-    '''
 
 
 
@@ -139,4 +134,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/test.fasta', '../models/model.pkl', 17)
+    main('../datasets/test.fasta', '../models/model.pkl', '../outputs/predictions.txt', 17)
