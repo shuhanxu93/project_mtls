@@ -33,7 +33,7 @@ def main(dataset_file, window_size):
     clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
 
     df = pd.DataFrame(clf.cv_results_)
-    df.to_csv('../results/grid_17_none.csv', sep='\t', encoding='utf-8')
+    df.to_csv('../results/grid_19_none.csv', sep='\t', encoding='utf-8')
 
 
 
@@ -136,4 +136,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 17)
+    main('../datasets/cas3.3line.txt', 19)
