@@ -33,7 +33,7 @@ def main(dataset_file):
     group_kfold = GroupKFold(n_splits=5)
     scoring = ['accuracy', 'f1_macro']
 
-    clf = GridSearchCV(svc, parameters, scoring=scoring, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
+    clf = GridSearchCV(svc, parameters, scoring=scoring, n_jobs=-1, refit=False, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
     test_windows = [21, 23]
 
