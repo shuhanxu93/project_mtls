@@ -23,8 +23,8 @@ other refinements", Nucleic Acids Res. 29:2994-3005.
 
 
 
-Database: uniprot_sprot.fasta
-           556,825 sequences; 199,652,254 total letters
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
 
 Results from round 1
 
@@ -35,20 +35,19 @@ Length=25
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  sp|P04090|REL2_HUMAN Prorelaxin H2 OS=Homo sapiens OX=9606 GN=R...  55.1    2e-10
-  sp|P51454|REL1_PANTR Prorelaxin H1 (Fragment) OS=Pan troglodyte...  54.3    3e-10
-  sp|P51455|REL2_PANTR Prorelaxin H2 (Fragment) OS=Pan troglodyte...  50.8    5e-09
-  sp|P04808|REL1_HUMAN Prorelaxin H1 OS=Homo sapiens OX=9606 GN=R...  48.9    3e-08
-  sp|P19884|RELX_MACMU Prorelaxin OS=Macaca mulatta OX=9544 GN=RL...  46.2    3e-07
-  sp|P51453|RELX_CAVPO Prorelaxin (Fragment) OS=Cavia porcellus O...  35.0    0.005
-  sp|Q9MYK8|RELX_FELCA Prorelaxin OS=Felis catus OX=9685 GN=RLN P...  34.7    0.007
+  UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437...  55.1    9e-09
+  UniRef50_P04090-2 Isoform 2 of Prorelaxin H2 n=8 Tax=Homininae ...  54.3    1e-08
+  UniRef50_G5B6S7 Prorelaxin n=5 Tax=Euarchontoglires TaxID=31414...  45.8    2e-05
+  UniRef50_A0A1U7TKE5 uncharacterized protein LOC103261068 n=1 Ta...  44.7    2e-04
+  UniRef50_UPI0004D04774 prorelaxin H2-like n=1 Tax=Galeopterus v...  42.0    3e-04
+  UniRef50_Q28780 Relaxin (Fragment) n=2 Tax=root TaxID=1 RepID=Q...  40.4    6e-04
 
 
-> sp|P04090|REL2_HUMAN Prorelaxin H2 OS=Homo sapiens OX=9606 GN=RLN2 
-PE=1 SV=1
+> UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437010 
+RepID=REL2_HUMAN
 Length=185
 
- Score = 55.1 bits (131),  Expect = 2e-10, Method: Composition-based stats.
+ Score = 55.1 bits (131),  Expect = 9e-09, Method: Composition-based stats.
  Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
 
 Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
@@ -56,76 +55,63 @@ Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
 Sbjct  26  SWMEEVIKLCGRELVRAQIAICGMS  50
 
 
-> sp|P51454|REL1_PANTR Prorelaxin H1 (Fragment) OS=Pan troglodytes 
-OX=9598 GN=RNL1 PE=2 SV=1
-Length=166
+> UniRef50_P04090-2 Isoform 2 of Prorelaxin H2 n=8 Tax=Homininae 
+TaxID=207598 RepID=P04090-2
+Length=117
 
- Score = 54.3 bits (129),  Expect = 3e-10, Method: Composition-based stats.
- Identities = 24/25 (96%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
-
-Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
-           SWM+EVIKLCGRELVRAQIAICGMS
-Sbjct  7   SWMDEVIKLCGRELVRAQIAICGMS  31
-
-
-> sp|P51455|REL2_PANTR Prorelaxin H2 (Fragment) OS=Pan troglodytes 
-OX=9598 GN=RNL2 PE=2 SV=1
-Length=166
-
- Score = 50.8 bits (120),  Expect = 5e-09, Method: Composition-based stats.
- Identities = 23/25 (92%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
 
 Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
-           SWM+EVIKLCGRELVRAQIAICG S
-Sbjct  7   SWMDEVIKLCGRELVRAQIAICGKS  31
+           SWMEEVIKLCGRELVRAQIAICGMS
+Sbjct  26  SWMEEVIKLCGRELVRAQIAICGMS  50
 
 
-> sp|P04808|REL1_HUMAN Prorelaxin H1 OS=Homo sapiens OX=9606 GN=RLN1 
-PE=1 SV=1
-Length=185
+> UniRef50_G5B6S7 Prorelaxin n=5 Tax=Euarchontoglires TaxID=314146 
+RepID=G5B6S7_HETGA
+Length=186
 
- Score = 48.9 bits (115),  Expect = 3e-08, Method: Composition-based stats.
- Identities = 21/24 (88%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
-
-Query  2   WMEEVIKLCGRELVRAQIAICGMS  25
-           W ++VIKLCGRELVRAQIAICGMS
-Sbjct  27  WKDDVIKLCGRELVRAQIAICGMS  50
-
-
-> sp|P19884|RELX_MACMU Prorelaxin OS=Macaca mulatta OX=9544 GN=RLN 
-PE=3 SV=1
-Length=185
-
- Score = 46.2 bits (108),  Expect = 3e-07, Method: Composition-based stats.
- Identities = 20/24 (83%), Positives = 22/24 (92%), Gaps = 0/24 (0%)
-
-Query  2   WMEEVIKLCGRELVRAQIAICGMS  25
-           WM++VIK CGRELVRAQIAICG S
-Sbjct  27  WMDDVIKACGRELVRAQIAICGKS  50
-
-
-> sp|P51453|RELX_CAVPO Prorelaxin (Fragment) OS=Cavia porcellus 
-OX=10141 GN=RLN PE=2 SV=1
-Length=160
-
- Score = 35.0 bits (79),  Expect = 0.005, Method: Compositional matrix adjust.
- Identities = 13/22 (59%), Positives = 20/22 (91%), Gaps = 0/22 (0%)
+ Score = 45.8 bits (107),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/22 (86%), Positives = 21/22 (95%), Gaps = 0/22 (0%)
 
 Query  2   WMEEVIKLCGRELVRAQIAICG  23
-           ++++VIK+CGR+LVR +I ICG
-Sbjct  2   FLDKVIKVCGRDLVRIKIDICG  23
+           W++EVIKLCGRELVRAQI ICG
+Sbjct  28  WLDEVIKLCGRELVRAQIDICG  49
 
 
-> sp|Q9MYK8|RELX_FELCA Prorelaxin OS=Felis catus OX=9685 GN=RLN 
-PE=2 SV=1
-Length=180
+> UniRef50_A0A1U7TKE5 uncharacterized protein LOC103261068 n=1 
+Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7TKE5_TARSY
+Length=348
 
- Score = 34.7 bits (78),  Expect = 0.007, Method: Compositional matrix adjust.
- Identities = 15/21 (71%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+ Score = 44.7 bits (104),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 19/25 (76%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
 
-Query  3   MEEVIKLCGRELVRAQIAICG  23
-            EEV+K CGRE VR QI ICG
-Sbjct  26  QEEVLKACGREFVRLQIRICG  46
+Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
+           SWM+EVIK CGREL+R QI ICG S
+Sbjct  26  SWMDEVIKACGRELIRVQIDICGRS  50
+
+
+> UniRef50_UPI0004D04774 prorelaxin H2-like n=1 Tax=Galeopterus 
+variegatus TaxID=482537 RepID=UPI0004D04774
+Length=126
+
+ Score = 42.0 bits (97),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 18/21 (86%), Positives = 20/21 (95%), Gaps = 0/21 (0%)
+
+Query  2   WMEEVIKLCGRELVRAQIAIC  22
+           WM+EVIKLCGRELVRA+I IC
+Sbjct  27  WMDEVIKLCGRELVRAEIDIC  47
+
+
+> UniRef50_Q28780 Relaxin (Fragment) n=2 Tax=root TaxID=1 RepID=Q28780_PAPHA
+Length=24
+
+ Score = 40.4 bits (93),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 18/23 (78%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  1   SWMEEVIKLCGRELVRAQIAICG  23
+            W E+VIKLC RELVR QIAICG
+Sbjct  2   KWKEDVIKLCSRELVRTQIAICG  24
 
 
 
@@ -136,7 +122,7 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 4991306350
+Effective search space used: 237337617950
 Results from round 2
 
 
@@ -147,33 +133,22 @@ Length=25
 Sequences producing significant alignments:                          (Bits)  Value
 Sequences used in model and found again:
 
-  sp|P51454|REL1_PANTR Prorelaxin H1 (Fragment) OS=Pan troglodyte...  51.5    4e-09
-  sp|P04090|REL2_HUMAN Prorelaxin H2 OS=Homo sapiens OX=9606 GN=R...  50.3    1e-08
-  sp|P51455|REL2_PANTR Prorelaxin H2 (Fragment) OS=Pan troglodyte...  49.2    2e-08
-  sp|P04808|REL1_HUMAN Prorelaxin H1 OS=Homo sapiens OX=9606 GN=R...  49.2    2e-08
-  sp|P19884|RELX_MACMU Prorelaxin OS=Macaca mulatta OX=9544 GN=RL...  48.0    8e-08
+  UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437...  50.0    6e-07
+  UniRef50_P04090-2 Isoform 2 of Prorelaxin H2 n=8 Tax=Homininae ...  49.6    7e-07
+  UniRef50_A0A1U7TKE5 uncharacterized protein LOC103261068 n=1 Ta...  49.2    4e-06
+  UniRef50_G5B6S7 Prorelaxin n=5 Tax=Euarchontoglires TaxID=31414...  47.7    5e-06
+  UniRef50_UPI0004D04774 prorelaxin H2-like n=1 Tax=Galeopterus v...  43.8    7e-05
 
 Sequences not found previously or not previously below threshold:
 
+  UniRef50_A0A1U7TUX4 uncharacterized protein LOC103261067 n=1 Ta...  44.2    3e-04
 
 
-> sp|P51454|REL1_PANTR Prorelaxin H1 (Fragment) OS=Pan troglodytes 
-OX=9598 GN=RNL1 PE=2 SV=1
-Length=166
-
- Score = 51.5 bits (122),  Expect = 4e-09, Method: Composition-based stats.
- Identities = 24/25 (96%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
-
-Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
-           SWM+EVIKLCGRELVRAQIAICGMS
-Sbjct  7   SWMDEVIKLCGRELVRAQIAICGMS  31
-
-
-> sp|P04090|REL2_HUMAN Prorelaxin H2 OS=Homo sapiens OX=9606 GN=RLN2 
-PE=1 SV=1
+> UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437010 
+RepID=REL2_HUMAN
 Length=185
 
- Score = 50.3 bits (119),  Expect = 1e-08, Method: Composition-based stats.
+ Score = 50.0 bits (118),  Expect = 6e-07, Method: Composition-based stats.
  Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
 
 Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
@@ -181,59 +156,196 @@ Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
 Sbjct  26  SWMEEVIKLCGRELVRAQIAICGMS  50
 
 
-> sp|P51455|REL2_PANTR Prorelaxin H2 (Fragment) OS=Pan troglodytes 
-OX=9598 GN=RNL2 PE=2 SV=1
-Length=166
+> UniRef50_P04090-2 Isoform 2 of Prorelaxin H2 n=8 Tax=Homininae 
+TaxID=207598 RepID=P04090-2
+Length=117
 
- Score = 49.2 bits (116),  Expect = 2e-08, Method: Composition-based stats.
- Identities = 23/25 (92%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+ Score = 49.6 bits (117),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
 
 Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
-           SWM+EVIKLCGRELVRAQIAICG S
-Sbjct  7   SWMDEVIKLCGRELVRAQIAICGKS  31
+           SWMEEVIKLCGRELVRAQIAICGMS
+Sbjct  26  SWMEEVIKLCGRELVRAQIAICGMS  50
 
 
-> sp|P04808|REL1_HUMAN Prorelaxin H1 OS=Homo sapiens OX=9606 GN=RLN1 
-PE=1 SV=1
-Length=185
+> UniRef50_A0A1U7TKE5 uncharacterized protein LOC103261068 n=1 
+Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7TKE5_TARSY
+Length=348
 
- Score = 49.2 bits (116),  Expect = 2e-08, Method: Composition-based stats.
- Identities = 21/24 (88%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+ Score = 49.2 bits (116),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/25 (76%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
 
-Query  2   WMEEVIKLCGRELVRAQIAICGMS  25
-           W ++VIKLCGRELVRAQIAICGMS
-Sbjct  27  WKDDVIKLCGRELVRAQIAICGMS  50
+Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
+           SWM+EVIK CGREL+R QI ICG S
+Sbjct  26  SWMDEVIKACGRELIRVQIDICGRS  50
 
 
-> sp|P19884|RELX_MACMU Prorelaxin OS=Macaca mulatta OX=9544 GN=RLN 
-PE=3 SV=1
-Length=185
+> UniRef50_G5B6S7 Prorelaxin n=5 Tax=Euarchontoglires TaxID=314146 
+RepID=G5B6S7_HETGA
+Length=186
 
- Score = 48.0 bits (113),  Expect = 8e-08, Method: Composition-based stats.
- Identities = 20/24 (83%), Positives = 22/24 (92%), Gaps = 0/24 (0%)
+ Score = 47.7 bits (112),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 19/23 (83%), Positives = 21/23 (91%), Gaps = 0/23 (0%)
 
-Query  2   WMEEVIKLCGRELVRAQIAICGMS  25
-           WM++VIK CGRELVRAQIAICG S
-Sbjct  27  WMDDVIKACGRELVRAQIAICGKS  50
+Query  2   WMEEVIKLCGRELVRAQIAICGM  24
+           W++EVIKLCGRELVRAQI ICG 
+Sbjct  28  WLDEVIKLCGRELVRAQIDICGK  50
+
+
+> UniRef50_UPI0004D04774 prorelaxin H2-like n=1 Tax=Galeopterus 
+variegatus TaxID=482537 RepID=UPI0004D04774
+Length=126
+
+ Score = 43.8 bits (102),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 20/21 (95%), Gaps = 0/21 (0%)
+
+Query  2   WMEEVIKLCGRELVRAQIAIC  22
+           WM+EVIKLCGRELVRA+I IC
+Sbjct  27  WMDEVIKLCGRELVRAEIDIC  47
+
+
+> UniRef50_A0A1U7TUX4 uncharacterized protein LOC103261067 n=1 
+Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7TUX4_TARSY
+Length=390
+
+ Score = 44.2 bits (103),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 16/23 (70%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  3    MEEVIKLCGRELVRAQIAICGMS  25
+            M EVIK CGR+L+RAQI +CG S
+Sbjct  83   MNEVIKACGRDLIRAQIDVCGRS  105
 
 
 
 Lambda      K        H        a         alpha
-   0.330    0.145    0.487    0.792     4.96 
+   0.323    0.142    0.475    0.792     4.96 
 
 Gapped
 Lambda      K        H        a         alpha    sigma
-   0.267   0.0426    0.140     1.90     42.6     43.6 
+   0.267   0.0425    0.140     1.90     42.6     43.6 
 
-Effective search space used: 4991306350
+Effective search space used: 237337617950
+Results from round 3
 
-Search has CONVERGED!
+
+Query= 6rlxd-1-DOMAK
+
+Length=25
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437...  48.8    2e-06
+  UniRef50_A0A1U7TKE5 uncharacterized protein LOC103261068 n=1 Ta...  50.3    2e-06
+  UniRef50_P04090-2 Isoform 2 of Prorelaxin H2 n=8 Tax=Homininae ...  48.0    2e-06
+  UniRef50_G5B6S7 Prorelaxin n=5 Tax=Euarchontoglires TaxID=31414...  48.0    4e-06
+  UniRef50_A0A1U7TUX4 uncharacterized protein LOC103261067 n=1 Ta...  47.6    2e-05
+  UniRef50_UPI0004D04774 prorelaxin H2-like n=1 Tax=Galeopterus v...  43.8    7e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_UPI00038EA988 prorelaxin-like n=1 Tax=Chinchilla lanig...  41.4    0.001
 
 
-  Database: uniprot_sprot.fasta
-    Posted date:  Mar 8, 2018  2:51 PM
-  Number of letters in database: 199,652,254
-  Number of sequences in database:  556,825
+> UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437010 
+RepID=REL2_HUMAN
+Length=185
+
+ Score = 48.8 bits (115),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
+
+Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
+           SWMEEVIKLCGRELVRAQIAICGMS
+Sbjct  26  SWMEEVIKLCGRELVRAQIAICGMS  50
+
+
+> UniRef50_A0A1U7TKE5 uncharacterized protein LOC103261068 n=1 
+Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7TKE5_TARSY
+Length=348
+
+ Score = 50.3 bits (119),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 19/25 (76%), Positives = 21/25 (84%), Gaps = 0/25 (0%)
+
+Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
+           SWM+EVIK CGREL+R QI ICG S
+Sbjct  26  SWMDEVIKACGRELIRVQIDICGRS  50
+
+
+> UniRef50_P04090-2 Isoform 2 of Prorelaxin H2 n=8 Tax=Homininae 
+TaxID=207598 RepID=P04090-2
+Length=117
+
+ Score = 48.0 bits (113),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 25/25 (100%), Positives = 25/25 (100%), Gaps = 0/25 (0%)
+
+Query  1   SWMEEVIKLCGRELVRAQIAICGMS  25
+           SWMEEVIKLCGRELVRAQIAICGMS
+Sbjct  26  SWMEEVIKLCGRELVRAQIAICGMS  50
+
+
+> UniRef50_G5B6S7 Prorelaxin n=5 Tax=Euarchontoglires TaxID=314146 
+RepID=G5B6S7_HETGA
+Length=186
+
+ Score = 48.0 bits (113),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/23 (83%), Positives = 21/23 (91%), Gaps = 0/23 (0%)
+
+Query  2   WMEEVIKLCGRELVRAQIAICGM  24
+           W++EVIKLCGRELVRAQI ICG 
+Sbjct  28  WLDEVIKLCGRELVRAQIDICGK  50
+
+
+> UniRef50_A0A1U7TUX4 uncharacterized protein LOC103261067 n=1 
+Tax=Tarsius syrichta TaxID=1868482 RepID=A0A1U7TUX4_TARSY
+Length=390
+
+ Score = 47.6 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 16/23 (70%), Positives = 19/23 (83%), Gaps = 0/23 (0%)
+
+Query  3    MEEVIKLCGRELVRAQIAICGMS  25
+            M EVIK CGR+L+RAQI +CG S
+Sbjct  83   MNEVIKACGRDLIRAQIDVCGRS  105
+
+
+> UniRef50_UPI0004D04774 prorelaxin H2-like n=1 Tax=Galeopterus 
+variegatus TaxID=482537 RepID=UPI0004D04774
+Length=126
+
+ Score = 43.8 bits (102),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 18/21 (86%), Positives = 20/21 (95%), Gaps = 0/21 (0%)
+
+Query  2   WMEEVIKLCGRELVRAQIAIC  22
+           WM+EVIKLCGRELVRA+I IC
+Sbjct  27  WMDEVIKLCGRELVRAEIDIC  47
+
+
+> UniRef50_UPI00038EA988 prorelaxin-like n=1 Tax=Chinchilla lanigera 
+TaxID=34839 RepID=UPI00038EA988
+Length=175
+
+ Score = 41.4 bits (96),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/23 (74%), Positives = 20/23 (87%), Gaps = 0/23 (0%)
+
+Query  2   WMEEVIKLCGRELVRAQIAICGM  24
+           W++EV KLCGRELVRA+I ICG 
+Sbjct  27  WLDEVTKLCGRELVRARIEICGK  49
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.148    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0430    0.140     1.90     42.6     43.6 
+
+Effective search space used: 237337617950
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
 
 
 

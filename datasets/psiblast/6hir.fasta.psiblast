@@ -23,8 +23,8 @@ other refinements", Nucleic Acids Res. 29:2994-3005.
 
 
 
-Database: uniprot_sprot.fasta
-           556,825 sequences; 199,652,254 total letters
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
 
 Results from round 1
 
@@ -35,31 +35,16 @@ Length=49
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  sp|P01050|HIRV1_HIRME Hirudin variant-1 OS=Hirudo medicinalis O...  97.1    9e-27
-  sp|P84590|HIRUD_POEVI Hirudin OS=Poecilobdella viridis OX=33543...  95.1    4e-26
-  sp|P28511|HIR3C_HIRME Hirudin-3B' OS=Hirudo medicinalis OX=6421...  94.0    1e-25
-  sp|P28509|HIR3_HIRME Hirudin-3 OS=Hirudo medicinalis OX=6421 PE...  93.2    3e-25
-  sp|P28508|HIR3P_HIRME Hirudin-3A' OS=Hirudo medicinalis OX=6421...  92.0    8e-25
-  sp|P28510|HIR3B_HIRME Hirudin-3B OS=Hirudo medicinalis OX=6421 ...  92.0    9e-25
-  sp|P28507|HIR3A_HIRME Hirudin-3A OS=Hirudo medicinalis OX=6421 ...  91.7    1e-24
-  sp|P28506|HIR2B_HIRME Hirudin-2B OS=Hirudo medicinalis OX=6421 ...  90.5    4e-24
-  sp|P28503|HIR2A_HIRME Hirudin-2A OS=Hirudo medicinalis OX=6421 ...  89.0    1e-23
-  sp|P28504|HIR2_HIRME Hirudin-2 OS=Hirudo medicinalis OX=6421 PE...  89.0    1e-23
-  sp|P09944|HIRPA_HIRME Hirudin-PA OS=Hirudo medicinalis OX=6421 ...  88.2    3e-23
-  sp|P28505|HIR2P_HIRME Hirudin-2' OS=Hirudo medicinalis OX=6421 ...  87.4    5e-23
-  sp|P09945|HIRV2_HIRME Hirudin variant-2 (Fragment) OS=Hirudo me...  86.3    2e-22
-  sp|P81492|HIRM2_POEMA Hirudin-HM2 OS=Poecilobdella manillensis ...  67.4    4e-15
-  sp|Q07558|HIRM1_POEMA Hirudin-HM1 OS=Poecilobdella manillensis ...  60.8    1e-12
-  sp|P28512|HIRP6_POEMA Hirudin-P6 OS=Poecilobdella manillensis O...  58.2    1e-11
-  sp|P26631|HIR18_POEMA Hirullin-P18 OS=Poecilobdella manillensis...  50.8    5e-09
-  sp|P28502|HIR1A_HIRME Hirudin-1A (Fragment) OS=Hirudo medicinal...  37.7    4e-04
+  UniRef50_P01050 Hirudin variant-1 n=15 Tax=Hirudinidae TaxID=64...  97.1    4e-25
+  UniRef50_P09945 Hirudin variant-2 (Fragment) n=14 Tax=Hirudinid...  86.3    7e-21
+  UniRef50_P81492 Hirudin-HM2 n=21 Tax=Hirudinidae TaxID=6417 Rep...  67.4    2e-13
 
 
-> sp|P01050|HIRV1_HIRME Hirudin variant-1 OS=Hirudo medicinalis 
-OX=6421 PE=1 SV=1
+> UniRef50_P01050 Hirudin variant-1 n=15 Tax=Hirudinidae TaxID=6417 
+RepID=HIRV1_HIRME
 Length=65
 
- Score = 97.1 bits (240),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Score = 97.1 bits (240),  Expect = 4e-25, Method: Compositional matrix adjust.
  Identities = 48/49 (98%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
 
 Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
@@ -67,143 +52,11 @@ Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
 Sbjct  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQ  49
 
 
-> sp|P84590|HIRUD_POEVI Hirudin OS=Poecilobdella viridis OX=335439 
-PE=1 SV=1
-Length=63
-
- Score = 95.1 bits (235),  Expect = 4e-26, Method: Compositional matrix adjust.
- Identities = 48/49 (98%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTP PQ
-Sbjct  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPGPQ  49
-
-
-> sp|P28511|HIR3C_HIRME Hirudin-3B' OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 94.0 bits (232),  Expect = 1e-25, Method: Compositional matrix adjust.
- Identities = 46/49 (94%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLC+GSNVCGQGNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCQGSNVCGQGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28509|HIR3_HIRME Hirudin-3 OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 93.2 bits (230),  Expect = 3e-25, Method: Compositional matrix adjust.
- Identities = 46/49 (94%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLCE SNVCGQGNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCEDSNVCGQGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28508|HIR3P_HIRME Hirudin-3A' OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 92.0 bits (227),  Expect = 8e-25, Method: Compositional matrix adjust.
- Identities = 44/49 (90%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESG++LCLCEGSNVCG+GNKCILGSDGEKN+CVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGEDLCLCEGSNVCGEGNKCILGSDGEKNECVTGEGTPKPQ  49
-
-
-> sp|P28510|HIR3B_HIRME Hirudin-3B OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 92.0 bits (227),  Expect = 9e-25, Method: Compositional matrix adjust.
- Identities = 45/49 (92%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLC+ SNVCGQGNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCQDSNVCGQGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28507|HIR3A_HIRME Hirudin-3A OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 91.7 bits (226),  Expect = 1e-24, Method: Compositional matrix adjust.
- Identities = 45/49 (92%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLCE SNVCG+GNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCEDSNVCGEGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28506|HIR2B_HIRME Hirudin-2B OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 90.5 bits (223),  Expect = 4e-24, Method: Compositional matrix adjust.
- Identities = 43/49 (88%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQNLCLCEGSNVCG+GNKCILGS+GE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQNLCLCEGSNVCGKGNKCILGSNGEENQCVTGEGTPKPQ  49
-
-
-> sp|P28503|HIR2A_HIRME Hirudin-2A OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 89.0 bits (219),  Expect = 1e-23, Method: Compositional matrix adjust.
- Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQNLCLCEGSNVCG GNKC LGSDGE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQNLCLCEGSNVCGNGNKCKLGSDGEENQCVTGEGTPKPQ  49
-
-
-> sp|P28504|HIR2_HIRME Hirudin-2 OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 89.0 bits (219),  Expect = 1e-23, Method: Compositional matrix adjust.
- Identities = 42/49 (86%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQ+LCLCEGSNVCG+GNKCILGS+GE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQDLCLCEGSNVCGKGNKCILGSNGEENQCVTGEGTPKPQ  49
-
-
-> sp|P09944|HIRPA_HIRME Hirudin-PA OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=66
-
- Score = 88.2 bits (217),  Expect = 3e-23, Method: Compositional matrix adjust.
- Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQNLCLCEGSNVCG+GNKCILGS G+ NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQNLCLCEGSNVCGKGNKCILGSQGKDNQCVTGEGTPKPQ  49
-
-
-> sp|P28505|HIR2P_HIRME Hirudin-2' OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 87.4 bits (215),  Expect = 5e-23, Method: Compositional matrix adjust.
- Identities = 41/49 (84%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQ+LCLCEGS+VCG+GNKCILGS+GE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQDLCLCEGSDVCGKGNKCILGSNGEENQCVTGEGTPKPQ  49
-
-
-> sp|P09945|HIRV2_HIRME Hirudin variant-2 (Fragment) OS=Hirudo 
-medicinalis OX=6421 PE=1 SV=1
+> UniRef50_P09945 Hirudin variant-2 (Fragment) n=14 Tax=Hirudinidae 
+TaxID=6417 RepID=HIRV2_HIRME
 Length=72
 
- Score = 86.3 bits (212),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Score = 86.3 bits (212),  Expect = 7e-21, Method: Compositional matrix adjust.
  Identities = 41/49 (84%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
 
 Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
@@ -211,64 +64,15 @@ Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
 Sbjct  8   ITYTDCTESGQNLCLCEGSNVCGKGNKCILGSNGKGNQCVTGEGTPNPE  56
 
 
-> sp|P81492|HIRM2_POEMA Hirudin-HM2 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=2
+> UniRef50_P81492 Hirudin-HM2 n=21 Tax=Hirudinidae TaxID=6417 RepID=HIRM2_POEMA
 Length=84
 
- Score = 67.4 bits (163),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Score = 67.4 bits (163),  Expect = 2e-13, Method: Compositional matrix adjust.
  Identities = 35/49 (71%), Positives = 38/49 (78%), Gaps = 2/49 (4%)
 
 Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
            V YTDCTESGQN CLC GSNVCG+G  C L S G  NQCV GEGTP+P+
 Sbjct  21  VSYTDCTESGQNYCLCVGSNVCGEGKNCQLSSSG--NQCVHGEGTPKPK  67
-
-
-> sp|Q07558|HIRM1_POEMA Hirudin-HM1 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=1
-Length=84
-
- Score = 60.8 bits (146),  Expect = 1e-12, Method: Compositional matrix adjust.
- Identities = 31/49 (63%), Positives = 36/49 (73%), Gaps = 2/49 (4%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           V YTDCTESGQN CLC G N+CG G  C +  DG  N+CV GEGTP+P+
-Sbjct  21  VSYTDCTESGQNYCLCVGGNLCGGGKHCEM--DGSGNKCVDGEGTPKPK  67
-
-
-> sp|P28512|HIRP6_POEMA Hirudin-P6 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=1
-Length=63
-
- Score = 58.2 bits (139),  Expect = 1e-11, Method: Compositional matrix adjust.
- Identities = 30/49 (61%), Positives = 36/49 (73%), Gaps = 2/49 (4%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YT CTESGQN C+CEG++VCGQG  C   S G+K  CV GEGT +PQ
-Sbjct  1   MRYTACTESGQNQCICEGNDVCGQGRNCQFDSSGKK--CVEGEGTRKPQ  47
-
-
-> sp|P26631|HIR18_POEMA Hirullin-P18 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=1
-Length=62
-
- Score = 50.8 bits (120),  Expect = 5e-09, Method: Compositional matrix adjust.
- Identities = 30/49 (61%), Positives = 34/49 (69%), Gaps = 4/49 (8%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           V YTDCT SGQN CLC G N CG G  C +  DG +N+CV GEGTP+ Q
-Sbjct  1   VSYTDCT-SGQNYCLC-GGNFCGDGKHCEM--DGSENKCVDGEGTPKRQ  45
-
-
-> sp|P28502|HIR1A_HIRME Hirudin-1A (Fragment) OS=Hirudo medicinalis 
-OX=6421 PE=1 SV=1
-Length=17
-
- Score = 37.7 bits (86),  Expect = 4e-04, Method: Compositional matrix adjust.
- Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
-
-Query  1   VVYTDCTESGQNLCLCE  17
-           VVYTDCTESGQNLCLCE
-Sbjct  1   VVYTDCTESGQNLCLCE  17
 
 
 
@@ -279,7 +83,7 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 5059856808
+Effective search space used: 238237824564
 Results from round 2
 
 
@@ -290,33 +94,19 @@ Length=49
 Sequences producing significant alignments:                          (Bits)  Value
 Sequences used in model and found again:
 
-  sp|P01050|HIRV1_HIRME Hirudin variant-1 OS=Hirudo medicinalis O...  74.3    8e-18
-  sp|P28511|HIR3C_HIRME Hirudin-3B' OS=Hirudo medicinalis OX=6421...  72.4    3e-17
-  sp|P28509|HIR3_HIRME Hirudin-3 OS=Hirudo medicinalis OX=6421 PE...  72.4    3e-17
-  sp|P28507|HIR3A_HIRME Hirudin-3A OS=Hirudo medicinalis OX=6421 ...  72.4    4e-17
-  sp|P28506|HIR2B_HIRME Hirudin-2B OS=Hirudo medicinalis OX=6421 ...  72.4    4e-17
-  sp|P09944|HIRPA_HIRME Hirudin-PA OS=Hirudo medicinalis OX=6421 ...  72.0    5e-17
-  sp|P28508|HIR3P_HIRME Hirudin-3A' OS=Hirudo medicinalis OX=6421...  72.0    5e-17
-  sp|P28504|HIR2_HIRME Hirudin-2 OS=Hirudo medicinalis OX=6421 PE...  72.0    6e-17
-  sp|P28510|HIR3B_HIRME Hirudin-3B OS=Hirudo medicinalis OX=6421 ...  72.0    6e-17
-  sp|P28505|HIR2P_HIRME Hirudin-2' OS=Hirudo medicinalis OX=6421 ...  71.6    8e-17
-  sp|P28503|HIR2A_HIRME Hirudin-2A OS=Hirudo medicinalis OX=6421 ...  70.9    1e-16
-  sp|P84590|HIRUD_POEVI Hirudin OS=Poecilobdella viridis OX=33543...  70.5    2e-16
-  sp|P81492|HIRM2_POEMA Hirudin-HM2 OS=Poecilobdella manillensis ...  70.9    2e-16
-  sp|P09945|HIRV2_HIRME Hirudin variant-2 (Fragment) OS=Hirudo me...  70.1    3e-16
-  sp|Q07558|HIRM1_POEMA Hirudin-HM1 OS=Poecilobdella manillensis ...  68.9    1e-15
-  sp|P28512|HIRP6_POEMA Hirudin-P6 OS=Poecilobdella manillensis O...  58.9    6e-12
-  sp|P26631|HIR18_POEMA Hirullin-P18 OS=Poecilobdella manillensis...  50.8    7e-09
+  UniRef50_P01050 Hirudin variant-1 n=15 Tax=Hirudinidae TaxID=64...  71.6    3e-15
+  UniRef50_P09945 Hirudin variant-2 (Fragment) n=14 Tax=Hirudinid...  68.1    1e-13
+  UniRef50_P81492 Hirudin-HM2 n=21 Tax=Hirudinidae TaxID=6417 Rep...  67.7    1e-13
 
 Sequences not found previously or not previously below threshold:
 
 
 
-> sp|P01050|HIRV1_HIRME Hirudin variant-1 OS=Hirudo medicinalis 
-OX=6421 PE=1 SV=1
+> UniRef50_P01050 Hirudin variant-1 n=15 Tax=Hirudinidae TaxID=6417 
+RepID=HIRV1_HIRME
 Length=65
 
- Score = 74.3 bits (181),  Expect = 8e-18, Method: Composition-based stats.
+ Score = 71.6 bits (174),  Expect = 3e-15, Method: Composition-based stats.
  Identities = 48/49 (98%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
 
 Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
@@ -324,155 +114,11 @@ Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
 Sbjct  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPKPQ  49
 
 
-> sp|P28511|HIR3C_HIRME Hirudin-3B' OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 72.4 bits (176),  Expect = 3e-17, Method: Composition-based stats.
- Identities = 46/49 (94%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLC+GSNVCGQGNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCQGSNVCGQGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28509|HIR3_HIRME Hirudin-3 OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 72.4 bits (176),  Expect = 3e-17, Method: Composition-based stats.
- Identities = 46/49 (94%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLCE SNVCGQGNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCEDSNVCGQGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28507|HIR3A_HIRME Hirudin-3A OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 72.4 bits (176),  Expect = 4e-17, Method: Composition-based stats.
- Identities = 45/49 (92%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLCE SNVCG+GNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCEDSNVCGEGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28506|HIR2B_HIRME Hirudin-2B OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 72.4 bits (176),  Expect = 4e-17, Method: Composition-based stats.
- Identities = 43/49 (88%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQNLCLCEGSNVCG+GNKCILGS+GE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQNLCLCEGSNVCGKGNKCILGSNGEENQCVTGEGTPKPQ  49
-
-
-> sp|P09944|HIRPA_HIRME Hirudin-PA OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=66
-
- Score = 72.0 bits (175),  Expect = 5e-17, Method: Composition-based stats.
- Identities = 42/49 (86%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQNLCLCEGSNVCG+GNKCILGS G+ NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQNLCLCEGSNVCGKGNKCILGSQGKDNQCVTGEGTPKPQ  49
-
-
-> sp|P28508|HIR3P_HIRME Hirudin-3A' OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 72.0 bits (175),  Expect = 5e-17, Method: Composition-based stats.
- Identities = 44/49 (90%), Positives = 49/49 (100%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESG++LCLCEGSNVCG+GNKCILGSDGEKN+CVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGEDLCLCEGSNVCGEGNKCILGSDGEKNECVTGEGTPKPQ  49
-
-
-> sp|P28504|HIR2_HIRME Hirudin-2 OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 72.0 bits (175),  Expect = 6e-17, Method: Composition-based stats.
- Identities = 42/49 (86%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQ+LCLCEGSNVCG+GNKCILGS+GE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQDLCLCEGSNVCGKGNKCILGSNGEENQCVTGEGTPKPQ  49
-
-
-> sp|P28510|HIR3B_HIRME Hirudin-3B OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 72.0 bits (175),  Expect = 6e-17, Method: Composition-based stats.
- Identities = 45/49 (92%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLC+ SNVCGQGNKCILGS+GEKNQCVTGEGTP+PQ
-Sbjct  1   VVYTDCTESGQNLCLCQDSNVCGQGNKCILGSNGEKNQCVTGEGTPKPQ  49
-
-
-> sp|P28505|HIR2P_HIRME Hirudin-2' OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 71.6 bits (174),  Expect = 8e-17, Method: Composition-based stats.
- Identities = 41/49 (84%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQ+LCLCEGS+VCG+GNKCILGS+GE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQDLCLCEGSDVCGKGNKCILGSNGEENQCVTGEGTPKPQ  49
-
-
-> sp|P28503|HIR2A_HIRME Hirudin-2A OS=Hirudo medicinalis OX=6421 
-PE=1 SV=1
-Length=65
-
- Score = 70.9 bits (172),  Expect = 1e-16, Method: Composition-based stats.
- Identities = 43/49 (88%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YTDCTESGQNLCLCEGSNVCG GNKC LGSDGE+NQCVTGEGTP+PQ
-Sbjct  1   ITYTDCTESGQNLCLCEGSNVCGNGNKCKLGSDGEENQCVTGEGTPKPQ  49
-
-
-> sp|P84590|HIRUD_POEVI Hirudin OS=Poecilobdella viridis OX=335439 
-PE=1 SV=1
-Length=63
-
- Score = 70.5 bits (171),  Expect = 2e-16, Method: Composition-based stats.
- Identities = 48/49 (98%), Positives = 48/49 (98%), Gaps = 0/49 (0%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTP PQ
-Sbjct  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPGPQ  49
-
-
-> sp|P81492|HIRM2_POEMA Hirudin-HM2 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=2
-Length=84
-
- Score = 70.9 bits (172),  Expect = 2e-16, Method: Composition-based stats.
- Identities = 35/49 (71%), Positives = 38/49 (78%), Gaps = 2/49 (4%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           V YTDCTESGQN CLC GSNVCG+G  C L S G  NQCV GEGTP+P+
-Sbjct  21  VSYTDCTESGQNYCLCVGSNVCGEGKNCQLSSSG--NQCVHGEGTPKPK  67
-
-
-> sp|P09945|HIRV2_HIRME Hirudin variant-2 (Fragment) OS=Hirudo 
-medicinalis OX=6421 PE=1 SV=1
+> UniRef50_P09945 Hirudin variant-2 (Fragment) n=14 Tax=Hirudinidae 
+TaxID=6417 RepID=HIRV2_HIRME
 Length=72
 
- Score = 70.1 bits (170),  Expect = 3e-16, Method: Composition-based stats.
+ Score = 68.1 bits (165),  Expect = 1e-13, Method: Composition-based stats.
  Identities = 41/49 (84%), Positives = 46/49 (94%), Gaps = 0/49 (0%)
 
 Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
@@ -480,59 +126,34 @@ Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
 Sbjct  8   ITYTDCTESGQNLCLCEGSNVCGKGNKCILGSNGKGNQCVTGEGTPNPE  56
 
 
-> sp|Q07558|HIRM1_POEMA Hirudin-HM1 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=1
+> UniRef50_P81492 Hirudin-HM2 n=21 Tax=Hirudinidae TaxID=6417 RepID=HIRM2_POEMA
 Length=84
 
- Score = 68.9 bits (167),  Expect = 1e-15, Method: Composition-based stats.
- Identities = 31/49 (63%), Positives = 36/49 (73%), Gaps = 2/49 (4%)
+ Score = 67.7 bits (164),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 35/49 (71%), Positives = 38/49 (78%), Gaps = 2/49 (4%)
 
 Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           V YTDCTESGQN CLC G N+CG G  C +  DG  N+CV GEGTP+P+
-Sbjct  21  VSYTDCTESGQNYCLCVGGNLCGGGKHCEM--DGSGNKCVDGEGTPKPK  67
-
-
-> sp|P28512|HIRP6_POEMA Hirudin-P6 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=1
-Length=63
-
- Score = 58.9 bits (141),  Expect = 6e-12, Method: Composition-based stats.
- Identities = 30/49 (61%), Positives = 36/49 (73%), Gaps = 2/49 (4%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           + YT CTESGQN C+CEG++VCGQG  C   S G+K  CV GEGT +PQ
-Sbjct  1   MRYTACTESGQNQCICEGNDVCGQGRNCQFDSSGKK--CVEGEGTRKPQ  47
-
-
-> sp|P26631|HIR18_POEMA Hirullin-P18 OS=Poecilobdella manillensis 
-OX=1348078 PE=1 SV=1
-Length=62
-
- Score = 50.8 bits (120),  Expect = 7e-09, Method: Composition-based stats.
- Identities = 30/49 (61%), Positives = 34/49 (69%), Gaps = 4/49 (8%)
-
-Query  1   VVYTDCTESGQNLCLCEGSNVCGQGNKCILGSDGEKNQCVTGEGTPEPQ  49
-           V YTDCT SGQN CLC G N CG G  C +  DG +N+CV GEGTP+ Q
-Sbjct  1   VSYTDCT-SGQNYCLC-GGNFCGDGKHCEM--DGSENKCVDGEGTPKRQ  45
+           V YTDCTESGQN CLC GSNVCG+G  C L S G  NQCV GEGTP+P+
+Sbjct  21  VSYTDCTESGQNYCLCVGSNVCGEGKNCQLSSSG--NQCVHGEGTPKPK  67
 
 
 
 Lambda      K        H        a         alpha
-   0.306    0.134    0.464    0.792     4.96 
+   0.317    0.137    0.456    0.792     4.96 
 
 Gapped
 Lambda      K        H        a         alpha    sigma
-   0.267   0.0406    0.140     1.90     42.6     43.6 
+   0.267   0.0395    0.140     1.90     42.6     43.6 
 
-Effective search space used: 5059856808
+Effective search space used: 238237824564
 
 Search has CONVERGED!
 
 
-  Database: uniprot_sprot.fasta
-    Posted date:  Mar 8, 2018  2:51 PM
-  Number of letters in database: 199,652,254
-  Number of sequences in database:  556,825
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
 
 
 

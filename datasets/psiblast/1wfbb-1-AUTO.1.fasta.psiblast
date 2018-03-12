@@ -23,8 +23,8 @@ other refinements", Nucleic Acids Res. 29:2994-3005.
 
 
 
-Database: uniprot_sprot.fasta
-           556,825 sequences; 199,652,254 total letters
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
 
 Results from round 1
 
@@ -45,13 +45,13 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 5031706654
+Effective search space used: 238122662050
 
 
-  Database: uniprot_sprot.fasta
-    Posted date:  Mar 8, 2018  2:51 PM
-  Number of letters in database: 199,652,254
-  Number of sequences in database:  556,825
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
 
 
 

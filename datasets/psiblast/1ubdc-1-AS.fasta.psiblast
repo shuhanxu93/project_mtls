@@ -23,8 +23,8 @@ other refinements", Nucleic Acids Res. 29:2994-3005.
 
 
 
-Database: uniprot_sprot.fasta
-           556,825 sequences; 199,652,254 total letters
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
 
 Results from round 1
 
@@ -35,21 +35,418 @@ Length=27
                                                                       Score     E
 Sequences producing significant alignments:                          (Bits)  Value
 
-  sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=H...  62.0    4e-12
-  sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=M...  62.0    4e-12
-  sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus O...  55.1    1e-09
-  sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicu...  53.5    4e-09
-  sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus ...  53.5    4e-09
-  sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanoga...  53.5    5e-09
-  sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens O...  45.8    2e-06
-  sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo sa...  38.5    6e-04
+  UniRef50_A0A0R4ILY4 YY1 transcription factor a n=13 Tax=Euteleo...  65.9    4e-12
+  UniRef50_A0A224Z1Q3 Transcription factor YY n=8 Tax=Ixodidae Ta...  65.1    2e-11
+  UniRef50_A0A088AD22 Uncharacterized protein n=74 Tax=Hymenopter...  64.7    2e-11
+  UniRef50_UPI000C6F7EDB transcriptional repressor protein YY1 is...  65.1    2e-11
+  UniRef50_A7TBA9 Predicted protein n=2 Tax=Nematostella vectensi...  63.2    2e-11
+  UniRef50_A0A1W4XJE6 transcriptional repressor protein YY1-like ...  64.3    2e-11
+  UniRef50_A0A2H1VXU7 SFRICE_033512 (Fragment) n=1 Tax=Spodoptera...  62.0    3e-11
+  UniRef50_K7ILX7 Uncharacterized protein n=58 Tax=Bilateria TaxI...  63.9    3e-11
+  UniRef50_F1C7A5 YY1 transcription factor (Fragment) n=9 Tax=Eum...  61.6    6e-11
+  UniRef50_A0A151P8R6 Transcriptional repressor protein YY1 n=12 ...  61.6    6e-11
+  UniRef50_A0A2D0Q100 transcriptional repressor protein YY1-like ...  63.2    6e-11
+  UniRef50_A0A087UZV7 Transcriptional repressor protein YY1 (Frag...  62.8    7e-11
+  UniRef50_G1NKS5 YY1 transcription factor n=60 Tax=Bilateria Tax...  61.2    7e-11
+  UniRef50_H0WVA2 Uncharacterized protein n=5 Tax=Eutheria TaxID=...  60.8    8e-11
+  UniRef50_K9KG19 Transcriptional repressor protein YY1-like prot...  60.8    8e-11
+  UniRef50_F7I140 Uncharacterized protein n=3 Tax=Euteleostomi Ta...  62.0    8e-11
+  UniRef50_A0A293LSU6 Uncharacterized protein (Fragment) n=2 Tax=...  62.8    8e-11
+  UniRef50_A0A096NJR2 Uncharacterized protein n=15 Tax=Euteleosto...  60.8    8e-11
+  UniRef50_A0A1A6HXW8 Uncharacterized protein (Fragment) n=3 Tax=...  60.8    8e-11
+  UniRef50_H9JNS5 Uncharacterized protein n=5 Tax=Arthropoda TaxI...  61.6    9e-11
+  UniRef50_Q7T304 YY1 transcription factor b n=34 Tax=Bilateria T...  62.4    9e-11
+  UniRef50_A0A232FLC1 Uncharacterized protein n=1 Tax=Trichomalop...  62.0    1e-10
+  UniRef50_UPI0003BBB5B7 transcriptional repressor protein YY1 n=...  61.6    1e-10
+  UniRef50_A0A226DC84 Transcriptional repressor protein YY1 n=26 ...  62.8    1e-10
+  UniRef50_A0A1V9Y316 Transcription factor YY2-like n=3 Tax=Derma...  62.4    1e-10
+  UniRef50_P25490 Transcriptional repressor protein YY1 n=282 Tax...  62.0    2e-10
+  UniRef50_A0A2I0MPS6 YY1 transcription factor (Fragment) n=3 Tax...  61.6    2e-10
+  UniRef50_UPI000533C6A4 transcriptional repressor protein YY1 n=...  62.0    3e-10
+  UniRef50_A0A182IY54 Peptidylprolyl isomerase n=1 Tax=Anopheles ...  62.0    4e-10
+  UniRef50_D2GY03 Uncharacterized protein (Fragment) n=3 Tax=Laur...  60.5    6e-10
+  UniRef50_UPI000BB4E6FD membrane-bound transcription factor site...  60.8    7e-10
+  UniRef50_UPI000C75C816 transcriptional repressor protein YY1-li...  60.1    7e-10
+  UniRef50_W6UTI4 Putative tRNA (cytidine(32)/guanosine(34)-2'-O)...  60.8    1e-09
+  UniRef50_A0A1Y3BDU1 Transcription factor YY2-like protein n=1 T...  58.5    2e-09
+  UniRef50_A0A1A9WQC2 Uncharacterized protein n=1 Tax=Glossina br...  59.3    3e-09
+  UniRef50_B0X5W9 Transcriptional repressor protein YY1 n=5 Tax=C...  58.5    3e-09
+  UniRef50_G9K9U9 Membrane-bound transcription factor site 2 prot...  58.5    3e-09
+  UniRef50_UPI000A2B1DA7 membrane-bound transcription factor site...  58.5    4e-09
+  UniRef50_A0A132A1V2 Transcription factor YY2-like protein n=1 T...  57.8    4e-09
+  UniRef50_G1LXD5 YY1 transcription factor n=14 Tax=Euteleostomi ...  57.4    4e-09
+  UniRef50_A0A1X7V5J3 Uncharacterized protein n=2 Tax=Amphimedon ...  57.8    7e-09
+  UniRef50_A0A1B0G9Y1 Uncharacterized protein n=5 Tax=Glossina Ta...  58.2    7e-09
+  UniRef50_J9K4I8 Uncharacterized protein n=25 Tax=Bilateria TaxI...  57.4    8e-09
+  UniRef50_A0A183LQ77 Uncharacterized protein n=5 Tax=Schistosoma...  57.8    9e-09
+  UniRef50_UPI000C9E480D membrane-bound transcription factor site...  57.8    9e-09
+  UniRef50_W5JI98 Uncharacterized protein n=1 Tax=Anopheles darli...  57.8    1e-08
+  UniRef50_A0A183RYZ4 Uncharacterized protein n=1 Tax=Schistosoma...  56.6    1e-08
+  UniRef50_A0A183IYC3 Uncharacterized protein n=1 Tax=Soboliphyme...  56.2    1e-08
+  UniRef50_A0A0L0C1G2 Polycomb protein PHO n=1 Tax=Lucilia cuprin...  57.4    1e-08
+  UniRef50_UPI00076856D7 transcription factor YY2 n=5 Tax=Laurasi...  56.2    2e-08
+  UniRef50_A0A0R3U402 Uncharacterized protein n=1 Tax=Mesocestoid...  55.5    3e-08
+  UniRef50_A0A068XZ81 Transcriptional repressor protein YY1 n=4 T...  55.8    4e-08
+  UniRef50_G4VQ45 Putative transcriptional repressor protein yy (...  55.8    4e-08
+  UniRef50_UPI00044010BE transcriptional repressor protein YY1-li...  55.5    6e-08
+  UniRef50_A0A068XE81 Transcriptional repressor protein YY1 n=3 T...  55.1    6e-08
+  UniRef50_A0A074Z377 Uncharacterized protein n=3 Tax=Opisthorchi...  55.1    8e-08
+  UniRef50_A0A224L134 PHO n=4 Tax=Drosophila TaxID=32281 RepID=A0...  54.7    9e-08
+  UniRef50_Q1RLG5 Zinc finger protein n=5 Tax=Bilateria TaxID=332...  53.9    9e-08
+  UniRef50_F7C653 YY2 transcription factor n=11 Tax=Bilateria Tax...  53.9    1e-07
+  UniRef50_UPI0001CE2030 transcription factor YY2 isoform X1 n=10...  53.5    1e-07
+  UniRef50_A0A0K8W5Q6 Polycomb protein PHO n=16 Tax=Dacinae TaxID...  53.9    2e-07
+  UniRef50_UPI00081173EE polycomb protein PHO-like n=1 Tax=Rhagol...  53.9    2e-07
+  UniRef50_P0C6P6 Transcription factor YY2 n=34 Tax=Eumetazoa Tax...  53.5    2e-07
+  UniRef50_A0A0Q5SDS7 Uncharacterized protein n=12 Tax=Eukaryota ...  50.8    2e-07
+  UniRef50_Q8ST83 Polycomb protein PHO n=29 Tax=Sophophora TaxID=...  53.5    2e-07
+  UniRef50_T1FXR6 Uncharacterized protein n=7 Tax=Eumetazoa TaxID...  50.8    2e-07
+  UniRef50_UPI0006416288 transcriptional repressor protein YY1-li...  50.4    3e-07
+  UniRef50_B4NHH2 Uncharacterized protein n=10 Tax=Drosophila Tax...  52.8    4e-07
+  UniRef50_B4JZQ8 GH23956 n=3 Tax=Drosophila TaxID=32281 RepID=B4...  52.4    5e-07
+  UniRef50_A0A0X3P4E1 Transcriptional repressor protein YY1 n=2 T...  52.8    6e-07
+  UniRef50_A0A183AWU4 Uncharacterized protein n=2 Tax=Echinostoma...  52.0    8e-07
+  UniRef50_UPI00093BC5E4 transcription factor YY2 n=1 Tax=Hipposi...  51.2    1e-06
+  UniRef50_UPI00022B6C96 transcription factor YY2 n=3 Tax=Boreoeu...  50.8    2e-06
+  UniRef50_A0A0P9C136 Uncharacterized protein n=7 Tax=melanogaste...  50.8    2e-06
+  UniRef50_UPI000A287E52 transcription factor YY2-like isoform X1...  50.4    3e-06
+  UniRef50_A0A091CV02 Transcription factor YY2 n=4 Tax=Boreoeuthe...  50.4    3e-06
+  UniRef50_K7E1F7 Uncharacterized protein n=3 Tax=Metatheria TaxI...  50.1    3e-06
+  UniRef50_UPI000C9F7AF2 transcription factor YY2 n=1 Tax=Octodon...  49.7    3e-06
+  UniRef50_UPI000C7CF6B4 LOW QUALITY PROTEIN: transcription facto...  50.1    4e-06
+  UniRef50_UPI000CCC669C LOW QUALITY PROTEIN: transcription facto...  50.1    4e-06
+  UniRef50_UPI0003BBDF8D transcription factor YY2 n=2 Tax=Myotis ...  50.1    4e-06
+  UniRef50_A0A183QIP7 Uncharacterized protein n=1 Tax=Schistosoma...  47.8    7e-06
+  UniRef50_A0A2H1BRJ1 Zinc finger, C2H2 type n=1 Tax=Fasciola hep...  46.2    1e-05
+  UniRef50_A0A183W370 Uncharacterized protein n=2 Tax=Platyhelmin...  46.2    1e-05
+  UniRef50_A0A074ZTZ2 Uncharacterized protein n=3 Tax=Opisthorchi...  48.5    2e-05
+  UniRef50_A0A183JH93 Uncharacterized protein n=2 Tax=Schistosoma...  47.8    2e-05
+  UniRef50_I0FRP4 Transcription factor YY2 n=22 Tax=Bilateria Tax...  47.4    2e-05
+  UniRef50_G4V881 Putative transcriptional repressor protein yy (...  48.1    2e-05
+  UniRef50_A0A0R3XB53 Uncharacterized protein n=1 Tax=Hydatigena ...  47.4    3e-05
+  UniRef50_UPI0007E8517E transcription factor Sp2 n=7 Tax=melanog...  47.8    3e-05
+  UniRef50_A0A1W0X515 Transcriptional repressor protein YY1 n=1 T...  47.0    5e-05
+  UniRef50_A0A183A8G4 Uncharacterized protein n=1 Tax=Echinostoma...  46.2    7e-05
+  UniRef50_A0A183T2K1 Uncharacterized protein n=1 Tax=Schistoceph...  45.8    9e-05
+  UniRef50_A0A0R3T3M6 Uncharacterized protein n=1 Tax=Hymenolepis...  45.8    9e-05
+  UniRef50_Q9VSZ3 LD31045p n=15 Tax=Drosophila TaxID=32281 RepID=...  46.2    1e-04
+  UniRef50_O15391 Transcription factor YY2 n=11 Tax=Euarchontogli...  45.8    1e-04
+  UniRef50_A0A0X3PKZ3 Uncharacterized protein n=1 Tax=Schistoceph...  45.8    1e-04
+  UniRef50_Q29EF2 Uncharacterized protein n=7 Tax=obscura group T...  45.8    1e-04
+  UniRef50_A0A0X3Q6Y7 Transcriptional repressor protein YY1 n=3 T...  45.4    2e-04
+  UniRef50_A0A0M4EI03 Phol n=1 Tax=Drosophila busckii TaxID=30019...  45.4    2e-04
+  UniRef50_A0A068Y735 Transcriptional repressor protein YY1 n=4 T...  45.4    2e-04
+  UniRef50_A0A0R3U2C1 Uncharacterized protein n=1 Tax=Mesocestoid...  45.4    2e-04
+  UniRef50_B4IXD6 GH16213 n=1 Tax=Drosophila grimshawi TaxID=7222...  45.1    2e-04
+  UniRef50_B4KXJ1 Uncharacterized protein n=4 Tax=repleta group T...  45.1    2e-04
+  UniRef50_A0A068XJX6 Transcriptional repressor protein YY1 n=2 T...  45.1    2e-04
 
 
-> sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=Homo 
-sapiens OX=9606 GN=YY1 PE=1 SV=2
+> UniRef50_A0A0R4ILY4 YY1 transcription factor a n=13 Tax=Euteleostomi 
+TaxID=117571 RepID=A0A0R4ILY4_DANRE
+Length=309
+
+ Score = 65.9 bits (159),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  238  TIACPHKGCTKMFRDNSAMRKHLHTHG  264
+
+
+> UniRef50_A0A224Z1Q3 Transcription factor YY n=8 Tax=Ixodidae 
+TaxID=6939 RepID=A0A224Z1Q3_9ACAR
+Length=412
+
+ Score = 65.1 bits (157),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  245  TIACPHKGCTKMFRDNSAMRKHLHTHG  271
+
+
+> UniRef50_A0A088AD22 Uncharacterized protein n=74 Tax=Hymenoptera 
+TaxID=7399 RepID=A0A088AD22_APIME
+Length=398
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  245  TIACPHKGCTKMFRDNSAMRKHLHTHG  271
+
+
+> UniRef50_UPI000C6F7EDB transcriptional repressor protein YY1 
+isoform X3 n=2 Tax=Arthropoda TaxID=6656 RepID=UPI000C6F7EDB
+Length=431
+
+ Score = 65.1 bits (157),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  278  TIACPHKGCTKMFRDNSAMRKHLHTHG  304
+
+
+> UniRef50_A7TBA9 Predicted protein n=2 Tax=Nematostella vectensis 
+TaxID=45351 RepID=A7TBA9_NEMVE
+Length=262
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  204  TIACPHKGCTKMFRDNSAMRKHLHTHG  230
+
+
+> UniRef50_A0A1W4XJE6 transcriptional repressor protein YY1-like 
+n=8 Tax=Arthropoda TaxID=6656 RepID=A0A1W4XJE6_AGRPL
+Length=366
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  213  TIACPHKGCTKMFRDNSAMRKHLHTHG  239
+
+
+> UniRef50_A0A2H1VXU7 SFRICE_033512 (Fragment) n=1 Tax=Spodoptera 
+frugiperda TaxID=7108 RepID=A0A2H1VXU7_SPOFR
+Length=194
+
+ Score = 62.0 bits (149),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  160  TIACPHKGCTKMFRDNSAMRKHLHTHG  186
+
+
+> UniRef50_K7ILX7 Uncharacterized protein n=58 Tax=Bilateria TaxID=33213 
+RepID=K7ILX7_NASVI
+Length=389
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  260  TIACPHKGCTKMFRDNSAMRKHLHTHG  286
+
+
+> UniRef50_F1C7A5 YY1 transcription factor (Fragment) n=9 Tax=Eumetazoa 
+TaxID=6072 RepID=F1C7A5_PERFV
+Length=215
+
+ Score = 61.6 bits (148),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  99   TIACPHKGCTKMFRDNSAMRKHLHTHG  125
+
+
+> UniRef50_A0A151P8R6 Transcriptional repressor protein YY1 n=12 
+Tax=Gnathostomata TaxID=35060 RepID=A0A151P8R6_ALLMI
+Length=243
+
+ Score = 61.6 bits (148),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  124  TIACPHKGCTKMFRDNSAMRKHLHTHG  150
+
+
+> UniRef50_A0A2D0Q100 transcriptional repressor protein YY1-like 
+isoform X1 n=15 Tax=Gnathostomata TaxID=35060 RepID=A0A2D0Q100_ICTPU
+Length=389
+
+ Score = 63.2 bits (152),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  270  TIACPHKGCTKMFRDNSAMRKHLHTHG  296
+
+
+> UniRef50_A0A087UZV7 Transcriptional repressor protein YY1 (Fragment) 
+n=5 Tax=Eumetazoa TaxID=6072 RepID=A0A087UZV7_9ARAC
+Length=342
+
+ Score = 62.8 bits (151),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  221  TIACPHKGCNKMFRDNSAMRKHLHTHG  247
+
+
+> UniRef50_G1NKS5 YY1 transcription factor n=60 Tax=Bilateria TaxID=33213 
+RepID=G1NKS5_MELGA
+Length=196
+
+ Score = 61.2 bits (147),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  77   TIACPHKGCTKMFRDNSAMRKHLHTHG  103
+
+
+> UniRef50_H0WVA2 Uncharacterized protein n=5 Tax=Eutheria TaxID=9347 
+RepID=H0WVA2_OTOGA
+Length=189
+
+ Score = 60.8 bits (146),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  70  TIACPHKGCTKMFRDNSAMRKHLHTHG  96
+
+
+> UniRef50_K9KG19 Transcriptional repressor protein YY1-like protein 
+(Fragment) n=2 Tax=Boreoeutheria TaxID=1437010 RepID=K9KG19_HORSE
+Length=188
+
+ Score = 60.8 bits (146),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  69  TIACPHKGCTKMFRDNSAMRKHLHTHG  95
+
+
+> UniRef50_F7I140 Uncharacterized protein n=3 Tax=Euteleostomi 
+TaxID=117571 RepID=F7I140_CALJA
+Length=273
+
+ Score = 62.0 bits (149),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  154  TIACPHKGCTKMFRDNSAMRKHLHTHG  180
+
+
+> UniRef50_A0A293LSU6 Uncharacterized protein (Fragment) n=2 Tax=Ornithodoros 
+erraticus TaxID=265619 RepID=A0A293LSU6_ORNER
+Length=356
+
+ Score = 62.8 bits (151),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  218  TIACPHKGCTKMFRDNSAMRKHLHTHG  244
+
+
+> UniRef50_A0A096NJR2 Uncharacterized protein n=15 Tax=Euteleostomi 
+TaxID=117571 RepID=A0A096NJR2_PAPAN
+Length=184
+
+ Score = 60.8 bits (146),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  65  TIACPHKGCTKMFRDNSAMRKHLHTHG  91
+
+
+> UniRef50_A0A1A6HXW8 Uncharacterized protein (Fragment) n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=A0A1A6HXW8_NEOLE
+Length=191
+
+ Score = 60.8 bits (146),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  72  TIACPHKGCTKMFRDNSAMRKHLHTHG  98
+
+
+> UniRef50_H9JNS5 Uncharacterized protein n=5 Tax=Arthropoda TaxID=6656 
+RepID=H9JNS5_BOMMO
+Length=262
+
+ Score = 61.6 bits (148),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  104  TIACPHKGCTKMFRDNSAMRKHLHTHG  130
+
+
+> UniRef50_Q7T304 YY1 transcription factor b n=34 Tax=Bilateria 
+TaxID=33213 RepID=Q7T304_DANRE
+Length=354
+
+ Score = 62.4 bits (150),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC+KMFRDNSAMRKHLHTHG
+Sbjct  235  TIACPHKGCSKMFRDNSAMRKHLHTHG  261
+
+
+> UniRef50_A0A232FLC1 Uncharacterized protein n=1 Tax=Trichomalopsis 
+sarcophagae TaxID=543379 RepID=A0A232FLC1_9HYME
+Length=304
+
+ Score = 62.0 bits (149),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  89   TIACPHKGCTKMFRDNSAMRKHLHTHG  115
+
+
+> UniRef50_UPI0003BBB5B7 transcriptional repressor protein YY1 
+n=3 Tax=Deuterostomia TaxID=33511 RepID=UPI0003BBB5B7
+Length=306
+
+ Score = 61.6 bits (148),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  187  TIACPHKGCTKMFRDNSAMRKHLHTHG  213
+
+
+> UniRef50_A0A226DC84 Transcriptional repressor protein YY1 n=26 
+Tax=Protostomia TaxID=33317 RepID=A0A226DC84_FOLCA
+Length=440
+
+ Score = 62.8 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  285  TIACPHKGCTKMFRDNSAMRKHLHTHG  311
+
+
+> UniRef50_A0A1V9Y316 Transcription factor YY2-like n=3 Tax=Dermanyssoidea 
+TaxID=41438 RepID=A0A1V9Y316_9ACAR
+Length=455
+
+ Score = 62.4 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC+KMFRDN AMRKHLHTHG
+Sbjct  305  TIACPHKGCSKMFRDNGAMRKHLHTHG  331
+
+
+> UniRef50_P25490 Transcriptional repressor protein YY1 n=282 Tax=Deuterostomia 
+TaxID=33511 RepID=TYY1_HUMAN
 Length=414
 
- Score = 62.0 bits (149),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Score = 62.0 bits (149),  Expect = 2e-10, Method: Compositional matrix adjust.
  Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
 
 Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
@@ -57,35 +454,448 @@ Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
 Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
 
 
-> sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=Mus 
-musculus OX=10090 GN=Yy1 PE=1 SV=1
-Length=414
+> UniRef50_A0A2I0MPS6 YY1 transcription factor (Fragment) n=3 Tax=Amniota 
+TaxID=32524 RepID=A0A2I0MPS6_COLLI
+Length=360
 
- Score = 62.0 bits (149),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
  Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
 
 Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
             TIACPHKGCTKMFRDNSAMRKHLHTHG
-Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
+Sbjct  241  TIACPHKGCTKMFRDNSAMRKHLHTHG  267
 
 
-> sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus 
-OX=10090 GN=Yy2 PE=2 SV=1
-Length=378
+> UniRef50_UPI000533C6A4 transcriptional repressor protein YY1 
+n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=UPI000533C6A4
+Length=592
 
- Score = 55.1 bits (131),  Expect = 1e-09, Method: Composition-based stats.
+ Score = 62.0 bits (149),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  473  TIACPHKGCTKMFRDNSAMRKHLHTHG  499
+
+
+> UniRef50_A0A182IY54 Peptidylprolyl isomerase n=1 Tax=Anopheles 
+atroparvus TaxID=41427 RepID=A0A182IY54_9DIPT
+Length=1349
+
+ Score = 62.0 bits (149),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 25/26 (96%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGCTKMFRDNSAMRKHLHTHG
+Sbjct  599  IACPQKGCTKMFRDNSAMRKHLHTHG  624
+
+
+> UniRef50_D2GY03 Uncharacterized protein (Fragment) n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=D2GY03_AILME
+Length=358
+
+ Score = 60.5 bits (145),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  240  TIACPHKGCVKMFRDNSAMRKHLHTHG  266
+
+
+> UniRef50_UPI000BB4E6FD membrane-bound transcription factor site-2 
+protease isoform X1 n=1 Tax=Enhydra lutris kenyoni TaxID=391180 
+RepID=UPI000BB4E6FD
+Length=704
+
+ Score = 60.8 bits (146),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMF+DNSAMRKHLHTHG
+Sbjct  291  TIACPHKGCVKMFKDNSAMRKHLHTHG  317
+
+
+> UniRef50_UPI000C75C816 transcriptional repressor protein YY1-like 
+n=1 Tax=Eurytemora affinis TaxID=88015 RepID=UPI000C75C816
+Length=355
+
+ Score = 60.1 bits (144),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TI CPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  198  TIGCPHKGCCKMFRDNSAMRKHLHTHG  224
+
+
+> UniRef50_W6UTI4 Putative tRNA (cytidine(32)/guanosine(34)-2'-O)-methyltransferase 
+n=1 Tax=Echinococcus granulosus TaxID=6210 
+RepID=W6UTI4_ECHGR
+Length=2000
+
+ Score = 60.8 bits (146),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1     TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+             T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  1289  TVACPHKNCGKLFRDNSAMRKHLHTHG  1315
+
+
+> UniRef50_A0A1Y3BDU1 Transcription factor YY2-like protein n=1 
+Tax=Euroglyphus maynei TaxID=6958 RepID=A0A1Y3BDU1_EURMA
+Length=335
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPH+GC KMFRDNSAMRKHLHTHG
+Sbjct  153  TIACPHRGCMKMFRDNSAMRKHLHTHG  179
+
+
+> UniRef50_A0A1A9WQC2 Uncharacterized protein n=1 Tax=Glossina 
+brevipalpis TaxID=37001 RepID=A0A1A9WQC2_9MUSC
+Length=660
+
+ Score = 59.3 bits (142),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  497  IACPHKGCNKLFRDNSAMRKHLHTHG  522
+
+
+> UniRef50_B0X5W9 Transcriptional repressor protein YY1 n=5 Tax=Culicidae 
+TaxID=7157 RepID=B0X5W9_CULQU
+Length=431
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+             IACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  264  NIACPHKGCNKMFRDNSAMRKHLHTHG  290
+
+
+> UniRef50_G9K9U9 Membrane-bound transcription factor site 2 protease 
+(Fragment) n=3 Tax=Eutheria TaxID=9347 RepID=G9K9U9_MUSPF
+Length=387
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGC KMF+DNSAMRKHLHTHG
+Sbjct  9   TIACPHKGCVKMFKDNSAMRKHLHTHG  35
+
+
+> UniRef50_UPI000A2B1DA7 membrane-bound transcription factor site-2 
+protease isoform X1 n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=UPI000A2B1DA7
+Length=601
+
+ Score = 58.5 bits (140),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIAC HKGC KMFRDNSAMRKHLHTHG
+Sbjct  482  TIACAHKGCPKMFRDNSAMRKHLHTHG  508
+
+
+> UniRef50_A0A132A1V2 Transcription factor YY2-like protein n=1 
+Tax=Sarcoptes scabiei TaxID=52283 RepID=A0A132A1V2_SARSC
+Length=346
+
+ Score = 57.8 bits (138),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPH+GC KMFRDNSAMRKHLHTHG
+Sbjct  135  IACPHRGCLKMFRDNSAMRKHLHTHG  160
+
+
+> UniRef50_G1LXD5 YY1 transcription factor n=14 Tax=Euteleostomi 
+TaxID=117571 RepID=G1LXD5_AILME
+Length=300
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 27/28 (96%), Positives = 27/28 (96%), Gaps = 1/28 (4%)
+
+Query  1    TIACPHK-GCTKMFRDNSAMRKHLHTHG  27
+            TIACPHK GCTKMFRDNSAMRKHLHTHG
+Sbjct  180  TIACPHKKGCTKMFRDNSAMRKHLHTHG  207
+
+
+> UniRef50_A0A1X7V5J3 Uncharacterized protein n=2 Tax=Amphimedon 
+queenslandica TaxID=400682 RepID=A0A1X7V5J3_AMPQE
+Length=497
+
+ Score = 57.8 bits (138),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TI CPHKGC K+FRDN+AMRKHLHTHG
+Sbjct  237  TIPCPHKGCNKLFRDNAAMRKHLHTHG  263
+
+
+> UniRef50_A0A1B0G9Y1 Uncharacterized protein n=5 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0G9Y1_GLOMM
+Length=657
+
+ Score = 58.2 bits (139),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  490  IACPHKGCNKLFRDNSAMRKHLHTHG  515
+
+
+> UniRef50_J9K4I8 Uncharacterized protein n=25 Tax=Bilateria TaxID=33213 
+RepID=J9K4I8_ACYPI
+Length=393
+
+ Score = 57.4 bits (137),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACP+K C+KMFRDNSAMRKHLHTHG
+Sbjct  234  TIACPNKNCSKMFRDNSAMRKHLHTHG  260
+
+
+> UniRef50_A0A183LQ77 Uncharacterized protein n=5 Tax=Schistosomatidae 
+TaxID=31245 RepID=A0A183LQ77_9TREM
+Length=667
+
+ Score = 57.8 bits (138),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  279  TVPCPHKGCGKLFRDNSAMRKHLHTHG  305
+
+
+> UniRef50_UPI000C9E480D membrane-bound transcription factor site-2 
+protease isoform X1 n=5 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI000C9E480D
+Length=576
+
+ Score = 57.8 bits (138),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC KMFRDNSAMRKHL  HG
+Sbjct  457  TVACPHKGCEKMFRDNSAMRKHLQIHG  483
+
+
+> UniRef50_W5JI98 Uncharacterized protein n=1 Tax=Anopheles darlingi 
+TaxID=43151 RepID=W5JI98_ANODA
+Length=855
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC KMFRDNSAMRKHLHTHG
+Sbjct  670  IACPQKGCNKMFRDNSAMRKHLHTHG  695
+
+
+> UniRef50_A0A183RYZ4 Uncharacterized protein n=1 Tax=Schistosoma 
+rodhaini TaxID=6188 RepID=A0A183RYZ4_9TREM
+Length=354
+
+ Score = 56.6 bits (135),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  117  TVPCPHKGCGKLFRDNSAMRKHLHTHG  143
+
+
+> UniRef50_A0A183IYC3 Uncharacterized protein n=1 Tax=Soboliphyme 
+baturini TaxID=241478 RepID=A0A183IYC3_9BILA
+Length=335
+
+ Score = 56.2 bits (134),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC K FRDNSAMRKHLHTHG
+Sbjct  238  TVACPHKGCNKRFRDNSAMRKHLHTHG  264
+
+
+> UniRef50_A0A0L0C1G2 Polycomb protein PHO n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0C1G2_LUCCU
+Length=780
+
+ Score = 57.4 bits (137),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  613  IACPHKGCNKLFRDNSAMRKHLHTHG  638
+
+
+> UniRef50_UPI00076856D7 transcription factor YY2 n=5 Tax=Laurasiatheria 
+TaxID=314145 RepID=UPI00076856D7
+Length=453
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPH GC KMFRDNSAMRKHLHTHG
+Sbjct  334  TVACPHTGCVKMFRDNSAMRKHLHTHG  360
+
+
+> UniRef50_A0A0R3U402 Uncharacterized protein n=1 Tax=Mesocestoides 
+corti TaxID=53468 RepID=A0A0R3U402_9CEST
+Length=301
+
+ Score = 55.5 bits (132),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  49  TVACPHKNCGKLFRDNSAMRKHLHTHG  75
+
+
+> UniRef50_A0A068XZ81 Transcriptional repressor protein YY1 n=4 
+Tax=Taeniidae TaxID=6208 RepID=A0A068XZ81_ECHMU
+Length=536
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  274  TVACPHKNCGKLFRDNSAMRKHLHTHG  300
+
+
+> UniRef50_G4VQ45 Putative transcriptional repressor protein yy 
+(Yin and yang) (Delta transcription factor) n=3 Tax=Schistosoma 
+TaxID=6181 RepID=G4VQ45_SCHMA
+Length=474
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  86   TVPCPHKGCGKLFRDNSAMRKHLHTHG  112
+
+
+> UniRef50_UPI00044010BE transcriptional repressor protein YY1-like 
+n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=UPI00044010BE
+Length=618
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +IACP+K C KMFRDNSA+RKH+HTHG
+Sbjct  501  SIACPNKDCMKMFRDNSALRKHMHTHG  527
+
+
+> UniRef50_A0A068XE81 Transcriptional repressor protein YY1 n=3 
+Tax=Hymenolepis TaxID=99110 RepID=A0A068XE81_HYMMI
+Length=523
+
+ Score = 55.1 bits (131),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  268  VACPHKNCGKLFRDNSAMRKHLHTHG  293
+
+
+> UniRef50_A0A074Z377 Uncharacterized protein n=3 Tax=Opisthorchiidae 
+TaxID=6196 RepID=A0A074Z377_9TREM
+Length=665
+
+ Score = 55.1 bits (131),  Expect = 8e-08, Method: Composition-based stats.
  Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
 
 Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            IAC HKGC KMF+DNSAMRKHLH HG
-Sbjct  260  IACSHKGCEKMFKDNSAMRKHLHIHG  285
+            + CPHKGC K FRDNSAMRKHLHTHG
+Sbjct  277  VPCPHKGCGKSFRDNSAMRKHLHTHG  302
 
 
-> sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicus 
-OX=10116 GN=Yy2 PE=3 SV=1
+> UniRef50_A0A224L134 PHO n=4 Tax=Drosophila TaxID=32281 RepID=A0A224L134_DROMD
+Length=485
+
+ Score = 54.7 bits (130),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  321  IACPHKGCHKNFRDSSAMRKHLHTHG  346
+
+
+> UniRef50_Q1RLG5 Zinc finger protein n=5 Tax=Bilateria TaxID=33213 
+RepID=Q1RLG5_CIOIN
+Length=337
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACP  GC KMFRDN+AMRKHLHTHG
+Sbjct  205  TVACPQAGCEKMFRDNAAMRKHLHTHG  231
+
+
+> UniRef50_F7C653 YY2 transcription factor n=11 Tax=Bilateria TaxID=33213 
+RepID=F7C653_HORSE
+Length=346
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC KMFRDNSAMRKHL  HG
+Sbjct  227  TVACPHKGCEKMFRDNSAMRKHLQIHG  253
+
+
+> UniRef50_UPI0001CE2030 transcription factor YY2 isoform X1 n=10 
+Tax=Eumetazoa TaxID=6072 RepID=UPI0001CE2030
+Length=365
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHK C KMFRDN AMRKHLHTHG
+Sbjct  246  TVACPHKDCEKMFRDNCAMRKHLHTHG  272
+
+
+> UniRef50_A0A0K8W5Q6 Polycomb protein PHO n=16 Tax=Dacinae TaxID=164860 
+RepID=A0A0K8W5Q6_BACLA
+Length=621
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC K FRDNSAMRKHLHTHG
+Sbjct  461  IACPQKGCYKFFRDNSAMRKHLHTHG  486
+
+
+> UniRef50_UPI00081173EE polycomb protein PHO-like n=1 Tax=Rhagoletis 
+zephyria TaxID=28612 RepID=UPI00081173EE
+Length=635
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC K FRDNSAMRKHLHTHG
+Sbjct  475  IACPQKGCYKFFRDNSAMRKHLHTHG  500
+
+
+> UniRef50_P0C6P6 Transcription factor YY2 n=34 Tax=Eumetazoa TaxID=6072 
+RepID=TYY2_RAT
 Length=376
 
- Score = 53.5 bits (127),  Expect = 4e-09, Method: Composition-based stats.
+ Score = 53.5 bits (127),  Expect = 2e-07, Method: Composition-based stats.
  Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
 
 Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
@@ -93,23 +903,23 @@ Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
 Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
 
 
-> sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus 
-OX=10117 GN=Yy2 PE=3 SV=1
-Length=376
+> UniRef50_A0A0Q5SDS7 Uncharacterized protein n=12 Tax=Eukaryota 
+TaxID=2759 RepID=A0A0Q5SDS7_DROER
+Length=119
 
- Score = 53.5 bits (127),  Expect = 4e-09, Method: Composition-based stats.
- Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
 
-Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            +AC HKGC KMF+DNSAMRKHLH HG
-Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  38  IACPHKGCHKHFRDSSAMRKHLHTHG  63
 
 
-> sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanogaster 
-OX=7227 GN=pho PE=1 SV=2
+> UniRef50_Q8ST83 Polycomb protein PHO n=29 Tax=Sophophora TaxID=32341 
+RepID=PHO_DROME
 Length=520
 
- Score = 53.5 bits (127),  Expect = 5e-09, Method: Composition-based stats.
+ Score = 53.5 bits (127),  Expect = 2e-07, Method: Composition-based stats.
  Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
 
 Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
@@ -117,11 +927,370 @@ Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
 Sbjct  357  IACPHKGCNKHFRDSSAMRKHLHTHG  382
 
 
-> sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens 
-OX=9606 GN=YY2 PE=2 SV=1
+> UniRef50_T1FXR6 Uncharacterized protein n=7 Tax=Eumetazoa TaxID=6072 
+RepID=T1FXR6_HELRO
+Length=149
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 20/26 (77%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           I CPHKGC K+F+DNS+MRKH+HTHG
+Sbjct  9   IPCPHKGCNKLFKDNSSMRKHIHTHG  34
+
+
+> UniRef50_UPI0006416288 transcriptional repressor protein YY1-like 
+n=1 Tax=Hydra vulgaris TaxID=6087 RepID=UPI0006416288
+Length=99
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           +I+CPH GC K+FRDNSAMRKHLHTHG
+Sbjct  60  SISCPHSGCLKLFRDNSAMRKHLHTHG  86
+
+
+> UniRef50_B4NHH2 Uncharacterized protein n=10 Tax=Drosophila TaxID=32281 
+RepID=B4NHH2_DROWI
+Length=466
+
+ Score = 52.8 bits (125),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  297  IACPHKGCHKTFRDSSAMRKHLHTHG  322
+
+
+> UniRef50_B4JZQ8 GH23956 n=3 Tax=Drosophila TaxID=32281 RepID=B4JZQ8_DROGR
+Length=472
+
+ Score = 52.4 bits (124),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  301  IACPHKGCHKYFRDSSAMRKHLHTHG  326
+
+
+> UniRef50_A0A0X3P4E1 Transcriptional repressor protein YY1 n=2 
+Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3P4E1_SCHSO
+Length=699
+
+ Score = 52.8 bits (125),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHK C K+FRDNS+MRKHLHTHG
+Sbjct  304  TVLCPHKNCGKLFRDNSSMRKHLHTHG  330
+
+
+> UniRef50_A0A183AWU4 Uncharacterized protein n=2 Tax=Echinostomatoidea 
+TaxID=404429 RepID=A0A183AWU4_9TREM
+Length=572
+
+ Score = 52.0 bits (123),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPHKGC K FRDNSAMRKHLHTHG
+Sbjct  164  VPCPHKGCGKSFRDNSAMRKHLHTHG  189
+
+
+> UniRef50_UPI00093BC5E4 transcription factor YY2 n=1 Tax=Hipposideros 
+armiger TaxID=186990 RepID=UPI00093BC5E4
+Length=367
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 21/26 (81%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +ACPHKGC+K FRD SAM+KHLHTHG
+Sbjct  249  VACPHKGCSKAFRDISAMKKHLHTHG  274
+
+
+> UniRef50_UPI00022B6C96 transcription factor YY2 n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=UPI00022B6C96
+Length=379
+
+ Score = 50.8 bits (120),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC  +GC KMF+DN AMRKHLHTHG
+Sbjct  260  TVACRQEGCKKMFKDNCAMRKHLHTHG  286
+
+
+> UniRef50_A0A0P9C136 Uncharacterized protein n=7 Tax=melanogaster 
+group TaxID=32346 RepID=A0A0P9C136_DROAN
+Length=414
+
+ Score = 50.8 bits (120),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SA+RKHLHTHG
+Sbjct  251  IACPHKGCHKNFRDSSAVRKHLHTHG  276
+
+
+> UniRef50_UPI000A287E52 transcription factor YY2-like isoform 
+X1 n=8 Tax=Phascolarctos cinereus TaxID=38626 RepID=UPI000A287E52
+Length=592
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH+ C K+FRDNSA+RKHLHTHG
+Sbjct  474  LPCPHEECPKLFRDNSALRKHLHTHG  499
+
+
+> UniRef50_A0A091CV02 Transcription factor YY2 n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=A0A091CV02_FUKDA
+Length=617
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC  +GCTKMF+D  AMRKHLHTHG
+Sbjct  498  TVACCQEGCTKMFKDIYAMRKHLHTHG  524
+
+
+> UniRef50_K7E1F7 Uncharacterized protein n=3 Tax=Metatheria TaxID=9263 
+RepID=K7E1F7_MONDO
+Length=407
+
+ Score = 50.1 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH  C K+FRDNSA+RKH+HTHG
+Sbjct  289  LPCPHGECPKLFRDNSALRKHMHTHG  314
+
+
+> UniRef50_UPI000C9F7AF2 transcription factor YY2 n=1 Tax=Octodon 
+degus TaxID=10160 RepID=UPI000C9F7AF2
+Length=373
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC H+GC KMF+D+ AMRKHLHTHG
+Sbjct  255  TVACRHEGCKKMFKDSCAMRKHLHTHG  281
+
+
+> UniRef50_UPI000C7CF6B4 LOW QUALITY PROTEIN: transcription factor 
+YY2-like n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=UPI000C7CF6B4
+Length=569
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH+ C K+FRDNSA+RKHLHTHG
+Sbjct  451  LPCPHEECPKLFRDNSALRKHLHTHG  476
+
+
+> UniRef50_UPI000CCC669C LOW QUALITY PROTEIN: transcription factor 
+YY2 n=1 Tax=Myotis lucifugus TaxID=59463 RepID=UPI000CCC669C
+Length=534
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C HKGC KMFRD+++MRKH HTHG
+Sbjct  446  TVPCLHKGCGKMFRDSASMRKHQHTHG  472
+
+
+> UniRef50_UPI0003BBDF8D transcription factor YY2 n=2 Tax=Myotis 
+TaxID=9434 RepID=UPI0003BBDF8D
+Length=552
+
+ Score = 50.1 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C HKGC KMFRD+++MRKH HTHG
+Sbjct  436  TVPCLHKGCGKMFRDSASMRKHQHTHG  462
+
+
+> UniRef50_A0A183QIP7 Uncharacterized protein n=1 Tax=Schistosoma 
+rodhaini TaxID=6188 RepID=A0A183QIP7_9TREM
+Length=213
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  51  TVFCPHLGCGKTFRDTAAMRKHLHTHG  77
+
+
+> UniRef50_A0A2H1BRJ1 Zinc finger, C2H2 type n=1 Tax=Fasciola hepatica 
+TaxID=6192 RepID=A0A2H1BRJ1_FASHE
+Length=113
+
+ Score = 46.2 bits (108),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CP  GC K FRD +AMRKHLHTHG
+Sbjct  26  TVICPQLGCGKTFRDTAAMRKHLHTHG  52
+
+
+> UniRef50_A0A183W370 Uncharacterized protein n=2 Tax=Platyhelminthes 
+TaxID=6157 RepID=A0A183W370_TRIRE
+Length=143
+
+ Score = 46.2 bits (108),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/26 (73%), Positives = 21/26 (81%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           + CPH GC K FRD +AMRKHLHTHG
+Sbjct  65  VFCPHLGCGKTFRDTAAMRKHLHTHG  90
+
+
+> UniRef50_A0A074ZTZ2 Uncharacterized protein n=3 Tax=Opisthorchiidae 
+TaxID=6196 RepID=A0A074ZTZ2_9TREM
+Length=891
+
+ Score = 48.5 bits (114),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACP  GC K FRD S+MRKHLHTHG
+Sbjct  483  TVACPQLGCGKTFRDTSSMRKHLHTHG  509
+
+
+> UniRef50_A0A183JH93 Uncharacterized protein n=2 Tax=Schistosoma 
+TaxID=6181 RepID=A0A183JH93_9TREM
+Length=481
+
+ Score = 47.8 bits (112),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  401  TVFCPHLGCGKTFRDTAAMRKHLHTHG  427
+
+
+> UniRef50_I0FRP4 Transcription factor YY2 n=22 Tax=Bilateria TaxID=33213 
+RepID=I0FRP4_MACMU
+Length=374
+
+ Score = 47.4 bits (111),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C H GC KMFRD +AMRKHLH HG
+Sbjct  255  TVPCSHSGCEKMFRDYAAMRKHLHIHG  281
+
+
+> UniRef50_G4V881 Putative transcriptional repressor protein yy 
+(Yin and yang) (Delta transcription factor) n=4 Tax=Schistosoma 
+TaxID=6181 RepID=G4V881_SCHMA
+Length=995
+
+ Score = 48.1 bits (113),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  475  TVFCPHLGCGKTFRDTAAMRKHLHTHG  501
+
+
+> UniRef50_A0A0R3XB53 Uncharacterized protein n=1 Tax=Hydatigena 
+taeniaeformis TaxID=6205 RepID=A0A0R3XB53_HYDTA
+Length=426
+
+ Score = 47.4 bits (111),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  342  VVCPQLGCGKAFRDTAAMRKHLHTHG  367
+
+
+> UniRef50_UPI0007E8517E transcription factor Sp2 n=7 Tax=melanogaster 
+group TaxID=32346 RepID=UPI0007E8517E
+Length=686
+
+ Score = 47.8 bits (112),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  504  CTHRGCNKEFRNHSAMRKHMHTHG  527
+
+
+> UniRef50_A0A1W0X515 Transcriptional repressor protein YY1 n=1 
+Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0X515_HYPDU
+Length=549
+
+ Score = 47.0 bits (110),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 19/24 (79%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            CP KGC K FRDN++MRKHLHTHG
+Sbjct  277  CPSKGCGKGFRDNASMRKHLHTHG  300
+
+
+> UniRef50_A0A183A8G4 Uncharacterized protein n=1 Tax=Echinostoma 
+caproni TaxID=27848 RepID=A0A183A8G4_9TREM
+Length=452
+
+ Score = 46.2 bits (108),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CP  GC K FRD +AMRKHLHTHG
+Sbjct  26  TVICPQLGCGKTFRDTAAMRKHLHTHG  52
+
+
+> UniRef50_A0A183T2K1 Uncharacterized protein n=1 Tax=Schistocephalus 
+solidus TaxID=70667 RepID=A0A183T2K1_SCHSO
+Length=356
+
+ Score = 45.8 bits (107),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  141  VVCPQLGCGKAFRDTAAMRKHLHTHG  166
+
+
+> UniRef50_A0A0R3T3M6 Uncharacterized protein n=1 Tax=Hymenolepis 
+nana TaxID=102285 RepID=A0A0R3T3M6_HYMNN
+Length=479
+
+ Score = 45.8 bits (107),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  410  VVCPQLGCGKAFRDTAAMRKHLHTHG  435
+
+
+> UniRef50_Q9VSZ3 LD31045p n=15 Tax=Drosophila TaxID=32281 RepID=Q9VSZ3_DROME
+Length=669
+
+ Score = 46.2 bits (108),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  504  CTHRGCNKEFRNHSAMRKHMHTHG  527
+
+
+> UniRef50_O15391 Transcription factor YY2 n=11 Tax=Euarchontoglires 
+TaxID=314146 RepID=TYY2_HUMAN
 Length=372
 
- Score = 45.8 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
  Identities = 18/27 (67%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
 
 Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
@@ -129,16 +1298,112 @@ Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
 Sbjct  253  TVPCSYSGCEKMFRDYAAMRKHLHIHG  279
 
 
-> sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo 
-sapiens OX=9606 GN=ZFP42 PE=1 SV=2
-Length=310
+> UniRef50_A0A0X3PKZ3 Uncharacterized protein n=1 Tax=Schistocephalus 
+solidus TaxID=70667 RepID=A0A0X3PKZ3_SCHSO
+Length=496
 
- Score = 38.5 bits (88),  Expect = 6e-04, Method: Composition-based stats.
- Identities = 15/26 (58%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
 
 Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            IACP  GCT+  R+ +A+RKHL  HG
-Sbjct  188  IACPQSGCTRKLRNRAALRKHLLIHG  213
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  418  VVCPQLGCGKAFRDTAAMRKHLHTHG  443
+
+
+> UniRef50_Q29EF2 Uncharacterized protein n=7 Tax=obscura group 
+TaxID=32355 RepID=Q29EF2_DROPS
+Length=707
+
+ Score = 45.8 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  534  CTHRGCNKEFRNHSAMRKHMHTHG  557
+
+
+> UniRef50_A0A0X3Q6Y7 Transcriptional repressor protein YY1 n=3 
+Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3Q6Y7_SCHSO
+Length=1014
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  430  VVCPQLGCGKAFRDTAAMRKHLHTHG  455
+
+
+> UniRef50_A0A0M4EI03 Phol n=1 Tax=Drosophila busckii TaxID=30019 
+RepID=A0A0M4EI03_DROBS
+Length=612
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  445  CTHRGCHKEFRNHSAMRKHMHTHG  468
+
+
+> UniRef50_A0A068Y735 Transcriptional repressor protein YY1 n=4 
+Tax=Taeniidae TaxID=6208 RepID=A0A068Y735_ECHMU
+Length=874
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  370  VVCPQLGCGKAFRDTAAMRKHLHTHG  395
+
+
+> UniRef50_A0A0R3U2C1 Uncharacterized protein n=1 Tax=Mesocestoides 
+corti TaxID=53468 RepID=A0A0R3U2C1_9CEST
+Length=750
+
+ Score = 45.4 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  324  VVCPQLGCGKAFRDTAAMRKHLHTHG  349
+
+
+> UniRef50_B4IXD6 GH16213 n=1 Tax=Drosophila grimshawi TaxID=7222 
+RepID=B4IXD6_DROGR
+Length=769
+
+ Score = 45.1 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  604  CTHRGCNKEFRNHSAMRKHMHTHG  627
+
+
+> UniRef50_B4KXJ1 Uncharacterized protein n=4 Tax=repleta group 
+TaxID=32321 RepID=B4KXJ1_DROMO
+Length=706
+
+ Score = 45.1 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  542  CTHRGCNKEFRNHSAMRKHMHTHG  565
+
+
+> UniRef50_A0A068XJX6 Transcriptional repressor protein YY1 n=2 
+Tax=Hymenolepis TaxID=99110 RepID=A0A068XJX6_HYMMI
+Length=914
+
+ Score = 45.1 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  410  VVCPQLGCGKAFRDTAAMRKHLHTHG  435
 
 
 
@@ -149,7 +1414,7 @@ Gapped
 Lambda      K        H        a         alpha    sigma
    0.267   0.0410    0.140     1.90     42.6     43.6 
 
-Effective search space used: 4963465100
+Effective search space used: 235815159800
 Results from round 2
 
 
@@ -160,73 +1425,669 @@ Length=27
 Sequences producing significant alignments:                          (Bits)  Value
 Sequences used in model and found again:
 
-  sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus O...  55.8    5e-10
-  sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus ...  54.7    1e-09
-  sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicu...  54.7    1e-09
-  sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens O...  54.3    2e-09
-  sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=H...  53.1    5e-09
-  sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=M...  53.1    6e-09
-  sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanoga...  52.0    2e-08
-  sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo sa...  44.6    4e-06
+  UniRef50_A0A0R4ILY4 YY1 transcription factor a n=13 Tax=Euteleo...  64.9    8e-12
+  UniRef50_A0A087UZV7 Transcriptional repressor protein YY1 (Frag...  64.5    1e-11
+  UniRef50_A0A224Z1Q3 Transcription factor YY n=8 Tax=Ixodidae Ta...  64.9    2e-11
+  UniRef50_UPI000C6F7EDB transcriptional repressor protein YY1 is...  64.9    2e-11
+  UniRef50_W6UTI4 Putative tRNA (cytidine(32)/guanosine(34)-2'-O)...  65.6    2e-11
+  UniRef50_A7TBA9 Predicted protein n=2 Tax=Nematostella vectensi...  62.9    2e-11
+  UniRef50_A0A2H1VXU7 SFRICE_033512 (Fragment) n=1 Tax=Spodoptera...  62.2    3e-11
+  UniRef50_A0A088AD22 Uncharacterized protein n=74 Tax=Hymenopter...  64.1    3e-11
+  UniRef50_A0A1W4XJE6 transcriptional repressor protein YY1-like ...  63.7    4e-11
+  UniRef50_Q7T304 YY1 transcription factor b n=34 Tax=Bilateria T...  63.3    5e-11
+  UniRef50_A0A1V9Y316 Transcription factor YY2-like n=3 Tax=Derma...  63.7    5e-11
+  UniRef50_K7ILX7 Uncharacterized protein n=58 Tax=Bilateria TaxI...  63.3    5e-11
+  UniRef50_A0A183LQ77 Uncharacterized protein n=5 Tax=Schistosoma...  64.1    5e-11
+  UniRef50_A0A2D0Q100 transcriptional repressor protein YY1-like ...  62.6    1e-10
+  UniRef50_A0A293LSU6 Uncharacterized protein (Fragment) n=2 Tax=...  62.2    1e-10
+  UniRef50_A0A1X7V5J3 Uncharacterized protein n=2 Tax=Amphimedon ...  62.9    1e-10
+  UniRef50_A0A1A9WQC2 Uncharacterized protein n=1 Tax=Glossina br...  62.6    2e-10
+  UniRef50_A0A226DC84 Transcriptional repressor protein YY1 n=26 ...  61.8    3e-10
+  UniRef50_D2GY03 Uncharacterized protein (Fragment) n=3 Tax=Laur...  61.4    3e-10
+  UniRef50_G4VQ45 Putative transcriptional repressor protein yy (...  61.8    3e-10
+  UniRef50_A0A182IY54 Peptidylprolyl isomerase n=1 Tax=Anopheles ...  62.6    3e-10
+  UniRef50_A0A074Z377 Uncharacterized protein n=3 Tax=Opisthorchi...  61.8    3e-10
+  UniRef50_UPI000C75C816 transcriptional repressor protein YY1-li...  61.0    4e-10
+  UniRef50_A0A183RYZ4 Uncharacterized protein n=1 Tax=Schistosoma...  60.6    4e-10
+  UniRef50_UPI000BB4E6FD membrane-bound transcription factor site...  61.8    4e-10
+  UniRef50_F7I140 Uncharacterized protein n=3 Tax=Euteleostomi Ta...  59.9    5e-10
+  UniRef50_A0A1B0G9Y1 Uncharacterized protein n=5 Tax=Glossina Ta...  61.4    5e-10
+  UniRef50_A0A151P8R6 Transcriptional repressor protein YY1 n=12 ...  59.1    5e-10
+  UniRef50_UPI0003BBB5B7 transcriptional repressor protein YY1 n=...  59.9    6e-10
+  UniRef50_UPI000A2B1DA7 membrane-bound transcription factor site...  60.6    8e-10
+  UniRef50_A0A232FLC1 Uncharacterized protein n=1 Tax=Trichomalop...  59.5    9e-10
+  UniRef50_A0A0L0C1G2 Polycomb protein PHO n=1 Tax=Lucilia cuprin...  60.6    9e-10
+  UniRef50_W5JI98 Uncharacterized protein n=1 Tax=Anopheles darli...  60.6    1e-09
+  UniRef50_F1C7A5 YY1 transcription factor (Fragment) n=9 Tax=Eum...  57.9    1e-09
+  UniRef50_A0A068XZ81 Transcriptional repressor protein YY1 n=4 T...  59.9    1e-09
+  UniRef50_A0A068XE81 Transcriptional repressor protein YY1 n=3 T...  59.9    1e-09
+  UniRef50_UPI000C9E480D membrane-bound transcription factor site...  59.9    1e-09
+  UniRef50_H9JNS5 Uncharacterized protein n=5 Tax=Arthropoda TaxI...  58.3    2e-09
+  UniRef50_J9K4I8 Uncharacterized protein n=25 Tax=Bilateria TaxI...  59.1    2e-09
+  UniRef50_UPI000533C6A4 transcriptional repressor protein YY1 n=...  59.5    2e-09
+  UniRef50_A0A1Y3BDU1 Transcription factor YY2-like protein n=1 T...  58.3    3e-09
+  UniRef50_G1NKS5 YY1 transcription factor n=60 Tax=Bilateria Tax...  56.4    3e-09
+  UniRef50_A0A183IYC3 Uncharacterized protein n=1 Tax=Soboliphyme...  57.9    3e-09
+  UniRef50_A0A2I0MPS6 YY1 transcription factor (Fragment) n=3 Tax...  58.3    3e-09
+  UniRef50_Q1RLG5 Zinc finger protein n=5 Tax=Bilateria TaxID=332...  57.9    3e-09
+  UniRef50_P25490 Transcriptional repressor protein YY1 n=282 Tax...  58.3    4e-09
+  UniRef50_A0A183AWU4 Uncharacterized protein n=2 Tax=Echinostoma...  58.3    4e-09
+  UniRef50_UPI0001CE2030 transcription factor YY2 isoform X1 n=10...  57.9    5e-09
+  UniRef50_UPI000CCC669C LOW QUALITY PROTEIN: transcription facto...  58.3    5e-09
+  UniRef50_A0A224L134 PHO n=4 Tax=Drosophila TaxID=32281 RepID=A0...  58.3    5e-09
+  UniRef50_UPI0003BBDF8D transcription factor YY2 n=2 Tax=Myotis ...  58.3    5e-09
+  UniRef50_B0X5W9 Transcriptional repressor protein YY1 n=5 Tax=C...  57.9    6e-09
+  UniRef50_H0WVA2 Uncharacterized protein n=5 Tax=Eutheria TaxID=...  55.6    6e-09
+  UniRef50_P0C6P6 Transcription factor YY2 n=34 Tax=Eumetazoa Tax...  57.5    6e-09
+  UniRef50_K9KG19 Transcriptional repressor protein YY1-like prot...  55.6    6e-09
+  UniRef50_A0A096NJR2 Uncharacterized protein n=15 Tax=Euteleosto...  55.6    7e-09
+  UniRef50_A0A1A6HXW8 Uncharacterized protein (Fragment) n=3 Tax=...  55.6    7e-09
+  UniRef50_UPI00076856D7 transcription factor YY2 n=5 Tax=Laurasi...  57.5    7e-09
+  UniRef50_G9K9U9 Membrane-bound transcription factor site 2 prot...  57.2    8e-09
+  UniRef50_A0A0X3P4E1 Transcriptional repressor protein YY1 n=2 T...  57.9    8e-09
+  UniRef50_UPI00044010BE transcriptional repressor protein YY1-li...  57.5    1e-08
+  UniRef50_UPI00022B6C96 transcription factor YY2 n=3 Tax=Boreoeu...  56.8    1e-08
+  UniRef50_UPI00081173EE polycomb protein PHO-like n=1 Tax=Rhagol...  57.5    1e-08
+  UniRef50_A0A0K8W5Q6 Polycomb protein PHO n=16 Tax=Dacinae TaxID...  57.2    1e-08
+  UniRef50_F7C653 YY2 transcription factor n=11 Tax=Bilateria Tax...  56.4    1e-08
+  UniRef50_A0A132A1V2 Transcription factor YY2-like protein n=1 T...  56.4    1e-08
+  UniRef50_G1LXD5 YY1 transcription factor n=14 Tax=Euteleostomi ...  55.6    2e-08
+  UniRef50_A0A0R3U402 Uncharacterized protein n=1 Tax=Mesocestoid...  55.6    2e-08
+  UniRef50_UPI000A287E52 transcription factor YY2-like isoform X1...  56.8    2e-08
+  UniRef50_Q8ST83 Polycomb protein PHO n=29 Tax=Sophophora TaxID=...  56.0    3e-08
+  UniRef50_UPI000C7CF6B4 LOW QUALITY PROTEIN: transcription facto...  56.0    3e-08
+  UniRef50_A0A091CV02 Transcription factor YY2 n=4 Tax=Boreoeuthe...  56.0    3e-08
+  UniRef50_K7E1F7 Uncharacterized protein n=3 Tax=Metatheria TaxI...  55.6    3e-08
+  UniRef50_A0A0R3XB53 Uncharacterized protein n=1 Tax=Hydatigena ...  55.2    4e-08
+  UniRef50_B4NHH2 Uncharacterized protein n=10 Tax=Drosophila Tax...  55.2    5e-08
+  UniRef50_A0A074ZTZ2 Uncharacterized protein n=3 Tax=Opisthorchi...  55.6    5e-08
+  UniRef50_UPI000C9F7AF2 transcription factor YY2 n=1 Tax=Octodon...  54.8    6e-08
+  UniRef50_B4JZQ8 GH23956 n=3 Tax=Drosophila TaxID=32281 RepID=B4...  55.2    6e-08
+  UniRef50_I0FRP4 Transcription factor YY2 n=22 Tax=Bilateria Tax...  54.5    8e-08
+  UniRef50_UPI0006416288 transcriptional repressor protein YY1-li...  51.8    9e-08
+  UniRef50_G4V881 Putative transcriptional repressor protein yy (...  54.8    1e-07
+  UniRef50_A0A183JH93 Uncharacterized protein n=2 Tax=Schistosoma...  54.1    1e-07
+  UniRef50_UPI0007E8517E transcription factor Sp2 n=7 Tax=melanog...  54.1    2e-07
+  UniRef50_A0A0R3T3M6 Uncharacterized protein n=1 Tax=Hymenolepis...  53.3    2e-07
+  UniRef50_A0A0P9C136 Uncharacterized protein n=7 Tax=melanogaste...  53.3    2e-07
+  UniRef50_A0A0X3PKZ3 Uncharacterized protein n=1 Tax=Schistoceph...  53.3    2e-07
+  UniRef50_A0A0R3U2C1 Uncharacterized protein n=1 Tax=Mesocestoid...  53.3    4e-07
+  UniRef50_A0A0X3Q6Y7 Transcriptional repressor protein YY1 n=3 T...  53.3    4e-07
+  UniRef50_A0A068Y735 Transcriptional repressor protein YY1 n=4 T...  53.3    4e-07
+  UniRef50_O15391 Transcription factor YY2 n=11 Tax=Euarchontogli...  52.1    4e-07
+  UniRef50_A0A068XJX6 Transcriptional repressor protein YY1 n=2 T...  52.9    5e-07
+  UniRef50_A0A1W0X515 Transcriptional repressor protein YY1 n=1 T...  52.5    5e-07
+  UniRef50_UPI00093BC5E4 transcription factor YY2 n=1 Tax=Hipposi...  52.1    6e-07
+  UniRef50_T1FXR6 Uncharacterized protein n=7 Tax=Eumetazoa TaxID...  49.5    8e-07
+  UniRef50_Q9VSZ3 LD31045p n=15 Tax=Drosophila TaxID=32281 RepID=...  52.1    8e-07
+  UniRef50_A0A183W370 Uncharacterized protein n=2 Tax=Platyhelmin...  49.1    9e-07
+  UniRef50_Q29EF2 Uncharacterized protein n=7 Tax=obscura group T...  51.8    1e-06
+  UniRef50_A0A0M4EI03 Phol n=1 Tax=Drosophila busckii TaxID=30019...  51.4    1e-06
+  UniRef50_B4KXJ1 Uncharacterized protein n=4 Tax=repleta group T...  50.6    3e-06
+  UniRef50_A0A2H1BRJ1 Zinc finger, C2H2 type n=1 Tax=Fasciola hep...  47.9    3e-06
+  UniRef50_B4IXD6 GH16213 n=1 Tax=Drosophila grimshawi TaxID=7222...  50.6    3e-06
+  UniRef50_A0A183T2K1 Uncharacterized protein n=1 Tax=Schistoceph...  49.8    3e-06
+  UniRef50_A0A183A8G4 Uncharacterized protein n=1 Tax=Echinostoma...  49.8    4e-06
+  UniRef50_A0A183QIP7 Uncharacterized protein n=1 Tax=Schistosoma...  47.9    5e-06
+  UniRef50_A0A0Q5SDS7 Uncharacterized protein n=12 Tax=Eukaryota ...  45.6    2e-05
 
 Sequences not found previously or not previously below threshold:
 
-  sp|P22227|ZFP42_MOUSE Zinc finger protein 42 OS=Mus musculus OX...  36.9    0.002
+  UniRef50_A0A1D1W1U6 Uncharacterized protein n=2 Tax=Ramazzottiu...  45.6    1e-04
+  UniRef50_UPI000811A587 polycomb protein PHO-like n=1 Tax=Rhagol...  44.4    2e-04
+  UniRef50_A0A1I8B8I4 Uncharacterized protein n=1 Tax=Meloidogyne...  43.3    8e-04
 
 
-> sp|Q3TTC2|TYY2_MOUSE Transcription factor YY2 OS=Mus musculus 
-OX=10090 GN=Yy2 PE=2 SV=1
-Length=378
+> UniRef50_A0A0R4ILY4 YY1 transcription factor a n=13 Tax=Euteleostomi 
+TaxID=117571 RepID=A0A0R4ILY4_DANRE
+Length=309
 
- Score = 55.8 bits (133),  Expect = 5e-10, Method: Composition-based stats.
+ Score = 64.9 bits (157),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  238  TIACPHKGCTKMFRDNSAMRKHLHTHG  264
+
+
+> UniRef50_A0A087UZV7 Transcriptional repressor protein YY1 (Fragment) 
+n=5 Tax=Eumetazoa TaxID=6072 RepID=A0A087UZV7_9ARAC
+Length=342
+
+ Score = 64.5 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  221  TIACPHKGCNKMFRDNSAMRKHLHTHG  247
+
+
+> UniRef50_A0A224Z1Q3 Transcription factor YY n=8 Tax=Ixodidae 
+TaxID=6939 RepID=A0A224Z1Q3_9ACAR
+Length=412
+
+ Score = 64.9 bits (157),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  245  TIACPHKGCTKMFRDNSAMRKHLHTHG  271
+
+
+> UniRef50_UPI000C6F7EDB transcriptional repressor protein YY1 
+isoform X3 n=2 Tax=Arthropoda TaxID=6656 RepID=UPI000C6F7EDB
+Length=431
+
+ Score = 64.9 bits (157),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  278  TIACPHKGCTKMFRDNSAMRKHLHTHG  304
+
+
+> UniRef50_W6UTI4 Putative tRNA (cytidine(32)/guanosine(34)-2'-O)-methyltransferase 
+n=1 Tax=Echinococcus granulosus TaxID=6210 
+RepID=W6UTI4_ECHGR
+Length=2000
+
+ Score = 65.6 bits (159),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1     TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+             T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  1289  TVACPHKNCGKLFRDNSAMRKHLHTHG  1315
+
+
+> UniRef50_A7TBA9 Predicted protein n=2 Tax=Nematostella vectensis 
+TaxID=45351 RepID=A7TBA9_NEMVE
+Length=262
+
+ Score = 62.9 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  204  TIACPHKGCTKMFRDNSAMRKHLHTHG  230
+
+
+> UniRef50_A0A2H1VXU7 SFRICE_033512 (Fragment) n=1 Tax=Spodoptera 
+frugiperda TaxID=7108 RepID=A0A2H1VXU7_SPOFR
+Length=194
+
+ Score = 62.2 bits (150),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  160  TIACPHKGCTKMFRDNSAMRKHLHTHG  186
+
+
+> UniRef50_A0A088AD22 Uncharacterized protein n=74 Tax=Hymenoptera 
+TaxID=7399 RepID=A0A088AD22_APIME
+Length=398
+
+ Score = 64.1 bits (155),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  245  TIACPHKGCTKMFRDNSAMRKHLHTHG  271
+
+
+> UniRef50_A0A1W4XJE6 transcriptional repressor protein YY1-like 
+n=8 Tax=Arthropoda TaxID=6656 RepID=A0A1W4XJE6_AGRPL
+Length=366
+
+ Score = 63.7 bits (154),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  213  TIACPHKGCTKMFRDNSAMRKHLHTHG  239
+
+
+> UniRef50_Q7T304 YY1 transcription factor b n=34 Tax=Bilateria 
+TaxID=33213 RepID=Q7T304_DANRE
+Length=354
+
+ Score = 63.3 bits (153),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC+KMFRDNSAMRKHLHTHG
+Sbjct  235  TIACPHKGCSKMFRDNSAMRKHLHTHG  261
+
+
+> UniRef50_A0A1V9Y316 Transcription factor YY2-like n=3 Tax=Dermanyssoidea 
+TaxID=41438 RepID=A0A1V9Y316_9ACAR
+Length=455
+
+ Score = 63.7 bits (154),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC+KMFRDN AMRKHLHTHG
+Sbjct  305  TIACPHKGCSKMFRDNGAMRKHLHTHG  331
+
+
+> UniRef50_K7ILX7 Uncharacterized protein n=58 Tax=Bilateria TaxID=33213 
+RepID=K7ILX7_NASVI
+Length=389
+
+ Score = 63.3 bits (153),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  260  TIACPHKGCTKMFRDNSAMRKHLHTHG  286
+
+
+> UniRef50_A0A183LQ77 Uncharacterized protein n=5 Tax=Schistosomatidae 
+TaxID=31245 RepID=A0A183LQ77_9TREM
+Length=667
+
+ Score = 64.1 bits (155),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  279  TVPCPHKGCGKLFRDNSAMRKHLHTHG  305
+
+
+> UniRef50_A0A2D0Q100 transcriptional repressor protein YY1-like 
+isoform X1 n=15 Tax=Gnathostomata TaxID=35060 RepID=A0A2D0Q100_ICTPU
+Length=389
+
+ Score = 62.6 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  270  TIACPHKGCTKMFRDNSAMRKHLHTHG  296
+
+
+> UniRef50_A0A293LSU6 Uncharacterized protein (Fragment) n=2 Tax=Ornithodoros 
+erraticus TaxID=265619 RepID=A0A293LSU6_ORNER
+Length=356
+
+ Score = 62.2 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  218  TIACPHKGCTKMFRDNSAMRKHLHTHG  244
+
+
+> UniRef50_A0A1X7V5J3 Uncharacterized protein n=2 Tax=Amphimedon 
+queenslandica TaxID=400682 RepID=A0A1X7V5J3_AMPQE
+Length=497
+
+ Score = 62.9 bits (152),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TI CPHKGC K+FRDN+AMRKHLHTHG
+Sbjct  237  TIPCPHKGCNKLFRDNAAMRKHLHTHG  263
+
+
+> UniRef50_A0A1A9WQC2 Uncharacterized protein n=1 Tax=Glossina 
+brevipalpis TaxID=37001 RepID=A0A1A9WQC2_9MUSC
+Length=660
+
+ Score = 62.6 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  497  IACPHKGCNKLFRDNSAMRKHLHTHG  522
+
+
+> UniRef50_A0A226DC84 Transcriptional repressor protein YY1 n=26 
+Tax=Protostomia TaxID=33317 RepID=A0A226DC84_FOLCA
+Length=440
+
+ Score = 61.8 bits (149),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  285  TIACPHKGCTKMFRDNSAMRKHLHTHG  311
+
+
+> UniRef50_D2GY03 Uncharacterized protein (Fragment) n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=D2GY03_AILME
+Length=358
+
+ Score = 61.4 bits (148),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  240  TIACPHKGCVKMFRDNSAMRKHLHTHG  266
+
+
+> UniRef50_G4VQ45 Putative transcriptional repressor protein yy 
+(Yin and yang) (Delta transcription factor) n=3 Tax=Schistosoma 
+TaxID=6181 RepID=G4VQ45_SCHMA
+Length=474
+
+ Score = 61.8 bits (149),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  86   TVPCPHKGCGKLFRDNSAMRKHLHTHG  112
+
+
+> UniRef50_A0A182IY54 Peptidylprolyl isomerase n=1 Tax=Anopheles 
+atroparvus TaxID=41427 RepID=A0A182IY54_9DIPT
+Length=1349
+
+ Score = 62.6 bits (151),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 25/26 (96%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGCTKMFRDNSAMRKHLHTHG
+Sbjct  599  IACPQKGCTKMFRDNSAMRKHLHTHG  624
+
+
+> UniRef50_A0A074Z377 Uncharacterized protein n=3 Tax=Opisthorchiidae 
+TaxID=6196 RepID=A0A074Z377_9TREM
+Length=665
+
+ Score = 61.8 bits (149),  Expect = 3e-10, Method: Composition-based stats.
  Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
 
 Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            IAC HKGC KMF+DNSAMRKHLH HG
-Sbjct  260  IACSHKGCEKMFKDNSAMRKHLHIHG  285
+            + CPHKGC K FRDNSAMRKHLHTHG
+Sbjct  277  VPCPHKGCGKSFRDNSAMRKHLHTHG  302
 
 
-> sp|Q2FAY8|TYY2_RATRT Transcription factor YY2 OS=Rattus rattus 
-OX=10117 GN=Yy2 PE=3 SV=1
-Length=376
+> UniRef50_UPI000C75C816 transcriptional repressor protein YY1-like 
+n=1 Tax=Eurytemora affinis TaxID=88015 RepID=UPI000C75C816
+Length=355
 
- Score = 54.7 bits (130),  Expect = 1e-09, Method: Composition-based stats.
- Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
-
-Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            +AC HKGC KMF+DNSAMRKHLH HG
-Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
-
-
-> sp|P0C6P6|TYY2_RAT Transcription factor YY2 OS=Rattus norvegicus 
-OX=10116 GN=Yy2 PE=3 SV=1
-Length=376
-
- Score = 54.7 bits (130),  Expect = 1e-09, Method: Composition-based stats.
- Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
-
-Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            +AC HKGC KMF+DNSAMRKHLH HG
-Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
-
-
-> sp|O15391|TYY2_HUMAN Transcription factor YY2 OS=Homo sapiens 
-OX=9606 GN=YY2 PE=2 SV=1
-Length=372
-
- Score = 54.3 bits (129),  Expect = 2e-09, Method: Composition-based stats.
- Identities = 18/27 (67%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+ Score = 61.0 bits (147),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
 
 Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
-            T+ C + GC KMFRD +AMRKHLH HG
-Sbjct  253  TVPCSYSGCEKMFRDYAAMRKHLHIHG  279
+            TI CPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  198  TIGCPHKGCCKMFRDNSAMRKHLHTHG  224
 
 
-> sp|P25490|TYY1_HUMAN Transcriptional repressor protein YY1 OS=Homo 
-sapiens OX=9606 GN=YY1 PE=1 SV=2
+> UniRef50_A0A183RYZ4 Uncharacterized protein n=1 Tax=Schistosoma 
+rodhaini TaxID=6188 RepID=A0A183RYZ4_9TREM
+Length=354
+
+ Score = 60.6 bits (146),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  117  TVPCPHKGCGKLFRDNSAMRKHLHTHG  143
+
+
+> UniRef50_UPI000BB4E6FD membrane-bound transcription factor site-2 
+protease isoform X1 n=1 Tax=Enhydra lutris kenyoni TaxID=391180 
+RepID=UPI000BB4E6FD
+Length=704
+
+ Score = 61.8 bits (149),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMF+DNSAMRKHLHTHG
+Sbjct  291  TIACPHKGCVKMFKDNSAMRKHLHTHG  317
+
+
+> UniRef50_F7I140 Uncharacterized protein n=3 Tax=Euteleostomi 
+TaxID=117571 RepID=F7I140_CALJA
+Length=273
+
+ Score = 59.9 bits (144),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  154  TIACPHKGCTKMFRDNSAMRKHLHTHG  180
+
+
+> UniRef50_A0A1B0G9Y1 Uncharacterized protein n=5 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0G9Y1_GLOMM
+Length=657
+
+ Score = 61.4 bits (148),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  490  IACPHKGCNKLFRDNSAMRKHLHTHG  515
+
+
+> UniRef50_A0A151P8R6 Transcriptional repressor protein YY1 n=12 
+Tax=Gnathostomata TaxID=35060 RepID=A0A151P8R6_ALLMI
+Length=243
+
+ Score = 59.1 bits (142),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  124  TIACPHKGCTKMFRDNSAMRKHLHTHG  150
+
+
+> UniRef50_UPI0003BBB5B7 transcriptional repressor protein YY1 
+n=3 Tax=Deuterostomia TaxID=33511 RepID=UPI0003BBB5B7
+Length=306
+
+ Score = 59.9 bits (144),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  187  TIACPHKGCTKMFRDNSAMRKHLHTHG  213
+
+
+> UniRef50_UPI000A2B1DA7 membrane-bound transcription factor site-2 
+protease isoform X1 n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=UPI000A2B1DA7
+Length=601
+
+ Score = 60.6 bits (146),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIAC HKGC KMFRDNSAMRKHLHTHG
+Sbjct  482  TIACAHKGCPKMFRDNSAMRKHLHTHG  508
+
+
+> UniRef50_A0A232FLC1 Uncharacterized protein n=1 Tax=Trichomalopsis 
+sarcophagae TaxID=543379 RepID=A0A232FLC1_9HYME
+Length=304
+
+ Score = 59.5 bits (143),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  89   TIACPHKGCTKMFRDNSAMRKHLHTHG  115
+
+
+> UniRef50_A0A0L0C1G2 Polycomb protein PHO n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0C1G2_LUCCU
+Length=780
+
+ Score = 60.6 bits (146),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  613  IACPHKGCNKLFRDNSAMRKHLHTHG  638
+
+
+> UniRef50_W5JI98 Uncharacterized protein n=1 Tax=Anopheles darlingi 
+TaxID=43151 RepID=W5JI98_ANODA
+Length=855
+
+ Score = 60.6 bits (146),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC KMFRDNSAMRKHLHTHG
+Sbjct  670  IACPQKGCNKMFRDNSAMRKHLHTHG  695
+
+
+> UniRef50_F1C7A5 YY1 transcription factor (Fragment) n=9 Tax=Eumetazoa 
+TaxID=6072 RepID=F1C7A5_PERFV
+Length=215
+
+ Score = 57.9 bits (139),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  99   TIACPHKGCTKMFRDNSAMRKHLHTHG  125
+
+
+> UniRef50_A0A068XZ81 Transcriptional repressor protein YY1 n=4 
+Tax=Taeniidae TaxID=6208 RepID=A0A068XZ81_ECHMU
+Length=536
+
+ Score = 59.9 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  274  TVACPHKNCGKLFRDNSAMRKHLHTHG  300
+
+
+> UniRef50_A0A068XE81 Transcriptional repressor protein YY1 n=3 
+Tax=Hymenolepis TaxID=99110 RepID=A0A068XE81_HYMMI
+Length=523
+
+ Score = 59.9 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  268  VACPHKNCGKLFRDNSAMRKHLHTHG  293
+
+
+> UniRef50_UPI000C9E480D membrane-bound transcription factor site-2 
+protease isoform X1 n=5 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI000C9E480D
+Length=576
+
+ Score = 59.9 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC KMFRDNSAMRKHL  HG
+Sbjct  457  TVACPHKGCEKMFRDNSAMRKHLQIHG  483
+
+
+> UniRef50_H9JNS5 Uncharacterized protein n=5 Tax=Arthropoda TaxID=6656 
+RepID=H9JNS5_BOMMO
+Length=262
+
+ Score = 58.3 bits (140),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  104  TIACPHKGCTKMFRDNSAMRKHLHTHG  130
+
+
+> UniRef50_J9K4I8 Uncharacterized protein n=25 Tax=Bilateria TaxID=33213 
+RepID=J9K4I8_ACYPI
+Length=393
+
+ Score = 59.1 bits (142),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACP+K C+KMFRDNSAMRKHLHTHG
+Sbjct  234  TIACPNKNCSKMFRDNSAMRKHLHTHG  260
+
+
+> UniRef50_UPI000533C6A4 transcriptional repressor protein YY1 
+n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=UPI000533C6A4
+Length=592
+
+ Score = 59.5 bits (143),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  473  TIACPHKGCTKMFRDNSAMRKHLHTHG  499
+
+
+> UniRef50_A0A1Y3BDU1 Transcription factor YY2-like protein n=1 
+Tax=Euroglyphus maynei TaxID=6958 RepID=A0A1Y3BDU1_EURMA
+Length=335
+
+ Score = 58.3 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPH+GC KMFRDNSAMRKHLHTHG
+Sbjct  153  TIACPHRGCMKMFRDNSAMRKHLHTHG  179
+
+
+> UniRef50_G1NKS5 YY1 transcription factor n=60 Tax=Bilateria TaxID=33213 
+RepID=G1NKS5_MELGA
+Length=196
+
+ Score = 56.4 bits (135),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  77   TIACPHKGCTKMFRDNSAMRKHLHTHG  103
+
+
+> UniRef50_A0A183IYC3 Uncharacterized protein n=1 Tax=Soboliphyme 
+baturini TaxID=241478 RepID=A0A183IYC3_9BILA
+Length=335
+
+ Score = 57.9 bits (139),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC K FRDNSAMRKHLHTHG
+Sbjct  238  TVACPHKGCNKRFRDNSAMRKHLHTHG  264
+
+
+> UniRef50_A0A2I0MPS6 YY1 transcription factor (Fragment) n=3 Tax=Amniota 
+TaxID=32524 RepID=A0A2I0MPS6_COLLI
+Length=360
+
+ Score = 58.3 bits (140),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  241  TIACPHKGCTKMFRDNSAMRKHLHTHG  267
+
+
+> UniRef50_Q1RLG5 Zinc finger protein n=5 Tax=Bilateria TaxID=33213 
+RepID=Q1RLG5_CIOIN
+Length=337
+
+ Score = 57.9 bits (139),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACP  GC KMFRDN+AMRKHLHTHG
+Sbjct  205  TVACPQAGCEKMFRDNAAMRKHLHTHG  231
+
+
+> UniRef50_P25490 Transcriptional repressor protein YY1 n=282 Tax=Deuterostomia 
+TaxID=33511 RepID=TYY1_HUMAN
 Length=414
 
- Score = 53.1 bits (126),  Expect = 5e-09, Method: Composition-based stats.
+ Score = 58.3 bits (140),  Expect = 4e-09, Method: Composition-based stats.
  Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
 
 Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
@@ -234,23 +2095,287 @@ Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
 Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
 
 
-> sp|Q00899|TYY1_MOUSE Transcriptional repressor protein YY1 OS=Mus 
-musculus OX=10090 GN=Yy1 PE=1 SV=1
-Length=414
+> UniRef50_A0A183AWU4 Uncharacterized protein n=2 Tax=Echinostomatoidea 
+TaxID=404429 RepID=A0A183AWU4_9TREM
+Length=572
 
- Score = 53.1 bits (126),  Expect = 6e-09, Method: Composition-based stats.
- Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+ Score = 58.3 bits (140),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPHKGC K FRDNSAMRKHLHTHG
+Sbjct  164  VPCPHKGCGKSFRDNSAMRKHLHTHG  189
+
+
+> UniRef50_UPI0001CE2030 transcription factor YY2 isoform X1 n=10 
+Tax=Eumetazoa TaxID=6072 RepID=UPI0001CE2030
+Length=365
+
+ Score = 57.9 bits (139),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
 
 Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
-            TIACPHKGCTKMFRDNSAMRKHLHTHG
-Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
+            T+ACPHK C KMFRDN AMRKHLHTHG
+Sbjct  246  TVACPHKDCEKMFRDNCAMRKHLHTHG  272
 
 
-> sp|Q8ST83|PHO_DROME Polycomb protein PHO OS=Drosophila melanogaster 
-OX=7227 GN=pho PE=1 SV=2
+> UniRef50_UPI000CCC669C LOW QUALITY PROTEIN: transcription factor 
+YY2 n=1 Tax=Myotis lucifugus TaxID=59463 RepID=UPI000CCC669C
+Length=534
+
+ Score = 58.3 bits (140),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C HKGC KMFRD+++MRKH HTHG
+Sbjct  446  TVPCLHKGCGKMFRDSASMRKHQHTHG  472
+
+
+> UniRef50_A0A224L134 PHO n=4 Tax=Drosophila TaxID=32281 RepID=A0A224L134_DROMD
+Length=485
+
+ Score = 58.3 bits (140),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  321  IACPHKGCHKNFRDSSAMRKHLHTHG  346
+
+
+> UniRef50_UPI0003BBDF8D transcription factor YY2 n=2 Tax=Myotis 
+TaxID=9434 RepID=UPI0003BBDF8D
+Length=552
+
+ Score = 58.3 bits (140),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C HKGC KMFRD+++MRKH HTHG
+Sbjct  436  TVPCLHKGCGKMFRDSASMRKHQHTHG  462
+
+
+> UniRef50_B0X5W9 Transcriptional repressor protein YY1 n=5 Tax=Culicidae 
+TaxID=7157 RepID=B0X5W9_CULQU
+Length=431
+
+ Score = 57.9 bits (139),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 25/26 (96%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  265  IACPHKGCNKMFRDNSAMRKHLHTHG  290
+
+
+> UniRef50_H0WVA2 Uncharacterized protein n=5 Tax=Eutheria TaxID=9347 
+RepID=H0WVA2_OTOGA
+Length=189
+
+ Score = 55.6 bits (133),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  70  TIACPHKGCTKMFRDNSAMRKHLHTHG  96
+
+
+> UniRef50_P0C6P6 Transcription factor YY2 n=34 Tax=Eumetazoa TaxID=6072 
+RepID=TYY2_RAT
+Length=376
+
+ Score = 57.5 bits (138),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +AC HKGC KMF+DNSAMRKHLH HG
+Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
+
+
+> UniRef50_K9KG19 Transcriptional repressor protein YY1-like protein 
+(Fragment) n=2 Tax=Boreoeutheria TaxID=1437010 RepID=K9KG19_HORSE
+Length=188
+
+ Score = 55.6 bits (133),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  69  TIACPHKGCTKMFRDNSAMRKHLHTHG  95
+
+
+> UniRef50_A0A096NJR2 Uncharacterized protein n=15 Tax=Euteleostomi 
+TaxID=117571 RepID=A0A096NJR2_PAPAN
+Length=184
+
+ Score = 55.6 bits (133),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  65  TIACPHKGCTKMFRDNSAMRKHLHTHG  91
+
+
+> UniRef50_A0A1A6HXW8 Uncharacterized protein (Fragment) n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=A0A1A6HXW8_NEOLE
+Length=191
+
+ Score = 55.6 bits (133),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  72  TIACPHKGCTKMFRDNSAMRKHLHTHG  98
+
+
+> UniRef50_UPI00076856D7 transcription factor YY2 n=5 Tax=Laurasiatheria 
+TaxID=314145 RepID=UPI00076856D7
+Length=453
+
+ Score = 57.5 bits (138),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPH GC KMFRDNSAMRKHLHTHG
+Sbjct  334  TVACPHTGCVKMFRDNSAMRKHLHTHG  360
+
+
+> UniRef50_G9K9U9 Membrane-bound transcription factor site 2 protease 
+(Fragment) n=3 Tax=Eutheria TaxID=9347 RepID=G9K9U9_MUSPF
+Length=387
+
+ Score = 57.2 bits (137),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGC KMF+DNSAMRKHLHTHG
+Sbjct  9   TIACPHKGCVKMFKDNSAMRKHLHTHG  35
+
+
+> UniRef50_A0A0X3P4E1 Transcriptional repressor protein YY1 n=2 
+Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3P4E1_SCHSO
+Length=699
+
+ Score = 57.9 bits (139),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHK C K+FRDNS+MRKHLHTHG
+Sbjct  304  TVLCPHKNCGKLFRDNSSMRKHLHTHG  330
+
+
+> UniRef50_UPI00044010BE transcriptional repressor protein YY1-like 
+n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=UPI00044010BE
+Length=618
+
+ Score = 57.5 bits (138),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +IACP+K C KMFRDNSA+RKH+HTHG
+Sbjct  501  SIACPNKDCMKMFRDNSALRKHMHTHG  527
+
+
+> UniRef50_UPI00022B6C96 transcription factor YY2 n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=UPI00022B6C96
+Length=379
+
+ Score = 56.8 bits (136),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC  +GC KMF+DN AMRKHLHTHG
+Sbjct  260  TVACRQEGCKKMFKDNCAMRKHLHTHG  286
+
+
+> UniRef50_UPI00081173EE polycomb protein PHO-like n=1 Tax=Rhagoletis 
+zephyria TaxID=28612 RepID=UPI00081173EE
+Length=635
+
+ Score = 57.5 bits (138),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC K FRDNSAMRKHLHTHG
+Sbjct  475  IACPQKGCYKFFRDNSAMRKHLHTHG  500
+
+
+> UniRef50_A0A0K8W5Q6 Polycomb protein PHO n=16 Tax=Dacinae TaxID=164860 
+RepID=A0A0K8W5Q6_BACLA
+Length=621
+
+ Score = 57.2 bits (137),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC K FRDNSAMRKHLHTHG
+Sbjct  461  IACPQKGCYKFFRDNSAMRKHLHTHG  486
+
+
+> UniRef50_F7C653 YY2 transcription factor n=11 Tax=Bilateria TaxID=33213 
+RepID=F7C653_HORSE
+Length=346
+
+ Score = 56.4 bits (135),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC KMFRDNSAMRKHL  HG
+Sbjct  227  TVACPHKGCEKMFRDNSAMRKHLQIHG  253
+
+
+> UniRef50_A0A132A1V2 Transcription factor YY2-like protein n=1 
+Tax=Sarcoptes scabiei TaxID=52283 RepID=A0A132A1V2_SARSC
+Length=346
+
+ Score = 56.4 bits (135),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPH+GC KMFRDNSAMRKHLHTHG
+Sbjct  135  IACPHRGCLKMFRDNSAMRKHLHTHG  160
+
+
+> UniRef50_G1LXD5 YY1 transcription factor n=14 Tax=Euteleostomi 
+TaxID=117571 RepID=G1LXD5_AILME
+Length=300
+
+ Score = 55.6 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 27/28 (96%), Gaps = 1/28 (4%)
+
+Query  1    TIACPHK-GCTKMFRDNSAMRKHLHTHG  27
+            TIACPHK GCTKMFRDNSAMRKHLHTHG
+Sbjct  180  TIACPHKKGCTKMFRDNSAMRKHLHTHG  207
+
+
+> UniRef50_A0A0R3U402 Uncharacterized protein n=1 Tax=Mesocestoides 
+corti TaxID=53468 RepID=A0A0R3U402_9CEST
+Length=301
+
+ Score = 55.6 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  49  TVACPHKNCGKLFRDNSAMRKHLHTHG  75
+
+
+> UniRef50_UPI000A287E52 transcription factor YY2-like isoform 
+X1 n=8 Tax=Phascolarctos cinereus TaxID=38626 RepID=UPI000A287E52
+Length=592
+
+ Score = 56.8 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH+ C K+FRDNSA+RKHLHTHG
+Sbjct  474  LPCPHEECPKLFRDNSALRKHLHTHG  499
+
+
+> UniRef50_Q8ST83 Polycomb protein PHO n=29 Tax=Sophophora TaxID=32341 
+RepID=PHO_DROME
 Length=520
 
- Score = 52.0 bits (123),  Expect = 2e-08, Method: Composition-based stats.
+ Score = 56.0 bits (134),  Expect = 3e-08, Method: Composition-based stats.
  Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
 
 Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
@@ -258,47 +2383,1999 @@ Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
 Sbjct  357  IACPHKGCNKHFRDSSAMRKHLHTHG  382
 
 
-> sp|Q96MM3|ZFP42_HUMAN Zinc finger protein 42 homolog OS=Homo 
-sapiens OX=9606 GN=ZFP42 PE=1 SV=2
-Length=310
+> UniRef50_UPI000C7CF6B4 LOW QUALITY PROTEIN: transcription factor 
+YY2-like n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=UPI000C7CF6B4
+Length=569
 
- Score = 44.6 bits (104),  Expect = 4e-06, Method: Composition-based stats.
- Identities = 15/26 (58%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
-
-Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            IACP  GCT+  R+ +A+RKHL  HG
-Sbjct  188  IACPQSGCTRKLRNRAALRKHLLIHG  213
-
-
-> sp|P22227|ZFP42_MOUSE Zinc finger protein 42 OS=Mus musculus 
-OX=10090 GN=Zfp42 PE=1 SV=1
-Length=288
-
- Score = 36.9 bits (84),  Expect = 0.002, Method: Composition-based stats.
- Identities = 12/26 (46%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+ Score = 56.0 bits (134),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
 
 Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
-            + CP  GC K  R  +A+RKH+  HG
-Sbjct  170  LECPQAGCKKKLRGKTALRKHMLVHG  195
+            + CPH+ C K+FRDNSA+RKHLHTHG
+Sbjct  451  LPCPHEECPKLFRDNSALRKHLHTHG  476
+
+
+> UniRef50_A0A091CV02 Transcription factor YY2 n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=A0A091CV02_FUKDA
+Length=617
+
+ Score = 56.0 bits (134),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC  +GCTKMF+D  AMRKHLHTHG
+Sbjct  498  TVACCQEGCTKMFKDIYAMRKHLHTHG  524
+
+
+> UniRef50_K7E1F7 Uncharacterized protein n=3 Tax=Metatheria TaxID=9263 
+RepID=K7E1F7_MONDO
+Length=407
+
+ Score = 55.6 bits (133),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH  C K+FRDNSA+RKH+HTHG
+Sbjct  289  LPCPHGECPKLFRDNSALRKHMHTHG  314
+
+
+> UniRef50_A0A0R3XB53 Uncharacterized protein n=1 Tax=Hydatigena 
+taeniaeformis TaxID=6205 RepID=A0A0R3XB53_HYDTA
+Length=426
+
+ Score = 55.2 bits (132),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  342  VVCPQLGCGKAFRDTAAMRKHLHTHG  367
+
+
+> UniRef50_B4NHH2 Uncharacterized protein n=10 Tax=Drosophila TaxID=32281 
+RepID=B4NHH2_DROWI
+Length=466
+
+ Score = 55.2 bits (132),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  297  IACPHKGCHKTFRDSSAMRKHLHTHG  322
+
+
+> UniRef50_A0A074ZTZ2 Uncharacterized protein n=3 Tax=Opisthorchiidae 
+TaxID=6196 RepID=A0A074ZTZ2_9TREM
+Length=891
+
+ Score = 55.6 bits (133),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACP  GC K FRD S+MRKHLHTHG
+Sbjct  483  TVACPQLGCGKTFRDTSSMRKHLHTHG  509
+
+
+> UniRef50_UPI000C9F7AF2 transcription factor YY2 n=1 Tax=Octodon 
+degus TaxID=10160 RepID=UPI000C9F7AF2
+Length=373
+
+ Score = 54.8 bits (131),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC H+GC KMF+D+ AMRKHLHTHG
+Sbjct  255  TVACRHEGCKKMFKDSCAMRKHLHTHG  281
+
+
+> UniRef50_B4JZQ8 GH23956 n=3 Tax=Drosophila TaxID=32281 RepID=B4JZQ8_DROGR
+Length=472
+
+ Score = 55.2 bits (132),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  301  IACPHKGCHKYFRDSSAMRKHLHTHG  326
+
+
+> UniRef50_I0FRP4 Transcription factor YY2 n=22 Tax=Bilateria TaxID=33213 
+RepID=I0FRP4_MACMU
+Length=374
+
+ Score = 54.5 bits (130),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C H GC KMFRD +AMRKHLH HG
+Sbjct  255  TVPCSHSGCEKMFRDYAAMRKHLHIHG  281
+
+
+> UniRef50_UPI0006416288 transcriptional repressor protein YY1-like 
+n=1 Tax=Hydra vulgaris TaxID=6087 RepID=UPI0006416288
+Length=99
+
+ Score = 51.8 bits (123),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           +I+CPH GC K+FRDNSAMRKHLHTHG
+Sbjct  60  SISCPHSGCLKLFRDNSAMRKHLHTHG  86
+
+
+> UniRef50_G4V881 Putative transcriptional repressor protein yy 
+(Yin and yang) (Delta transcription factor) n=4 Tax=Schistosoma 
+TaxID=6181 RepID=G4V881_SCHMA
+Length=995
+
+ Score = 54.8 bits (131),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  475  TVFCPHLGCGKTFRDTAAMRKHLHTHG  501
+
+
+> UniRef50_A0A183JH93 Uncharacterized protein n=2 Tax=Schistosoma 
+TaxID=6181 RepID=A0A183JH93_9TREM
+Length=481
+
+ Score = 54.1 bits (129),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  401  TVFCPHLGCGKTFRDTAAMRKHLHTHG  427
+
+
+> UniRef50_UPI0007E8517E transcription factor Sp2 n=7 Tax=melanogaster 
+group TaxID=32346 RepID=UPI0007E8517E
+Length=686
+
+ Score = 54.1 bits (129),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  504  CTHRGCNKEFRNHSAMRKHMHTHG  527
+
+
+> UniRef50_A0A0R3T3M6 Uncharacterized protein n=1 Tax=Hymenolepis 
+nana TaxID=102285 RepID=A0A0R3T3M6_HYMNN
+Length=479
+
+ Score = 53.3 bits (127),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  410  VVCPQLGCGKAFRDTAAMRKHLHTHG  435
+
+
+> UniRef50_A0A0P9C136 Uncharacterized protein n=7 Tax=melanogaster 
+group TaxID=32346 RepID=A0A0P9C136_DROAN
+Length=414
+
+ Score = 53.3 bits (127),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SA+RKHLHTHG
+Sbjct  251  IACPHKGCHKNFRDSSAVRKHLHTHG  276
+
+
+> UniRef50_A0A0X3PKZ3 Uncharacterized protein n=1 Tax=Schistocephalus 
+solidus TaxID=70667 RepID=A0A0X3PKZ3_SCHSO
+Length=496
+
+ Score = 53.3 bits (127),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  418  VVCPQLGCGKAFRDTAAMRKHLHTHG  443
+
+
+> UniRef50_A0A0R3U2C1 Uncharacterized protein n=1 Tax=Mesocestoides 
+corti TaxID=53468 RepID=A0A0R3U2C1_9CEST
+Length=750
+
+ Score = 53.3 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  324  VVCPQLGCGKAFRDTAAMRKHLHTHG  349
+
+
+> UniRef50_A0A0X3Q6Y7 Transcriptional repressor protein YY1 n=3 
+Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3Q6Y7_SCHSO
+Length=1014
+
+ Score = 53.3 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  430  VVCPQLGCGKAFRDTAAMRKHLHTHG  455
+
+
+> UniRef50_A0A068Y735 Transcriptional repressor protein YY1 n=4 
+Tax=Taeniidae TaxID=6208 RepID=A0A068Y735_ECHMU
+Length=874
+
+ Score = 53.3 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  370  VVCPQLGCGKAFRDTAAMRKHLHTHG  395
+
+
+> UniRef50_O15391 Transcription factor YY2 n=11 Tax=Euarchontoglires 
+TaxID=314146 RepID=TYY2_HUMAN
+Length=372
+
+ Score = 52.1 bits (124),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C + GC KMFRD +AMRKHLH HG
+Sbjct  253  TVPCSYSGCEKMFRDYAAMRKHLHIHG  279
+
+
+> UniRef50_A0A068XJX6 Transcriptional repressor protein YY1 n=2 
+Tax=Hymenolepis TaxID=99110 RepID=A0A068XJX6_HYMMI
+Length=914
+
+ Score = 52.9 bits (126),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  410  VVCPQLGCGKAFRDTAAMRKHLHTHG  435
+
+
+> UniRef50_A0A1W0X515 Transcriptional repressor protein YY1 n=1 
+Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0X515_HYPDU
+Length=549
+
+ Score = 52.5 bits (125),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 19/24 (79%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            CP KGC K FRDN++MRKHLHTHG
+Sbjct  277  CPSKGCGKGFRDNASMRKHLHTHG  300
+
+
+> UniRef50_UPI00093BC5E4 transcription factor YY2 n=1 Tax=Hipposideros 
+armiger TaxID=186990 RepID=UPI00093BC5E4
+Length=367
+
+ Score = 52.1 bits (124),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +ACPHKGC+K FRD SAM+KHLHTHG
+Sbjct  249  VACPHKGCSKAFRDISAMKKHLHTHG  274
+
+
+> UniRef50_T1FXR6 Uncharacterized protein n=7 Tax=Eumetazoa TaxID=6072 
+RepID=T1FXR6_HELRO
+Length=149
+
+ Score = 49.5 bits (117),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 20/26 (77%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           I CPHKGC K+F+DNS+MRKH+HTHG
+Sbjct  9   IPCPHKGCNKLFKDNSSMRKHIHTHG  34
+
+
+> UniRef50_Q9VSZ3 LD31045p n=15 Tax=Drosophila TaxID=32281 RepID=Q9VSZ3_DROME
+Length=669
+
+ Score = 52.1 bits (124),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  504  CTHRGCNKEFRNHSAMRKHMHTHG  527
+
+
+> UniRef50_A0A183W370 Uncharacterized protein n=2 Tax=Platyhelminthes 
+TaxID=6157 RepID=A0A183W370_TRIRE
+Length=143
+
+ Score = 49.1 bits (116),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 21/26 (81%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           + CPH GC K FRD +AMRKHLHTHG
+Sbjct  65  VFCPHLGCGKTFRDTAAMRKHLHTHG  90
+
+
+> UniRef50_Q29EF2 Uncharacterized protein n=7 Tax=obscura group 
+TaxID=32355 RepID=Q29EF2_DROPS
+Length=707
+
+ Score = 51.8 bits (123),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  534  CTHRGCNKEFRNHSAMRKHMHTHG  557
+
+
+> UniRef50_A0A0M4EI03 Phol n=1 Tax=Drosophila busckii TaxID=30019 
+RepID=A0A0M4EI03_DROBS
+Length=612
+
+ Score = 51.4 bits (122),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  445  CTHRGCHKEFRNHSAMRKHMHTHG  468
+
+
+> UniRef50_B4KXJ1 Uncharacterized protein n=4 Tax=repleta group 
+TaxID=32321 RepID=B4KXJ1_DROMO
+Length=706
+
+ Score = 50.6 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  542  CTHRGCNKEFRNHSAMRKHMHTHG  565
+
+
+> UniRef50_A0A2H1BRJ1 Zinc finger, C2H2 type n=1 Tax=Fasciola hepatica 
+TaxID=6192 RepID=A0A2H1BRJ1_FASHE
+Length=113
+
+ Score = 47.9 bits (113),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CP  GC K FRD +AMRKHLHTHG
+Sbjct  26  TVICPQLGCGKTFRDTAAMRKHLHTHG  52
+
+
+> UniRef50_B4IXD6 GH16213 n=1 Tax=Drosophila grimshawi TaxID=7222 
+RepID=B4IXD6_DROGR
+Length=769
+
+ Score = 50.6 bits (120),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  604  CTHRGCNKEFRNHSAMRKHMHTHG  627
+
+
+> UniRef50_A0A183T2K1 Uncharacterized protein n=1 Tax=Schistocephalus 
+solidus TaxID=70667 RepID=A0A183T2K1_SCHSO
+Length=356
+
+ Score = 49.8 bits (118),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  141  VVCPQLGCGKAFRDTAAMRKHLHTHG  166
+
+
+> UniRef50_A0A183A8G4 Uncharacterized protein n=1 Tax=Echinostoma 
+caproni TaxID=27848 RepID=A0A183A8G4_9TREM
+Length=452
+
+ Score = 49.8 bits (118),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CP  GC K FRD +AMRKHLHTHG
+Sbjct  26  TVICPQLGCGKTFRDTAAMRKHLHTHG  52
+
+
+> UniRef50_A0A183QIP7 Uncharacterized protein n=1 Tax=Schistosoma 
+rodhaini TaxID=6188 RepID=A0A183QIP7_9TREM
+Length=213
+
+ Score = 47.9 bits (113),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  51  TVFCPHLGCGKTFRDTAAMRKHLHTHG  77
+
+
+> UniRef50_A0A0Q5SDS7 Uncharacterized protein n=12 Tax=Eukaryota 
+TaxID=2759 RepID=A0A0Q5SDS7_DROER
+Length=119
+
+ Score = 45.6 bits (107),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  38  IACPHKGCHKHFRDSSAMRKHLHTHG  63
+
+
+> UniRef50_A0A1D1W1U6 Uncharacterized protein n=2 Tax=Ramazzottius 
+varieornatus TaxID=947166 RepID=A0A1D1W1U6_RAMVA
+Length=423
+
+ Score = 45.6 bits (107),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + C    C K FRDN+AMRKHLHTHG
+Sbjct  226  VCCQFPRCGKTFRDNAAMRKHLHTHG  251
+
+
+> UniRef50_UPI000811A587 polycomb protein PHO-like n=1 Tax=Rhagoletis 
+zephyria TaxID=28612 RepID=UPI000811A587
+Length=360
+
+ Score = 44.4 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + C H+GC KMFR  S MRKHLHTHG
+Sbjct  227  VCCAHEGCLKMFRSISLMRKHLHTHG  252
+
+
+> UniRef50_A0A1I8B8I4 Uncharacterized protein n=1 Tax=Meloidogyne 
+hapla TaxID=6305 RepID=A0A1I8B8I4_MELHA
+Length=542
+
+ Score = 43.3 bits (101),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 15/26 (58%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            I C +KGC K F + S+MRKHL  HG
+Sbjct  430  IPCSYKGCQKTFSNKSSMRKHLQIHG  455
 
 
 
 Lambda      K        H        a         alpha
-   0.320    0.136    0.453    0.792     4.96 
+   0.322    0.156    0.640    0.792     4.96 
 
 Gapped
 Lambda      K        H        a         alpha    sigma
-   0.267   0.0415    0.140     1.90     42.6     43.6 
+   0.267   0.0466    0.140     1.90     42.6     43.6 
 
-Effective search space used: 4963465100
+Effective search space used: 235815159800
+Results from round 3
 
-Search has CONVERGED!
+
+Query= 1ubdc-1-AS
+
+Length=27
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A0A0R4ILY4 YY1 transcription factor a n=13 Tax=Euteleo...  69.5    1e-13
+  UniRef50_A0A087UZV7 Transcriptional repressor protein YY1 (Frag...  69.1    3e-13
+  UniRef50_A0A224Z1Q3 Transcription factor YY n=8 Tax=Ixodidae Ta...  69.5    4e-13
+  UniRef50_UPI000C6F7EDB transcriptional repressor protein YY1 is...  69.5    4e-13
+  UniRef50_A7TBA9 Predicted protein n=2 Tax=Nematostella vectensi...  67.6    5e-13
+  UniRef50_A0A2H1VXU7 SFRICE_033512 (Fragment) n=1 Tax=Spodoptera...  66.8    6e-13
+  UniRef50_A0A088AD22 Uncharacterized protein n=74 Tax=Hymenopter...  68.7    7e-13
+  UniRef50_W6UTI4 Putative tRNA (cytidine(32)/guanosine(34)-2'-O)...  69.9    7e-13
+  UniRef50_A0A1W4XJE6 transcriptional repressor protein YY1-like ...  67.9    9e-13
+  UniRef50_Q7T304 YY1 transcription factor b n=34 Tax=Bilateria T...  67.9    1e-12
+  UniRef50_A0A1V9Y316 Transcription factor YY2-like n=3 Tax=Derma...  68.3    1e-12
+  UniRef50_K7ILX7 Uncharacterized protein n=58 Tax=Bilateria TaxI...  67.9    1e-12
+  UniRef50_A0A183LQ77 Uncharacterized protein n=5 Tax=Schistosoma...  68.7    1e-12
+  UniRef50_A0A293LSU6 Uncharacterized protein (Fragment) n=2 Tax=...  66.8    2e-12
+  UniRef50_A0A2D0Q100 transcriptional repressor protein YY1-like ...  67.2    3e-12
+  UniRef50_A0A1X7V5J3 Uncharacterized protein n=2 Tax=Amphimedon ...  67.2    3e-12
+  UniRef50_A0A1A9WQC2 Uncharacterized protein n=1 Tax=Glossina br...  67.2    5e-12
+  UniRef50_A0A226DC84 Transcriptional repressor protein YY1 n=26 ...  66.4    6e-12
+  UniRef50_D2GY03 Uncharacterized protein (Fragment) n=3 Tax=Laur...  65.6    6e-12
+  UniRef50_A0A074Z377 Uncharacterized protein n=3 Tax=Opisthorchi...  66.8    6e-12
+  UniRef50_G4VQ45 Putative transcriptional repressor protein yy (...  66.0    8e-12
+  UniRef50_A0A182IY54 Peptidylprolyl isomerase n=1 Tax=Anopheles ...  66.8    9e-12
+  UniRef50_A0A183RYZ4 Uncharacterized protein n=1 Tax=Schistosoma...  65.2    1e-11
+  UniRef50_UPI000C75C816 transcriptional repressor protein YY1-li...  65.2    1e-11
+  UniRef50_UPI000BB4E6FD membrane-bound transcription factor site...  66.0    1e-11
+  UniRef50_F7I140 Uncharacterized protein n=3 Tax=Euteleostomi Ta...  64.1    1e-11
+  UniRef50_A0A151P8R6 Transcriptional repressor protein YY1 n=12 ...  63.3    1e-11
+  UniRef50_UPI0003BBB5B7 transcriptional repressor protein YY1 n=...  64.1    2e-11
+  UniRef50_A0A1B0G9Y1 Uncharacterized protein n=5 Tax=Glossina Ta...  65.6    2e-11
+  UniRef50_UPI000A2B1DA7 membrane-bound transcription factor site...  65.2    2e-11
+  UniRef50_A0A0L0C1G2 Polycomb protein PHO n=1 Tax=Lucilia cuprin...  64.9    3e-11
+  UniRef50_A0A232FLC1 Uncharacterized protein n=1 Tax=Trichomalop...  63.3    3e-11
+  UniRef50_W5JI98 Uncharacterized protein n=1 Tax=Anopheles darli...  64.9    4e-11
+  UniRef50_UPI000C9E480D membrane-bound transcription factor site...  64.5    4e-11
+  UniRef50_F1C7A5 YY1 transcription factor (Fragment) n=9 Tax=Eum...  61.8    4e-11
+  UniRef50_A0A068XE81 Transcriptional repressor protein YY1 n=3 T...  64.1    4e-11
+  UniRef50_H9JNS5 Uncharacterized protein n=5 Tax=Arthropoda TaxI...  62.2    5e-11
+  UniRef50_A0A068XZ81 Transcriptional repressor protein YY1 n=4 T...  64.1    5e-11
+  UniRef50_UPI000533C6A4 transcriptional repressor protein YY1 n=...  64.1    5e-11
+  UniRef50_J9K4I8 Uncharacterized protein n=25 Tax=Bilateria TaxI...  63.3    6e-11
+  UniRef50_A0A2I0MPS6 YY1 transcription factor (Fragment) n=3 Tax...  62.6    9e-11
+  UniRef50_A0A183AWU4 Uncharacterized protein n=2 Tax=Echinostoma...  62.9    1e-10
+  UniRef50_G1NKS5 YY1 transcription factor n=60 Tax=Bilateria Tax...  60.6    1e-10
+  UniRef50_A0A1Y3BDU1 Transcription factor YY2-like protein n=1 T...  62.2    1e-10
+  UniRef50_P25490 Transcriptional repressor protein YY1 n=282 Tax...  62.6    1e-10
+  UniRef50_P0C6P6 Transcription factor YY2 n=34 Tax=Eumetazoa Tax...  62.2    1e-10
+  UniRef50_Q1RLG5 Zinc finger protein n=5 Tax=Bilateria TaxID=332...  62.2    1e-10
+  UniRef50_A0A183IYC3 Uncharacterized protein n=1 Tax=Soboliphyme...  61.8    1e-10
+  UniRef50_UPI000CCC669C LOW QUALITY PROTEIN: transcription facto...  62.6    1e-10
+  UniRef50_UPI0003BBDF8D transcription factor YY2 n=2 Tax=Myotis ...  62.6    2e-10
+  UniRef50_A0A224L134 PHO n=4 Tax=Drosophila TaxID=32281 RepID=A0...  62.2    2e-10
+  UniRef50_B0X5W9 Transcriptional repressor protein YY1 n=5 Tax=C...  62.2    2e-10
+  UniRef50_UPI0001CE2030 transcription factor YY2 isoform X1 n=10...  61.4    2e-10
+  UniRef50_H0WVA2 Uncharacterized protein n=5 Tax=Eutheria TaxID=...  59.5    2e-10
+  UniRef50_K9KG19 Transcriptional repressor protein YY1-like prot...  59.5    2e-10
+  UniRef50_UPI00076856D7 transcription factor YY2 n=5 Tax=Laurasi...  61.8    3e-10
+  UniRef50_A0A096NJR2 Uncharacterized protein n=15 Tax=Euteleosto...  59.5    3e-10
+  UniRef50_A0A1A6HXW8 Uncharacterized protein (Fragment) n=3 Tax=...  59.5    3e-10
+  UniRef50_G9K9U9 Membrane-bound transcription factor site 2 prot...  61.4    3e-10
+  UniRef50_A0A0X3P4E1 Transcriptional repressor protein YY1 n=2 T...  61.8    3e-10
+  UniRef50_F7C653 YY2 transcription factor n=11 Tax=Bilateria Tax...  61.0    3e-10
+  UniRef50_UPI00081173EE polycomb protein PHO-like n=1 Tax=Rhagol...  61.4    4e-10
+  UniRef50_UPI00022B6C96 transcription factor YY2 n=3 Tax=Boreoeu...  60.6    5e-10
+  UniRef50_G1LXD5 YY1 transcription factor n=14 Tax=Euteleostomi ...  60.2    5e-10
+  UniRef50_A0A132A1V2 Transcription factor YY2-like protein n=1 T...  60.2    5e-10
+  UniRef50_A0A0K8W5Q6 Polycomb protein PHO n=16 Tax=Dacinae TaxID...  61.0    6e-10
+  UniRef50_UPI00044010BE transcriptional repressor protein YY1-li...  61.0    6e-10
+  UniRef50_A0A0R3U402 Uncharacterized protein n=1 Tax=Mesocestoid...  59.5    7e-10
+  UniRef50_Q8ST83 Polycomb protein PHO n=29 Tax=Sophophora TaxID=...  60.6    8e-10
+  UniRef50_UPI000A287E52 transcription factor YY2-like isoform X1...  60.2    1e-09
+  UniRef50_B4NHH2 Uncharacterized protein n=10 Tax=Drosophila Tax...  59.9    1e-09
+  UniRef50_A0A091CV02 Transcription factor YY2 n=4 Tax=Boreoeuthe...  59.9    1e-09
+  UniRef50_A0A074ZTZ2 Uncharacterized protein n=3 Tax=Opisthorchi...  60.2    2e-09
+  UniRef50_UPI000C7CF6B4 LOW QUALITY PROTEIN: transcription facto...  59.9    2e-09
+  UniRef50_A0A0R3XB53 Uncharacterized protein n=1 Tax=Hydatigena ...  59.1    2e-09
+  UniRef50_I0FRP4 Transcription factor YY2 n=22 Tax=Bilateria Tax...  58.7    2e-09
+  UniRef50_B4JZQ8 GH23956 n=3 Tax=Drosophila TaxID=32281 RepID=B4...  59.1    2e-09
+  UniRef50_K7E1F7 Uncharacterized protein n=3 Tax=Metatheria TaxI...  58.7    2e-09
+  UniRef50_UPI000C9F7AF2 transcription factor YY2 n=1 Tax=Octodon...  58.7    3e-09
+  UniRef50_UPI0006416288 transcriptional repressor protein YY1-li...  55.6    4e-09
+  UniRef50_G4V881 Putative transcriptional repressor protein yy (...  59.1    4e-09
+  UniRef50_A0A183JH93 Uncharacterized protein n=2 Tax=Schistosoma...  57.9    6e-09
+  UniRef50_O15391 Transcription factor YY2 n=11 Tax=Euarchontogli...  57.2    7e-09
+  UniRef50_UPI0007E8517E transcription factor Sp2 n=7 Tax=melanog...  57.5    9e-09
+  UniRef50_A0A0R3T3M6 Uncharacterized protein n=1 Tax=Hymenolepis...  56.8    1e-08
+  UniRef50_A0A0P9C136 Uncharacterized protein n=7 Tax=melanogaste...  56.8    1e-08
+  UniRef50_A0A0X3PKZ3 Uncharacterized protein n=1 Tax=Schistoceph...  56.8    2e-08
+  UniRef50_A0A0R3U2C1 Uncharacterized protein n=1 Tax=Mesocestoid...  56.8    2e-08
+  UniRef50_UPI00093BC5E4 transcription factor YY2 n=1 Tax=Hipposi...  56.0    2e-08
+  UniRef50_A0A068Y735 Transcriptional repressor protein YY1 n=4 T...  56.8    2e-08
+  UniRef50_A0A0X3Q6Y7 Transcriptional repressor protein YY1 n=3 T...  56.8    2e-08
+  UniRef50_A0A1W0X515 Transcriptional repressor protein YY1 n=1 T...  56.4    2e-08
+  UniRef50_A0A068XJX6 Transcriptional repressor protein YY1 n=2 T...  56.4    3e-08
+  UniRef50_Q9VSZ3 LD31045p n=15 Tax=Drosophila TaxID=32281 RepID=...  55.6    4e-08
+  UniRef50_A0A183W370 Uncharacterized protein n=2 Tax=Platyhelmin...  52.5    5e-08
+  UniRef50_T1FXR6 Uncharacterized protein n=7 Tax=Eumetazoa TaxID...  52.5    6e-08
+  UniRef50_Q29EF2 Uncharacterized protein n=7 Tax=obscura group T...  55.2    7e-08
+  UniRef50_A0A0M4EI03 Phol n=1 Tax=Drosophila busckii TaxID=30019...  54.8    8e-08
+  UniRef50_A0A1D1W1U6 Uncharacterized protein n=2 Tax=Ramazzottiu...  53.7    2e-07
+  UniRef50_A0A2H1BRJ1 Zinc finger, C2H2 type n=1 Tax=Fasciola hep...  51.4    2e-07
+  UniRef50_B4KXJ1 Uncharacterized protein n=4 Tax=repleta group T...  54.1    2e-07
+  UniRef50_A0A183A8G4 Uncharacterized protein n=1 Tax=Echinostoma...  53.7    2e-07
+  UniRef50_B4IXD6 GH16213 n=1 Tax=Drosophila grimshawi TaxID=7222...  54.1    2e-07
+  UniRef50_A0A183T2K1 Uncharacterized protein n=1 Tax=Schistoceph...  52.9    2e-07
+  UniRef50_A0A183QIP7 Uncharacterized protein n=1 Tax=Schistosoma...  51.4    3e-07
+  UniRef50_A0A0Q5SDS7 Uncharacterized protein n=12 Tax=Eukaryota ...  49.5    7e-07
+  UniRef50_UPI000811A587 polycomb protein PHO-like n=1 Tax=Rhagol...  51.0    1e-06
+  UniRef50_A0A1I8B8I4 Uncharacterized protein n=1 Tax=Meloidogyne...  50.6    2e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A183BXT5 Uncharacterized protein n=1 Tax=Globodera p...  47.1    4e-05
+  UniRef50_A0A0M0JK39 Putative zinc finger protein n=1 Tax=Chryso...  44.1    2e-04
+  UniRef50_F2D067 Predicted protein n=1 Tax=Hordeum vulgare subsp...  42.5    3e-04
+  UniRef50_A0A0A9B6Q7 Uncharacterized protein n=1 Tax=Arundo dona...  41.4    5e-04
+  UniRef50_A0A0L0CG68 Polycomb protein PHO (Fragment) n=4 Tax=Cal...  43.7    7e-04
+  UniRef50_A0A1Y1I6Z9 Uncharacterized protein n=1 Tax=Klebsormidi...  42.1    8e-04
+  UniRef50_A0A1R3HY78 Uncharacterized protein n=1 Tax=Corchorus c...  43.3    0.001
 
 
-  Database: uniprot_sprot.fasta
-    Posted date:  Mar 8, 2018  2:51 PM
-  Number of letters in database: 199,652,254
-  Number of sequences in database:  556,825
+> UniRef50_A0A0R4ILY4 YY1 transcription factor a n=13 Tax=Euteleostomi 
+TaxID=117571 RepID=A0A0R4ILY4_DANRE
+Length=309
+
+ Score = 69.5 bits (169),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  238  TIACPHKGCTKMFRDNSAMRKHLHTHG  264
+
+
+> UniRef50_A0A087UZV7 Transcriptional repressor protein YY1 (Fragment) 
+n=5 Tax=Eumetazoa TaxID=6072 RepID=A0A087UZV7_9ARAC
+Length=342
+
+ Score = 69.1 bits (168),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  221  TIACPHKGCNKMFRDNSAMRKHLHTHG  247
+
+
+> UniRef50_A0A224Z1Q3 Transcription factor YY n=8 Tax=Ixodidae 
+TaxID=6939 RepID=A0A224Z1Q3_9ACAR
+Length=412
+
+ Score = 69.5 bits (169),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  245  TIACPHKGCTKMFRDNSAMRKHLHTHG  271
+
+
+> UniRef50_UPI000C6F7EDB transcriptional repressor protein YY1 
+isoform X3 n=2 Tax=Arthropoda TaxID=6656 RepID=UPI000C6F7EDB
+Length=431
+
+ Score = 69.5 bits (169),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  278  TIACPHKGCTKMFRDNSAMRKHLHTHG  304
+
+
+> UniRef50_A7TBA9 Predicted protein n=2 Tax=Nematostella vectensis 
+TaxID=45351 RepID=A7TBA9_NEMVE
+Length=262
+
+ Score = 67.6 bits (164),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  204  TIACPHKGCTKMFRDNSAMRKHLHTHG  230
+
+
+> UniRef50_A0A2H1VXU7 SFRICE_033512 (Fragment) n=1 Tax=Spodoptera 
+frugiperda TaxID=7108 RepID=A0A2H1VXU7_SPOFR
+Length=194
+
+ Score = 66.8 bits (162),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  160  TIACPHKGCTKMFRDNSAMRKHLHTHG  186
+
+
+> UniRef50_A0A088AD22 Uncharacterized protein n=74 Tax=Hymenoptera 
+TaxID=7399 RepID=A0A088AD22_APIME
+Length=398
+
+ Score = 68.7 bits (167),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  245  TIACPHKGCTKMFRDNSAMRKHLHTHG  271
+
+
+> UniRef50_W6UTI4 Putative tRNA (cytidine(32)/guanosine(34)-2'-O)-methyltransferase 
+n=1 Tax=Echinococcus granulosus TaxID=6210 
+RepID=W6UTI4_ECHGR
+Length=2000
+
+ Score = 69.9 bits (170),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1     TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+             T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  1289  TVACPHKNCGKLFRDNSAMRKHLHTHG  1315
+
+
+> UniRef50_A0A1W4XJE6 transcriptional repressor protein YY1-like 
+n=8 Tax=Arthropoda TaxID=6656 RepID=A0A1W4XJE6_AGRPL
+Length=366
+
+ Score = 67.9 bits (165),  Expect = 9e-13, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  213  TIACPHKGCTKMFRDNSAMRKHLHTHG  239
+
+
+> UniRef50_Q7T304 YY1 transcription factor b n=34 Tax=Bilateria 
+TaxID=33213 RepID=Q7T304_DANRE
+Length=354
+
+ Score = 67.9 bits (165),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC+KMFRDNSAMRKHLHTHG
+Sbjct  235  TIACPHKGCSKMFRDNSAMRKHLHTHG  261
+
+
+> UniRef50_A0A1V9Y316 Transcription factor YY2-like n=3 Tax=Dermanyssoidea 
+TaxID=41438 RepID=A0A1V9Y316_9ACAR
+Length=455
+
+ Score = 68.3 bits (166),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC+KMFRDN AMRKHLHTHG
+Sbjct  305  TIACPHKGCSKMFRDNGAMRKHLHTHG  331
+
+
+> UniRef50_K7ILX7 Uncharacterized protein n=58 Tax=Bilateria TaxID=33213 
+RepID=K7ILX7_NASVI
+Length=389
+
+ Score = 67.9 bits (165),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  260  TIACPHKGCTKMFRDNSAMRKHLHTHG  286
+
+
+> UniRef50_A0A183LQ77 Uncharacterized protein n=5 Tax=Schistosomatidae 
+TaxID=31245 RepID=A0A183LQ77_9TREM
+Length=667
+
+ Score = 68.7 bits (167),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  279  TVPCPHKGCGKLFRDNSAMRKHLHTHG  305
+
+
+> UniRef50_A0A293LSU6 Uncharacterized protein (Fragment) n=2 Tax=Ornithodoros 
+erraticus TaxID=265619 RepID=A0A293LSU6_ORNER
+Length=356
+
+ Score = 66.8 bits (162),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  218  TIACPHKGCTKMFRDNSAMRKHLHTHG  244
+
+
+> UniRef50_A0A2D0Q100 transcriptional repressor protein YY1-like 
+isoform X1 n=15 Tax=Gnathostomata TaxID=35060 RepID=A0A2D0Q100_ICTPU
+Length=389
+
+ Score = 67.2 bits (163),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  270  TIACPHKGCTKMFRDNSAMRKHLHTHG  296
+
+
+> UniRef50_A0A1X7V5J3 Uncharacterized protein n=2 Tax=Amphimedon 
+queenslandica TaxID=400682 RepID=A0A1X7V5J3_AMPQE
+Length=497
+
+ Score = 67.2 bits (163),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TI CPHKGC K+FRDN+AMRKHLHTHG
+Sbjct  237  TIPCPHKGCNKLFRDNAAMRKHLHTHG  263
+
+
+> UniRef50_A0A1A9WQC2 Uncharacterized protein n=1 Tax=Glossina 
+brevipalpis TaxID=37001 RepID=A0A1A9WQC2_9MUSC
+Length=660
+
+ Score = 67.2 bits (163),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  497  IACPHKGCNKLFRDNSAMRKHLHTHG  522
+
+
+> UniRef50_A0A226DC84 Transcriptional repressor protein YY1 n=26 
+Tax=Protostomia TaxID=33317 RepID=A0A226DC84_FOLCA
+Length=440
+
+ Score = 66.4 bits (161),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  285  TIACPHKGCTKMFRDNSAMRKHLHTHG  311
+
+
+> UniRef50_D2GY03 Uncharacterized protein (Fragment) n=3 Tax=Laurasiatheria 
+TaxID=314145 RepID=D2GY03_AILME
+Length=358
+
+ Score = 65.6 bits (159),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  240  TIACPHKGCVKMFRDNSAMRKHLHTHG  266
+
+
+> UniRef50_A0A074Z377 Uncharacterized protein n=3 Tax=Opisthorchiidae 
+TaxID=6196 RepID=A0A074Z377_9TREM
+Length=665
+
+ Score = 66.8 bits (162),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPHKGC K FRDNSAMRKHLHTHG
+Sbjct  277  VPCPHKGCGKSFRDNSAMRKHLHTHG  302
+
+
+> UniRef50_G4VQ45 Putative transcriptional repressor protein yy 
+(Yin and yang) (Delta transcription factor) n=3 Tax=Schistosoma 
+TaxID=6181 RepID=G4VQ45_SCHMA
+Length=474
+
+ Score = 66.0 bits (160),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  86   TVPCPHKGCGKLFRDNSAMRKHLHTHG  112
+
+
+> UniRef50_A0A182IY54 Peptidylprolyl isomerase n=1 Tax=Anopheles 
+atroparvus TaxID=41427 RepID=A0A182IY54_9DIPT
+Length=1349
+
+ Score = 66.8 bits (162),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 25/26 (96%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGCTKMFRDNSAMRKHLHTHG
+Sbjct  599  IACPQKGCTKMFRDNSAMRKHLHTHG  624
+
+
+> UniRef50_A0A183RYZ4 Uncharacterized protein n=1 Tax=Schistosoma 
+rodhaini TaxID=6188 RepID=A0A183RYZ4_9TREM
+Length=354
+
+ Score = 65.2 bits (158),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  117  TVPCPHKGCGKLFRDNSAMRKHLHTHG  143
+
+
+> UniRef50_UPI000C75C816 transcriptional repressor protein YY1-like 
+n=1 Tax=Eurytemora affinis TaxID=88015 RepID=UPI000C75C816
+Length=355
+
+ Score = 65.2 bits (158),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TI CPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  198  TIGCPHKGCCKMFRDNSAMRKHLHTHG  224
+
+
+> UniRef50_UPI000BB4E6FD membrane-bound transcription factor site-2 
+protease isoform X1 n=1 Tax=Enhydra lutris kenyoni TaxID=391180 
+RepID=UPI000BB4E6FD
+Length=704
+
+ Score = 66.0 bits (160),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGC KMF+DNSAMRKHLHTHG
+Sbjct  291  TIACPHKGCVKMFKDNSAMRKHLHTHG  317
+
+
+> UniRef50_F7I140 Uncharacterized protein n=3 Tax=Euteleostomi 
+TaxID=117571 RepID=F7I140_CALJA
+Length=273
+
+ Score = 64.1 bits (155),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  154  TIACPHKGCTKMFRDNSAMRKHLHTHG  180
+
+
+> UniRef50_A0A151P8R6 Transcriptional repressor protein YY1 n=12 
+Tax=Gnathostomata TaxID=35060 RepID=A0A151P8R6_ALLMI
+Length=243
+
+ Score = 63.3 bits (153),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  124  TIACPHKGCTKMFRDNSAMRKHLHTHG  150
+
+
+> UniRef50_UPI0003BBB5B7 transcriptional repressor protein YY1 
+n=3 Tax=Deuterostomia TaxID=33511 RepID=UPI0003BBB5B7
+Length=306
+
+ Score = 64.1 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  187  TIACPHKGCTKMFRDNSAMRKHLHTHG  213
+
+
+> UniRef50_A0A1B0G9Y1 Uncharacterized protein n=5 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0G9Y1_GLOMM
+Length=657
+
+ Score = 65.6 bits (159),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  490  IACPHKGCNKLFRDNSAMRKHLHTHG  515
+
+
+> UniRef50_UPI000A2B1DA7 membrane-bound transcription factor site-2 
+protease isoform X1 n=2 Tax=Laurasiatheria TaxID=314145 
+RepID=UPI000A2B1DA7
+Length=601
+
+ Score = 65.2 bits (158),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIAC HKGC KMFRDNSAMRKHLHTHG
+Sbjct  482  TIACAHKGCPKMFRDNSAMRKHLHTHG  508
+
+
+> UniRef50_A0A0L0C1G2 Polycomb protein PHO n=1 Tax=Lucilia cuprina 
+TaxID=7375 RepID=A0A0L0C1G2_LUCCU
+Length=780
+
+ Score = 64.9 bits (157),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K+FRDNSAMRKHLHTHG
+Sbjct  613  IACPHKGCNKLFRDNSAMRKHLHTHG  638
+
+
+> UniRef50_A0A232FLC1 Uncharacterized protein n=1 Tax=Trichomalopsis 
+sarcophagae TaxID=543379 RepID=A0A232FLC1_9HYME
+Length=304
+
+ Score = 63.3 bits (153),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  89   TIACPHKGCTKMFRDNSAMRKHLHTHG  115
+
+
+> UniRef50_W5JI98 Uncharacterized protein n=1 Tax=Anopheles darlingi 
+TaxID=43151 RepID=W5JI98_ANODA
+Length=855
+
+ Score = 64.9 bits (157),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC KMFRDNSAMRKHLHTHG
+Sbjct  670  IACPQKGCNKMFRDNSAMRKHLHTHG  695
+
+
+> UniRef50_UPI000C9E480D membrane-bound transcription factor site-2 
+protease isoform X1 n=5 Tax=Boreoeutheria TaxID=1437010 
+RepID=UPI000C9E480D
+Length=576
+
+ Score = 64.5 bits (156),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC KMFRDNSAMRKHL  HG
+Sbjct  457  TVACPHKGCEKMFRDNSAMRKHLQIHG  483
+
+
+> UniRef50_F1C7A5 YY1 transcription factor (Fragment) n=9 Tax=Eumetazoa 
+TaxID=6072 RepID=F1C7A5_PERFV
+Length=215
+
+ Score = 61.8 bits (149),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  99   TIACPHKGCTKMFRDNSAMRKHLHTHG  125
+
+
+> UniRef50_A0A068XE81 Transcriptional repressor protein YY1 n=3 
+Tax=Hymenolepis TaxID=99110 RepID=A0A068XE81_HYMMI
+Length=523
+
+ Score = 64.1 bits (155),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  268  VACPHKNCGKLFRDNSAMRKHLHTHG  293
+
+
+> UniRef50_H9JNS5 Uncharacterized protein n=5 Tax=Arthropoda TaxID=6656 
+RepID=H9JNS5_BOMMO
+Length=262
+
+ Score = 62.2 bits (150),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  104  TIACPHKGCTKMFRDNSAMRKHLHTHG  130
+
+
+> UniRef50_A0A068XZ81 Transcriptional repressor protein YY1 n=4 
+Tax=Taeniidae TaxID=6208 RepID=A0A068XZ81_ECHMU
+Length=536
+
+ Score = 64.1 bits (155),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  274  TVACPHKNCGKLFRDNSAMRKHLHTHG  300
+
+
+> UniRef50_UPI000533C6A4 transcriptional repressor protein YY1 
+n=1 Tax=Saimiri boliviensis boliviensis TaxID=39432 RepID=UPI000533C6A4
+Length=592
+
+ Score = 64.1 bits (155),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  473  TIACPHKGCTKMFRDNSAMRKHLHTHG  499
+
+
+> UniRef50_J9K4I8 Uncharacterized protein n=25 Tax=Bilateria TaxID=33213 
+RepID=J9K4I8_ACYPI
+Length=393
+
+ Score = 63.3 bits (153),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACP+K C+KMFRDNSAMRKHLHTHG
+Sbjct  234  TIACPNKNCSKMFRDNSAMRKHLHTHG  260
+
+
+> UniRef50_A0A2I0MPS6 YY1 transcription factor (Fragment) n=3 Tax=Amniota 
+TaxID=32524 RepID=A0A2I0MPS6_COLLI
+Length=360
+
+ Score = 62.6 bits (151),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  241  TIACPHKGCTKMFRDNSAMRKHLHTHG  267
+
+
+> UniRef50_A0A183AWU4 Uncharacterized protein n=2 Tax=Echinostomatoidea 
+TaxID=404429 RepID=A0A183AWU4_9TREM
+Length=572
+
+ Score = 62.9 bits (152),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPHKGC K FRDNSAMRKHLHTHG
+Sbjct  164  VPCPHKGCGKSFRDNSAMRKHLHTHG  189
+
+
+> UniRef50_G1NKS5 YY1 transcription factor n=60 Tax=Bilateria TaxID=33213 
+RepID=G1NKS5_MELGA
+Length=196
+
+ Score = 60.6 bits (146),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  77   TIACPHKGCTKMFRDNSAMRKHLHTHG  103
+
+
+> UniRef50_A0A1Y3BDU1 Transcription factor YY2-like protein n=1 
+Tax=Euroglyphus maynei TaxID=6958 RepID=A0A1Y3BDU1_EURMA
+Length=335
+
+ Score = 62.2 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPH+GC KMFRDNSAMRKHLHTHG
+Sbjct  153  TIACPHRGCMKMFRDNSAMRKHLHTHG  179
+
+
+> UniRef50_P25490 Transcriptional repressor protein YY1 n=282 Tax=Deuterostomia 
+TaxID=33511 RepID=TYY1_HUMAN
+Length=414
+
+ Score = 62.6 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  295  TIACPHKGCTKMFRDNSAMRKHLHTHG  321
+
+
+> UniRef50_P0C6P6 Transcription factor YY2 n=34 Tax=Eumetazoa TaxID=6072 
+RepID=TYY2_RAT
+Length=376
+
+ Score = 62.2 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +AC HKGC KMF+DNSAMRKHLH HG
+Sbjct  258  VACSHKGCGKMFKDNSAMRKHLHIHG  283
+
+
+> UniRef50_Q1RLG5 Zinc finger protein n=5 Tax=Bilateria TaxID=33213 
+RepID=Q1RLG5_CIOIN
+Length=337
+
+ Score = 62.2 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACP  GC KMFRDN+AMRKHLHTHG
+Sbjct  205  TVACPQAGCEKMFRDNAAMRKHLHTHG  231
+
+
+> UniRef50_A0A183IYC3 Uncharacterized protein n=1 Tax=Soboliphyme 
+baturini TaxID=241478 RepID=A0A183IYC3_9BILA
+Length=335
+
+ Score = 61.8 bits (149),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC K FRDNSAMRKHLHTHG
+Sbjct  238  TVACPHKGCNKRFRDNSAMRKHLHTHG  264
+
+
+> UniRef50_UPI000CCC669C LOW QUALITY PROTEIN: transcription factor 
+YY2 n=1 Tax=Myotis lucifugus TaxID=59463 RepID=UPI000CCC669C
+Length=534
+
+ Score = 62.6 bits (151),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C HKGC KMFRD+++MRKH HTHG
+Sbjct  446  TVPCLHKGCGKMFRDSASMRKHQHTHG  472
+
+
+> UniRef50_UPI0003BBDF8D transcription factor YY2 n=2 Tax=Myotis 
+TaxID=9434 RepID=UPI0003BBDF8D
+Length=552
+
+ Score = 62.6 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C HKGC KMFRD+++MRKH HTHG
+Sbjct  436  TVPCLHKGCGKMFRDSASMRKHQHTHG  462
+
+
+> UniRef50_A0A224L134 PHO n=4 Tax=Drosophila TaxID=32281 RepID=A0A224L134_DROMD
+Length=485
+
+ Score = 62.2 bits (150),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  321  IACPHKGCHKNFRDSSAMRKHLHTHG  346
+
+
+> UniRef50_B0X5W9 Transcriptional repressor protein YY1 n=5 Tax=Culicidae 
+TaxID=7157 RepID=B0X5W9_CULQU
+Length=431
+
+ Score = 62.2 bits (150),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 25/26 (96%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC KMFRDNSAMRKHLHTHG
+Sbjct  265  IACPHKGCNKMFRDNSAMRKHLHTHG  290
+
+
+> UniRef50_UPI0001CE2030 transcription factor YY2 isoform X1 n=10 
+Tax=Eumetazoa TaxID=6072 RepID=UPI0001CE2030
+Length=365
+
+ Score = 61.4 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHK C KMFRDN AMRKHLHTHG
+Sbjct  246  TVACPHKDCEKMFRDNCAMRKHLHTHG  272
+
+
+> UniRef50_H0WVA2 Uncharacterized protein n=5 Tax=Eutheria TaxID=9347 
+RepID=H0WVA2_OTOGA
+Length=189
+
+ Score = 59.5 bits (143),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  70  TIACPHKGCTKMFRDNSAMRKHLHTHG  96
+
+
+> UniRef50_K9KG19 Transcriptional repressor protein YY1-like protein 
+(Fragment) n=2 Tax=Boreoeutheria TaxID=1437010 RepID=K9KG19_HORSE
+Length=188
+
+ Score = 59.5 bits (143),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  69  TIACPHKGCTKMFRDNSAMRKHLHTHG  95
+
+
+> UniRef50_UPI00076856D7 transcription factor YY2 n=5 Tax=Laurasiatheria 
+TaxID=314145 RepID=UPI00076856D7
+Length=453
+
+ Score = 61.8 bits (149),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 24/27 (89%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPH GC KMFRDNSAMRKHLHTHG
+Sbjct  334  TVACPHTGCVKMFRDNSAMRKHLHTHG  360
+
+
+> UniRef50_A0A096NJR2 Uncharacterized protein n=15 Tax=Euteleostomi 
+TaxID=117571 RepID=A0A096NJR2_PAPAN
+Length=184
+
+ Score = 59.5 bits (143),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  65  TIACPHKGCTKMFRDNSAMRKHLHTHG  91
+
+
+> UniRef50_A0A1A6HXW8 Uncharacterized protein (Fragment) n=3 Tax=Euarchontoglires 
+TaxID=314146 RepID=A0A1A6HXW8_NEOLE
+Length=191
+
+ Score = 59.5 bits (143),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 27/27 (100%), Positives = 27/27 (100%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGCTKMFRDNSAMRKHLHTHG
+Sbjct  72  TIACPHKGCTKMFRDNSAMRKHLHTHG  98
+
+
+> UniRef50_G9K9U9 Membrane-bound transcription factor site 2 protease 
+(Fragment) n=3 Tax=Eutheria TaxID=9347 RepID=G9K9U9_MUSPF
+Length=387
+
+ Score = 61.4 bits (148),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 25/27 (93%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           TIACPHKGC KMF+DNSAMRKHLHTHG
+Sbjct  9   TIACPHKGCVKMFKDNSAMRKHLHTHG  35
+
+
+> UniRef50_A0A0X3P4E1 Transcriptional repressor protein YY1 n=2 
+Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3P4E1_SCHSO
+Length=699
+
+ Score = 61.8 bits (149),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPHK C K+FRDNS+MRKHLHTHG
+Sbjct  304  TVLCPHKNCGKLFRDNSSMRKHLHTHG  330
+
+
+> UniRef50_F7C653 YY2 transcription factor n=11 Tax=Bilateria TaxID=33213 
+RepID=F7C653_HORSE
+Length=346
+
+ Score = 61.0 bits (147),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACPHKGC KMFRDNSAMRKHL  HG
+Sbjct  227  TVACPHKGCEKMFRDNSAMRKHLQIHG  253
+
+
+> UniRef50_UPI00081173EE polycomb protein PHO-like n=1 Tax=Rhagoletis 
+zephyria TaxID=28612 RepID=UPI00081173EE
+Length=635
+
+ Score = 61.4 bits (148),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC K FRDNSAMRKHLHTHG
+Sbjct  475  IACPQKGCYKFFRDNSAMRKHLHTHG  500
+
+
+> UniRef50_UPI00022B6C96 transcription factor YY2 n=3 Tax=Boreoeutheria 
+TaxID=1437010 RepID=UPI00022B6C96
+Length=379
+
+ Score = 60.6 bits (146),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC  +GC KMF+DN AMRKHLHTHG
+Sbjct  260  TVACRQEGCKKMFKDNCAMRKHLHTHG  286
+
+
+> UniRef50_G1LXD5 YY1 transcription factor n=14 Tax=Euteleostomi 
+TaxID=117571 RepID=G1LXD5_AILME
+Length=300
+
+ Score = 60.2 bits (145),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/28 (96%), Positives = 27/28 (96%), Gaps = 1/28 (4%)
+
+Query  1    TIACPHK-GCTKMFRDNSAMRKHLHTHG  27
+            TIACPHK GCTKMFRDNSAMRKHLHTHG
+Sbjct  180  TIACPHKKGCTKMFRDNSAMRKHLHTHG  207
+
+
+> UniRef50_A0A132A1V2 Transcription factor YY2-like protein n=1 
+Tax=Sarcoptes scabiei TaxID=52283 RepID=A0A132A1V2_SARSC
+Length=346
+
+ Score = 60.2 bits (145),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 24/26 (92%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPH+GC KMFRDNSAMRKHLHTHG
+Sbjct  135  IACPHRGCLKMFRDNSAMRKHLHTHG  160
+
+
+> UniRef50_A0A0K8W5Q6 Polycomb protein PHO n=16 Tax=Dacinae TaxID=164860 
+RepID=A0A0K8W5Q6_BACLA
+Length=621
+
+ Score = 61.0 bits (147),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACP KGC K FRDNSAMRKHLHTHG
+Sbjct  461  IACPQKGCYKFFRDNSAMRKHLHTHG  486
+
+
+> UniRef50_UPI00044010BE transcriptional repressor protein YY1-like 
+n=1 Tax=Balaenoptera acutorostrata scammoni TaxID=310752 
+RepID=UPI00044010BE
+Length=618
+
+ Score = 61.0 bits (147),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +IACP+K C KMFRDNSA+RKH+HTHG
+Sbjct  501  SIACPNKDCMKMFRDNSALRKHMHTHG  527
+
+
+> UniRef50_A0A0R3U402 Uncharacterized protein n=1 Tax=Mesocestoides 
+corti TaxID=53468 RepID=A0A0R3U402_9CEST
+Length=301
+
+ Score = 59.5 bits (143),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ACPHK C K+FRDNSAMRKHLHTHG
+Sbjct  49  TVACPHKNCGKLFRDNSAMRKHLHTHG  75
+
+
+> UniRef50_Q8ST83 Polycomb protein PHO n=29 Tax=Sophophora TaxID=32341 
+RepID=PHO_DROME
+Length=520
+
+ Score = 60.6 bits (146),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  357  IACPHKGCNKHFRDSSAMRKHLHTHG  382
+
+
+> UniRef50_UPI000A287E52 transcription factor YY2-like isoform 
+X1 n=8 Tax=Phascolarctos cinereus TaxID=38626 RepID=UPI000A287E52
+Length=592
+
+ Score = 60.2 bits (145),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH+ C K+FRDNSA+RKHLHTHG
+Sbjct  474  LPCPHEECPKLFRDNSALRKHLHTHG  499
+
+
+> UniRef50_B4NHH2 Uncharacterized protein n=10 Tax=Drosophila TaxID=32281 
+RepID=B4NHH2_DROWI
+Length=466
+
+ Score = 59.9 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  297  IACPHKGCHKTFRDSSAMRKHLHTHG  322
+
+
+> UniRef50_A0A091CV02 Transcription factor YY2 n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=A0A091CV02_FUKDA
+Length=617
+
+ Score = 59.9 bits (144),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC  +GCTKMF+D  AMRKHLHTHG
+Sbjct  498  TVACCQEGCTKMFKDIYAMRKHLHTHG  524
+
+
+> UniRef50_A0A074ZTZ2 Uncharacterized protein n=3 Tax=Opisthorchiidae 
+TaxID=6196 RepID=A0A074ZTZ2_9TREM
+Length=891
+
+ Score = 60.2 bits (145),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ACP  GC K FRD S+MRKHLHTHG
+Sbjct  483  TVACPQLGCGKTFRDTSSMRKHLHTHG  509
+
+
+> UniRef50_UPI000C7CF6B4 LOW QUALITY PROTEIN: transcription factor 
+YY2-like n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=UPI000C7CF6B4
+Length=569
+
+ Score = 59.9 bits (144),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH+ C K+FRDNSA+RKHLHTHG
+Sbjct  451  LPCPHEECPKLFRDNSALRKHLHTHG  476
+
+
+> UniRef50_A0A0R3XB53 Uncharacterized protein n=1 Tax=Hydatigena 
+taeniaeformis TaxID=6205 RepID=A0A0R3XB53_HYDTA
+Length=426
+
+ Score = 59.1 bits (142),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  342  VVCPQLGCGKAFRDTAAMRKHLHTHG  367
+
+
+> UniRef50_I0FRP4 Transcription factor YY2 n=22 Tax=Bilateria TaxID=33213 
+RepID=I0FRP4_MACMU
+Length=374
+
+ Score = 58.7 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C H GC KMFRD +AMRKHLH HG
+Sbjct  255  TVPCSHSGCEKMFRDYAAMRKHLHIHG  281
+
+
+> UniRef50_B4JZQ8 GH23956 n=3 Tax=Drosophila TaxID=32281 RepID=B4JZQ8_DROGR
+Length=472
+
+ Score = 59.1 bits (142),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  301  IACPHKGCHKYFRDSSAMRKHLHTHG  326
+
+
+> UniRef50_K7E1F7 Uncharacterized protein n=3 Tax=Metatheria TaxID=9263 
+RepID=K7E1F7_MONDO
+Length=407
+
+ Score = 58.7 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CPH  C K+FRDNSA+RKH+HTHG
+Sbjct  289  LPCPHGECPKLFRDNSALRKHMHTHG  314
+
+
+> UniRef50_UPI000C9F7AF2 transcription factor YY2 n=1 Tax=Octodon 
+degus TaxID=10160 RepID=UPI000C9F7AF2
+Length=373
+
+ Score = 58.7 bits (141),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+AC H+GC KMF+D+ AMRKHLHTHG
+Sbjct  255  TVACRHEGCKKMFKDSCAMRKHLHTHG  281
+
+
+> UniRef50_UPI0006416288 transcriptional repressor protein YY1-like 
+n=1 Tax=Hydra vulgaris TaxID=6087 RepID=UPI0006416288
+Length=99
+
+ Score = 55.6 bits (133),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           +I+CPH GC K+FRDNSAMRKHLHTHG
+Sbjct  60  SISCPHSGCLKLFRDNSAMRKHLHTHG  86
+
+
+> UniRef50_G4V881 Putative transcriptional repressor protein yy 
+(Yin and yang) (Delta transcription factor) n=4 Tax=Schistosoma 
+TaxID=6181 RepID=G4V881_SCHMA
+Length=995
+
+ Score = 59.1 bits (142),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  475  TVFCPHLGCGKTFRDTAAMRKHLHTHG  501
+
+
+> UniRef50_A0A183JH93 Uncharacterized protein n=2 Tax=Schistosoma 
+TaxID=6181 RepID=A0A183JH93_9TREM
+Length=481
+
+ Score = 57.9 bits (139),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  401  TVFCPHLGCGKTFRDTAAMRKHLHTHG  427
+
+
+> UniRef50_O15391 Transcription factor YY2 n=11 Tax=Euarchontoglires 
+TaxID=314146 RepID=TYY2_HUMAN
+Length=372
+
+ Score = 57.2 bits (137),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1    TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+            T+ C + GC KMFRD +AMRKHLH HG
+Sbjct  253  TVPCSYSGCEKMFRDYAAMRKHLHIHG  279
+
+
+> UniRef50_UPI0007E8517E transcription factor Sp2 n=7 Tax=melanogaster 
+group TaxID=32346 RepID=UPI0007E8517E
+Length=686
+
+ Score = 57.5 bits (138),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  504  CTHRGCNKEFRNHSAMRKHMHTHG  527
+
+
+> UniRef50_A0A0R3T3M6 Uncharacterized protein n=1 Tax=Hymenolepis 
+nana TaxID=102285 RepID=A0A0R3T3M6_HYMNN
+Length=479
+
+ Score = 56.8 bits (136),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  410  VVCPQLGCGKAFRDTAAMRKHLHTHG  435
+
+
+> UniRef50_A0A0P9C136 Uncharacterized protein n=7 Tax=melanogaster 
+group TaxID=32346 RepID=A0A0P9C136_DROAN
+Length=414
+
+ Score = 56.8 bits (136),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            IACPHKGC K FRD+SA+RKHLHTHG
+Sbjct  251  IACPHKGCHKNFRDSSAVRKHLHTHG  276
+
+
+> UniRef50_A0A0X3PKZ3 Uncharacterized protein n=1 Tax=Schistocephalus 
+solidus TaxID=70667 RepID=A0A0X3PKZ3_SCHSO
+Length=496
+
+ Score = 56.8 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  418  VVCPQLGCGKAFRDTAAMRKHLHTHG  443
+
+
+> UniRef50_A0A0R3U2C1 Uncharacterized protein n=1 Tax=Mesocestoides 
+corti TaxID=53468 RepID=A0A0R3U2C1_9CEST
+Length=750
+
+ Score = 56.8 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  324  VVCPQLGCGKAFRDTAAMRKHLHTHG  349
+
+
+> UniRef50_UPI00093BC5E4 transcription factor YY2 n=1 Tax=Hipposideros 
+armiger TaxID=186990 RepID=UPI00093BC5E4
+Length=367
+
+ Score = 56.0 bits (134),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            +ACPHKGC+K FRD SAM+KHLHTHG
+Sbjct  249  VACPHKGCSKAFRDISAMKKHLHTHG  274
+
+
+> UniRef50_A0A068Y735 Transcriptional repressor protein YY1 n=4 
+Tax=Taeniidae TaxID=6208 RepID=A0A068Y735_ECHMU
+Length=874
+
+ Score = 56.8 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  370  VVCPQLGCGKAFRDTAAMRKHLHTHG  395
+
+
+> UniRef50_A0A0X3Q6Y7 Transcriptional repressor protein YY1 n=3 
+Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3Q6Y7_SCHSO
+Length=1014
+
+ Score = 56.8 bits (136),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  430  VVCPQLGCGKAFRDTAAMRKHLHTHG  455
+
+
+> UniRef50_A0A1W0X515 Transcriptional repressor protein YY1 n=1 
+Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0X515_HYPDU
+Length=549
+
+ Score = 56.4 bits (135),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 19/24 (79%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            CP KGC K FRDN++MRKHLHTHG
+Sbjct  277  CPSKGCGKGFRDNASMRKHLHTHG  300
+
+
+> UniRef50_A0A068XJX6 Transcriptional repressor protein YY1 n=2 
+Tax=Hymenolepis TaxID=99110 RepID=A0A068XJX6_HYMMI
+Length=914
+
+ Score = 56.4 bits (135),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  410  VVCPQLGCGKAFRDTAAMRKHLHTHG  435
+
+
+> UniRef50_Q9VSZ3 LD31045p n=15 Tax=Drosophila TaxID=32281 RepID=Q9VSZ3_DROME
+Length=669
+
+ Score = 55.6 bits (133),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  504  CTHRGCNKEFRNHSAMRKHMHTHG  527
+
+
+> UniRef50_A0A183W370 Uncharacterized protein n=2 Tax=Platyhelminthes 
+TaxID=6157 RepID=A0A183W370_TRIRE
+Length=143
+
+ Score = 52.5 bits (125),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 21/26 (81%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           + CPH GC K FRD +AMRKHLHTHG
+Sbjct  65  VFCPHLGCGKTFRDTAAMRKHLHTHG  90
+
+
+> UniRef50_T1FXR6 Uncharacterized protein n=7 Tax=Eumetazoa TaxID=6072 
+RepID=T1FXR6_HELRO
+Length=149
+
+ Score = 52.5 bits (125),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 20/26 (77%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           I CPHKGC K+F+DNS+MRKH+HTHG
+Sbjct  9   IPCPHKGCNKLFKDNSSMRKHIHTHG  34
+
+
+> UniRef50_Q29EF2 Uncharacterized protein n=7 Tax=obscura group 
+TaxID=32355 RepID=Q29EF2_DROPS
+Length=707
+
+ Score = 55.2 bits (132),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  534  CTHRGCNKEFRNHSAMRKHMHTHG  557
+
+
+> UniRef50_A0A0M4EI03 Phol n=1 Tax=Drosophila busckii TaxID=30019 
+RepID=A0A0M4EI03_DROBS
+Length=612
+
+ Score = 54.8 bits (131),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  445  CTHRGCHKEFRNHSAMRKHMHTHG  468
+
+
+> UniRef50_A0A1D1W1U6 Uncharacterized protein n=2 Tax=Ramazzottius 
+varieornatus TaxID=947166 RepID=A0A1D1W1U6_RAMVA
+Length=423
+
+ Score = 53.7 bits (128),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/26 (65%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + C    C K FRDN+AMRKHLHTHG
+Sbjct  226  VCCQFPRCGKTFRDNAAMRKHLHTHG  251
+
+
+> UniRef50_A0A2H1BRJ1 Zinc finger, C2H2 type n=1 Tax=Fasciola hepatica 
+TaxID=6192 RepID=A0A2H1BRJ1_FASHE
+Length=113
+
+ Score = 51.4 bits (122),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CP  GC K FRD +AMRKHLHTHG
+Sbjct  26  TVICPQLGCGKTFRDTAAMRKHLHTHG  52
+
+
+> UniRef50_B4KXJ1 Uncharacterized protein n=4 Tax=repleta group 
+TaxID=32321 RepID=B4KXJ1_DROMO
+Length=706
+
+ Score = 54.1 bits (129),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  542  CTHRGCNKEFRNHSAMRKHMHTHG  565
+
+
+> UniRef50_A0A183A8G4 Uncharacterized protein n=1 Tax=Echinostoma 
+caproni TaxID=27848 RepID=A0A183A8G4_9TREM
+Length=452
+
+ Score = 53.7 bits (128),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/27 (70%), Positives = 21/27 (78%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CP  GC K FRD +AMRKHLHTHG
+Sbjct  26  TVICPQLGCGKTFRDTAAMRKHLHTHG  52
+
+
+> UniRef50_B4IXD6 GH16213 n=1 Tax=Drosophila grimshawi TaxID=7222 
+RepID=B4IXD6_DROGR
+Length=769
+
+ Score = 54.1 bits (129),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 21/24 (88%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C H+GC K FR++SAMRKH+HTHG
+Sbjct  604  CTHRGCNKEFRNHSAMRKHMHTHG  627
+
+
+> UniRef50_A0A183T2K1 Uncharacterized protein n=1 Tax=Schistocephalus 
+solidus TaxID=70667 RepID=A0A183T2K1_SCHSO
+Length=356
+
+ Score = 52.9 bits (126),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + CP  GC K FRD +AMRKHLHTHG
+Sbjct  141  VVCPQLGCGKAFRDTAAMRKHLHTHG  166
+
+
+> UniRef50_A0A183QIP7 Uncharacterized protein n=1 Tax=Schistosoma 
+rodhaini TaxID=6188 RepID=A0A183QIP7_9TREM
+Length=213
+
+ Score = 51.4 bits (122),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 20/27 (74%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  1   TIACPHKGCTKMFRDNSAMRKHLHTHG  27
+           T+ CPH GC K FRD +AMRKHLHTHG
+Sbjct  51  TVFCPHLGCGKTFRDTAAMRKHLHTHG  77
+
+
+> UniRef50_A0A0Q5SDS7 Uncharacterized protein n=12 Tax=Eukaryota 
+TaxID=2759 RepID=A0A0Q5SDS7_DROER
+Length=119
+
+ Score = 49.5 bits (117),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 23/26 (88%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  2   IACPHKGCTKMFRDNSAMRKHLHTHG  27
+           IACPHKGC K FRD+SAMRKHLHTHG
+Sbjct  38  IACPHKGCHKHFRDSSAMRKHLHTHG  63
+
+
+> UniRef50_UPI000811A587 polycomb protein PHO-like n=1 Tax=Rhagoletis 
+zephyria TaxID=28612 RepID=UPI000811A587
+Length=360
+
+ Score = 51.0 bits (121),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 18/26 (69%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            + C H+GC KMFR  S MRKHLHTHG
+Sbjct  227  VCCAHEGCLKMFRSISLMRKHLHTHG  252
+
+
+> UniRef50_A0A1I8B8I4 Uncharacterized protein n=1 Tax=Meloidogyne 
+hapla TaxID=6305 RepID=A0A1I8B8I4_MELHA
+Length=542
+
+ Score = 50.6 bits (120),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 15/26 (58%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            I C +KGC K F + S+MRKHL  HG
+Sbjct  430  IPCSYKGCQKTFSNKSSMRKHLQIHG  455
+
+
+> UniRef50_A0A183BXT5 Uncharacterized protein n=1 Tax=Globodera 
+pallida TaxID=36090 RepID=A0A183BXT5_GLOPA
+Length=584
+
+ Score = 47.1 bits (111),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 16/26 (62%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            I C +KGC K F   SAMRKHL  HG
+Sbjct  439  IPCSYKGCQKTFAKQSAMRKHLQIHG  464
+
+
+> UniRef50_A0A0M0JK39 Putative zinc finger protein n=1 Tax=Chrysochromulina 
+sp. CCMP291 TaxID=1460289 RepID=A0A0M0JK39_9EUKA
+Length=254
+
+ Score = 44.1 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/24 (58%), Positives = 19/24 (79%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            CP +GC K F D +++RKH+HTHG
+Sbjct  78   CPLEGCGKAFADAASLRKHMHTHG  101
+
+
+> UniRef50_F2D067 Predicted protein n=1 Tax=Hordeum vulgare subsp. 
+vulgare TaxID=112509 RepID=F2D067_HORVV
+Length=155
+
+ Score = 42.5 bits (99),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C +  C K F D +A+RKH H HG
+Sbjct  94   CSYDNCGKTFVDVAALRKHAHVHG  117
+
+
+> UniRef50_A0A0A9B6Q7 Uncharacterized protein n=1 Tax=Arundo donax 
+TaxID=35708 RepID=A0A0A9B6Q7_ARUDO
+Length=112
+
+ Score = 41.4 bits (96),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  4   CPHKGCTKMFRDNSAMRKHLHTHG  27
+           C ++GC K+F D  ++RKH H HG
+Sbjct  65  CSYEGCGKIFVDAGSLRKHAHVHG  88
+
+
+> UniRef50_A0A0L0CG68 Polycomb protein PHO (Fragment) n=4 Tax=Calyptratae 
+TaxID=43742 RepID=A0A0L0CG68_LUCCU
+Length=681
+
+ Score = 43.7 bits (102),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 14/24 (58%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C  + C K FR++SAMRKH  THG
+Sbjct  525  CTFRNCNKEFRNHSAMRKHSATHG  548
+
+
+> UniRef50_A0A1Y1I6Z9 Uncharacterized protein n=1 Tax=Klebsormidium 
+nitens TaxID=105231 RepID=A0A1Y1I6Z9_KLENI
+Length=201
+
+ Score = 42.1 bits (98),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 14/26 (54%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  2    IACPHKGCTKMFRDNSAMRKHLHTHG  27
+            I CP++GC K+F D  A+RKH   HG
+Sbjct  112  IVCPYEGCGKVFPDMGAIRKHARIHG  137
+
+
+> UniRef50_A0A1R3HY78 Uncharacterized protein n=1 Tax=Corchorus 
+capsularis TaxID=210143 RepID=A0A1R3HY78_COCAP
+Length=673
+
+ Score = 43.3 bits (101),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/24 (54%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  4    CPHKGCTKMFRDNSAMRKHLHTHG  27
+            C ++GC K F D  A+RKH H HG
+Sbjct  408  CSYEGCGKTFIDAGALRKHSHIHG  431
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.156    0.686    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0478    0.140     1.90     42.6     43.6 
+
+Effective search space used: 235815159800
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
 
 
 
