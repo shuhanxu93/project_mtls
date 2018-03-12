@@ -1,0 +1,4436 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 2end-1-DOMAK
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P04418 Endonuclease V n=74 Tax=root TaxID=1 RepID=END5...  285     2e-96
+  UniRef50_A0A0A7HGT4 Endonuclease n=13 Tax=root TaxID=1 RepID=A0...  227     7e-74
+  UniRef50_A0A2G6GLE6 Endonuclease n=1 Tax=Candidatus Gracilibact...  140     7e-40
+  UniRef50_L2F625 Pyrimidine dimer DNA glycosylase/endonuclease V...  110     5e-28
+  UniRef50_A0A249NZA6 Endonuclease V n=7 Tax=Proteobacteria TaxID...  107     7e-27
+  UniRef50_E2PN57 Endonuclease V n=43 Tax=Proteobacteria TaxID=12...  105     2e-26
+  UniRef50_A0A1L3LHH7 Endonuclease V n=3 Tax=Rhizobiales TaxID=35...  105     7e-26
+  UniRef50_A0A2G6GDE6 Deoxyribonuclease n=1 Tax=Candidatus Gracil...  103     3e-25
+  UniRef50_M1I545 Endonuclease V n=18 Tax=Chlorovirus TaxID=18108...  102     9e-25
+  UniRef50_D2TFG7 Putative endonuclease n=13 Tax=Coccolithovirus ...  101     1e-24
+  UniRef50_Q9W9V3 Pyrimidine dimer-specific glycosylase n=8 Tax=C...  100     2e-24
+  UniRef50_G9A558 Putative endonuclease V n=48 Tax=root TaxID=1 R...  97.8    5e-23
+  UniRef50_A9BBB4 Deoxyribonuclease n=20 Tax=cellular organisms T...  96.7    9e-23
+  UniRef50_A0A163TBZ6 Pyrimidine dimer DNA glycosylase n=5 Tax=Pr...  97.4    1e-22
+  UniRef50_A0A2E9YUR2 Endonuclease V n=2 Tax=Proteobacteria TaxID...  95.5    2e-22
+  UniRef50_A0A0K0PVT7 Endonuclease V n=1 Tax=Roseobacter phage RD...  95.1    3e-22
+  UniRef50_A0A286EEH2 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  92.4    3e-21
+  UniRef50_A0A172PZW6 Endonuclease n=2 Tax=Np1virus TaxID=1982239...  92.8    5e-21
+  UniRef50_E6L096 Deoxyribonuclease V n=71 Tax=Proteobacteria Tax...  91.3    9e-21
+  UniRef50_A0A2A2AD06 Deoxyribonuclease n=2 Tax=unclassified Coma...  90.5    2e-20
+  UniRef50_A0A1Z8LLG5 Uncharacterized protein n=1 Tax=Muricauda s...  89.4    6e-20
+  UniRef50_UPI00066922F7 deoxyribonuclease n=2 Tax=Pasteurella Ta...  87.4    2e-19
+  UniRef50_A0A076YLS9 Putative endonuclease n=2 Tax=unclassified ...  87.0    4e-19
+  UniRef50_A0A2E7NWS7 Uncharacterized protein n=1 Tax=Herbaspiril...  86.3    2e-18
+  UniRef50_A0A2E2D601 Endonuclease V n=1 Tax=Methylophaga sp. Tax...  84.7    2e-18
+  UniRef50_A0A1J4UJI6 Uncharacterized protein n=1 Tax=Candidatus ...  84.7    4e-18
+  UniRef50_A0A1V0DYJ9 Putative endonuclease n=2 Tax=root TaxID=1 ...  82.8    2e-17
+  UniRef50_V8QS53 Endonuclease V n=1 Tax=Advenella kashmirensis W...  81.3    5e-17
+  UniRef50_A0A023NGV8 Putative deoxyribonuclease n=4 Tax=root Tax...  80.5    1e-16
+  UniRef50_A0A2H0NCN3 Endonuclease n=1 Tax=Candidatus Komeilibact...  78.2    8e-16
+  UniRef50_C8N6T7 Pyrimidine dimer DNA glycosylase n=34 Tax=root ...  77.8    1e-15
+  UniRef50_Q56C32 DenV endonuclease V n=5 Tax=Myoviridae TaxID=10...  76.6    6e-15
+  UniRef50_A0A075E151 Endonuclease V n=15 Tax=Viruses TaxID=10239...  75.5    1e-14
+  UniRef50_A0A2H9PNB7 Uncharacterized protein n=2 Tax=DPANN group...  75.1    1e-14
+  UniRef50_Q19CY9 Endonuclease V n=4 Tax=Myoviridae TaxID=10662 R...  74.7    3e-14
+  UniRef50_A0A2G9NSA3 Uncharacterized protein n=1 Tax=Candidatus ...  74.3    3e-14
+  UniRef50_D9PM99 Pyrimidine dimer DNA glycosylase n=1 Tax=sedime...  73.6    3e-14
+  UniRef50_Q6WHU9 DenV Endonuclease V n=7 Tax=Schizot4virus TaxID...  73.9    3e-14
+  UniRef50_A0A1G3M2M6 Uncharacterized protein n=1 Tax=Spirochaete...  73.6    5e-14
+  UniRef50_Q6U9S3 Endonuclease V n=8 Tax=Viruses TaxID=10239 RepI...  73.9    5e-14
+  UniRef50_M4QUK4 DenV endonuclease V n=6 Tax=Viruses TaxID=10239...  72.4    2e-13
+  UniRef50_D4G8V4 Endonuclease V n=28 Tax=Proteobacteria TaxID=12...  71.6    2e-13
+  UniRef50_M1GXH5 Endonuclease V n=3 Tax=unclassified Chlorovirus...  69.7    1e-12
+  UniRef50_A0A1F6ZD53 Uncharacterized protein n=1 Tax=Candidatus ...  69.7    1e-12
+  UniRef50_A0A088C505 Pyrimidine dimer DNA glycosylase n=2 Tax=un...  69.3    2e-12
+  UniRef50_S4T813 Endonuclease V n=1 Tax=Vibrio phage VPMS1 TaxID...  67.0    2e-11
+  UniRef50_C4WNE1 Endonuclease V n=1 Tax=Ochrobactrum intermedium...  65.1    2e-11
+  UniRef50_A0A060BH08 Endonuclease V N-glysidase n=1 Tax=Escheric...  61.2    2e-10
+  UniRef50_A0A2G9N2D6 Endonuclease V n=1 Tax=Candidatus Diapherot...  61.2    2e-09
+  UniRef50_A0A2D0K1E8 Uncharacterized protein n=2 Tax=Xenorhabdus...  57.0    2e-08
+  UniRef50_A0A1V5KCC5 Pyrimidine dimer DNA glycosylase n=1 Tax=Fi...  57.4    3e-08
+  UniRef50_A0A2E4W8I9 Deoxyribonuclease n=1 Tax=Acidobacteria bac...  50.4    7e-06
+  UniRef50_F9Q6L0 Deoxyribonuclease V domain protein n=1 Tax=Haem...  47.8    2e-05
+
+
+> UniRef50_P04418 Endonuclease V n=74 Tax=root TaxID=1 RepID=END5_BPT4
+Length=138
+
+ Score = 285 bits (728),  Expect = 2e-96, Method: Compositional matrix adjust.
+ Identities = 137/137 (100%), Positives = 137/137 (100%), Gaps = 0/137 (0%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY
+Sbjct  2    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK
+Sbjct  62   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  121
+
+Query  121  IAQRPTWYKYYGKAIYA  137
+            IAQRPTWYKYYGKAIYA
+Sbjct  122  IAQRPTWYKYYGKAIYA  138
+
+
+> UniRef50_A0A0A7HGT4 Endonuclease n=13 Tax=root TaxID=1 RepID=A0A0A7HGT4_9CAUD
+Length=138
+
+ Score = 227 bits (579),  Expect = 7e-74, Method: Compositional matrix adjust.
+ Identities = 105/137 (77%), Positives = 119/137 (87%), Gaps = 0/137 (0%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINLTLVSELADQHLMAEYRELPRVFGAVRKHV NGK+V DFKI  +F+LG GHVTFFY
+Sbjct  2    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVQNGKKVSDFKIPSSFLLGTGHVTFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL+ R  ELIAECLKRGFNIKD + QD++DIP E++ DY P   SI ISQ+RL+EK
+Sbjct  62   DKLLFLKNRHQELIAECLKRGFNIKDISTQDLNDIPDEWKNDYQPSIWSIEISQSRLNEK  121
+
+Query  121  IAQRPTWYKYYGKAIYA  137
+            I+Q+PTWYKYYGKA+YA
+Sbjct  122  ISQKPTWYKYYGKAVYA  138
+
+
+> UniRef50_A0A2G6GLE6 Endonuclease n=1 Tax=Candidatus Gracilibacteria 
+bacterium TaxID=2044595 RepID=A0A2G6GLE6_9BACT
+Length=132
+
+ Score = 140 bits (353),  Expect = 7e-40, Method: Compositional matrix adjust.
+ Identities = 67/135 (50%), Positives = 94/135 (70%), Gaps = 4/135 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AEYRELPR+FGA+RK + N K +   K+   + +G GHV FFY
+Sbjct  2    TRINLINPAELVDQHLIAEYRELPRIFGAIRKKLKNNKEI---KVGKEYKMGIGHVIFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL KR  E++ EC KRGFNIK  ++ ++SD+P++++ D+ P    I IS++R+ EK
+Sbjct  59   DKLGFLEKRYYEIVKECKKRGFNIKFDSI-NLSDVPKKYKKDFFPSPKDIRISESRIKEK  117
+
+Query  121  IAQRPTWYKYYGKAI  135
+            +  +  +YK  GK I
+Sbjct  118  LKSKKGFYKMRGKII  132
+
+
+> UniRef50_L2F625 Pyrimidine dimer DNA glycosylase/endonuclease 
+V n=6 Tax=Moraxella TaxID=475 RepID=L2F625_9GAMM
+Length=153
+
+ Score = 110 bits (276),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 64/141 (45%), Positives = 82/141 (58%), Gaps = 9/141 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFG----AVRKHVANGKRVRDFKISPTFILGAGHV  56
+            TRIN+  V+EL DQHL AEYRE+ R+F     A +KH  +       KI PT+ +  GHV
+Sbjct  2    TRINVIDVNELTDQHLFAEYREITRIFTLVNQACKKHPVSAILK---KIPPTYRMSTGHV  58
+
+Query  57   TFFYDKLEFLRKRQIELIAECLKRGFNI--KDTTVQDISDIPQEFRGDYIPHEASIAISQ  114
+             FFYDKL F+ +R   L  E LKRGFN+  KD  V   + I   F  D+ P +  IA++ 
+Sbjct  59   LFFYDKLNFIEQRYFHLRHEVLKRGFNVTLKDDIVAFRTLIDPRFYQDFHPTKTDIAVNI  118
+
+Query  115  ARLDEKIAQRPTWYKYYGKAI  135
+             RL EKI  +P WYK +G  I
+Sbjct  119  GRLLEKIHAKPNWYKIHGNLI  139
+
+
+> UniRef50_A0A249NZA6 Endonuclease V n=7 Tax=Proteobacteria TaxID=1224 
+RepID=A0A249NZA6_9RHIZ
+Length=158
+
+ Score = 107 bits (268),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 53/123 (43%), Positives = 76/123 (62%), Gaps = 1/123 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    SEL+  HL+AEYRELPRVF  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  2    TRINCIPPSELSGPHLLAEYRELPRVFALVRAAIARGETPGDPRNPPAYTLGKGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ+ LIAE  +RG+       +D +S  P E+  D+ P   ++ +++ R+ E
+Sbjct  62   SRLSYLAKRQVSLIAEMQRRGYRPTYREAEDLLSGFPSEWCNDWNPTSEAMTVNRERIRE  121
+
+Query  120  KIA  122
+            ++A
+Sbjct  122  RLA  124
+
+
+> UniRef50_E2PN57 Endonuclease V n=43 Tax=Proteobacteria TaxID=1224 
+RepID=E2PN57_9RHIZ
+Length=125
+
+ Score = 105 bits (263),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 55/122 (45%), Positives = 78/122 (64%), Gaps = 1/122 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL   HL+AEYRELPRVF  VR  +  G+  +D +    + LGAGHV FFY
+Sbjct  2    TRINCIPPAELTGPHLVAEYRELPRVFALVRAAIQRGEAPQDPRNPQQYTLGAGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDIS-DIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE   RG+  + T ++++   IP E+R D+ P   +IAI++AR+ E
+Sbjct  62   ARLGYLAKRQAALIAEMQARGYAPQFTNIEELLIGIPLEWRADWEPTAEAIAINRARIAE  121
+
+Query  120  KI  121
+            ++
+Sbjct  122  RL  123
+
+
+> UniRef50_A0A1L3LHH7 Endonuclease V n=3 Tax=Rhizobiales TaxID=356 
+RepID=A0A1L3LHH7_9RHIZ
+Length=154
+
+ Score = 105 bits (261),  Expect = 7e-26, Method: Compositional matrix adjust.
+ Identities = 53/123 (43%), Positives = 75/123 (61%), Gaps = 1/123 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    SEL   HL+AEYRELPRVF  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  2    TRINCIPPSELCGPHLVAEYRELPRVFALVRAAIARGESPSDPRNPPVYTLGKGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE  +RG+       +  + D+P E+  D+ P   ++A+++ R+ E
+Sbjct  62   SRLAYLAKRQASLIAEMQRRGYRPAFREAEGLLGDLPLEWCNDWDPTSEAMALNRERIRE  121
+
+Query  120  KIA  122
+            ++A
+Sbjct  122  RLA  124
+
+
+> UniRef50_A0A2G6GDE6 Deoxyribonuclease n=1 Tax=Candidatus Gracilibacteria 
+bacterium TaxID=2044595 RepID=A0A2G6GDE6_9BACT
+Length=132
+
+ Score = 103 bits (256),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 57/135 (42%), Positives = 84/135 (62%), Gaps = 8/135 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TR+NL  V +L DQHL+AE+RE+ R+   ++    +GK   D  I   ++LG GHV FFY
+Sbjct  2    TRVNLIPVEKLYDQHLLAEHREIKRIPNVIK----SGKFHLD-DIPKKYVLGKGHVKFFY  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL +R + L  EC KRGF +++ T     ++P+   GD+ P E  IA++Q+R+DEK
+Sbjct  57   DKLGFLHRRYLALYDECKKRGFAVENYTSA-FENLPENLCGDFEPDEDDIALNQSRIDEK  115
+
+Query  121  IAQRPTWYKYYGKAI  135
+               R  +Y+  GK +
+Sbjct  116  --WRDNFYRMCGKIV  128
+
+
+> UniRef50_M1I545 Endonuclease V n=18 Tax=Chlorovirus TaxID=181083 
+RepID=M1I545_9PHYC
+Length=145
+
+ Score = 102 bits (253),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 60/141 (43%), Positives = 77/141 (55%), Gaps = 11/141 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDF-----KISPTFILGAGH  55
+            TRINL  V ELA+QH+ AE+RE+      V K +A   R +       KI   F L  GH
+Sbjct  2    TRINLVPVGELANQHIFAEWREM----KMVPKALARSLRTQSVEKVAKKIPAKFTLNTGH  57
+
+Query  56   VTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDI--PQEFRGDYIPHEASIAIS  113
+            V FFYDK  +LRKR  EL AE ++RGF I      D         +  DY P E ++ I 
+Sbjct  58   VLFFYDKGAYLRKRYAELTAELVRRGFKINVDAPLDPEGTMNAAPWNNDYEPTEEALTII  117
+
+Query  114  QARLDEKIAQRPTWYKYYGKA  134
+            + R+ EKIA +PTWYK++  A
+Sbjct  118  RQRIAEKIAMKPTWYKFFDPA  138
+
+
+> UniRef50_D2TFG7 Putative endonuclease n=13 Tax=Coccolithovirus 
+TaxID=346673 RepID=D2TFG7_9PHYC
+Length=128
+
+ Score = 101 bits (251),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 49/127 (39%), Positives = 78/127 (61%), Gaps = 4/127 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+   +EL ++HLMAEYRELPR+F  V+K V NG  V D      + +G GHV FF 
+Sbjct  2    TRINVVPSTELTNKHLMAEYRELPRIFTEVKKKVNNGISVNDLTQPEHYKMGQGHVMFFM  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKD----TTVQDISDIPQEFRGDYIPHEASIAISQAR  116
+             +  +L  R + L  E ++RG+++ D    + V  ++DIP EF   Y P ++++ I++AR
+Sbjct  62   SRCGWLIHRYVMLHDELIRRGYSLNDEMYTSIVNGVNDIPMEFMDWYEPTDSAMTINRAR  121
+
+Query  117  LDEKIAQ  123
+            + +++  
+Sbjct  122  ITDRLNN  128
+
+
+> UniRef50_Q9W9V3 Pyrimidine dimer-specific glycosylase n=8 Tax=Chlorovirus 
+TaxID=181083 RepID=Q9W9V3_9PHYC
+Length=141
+
+ Score = 100 bits (250),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 54/132 (41%), Positives = 80/132 (61%), Gaps = 2/132 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPT-FILGAGHVTFF  59
+            TR+NL  V ELADQHLMAE+REL  +  A+ + +      +  K  P+ F L  GHV FF
+Sbjct  2    TRVNLIPVQELADQHLMAEFRELKMIPKALARSLRTQSSEKILKKIPSKFTLNTGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIK-DTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            YDK ++L+KR  E++ E + RG+ I  D  +   + +  E+  DY P E ++ I + R+ 
+Sbjct  62   YDKGKYLQKRYDEIVVELVARGYKINVDAKLDPDNVMTDEWYNDYTPTEDALNIIRERIL  121
+
+Query  119  EKIAQRPTWYKY  130
+            EKIA +P WY++
+Sbjct  122  EKIAMKPGWYRF  133
+
+
+> UniRef50_G9A558 Putative endonuclease V n=48 Tax=root TaxID=1 
+RepID=G9A558_RHIFH
+Length=151
+
+ Score = 97.8 bits (242),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 50/121 (41%), Positives = 73/121 (60%), Gaps = 1/121 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL+  HL+AEYRELPR+F  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  22   TRINCIPPAELSGPHLVAEYRELPRIFPLVRAAIARGESPTDPRNPPAYTLGKGHVRFFY  81
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE  +RG+       +  +S +P  +  D+ P   +IA+++ R+ E
+Sbjct  82   SRLAYLAKRQANLIAEMQRRGYRPAFLETEGLLSGLPLAWCNDWEPTLEAIALNRERIRE  141
+
+Query  120  K  120
+            +
+Sbjct  142  R  142
+
+
+> UniRef50_A9BBB4 Deoxyribonuclease n=20 Tax=cellular organisms 
+TaxID=131567 RepID=A9BBB4_PROM4
+Length=134
+
+ Score = 96.7 bits (239),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 48/131 (37%), Positives = 76/131 (58%), Gaps = 1/131 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGK-RVRDFKISPTFILGAGHVTFF  59
+            TRINL    EL+DQHL+AEYRE+  +  A+++ + +    +    +   F L  GHV FF
+Sbjct  2    TRINLVKPIELSDQHLIAEYREIFMIGSALQRSMKSPNWNITKESLPKNFTLNTGHVRFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+K ++L KR +++I E  +RG N     + +    P E   D+ P+E  I + + R+ E
+Sbjct  62   YNKGKYLYKRYLDIIEEMKRRGMNPNPRRLFNKEQWPDELYNDWTPNEIDIQVVKERIKE  121
+
+Query  120  KIAQRPTWYKY  130
+            KI Q+P WY++
+Sbjct  122  KINQKPHWYRW  132
+
+
+> UniRef50_A0A163TBZ6 Pyrimidine dimer DNA glycosylase n=5 Tax=Prochlorococcus 
+marinus TaxID=1219 RepID=A0A163TBZ6_PROMR
+Length=173
+
+ Score = 97.4 bits (241),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 53/135 (39%), Positives = 80/135 (59%), Gaps = 3/135 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHV--ANGKRVRDFKISPTFILGAGHVTF  58
+            TRINL   SEL+DQHL+AEYRE+  V  A+++ +   N +R ++ ++   F L  GHV F
+Sbjct  24   TRINLVKPSELSDQHLVAEYREIFMVGSALQRSLKSKNWQRTKE-QLPKEFTLNIGHVKF  82
+
+Query  59   FYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            FY+K ++L KR ++LI E   RG              P +F  D+ P+   I + + R++
+Sbjct  83   FYNKGKYLHKRYLDLINEMKSRGMRPDPERQFKKEQWPSDFYKDWEPNAKDIELIRKRIE  142
+
+Query  119  EKIAQRPTWYKYYGK  133
+            EKI Q+PTWY++  K
+Sbjct  143  EKINQKPTWYRWTKK  157
+
+
+> UniRef50_A0A2E9YUR2 Endonuclease V n=2 Tax=Proteobacteria TaxID=1224 
+RepID=A0A2E9YUR2_9RHOB
+Length=120
+
+ Score = 95.5 bits (236),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 49/123 (40%), Positives = 77/123 (63%), Gaps = 4/123 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL  +HL+AEYRELPR+FG VR  +A G++     +  T+ LGA HV FFY
+Sbjct  2    TRINCVPPAELTGKHLVAEYRELPRIFGLVRAAIARGEQP---AVMDTYRLGADHVRFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+             +L +L +RQ  LI E  +RG+         ++  P E+ GD+ P + ++A+++AR+ E+
+Sbjct  59   TRLAWLARRQAALIDEMKRRGY-APQYGAPSLAGFPTEWCGDWQPTDEALALNRARIMER  117
+
+Query  121  IAQ  123
+            + +
+Sbjct  118  LPK  120
+
+
+> UniRef50_A0A0K0PVT7 Endonuclease V n=1 Tax=Roseobacter phage 
+RDJL Phi 2 TaxID=1682380 RepID=A0A0K0PVT7_9CAUD
+Length=120
+
+ Score = 95.1 bits (235),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 53/116 (46%), Positives = 73/116 (63%), Gaps = 2/116 (2%)
+
+Query  8    VSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEFLR  67
+            V EL   HL+AEYRELPRVF  +R   A G+R+ D +    ++LG GHV FFYDK  FL 
+Sbjct  3    VEELTGPHLVAEYRELPRVFKLMRAAQARGERIDDRRNPTEYVLGTGHVRFFYDKGLFLL  62
+
+Query  68   KRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFR-GDYIPHEASIAISQARLDEKI  121
+            KRQ  L+AE  +RG+N   T   D + D    +R  D+ P E ++AI++AR+ E++
+Sbjct  63   KRQKALVAEMQRRGYNPSYTDPADLLPDGLDVWRMMDWTPDENALAINRARITERL  118
+
+
+> UniRef50_A0A286EEH2 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=11 Tax=Bacteria TaxID=2 
+RepID=A0A286EEH2_9NEIS
+Length=128
+
+ Score = 92.4 bits (228),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 54/122 (44%), Positives = 75/122 (61%), Gaps = 8/122 (7%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPT-FILGAGHVTFF  59
+            TRINL   SEL DQHL+AE+ EL R+  AV    A G+     +  P  + LG GHV FF
+Sbjct  2    TRINLVPPSELCDQHLLAEHCELTRIPNAV----AQGRY--HLRGQPADYKLGEGHVRFF  55
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            +DKL FL+KR   L  ECL RGFN+++    ++   P  +R DY P E ++A ++AR+ E
+Sbjct  56   FDKLLFLQKRYAALHQECLARGFNVQNRWADNLPQNPDLWR-DYQPTETALAANRARIAE  114
+
+Query  120  KI  121
+            ++
+Sbjct  115  RM  116
+
+
+> UniRef50_A0A172PZW6 Endonuclease n=2 Tax=Np1virus TaxID=1982239 
+RepID=A0A172PZW6_9CAUD
+Length=163
+
+ Score = 92.8 bits (229),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 57/160 (36%), Positives = 80/160 (50%), Gaps = 26/160 (16%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFK----------------  44
+            TRINL    EL DQHL AE+RE+  V  ++R+ +      RD K                
+Sbjct  4    TRINLVPPEELMDQHLFAEFREIKMVPKSLRRSL-RAAEARDVKAHGYRDAYVQALMGQA  62
+
+Query  45   -----ISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQD----ISDI  95
+                 +   + L  GHV+FFYDK  +LRKR   L AE  +RG N    ++ D       +
+Sbjct  63   IVLEAVPKAYTLNTGHVSFFYDKALYLRKRYALLRAELERRGINFNRESLLDPDGVFDAL  122
+
+Query  96   PQEFRGDYIPHEASIAISQARLDEKIAQRPTWYKYYGKAI  135
+             + FR DY P   ++A+ + R+ EKIA +P WY++ GK I
+Sbjct  123  DERFRKDYDPTPEALALVRQRIQEKIALKPHWYRHNGKPI  162
+
+
+> UniRef50_E6L096 Deoxyribonuclease V n=71 Tax=Proteobacteria TaxID=1224 
+RepID=E6L096_9PAST
+Length=131
+
+ Score = 91.3 bits (225),  Expect = 9e-21, Method: Compositional matrix adjust.
+ Identities = 55/131 (42%), Positives = 80/131 (61%), Gaps = 8/131 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPT-FILGAGHVTFF  59
+            TRINL   +EL DQHL+AE+REL R+  AV    A GK     K  P  + LG GHV FF
+Sbjct  2    TRINLVPPAELCDQHLLAEHRELTRIPNAV----AKGKY--HLKGQPAEYKLGEGHVRFF  55
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            ++K+ FL+KR   L AEC  RGFN++    +++   P  +  DY P EA++A+++AR+ E
+Sbjct  56   FNKMAFLKKRYDLLHAECKARGFNVQYIWNEELPQDPTLWL-DYKPTEAALALNRARIQE  114
+
+Query  120  KIAQRPTWYKY  130
+            ++  +  +  Y
+Sbjct  115  RMPAKARFTPY  125
+
+
+> UniRef50_A0A2A2AD06 Deoxyribonuclease n=2 Tax=unclassified Comamonadaceae 
+TaxID=83494 RepID=A0A2A2AD06_9BURK
+Length=129
+
+ Score = 90.5 bits (223),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 53/124 (43%), Positives = 74/124 (60%), Gaps = 6/124 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AE+REL R+  AV    A GK  R       + LG GHV FF+
+Sbjct  2    TRINLVAPAELCDQHLLAEHRELTRIPNAV----AKGK-YRLQGQPQDYCLGTGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL++R   L AECL RGF ++      +   P  ++ DY P   ++A+++AR+ E+
+Sbjct  57   DKLAFLQRRYEALHAECLARGFKVQHIWPAALPADPALWQ-DYTPTAQALALNRARIAER  115
+
+Query  121  IAQR  124
+            +  R
+Sbjct  116  MPAR  119
+
+
+> UniRef50_A0A1Z8LLG5 Uncharacterized protein n=1 Tax=Muricauda 
+sp. TMED12 TaxID=1986608 RepID=A0A1Z8LLG5_9FLAO
+Length=151
+
+ Score = 89.4 bits (220),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 52/137 (38%), Positives = 73/137 (53%), Gaps = 2/137 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   +  L DQHLMAEYRELP V  A+ + +++ + V    I   + L  GHV FFY
+Sbjct  2    TRINTIDIELLTDQHLMAEYRELPMVNAALSRSLSSARGVHHPSIPKQYTLNRGHVMFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNI--KDTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            DK E+L  R  +LI E  KR ++I  K   V+            + P   +  I+  RL 
+Sbjct  62   DKGEWLYNRYQQLITELYKRNYSIDPKSRVVKWQHFEDNGLYNTWKPDSQAHKINVERLL  121
+
+Query  119  EKIAQRPTWYKYYGKAI  135
+            E++ Q+ TWY++ G  I
+Sbjct  122  ERVNQKLTWYRWKGTPI  138
+
+
+> UniRef50_UPI00066922F7 deoxyribonuclease n=2 Tax=Pasteurella 
+TaxID=745 RepID=UPI00066922F7
+Length=127
+
+ Score = 87.4 bits (215),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 54/125 (43%), Positives = 75/125 (60%), Gaps = 8/125 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPT-FILGAGHVTFF  59
+            TRINL   +EL DQHL+AE+REL R+  AV    A GK   D    P  + LG GHV FF
+Sbjct  2    TRINLVSPTELCDQHLLAEHRELTRIPNAV----AKGKY--DLTGQPDDYKLGTGHVRFF  55
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            ++KL FL+KR   L  EC  RGFN++    Q++    ++   DY P E ++ I+QAR+ E
+Sbjct  56   FNKLTFLKKRYDLLHRECKARGFNVQYIWPQNLP-TDKKLWLDYQPSEQALKINQARILE  114
+
+Query  120  KIAQR  124
+            ++  +
+Sbjct  115  RMPAK  119
+
+
+> UniRef50_A0A076YLS9 Putative endonuclease n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A076YLS9_9CAUD
+Length=132
+
+ Score = 87.0 bits (214),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 47/121 (39%), Positives = 69/121 (57%), Gaps = 1/121 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL    +L  +HL  EY ELPRVF AV+K +   ++  +F     + +G GHV FFY
+Sbjct  2    TRINLIPPKQLHPKHLQGEYFELPRVFTAVQKAILKNRKPEEFAHLTGYRMGTGHVQFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+             +L FL +R   L+ E  +R  NI    + D   IP E+ G + P EA I I++ R++ +
+Sbjct  62   PRLHFLEQRFKLLVHELFQRNVNINRFHLSDF-HIPIEWFGSWSPTEAEIEINRQRINAR  120
+
+Query  121  I  121
+            +
+Sbjct  121  L  121
+
+
+> UniRef50_A0A2E7NWS7 Uncharacterized protein n=1 Tax=Herbaspirillum 
+sp. TaxID=1890675 RepID=A0A2E7NWS7_9BURK
+Length=181
+
+ Score = 86.3 bits (212),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 53/134 (40%), Positives = 73/134 (54%), Gaps = 10/134 (7%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN     +L DQHL AE+RELPR+F   R    +G+R    KI  ++ LGAGHV FFY
+Sbjct  13   TRINTISPMDLLDQHLFAEWRELPRIFALARYWSDSGERS---KIPDSYRLGAGHVRFFY  69
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD------ISDIPQEFRGDYIPHEASIAISQ  114
+            DKL++L  R   L +E L RG+ +     Q        ++ PQ + G + P  A   I+ 
+Sbjct  70   DKLQWLAYRHAILTSELLARGYKLGSYDEQREYLKWLKAEYPQLWNG-WEPSPADHRINL  128
+
+Query  115  ARLDEKIAQRPTWY  128
+             RL  K+  +P +Y
+Sbjct  129  QRLQAKLEAKPDFY  142
+
+
+> UniRef50_A0A2E2D601 Endonuclease V n=1 Tax=Methylophaga sp. TaxID=2024840 
+RepID=A0A2E2D601_9GAMM
+Length=131
+
+ Score = 84.7 bits (208),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 44/123 (36%), Positives = 69/123 (56%), Gaps = 2/123 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  VSEL + HL+ E +E+ RVFG VRK    G    + K    + +G GHV F+Y
+Sbjct  2    TRINVVPVSELTNMHLLGENKEITRVFGLVRKAQQRGVNKWNLKAPSEYTMGTGHVKFYY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD--IPQEFRGDYIPHEASIAISQARLD  118
+             +L ++ KR  EL  E   RG+     + +D+      + + GDY P E ++ I++ R+ 
+Sbjct  62   TRLGYILKRYHELTQEMTSRGYKPNPISDEDLLQGIDKKHWMGDYEPTEGALKINRQRIA  121
+
+Query  119  EKI  121
+            E++
+Sbjct  122  ERL  124
+
+
+> UniRef50_A0A1J4UJI6 Uncharacterized protein n=1 Tax=Candidatus 
+Micrarchaeota archaeon CG1_02_51_15 TaxID=1805249 RepID=A0A1J4UJI6_9ARCH
+Length=138
+
+ Score = 84.7 bits (208),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 49/133 (37%), Positives = 71/133 (53%), Gaps = 8/133 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RINL    +LADQHL+AEY E+  + G V+K+   G       I   + LG GHV FF 
+Sbjct  2    VRINLVDPHKLADQHLVAEYDEILMLLGCVKKYPLPG------GIPEKYCLGKGHVKFFK  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL +L++R  E+  E  + GF  + T    +   P + + D+ P +    +  ARL  K
+Sbjct  56   DKLAYLKRRFEEIKREMKRWGFKPRKTV--SLKGFPAKLKNDWAPSKEDERVIHARLAWK  113
+
+Query  121  IAQRPTWYKYYGK  133
+            I  +P +Y Y+GK
+Sbjct  114  IRSKPGFYTYFGK  126
+
+
+> UniRef50_A0A1V0DYJ9 Putative endonuclease n=2 Tax=root TaxID=1 
+RepID=A0A1V0DYJ9_9VIRU
+Length=130
+
+ Score = 82.8 bits (203),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 47/128 (37%), Positives = 69/128 (54%), Gaps = 7/128 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  V EL ++HL AEYRELPR            +R  D KI+P ++LG GH  FF 
+Sbjct  2    TRINVVPVEELTNKHLFAEYRELPRAMRRAVLATYKSRRPSDIKIAPAYLLGTGHELFFI  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKD---TTVQD----ISDIPQEFRGDYIPHEASIAIS  113
+            DK  +L  R ++L  E + RG+N+ +   T V+     I     +F G Y P   +  I+
+Sbjct  62   DKCAWLYSRWLQLRNELVARGYNLGEQFQTIVRSRARFIRRHGSQFYGSYQPTADAAIIN  121
+
+Query  114  QARLDEKI  121
+            + R+ E++
+Sbjct  122  RQRIQERL  129
+
+
+> UniRef50_V8QS53 Endonuclease V n=1 Tax=Advenella kashmirensis 
+W13003 TaxID=1424334 RepID=V8QS53_9BURK
+Length=120
+
+ Score = 81.3 bits (199),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 45/122 (37%), Positives = 66/122 (54%), Gaps = 6/122 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   V EL+  HL+AEYRELPRVF    K    G     F     + LG GH+ FFY
+Sbjct  2    TRINCIPVEELSGPHLVAEYRELPRVFRLAEKAALRG----SFTQPGQYTLGPGHILFFY  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQ--DISDIPQEFRGDYIPHEASIAISQARLD  118
+             +L +L KR  +L+ E   R +      VQ  +  +IP ++  D+ P   ++AI++ R+ 
+Sbjct  58   TRLGYLAKRHGQLVKEMRNRNYKPAFEGVQRENFPNIPDQYWNDWEPTSEAMAINRERIL  117
+
+Query  119  EK  120
+            ++
+Sbjct  118  QR  119
+
+
+> UniRef50_A0A023NGV8 Putative deoxyribonuclease n=4 Tax=root TaxID=1 
+RepID=A0A023NGV8_9CAUD
+Length=148
+
+ Score = 80.5 bits (197),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 44/118 (37%), Positives = 67/118 (57%), Gaps = 1/118 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   S L DQHL+AE+RE  R+   ++   A   +V   K    + LG GH+ +FY
+Sbjct  2    TRINLIDPSLLTDQHLLAEHRETTRIPNTIKSGKAKVDKVSLAKTPYKYTLGTGHIKYFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDIS-DIPQEFRGDYIPHEASIAISQARL  117
+             KL +L+KR  ++  EC++RGFN+K+   + +  D P  F    +  E S+ I+  R+
+Sbjct  62   RKLSWLKKRYEDVTEECIRRGFNVKNIWPEGLEQDFPHLFLDRDVVTEESLKINVERV  119
+
+
+> UniRef50_A0A2H0NCN3 Endonuclease n=1 Tax=Candidatus Komeilibacteria 
+bacterium CG11_big_fil_rev_8_21_14_0_20_36_20 TaxID=1974477 
+RepID=A0A2H0NCN3_9BACT
+Length=135
+
+ Score = 78.2 bits (191),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 50/131 (38%), Positives = 74/131 (56%), Gaps = 13/131 (10%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKIS-PTFILGAGHVTFF  59
+            TRIN    +EL D+HL+AEYRELPRVF      +A    +R +K +  ++ +GAGHV FF
+Sbjct  2    TRINCIPPNELHDKHLLAEYRELPRVFT-----LAYNAYLRGYKQTVHSYTMGAGHVKFF  56
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNI------KDTTVQDISD-IPQEFRGDYIPHEASIAI  112
+            YDKL +L  R I+L  E  KRG         K+   + I D I   +  ++ P E    I
+Sbjct  57   YDKLGYLAIRHIQLCNEMQKRGMTTNLANCHKEHRNKCIDDAIFATYWNNWTPSELDKHI  116
+
+Query  113  SQARLDEKIAQ  123
+            ++ R++ ++A+
+Sbjct  117  NRERINIRLAE  127
+
+
+> UniRef50_C8N6T7 Pyrimidine dimer DNA glycosylase n=34 Tax=root 
+TaxID=1 RepID=C8N6T7_CARH6
+Length=127
+
+ Score = 77.8 bits (190),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 52/126 (41%), Positives = 77/126 (61%), Gaps = 8/126 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPT-FILGAGHVTFF  59
+            TRINL    EL DQHL+AE+REL R+  AV    A G+     +  P  + LG GHV FF
+Sbjct  2    TRINLVPPQELCDQHLLAEHRELTRIPNAV----ARGRY--HLRGQPADYKLGEGHVRFF  55
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            +DKL +L++R   L AEC  R FN+++    ++   P  +R DY P  A++A+++AR+ E
+Sbjct  56   FDKLAYLQQRYQALHAECRARSFNVQNIWPDNLPADPALWR-DYQPTAAALALNRARIQE  114
+
+Query  120  KIAQRP  125
+            ++ + P
+Sbjct  115  RMPKTP  120
+
+
+> UniRef50_Q56C32 DenV endonuclease V n=5 Tax=Myoviridae TaxID=10662 
+RepID=Q56C32_9CAUD
+Length=161
+
+ Score = 76.6 bits (187),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 51/138 (37%), Positives = 71/138 (51%), Gaps = 11/138 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    S L ++HL+AE RELPR+  AV   ++   ++   KI   + LG GHVTFFY
+Sbjct  2    TRINTIDPSLLLNEHLIAELRELPRIPNAV---LSGKAKINLSKIPAVYTLGTGHVTFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKR-GFNIKDTTVQDISDIP-------QEFRGDYIPHEASIAI  112
+            +KL +LR R   L AE L R G    D T +D    P       +    D+ P   S+ I
+Sbjct  59   NKLGYLRDRHAALRAEYLARNGKEYMDGTYEDFDLSPLLNSLFHRHLCADWKPTPESVKI  118
+
+Query  113  SQARLDEKIAQRPTWYKY  130
+            +  R+ E+   R   Y++
+Sbjct  119  NVERIRERFELRKRAYRF  136
+
+
+> UniRef50_A0A075E151 Endonuclease V n=15 Tax=Viruses TaxID=10239 
+RepID=A0A075E151_9CAUD
+Length=151
+
+ Score = 75.5 bits (184),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 50/127 (39%), Positives = 74/127 (58%), Gaps = 11/127 (9%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISP-TFILGAGHVTFF  59
+            TRIN+  V  L DQHL+AEY EL      V  +V NGKR R+ K +P  + L  GHV FF
+Sbjct  2    TRINVIPVESLCDQHLLAEYTEL----APVVLNVVNGKR-RNLKGAPKQYKLNEGHVLFF  56
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQD--ISDIPQE---FRGDYIPHEASIAISQ  114
+             DKL +L +R  +L+AE L RG+ +   ++++    D  QE   +  DY P +A++  + 
+Sbjct  57   RDKLIYLIERYDQLVAELLSRGYTVNYPSLRNQVTPDNRQELAIYLNDYQPTQAAVEENV  116
+
+Query  115  ARLDEKI  121
+             R+ E++
+Sbjct  117  ERIVERL  123
+
+
+> UniRef50_A0A2H9PNB7 Uncharacterized protein n=2 Tax=DPANN group 
+TaxID=1783276 RepID=A0A2H9PNB7_9ARCH
+Length=139
+
+ Score = 75.1 bits (183),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 41/133 (31%), Positives = 75/133 (56%), Gaps = 10/133 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHV-ANGKRVRDFKISPTFILGAGHVTFF  59
+             R+NL    +LADQHL+AEY E+  +   ++++   +G       I   + LG GH+ FF
+Sbjct  2    VRVNLVNPKKLADQHLIAEYDEILMLVAYIKRYPEVDG-------IPEEYCLGEGHMRFF  54
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +KL++L+KR   +  E  KR F +  T   D+    ++ +G++I  +  + + + R+  
+Sbjct  55   KNKLDYLKKRHELIKKEMKKRNFQVNKTV--DLQGFNEKNKGNWIAKKEDLNLIKKRIIT  112
+
+Query  120  KIAQRPTWYKYYG  132
+            K+  +PT+Y++YG
+Sbjct  113  KLRLKPTYYRHYG  125
+
+
+> UniRef50_Q19CY9 Endonuclease V n=4 Tax=Myoviridae TaxID=10662 
+RepID=Q19CY9_9CAUD
+Length=153
+
+ Score = 74.7 bits (182),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 47/129 (36%), Positives = 73/129 (57%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFG-AVRKHVANGKRVRDFKI--SPTFILGAGHVT  57
+            TRINL   S L + HL+ E+ E PRV    ++K+   GK    F +  +   + G GHVT
+Sbjct  2    TRINLEHPSLLCNAHLIGEWYENPRVASILIKKNGKTGKIPSKFTVRTNKNPLGGRGHVT  61
+
+Query  58   FFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQ--EFRGDYIPHEASIAISQA  115
+            FFY+KL +LR R + L+ E  KRG++  D    +I   P+     G++ P +A I++S+ 
+Sbjct  62   FFYNKLAWLRDRYLMLMEEMTKRGYSATDNWKVEIF-FPEYAHLFGEWEPSKADISLSRT  120
+
+Query  116  RLDEKIAQR  124
+            R+ E I ++
+Sbjct  121  RISEMIPEK  129
+
+
+> UniRef50_A0A2G9NSA3 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_35_13 
+TaxID=1974445 RepID=A0A2G9NSA3_9ARCH
+Length=150
+
+ Score = 74.3 bits (181),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 43/133 (32%), Positives = 67/133 (50%), Gaps = 7/133 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RIN+     L DQHL+AEY E+  +   ++K+      +++ +I   + LG GH+ FF 
+Sbjct  10   VRINIINPKRLTDQHLIAEYNEILMLIAYIKKYP-----LKEGEIPEEYCLGRGHMKFFK  64
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K+ +L+ R   +  E   RGF      V     I ++    + P      I   R+ EK
+Sbjct  65   NKVGYLKGRHETISKEMRNRGFKTNKKVVT--KGISKKAMNKWKPTIKDKEIIIKRITEK  122
+
+Query  121  IAQRPTWYKYYGK  133
+            I ++P WYKYYGK
+Sbjct  123  IMKKPEWYKYYGK  135
+
+
+> UniRef50_D9PM99 Pyrimidine dimer DNA glycosylase n=1 Tax=sediment 
+metagenome TaxID=749907 RepID=D9PM99_9ZZZZ
+Length=120
+
+ Score = 73.6 bits (179),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 43/125 (34%), Positives = 72/125 (58%), Gaps = 7/125 (6%)
+
+Query  1    TRINLTL-VSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN+ +   +L  +HL+AE+RE+ R+   +     +GK +    I   F LG GHV FF
+Sbjct  2    TRINVGINPKDLIREHLIAEHREIKRIPNMI----VSGKAIIK-NIPNEFTLGEGHVKFF  56
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+KL +L KR   L  EC KR + +++      ++IP+E   ++ P +  I + + RL+E
+Sbjct  57   YNKLNYLLKRYRLLYKECKKRNYKVQNYE-NAWNNIPKELMNNWKPKDKDINLIRKRLEE  115
+
+Query  120  KIAQR  124
+            K+ ++
+Sbjct  116  KLNKK  120
+
+
+> UniRef50_Q6WHU9 DenV Endonuclease V n=7 Tax=Schizot4virus TaxID=1198137 
+RepID=Q6WHU9_BPKVM
+Length=138
+
+ Score = 73.9 bits (180),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 42/123 (34%), Positives = 63/123 (51%), Gaps = 7/123 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   V  L+D+HL+AEY+E+ R F  V K +     + +  I   ++LG GH TFF+
+Sbjct  2    TRINCMPVETLSDKHLLAEYKEITRPFNKVEKRIQ-AHTMGNVTIPSHYVLGTGHETFFF  60
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD------IPQEFRGDYIPHEASIAISQ  114
+            DKL +L  R  +L  E L RG NI      +I +      +   +   + P    + ++ 
+Sbjct  61   DKLHYLYVRYRDLCEELLHRGVNINVDQFDEICEWIERTFVDTPYWNYWTPRPEDMYLNM  120
+
+Query  115  ARL  117
+            ARL
+Sbjct  121  ARL  123
+
+
+> UniRef50_A0A1G3M2M6 Uncharacterized protein n=1 Tax=Spirochaetes 
+bacterium GWB1_59_5 TaxID=1802176 RepID=A0A1G3M2M6_9SPIR
+Length=143
+
+ Score = 73.6 bits (179),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 49/140 (35%), Positives = 70/140 (50%), Gaps = 14/140 (10%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFK-----ISPTFILGAGH  55
+            TRIN+   + L+DQHLMAEY E+  V  ++R+ +    R R        +   + L  GH
+Sbjct  2    TRINIIDPALLSDQHLMAEYHEIFMVPASLRRSL----RTRSISAIMDSVPMQYTLNKGH  57
+
+Query  56   VTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQ-DISDIPQEFRGDYIPHE----ASI  110
+            V FFYDK  +L +R   L      RGFN+        +  IP  F   + P E    A+ 
+Sbjct  58   VLFFYDKRAYLAERYETLKEHLTGRGFNLDPARADFPLHGIPDGFLKGWTPTEEERHAAE  117
+
+Query  111  AISQARLDEKIAQRPTWYKY  130
+             I   RL+EK++ RP WY++
+Sbjct  118  CIIFKRLEEKLSMRPEWYRW  137
+
+
+> UniRef50_Q6U9S3 Endonuclease V n=8 Tax=Viruses TaxID=10239 RepID=Q6U9S3_9CAUD
+Length=152
+
+ Score = 73.9 bits (180),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 48/129 (37%), Positives = 73/129 (57%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFG-AVRKHVANGKRVRDFKI--SPTFILGAGHVT  57
+            TRINL   S L + HL+ E+ E PRV    ++K+   GK  + F +  +     G GHVT
+Sbjct  2    TRINLEHPSLLCNAHLVGEWYENPRVASILIKKNGRTGKIPKRFTVRTNKNPDGGRGHVT  61
+
+Query  58   FFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQ--EFRGDYIPHEASIAISQA  115
+            FFY+KL +LR R + L+ E  KRG++  D    +I   P+     G++ P EA I++S+ 
+Sbjct  62   FFYNKLAWLRDRYLMLMDEMTKRGYSPTDNWKVEIF-FPEYTHLFGEWTPTEADISLSRT  120
+
+Query  116  RLDEKIAQR  124
+            R+ E I ++
+Sbjct  121  RIAEMIPEK  129
+
+
+> UniRef50_M4QUK4 DenV endonuclease V n=6 Tax=Viruses TaxID=10239 
+RepID=M4QUK4_9CAUD
+Length=159
+
+ Score = 72.4 bits (176),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 46/133 (35%), Positives = 68/133 (51%), Gaps = 9/133 (7%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISP-TFILGAGHVTFF  59
+            TRIN    S++ DQHL+AE+RELPR+  +    + +GK   D KI P  + LG  HV FF
+Sbjct  2    TRINTIKPSDILDQHLIAEWRELPRIPNS----ILSGKAKLDLKIIPDQYKLGQNHVRFF  57
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFR----GDYIPHEASIAISQA  115
+            Y+KL +L+KR   +  E  +R  N   +   D++ +    +     D+ P      I+  
+Sbjct  58   YNKLSYLQKRHTMICEEMDRRSINRDKSITVDLTSLNLVLKACLCNDWQPTSRDHNINIE  117
+
+Query  116  RLDEKIAQRPTWY  128
+            RL E+   R   Y
+Sbjct  118  RLQERFDLRKRAY  130
+
+
+> UniRef50_D4G8V4 Endonuclease V n=28 Tax=Proteobacteria TaxID=1224 
+RepID=D4G8V4_RIEPU
+Length=140
+
+ Score = 71.6 bits (174),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 50/129 (39%), Positives = 68/129 (53%), Gaps = 13/129 (10%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+    EL DQHL+AE  E+ R+   V K       V+  K+S  +ILG GHV FF 
+Sbjct  2    TRINVVQPIELCDQHLLAENMEIIRIPNYVIKKFG---LVKISKVS-QYILGKGHVIFFR  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIK----DTTVQDISDIPQEFRGDYIPHEASIAISQAR  116
+            DKL FL KR + L  EC+ RGF +      + +Q +S        DY   E  I  ++ R
+Sbjct  58   DKLLFLYKRYMLLQKECINRGFKVNFRWPKSVIQYVS-----LWKDYKVTECDIKKNRIR  112
+
+Query  117  LDEKIAQRP  125
+            + EK+  +P
+Sbjct  113  IYEKMPPKP  121
+
+
+> UniRef50_M1GXH5 Endonuclease V n=3 Tax=unclassified Chlorovirus 
+TaxID=346674 RepID=M1GXH5_9PHYC
+Length=120
+
+ Score = 69.7 bits (169),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 37/90 (41%), Positives = 51/90 (57%), Gaps = 2/90 (2%)
+
+Query  44   KISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDI--PQEFRG  101
+            KI   F +  GHV FFY+K  +L KR  EL AE ++RGF I      D         +  
+Sbjct  21   KIPAKFTMNTGHVLFFYNKGMYLHKRYAELTAELVRRGFKINVDAPLDPEGTMDSAPWND  80
+
+Query  102  DYIPHEASIAISQARLDEKIAQRPTWYKYY  131
+            DYIP E ++AI + R+ EKIA +P +YK++
+Sbjct  81   DYIPTEEALAIIRQRIAEKIAMKPLFYKFF  110
+
+
+> UniRef50_A0A1F6ZD53 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon RBG_13_36_9 TaxID=1801881 RepID=A0A1F6ZD53_9ARCH
+Length=140
+
+ Score = 69.7 bits (169),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 48/133 (36%), Positives = 70/133 (53%), Gaps = 10/133 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPT-FILGAGHVTFF  59
+             RINL     LADQHL+AEY E+  + G V K           K  P  + LG GH+ FF
+Sbjct  2    VRINLINPKNLADQHLIAEYNEILMLLGHVDKFPT-------IKNQPKKYCLGKGHINFF  54
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+             DK+E+L++R   +  E   RGF I  T   +++   +E+R ++ P      I + RL +
+Sbjct  55   KDKIEYLKERHELIKNEMKNRGFKISKTI--NLNKYTKEYRKNWKPKTKDKEIIKKRLIK  112
+
+Query  120  KIAQRPTWYKYYG  132
+            KI  +P +Y+Y G
+Sbjct  113  KINLKPDYYRYIG  125
+
+
+> UniRef50_A0A088C505 Pyrimidine dimer DNA glycosylase n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A088C505_9CAUD
+Length=159
+
+ Score = 69.3 bits (168),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 41/128 (32%), Positives = 65/128 (51%), Gaps = 7/128 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    S+L ++ L+AE+ EL R+   +   ++   ++   +I  +F +G GH  FF+
+Sbjct  2    TRINTVNPSDLTNEWLLAEFTELLRIPNKI---LSGKTKLDKNRIPASFRMGTGHEIFFH  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFR----GDYIPHEASIAISQAR  116
+            DKL++L  R   +  ECL RG NI      +   +PQ  +     D+ P +A   I   R
+Sbjct  59   DKLKWLHDRHNAITKECLSRGININTNFKFNYDSLPQVVKLFYYNDWKPSQADHGILIER  118
+
+Query  117  LDEKIAQR  124
+            L E+   R
+Sbjct  119  LQERFDLR  126
+
+
+> UniRef50_S4T813 Endonuclease V n=1 Tax=Vibrio phage VPMS1 TaxID=1233488 
+RepID=S4T813_9CAUD
+Length=154
+
+ Score = 67.0 bits (162),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 43/133 (32%), Positives = 64/133 (48%), Gaps = 15/133 (11%)
+
+Query  11   LADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEFLRKRQ  70
+            L DQHL   YRE+ R+  A R  + + +        P +++GAGH+ FFYDK +FL ++ 
+Sbjct  11   LLDQHLFIAYREVTRISTAARLLLPSEE-------VPAYVMGAGHMKFFYDKGKFLARQC  63
+
+Query  71   IELIAECLKRG--FNIKDTTVQDISDI------PQEFRGDYIPHEASIAISQARLDEKIA  122
+             EL   C+ RG   NI   T +   +       P     D+ P   +   S  RL EK+ 
+Sbjct  64   EELYQACITRGKWPNITHKTYKPHPEYVCPVSGPVSLNNDWQPDRQAHLASLIRLHEKLQ  123
+
+Query  123  QRPTWYKYYGKAI  135
+             +P +Y   GK +
+Sbjct  124  DKPNFYTLNGKPV  136
+
+
+> UniRef50_C4WNE1 Endonuclease V n=1 Tax=Ochrobactrum intermedium 
+LMG 3301 TaxID=641118 RepID=C4WNE1_9RHIZ
+Length=76
+
+ Score = 65.1 bits (157),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 31/76 (41%), Positives = 50/76 (66%), Gaps = 1/76 (1%)
+
+Query  51   LGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD-IPQEFRGDYIPHEAS  109
+            +G GHV FFY +L +L KRQ  +I E L RG++ + T +  + D  P  +  D+ P E +
+Sbjct  1    MGKGHVRFFYPRLGYLAKRQAAIIDEMLARGYSPQFTNIDQLLDGFPDVWCNDWEPTEDA  60
+
+Query  110  IAISQARLDEKIAQRP  125
+            +AI++AR+ E++A+RP
+Sbjct  61   VAINRARISERLAKRP  76
+
+
+> UniRef50_A0A060BH08 Endonuclease V N-glysidase n=1 Tax=Escherichia 
+phage vB_EcoM_JS09 TaxID=1430444 RepID=A0A060BH08_9CAUD
+Length=45
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 28/35 (80%), Positives = 31/35 (89%), Gaps = 0/35 (0%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVA  35
+           T INLTLVS+ ADQHL+AEY ELPRVFG +RKHVA
+Sbjct  5   TYINLTLVSKFADQHLIAEYCELPRVFGIIRKHVA  39
+
+
+> UniRef50_A0A2G9N2D6 Endonuclease V n=1 Tax=Candidatus Diapherotrites 
+archaeon CG11_big_fil_rev_8_21_14_0_20_37_9 TaxID=1974407 
+RepID=A0A2G9N2D6_9ARCH
+Length=155
+
+ Score = 61.2 bits (147),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 45/133 (34%), Positives = 70/133 (53%), Gaps = 8/133 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             R+NL   S L DQH++AEY E+  +      ++ N K+  + KI   F LG GH+ FF 
+Sbjct  2    VRVNLIDPSALTDQHIIAEYNEILMLCT----YLKNAKQ--ETKIPEKFTLGKGHMKFFL  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K  +L+KR   L  E  KRGF  K     ++    +   G++ P +  + I +  + EK
+Sbjct  56   NKATYLKKRHDNLKKEMKKRGF--KQEKKINLKYFKKFNLGNWQPEKEDLQIIKKIIIEK  113
+
+Query  121  IAQRPTWYKYYGK  133
+            I  +P +Y+YY K
+Sbjct  114  IKMKPEFYRYYKK  126
+
+
+> UniRef50_A0A2D0K1E8 Uncharacterized protein n=2 Tax=Xenorhabdus 
+TaxID=626 RepID=A0A2D0K1E8_9GAMM
+Length=96
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 29/76 (38%), Positives = 45/76 (59%), Gaps = 1/76 (1%)
+
+Query  46   SPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIP  105
+            S  ++LG GHV FF DKL FL+KR   +  ECL RGF++ +   + +S +      DY  
+Sbjct  6    SEKYLLGKGHVIFFRDKLFFLKKRYEAIHQECLNRGFSVVNIWPEGVS-VYHHLWNDYQV  64
+
+Query  106  HEASIAISQARLDEKI  121
+             E  I+++ AR+ E++
+Sbjct  65   TEEDISVNMARIKERM  80
+
+
+> UniRef50_A0A1V5KCC5 Pyrimidine dimer DNA glycosylase n=1 Tax=Firmicutes 
+bacterium ADurb.Bin506 TaxID=1852895 RepID=A0A1V5KCC5_9FIRM
+Length=139
+
+ Score = 57.4 bits (137),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 49/137 (36%), Positives = 64/137 (47%), Gaps = 19/137 (14%)
+
+Query  1    TRINLTL-VSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN  + V EL DQHL+AEYRELPR+    R      K V D      F L  GH+   
+Sbjct  2    TRINAGIPVEELCDQHLLAEYRELPRMVKFAR----TVKDVPDVD----FCLNTGHMKSV  53
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+                 +L  R  +LIAE  +RGF+     +Q   D    F   + P +A +A++   L  
+Sbjct  54   VRYGAYLVGRHHQLIAEMRRRGFDPLMPPLQ-YKDFTSRF--SHYPSQAWLALAVHVLRP  110
+
+Query  120  KIAQR-------PTWYK  129
+            +I  R       PTW K
+Sbjct  111  RIVDRLSSMKREPTWTK  127
+
+
+> UniRef50_A0A2E4W8I9 Deoxyribonuclease n=1 Tax=Acidobacteria bacterium 
+TaxID=1978231 RepID=A0A2E4W8I9_9BACT
+Length=142
+
+ Score = 50.4 bits (119),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 70/134 (52%), Gaps = 14/134 (10%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFI-LGAGHVT--  57
+            TR+N+  V  L D+HL+AE RE+ R+       + +GK V + KI  +++    G +   
+Sbjct  2    TRVNVVPVETLGDKHLLAELREIKRIPN----KLIDGKYVLN-KIPDSYVEYRKGRMVLV  56
+
+Query  58   --FFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE---FRGDYIPHEASIAI  112
+              FF ++L+++ KR   L  E   R FN+ +  + D++ + Q+   F  D+ P  +    
+Sbjct  57   EKFFVNRLKWVYKRYKLLYNEAKFRKFNV-NWLLPDMNLLKQKYPWFWNDWTPSTSDYEA  115
+
+Query  113  SQARLDEKIAQRPT  126
+            + +RL E+I   P+
+Sbjct  116  NVSRLAERIKANPS  129
+
+
+> UniRef50_F9Q6L0 Deoxyribonuclease V domain protein n=1 Tax=Haemophilus 
+pittmaniae HK 85 TaxID=1035188 RepID=F9Q6L0_9PAST
+Length=61
+
+ Score = 47.8 bits (112),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 31/59 (53%), Positives = 36/59 (61%), Gaps = 7/59 (12%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPT-FILGAGHVTF  58
+           TRINL   +EL DQHL+AE+REL R+  A    VA GK     K  PT + LG GHV F
+Sbjct  2   TRINLVPPAELCDQHLLAEHRELTRIPNA----VAKGK--YHLKGQPTEYKLGEGHVRF  54
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238597771466
+Results from round 2
+
+
+Query= 2end-1-DOMAK
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A0A0A7HGT4 Endonuclease n=13 Tax=root TaxID=1 RepID=A0...  207     7e-66
+  UniRef50_P04418 Endonuclease V n=74 Tax=root TaxID=1 RepID=END5...  201     7e-64
+  UniRef50_A0A1L3LHH7 Endonuclease V n=3 Tax=Rhizobiales TaxID=35...  181     1e-55
+  UniRef50_A0A249NZA6 Endonuclease V n=7 Tax=Proteobacteria TaxID...  181     3e-55
+  UniRef50_M1I545 Endonuclease V n=18 Tax=Chlorovirus TaxID=18108...  170     3e-51
+  UniRef50_E2PN57 Endonuclease V n=43 Tax=Proteobacteria TaxID=12...  168     5e-51
+  UniRef50_A0A2A2AD06 Deoxyribonuclease n=2 Tax=unclassified Coma...  167     2e-50
+  UniRef50_G9A558 Putative endonuclease V n=48 Tax=root TaxID=1 R...  167     3e-50
+  UniRef50_A0A286EEH2 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  165     2e-49
+  UniRef50_A0A2E9YUR2 Endonuclease V n=2 Tax=Proteobacteria TaxID...  164     2e-49
+  UniRef50_A0A163TBZ6 Pyrimidine dimer DNA glycosylase n=5 Tax=Pr...  166     2e-49
+  UniRef50_Q9W9V3 Pyrimidine dimer-specific glycosylase n=8 Tax=C...  165     3e-49
+  UniRef50_E6L096 Deoxyribonuclease V n=71 Tax=Proteobacteria Tax...  163     8e-49
+  UniRef50_A9BBB4 Deoxyribonuclease n=20 Tax=cellular organisms T...  162     2e-48
+  UniRef50_A0A2G6GLE6 Endonuclease n=1 Tax=Candidatus Gracilibact...  161     3e-48
+  UniRef50_UPI00066922F7 deoxyribonuclease n=2 Tax=Pasteurella Ta...  161     7e-48
+  UniRef50_A0A1Z8LLG5 Uncharacterized protein n=1 Tax=Muricauda s...  161     8e-48
+  UniRef50_A0A172PZW6 Endonuclease n=2 Tax=Np1virus TaxID=1982239...  160     3e-47
+  UniRef50_L2F625 Pyrimidine dimer DNA glycosylase/endonuclease V...  160     4e-47
+  UniRef50_A0A2E2D601 Endonuclease V n=1 Tax=Methylophaga sp. Tax...  156     4e-46
+  UniRef50_A0A2G6GDE6 Deoxyribonuclease n=1 Tax=Candidatus Gracil...  155     2e-45
+  UniRef50_D2TFG7 Putative endonuclease n=13 Tax=Coccolithovirus ...  153     6e-45
+  UniRef50_V8QS53 Endonuclease V n=1 Tax=Advenella kashmirensis W...  153     7e-45
+  UniRef50_A0A1J4UJI6 Uncharacterized protein n=1 Tax=Candidatus ...  152     2e-44
+  UniRef50_A0A023NGV8 Putative deoxyribonuclease n=4 Tax=root Tax...  151     9e-44
+  UniRef50_M4QUK4 DenV endonuclease V n=6 Tax=Viruses TaxID=10239...  150     3e-43
+  UniRef50_A0A2E7NWS7 Uncharacterized protein n=1 Tax=Herbaspiril...  148     2e-42
+  UniRef50_A0A1G3M2M6 Uncharacterized protein n=1 Tax=Spirochaete...  147     3e-42
+  UniRef50_C8N6T7 Pyrimidine dimer DNA glycosylase n=34 Tax=root ...  145     7e-42
+  UniRef50_A0A0K0PVT7 Endonuclease V n=1 Tax=Roseobacter phage RD...  145     9e-42
+  UniRef50_A0A2G9NSA3 Uncharacterized protein n=1 Tax=Candidatus ...  145     2e-41
+  UniRef50_Q56C32 DenV endonuclease V n=5 Tax=Myoviridae TaxID=10...  141     8e-40
+  UniRef50_A0A088C505 Pyrimidine dimer DNA glycosylase n=2 Tax=un...  141     8e-40
+  UniRef50_A0A076YLS9 Putative endonuclease n=2 Tax=unclassified ...  139     3e-39
+  UniRef50_D4G8V4 Endonuclease V n=28 Tax=Proteobacteria TaxID=12...  138     6e-39
+  UniRef50_A0A1V0DYJ9 Putative endonuclease n=2 Tax=root TaxID=1 ...  137     1e-38
+  UniRef50_A0A2H9PNB7 Uncharacterized protein n=2 Tax=DPANN group...  136     3e-38
+  UniRef50_A0A2H0NCN3 Endonuclease n=1 Tax=Candidatus Komeilibact...  135     8e-38
+  UniRef50_Q6U9S3 Endonuclease V n=8 Tax=Viruses TaxID=10239 RepI...  134     2e-37
+  UniRef50_A0A075E151 Endonuclease V n=15 Tax=Viruses TaxID=10239...  134     4e-37
+  UniRef50_Q6WHU9 DenV Endonuclease V n=7 Tax=Schizot4virus TaxID...  133     5e-37
+  UniRef50_Q19CY9 Endonuclease V n=4 Tax=Myoviridae TaxID=10662 R...  132     2e-36
+  UniRef50_D9PM99 Pyrimidine dimer DNA glycosylase n=1 Tax=sedime...  124     7e-34
+  UniRef50_S4T813 Endonuclease V n=1 Tax=Vibrio phage VPMS1 TaxID...  125     8e-34
+  UniRef50_M1GXH5 Endonuclease V n=3 Tax=unclassified Chlorovirus...  123     2e-33
+  UniRef50_A0A2G9N2D6 Endonuclease V n=1 Tax=Candidatus Diapherot...  121     3e-32
+  UniRef50_A0A1F6ZD53 Uncharacterized protein n=1 Tax=Candidatus ...  118     4e-31
+  UniRef50_A0A2E4W8I9 Deoxyribonuclease n=1 Tax=Acidobacteria bac...  118     6e-31
+  UniRef50_A0A1V5KCC5 Pyrimidine dimer DNA glycosylase n=1 Tax=Fi...  116     3e-30
+  UniRef50_C4WNE1 Endonuclease V n=1 Tax=Ochrobactrum intermedium...  109     1e-28
+  UniRef50_A0A2D0K1E8 Uncharacterized protein n=2 Tax=Xenorhabdus...  104     2e-26
+  UniRef50_F9Q6L0 Deoxyribonuclease V domain protein n=1 Tax=Haem...  76.0    1e-15
+  UniRef50_A0A060BH08 Endonuclease V N-glysidase n=1 Tax=Escheric...  54.5    8e-08
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_F9Q6K9 Deoxyribonuclease V n=1 Tax=Haemophilus pittman...  76.4    8e-16
+  UniRef50_A0A256C6Q2 Uncharacterized protein n=1 Tax=Wohlfahrtii...  60.6    6e-10
+  UniRef50_UPI000A052036 hypothetical protein n=1 Tax=Xenorhabdus...  56.4    2e-08
+  UniRef50_A0A1L9C4I4 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  55.2    1e-07
+  UniRef50_A0A1Q3NK72 Uncharacterized protein n=1 Tax=Solirubroba...  54.9    2e-07
+  UniRef50_A0A2H0TZ49 Pyrimidine dimer DNA glycosylase n=16 Tax=r...  53.3    6e-07
+  UniRef50_A0A1G3LYT1 Uncharacterized protein n=1 Tax=Spirochaete...  49.8    8e-06
+  UniRef50_G1UNN1 Uncharacterized protein n=2 Tax=Desulfovibrio T...  48.3    4e-05
+  UniRef50_A0A0G0CND0 Uncharacterized protein n=4 Tax=root TaxID=...  47.1    7e-05
+  UniRef50_A0A0Q0WL37 Uncharacterized protein n=3 Tax=Acidiplasma...  47.5    8e-05
+  UniRef50_A0A2E6DU31 Uncharacterized protein n=1 Tax=Euryarchaeo...  46.8    9e-05
+  UniRef50_B2A8A2 Uncharacterized protein n=30 Tax=root TaxID=1 R...  46.8    9e-05
+  UniRef50_C9V5M4 Pyrimidine dimer DNA glycosylase n=2 Tax=root T...  44.8    2e-04
+  UniRef50_A0A1F8X2K4 Pyrimidine dimer DNA glycosylase n=1 Tax=De...  46.0    2e-04
+  UniRef50_M0M868 Uncharacterized protein n=3 Tax=Halococcus TaxI...  45.6    3e-04
+  UniRef50_A0A256Z3I4 Uncharacterized protein n=1 Tax=Candidatus ...  45.2    4e-04
+  UniRef50_A0A1M7SRQ7 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  44.5    6e-04
+  UniRef50_A0A2H9KYM6 Uncharacterized protein n=1 Tax=Candidatus ...  44.5    6e-04
+  UniRef50_A0A0W0GHT5 Pyrimidine dimer DNA glycosylase/DNA-(Apuri...  44.5    6e-04
+  UniRef50_A0A1V5RB15 Pyrimidine dimer DNA glycosylase n=22 Tax=c...  44.5    7e-04
+  UniRef50_A0A1F6Z3K6 Uncharacterized protein n=1 Tax=Candidatus ...  44.1    8e-04
+  UniRef50_A0A1F6BDA6 Pyrimidine dimer DNA glycosylase n=1 Tax=Ca...  44.1    9e-04
+
+
+> UniRef50_A0A0A7HGT4 Endonuclease n=13 Tax=root TaxID=1 RepID=A0A0A7HGT4_9CAUD
+Length=138
+
+ Score = 207 bits (527),  Expect = 7e-66, Method: Composition-based stats.
+ Identities = 105/137 (77%), Positives = 119/137 (87%), Gaps = 0/137 (0%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINLTLVSELADQHLMAEYRELPRVFGAVRKHV NGK+V DFKI  +F+LG GHVTFFY
+Sbjct  2    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVQNGKKVSDFKIPSSFLLGTGHVTFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL+ R  ELIAECLKRGFNIKD + QD++DIP E++ DY P   SI ISQ+RL+EK
+Sbjct  62   DKLLFLKNRHQELIAECLKRGFNIKDISTQDLNDIPDEWKNDYQPSIWSIEISQSRLNEK  121
+
+Query  121  IAQRPTWYKYYGKAIYA  137
+            I+Q+PTWYKYYGKA+YA
+Sbjct  122  ISQKPTWYKYYGKAVYA  138
+
+
+> UniRef50_P04418 Endonuclease V n=74 Tax=root TaxID=1 RepID=END5_BPT4
+Length=138
+
+ Score = 201 bits (513),  Expect = 7e-64, Method: Composition-based stats.
+ Identities = 137/137 (100%), Positives = 137/137 (100%), Gaps = 0/137 (0%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY
+Sbjct  2    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK
+Sbjct  62   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  121
+
+Query  121  IAQRPTWYKYYGKAIYA  137
+            IAQRPTWYKYYGKAIYA
+Sbjct  122  IAQRPTWYKYYGKAIYA  138
+
+
+> UniRef50_A0A1L3LHH7 Endonuclease V n=3 Tax=Rhizobiales TaxID=356 
+RepID=A0A1L3LHH7_9RHIZ
+Length=154
+
+ Score = 181 bits (461),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 53/123 (43%), Positives = 75/123 (61%), Gaps = 1/123 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    SEL   HL+AEYRELPRVF  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  2    TRINCIPPSELCGPHLVAEYRELPRVFALVRAAIARGESPSDPRNPPVYTLGKGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE  +RG+       +  + D+P E+  D+ P   ++A+++ R+ E
+Sbjct  62   SRLAYLAKRQASLIAEMQRRGYRPAFREAEGLLGDLPLEWCNDWDPTSEAMALNRERIRE  121
+
+Query  120  KIA  122
+            ++A
+Sbjct  122  RLA  124
+
+
+> UniRef50_A0A249NZA6 Endonuclease V n=7 Tax=Proteobacteria TaxID=1224 
+RepID=A0A249NZA6_9RHIZ
+Length=158
+
+ Score = 181 bits (459),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 53/123 (43%), Positives = 76/123 (62%), Gaps = 1/123 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    SEL+  HL+AEYRELPRVF  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  2    TRINCIPPSELSGPHLLAEYRELPRVFALVRAAIARGETPGDPRNPPAYTLGKGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ+ LIAE  +RG+       +D +S  P E+  D+ P   ++ +++ R+ E
+Sbjct  62   SRLSYLAKRQVSLIAEMQRRGYRPTYREAEDLLSGFPSEWCNDWNPTSEAMTVNRERIRE  121
+
+Query  120  KIA  122
+            ++A
+Sbjct  122  RLA  124
+
+
+> UniRef50_M1I545 Endonuclease V n=18 Tax=Chlorovirus TaxID=181083 
+RepID=M1I545_9PHYC
+Length=145
+
+ Score = 170 bits (431),  Expect = 3e-51, Method: Composition-based stats.
+ Identities = 58/137 (42%), Positives = 77/137 (56%), Gaps = 3/137 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFK-ISPTFILGAGHVTFF  59
+            TRINL  V ELA+QH+ AE+RE+  V  A+ + +      +  K I   F L  GHV FF
+Sbjct  2    TRINLVPVGELANQHIFAEWREMKMVPKALARSLRTQSVEKVAKKIPAKFTLNTGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDI--PQEFRGDYIPHEASIAISQARL  117
+            YDK  +LRKR  EL AE ++RGF I      D         +  DY P E ++ I + R+
+Sbjct  62   YDKGAYLRKRYAELTAELVRRGFKINVDAPLDPEGTMNAAPWNNDYEPTEEALTIIRQRI  121
+
+Query  118  DEKIAQRPTWYKYYGKA  134
+             EKIA +PTWYK++  A
+Sbjct  122  AEKIAMKPTWYKFFDPA  138
+
+
+> UniRef50_E2PN57 Endonuclease V n=43 Tax=Proteobacteria TaxID=1224 
+RepID=E2PN57_9RHIZ
+Length=125
+
+ Score = 168 bits (427),  Expect = 5e-51, Method: Composition-based stats.
+ Identities = 55/124 (44%), Positives = 79/124 (64%), Gaps = 1/124 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL   HL+AEYRELPRVF  VR  +  G+  +D +    + LGAGHV FFY
+Sbjct  2    TRINCIPPAELTGPHLVAEYRELPRVFALVRAAIQRGEAPQDPRNPQQYTLGAGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDIS-DIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE   RG+  + T ++++   IP E+R D+ P   +IAI++AR+ E
+Sbjct  62   ARLGYLAKRQAALIAEMQARGYAPQFTNIEELLIGIPLEWRADWEPTAEAIAINRARIAE  121
+
+Query  120  KIAQ  123
+            ++ +
+Sbjct  122  RLRK  125
+
+
+> UniRef50_A0A2A2AD06 Deoxyribonuclease n=2 Tax=unclassified Comamonadaceae 
+TaxID=83494 RepID=A0A2A2AD06_9BURK
+Length=129
+
+ Score = 167 bits (424),  Expect = 2e-50, Method: Composition-based stats.
+ Identities = 51/128 (40%), Positives = 72/128 (56%), Gaps = 6/128 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AE+REL R+  AV K      + R       + LG GHV FF+
+Sbjct  2    TRINLVAPAELCDQHLLAEHRELTRIPNAVAKG-----KYRLQGQPQDYCLGTGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL++R   L AECL RGF ++      +   P     DY P   ++A+++AR+ E+
+Sbjct  57   DKLAFLQRRYEALHAECLARGFKVQHIWPAALPADPA-LWQDYTPTAQALALNRARIAER  115
+
+Query  121  IAQRPTWY  128
+            +  R  + 
+Sbjct  116  MPARARFT  123
+
+
+> UniRef50_G9A558 Putative endonuclease V n=48 Tax=root TaxID=1 
+RepID=G9A558_RHIFH
+Length=151
+
+ Score = 167 bits (424),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 50/121 (41%), Positives = 73/121 (60%), Gaps = 1/121 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL+  HL+AEYRELPR+F  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  22   TRINCIPPAELSGPHLVAEYRELPRIFPLVRAAIARGESPTDPRNPPAYTLGKGHVRFFY  81
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE  +RG+       +  +S +P  +  D+ P   +IA+++ R+ E
+Sbjct  82   SRLAYLAKRQANLIAEMQRRGYRPAFLETEGLLSGLPLAWCNDWEPTLEAIALNRERIRE  141
+
+Query  120  K  120
+            +
+Sbjct  142  R  142
+
+
+> UniRef50_A0A286EEH2 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=11 Tax=Bacteria TaxID=2 
+RepID=A0A286EEH2_9NEIS
+Length=128
+
+ Score = 165 bits (418),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 53/133 (40%), Positives = 76/133 (57%), Gaps = 6/133 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   SEL DQHL+AE+ EL R+  AV +      R         + LG GHV FF+
+Sbjct  2    TRINLVPPSELCDQHLLAEHCELTRIPNAVAQG-----RYHLRGQPADYKLGEGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL+KR   L  ECL RGFN+++    ++   P  +R DY P E ++A ++AR+ E+
+Sbjct  57   DKLLFLQKRYAALHQECLARGFNVQNRWADNLPQNPDLWR-DYQPTETALAANRARIAER  115
+
+Query  121  IAQRPTWYKYYGK  133
+            +  +  +  +  K
+Sbjct  116  MPAKARFTPHRVK  128
+
+
+> UniRef50_A0A2E9YUR2 Endonuclease V n=2 Tax=Proteobacteria TaxID=1224 
+RepID=A0A2E9YUR2_9RHOB
+Length=120
+
+ Score = 164 bits (416),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 49/123 (40%), Positives = 78/123 (63%), Gaps = 4/123 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL  +HL+AEYRELPR+FG VR  +A G++     +  T+ LGA HV FFY
+Sbjct  2    TRINCVPPAELTGKHLVAEYRELPRIFGLVRAAIARGEQP---AVMDTYRLGADHVRFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+             +L +L +RQ  LI E  +RG+  +      ++  P E+ GD+ P + ++A+++AR+ E+
+Sbjct  59   TRLAWLARRQAALIDEMKRRGYAPQYGAP-SLAGFPTEWCGDWQPTDEALALNRARIMER  117
+
+Query  121  IAQ  123
+            + +
+Sbjct  118  LPK  120
+
+
+> UniRef50_A0A163TBZ6 Pyrimidine dimer DNA glycosylase n=5 Tax=Prochlorococcus 
+marinus TaxID=1219 RepID=A0A163TBZ6_PROMR
+Length=173
+
+ Score = 166 bits (420),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 51/134 (38%), Positives = 77/134 (57%), Gaps = 1/134 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGK-RVRDFKISPTFILGAGHVTFF  59
+            TRINL   SEL+DQHL+AEYRE+  V  A+++ + +   +    ++   F L  GHV FF
+Sbjct  24   TRINLVKPSELSDQHLVAEYREIFMVGSALQRSLKSKNWQRTKEQLPKEFTLNIGHVKFF  83
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+K ++L KR ++LI E   RG              P +F  D+ P+   I + + R++E
+Sbjct  84   YNKGKYLHKRYLDLINEMKSRGMRPDPERQFKKEQWPSDFYKDWEPNAKDIELIRKRIEE  143
+
+Query  120  KIAQRPTWYKYYGK  133
+            KI Q+PTWY++  K
+Sbjct  144  KINQKPTWYRWTKK  157
+
+
+> UniRef50_Q9W9V3 Pyrimidine dimer-specific glycosylase n=8 Tax=Chlorovirus 
+TaxID=181083 RepID=Q9W9V3_9PHYC
+Length=141
+
+ Score = 165 bits (417),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 54/132 (41%), Positives = 79/132 (60%), Gaps = 2/132 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFK-ISPTFILGAGHVTFF  59
+            TR+NL  V ELADQHLMAE+REL  +  A+ + +      +  K I   F L  GHV FF
+Sbjct  2    TRVNLIPVQELADQHLMAEFRELKMIPKALARSLRTQSSEKILKKIPSKFTLNTGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIK-DTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            YDK ++L+KR  E++ E + RG+ I  D  +   + +  E+  DY P E ++ I + R+ 
+Sbjct  62   YDKGKYLQKRYDEIVVELVARGYKINVDAKLDPDNVMTDEWYNDYTPTEDALNIIRERIL  121
+
+Query  119  EKIAQRPTWYKY  130
+            EKIA +P WY++
+Sbjct  122  EKIAMKPGWYRF  133
+
+
+> UniRef50_E6L096 Deoxyribonuclease V n=71 Tax=Proteobacteria TaxID=1224 
+RepID=E6L096_9PAST
+Length=131
+
+ Score = 163 bits (413),  Expect = 8e-49, Method: Composition-based stats.
+ Identities = 53/131 (40%), Positives = 78/131 (60%), Gaps = 6/131 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AE+REL R+  AV    A GK          + LG GHV FF+
+Sbjct  2    TRINLVPPAELCDQHLLAEHRELTRIPNAV----AKGKYHLK-GQPAEYKLGEGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K+ FL+KR   L AEC  RGFN++    +++   P  +  DY P EA++A+++AR+ E+
+Sbjct  57   NKMAFLKKRYDLLHAECKARGFNVQYIWNEELPQDPTLWL-DYKPTEAALALNRARIQER  115
+
+Query  121  IAQRPTWYKYY  131
+            +  +  +  Y 
+Sbjct  116  MPAKARFTPYK  126
+
+
+> UniRef50_A9BBB4 Deoxyribonuclease n=20 Tax=cellular organisms 
+TaxID=131567 RepID=A9BBB4_PROM4
+Length=134
+
+ Score = 162 bits (410),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 48/131 (37%), Positives = 76/131 (58%), Gaps = 1/131 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGK-RVRDFKISPTFILGAGHVTFF  59
+            TRINL    EL+DQHL+AEYRE+  +  A+++ + +    +    +   F L  GHV FF
+Sbjct  2    TRINLVKPIELSDQHLIAEYREIFMIGSALQRSMKSPNWNITKESLPKNFTLNTGHVRFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+K ++L KR +++I E  +RG N     + +    P E   D+ P+E  I + + R+ E
+Sbjct  62   YNKGKYLYKRYLDIIEEMKRRGMNPNPRRLFNKEQWPDELYNDWTPNEIDIQVVKERIKE  121
+
+Query  120  KIAQRPTWYKY  130
+            KI Q+P WY++
+Sbjct  122  KINQKPHWYRW  132
+
+
+> UniRef50_A0A2G6GLE6 Endonuclease n=1 Tax=Candidatus Gracilibacteria 
+bacterium TaxID=2044595 RepID=A0A2G6GLE6_9BACT
+Length=132
+
+ Score = 161 bits (409),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 67/135 (50%), Positives = 94/135 (70%), Gaps = 4/135 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AEYRELPR+FGA+RK + N K   + K+   + +G GHV FFY
+Sbjct  2    TRINLINPAELVDQHLIAEYRELPRIFGAIRKKLKNNK---EIKVGKEYKMGIGHVIFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL KR  E++ EC KRGFNIK  ++ ++SD+P++++ D+ P    I IS++R+ EK
+Sbjct  59   DKLGFLEKRYYEIVKECKKRGFNIKFDSI-NLSDVPKKYKKDFFPSPKDIRISESRIKEK  117
+
+Query  121  IAQRPTWYKYYGKAI  135
+            +  +  +YK  GK I
+Sbjct  118  LKSKKGFYKMRGKII  132
+
+
+> UniRef50_UPI00066922F7 deoxyribonuclease n=2 Tax=Pasteurella 
+TaxID=745 RepID=UPI00066922F7
+Length=127
+
+ Score = 161 bits (407),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 50/129 (39%), Positives = 73/129 (57%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AE+REL R+  AV K      +         + LG GHV FF+
+Sbjct  2    TRINLVSPTELCDQHLLAEHRELTRIPNAVAKG-----KYDLTGQPDDYKLGTGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +KL FL+KR   L  EC  RGFN++    Q++    ++   DY P E ++ I+QAR+ E+
+Sbjct  57   NKLTFLKKRYDLLHRECKARGFNVQYIWPQNLP-TDKKLWLDYQPSEQALKINQARILER  115
+
+Query  121  IAQRPTWYK  129
+            +  +  +  
+Sbjct  116  MPAKARFTP  124
+
+
+> UniRef50_A0A1Z8LLG5 Uncharacterized protein n=1 Tax=Muricauda 
+sp. TMED12 TaxID=1986608 RepID=A0A1Z8LLG5_9FLAO
+Length=151
+
+ Score = 161 bits (408),  Expect = 8e-48, Method: Composition-based stats.
+ Identities = 51/137 (37%), Positives = 72/137 (53%), Gaps = 2/137 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   +  L DQHLMAEYRELP V  A+ + +++ + V    I   + L  GHV FFY
+Sbjct  2    TRINTIDIELLTDQHLMAEYRELPMVNAALSRSLSSARGVHHPSIPKQYTLNRGHVMFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFN--IKDTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            DK E+L  R  +LI E  KR ++   K   V+            + P   +  I+  RL 
+Sbjct  62   DKGEWLYNRYQQLITELYKRNYSIDPKSRVVKWQHFEDNGLYNTWKPDSQAHKINVERLL  121
+
+Query  119  EKIAQRPTWYKYYGKAI  135
+            E++ Q+ TWY++ G  I
+Sbjct  122  ERVNQKLTWYRWKGTPI  138
+
+
+> UniRef50_A0A172PZW6 Endonuclease n=2 Tax=Np1virus TaxID=1982239 
+RepID=A0A172PZW6_9CAUD
+Length=163
+
+ Score = 160 bits (405),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 55/159 (35%), Positives = 80/159 (50%), Gaps = 24/159 (15%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN--------------------GKRV  40
+            TRINL    EL DQHL AE+RE+  V  ++R+ +                      G+ +
+Sbjct  4    TRINLVPPEELMDQHLFAEFREIKMVPKSLRRSLRAAEARDVKAHGYRDAYVQALMGQAI  63
+
+Query  41   RDFKISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQD----ISDIP  96
+                +   + L  GHV+FFYDK  +LRKR   L AE  +RG N    ++ D       + 
+Sbjct  64   VLEAVPKAYTLNTGHVSFFYDKALYLRKRYALLRAELERRGINFNRESLLDPDGVFDALD  123
+
+Query  97   QEFRGDYIPHEASIAISQARLDEKIAQRPTWYKYYGKAI  135
+            + FR DY P   ++A+ + R+ EKIA +P WY++ GK I
+Sbjct  124  ERFRKDYDPTPEALALVRQRIQEKIALKPHWYRHNGKPI  162
+
+
+> UniRef50_L2F625 Pyrimidine dimer DNA glycosylase/endonuclease 
+V n=6 Tax=Moraxella TaxID=475 RepID=L2F625_9GAMM
+Length=153
+
+ Score = 160 bits (404),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 62/138 (45%), Positives = 79/138 (57%), Gaps = 3/138 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN-GKRVRDFKISPTFILGAGHVTFF  59
+            TRIN+  V+EL DQHL AEYRE+ R+F  V +            KI PT+ +  GHV FF
+Sbjct  2    TRINVIDVNELTDQHLFAEYREITRIFTLVNQACKKHPVSAILKKIPPTYRMSTGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNI--KDTTVQDISDIPQEFRGDYIPHEASIAISQARL  117
+            YDKL F+ +R   L  E LKRGFN+  KD  V   + I   F  D+ P +  IA++  RL
+Sbjct  62   YDKLNFIEQRYFHLRHEVLKRGFNVTLKDDIVAFRTLIDPRFYQDFHPTKTDIAVNIGRL  121
+
+Query  118  DEKIAQRPTWYKYYGKAI  135
+             EKI  +P WYK +G  I
+Sbjct  122  LEKIHAKPNWYKIHGNLI  139
+
+
+> UniRef50_A0A2E2D601 Endonuclease V n=1 Tax=Methylophaga sp. TaxID=2024840 
+RepID=A0A2E2D601_9GAMM
+Length=131
+
+ Score = 156 bits (395),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 44/125 (35%), Positives = 69/125 (55%), Gaps = 2/125 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  VSEL + HL+ E +E+ RVFG VRK    G    + K    + +G GHV F+Y
+Sbjct  2    TRINVVPVSELTNMHLLGENKEITRVFGLVRKAQQRGVNKWNLKAPSEYTMGTGHVKFYY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD--IPQEFRGDYIPHEASIAISQARLD  118
+             +L ++ KR  EL  E   RG+     + +D+      + + GDY P E ++ I++ R+ 
+Sbjct  62   TRLGYILKRYHELTQEMTSRGYKPNPISDEDLLQGIDKKHWMGDYEPTEGALKINRQRIA  121
+
+Query  119  EKIAQ  123
+            E++  
+Sbjct  122  ERLKD  126
+
+
+> UniRef50_A0A2G6GDE6 Deoxyribonuclease n=1 Tax=Candidatus Gracilibacteria 
+bacterium TaxID=2044595 RepID=A0A2G6GDE6_9BACT
+Length=132
+
+ Score = 155 bits (391),  Expect = 2e-45, Method: Composition-based stats.
+ Identities = 57/135 (42%), Positives = 84/135 (62%), Gaps = 8/135 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TR+NL  V +L DQHL+AE+RE+ R+   ++    +GK   D  I   ++LG GHV FFY
+Sbjct  2    TRVNLIPVEKLYDQHLLAEHREIKRIPNVIK----SGKFHLD-DIPKKYVLGKGHVKFFY  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL +R + L  EC KRGF +++ T     ++P+   GD+ P E  IA++Q+R+DEK
+Sbjct  57   DKLGFLHRRYLALYDECKKRGFAVENYTSA-FENLPENLCGDFEPDEDDIALNQSRIDEK  115
+
+Query  121  IAQRPTWYKYYGKAI  135
+               R  +Y+  GK +
+Sbjct  116  --WRDNFYRMCGKIV  128
+
+
+> UniRef50_D2TFG7 Putative endonuclease n=13 Tax=Coccolithovirus 
+TaxID=346673 RepID=D2TFG7_9PHYC
+Length=128
+
+ Score = 153 bits (387),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 49/126 (39%), Positives = 77/126 (61%), Gaps = 4/126 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+   +EL ++HLMAEYRELPR+F  V+K V NG  V D      + +G GHV FF 
+Sbjct  2    TRINVVPSTELTNKHLMAEYRELPRIFTEVKKKVNNGISVNDLTQPEHYKMGQGHVMFFM  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDT----TVQDISDIPQEFRGDYIPHEASIAISQAR  116
+             +  +L  R + L  E ++RG+++ D      V  ++DIP EF   Y P ++++ I++AR
+Sbjct  62   SRCGWLIHRYVMLHDELIRRGYSLNDEMYTSIVNGVNDIPMEFMDWYEPTDSAMTINRAR  121
+
+Query  117  LDEKIA  122
+            + +++ 
+Sbjct  122  ITDRLN  127
+
+
+> UniRef50_V8QS53 Endonuclease V n=1 Tax=Advenella kashmirensis 
+W13003 TaxID=1424334 RepID=V8QS53_9BURK
+Length=120
+
+ Score = 153 bits (386),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 45/122 (37%), Positives = 66/122 (54%), Gaps = 6/122 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   V EL+  HL+AEYRELPRVF    K    G     F     + LG GH+ FFY
+Sbjct  2    TRINCIPVEELSGPHLVAEYRELPRVFRLAEKAALRG----SFTQPGQYTLGPGHILFFY  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQ--DISDIPQEFRGDYIPHEASIAISQARLD  118
+             +L +L KR  +L+ E   R +      VQ  +  +IP ++  D+ P   ++AI++ R+ 
+Sbjct  58   TRLGYLAKRHGQLVKEMRNRNYKPAFEGVQRENFPNIPDQYWNDWEPTSEAMAINRERIL  117
+
+Query  119  EK  120
+            ++
+Sbjct  118  QR  119
+
+
+> UniRef50_A0A1J4UJI6 Uncharacterized protein n=1 Tax=Candidatus 
+Micrarchaeota archaeon CG1_02_51_15 TaxID=1805249 RepID=A0A1J4UJI6_9ARCH
+Length=138
+
+ Score = 152 bits (384),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 49/133 (37%), Positives = 71/133 (53%), Gaps = 8/133 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RINL    +LADQHL+AEY E+  + G V+K+   G       I   + LG GHV FF 
+Sbjct  2    VRINLVDPHKLADQHLVAEYDEILMLLGCVKKYPLPG------GIPEKYCLGKGHVKFFK  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL +L++R  E+  E  + GF  + T    +   P + + D+ P +    +  ARL  K
+Sbjct  56   DKLAYLKRRFEEIKREMKRWGFKPRKTV--SLKGFPAKLKNDWAPSKEDERVIHARLAWK  113
+
+Query  121  IAQRPTWYKYYGK  133
+            I  +P +Y Y+GK
+Sbjct  114  IRSKPGFYTYFGK  126
+
+
+> UniRef50_A0A023NGV8 Putative deoxyribonuclease n=4 Tax=root TaxID=1 
+RepID=A0A023NGV8_9CAUD
+Length=148
+
+ Score = 151 bits (381),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 44/124 (35%), Positives = 69/124 (56%), Gaps = 1/124 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   S L DQHL+AE+RE  R+   ++   A   +V   K    + LG GH+ +FY
+Sbjct  2    TRINLIDPSLLTDQHLLAEHRETTRIPNTIKSGKAKVDKVSLAKTPYKYTLGTGHIKYFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDIS-DIPQEFRGDYIPHEASIAISQARLDE  119
+             KL +L+KR  ++  EC++RGFN+K+   + +  D P  F    +  E S+ I+  R+  
+Sbjct  62   RKLSWLKKRYEDVTEECIRRGFNVKNIWPEGLEQDFPHLFLDRDVVTEESLKINVERVLL  121
+
+Query  120  KIAQ  123
+            +  +
+Sbjct  122  RFPK  125
+
+
+> UniRef50_M4QUK4 DenV endonuclease V n=6 Tax=Viruses TaxID=10239 
+RepID=M4QUK4_9CAUD
+Length=159
+
+ Score = 150 bits (379),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 45/133 (34%), Positives = 66/133 (50%), Gaps = 9/133 (7%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKI-SPTFILGAGHVTFF  59
+            TRIN    S++ DQHL+AE+RELPR+  ++     +GK   D KI    + LG  HV FF
+Sbjct  2    TRINTIKPSDILDQHLIAEWRELPRIPNSI----LSGKAKLDLKIIPDQYKLGQNHVRFF  57
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE----FRGDYIPHEASIAISQA  115
+            Y+KL +L+KR   +  E  +R  N   +   D++ +          D+ P      I+  
+Sbjct  58   YNKLSYLQKRHTMICEEMDRRSINRDKSITVDLTSLNLVLKACLCNDWQPTSRDHNINIE  117
+
+Query  116  RLDEKIAQRPTWY  128
+            RL E+   R   Y
+Sbjct  118  RLQERFDLRKRAY  130
+
+
+> UniRef50_A0A2E7NWS7 Uncharacterized protein n=1 Tax=Herbaspirillum 
+sp. TaxID=1890675 RepID=A0A2E7NWS7_9BURK
+Length=181
+
+ Score = 148 bits (375),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 49/134 (37%), Positives = 71/134 (53%), Gaps = 8/134 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN     +L DQHL AE+RELPR+F   R    +G+R    KI  ++ LGAGHV FFY
+Sbjct  13   TRINTISPMDLLDQHLFAEWRELPRIFALARYWSDSGER---SKIPDSYRLGAGHVRFFY  69
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNI-----KDTTVQDISDIPQEFRGDYIPHEASIAISQA  115
+            DKL++L  R   L +E L RG+ +     +   ++ +     +    + P  A   I+  
+Sbjct  70   DKLQWLAYRHAILTSELLARGYKLGSYDEQREYLKWLKAEYPQLWNGWEPSPADHRINLQ  129
+
+Query  116  RLDEKIAQRPTWYK  129
+            RL  K+  +P +Y 
+Sbjct  130  RLQAKLEAKPDFYT  143
+
+
+> UniRef50_A0A1G3M2M6 Uncharacterized protein n=1 Tax=Spirochaetes 
+bacterium GWB1_59_5 TaxID=1802176 RepID=A0A1G3M2M6_9SPIR
+Length=143
+
+ Score = 147 bits (371),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 46/136 (34%), Positives = 67/136 (49%), Gaps = 6/136 (4%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVA-NGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN+   + L+DQHLMAEY E+  V  ++R+ +           +   + L  GHV FF
+Sbjct  2    TRINIIDPALLSDQHLMAEYHEIFMVPASLRRSLRTRSISAIMDSVPMQYTLNKGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQ-DISDIPQEFRGDYIPHEA----SIAISQ  114
+            YDK  +L +R   L      RGFN+        +  IP  F   + P E     +  I  
+Sbjct  62   YDKRAYLAERYETLKEHLTGRGFNLDPARADFPLHGIPDGFLKGWTPTEEERHAAECIIF  121
+
+Query  115  ARLDEKIAQRPTWYKY  130
+             RL+EK++ RP WY++
+Sbjct  122  KRLEEKLSMRPEWYRW  137
+
+
+> UniRef50_C8N6T7 Pyrimidine dimer DNA glycosylase n=34 Tax=root 
+TaxID=1 RepID=C8N6T7_CARH6
+Length=127
+
+ Score = 145 bits (367),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 50/129 (39%), Positives = 76/129 (59%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL    EL DQHL+AE+REL R+  AV +      R         + LG GHV FF+
+Sbjct  2    TRINLVPPQELCDQHLLAEHRELTRIPNAVARG-----RYHLRGQPADYKLGEGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL +L++R   L AEC  R FN+++    ++   P  +R DY P  A++A+++AR+ E+
+Sbjct  57   DKLAYLQQRYQALHAECRARSFNVQNIWPDNLPADPALWR-DYQPTAAALALNRARIQER  115
+
+Query  121  IAQRPTWYK  129
+            + + P + +
+Sbjct  116  MPKTPRFTR  124
+
+
+> UniRef50_A0A0K0PVT7 Endonuclease V n=1 Tax=Roseobacter phage 
+RDJL Phi 2 TaxID=1682380 RepID=A0A0K0PVT7_9CAUD
+Length=120
+
+ Score = 145 bits (366),  Expect = 9e-42, Method: Composition-based stats.
+ Identities = 52/120 (43%), Positives = 72/120 (60%), Gaps = 2/120 (2%)
+
+Query  6    TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEF  65
+              V EL   HL+AEYRELPRVF  +R   A G+R+ D +    ++LG GHV FFYDK  F
+Sbjct  1    MPVEELTGPHLVAEYRELPRVFKLMRAAQARGERIDDRRNPTEYVLGTGHVRFFYDKGLF  60
+
+Query  66   LRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEF-RGDYIPHEASIAISQARLDEKIAQ  123
+            L KRQ  L+AE  +RG+N   T   D + D    +   D+ P E ++AI++AR+ E++  
+Sbjct  61   LLKRQKALVAEMQRRGYNPSYTDPADLLPDGLDVWRMMDWTPDENALAINRARITERLEA  120
+
+
+> UniRef50_A0A2G9NSA3 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_35_13 
+TaxID=1974445 RepID=A0A2G9NSA3_9ARCH
+Length=150
+
+ Score = 145 bits (366),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 43/133 (32%), Positives = 65/133 (49%), Gaps = 7/133 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RIN+     L DQHL+AEY E+  +   ++K+        + +I   + LG GH+ FF 
+Sbjct  10   VRINIINPKRLTDQHLIAEYNEILMLIAYIKKYPLK-----EGEIPEEYCLGRGHMKFFK  64
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K+ +L+ R   +  E   RGF      V     I ++    + P      I   R+ EK
+Sbjct  65   NKVGYLKGRHETISKEMRNRGFKTNKKVVT--KGISKKAMNKWKPTIKDKEIIIKRITEK  122
+
+Query  121  IAQRPTWYKYYGK  133
+            I ++P WYKYYGK
+Sbjct  123  IMKKPEWYKYYGK  135
+
+
+> UniRef50_Q56C32 DenV endonuclease V n=5 Tax=Myoviridae TaxID=10662 
+RepID=Q56C32_9CAUD
+Length=161
+
+ Score = 141 bits (356),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 52/143 (36%), Positives = 73/143 (51%), Gaps = 11/143 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    S L ++HL+AE RELPR+  AV   ++   ++   KI   + LG GHVTFFY
+Sbjct  2    TRINTIDPSLLLNEHLIAELRELPRIPNAV---LSGKAKINLSKIPAVYTLGTGHVTFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKR-GFNIKDTTVQDISDIP-------QEFRGDYIPHEASIAI  112
+            +KL +LR R   L AE L R G    D T +D    P       +    D+ P   S+ I
+Sbjct  59   NKLGYLRDRHAALRAEYLARNGKEYMDGTYEDFDLSPLLNSLFHRHLCADWKPTPESVKI  118
+
+Query  113  SQARLDEKIAQRPTWYKYYGKAI  135
+            +  R+ E+   R   Y++  + I
+Sbjct  119  NVERIRERFELRKRAYRFGTEII  141
+
+
+> UniRef50_A0A088C505 Pyrimidine dimer DNA glycosylase n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A088C505_9CAUD
+Length=159
+
+ Score = 141 bits (356),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 42/132 (32%), Positives = 66/132 (50%), Gaps = 7/132 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    S+L ++ L+AE+ EL R+   +   ++   ++   +I  +F +G GH  FF+
+Sbjct  2    TRINTVNPSDLTNEWLLAEFTELLRIPNKI---LSGKTKLDKNRIPASFRMGTGHEIFFH  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE----FRGDYIPHEASIAISQAR  116
+            DKL++L  R   +  ECL RG NI      +   +PQ     +  D+ P +A   I   R
+Sbjct  59   DKLKWLHDRHNAITKECLSRGININTNFKFNYDSLPQVVKLFYYNDWKPSQADHGILIER  118
+
+Query  117  LDEKIAQRPTWY  128
+            L E+   R   Y
+Sbjct  119  LQERFDLRKKAY  130
+
+
+> UniRef50_A0A076YLS9 Putative endonuclease n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A076YLS9_9CAUD
+Length=132
+
+ Score = 139 bits (350),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 47/121 (39%), Positives = 69/121 (57%), Gaps = 1/121 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL    +L  +HL  EY ELPRVF AV+K +   ++  +F     + +G GHV FFY
+Sbjct  2    TRINLIPPKQLHPKHLQGEYFELPRVFTAVQKAILKNRKPEEFAHLTGYRMGTGHVQFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+             +L FL +R   L+ E  +R  NI    + D   IP E+ G + P EA I I++ R++ +
+Sbjct  62   PRLHFLEQRFKLLVHELFQRNVNINRFHLSDFH-IPIEWFGSWSPTEAEIEINRQRINAR  120
+
+Query  121  I  121
+            +
+Sbjct  121  L  121
+
+
+> UniRef50_D4G8V4 Endonuclease V n=28 Tax=Proteobacteria TaxID=1224 
+RepID=D4G8V4_RIEPU
+Length=140
+
+ Score = 138 bits (348),  Expect = 6e-39, Method: Composition-based stats.
+ Identities = 46/127 (36%), Positives = 63/127 (50%), Gaps = 5/127 (4%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+    EL DQHL+AE  E+ R+   V K     K  +       +ILG GHV FF 
+Sbjct  2    TRINVVQPIELCDQHLLAENMEIIRIPNYVIKKFGLVKISK----VSQYILGKGHVIFFR  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL KR + L  EC+ RGF +     + +         DY   E  I  ++ R+ EK
+Sbjct  58   DKLLFLYKRYMLLQKECINRGFKVNFRWPKSVIQY-VSLWKDYKVTECDIKKNRIRIYEK  116
+
+Query  121  IAQRPTW  127
+            +  +P +
+Sbjct  117  MPPKPRF  123
+
+
+> UniRef50_A0A1V0DYJ9 Putative endonuclease n=2 Tax=root TaxID=1 
+RepID=A0A1V0DYJ9_9VIRU
+Length=130
+
+ Score = 137 bits (346),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 46/128 (36%), Positives = 67/128 (52%), Gaps = 7/128 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  V EL ++HL AEYRELPR            +R  D KI+P ++LG GH  FF 
+Sbjct  2    TRINVVPVEELTNKHLFAEYRELPRAMRRAVLATYKSRRPSDIKIAPAYLLGTGHELFFI  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFN-------IKDTTVQDISDIPQEFRGDYIPHEASIAIS  113
+            DK  +L  R ++L  E + RG+N       I  +  + I     +F G Y P   +  I+
+Sbjct  62   DKCAWLYSRWLQLRNELVARGYNLGEQFQTIVRSRARFIRRHGSQFYGSYQPTADAAIIN  121
+
+Query  114  QARLDEKI  121
+            + R+ E++
+Sbjct  122  RQRIQERL  129
+
+
+> UniRef50_A0A2H9PNB7 Uncharacterized protein n=2 Tax=DPANN group 
+TaxID=1783276 RepID=A0A2H9PNB7_9ARCH
+Length=139
+
+ Score = 136 bits (344),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 40/132 (30%), Positives = 72/132 (55%), Gaps = 8/132 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             R+NL    +LADQHL+AEY E+  +   +++            I   + LG GH+ FF 
+Sbjct  2    VRVNLVNPKKLADQHLIAEYDEILMLVAYIKR------YPEVDGIPEEYCLGEGHMRFFK  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +KL++L+KR   +  E  KR F +  T   D+    ++ +G++I  +  + + + R+  K
+Sbjct  56   NKLDYLKKRHELIKKEMKKRNFQVNKTV--DLQGFNEKNKGNWIAKKEDLNLIKKRIITK  113
+
+Query  121  IAQRPTWYKYYG  132
+            +  +PT+Y++YG
+Sbjct  114  LRLKPTYYRHYG  125
+
+
+> UniRef50_A0A2H0NCN3 Endonuclease n=1 Tax=Candidatus Komeilibacteria 
+bacterium CG11_big_fil_rev_8_21_14_0_20_36_20 TaxID=1974477 
+RepID=A0A2H0NCN3_9BACT
+Length=135
+
+ Score = 135 bits (340),  Expect = 8e-38, Method: Composition-based stats.
+ Identities = 47/130 (36%), Positives = 69/130 (53%), Gaps = 11/130 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL D+HL+AEYRELPRVF         G +    +   ++ +GAGHV FFY
+Sbjct  2    TRINCIPPNELHDKHLLAEYRELPRVFTLAYNAYLRGYK----QTVHSYTMGAGHVKFFY  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIK------DTTVQDISD-IPQEFRGDYIPHEASIAIS  113
+            DKL +L  R I+L  E  KRG          +   + I D I   +  ++ P E    I+
+Sbjct  58   DKLGYLAIRHIQLCNEMQKRGMTTNLANCHKEHRNKCIDDAIFATYWNNWTPSELDKHIN  117
+
+Query  114  QARLDEKIAQ  123
+            + R++ ++A+
+Sbjct  118  RERINIRLAE  127
+
+
+> UniRef50_Q6U9S3 Endonuclease V n=8 Tax=Viruses TaxID=10239 RepID=Q6U9S3_9CAUD
+Length=152
+
+ Score = 134 bits (339),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 48/129 (37%), Positives = 73/129 (57%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFG-AVRKHVANGKRVRDFKI--SPTFILGAGHVT  57
+            TRINL   S L + HL+ E+ E PRV    ++K+   GK  + F +  +     G GHVT
+Sbjct  2    TRINLEHPSLLCNAHLVGEWYENPRVASILIKKNGRTGKIPKRFTVRTNKNPDGGRGHVT  61
+
+Query  58   FFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQ--EFRGDYIPHEASIAISQA  115
+            FFY+KL +LR R + L+ E  KRG++  D    +I   P+     G++ P EA I++S+ 
+Sbjct  62   FFYNKLAWLRDRYLMLMDEMTKRGYSPTDNWKVEI-FFPEYTHLFGEWTPTEADISLSRT  120
+
+Query  116  RLDEKIAQR  124
+            R+ E I ++
+Sbjct  121  RIAEMIPEK  129
+
+
+> UniRef50_A0A075E151 Endonuclease V n=15 Tax=Viruses TaxID=10239 
+RepID=A0A075E151_9CAUD
+Length=151
+
+ Score = 134 bits (337),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 47/127 (37%), Positives = 69/127 (54%), Gaps = 9/127 (7%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  V  L DQHL+AEY EL      V  +V NGKR         + L  GHV FF 
+Sbjct  2    TRINVIPVESLCDQHLLAEYTEL----APVVLNVVNGKRRNLKGAPKQYKLNEGHVLFFR  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDI--SDIPQE---FRGDYIPHEASIAISQA  115
+            DKL +L +R  +L+AE L RG+ +   ++++    D  QE   +  DY P +A++  +  
+Sbjct  58   DKLIYLIERYDQLVAELLSRGYTVNYPSLRNQVTPDNRQELAIYLNDYQPTQAAVEENVE  117
+
+Query  116  RLDEKIA  122
+            R+ E++ 
+Sbjct  118  RIVERLN  124
+
+
+> UniRef50_Q6WHU9 DenV Endonuclease V n=7 Tax=Schizot4virus TaxID=1198137 
+RepID=Q6WHU9_BPKVM
+Length=138
+
+ Score = 133 bits (336),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 42/126 (33%), Positives = 64/126 (51%), Gaps = 7/126 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   V  L+D+HL+AEY+E+ R F  V K +     + +  I   ++LG GH TFF+
+Sbjct  2    TRINCMPVETLSDKHLLAEYKEITRPFNKVEKRIQ-AHTMGNVTIPSHYVLGTGHETFFF  60
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDI------PQEFRGDYIPHEASIAISQ  114
+            DKL +L  R  +L  E L RG NI      +I +          +   + P    + ++ 
+Sbjct  61   DKLHYLYVRYRDLCEELLHRGVNINVDQFDEICEWIERTFVDTPYWNYWTPRPEDMYLNM  120
+
+Query  115  ARLDEK  120
+            ARL ++
+Sbjct  121  ARLVKR  126
+
+
+> UniRef50_Q19CY9 Endonuclease V n=4 Tax=Myoviridae TaxID=10662 
+RepID=Q19CY9_9CAUD
+Length=153
+
+ Score = 132 bits (332),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 47/129 (36%), Positives = 73/129 (57%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFG-AVRKHVANGKRVRDFKI--SPTFILGAGHVT  57
+            TRINL   S L + HL+ E+ E PRV    ++K+   GK    F +  +   + G GHVT
+Sbjct  2    TRINLEHPSLLCNAHLIGEWYENPRVASILIKKNGKTGKIPSKFTVRTNKNPLGGRGHVT  61
+
+Query  58   FFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQ--EFRGDYIPHEASIAISQA  115
+            FFY+KL +LR R + L+ E  KRG++  D    +I   P+     G++ P +A I++S+ 
+Sbjct  62   FFYNKLAWLRDRYLMLMEEMTKRGYSATDNWKVEI-FFPEYAHLFGEWEPSKADISLSRT  120
+
+Query  116  RLDEKIAQR  124
+            R+ E I ++
+Sbjct  121  RISEMIPEK  129
+
+
+> UniRef50_D9PM99 Pyrimidine dimer DNA glycosylase n=1 Tax=sediment 
+metagenome TaxID=749907 RepID=D9PM99_9ZZZZ
+Length=120
+
+ Score = 124 bits (313),  Expect = 7e-34, Method: Composition-based stats.
+ Identities = 43/125 (34%), Positives = 71/125 (57%), Gaps = 7/125 (6%)
+
+Query  1    TRINL-TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN+     +L  +HL+AE+RE+ R+   +     +GK +    I   F LG GHV FF
+Sbjct  2    TRINVGINPKDLIREHLIAEHREIKRIPNMI----VSGKAIIK-NIPNEFTLGEGHVKFF  56
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+KL +L KR   L  EC KR + +++      ++IP+E   ++ P +  I + + RL+E
+Sbjct  57   YNKLNYLLKRYRLLYKECKKRNYKVQNYENAW-NNIPKELMNNWKPKDKDINLIRKRLEE  115
+
+Query  120  KIAQR  124
+            K+ ++
+Sbjct  116  KLNKK  120
+
+
+> UniRef50_S4T813 Endonuclease V n=1 Tax=Vibrio phage VPMS1 TaxID=1233488 
+RepID=S4T813_9CAUD
+Length=154
+
+ Score = 125 bits (315),  Expect = 8e-34, Method: Composition-based stats.
+ Identities = 43/133 (32%), Positives = 64/133 (48%), Gaps = 15/133 (11%)
+
+Query  11   LADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEFLRKRQ  70
+            L DQHL   YRE+ R+  A R  + + +        P +++GAGH+ FFYDK +FL ++ 
+Sbjct  11   LLDQHLFIAYREVTRISTAARLLLPSEEV-------PAYVMGAGHMKFFYDKGKFLARQC  63
+
+Query  71   IELIAECLKRG--FNIKDTTVQDISDI------PQEFRGDYIPHEASIAISQARLDEKIA  122
+             EL   C+ RG   NI   T +   +       P     D+ P   +   S  RL EK+ 
+Sbjct  64   EELYQACITRGKWPNITHKTYKPHPEYVCPVSGPVSLNNDWQPDRQAHLASLIRLHEKLQ  123
+
+Query  123  QRPTWYKYYGKAI  135
+             +P +Y   GK +
+Sbjct  124  DKPNFYTLNGKPV  136
+
+
+> UniRef50_M1GXH5 Endonuclease V n=3 Tax=unclassified Chlorovirus 
+TaxID=346674 RepID=M1GXH5_9PHYC
+Length=120
+
+ Score = 123 bits (309),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 39/113 (35%), Positives = 57/113 (50%), Gaps = 3/113 (3%)
+
+Query  25   RVFGAVRKHVANGKRVRDFK-ISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFN  83
+             V  A+ + +      +  K I   F +  GHV FFY+K  +L KR  EL AE ++RGF 
+Sbjct  1    MVPKALARSLRTQSADKVAKKIPAKFTMNTGHVLFFYNKGMYLHKRYAELTAELVRRGFK  60
+
+Query  84   IKDTTVQDISD--IPQEFRGDYIPHEASIAISQARLDEKIAQRPTWYKYYGKA  134
+            I      D         +  DYIP E ++AI + R+ EKIA +P +YK++   
+Sbjct  61   INVDAPLDPEGTMDSAPWNDDYIPTEEALAIIRQRIAEKIAMKPLFYKFFDAP  113
+
+
+> UniRef50_A0A2G9N2D6 Endonuclease V n=1 Tax=Candidatus Diapherotrites 
+archaeon CG11_big_fil_rev_8_21_14_0_20_37_9 TaxID=1974407 
+RepID=A0A2G9N2D6_9ARCH
+Length=155
+
+ Score = 121 bits (305),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 42/134 (31%), Positives = 67/134 (50%), Gaps = 8/134 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             R+NL   S L DQH++AEY E+  +   ++         ++ KI   F LG GH+ FF 
+Sbjct  2    VRVNLIDPSALTDQHIIAEYNEILMLCTYLKNA------KQETKIPEKFTLGKGHMKFFL  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K  +L+KR   L  E  KRGF        ++    +   G++ P +  + I +  + EK
+Sbjct  56   NKATYLKKRHDNLKKEMKKRGFK--QEKKINLKYFKKFNLGNWQPEKEDLQIIKKIIIEK  113
+
+Query  121  IAQRPTWYKYYGKA  134
+            I  +P +Y+YY K 
+Sbjct  114  IKMKPEFYRYYKKP  127
+
+
+> UniRef50_A0A1F6ZD53 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon RBG_13_36_9 TaxID=1801881 RepID=A0A1F6ZD53_9ARCH
+Length=140
+
+ Score = 118 bits (296),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 46/132 (35%), Positives = 68/132 (52%), Gaps = 8/132 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RINL     LADQHL+AEY E+  + G V K                + LG GH+ FF 
+Sbjct  2    VRINLINPKNLADQHLIAEYNEILMLLGHVDKF------PTIKNQPKKYCLGKGHINFFK  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DK+E+L++R   +  E   RGF I  T   +++   +E+R ++ P      I + RL +K
+Sbjct  56   DKIEYLKERHELIKNEMKNRGFKISKTI--NLNKYTKEYRKNWKPKTKDKEIIKKRLIKK  113
+
+Query  121  IAQRPTWYKYYG  132
+            I  +P +Y+Y G
+Sbjct  114  INLKPDYYRYIG  125
+
+
+> UniRef50_A0A2E4W8I9 Deoxyribonuclease n=1 Tax=Acidobacteria bacterium 
+TaxID=1978231 RepID=A0A2E4W8I9_9BACT
+Length=142
+
+ Score = 118 bits (295),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 40/137 (29%), Positives = 70/137 (51%), Gaps = 14/137 (10%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFI-LGAGHV---  56
+            TR+N+  V  L D+HL+AE RE+ R+       + +GK V + KI  +++    G +   
+Sbjct  2    TRVNVVPVETLGDKHLLAELREIKRIPN----KLIDGKYVLN-KIPDSYVEYRKGRMVLV  56
+
+Query  57   -TFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE---FRGDYIPHEASIAI  112
+              FF ++L+++ KR   L  E   R FN+    + D++ + Q+   F  D+ P  +    
+Sbjct  57   EKFFVNRLKWVYKRYKLLYNEAKFRKFNVN-WLLPDMNLLKQKYPWFWNDWTPSTSDYEA  115
+
+Query  113  SQARLDEKIAQRPTWYK  129
+            + +RL E+I   P+  K
+Sbjct  116  NVSRLAERIKANPSLTK  132
+
+
+> UniRef50_A0A1V5KCC5 Pyrimidine dimer DNA glycosylase n=1 Tax=Firmicutes 
+bacterium ADurb.Bin506 TaxID=1852895 RepID=A0A1V5KCC5_9FIRM
+Length=139
+
+ Score = 116 bits (290),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 49/137 (36%), Positives = 63/137 (46%), Gaps = 19/137 (14%)
+
+Query  1    TRINL-TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN    V EL DQHL+AEYRELPR+    R      K V D      F L  GH+   
+Sbjct  2    TRINAGIPVEELCDQHLLAEYRELPRMVKFAR----TVKDVPDVD----FCLNTGHMKSV  53
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+                 +L  R  +LIAE  +RGF+     +Q   D    F   + P +A +A++   L  
+Sbjct  54   VRYGAYLVGRHHQLIAEMRRRGFDPLMPPLQ-YKDFTSRF--SHYPSQAWLALAVHVLRP  110
+
+Query  120  KIAQR-------PTWYK  129
+            +I  R       PTW K
+Sbjct  111  RIVDRLSSMKREPTWTK  127
+
+
+> UniRef50_C4WNE1 Endonuclease V n=1 Tax=Ochrobactrum intermedium 
+LMG 3301 TaxID=641118 RepID=C4WNE1_9RHIZ
+Length=76
+
+ Score = 109 bits (274),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 30/76 (39%), Positives = 49/76 (64%), Gaps = 1/76 (1%)
+
+Query  51   LGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEAS  109
+            +G GHV FFY +L +L KRQ  +I E L RG++ + T +   +   P  +  D+ P E +
+Sbjct  1    MGKGHVRFFYPRLGYLAKRQAAIIDEMLARGYSPQFTNIDQLLDGFPDVWCNDWEPTEDA  60
+
+Query  110  IAISQARLDEKIAQRP  125
+            +AI++AR+ E++A+RP
+Sbjct  61   VAINRARISERLAKRP  76
+
+
+> UniRef50_A0A2D0K1E8 Uncharacterized protein n=2 Tax=Xenorhabdus 
+TaxID=626 RepID=A0A2D0K1E8_9GAMM
+Length=96
+
+ Score = 104 bits (261),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 30/93 (32%), Positives = 49/93 (53%), Gaps = 1/93 (1%)
+
+Query  43   FKISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGD  102
+               S  ++LG GHV FF DKL FL+KR   +  ECL RGF++ +   + +S        D
+Sbjct  3    LSTSEKYLLGKGHVIFFRDKLFFLKKRYEAIHQECLNRGFSVVNIWPEGVSVY-HHLWND  61
+
+Query  103  YIPHEASIAISQARLDEKIAQRPTWYKYYGKAI  135
+            Y   E  I+++ AR+ E++  +  +   + + I
+Sbjct  62   YQVTEEDISVNMARIKERMPIKARFSPCFDRKI  94
+
+
+> UniRef50_F9Q6K9 Deoxyribonuclease V n=1 Tax=Haemophilus pittmaniae 
+HK 85 TaxID=1035188 RepID=F9Q6K9_9PAST
+Length=67
+
+ Score = 76.4 bits (187),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 17/65 (26%), Positives = 36/65 (55%), Gaps = 1/65 (2%)
+
+Query  67   RKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEKIAQRPT  126
+            ++R   L AEC  RGFN++    +++ D P     DY   E ++ +++ R+ E++ Q+  
+Sbjct  2    KQRYDALHAECKARGFNVQYIWNENLPDDPT-LWQDYQATEQALQLNRQRIRERMPQKAR  60
+
+Query  127  WYKYY  131
+            + ++ 
+Sbjct  61   FTQHR  65
+
+
+> UniRef50_F9Q6L0 Deoxyribonuclease V domain protein n=1 Tax=Haemophilus 
+pittmaniae HK 85 TaxID=1035188 RepID=F9Q6L0_9PAST
+Length=61
+
+ Score = 76.0 bits (186),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 33/58 (57%), Gaps = 5/58 (9%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTF  58
+           TRINL   +EL DQHL+AE+REL R+  AV    A GK          + LG GHV F
+Sbjct  2   TRINLVPPAELCDQHLLAEHRELTRIPNAV----AKGKYHLK-GQPTEYKLGEGHVRF  54
+
+
+> UniRef50_A0A256C6Q2 Uncharacterized protein n=1 Tax=Wohlfahrtiimonas 
+sp. G9077 TaxID=1980118 RepID=A0A256C6Q2_9GAMM
+Length=54
+
+ Score = 60.6 bits (146),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 17/36 (47%), Positives = 23/36 (64%), Gaps = 0/36 (0%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN  36
+           TRIN+  V  L DQHL+AE+REL R+   + K +  
+Sbjct  2   TRINVVDVETLCDQHLLAEHRELTRIPNDIVKRLGK  37
+
+
+> UniRef50_UPI000A052036 hypothetical protein n=1 Tax=Xenorhabdus 
+hominickii TaxID=351679 RepID=UPI000A052036
+Length=75
+
+ Score = 56.4 bits (135),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 18/30 (60%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAV  30
+           TRIN+ L SEL DQHL+AE+REL R+   +
+Sbjct  2   TRINVILSSELCDQHLLAEHRELTRIPNDI  31
+
+
+> UniRef50_A0A060BH08 Endonuclease V N-glysidase n=1 Tax=Escherichia 
+phage vB_EcoM_JS09 TaxID=1430444 RepID=A0A060BH08_9CAUD
+Length=45
+
+ Score = 54.5 bits (130),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN  36
+           T INLTLVS+ ADQHL+AEY ELPRVFG +RKHVA 
+Sbjct  5   TYINLTLVSKFADQHLIAEYCELPRVFGIIRKHVAK  40
+
+
+> UniRef50_A0A1L9C4I4 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=30 Tax=cellular organisms 
+TaxID=131567 RepID=A0A1L9C4I4_9EURY
+Length=109
+
+ Score = 55.2 bits (132),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 25/86 (29%), Positives = 37/86 (43%), Gaps = 13/86 (15%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI     SEL  QHL+ E+REL  ++  + K+       + +   P  +   G       
+Sbjct  2   RIWDLPPSELCRQHLLGEHRELHALWSIITKN------KKAYSNHPETLRWKG-------  48
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDT  87
+           KL  L  R   L++E  KRG+N    
+Sbjct  49  KLHALYLRHETLVSEMQKRGYNHNSP  74
+
+
+> UniRef50_A0A1Q3NK72 Uncharacterized protein n=1 Tax=Solirubrobacterales 
+bacterium 67-14 TaxID=1895832 RepID=A0A1Q3NK72_9ACTN
+Length=117
+
+ Score = 54.9 bits (131),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/80 (25%), Positives = 33/80 (41%), Gaps = 10/80 (13%)
+
+Query  6   TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGA--GHVTFFYDKL  63
+              S L   HL+ E+REL  ++  + + + +G+   +   +         GH    YD  
+Sbjct  7   IPPSSLCRSHLLGEHRELHGLWNILLR-IESGEDPSEVGYAAHPETRRWIGHQRALYD--  63
+
+Query  64  EFLRKRQIELIAECLKRGFN  83
+                R   L+ E L RG+N
+Sbjct  64  -----RHEALVGEMLARGYN  78
+
+
+> UniRef50_A0A2H0TZ49 Pyrimidine dimer DNA glycosylase n=16 Tax=root 
+TaxID=1 RepID=A0A2H0TZ49_9BACT
+Length=116
+
+ Score = 53.3 bits (127),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 23/91 (25%), Positives = 37/91 (41%), Gaps = 11/91 (12%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+    V  L  +HL+ E+REL  ++  + KH   G      +              +  
+Sbjct  2   RVWDIHVKHLCKKHLLGEHRELHGLWNILTKHGGKGGYSHHPET-----------KRWIG  50
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDI  92
+           KL+ L  R  EL+AE  KRG+       + +
+Sbjct  51  KLKALYNRHEELVAEMTKRGYKHNSPLDKKL  81
+
+
+> UniRef50_A0A1G3LYT1 Uncharacterized protein n=1 Tax=Spirochaetes 
+bacterium GWB1_59_5 TaxID=1802176 RepID=A0A1G3LYT1_9SPIR
+Length=112
+
+ Score = 49.8 bits (118),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 19/99 (19%), Positives = 37/99 (37%), Gaps = 18/99 (18%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+ +     +  QHL+ E+ EL    G ++K         + +I   F            
+Sbjct  2   RMWMVPPETMCRQHLLGEHVELHMFVGTIKKG-RGIDGFLEQRILEPFA-----------  49
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFR  100
+               + +R   L+AE  +RG+N    +      +P + +
+Sbjct  50  ----IEQRHEALVAEMTRRGYN--HKSPLYSPALPLKLK  82
+
+
+> UniRef50_G1UNN1 Uncharacterized protein n=2 Tax=Desulfovibrio 
+TaxID=872 RepID=G1UNN1_9DELT
+Length=118
+
+ Score = 48.3 bits (114),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 42/112 (38%), Gaps = 19/112 (17%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ L   S +  +HL+ E+ EL  + G ++K  +    +    I P              
+Sbjct  2    RMWLVPPSHMCRKHLLGEHVELHMLLGTLKKGKSITGFLSGGLIDPCR------------  49
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAIS  113
+                + KR  EL+ E  +RG+       ++      E   DY    A I I+
+Sbjct  50   ----MYKRHGELVREMERRGYAHNSPLTEEEC---TEALRDYDCSTAHIDIN  94
+
+
+> UniRef50_A0A0G0CND0 Uncharacterized protein n=4 Tax=root TaxID=1 
+RepID=A0A0G0CND0_9BACT
+Length=110
+
+ Score = 47.1 bits (111),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 15/78 (19%), Positives = 30/78 (38%), Gaps = 16/78 (21%)
+
+Query  6   TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEF  65
+                L ++HL+ E+ E+    G + K+++    + +  ++P                  
+Sbjct  6   VNPELLCNKHLLGEHVEMHMFAGTIAKNISIQGYLDNKLVNPIE----------------  49
+
+Query  66  LRKRQIELIAECLKRGFN  83
+           +  R   L+ E  KRG N
+Sbjct  50  INDRHDLLVIEMQKRGMN  67
+
+
+> UniRef50_A0A0Q0WL37 Uncharacterized protein n=3 Tax=Acidiplasma 
+TaxID=507753 RepID=A0A0Q0WL37_9EURY
+Length=158
+
+ Score = 47.5 bits (112),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 18/103 (17%), Positives = 37/103 (36%), Gaps = 17/103 (17%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ +     +   HL+ E+ E+    G +R+    G+   +  I    +L          
+Sbjct  2    RMWMVNPKYMCSSHLLGEHNEIHMAVGYLREGNHLGRYASEKLIQVNTMLS---------  52
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYI  104
+                   R  +L+ E L RG+      + D ++I      ++ 
+Sbjct  53   -------RHNQLVEEMLSRGYKHNSPLIFDPTEIAGHLF-EWE  87
+
+
+> UniRef50_A0A2E6DU31 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon TaxID=2026739 RepID=A0A2E6DU31_9EURY
+Length=110
+
+ Score = 46.8 bits (110),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 18/96 (19%), Positives = 40/96 (42%), Gaps = 20/96 (21%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+ +     +  +HL+ E+  +  + G ++K ++    + +  +                
+Sbjct  2   RMWMLPPEIMCRKHLLGEHVXMHMLVGTLQKGISVQGYIDNQLVE---------------  46
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQ  97
+            LE +R+R  +L+ E L RG+N        + D P+
+Sbjct  47  -LEHIRERHDQLVKEMLHRGYN----HKSPLPDYPE  77
+
+
+> UniRef50_B2A8A2 Uncharacterized protein n=30 Tax=root TaxID=1 
+RepID=B2A8A2_NATTJ
+Length=111
+
+ Score = 46.8 bits (110),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 19/91 (21%), Positives = 30/91 (33%), Gaps = 13/91 (14%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI       L  +HL+ E+REL         ++    +        T             
+Sbjct  2   RIWDIQPHFLCRKHLLGEHREL-----HALWNILTQGKKGYQNHPETCRWKE--------  48
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDI  92
+           KL  L  R  +L+ E   RG+  K     ++
+Sbjct  49  KLRALYNRHEQLVQELKARGYQHKSPLNSEL  79
+
+
+> UniRef50_C9V5M4 Pyrimidine dimer DNA glycosylase n=2 Tax=root 
+TaxID=1 RepID=C9V5M4_BRUNE
+Length=33
+
+ Score = 44.8 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 12/31 (39%), Positives = 21/31 (68%), Gaps = 0/31 (0%)
+
+Query  92   ISDIPQEFRGDYIPHEASIAISQARLDEKIA  122
+            +  IP E+R D+ P   +IAI++AR+ E++ 
+Sbjct  2    LIGIPLEWRADWEPTAEAIAINRARIAERLR  32
+
+
+> UniRef50_A0A1F8X2K4 Pyrimidine dimer DNA glycosylase n=1 Tax=Deltaproteobacteria 
+bacterium GWA2_54_12 TaxID=1797808 RepID=A0A1F8X2K4_9DELT
+Length=117
+
+ Score = 46.0 bits (108),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 26/128 (20%), Positives = 45/128 (35%), Gaps = 16/128 (13%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+       L D+HL+ E+ E+  ++  +   +        F   P      G       
+Sbjct  2    RVWDIDPKLLCDRHLLGEHNEIHTIWSIIINGLKG------FSNHPETNRWRG-------  48
+
+Query  62   KLEFLRKRQIELIAECLKRGF---NIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            KL+ L  R      E  KRGF   +  D  +     +  E +      E  ++   A   
+Sbjct  49   KLKALYLRHEATAGEMEKRGFRHKSPLDERLATGKAVQDELKDSIEAQEKLLSEKDADCA  108
+
+Query  119  EKIAQRPT  126
+            E+I++R  
+Sbjct  109  ERISKRKE  116
+
+
+> UniRef50_M0M868 Uncharacterized protein n=3 Tax=Halococcus TaxID=2249 
+RepID=M0M868_9EURY
+Length=113
+
+ Score = 45.6 bits (107),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 25/124 (20%), Positives = 39/124 (31%), Gaps = 32/124 (26%)
+
+Query  5    LTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLE  64
+               V  L  QHL  E+ E  ++ G +             +      +  GH      +  
+Sbjct  3    CVPVGILCKQHLAGEHAEHHQLEGTI------------LRHPHGEAIAEGHAE----RGN  46
+
+Query  65   F----LRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+                 L +R  +L AE  +RG N    +  D             P   + AI   R  E 
+Sbjct  47   IDTTRLEERHDDLAAEMERRGMN--HDSPLDYDG----------PTFGAGAIDVERNRED  94
+
+Query  121  IAQR  124
+            + +R
+Sbjct  95   LLER  98
+
+
+> UniRef50_A0A256Z3I4 Uncharacterized protein n=1 Tax=Candidatus 
+Bathyarchaeota archaeon ex4484_40 TaxID=2012513 RepID=A0A256Z3I4_9ARCH
+Length=127
+
+ Score = 45.2 bits (106),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 21/130 (16%), Positives = 41/130 (32%), Gaps = 21/130 (16%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RI    V  L  QHL+ E+ EL  +   + +                          F 
+Sbjct  2    VRIWRLPVWILDRQHLLGEHNELHTIVSVILRGGGGWWNHPQTNR-------------FK  48
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEA----SIAISQAR  116
+             +L  L  R  + + E  +RG+N   + +      P+ +              + +   R
+Sbjct  49   GRLGLLVDRHRQQVEEMERRGYN-HRSPLPKFDYKPERYVLGVAYTREEMLADLNLLIER  107
+
+Query  117  ---LDEKIAQ  123
+               ++E++  
+Sbjct  108  KGVIEERVRD  117
+
+
+> UniRef50_A0A1M7SRQ7 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=1 Tax=Desulfovibrio litoralis 
+DSM 11393 TaxID=1121455 RepID=A0A1M7SRQ7_9DELT
+Length=107
+
+ Score = 44.5 bits (104),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 14/89 (16%), Positives = 32/89 (36%), Gaps = 16/89 (18%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+           TR+      ++  +HL+ E+ E+  +  ++     + K  +D       +          
+Sbjct  2   TRMWGVNPKKMCRKHLLGEHVEMHMLASSIDTG-RSVKGFQDNNCLDAPL----------  50
+
+Query  61  DKLEFLRKRQIELIAECLKRGFNIKDTTV  89
+                + +R  +L  E L+RG+       
+Sbjct  51  -----IEERHNQLADEMLRRGYKHNSPLY  74
+
+
+> UniRef50_A0A2H9KYM6 Uncharacterized protein n=1 Tax=Candidatus 
+Micrarchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_45_29 
+TaxID=1974417 RepID=A0A2H9KYM6_9ARCH
+Length=107
+
+ Score = 44.5 bits (104),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 15/89 (17%), Positives = 32/89 (36%), Gaps = 18/89 (20%)
+
+Query  6   TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEF  65
+                +   HL+ E+ E+    G+++K ++    ++   ++P                 +
+Sbjct  6   ISPKLMCRAHLLGEHVEMHMFSGSIKKKISICGYLQKNLVNP-----------------Y  48
+
+Query  66  L-RKRQIELIAECLKRGFNIKDTTVQDIS  93
+           L  KR   L  E  +RG+  K      + 
+Sbjct  49  LIEKRHDALAKEMKRRGYAHKSPLHLSLP  77
+
+
+> UniRef50_A0A0W0GHT5 Pyrimidine dimer DNA glycosylase/DNA-(Apurinic 
+or apyrimidinic site) lyase n=5 Tax=Bacteria TaxID=2 RepID=A0A0W0GHT5_9CHLR
+Length=109
+
+ Score = 44.5 bits (104),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 18/97 (19%), Positives = 35/97 (36%), Gaps = 19/97 (20%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+ L     +  +HL+ E+ EL  + G +R+  +    ++                    
+Sbjct  2   RMWLVDPRLMCRRHLLGEHVELHMLAGCLRRGKSIDGYLQGLVDP---------------  46
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE  98
+               +  R  +L+ E   RGF+    +  D  + PQ 
+Sbjct  47  --ALIACRHEQLVREMNNRGFS--HRSPLDAPECPQP  79
+
+
+> UniRef50_A0A1V5RB15 Pyrimidine dimer DNA glycosylase n=22 Tax=cellular 
+organisms TaxID=131567 RepID=A0A1V5RB15_9BACT
+Length=111
+
+ Score = 44.5 bits (104),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 19/82 (23%), Positives = 31/82 (38%), Gaps = 11/82 (13%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI          +HL+AE+REL  ++  +  H   G   R  +              +  
+Sbjct  2   RIWDLPPKHFCHKHLVAEHRELHGLWNILTIHRGQGGYSRHPETLR-----------WVG  50
+
+Query  62  KLEFLRKRQIELIAECLKRGFN  83
+           K + L  R   L+ E  +RG+ 
+Sbjct  51  KTKALYSRHKLLVKEFKRRGYR  72
+
+
+> UniRef50_A0A1F6Z3K6 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon RBG_19FT_COMBO_34_9 TaxID=1801883 RepID=A0A1F6Z3K6_9ARCH
+Length=104
+
+ Score = 44.1 bits (103),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 27/118 (23%), Positives = 43/118 (36%), Gaps = 19/118 (16%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ +     L  QHL+ E+ E+ +  G +R    +GK  +            G    F +
+Sbjct  2    RMWMIEPELLCRQHLLGEHFEIHKAAGNLRH---SGKWTKSLT-------RKG----FLE  47
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+               FL  R  +L+ E  +RGF           D+P          E S+   + R  E
+Sbjct  48   PQNFL-SRHNKLVIEMERRGFMHNSPLNVSDIDLPDGNVN----TEMSVRDLRKRCGE  100
+
+
+> UniRef50_A0A1F6BDA6 Pyrimidine dimer DNA glycosylase n=1 Tax=Candidatus 
+Gottesmanbacteria bacterium RIFOXYB1_FULL_47_11 TaxID=1798401 
+RepID=A0A1F6BDA6_9BACT
+Length=113
+
+ Score = 44.1 bits (103),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 20/81 (25%), Positives = 31/81 (38%), Gaps = 11/81 (14%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI       L  +HL+AE+REL  ++  +  H   G   R  +              +  
+Sbjct  2   RIWDIHPKYLCRKHLLAEHRELHGLWNILTIHKGKGGYSRHPETIR-----------WIG  50
+
+Query  62  KLEFLRKRQIELIAECLKRGF  82
+           K   L  R   L+ E  +RG+
+Sbjct  51  KTLALFNRHEALVKEFTRRGY  71
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.156    0.513    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0474    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238597771466
+Results from round 3
+
+
+Query= 2end-1-DOMAK
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A0A0A7HGT4 Endonuclease n=13 Tax=root TaxID=1 RepID=A0...  187     6e-58
+  UniRef50_P04418 Endonuclease V n=74 Tax=root TaxID=1 RepID=END5...  178     9e-55
+  UniRef50_A0A1L3LHH7 Endonuclease V n=3 Tax=Rhizobiales TaxID=35...  163     1e-48
+  UniRef50_A0A249NZA6 Endonuclease V n=7 Tax=Proteobacteria TaxID...  162     7e-48
+  UniRef50_A0A2A2AD06 Deoxyribonuclease n=2 Tax=unclassified Coma...  159     4e-47
+  UniRef50_A0A286EEH2 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  158     7e-47
+  UniRef50_M1I545 Endonuclease V n=18 Tax=Chlorovirus TaxID=18108...  158     2e-46
+  UniRef50_E6L096 Deoxyribonuclease V n=71 Tax=Proteobacteria Tax...  157     3e-46
+  UniRef50_Q9W9V3 Pyrimidine dimer-specific glycosylase n=8 Tax=C...  155     1e-45
+  UniRef50_UPI00066922F7 deoxyribonuclease n=2 Tax=Pasteurella Ta...  153     5e-45
+  UniRef50_E2PN57 Endonuclease V n=43 Tax=Proteobacteria TaxID=12...  153     6e-45
+  UniRef50_A0A163TBZ6 Pyrimidine dimer DNA glycosylase n=5 Tax=Pr...  152     4e-44
+  UniRef50_A0A1Z8LLG5 Uncharacterized protein n=1 Tax=Muricauda s...  151     9e-44
+  UniRef50_A9BBB4 Deoxyribonuclease n=20 Tax=cellular organisms T...  149     2e-43
+  UniRef50_A0A2E9YUR2 Endonuclease V n=2 Tax=Proteobacteria TaxID...  148     4e-43
+  UniRef50_G9A558 Putative endonuclease V n=48 Tax=root TaxID=1 R...  148     1e-42
+  UniRef50_A0A2G6GLE6 Endonuclease n=1 Tax=Candidatus Gracilibact...  147     3e-42
+  UniRef50_A0A172PZW6 Endonuclease n=2 Tax=Np1virus TaxID=1982239...  147     4e-42
+  UniRef50_L2F625 Pyrimidine dimer DNA glycosylase/endonuclease V...  146     8e-42
+  UniRef50_A0A2E2D601 Endonuclease V n=1 Tax=Methylophaga sp. Tax...  143     7e-41
+  UniRef50_A0A2G6GDE6 Deoxyribonuclease n=1 Tax=Candidatus Gracil...  142     1e-40
+  UniRef50_V8QS53 Endonuclease V n=1 Tax=Advenella kashmirensis W...  138     3e-39
+  UniRef50_A0A1J4UJI6 Uncharacterized protein n=1 Tax=Candidatus ...  138     4e-39
+  UniRef50_D2TFG7 Putative endonuclease n=13 Tax=Coccolithovirus ...  138     5e-39
+  UniRef50_A0A023NGV8 Putative deoxyribonuclease n=4 Tax=root Tax...  138     8e-39
+  UniRef50_C8N6T7 Pyrimidine dimer DNA glycosylase n=34 Tax=root ...  135     5e-38
+  UniRef50_A0A2G9NSA3 Uncharacterized protein n=1 Tax=Candidatus ...  135     1e-37
+  UniRef50_A0A2E7NWS7 Uncharacterized protein n=1 Tax=Herbaspiril...  135     5e-37
+  UniRef50_M4QUK4 DenV endonuclease V n=6 Tax=Viruses TaxID=10239...  133     8e-37
+  UniRef50_A0A1G3M2M6 Uncharacterized protein n=1 Tax=Spirochaete...  133     1e-36
+  UniRef50_D4G8V4 Endonuclease V n=28 Tax=Proteobacteria TaxID=12...  132     1e-36
+  UniRef50_Q56C32 DenV endonuclease V n=5 Tax=Myoviridae TaxID=10...  132     2e-36
+  UniRef50_A0A0K0PVT7 Endonuclease V n=1 Tax=Roseobacter phage RD...  130     3e-36
+  UniRef50_A0A075E151 Endonuclease V n=15 Tax=Viruses TaxID=10239...  130     8e-36
+  UniRef50_A0A076YLS9 Putative endonuclease n=2 Tax=unclassified ...  128     3e-35
+  UniRef50_A0A088C505 Pyrimidine dimer DNA glycosylase n=2 Tax=un...  128     7e-35
+  UniRef50_A0A2H9PNB7 Uncharacterized protein n=2 Tax=DPANN group...  128     8e-35
+  UniRef50_A0A1V0DYJ9 Putative endonuclease n=2 Tax=root TaxID=1 ...  127     1e-34
+  UniRef50_A0A2H0NCN3 Endonuclease n=1 Tax=Candidatus Komeilibact...  124     1e-33
+  UniRef50_Q6U9S3 Endonuclease V n=8 Tax=Viruses TaxID=10239 RepI...  124     3e-33
+  UniRef50_Q6WHU9 DenV Endonuclease V n=7 Tax=Schizot4virus TaxID...  122     8e-33
+  UniRef50_Q19CY9 Endonuclease V n=4 Tax=Myoviridae TaxID=10662 R...  121     4e-32
+  UniRef50_D9PM99 Pyrimidine dimer DNA glycosylase n=1 Tax=sedime...  118     3e-31
+  UniRef50_M1GXH5 Endonuclease V n=3 Tax=unclassified Chlorovirus...  117     6e-31
+  UniRef50_S4T813 Endonuclease V n=1 Tax=Vibrio phage VPMS1 TaxID...  116     3e-30
+  UniRef50_A0A2G9N2D6 Endonuclease V n=1 Tax=Candidatus Diapherot...  111     3e-28
+  UniRef50_A0A1F6ZD53 Uncharacterized protein n=1 Tax=Candidatus ...  110     7e-28
+  UniRef50_A0A2E4W8I9 Deoxyribonuclease n=1 Tax=Acidobacteria bac...  105     7e-26
+  UniRef50_A0A2D0K1E8 Uncharacterized protein n=2 Tax=Xenorhabdus...  102     2e-25
+  UniRef50_C4WNE1 Endonuclease V n=1 Tax=Ochrobactrum intermedium...  100     8e-25
+  UniRef50_A0A1V5KCC5 Pyrimidine dimer DNA glycosylase n=1 Tax=Fi...  99.2    1e-23
+  UniRef50_G1UNN1 Uncharacterized protein n=2 Tax=Desulfovibrio T...  88.1    1e-19
+  UniRef50_A0A1F8X2K4 Pyrimidine dimer DNA glycosylase n=1 Tax=De...  87.7    1e-19
+  UniRef50_A0A2H0TZ49 Pyrimidine dimer DNA glycosylase n=16 Tax=r...  83.1    8e-18
+  UniRef50_A0A1L9C4I4 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  82.7    1e-17
+  UniRef50_A0A1Q3NK72 Uncharacterized protein n=1 Tax=Solirubroba...  79.2    2e-16
+  UniRef50_A0A1F6Z3K6 Uncharacterized protein n=1 Tax=Candidatus ...  78.8    2e-16
+  UniRef50_B2A8A2 Uncharacterized protein n=30 Tax=root TaxID=1 R...  79.2    2e-16
+  UniRef50_A0A1G3LYT1 Uncharacterized protein n=1 Tax=Spirochaete...  78.8    3e-16
+  UniRef50_M0M868 Uncharacterized protein n=3 Tax=Halococcus TaxI...  78.8    3e-16
+  UniRef50_F9Q6K9 Deoxyribonuclease V n=1 Tax=Haemophilus pittman...  75.7    1e-15
+  UniRef50_A0A2E6DU31 Uncharacterized protein n=1 Tax=Euryarchaeo...  76.9    2e-15
+  UniRef50_A0A256Z3I4 Uncharacterized protein n=1 Tax=Candidatus ...  77.3    2e-15
+  UniRef50_A0A0Q0WL37 Uncharacterized protein n=3 Tax=Acidiplasma...  77.7    2e-15
+  UniRef50_A0A0G0CND0 Uncharacterized protein n=4 Tax=root TaxID=...  76.1    3e-15
+  UniRef50_A0A0W0GHT5 Pyrimidine dimer DNA glycosylase/DNA-(Apuri...  75.0    8e-15
+  UniRef50_F9Q6L0 Deoxyribonuclease V domain protein n=1 Tax=Haem...  73.1    2e-14
+  UniRef50_A0A1F6BDA6 Pyrimidine dimer DNA glycosylase n=1 Tax=Ca...  73.1    4e-14
+  UniRef50_A0A1M7SRQ7 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  72.3    9e-14
+  UniRef50_A0A1V5RB15 Pyrimidine dimer DNA glycosylase n=22 Tax=c...  72.3    9e-14
+  UniRef50_A0A2H9KYM6 Uncharacterized protein n=1 Tax=Candidatus ...  68.4    2e-12
+  UniRef50_A0A256C6Q2 Uncharacterized protein n=1 Tax=Wohlfahrtii...  58.8    2e-09
+  UniRef50_UPI000A052036 hypothetical protein n=1 Tax=Xenorhabdus...  54.2    2e-07
+  UniRef50_A0A060BH08 Endonuclease V N-glysidase n=1 Tax=Escheric...  49.6    4e-06
+  UniRef50_C9V5M4 Pyrimidine dimer DNA glycosylase n=2 Tax=root T...  43.0    0.001
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A0M0BIR6 Uncharacterized protein n=1 Tax=miscellaneo...  67.3    6e-12
+  UniRef50_A0A1L8CQ10 Pyrimidine dimer DNA glycosylase n=1 Tax=Ma...  64.2    2e-10
+  UniRef50_A0A2H0K3L5 Uncharacterized protein n=5 Tax=unclassifie...  60.7    4e-09
+  UniRef50_A0A0S8KKC9 Uncharacterized protein n=2 Tax=Anaerolinea...  60.3    6e-09
+  UniRef50_A0A1V6GP08 Pyrimidine dimer DNA glycosylase n=3 Tax=Pr...  59.6    1e-08
+  UniRef50_A0A1F3Y7F3 Uncharacterized protein n=1 Tax=Bdellovibri...  59.2    1e-08
+  UniRef50_A0A1F2VTZ1 Uncharacterized protein n=3 Tax=Bacteria Ta...  59.2    2e-08
+  UniRef50_A0A0B3BE99 Pyrimidine dimer DNA glycosylase n=10 Tax=B...  58.0    6e-08
+  UniRef50_A0A1W2ER69 Pyrimidine dimer DNA glycosylase /DNA-(Apur...  56.5    2e-07
+  UniRef50_A0A1W9N3S3 Uncharacterized protein n=2 Tax=Desulfobact...  56.1    2e-07
+  UniRef50_A0A1Q6DSM5 Pyrimidine dimer DNA glycosylase T4 endoV f...  53.4    7e-07
+  UniRef50_E1VP45 Uncharacterized protein n=13 Tax=Proteobacteria...  51.5    8e-06
+  UniRef50_A0A0E3PSL1 Uncharacterized protein n=1 Tax=Methanosarc...  48.8    9e-06
+  UniRef50_A0A1Y3GAG3 Pyrimidine dimer DNA glycosylase T4 endoV f...  49.6    1e-05
+  UniRef50_C0GFI4 Uncharacterized protein n=1 Tax=Dethiobacter al...  49.9    3e-05
+  UniRef50_D7DSY0 Uncharacterized protein n=1 Tax=Methanococcus v...  48.0    4e-05
+  UniRef50_A0A0G0ILG0 Uncharacterized protein n=1 Tax=Parcubacter...  46.1    7e-05
+  UniRef50_A0A2H6GKQ6 Pyrimidine dimer DNA glycosylase n=1 Tax=ba...  49.2    8e-05
+  UniRef50_A0A0E3LE48 Uncharacterized protein n=1 Tax=Methanosarc...  43.8    6e-04
+
+
+> UniRef50_A0A0A7HGT4 Endonuclease n=13 Tax=root TaxID=1 RepID=A0A0A7HGT4_9CAUD
+Length=138
+
+ Score = 187 bits (474),  Expect = 6e-58, Method: Composition-based stats.
+ Identities = 105/137 (77%), Positives = 119/137 (87%), Gaps = 0/137 (0%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINLTLVSELADQHLMAEYRELPRVFGAVRKHV NGK+V DFKI  +F+LG GHVTFFY
+Sbjct  2    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVQNGKKVSDFKIPSSFLLGTGHVTFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL+ R  ELIAECLKRGFNIKD + QD++DIP E++ DY P   SI ISQ+RL+EK
+Sbjct  62   DKLLFLKNRHQELIAECLKRGFNIKDISTQDLNDIPDEWKNDYQPSIWSIEISQSRLNEK  121
+
+Query  121  IAQRPTWYKYYGKAIYA  137
+            I+Q+PTWYKYYGKA+YA
+Sbjct  122  ISQKPTWYKYYGKAVYA  138
+
+
+> UniRef50_P04418 Endonuclease V n=74 Tax=root TaxID=1 RepID=END5_BPT4
+Length=138
+
+ Score = 178 bits (453),  Expect = 9e-55, Method: Composition-based stats.
+ Identities = 137/137 (100%), Positives = 137/137 (100%), Gaps = 0/137 (0%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY
+Sbjct  2    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK
+Sbjct  62   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  121
+
+Query  121  IAQRPTWYKYYGKAIYA  137
+            IAQRPTWYKYYGKAIYA
+Sbjct  122  IAQRPTWYKYYGKAIYA  138
+
+
+> UniRef50_A0A1L3LHH7 Endonuclease V n=3 Tax=Rhizobiales TaxID=356 
+RepID=A0A1L3LHH7_9RHIZ
+Length=154
+
+ Score = 163 bits (414),  Expect = 1e-48, Method: Composition-based stats.
+ Identities = 53/123 (43%), Positives = 75/123 (61%), Gaps = 1/123 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    SEL   HL+AEYRELPRVF  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  2    TRINCIPPSELCGPHLVAEYRELPRVFALVRAAIARGESPSDPRNPPVYTLGKGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE  +RG+       +  + D+P E+  D+ P   ++A+++ R+ E
+Sbjct  62   SRLAYLAKRQASLIAEMQRRGYRPAFREAEGLLGDLPLEWCNDWDPTSEAMALNRERIRE  121
+
+Query  120  KIA  122
+            ++A
+Sbjct  122  RLA  124
+
+
+> UniRef50_A0A249NZA6 Endonuclease V n=7 Tax=Proteobacteria TaxID=1224 
+RepID=A0A249NZA6_9RHIZ
+Length=158
+
+ Score = 162 bits (409),  Expect = 7e-48, Method: Composition-based stats.
+ Identities = 53/123 (43%), Positives = 76/123 (62%), Gaps = 1/123 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    SEL+  HL+AEYRELPRVF  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  2    TRINCIPPSELSGPHLLAEYRELPRVFALVRAAIARGETPGDPRNPPAYTLGKGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ+ LIAE  +RG+       +D +S  P E+  D+ P   ++ +++ R+ E
+Sbjct  62   SRLSYLAKRQVSLIAEMQRRGYRPTYREAEDLLSGFPSEWCNDWNPTSEAMTVNRERIRE  121
+
+Query  120  KIA  122
+            ++A
+Sbjct  122  RLA  124
+
+
+> UniRef50_A0A2A2AD06 Deoxyribonuclease n=2 Tax=unclassified Comamonadaceae 
+TaxID=83494 RepID=A0A2A2AD06_9BURK
+Length=129
+
+ Score = 159 bits (402),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 51/128 (40%), Positives = 72/128 (56%), Gaps = 6/128 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AE+REL R+  AV K      + R       + LG GHV FF+
+Sbjct  2    TRINLVAPAELCDQHLLAEHRELTRIPNAVAKG-----KYRLQGQPQDYCLGTGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL++R   L AECL RGF ++      +   P     DY P   ++A+++AR+ E+
+Sbjct  57   DKLAFLQRRYEALHAECLARGFKVQHIWPAALPADPA-LWQDYTPTAQALALNRARIAER  115
+
+Query  121  IAQRPTWY  128
+            +  R  + 
+Sbjct  116  MPARARFT  123
+
+
+> UniRef50_A0A286EEH2 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=11 Tax=Bacteria TaxID=2 
+RepID=A0A286EEH2_9NEIS
+Length=128
+
+ Score = 158 bits (400),  Expect = 7e-47, Method: Composition-based stats.
+ Identities = 52/133 (39%), Positives = 73/133 (55%), Gaps = 6/133 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   SEL DQHL+AE+ EL R+  AV        R         + LG GHV FF+
+Sbjct  2    TRINLVPPSELCDQHLLAEHCELTRIPNAVA-----QGRYHLRGQPADYKLGEGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL+KR   L  ECL RGFN+++    ++   P     DY P E ++A ++AR+ E+
+Sbjct  57   DKLLFLQKRYAALHQECLARGFNVQNRWADNLPQNPD-LWRDYQPTETALAANRARIAER  115
+
+Query  121  IAQRPTWYKYYGK  133
+            +  +  +  +  K
+Sbjct  116  MPAKARFTPHRVK  128
+
+
+> UniRef50_M1I545 Endonuclease V n=18 Tax=Chlorovirus TaxID=181083 
+RepID=M1I545_9PHYC
+Length=145
+
+ Score = 158 bits (399),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 58/137 (42%), Positives = 77/137 (56%), Gaps = 3/137 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVR-DFKISPTFILGAGHVTFF  59
+            TRINL  V ELA+QH+ AE+RE+  V  A+ + +      +   KI   F L  GHV FF
+Sbjct  2    TRINLVPVGELANQHIFAEWREMKMVPKALARSLRTQSVEKVAKKIPAKFTLNTGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD--IPQEFRGDYIPHEASIAISQARL  117
+            YDK  +LRKR  EL AE ++RGF I      D         +  DY P E ++ I + R+
+Sbjct  62   YDKGAYLRKRYAELTAELVRRGFKINVDAPLDPEGTMNAAPWNNDYEPTEEALTIIRQRI  121
+
+Query  118  DEKIAQRPTWYKYYGKA  134
+             EKIA +PTWYK++  A
+Sbjct  122  AEKIAMKPTWYKFFDPA  138
+
+
+> UniRef50_E6L096 Deoxyribonuclease V n=71 Tax=Proteobacteria TaxID=1224 
+RepID=E6L096_9PAST
+Length=131
+
+ Score = 157 bits (396),  Expect = 3e-46, Method: Composition-based stats.
+ Identities = 51/131 (39%), Positives = 76/131 (58%), Gaps = 6/131 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AE+REL R+  AV K      +         + LG GHV FF+
+Sbjct  2    TRINLVPPAELCDQHLLAEHRELTRIPNAVAKG-----KYHLKGQPAEYKLGEGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K+ FL+KR   L AEC  RGFN++    +++   P     DY P EA++A+++AR+ E+
+Sbjct  57   NKMAFLKKRYDLLHAECKARGFNVQYIWNEELPQDPT-LWLDYKPTEAALALNRARIQER  115
+
+Query  121  IAQRPTWYKYY  131
+            +  +  +  Y 
+Sbjct  116  MPAKARFTPYK  126
+
+
+> UniRef50_Q9W9V3 Pyrimidine dimer-specific glycosylase n=8 Tax=Chlorovirus 
+TaxID=181083 RepID=Q9W9V3_9PHYC
+Length=141
+
+ Score = 155 bits (393),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 54/132 (41%), Positives = 79/132 (60%), Gaps = 2/132 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVR-DFKISPTFILGAGHVTFF  59
+            TR+NL  V ELADQHLMAE+REL  +  A+ + +      +   KI   F L  GHV FF
+Sbjct  2    TRVNLIPVQELADQHLMAEFRELKMIPKALARSLRTQSSEKILKKIPSKFTLNTGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIK-DTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            YDK ++L+KR  E++ E + RG+ I  D  +   + +  E+  DY P E ++ I + R+ 
+Sbjct  62   YDKGKYLQKRYDEIVVELVARGYKINVDAKLDPDNVMTDEWYNDYTPTEDALNIIRERIL  121
+
+Query  119  EKIAQRPTWYKY  130
+            EKIA +P WY++
+Sbjct  122  EKIAMKPGWYRF  133
+
+
+> UniRef50_UPI00066922F7 deoxyribonuclease n=2 Tax=Pasteurella 
+TaxID=745 RepID=UPI00066922F7
+Length=127
+
+ Score = 153 bits (387),  Expect = 5e-45, Method: Composition-based stats.
+ Identities = 50/129 (39%), Positives = 73/129 (57%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AE+REL R+  AV K      +         + LG GHV FF+
+Sbjct  2    TRINLVSPTELCDQHLLAEHRELTRIPNAVAKG-----KYDLTGQPDDYKLGTGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +KL FL+KR   L  EC  RGFN++    Q++    ++   DY P E ++ I+QAR+ E+
+Sbjct  57   NKLTFLKKRYDLLHRECKARGFNVQYIWPQNLP-TDKKLWLDYQPSEQALKINQARILER  115
+
+Query  121  IAQRPTWYK  129
+            +  +  +  
+Sbjct  116  MPAKARFTP  124
+
+
+> UniRef50_E2PN57 Endonuclease V n=43 Tax=Proteobacteria TaxID=1224 
+RepID=E2PN57_9RHIZ
+Length=125
+
+ Score = 153 bits (387),  Expect = 6e-45, Method: Composition-based stats.
+ Identities = 55/124 (44%), Positives = 79/124 (64%), Gaps = 1/124 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL   HL+AEYRELPRVF  VR  +  G+  +D +    + LGAGHV FFY
+Sbjct  2    TRINCIPPAELTGPHLVAEYRELPRVFALVRAAIQRGEAPQDPRNPQQYTLGAGHVRFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE   RG+  + T +++ +  IP E+R D+ P   +IAI++AR+ E
+Sbjct  62   ARLGYLAKRQAALIAEMQARGYAPQFTNIEELLIGIPLEWRADWEPTAEAIAINRARIAE  121
+
+Query  120  KIAQ  123
+            ++ +
+Sbjct  122  RLRK  125
+
+
+> UniRef50_A0A163TBZ6 Pyrimidine dimer DNA glycosylase n=5 Tax=Prochlorococcus 
+marinus TaxID=1219 RepID=A0A163TBZ6_PROMR
+Length=173
+
+ Score = 152 bits (385),  Expect = 4e-44, Method: Composition-based stats.
+ Identities = 51/134 (38%), Positives = 76/134 (57%), Gaps = 1/134 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKR-VRDFKISPTFILGAGHVTFF  59
+            TRINL   SEL+DQHL+AEYRE+  V  A+++ + +        ++   F L  GHV FF
+Sbjct  24   TRINLVKPSELSDQHLVAEYREIFMVGSALQRSLKSKNWQRTKEQLPKEFTLNIGHVKFF  83
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+K ++L KR ++LI E   RG              P +F  D+ P+   I + + R++E
+Sbjct  84   YNKGKYLHKRYLDLINEMKSRGMRPDPERQFKKEQWPSDFYKDWEPNAKDIELIRKRIEE  143
+
+Query  120  KIAQRPTWYKYYGK  133
+            KI Q+PTWY++  K
+Sbjct  144  KINQKPTWYRWTKK  157
+
+
+> UniRef50_A0A1Z8LLG5 Uncharacterized protein n=1 Tax=Muricauda 
+sp. TMED12 TaxID=1986608 RepID=A0A1Z8LLG5_9FLAO
+Length=151
+
+ Score = 151 bits (381),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 51/137 (37%), Positives = 72/137 (53%), Gaps = 2/137 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   +  L DQHLMAEYRELP V  A+ + +++ + V    I   + L  GHV FFY
+Sbjct  2    TRINTIDIELLTDQHLMAEYRELPMVNAALSRSLSSARGVHHPSIPKQYTLNRGHVMFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFN--IKDTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            DK E+L  R  +LI E  KR ++   K   V+            + P   +  I+  RL 
+Sbjct  62   DKGEWLYNRYQQLITELYKRNYSIDPKSRVVKWQHFEDNGLYNTWKPDSQAHKINVERLL  121
+
+Query  119  EKIAQRPTWYKYYGKAI  135
+            E++ Q+ TWY++ G  I
+Sbjct  122  ERVNQKLTWYRWKGTPI  138
+
+
+> UniRef50_A9BBB4 Deoxyribonuclease n=20 Tax=cellular organisms 
+TaxID=131567 RepID=A9BBB4_PROM4
+Length=134
+
+ Score = 149 bits (377),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 48/131 (37%), Positives = 76/131 (58%), Gaps = 1/131 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKR-VRDFKISPTFILGAGHVTFF  59
+            TRINL    EL+DQHL+AEYRE+  +  A+++ + +    +    +   F L  GHV FF
+Sbjct  2    TRINLVKPIELSDQHLIAEYREIFMIGSALQRSMKSPNWNITKESLPKNFTLNTGHVRFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+K ++L KR +++I E  +RG N     + +    P E   D+ P+E  I + + R+ E
+Sbjct  62   YNKGKYLYKRYLDIIEEMKRRGMNPNPRRLFNKEQWPDELYNDWTPNEIDIQVVKERIKE  121
+
+Query  120  KIAQRPTWYKY  130
+            KI Q+P WY++
+Sbjct  122  KINQKPHWYRW  132
+
+
+> UniRef50_A0A2E9YUR2 Endonuclease V n=2 Tax=Proteobacteria TaxID=1224 
+RepID=A0A2E9YUR2_9RHOB
+Length=120
+
+ Score = 148 bits (374),  Expect = 4e-43, Method: Composition-based stats.
+ Identities = 49/123 (40%), Positives = 78/123 (63%), Gaps = 4/123 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL  +HL+AEYRELPR+FG VR  +A G++     +  T+ LGA HV FFY
+Sbjct  2    TRINCVPPAELTGKHLVAEYRELPRIFGLVRAAIARGEQP---AVMDTYRLGADHVRFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+             +L +L +RQ  LI E  +RG+  +      ++  P E+ GD+ P + ++A+++AR+ E+
+Sbjct  59   TRLAWLARRQAALIDEMKRRGYAPQYGAP-SLAGFPTEWCGDWQPTDEALALNRARIMER  117
+
+Query  121  IAQ  123
+            + +
+Sbjct  118  LPK  120
+
+
+> UniRef50_G9A558 Putative endonuclease V n=48 Tax=root TaxID=1 
+RepID=G9A558_RHIFH
+Length=151
+
+ Score = 148 bits (373),  Expect = 1e-42, Method: Composition-based stats.
+ Identities = 50/121 (41%), Positives = 73/121 (60%), Gaps = 1/121 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL+  HL+AEYRELPR+F  VR  +A G+   D +  P + LG GHV FFY
+Sbjct  22   TRINCIPPAELSGPHLVAEYRELPRIFPLVRAAIARGESPTDPRNPPAYTLGKGHVRFFY  81
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEASIAISQARLDE  119
+             +L +L KRQ  LIAE  +RG+       +  +S +P  +  D+ P   +IA+++ R+ E
+Sbjct  82   SRLAYLAKRQANLIAEMQRRGYRPAFLETEGLLSGLPLAWCNDWEPTLEAIALNRERIRE  141
+
+Query  120  K  120
+            +
+Sbjct  142  R  142
+
+
+> UniRef50_A0A2G6GLE6 Endonuclease n=1 Tax=Candidatus Gracilibacteria 
+bacterium TaxID=2044595 RepID=A0A2G6GLE6_9BACT
+Length=132
+
+ Score = 147 bits (370),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 67/135 (50%), Positives = 94/135 (70%), Gaps = 4/135 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   +EL DQHL+AEYRELPR+FGA+RK + N K   + K+   + +G GHV FFY
+Sbjct  2    TRINLINPAELVDQHLIAEYRELPRIFGAIRKKLKNNK---EIKVGKEYKMGIGHVIFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL KR  E++ EC KRGFNIK  ++ ++SD+P++++ D+ P    I IS++R+ EK
+Sbjct  59   DKLGFLEKRYYEIVKECKKRGFNIKFDSI-NLSDVPKKYKKDFFPSPKDIRISESRIKEK  117
+
+Query  121  IAQRPTWYKYYGKAI  135
+            +  +  +YK  GK I
+Sbjct  118  LKSKKGFYKMRGKII  132
+
+
+> UniRef50_A0A172PZW6 Endonuclease n=2 Tax=Np1virus TaxID=1982239 
+RepID=A0A172PZW6_9CAUD
+Length=163
+
+ Score = 147 bits (371),  Expect = 4e-42, Method: Composition-based stats.
+ Identities = 55/159 (35%), Positives = 80/159 (50%), Gaps = 24/159 (15%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN--------------------GKRV  40
+            TRINL    EL DQHL AE+RE+  V  ++R+ +                      G+ +
+Sbjct  4    TRINLVPPEELMDQHLFAEFREIKMVPKSLRRSLRAAEARDVKAHGYRDAYVQALMGQAI  63
+
+Query  41   RDFKISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD----IP  96
+                +   + L  GHV+FFYDK  +LRKR   L AE  +RG N    ++ D       + 
+Sbjct  64   VLEAVPKAYTLNTGHVSFFYDKALYLRKRYALLRAELERRGINFNRESLLDPDGVFDALD  123
+
+Query  97   QEFRGDYIPHEASIAISQARLDEKIAQRPTWYKYYGKAI  135
+            + FR DY P   ++A+ + R+ EKIA +P WY++ GK I
+Sbjct  124  ERFRKDYDPTPEALALVRQRIQEKIALKPHWYRHNGKPI  162
+
+
+> UniRef50_L2F625 Pyrimidine dimer DNA glycosylase/endonuclease 
+V n=6 Tax=Moraxella TaxID=475 RepID=L2F625_9GAMM
+Length=153
+
+ Score = 146 bits (368),  Expect = 8e-42, Method: Composition-based stats.
+ Identities = 62/138 (45%), Positives = 79/138 (57%), Gaps = 3/138 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN-GKRVRDFKISPTFILGAGHVTFF  59
+            TRIN+  V+EL DQHL AEYRE+ R+F  V +            KI PT+ +  GHV FF
+Sbjct  2    TRINVIDVNELTDQHLFAEYREITRIFTLVNQACKKHPVSAILKKIPPTYRMSTGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNI--KDTTVQDISDIPQEFRGDYIPHEASIAISQARL  117
+            YDKL F+ +R   L  E LKRGFN+  KD  V   + I   F  D+ P +  IA++  RL
+Sbjct  62   YDKLNFIEQRYFHLRHEVLKRGFNVTLKDDIVAFRTLIDPRFYQDFHPTKTDIAVNIGRL  121
+
+Query  118  DEKIAQRPTWYKYYGKAI  135
+             EKI  +P WYK +G  I
+Sbjct  122  LEKIHAKPNWYKIHGNLI  139
+
+
+> UniRef50_A0A2E2D601 Endonuclease V n=1 Tax=Methylophaga sp. TaxID=2024840 
+RepID=A0A2E2D601_9GAMM
+Length=131
+
+ Score = 143 bits (360),  Expect = 7e-41, Method: Composition-based stats.
+ Identities = 44/125 (35%), Positives = 69/125 (55%), Gaps = 2/125 (2%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  VSEL + HL+ E +E+ RVFG VRK    G    + K    + +G GHV F+Y
+Sbjct  2    TRINVVPVSELTNMHLLGENKEITRVFGLVRKAQQRGVNKWNLKAPSEYTMGTGHVKFYY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD--IPQEFRGDYIPHEASIAISQARLD  118
+             +L ++ KR  EL  E   RG+     + +D+      + + GDY P E ++ I++ R+ 
+Sbjct  62   TRLGYILKRYHELTQEMTSRGYKPNPISDEDLLQGIDKKHWMGDYEPTEGALKINRQRIA  121
+
+Query  119  EKIAQ  123
+            E++  
+Sbjct  122  ERLKD  126
+
+
+> UniRef50_A0A2G6GDE6 Deoxyribonuclease n=1 Tax=Candidatus Gracilibacteria 
+bacterium TaxID=2044595 RepID=A0A2G6GDE6_9BACT
+Length=132
+
+ Score = 142 bits (358),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 54/135 (40%), Positives = 81/135 (60%), Gaps = 8/135 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TR+NL  V +L DQHL+AE+RE+ R+   ++       +     I   ++LG GHV FFY
+Sbjct  2    TRVNLIPVEKLYDQHLLAEHREIKRIPNVIK-----SGKFHLDDIPKKYVLGKGHVKFFY  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL +R + L  EC KRGF +++ T    + +P+   GD+ P E  IA++Q+R+DEK
+Sbjct  57   DKLGFLHRRYLALYDECKKRGFAVENYTSAFEN-LPENLCGDFEPDEDDIALNQSRIDEK  115
+
+Query  121  IAQRPTWYKYYGKAI  135
+               R  +Y+  GK +
+Sbjct  116  --WRDNFYRMCGKIV  128
+
+
+> UniRef50_V8QS53 Endonuclease V n=1 Tax=Advenella kashmirensis 
+W13003 TaxID=1424334 RepID=V8QS53_9BURK
+Length=120
+
+ Score = 138 bits (348),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 44/122 (36%), Positives = 66/122 (54%), Gaps = 6/122 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   V EL+  HL+AEYRELPRVF    K    G     F     + LG GH+ FFY
+Sbjct  2    TRINCIPVEELSGPHLVAEYRELPRVFRLAEKAALRG----SFTQPGQYTLGPGHILFFY  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTV--QDISDIPQEFRGDYIPHEASIAISQARLD  118
+             +L +L KR  +L+ E   R +      V  ++  +IP ++  D+ P   ++AI++ R+ 
+Sbjct  58   TRLGYLAKRHGQLVKEMRNRNYKPAFEGVQRENFPNIPDQYWNDWEPTSEAMAINRERIL  117
+
+Query  119  EK  120
+            ++
+Sbjct  118  QR  119
+
+
+> UniRef50_A0A1J4UJI6 Uncharacterized protein n=1 Tax=Candidatus 
+Micrarchaeota archaeon CG1_02_51_15 TaxID=1805249 RepID=A0A1J4UJI6_9ARCH
+Length=138
+
+ Score = 138 bits (349),  Expect = 4e-39, Method: Composition-based stats.
+ Identities = 49/133 (37%), Positives = 71/133 (53%), Gaps = 8/133 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RINL    +LADQHL+AEY E+  + G V+K+   G       I   + LG GHV FF 
+Sbjct  2    VRINLVDPHKLADQHLVAEYDEILMLLGCVKKYPLPGG------IPEKYCLGKGHVKFFK  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL +L++R  E+  E  + GF  + T    +   P + + D+ P +    +  ARL  K
+Sbjct  56   DKLAYLKRRFEEIKREMKRWGFKPRKTV--SLKGFPAKLKNDWAPSKEDERVIHARLAWK  113
+
+Query  121  IAQRPTWYKYYGK  133
+            I  +P +Y Y+GK
+Sbjct  114  IRSKPGFYTYFGK  126
+
+
+> UniRef50_D2TFG7 Putative endonuclease n=13 Tax=Coccolithovirus 
+TaxID=346673 RepID=D2TFG7_9PHYC
+Length=128
+
+ Score = 138 bits (348),  Expect = 5e-39, Method: Composition-based stats.
+ Identities = 49/126 (39%), Positives = 76/126 (60%), Gaps = 4/126 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+   +EL ++HLMAEYRELPR+F  V+K V NG  V D      + +G GHV FF 
+Sbjct  2    TRINVVPSTELTNKHLMAEYRELPRIFTEVKKKVNNGISVNDLTQPEHYKMGQGHVMFFM  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDI----SDIPQEFRGDYIPHEASIAISQAR  116
+             +  +L  R + L  E ++RG+++ D     I    +DIP EF   Y P ++++ I++AR
+Sbjct  62   SRCGWLIHRYVMLHDELIRRGYSLNDEMYTSIVNGVNDIPMEFMDWYEPTDSAMTINRAR  121
+
+Query  117  LDEKIA  122
+            + +++ 
+Sbjct  122  ITDRLN  127
+
+
+> UniRef50_A0A023NGV8 Putative deoxyribonuclease n=4 Tax=root TaxID=1 
+RepID=A0A023NGV8_9CAUD
+Length=148
+
+ Score = 138 bits (348),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 44/127 (35%), Positives = 69/127 (54%), Gaps = 1/127 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL   S L DQHL+AE+RE  R+   ++   A   +V   K    + LG GH+ +FY
+Sbjct  2    TRINLIDPSLLTDQHLLAEHRETTRIPNTIKSGKAKVDKVSLAKTPYKYTLGTGHIKYFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDIS-DIPQEFRGDYIPHEASIAISQARLDE  119
+             KL +L+KR  ++  EC++RGFN+K+   + +  D P  F    +  E S+ I+  R+  
+Sbjct  62   RKLSWLKKRYEDVTEECIRRGFNVKNIWPEGLEQDFPHLFLDRDVVTEESLKINVERVLL  121
+
+Query  120  KIAQRPT  126
+            +  +   
+Sbjct  122  RFPKSAR  128
+
+
+> UniRef50_C8N6T7 Pyrimidine dimer DNA glycosylase n=34 Tax=root 
+TaxID=1 RepID=C8N6T7_CARH6
+Length=127
+
+ Score = 135 bits (341),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 49/129 (38%), Positives = 74/129 (57%), Gaps = 6/129 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL    EL DQHL+AE+REL R+  AV +      R         + LG GHV FF+
+Sbjct  2    TRINLVPPQELCDQHLLAEHRELTRIPNAVARG-----RYHLRGQPADYKLGEGHVRFFF  56
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL +L++R   L AEC  R FN+++    ++   P     DY P  A++A+++AR+ E+
+Sbjct  57   DKLAYLQQRYQALHAECRARSFNVQNIWPDNLPADPA-LWRDYQPTAAALALNRARIQER  115
+
+Query  121  IAQRPTWYK  129
+            + + P + +
+Sbjct  116  MPKTPRFTR  124
+
+
+> UniRef50_A0A2G9NSA3 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_35_13 
+TaxID=1974445 RepID=A0A2G9NSA3_9ARCH
+Length=150
+
+ Score = 135 bits (341),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 43/134 (32%), Positives = 64/134 (48%), Gaps = 7/134 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RIN+     L DQHL+AEY E+  +   ++K+          +I   + LG GH+ FF 
+Sbjct  10   VRINIINPKRLTDQHLIAEYNEILMLIAYIKKYPLKEG-----EIPEEYCLGRGHMKFFK  64
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K+ +L+ R   +  E   RGF      V     I ++    + P      I   R+ EK
+Sbjct  65   NKVGYLKGRHETISKEMRNRGFKTNKKVVT--KGISKKAMNKWKPTIKDKEIIIKRITEK  122
+
+Query  121  IAQRPTWYKYYGKA  134
+            I ++P WYKYYGK 
+Sbjct  123  IMKKPEWYKYYGKK  136
+
+
+> UniRef50_A0A2E7NWS7 Uncharacterized protein n=1 Tax=Herbaspirillum 
+sp. TaxID=1890675 RepID=A0A2E7NWS7_9BURK
+Length=181
+
+ Score = 135 bits (339),  Expect = 5e-37, Method: Composition-based stats.
+ Identities = 49/138 (36%), Positives = 72/138 (52%), Gaps = 8/138 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN     +L DQHL AE+RELPR+F   R    +G+R    KI  ++ LGAGHV FFY
+Sbjct  13   TRINTISPMDLLDQHLFAEWRELPRIFALARYWSDSGERS---KIPDSYRLGAGHVRFFY  69
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNI-----KDTTVQDISDIPQEFRGDYIPHEASIAISQA  115
+            DKL++L  R   L +E L RG+ +     +   ++ +     +    + P  A   I+  
+Sbjct  70   DKLQWLAYRHAILTSELLARGYKLGSYDEQREYLKWLKAEYPQLWNGWEPSPADHRINLQ  129
+
+Query  116  RLDEKIAQRPTWYKYYGK  133
+            RL  K+  +P +Y    +
+Sbjct  130  RLQAKLEAKPDFYTQKKR  147
+
+
+> UniRef50_M4QUK4 DenV endonuclease V n=6 Tax=Viruses TaxID=10239 
+RepID=M4QUK4_9CAUD
+Length=159
+
+ Score = 133 bits (336),  Expect = 8e-37, Method: Composition-based stats.
+ Identities = 42/132 (32%), Positives = 63/132 (48%), Gaps = 7/132 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    S++ DQHL+AE+RELPR+  ++    A    +    I   + LG  HV FFY
+Sbjct  2    TRINTIKPSDILDQHLIAEWRELPRIPNSILSGKAK---LDLKIIPDQYKLGQNHVRFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE----FRGDYIPHEASIAISQAR  116
+            +KL +L+KR   +  E  +R  N   +   D++ +          D+ P      I+  R
+Sbjct  59   NKLSYLQKRHTMICEEMDRRSINRDKSITVDLTSLNLVLKACLCNDWQPTSRDHNINIER  118
+
+Query  117  LDEKIAQRPTWY  128
+            L E+   R   Y
+Sbjct  119  LQERFDLRKRAY  130
+
+
+> UniRef50_A0A1G3M2M6 Uncharacterized protein n=1 Tax=Spirochaetes 
+bacterium GWB1_59_5 TaxID=1802176 RepID=A0A1G3M2M6_9SPIR
+Length=143
+
+ Score = 133 bits (334),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 46/136 (34%), Positives = 67/136 (49%), Gaps = 6/136 (4%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVA-NGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN+   + L+DQHLMAEY E+  V  ++R+ +           +   + L  GHV FF
+Sbjct  2    TRINIIDPALLSDQHLMAEYHEIFMVPASLRRSLRTRSISAIMDSVPMQYTLNKGHVLFF  61
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQ-DISDIPQEFRGDYIPHEA----SIAISQ  114
+            YDK  +L +R   L      RGFN+        +  IP  F   + P E     +  I  
+Sbjct  62   YDKRAYLAERYETLKEHLTGRGFNLDPARADFPLHGIPDGFLKGWTPTEEERHAAECIIF  121
+
+Query  115  ARLDEKIAQRPTWYKY  130
+             RL+EK++ RP WY++
+Sbjct  122  KRLEEKLSMRPEWYRW  137
+
+
+> UniRef50_D4G8V4 Endonuclease V n=28 Tax=Proteobacteria TaxID=1224 
+RepID=D4G8V4_RIEPU
+Length=140
+
+ Score = 132 bits (333),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 46/127 (36%), Positives = 63/127 (50%), Gaps = 5/127 (4%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+    EL DQHL+AE  E+ R+   V K     K  +       +ILG GHV FF 
+Sbjct  2    TRINVVQPIELCDQHLLAENMEIIRIPNYVIKKFGLVKISKV----SQYILGKGHVIFFR  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DKL FL KR + L  EC+ RGF +     + +         DY   E  I  ++ R+ EK
+Sbjct  58   DKLLFLYKRYMLLQKECINRGFKVNFRWPKSVIQY-VSLWKDYKVTECDIKKNRIRIYEK  116
+
+Query  121  IAQRPTW  127
+            +  +P +
+Sbjct  117  MPPKPRF  123
+
+
+> UniRef50_Q56C32 DenV endonuclease V n=5 Tax=Myoviridae TaxID=10662 
+RepID=Q56C32_9CAUD
+Length=161
+
+ Score = 132 bits (333),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 53/143 (37%), Positives = 71/143 (50%), Gaps = 11/143 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    S L ++HL+AE RELPR+  AV    A    +   KI   + LG GHVTFFY
+Sbjct  2    TRINTIDPSLLLNEHLIAELRELPRIPNAVLSGKAK---INLSKIPAVYTLGTGHVTFFY  58
+
+Query  61   DKLEFLRKRQIELIAECLKR-GFNIKDTTVQDISDIP-------QEFRGDYIPHEASIAI  112
+            +KL +LR R   L AE L R G    D T +D    P       +    D+ P   S+ I
+Sbjct  59   NKLGYLRDRHAALRAEYLARNGKEYMDGTYEDFDLSPLLNSLFHRHLCADWKPTPESVKI  118
+
+Query  113  SQARLDEKIAQRPTWYKYYGKAI  135
+            +  R+ E+   R   Y++  + I
+Sbjct  119  NVERIRERFELRKRAYRFGTEII  141
+
+
+> UniRef50_A0A0K0PVT7 Endonuclease V n=1 Tax=Roseobacter phage 
+RDJL Phi 2 TaxID=1682380 RepID=A0A0K0PVT7_9CAUD
+Length=120
+
+ Score = 130 bits (328),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 52/120 (43%), Positives = 72/120 (60%), Gaps = 2/120 (2%)
+
+Query  6    TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEF  65
+              V EL   HL+AEYRELPRVF  +R   A G+R+ D +    ++LG GHV FFYDK  F
+Sbjct  1    MPVEELTGPHLVAEYRELPRVFKLMRAAQARGERIDDRRNPTEYVLGTGHVRFFYDKGLF  60
+
+Query  66   LRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEF-RGDYIPHEASIAISQARLDEKIAQ  123
+            L KRQ  L+AE  +RG+N   T   D + D    +   D+ P E ++AI++AR+ E++  
+Sbjct  61   LLKRQKALVAEMQRRGYNPSYTDPADLLPDGLDVWRMMDWTPDENALAINRARITERLEA  120
+
+
+> UniRef50_A0A075E151 Endonuclease V n=15 Tax=Viruses TaxID=10239 
+RepID=A0A075E151_9CAUD
+Length=151
+
+ Score = 130 bits (328),  Expect = 8e-36, Method: Composition-based stats.
+ Identities = 47/127 (37%), Positives = 69/127 (54%), Gaps = 9/127 (7%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  V  L DQHL+AEY EL      V  +V NGKR         + L  GHV FF 
+Sbjct  2    TRINVIPVESLCDQHLLAEYTEL----APVVLNVVNGKRRNLKGAPKQYKLNEGHVLFFR  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDI--SDIPQE---FRGDYIPHEASIAISQA  115
+            DKL +L +R  +L+AE L RG+ +   ++++    D  QE   +  DY P +A++  +  
+Sbjct  58   DKLIYLIERYDQLVAELLSRGYTVNYPSLRNQVTPDNRQELAIYLNDYQPTQAAVEENVE  117
+
+Query  116  RLDEKIA  122
+            R+ E++ 
+Sbjct  118  RIVERLN  124
+
+
+> UniRef50_A0A076YLS9 Putative endonuclease n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A076YLS9_9CAUD
+Length=132
+
+ Score = 128 bits (323),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 47/121 (39%), Positives = 69/121 (57%), Gaps = 1/121 (1%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRINL    +L  +HL  EY ELPRVF AV+K +   ++  +F     + +G GHV FFY
+Sbjct  2    TRINLIPPKQLHPKHLQGEYFELPRVFTAVQKAILKNRKPEEFAHLTGYRMGTGHVQFFY  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+             +L FL +R   L+ E  +R  NI    + D   IP E+ G + P EA I I++ R++ +
+Sbjct  62   PRLHFLEQRFKLLVHELFQRNVNINRFHLSDFH-IPIEWFGSWSPTEAEIEINRQRINAR  120
+
+Query  121  I  121
+            +
+Sbjct  121  L  121
+
+
+> UniRef50_A0A088C505 Pyrimidine dimer DNA glycosylase n=2 Tax=unclassified 
+Myoviridae TaxID=196896 RepID=A0A088C505_9CAUD
+Length=159
+
+ Score = 128 bits (322),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 42/132 (32%), Positives = 66/132 (50%), Gaps = 7/132 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    S+L ++ L+AE+ EL R+   +   ++   ++   +I  +F +G GH  FF+
+Sbjct  2    TRINTVNPSDLTNEWLLAEFTELLRIPNKI---LSGKTKLDKNRIPASFRMGTGHEIFFH  58
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE----FRGDYIPHEASIAISQAR  116
+            DKL++L  R   +  ECL RG NI      +   +PQ     +  D+ P +A   I   R
+Sbjct  59   DKLKWLHDRHNAITKECLSRGININTNFKFNYDSLPQVVKLFYYNDWKPSQADHGILIER  118
+
+Query  117  LDEKIAQRPTWY  128
+            L E+   R   Y
+Sbjct  119  LQERFDLRKKAY  130
+
+
+> UniRef50_A0A2H9PNB7 Uncharacterized protein n=2 Tax=DPANN group 
+TaxID=1783276 RepID=A0A2H9PNB7_9ARCH
+Length=139
+
+ Score = 128 bits (321),  Expect = 8e-35, Method: Composition-based stats.
+ Identities = 40/133 (30%), Positives = 73/133 (55%), Gaps = 8/133 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             R+NL    +LADQHL+AEY E+  +   +++            I   + LG GH+ FF 
+Sbjct  2    VRVNLVNPKKLADQHLIAEYDEILMLVAYIKR------YPEVDGIPEEYCLGEGHMRFFK  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +KL++L+KR   +  E  KR F +  T   D+    ++ +G++I  +  + + + R+  K
+Sbjct  56   NKLDYLKKRHELIKKEMKKRNFQVNKTV--DLQGFNEKNKGNWIAKKEDLNLIKKRIITK  113
+
+Query  121  IAQRPTWYKYYGK  133
+            +  +PT+Y++YG+
+Sbjct  114  LRLKPTYYRHYGE  126
+
+
+> UniRef50_A0A1V0DYJ9 Putative endonuclease n=2 Tax=root TaxID=1 
+RepID=A0A1V0DYJ9_9VIRU
+Length=130
+
+ Score = 127 bits (319),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 46/128 (36%), Positives = 67/128 (52%), Gaps = 7/128 (5%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN+  V EL ++HL AEYRELPR            +R  D KI+P ++LG GH  FF 
+Sbjct  2    TRINVVPVEELTNKHLFAEYRELPRAMRRAVLATYKSRRPSDIKIAPAYLLGTGHELFFI  61
+
+Query  61   DKLEFLRKRQIELIAECLKRGFN-------IKDTTVQDISDIPQEFRGDYIPHEASIAIS  113
+            DK  +L  R ++L  E + RG+N       I  +  + I     +F G Y P   +  I+
+Sbjct  62   DKCAWLYSRWLQLRNELVARGYNLGEQFQTIVRSRARFIRRHGSQFYGSYQPTADAAIIN  121
+
+Query  114  QARLDEKI  121
+            + R+ E++
+Sbjct  122  RQRIQERL  129
+
+
+> UniRef50_A0A2H0NCN3 Endonuclease n=1 Tax=Candidatus Komeilibacteria 
+bacterium CG11_big_fil_rev_8_21_14_0_20_36_20 TaxID=1974477 
+RepID=A0A2H0NCN3_9BACT
+Length=135
+
+ Score = 124 bits (312),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 45/130 (35%), Positives = 65/130 (50%), Gaps = 11/130 (8%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN    +EL D+HL+AEYRELPRVF         G +    +   ++ +GAGHV FFY
+Sbjct  2    TRINCIPPNELHDKHLLAEYRELPRVFTLAYNAYLRGYK----QTVHSYTMGAGHVKFFY  57
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIK-------DTTVQDISDIPQEFRGDYIPHEASIAIS  113
+            DKL +L  R I+L  E  KRG                    I   +  ++ P E    I+
+Sbjct  58   DKLGYLAIRHIQLCNEMQKRGMTTNLANCHKEHRNKCIDDAIFATYWNNWTPSELDKHIN  117
+
+Query  114  QARLDEKIAQ  123
+            + R++ ++A+
+Sbjct  118  RERINIRLAE  127
+
+
+> UniRef50_Q6U9S3 Endonuclease V n=8 Tax=Viruses TaxID=10239 RepID=Q6U9S3_9CAUD
+Length=152
+
+ Score = 124 bits (311),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 47/128 (37%), Positives = 71/128 (55%), Gaps = 4/128 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGA-VRKHVANGKRVRDFKI--SPTFILGAGHVT  57
+            TRINL   S L + HL+ E+ E PRV    ++K+   GK  + F +  +     G GHVT
+Sbjct  2    TRINLEHPSLLCNAHLVGEWYENPRVASILIKKNGRTGKIPKRFTVRTNKNPDGGRGHVT  61
+
+Query  58   FFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD-IPQEFRGDYIPHEASIAISQAR  116
+            FFY+KL +LR R + L+ E  KRG++  D    +I         G++ P EA I++S+ R
+Sbjct  62   FFYNKLAWLRDRYLMLMDEMTKRGYSPTDNWKVEIFFPEYTHLFGEWTPTEADISLSRTR  121
+
+Query  117  LDEKIAQR  124
+            + E I ++
+Sbjct  122  IAEMIPEK  129
+
+
+> UniRef50_Q6WHU9 DenV Endonuclease V n=7 Tax=Schizot4virus TaxID=1198137 
+RepID=Q6WHU9_BPKVM
+Length=138
+
+ Score = 122 bits (307),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 42/126 (33%), Positives = 64/126 (51%), Gaps = 7/126 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRIN   V  L+D+HL+AEY+E+ R F  V K +     + +  I   ++LG GH TFF+
+Sbjct  2    TRINCMPVETLSDKHLLAEYKEITRPFNKVEKRIQ-AHTMGNVTIPSHYVLGTGHETFFF  60
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDI------PQEFRGDYIPHEASIAISQ  114
+            DKL +L  R  +L  E L RG NI      +I +          +   + P    + ++ 
+Sbjct  61   DKLHYLYVRYRDLCEELLHRGVNINVDQFDEICEWIERTFVDTPYWNYWTPRPEDMYLNM  120
+
+Query  115  ARLDEK  120
+            ARL ++
+Sbjct  121  ARLVKR  126
+
+
+> UniRef50_Q19CY9 Endonuclease V n=4 Tax=Myoviridae TaxID=10662 
+RepID=Q19CY9_9CAUD
+Length=153
+
+ Score = 121 bits (304),  Expect = 4e-32, Method: Composition-based stats.
+ Identities = 46/128 (36%), Positives = 71/128 (55%), Gaps = 4/128 (3%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGA-VRKHVANGKRVRDFKI--SPTFILGAGHVT  57
+            TRINL   S L + HL+ E+ E PRV    ++K+   GK    F +  +   + G GHVT
+Sbjct  2    TRINLEHPSLLCNAHLIGEWYENPRVASILIKKNGKTGKIPSKFTVRTNKNPLGGRGHVT  61
+
+Query  58   FFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISD-IPQEFRGDYIPHEASIAISQAR  116
+            FFY+KL +LR R + L+ E  KRG++  D    +I         G++ P +A I++S+ R
+Sbjct  62   FFYNKLAWLRDRYLMLMEEMTKRGYSATDNWKVEIFFPEYAHLFGEWEPSKADISLSRTR  121
+
+Query  117  LDEKIAQR  124
+            + E I ++
+Sbjct  122  ISEMIPEK  129
+
+
+> UniRef50_D9PM99 Pyrimidine dimer DNA glycosylase n=1 Tax=sediment 
+metagenome TaxID=749907 RepID=D9PM99_9ZZZZ
+Length=120
+
+ Score = 118 bits (295),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 43/125 (34%), Positives = 69/125 (55%), Gaps = 7/125 (6%)
+
+Query  1    TRINL-TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN+     +L  +HL+AE+RE+ R+   +    A  K      I   F LG GHV FF
+Sbjct  2    TRINVGINPKDLIREHLIAEHREIKRIPNMIVSGKAIIK-----NIPNEFTLGEGHVKFF  56
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+            Y+KL +L KR   L  EC KR + +++      ++IP+E   ++ P +  I + + RL+E
+Sbjct  57   YNKLNYLLKRYRLLYKECKKRNYKVQNYENAW-NNIPKELMNNWKPKDKDINLIRKRLEE  115
+
+Query  120  KIAQR  124
+            K+ ++
+Sbjct  116  KLNKK  120
+
+
+> UniRef50_M1GXH5 Endonuclease V n=3 Tax=unclassified Chlorovirus 
+TaxID=346674 RepID=M1GXH5_9PHYC
+Length=120
+
+ Score = 117 bits (293),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 39/113 (35%), Positives = 56/113 (50%), Gaps = 3/113 (3%)
+
+Query  25   RVFGAVRKHVANGK-RVRDFKISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFN  83
+             V  A+ + +          KI   F +  GHV FFY+K  +L KR  EL AE ++RGF 
+Sbjct  1    MVPKALARSLRTQSADKVAKKIPAKFTMNTGHVLFFYNKGMYLHKRYAELTAELVRRGFK  60
+
+Query  84   IKDTTVQDISD--IPQEFRGDYIPHEASIAISQARLDEKIAQRPTWYKYYGKA  134
+            I      D         +  DYIP E ++AI + R+ EKIA +P +YK++   
+Sbjct  61   INVDAPLDPEGTMDSAPWNDDYIPTEEALAIIRQRIAEKIAMKPLFYKFFDAP  113
+
+
+> UniRef50_S4T813 Endonuclease V n=1 Tax=Vibrio phage VPMS1 TaxID=1233488 
+RepID=S4T813_9CAUD
+Length=154
+
+ Score = 116 bits (291),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 43/133 (32%), Positives = 64/133 (48%), Gaps = 15/133 (11%)
+
+Query  11   LADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEFLRKRQ  70
+            L DQHL   YRE+ R+  A R  + + +        P +++GAGH+ FFYDK +FL ++ 
+Sbjct  11   LLDQHLFIAYREVTRISTAARLLLPSEEV-------PAYVMGAGHMKFFYDKGKFLARQC  63
+
+Query  71   IELIAECLKRG--FNIKDTTVQDISDI------PQEFRGDYIPHEASIAISQARLDEKIA  122
+             EL   C+ RG   NI   T +   +       P     D+ P   +   S  RL EK+ 
+Sbjct  64   EELYQACITRGKWPNITHKTYKPHPEYVCPVSGPVSLNNDWQPDRQAHLASLIRLHEKLQ  123
+
+Query  123  QRPTWYKYYGKAI  135
+             +P +Y   GK +
+Sbjct  124  DKPNFYTLNGKPV  136
+
+
+> UniRef50_A0A2G9N2D6 Endonuclease V n=1 Tax=Candidatus Diapherotrites 
+archaeon CG11_big_fil_rev_8_21_14_0_20_37_9 TaxID=1974407 
+RepID=A0A2G9N2D6_9ARCH
+Length=155
+
+ Score = 111 bits (278),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 42/134 (31%), Positives = 68/134 (51%), Gaps = 8/134 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             R+NL   S L DQH++AEY E+  +   ++         ++ KI   F LG GH+ FF 
+Sbjct  2    VRVNLIDPSALTDQHIIAEYNEILMLCTYLKNA------KQETKIPEKFTLGKGHMKFFL  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            +K  +L+KR   L  E  KRGF  +     ++    +   G++ P +  + I +  + EK
+Sbjct  56   NKATYLKKRHDNLKKEMKKRGFKQEKKI--NLKYFKKFNLGNWQPEKEDLQIIKKIIIEK  113
+
+Query  121  IAQRPTWYKYYGKA  134
+            I  +P +Y+YY K 
+Sbjct  114  IKMKPEFYRYYKKP  127
+
+
+> UniRef50_A0A1F6ZD53 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon RBG_13_36_9 TaxID=1801881 RepID=A0A1F6ZD53_9ARCH
+Length=140
+
+ Score = 110 bits (274),  Expect = 7e-28, Method: Composition-based stats.
+ Identities = 46/134 (34%), Positives = 69/134 (51%), Gaps = 8/134 (6%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RINL     LADQHL+AEY E+  + G V K                + LG GH+ FF 
+Sbjct  2    VRINLINPKNLADQHLIAEYNEILMLLGHVDK------FPTIKNQPKKYCLGKGHINFFK  55
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEK  120
+            DK+E+L++R   +  E   RGF I  T   +++   +E+R ++ P      I + RL +K
+Sbjct  56   DKIEYLKERHELIKNEMKNRGFKISKTI--NLNKYTKEYRKNWKPKTKDKEIIKKRLIKK  113
+
+Query  121  IAQRPTWYKYYGKA  134
+            I  +P +Y+Y G+ 
+Sbjct  114  INLKPDYYRYIGEK  127
+
+
+> UniRef50_A0A2E4W8I9 Deoxyribonuclease n=1 Tax=Acidobacteria bacterium 
+TaxID=1978231 RepID=A0A2E4W8I9_9BACT
+Length=142
+
+ Score = 105 bits (261),  Expect = 7e-26, Method: Composition-based stats.
+ Identities = 40/137 (29%), Positives = 70/137 (51%), Gaps = 14/137 (10%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFI-LGAGHV---  56
+            TR+N+  V  L D+HL+AE RE+ R+       + +GK V + KI  +++    G +   
+Sbjct  2    TRVNVVPVETLGDKHLLAELREIKRIPN----KLIDGKYVLN-KIPDSYVEYRKGRMVLV  56
+
+Query  57   -TFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQE---FRGDYIPHEASIAI  112
+              FF ++L+++ KR   L  E   R FN+    + D++ + Q+   F  D+ P  +    
+Sbjct  57   EKFFVNRLKWVYKRYKLLYNEAKFRKFNVN-WLLPDMNLLKQKYPWFWNDWTPSTSDYEA  115
+
+Query  113  SQARLDEKIAQRPTWYK  129
+            + +RL E+I   P+  K
+Sbjct  116  NVSRLAERIKANPSLTK  132
+
+
+> UniRef50_A0A2D0K1E8 Uncharacterized protein n=2 Tax=Xenorhabdus 
+TaxID=626 RepID=A0A2D0K1E8_9GAMM
+Length=96
+
+ Score = 102 bits (254),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 30/93 (32%), Positives = 49/93 (53%), Gaps = 1/93 (1%)
+
+Query  43   FKISPTFILGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGD  102
+               S  ++LG GHV FF DKL FL+KR   +  ECL RGF++ +   + +S        D
+Sbjct  3    LSTSEKYLLGKGHVIFFRDKLFFLKKRYEAIHQECLNRGFSVVNIWPEGVSVY-HHLWND  61
+
+Query  103  YIPHEASIAISQARLDEKIAQRPTWYKYYGKAI  135
+            Y   E  I+++ AR+ E++  +  +   + + I
+Sbjct  62   YQVTEEDISVNMARIKERMPIKARFSPCFDRKI  94
+
+
+> UniRef50_C4WNE1 Endonuclease V n=1 Tax=Ochrobactrum intermedium 
+LMG 3301 TaxID=641118 RepID=C4WNE1_9RHIZ
+Length=76
+
+ Score = 100 bits (249),  Expect = 8e-25, Method: Composition-based stats.
+ Identities = 30/76 (39%), Positives = 49/76 (64%), Gaps = 1/76 (1%)
+
+Query  51   LGAGHVTFFYDKLEFLRKRQIELIAECLKRGFNIKDTTVQD-ISDIPQEFRGDYIPHEAS  109
+            +G GHV FFY +L +L KRQ  +I E L RG++ + T +   +   P  +  D+ P E +
+Sbjct  1    MGKGHVRFFYPRLGYLAKRQAAIIDEMLARGYSPQFTNIDQLLDGFPDVWCNDWEPTEDA  60
+
+Query  110  IAISQARLDEKIAQRP  125
+            +AI++AR+ E++A+RP
+Sbjct  61   VAINRARISERLAKRP  76
+
+
+> UniRef50_A0A1V5KCC5 Pyrimidine dimer DNA glycosylase n=1 Tax=Firmicutes 
+bacterium ADurb.Bin506 TaxID=1852895 RepID=A0A1V5KCC5_9FIRM
+Length=139
+
+ Score = 99.2 bits (246),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 49/137 (36%), Positives = 63/137 (46%), Gaps = 19/137 (14%)
+
+Query  1    TRINL-TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFF  59
+            TRIN    V EL DQHL+AEYRELPR+    R      K V D      F L  GH+   
+Sbjct  2    TRINAGIPVEELCDQHLLAEYRELPRMVKFAR----TVKDVPDV----DFCLNTGHMKSV  53
+
+Query  60   YDKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+                 +L  R  +LIAE  +RGF+     +Q   D    F   + P +A +A++   L  
+Sbjct  54   VRYGAYLVGRHHQLIAEMRRRGFDPLMPPLQ-YKDFTSRF--SHYPSQAWLALAVHVLRP  110
+
+Query  120  KIAQR-------PTWYK  129
+            +I  R       PTW K
+Sbjct  111  RIVDRLSSMKREPTWTK  127
+
+
+> UniRef50_G1UNN1 Uncharacterized protein n=2 Tax=Desulfovibrio 
+TaxID=872 RepID=G1UNN1_9DELT
+Length=118
+
+ Score = 88.1 bits (217),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 27/124 (22%), Positives = 45/124 (36%), Gaps = 25/124 (20%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ L   S +  +HL+ E+ EL  + G ++K  +    +    I P              
+Sbjct  2    RMWLVPPSHMCRKHLLGEHVELHMLLGTLKKGKSITGFLSGGLIDPCR------------  49
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAIS------QA  115
+                + KR  EL+ E  +RG+       ++      E   DY    A I I+      + 
+Sbjct  50   ----MYKRHGELVREMERRGYAHNSPLTEEEC---TEALRDYDCSTAHIDINANALELRR  102
+
+Query  116  RLDE  119
+            R  E
+Sbjct  103  RCRE  106
+
+
+> UniRef50_A0A1F8X2K4 Pyrimidine dimer DNA glycosylase n=1 Tax=Deltaproteobacteria 
+bacterium GWA2_54_12 TaxID=1797808 RepID=A0A1F8X2K4_9DELT
+Length=117
+
+ Score = 87.7 bits (216),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 27/129 (21%), Positives = 45/129 (35%), Gaps = 16/129 (12%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+       L D+HL+ E+ E+  ++  +   +        F   P      G       
+Sbjct  2    RVWDIDPKLLCDRHLLGEHNEIHTIWSIIINGLKG------FSNHPETNRWRG-------  48
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIK---DTTVQDISDIPQEFRGDYIPHEASIAISQARLD  118
+            KL+ L  R      E  KRGF  K   D  +     +  E +      E  ++   A   
+Sbjct  49   KLKALYLRHEATAGEMEKRGFRHKSPLDERLATGKAVQDELKDSIEAQEKLLSEKDADCA  108
+
+Query  119  EKIAQRPTW  127
+            E+I++R   
+Sbjct  109  ERISKRKEA  117
+
+
+> UniRef50_A0A2H0TZ49 Pyrimidine dimer DNA glycosylase n=16 Tax=root 
+TaxID=1 RepID=A0A2H0TZ49_9BACT
+Length=116
+
+ Score = 83.1 bits (204),  Expect = 8e-18, Method: Composition-based stats.
+ Identities = 23/89 (26%), Positives = 36/89 (40%), Gaps = 11/89 (12%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+    V  L  +HL+ E+REL  ++  + KH   G      +              +  
+Sbjct  2   RVWDIHVKHLCKKHLLGEHRELHGLWNILTKHGGKGGYSHHPET-----------KRWIG  50
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQ  90
+           KL+ L  R  EL+AE  KRG+       +
+Sbjct  51  KLKALYNRHEELVAEMTKRGYKHNSPLDK  79
+
+
+> UniRef50_A0A1L9C4I4 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=30 Tax=cellular organisms 
+TaxID=131567 RepID=A0A1L9C4I4_9EURY
+Length=109
+
+ Score = 82.7 bits (203),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 25/87 (29%), Positives = 37/87 (43%), Gaps = 13/87 (15%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI     SEL  QHL+ E+REL  ++  + K+       + +   P  +   G       
+Sbjct  2   RIWDLPPSELCRQHLLGEHRELHALWSIITKN------KKAYSNHPETLRWKG-------  48
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTT  88
+           KL  L  R   L++E  KRG+N     
+Sbjct  49  KLHALYLRHETLVSEMQKRGYNHNSPL  75
+
+
+> UniRef50_A0A1Q3NK72 Uncharacterized protein n=1 Tax=Solirubrobacterales 
+bacterium 67-14 TaxID=1895832 RepID=A0A1Q3NK72_9ACTN
+Length=117
+
+ Score = 79.2 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 22/91 (24%), Positives = 35/91 (38%), Gaps = 11/91 (12%)
+
+Query  2   RINL-TLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKI--SPTFILGAGHVTF  58
+           RI      S L   HL+ E+REL  ++  + + + +G+   +      P      GH   
+Sbjct  2   RIWDRIPPSSLCRSHLLGEHRELHGLWNILLR-IESGEDPSEVGYAAHPETRRWIGHQR-  59
+
+Query  59  FYDKLEFLRKRQIELIAECLKRGFNIKDTTV  89
+                  L  R   L+ E L RG+N +    
+Sbjct  60  ------ALYDRHEALVGEMLARGYNHRSPLP  84
+
+
+> UniRef50_A0A1F6Z3K6 Uncharacterized protein n=1 Tax=Candidatus 
+Pacearchaeota archaeon RBG_19FT_COMBO_34_9 TaxID=1801883 RepID=A0A1F6Z3K6_9ARCH
+Length=104
+
+ Score = 78.8 bits (193),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 25/118 (21%), Positives = 40/118 (34%), Gaps = 19/118 (16%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ +     L  QHL+ E+ E+ +  G +R      K +                  F +
+Sbjct  2    RMWMIEPELLCRQHLLGEHFEIHKAAGNLRHSGKWTKSLTRKG--------------FLE  47
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+               FL  R  +L+ E  +RGF           D+P          E S+   + R  E
+Sbjct  48   PQNFL-SRHNKLVIEMERRGFMHNSPLNVSDIDLPDGNVN----TEMSVRDLRKRCGE  100
+
+
+> UniRef50_B2A8A2 Uncharacterized protein n=30 Tax=root TaxID=1 
+RepID=B2A8A2_NATTJ
+Length=111
+
+ Score = 79.2 bits (194),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 21/113 (19%), Positives = 37/113 (33%), Gaps = 16/113 (14%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            RI       L  +HL+ E+REL  ++  +        +        T          + +
+Sbjct  2    RIWDIQPHFLCRKHLLGEHRELHALWNIL-----TQGKKGYQNHPETCR--------WKE  48
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQD---ISDIPQEFRGDYIPHEASIA  111
+            KL  L  R  +L+ E   RG+  K     +     D   E+       +  + 
+Sbjct  49   KLRALYNRHEQLVQELKARGYQHKSPLNSELATGQDFQDEYIDSIEVQKQILK  101
+
+
+> UniRef50_A0A1G3LYT1 Uncharacterized protein n=1 Tax=Spirochaetes 
+bacterium GWB1_59_5 TaxID=1802176 RepID=A0A1G3LYT1_9SPIR
+Length=112
+
+ Score = 78.8 bits (193),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 24/118 (20%), Positives = 45/118 (38%), Gaps = 18/118 (15%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ +     +  QHL+ E+ EL    G ++K       + + +I   F            
+Sbjct  2    RMWMVPPETMCRQHLLGEHVELHMFVGTIKKGRGIDGFL-EQRILEPF------------  48
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+                + +R   L+AE  +RG+N K         +P + +   +  +AS+     R  E
+Sbjct  49   ---AIEQRHEALVAEMTRRGYNHKSPLYS--PALPLKLKQVTVDAKASLTKLLRRCPE  101
+
+
+> UniRef50_M0M868 Uncharacterized protein n=3 Tax=Halococcus TaxID=2249 
+RepID=M0M868_9EURY
+Length=113
+
+ Score = 78.8 bits (193),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 25/122 (20%), Positives = 38/122 (31%), Gaps = 24/122 (20%)
+
+Query  3    INLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDK  62
+            +    V  L  QHL  E+ E  ++ G +             +      +  GH       
+Sbjct  1    MWCVPVGILCKQHLAGEHAEHHQLEGTI------------LRHPHGEAIAEGHAERGNID  48
+
+Query  63   LEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEKIA  122
+               L +R  +L AE  +RG N       D             P   + AI   R  E + 
+Sbjct  49   TTRLEERHDDLAAEMERRGMNHDSPLDYDG------------PTFGAGAIDVERNREDLL  96
+
+Query  123  QR  124
+            +R
+Sbjct  97   ER  98
+
+
+> UniRef50_F9Q6K9 Deoxyribonuclease V n=1 Tax=Haemophilus pittmaniae 
+HK 85 TaxID=1035188 RepID=F9Q6K9_9PAST
+Length=67
+
+ Score = 75.7 bits (185),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 17/66 (26%), Positives = 37/66 (56%), Gaps = 1/66 (2%)
+
+Query  66   LRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDEKIAQRP  125
+            +++R   L AEC  RGFN++    +++ D P     DY   E ++ +++ R+ E++ Q+ 
+Sbjct  1    MKQRYDALHAECKARGFNVQYIWNENLPDDPT-LWQDYQATEQALQLNRQRIRERMPQKA  59
+
+Query  126  TWYKYY  131
+             + ++ 
+Sbjct  60   RFTQHR  65
+
+
+> UniRef50_A0A2E6DU31 Uncharacterized protein n=1 Tax=Euryarchaeota 
+archaeon TaxID=2026739 RepID=A0A2E6DU31_9EURY
+Length=110
+
+ Score = 76.9 bits (188),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 17/92 (18%), Positives = 38/92 (41%), Gaps = 16/92 (17%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+ +     +  +HL+ E+  +  + G ++K ++    + +  +                
+Sbjct  2   RMWMLPPEIMCRKHLLGEHVXMHMLVGTLQKGISVQGYIDNQLV----------------  45
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDIS  93
+           +LE +R+R  +L+ E L RG+N K        
+Sbjct  46  ELEHIRERHDQLVKEMLHRGYNHKSPLPDYPE  77
+
+
+> UniRef50_A0A256Z3I4 Uncharacterized protein n=1 Tax=Candidatus 
+Bathyarchaeota archaeon ex4484_40 TaxID=2012513 RepID=A0A256Z3I4_9ARCH
+Length=127
+
+ Score = 77.3 bits (189),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 21/130 (16%), Positives = 41/130 (32%), Gaps = 21/130 (16%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+             RI    V  L  QHL+ E+ EL  +   + +                          F 
+Sbjct  2    VRIWRLPVWILDRQHLLGEHNELHTIVSVILRGGGGWWNHPQTN-------------RFK  48
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEA----SIAISQAR  116
+             +L  L  R  + + E  +RG+N +    +     P+ +              + +   R
+Sbjct  49   GRLGLLVDRHRQQVEEMERRGYNHRSPLPK-FDYKPERYVLGVAYTREEMLADLNLLIER  107
+
+Query  117  ---LDEKIAQ  123
+               ++E++  
+Sbjct  108  KGVIEERVRD  117
+
+
+> UniRef50_A0A0Q0WL37 Uncharacterized protein n=3 Tax=Acidiplasma 
+TaxID=507753 RepID=A0A0Q0WL37_9EURY
+Length=158
+
+ Score = 77.7 bits (190),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 21/121 (17%), Positives = 42/121 (35%), Gaps = 22/121 (18%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ +     +   HL+ E+ E+    G +R+    G+   +  I    +L          
+Sbjct  2    RMWMVNPKYMCSSHLLGEHNEIHMAVGYLREGNHLGRYASEKLIQVNTMLS---------  52
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPH-----EASIAISQAR  116
+                   R  +L+ E L RG+      + D ++I      ++        + S+ I   R
+Sbjct  53   -------RHNQLVEEMLSRGYKHNSPLIFDPTEIAGHLF-EWELSVVIDPKYSLNILMGR  104
+
+Query  117  L  117
+             
+Sbjct  105  C  105
+
+
+> UniRef50_A0A0G0CND0 Uncharacterized protein n=4 Tax=root TaxID=1 
+RepID=A0A0G0CND0_9BACT
+Length=110
+
+ Score = 76.1 bits (186),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 16/89 (18%), Positives = 34/89 (38%), Gaps = 16/89 (18%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+       L ++HL+ E+ E+    G + K+++    + +  ++P              
+Sbjct  2   RMWGVNPELLCNKHLLGEHVEMHMFAGTIAKNISIQGYLDNKLVNPIE------------  49
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQ  90
+               +  R   L+ E  KRG N +    +
+Sbjct  50  ----INDRHDLLVIEMQKRGMNHQSPLQK  74
+
+
+> UniRef50_A0A0W0GHT5 Pyrimidine dimer DNA glycosylase/DNA-(Apurinic 
+or apyrimidinic site) lyase n=5 Tax=Bacteria TaxID=2 RepID=A0A0W0GHT5_9CHLR
+Length=109
+
+ Score = 75.0 bits (183),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 20/116 (17%), Positives = 39/116 (34%), Gaps = 21/116 (18%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ L     +  +HL+ E+ EL  + G +R+  +    ++                    
+Sbjct  2    RMWLVDPRLMCRRHLLGEHVELHMLAGCLRRGKSIDGYLQGLVDP---------------  46
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARL  117
+                +  R  +L+ E   RGF+ +          P        P E ++A  + R 
+Sbjct  47   --ALIACRHEQLVREMNNRGFSHRSPLDAPECPQPA---ASISP-ERNLAELRRRC  96
+
+
+> UniRef50_F9Q6L0 Deoxyribonuclease V domain protein n=1 Tax=Haemophilus 
+pittmaniae HK 85 TaxID=1035188 RepID=F9Q6L0_9PAST
+Length=61
+
+ Score = 73.1 bits (178),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 26/58 (45%), Positives = 32/58 (55%), Gaps = 5/58 (9%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTF  58
+           TRINL   +EL DQHL+AE+REL R+  AV K      +         + LG GHV F
+Sbjct  2   TRINLVPPAELCDQHLLAEHRELTRIPNAVAKG-----KYHLKGQPTEYKLGEGHVRF  54
+
+
+> UniRef50_A0A1F6BDA6 Pyrimidine dimer DNA glycosylase n=1 Tax=Candidatus 
+Gottesmanbacteria bacterium RIFOXYB1_FULL_47_11 TaxID=1798401 
+RepID=A0A1F6BDA6_9BACT
+Length=113
+
+ Score = 73.1 bits (178),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 20/91 (22%), Positives = 32/91 (35%), Gaps = 11/91 (12%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI       L  +HL+AE+REL  ++  +  H   G   R  +              +  
+Sbjct  2   RIWDIHPKYLCRKHLLAEHRELHGLWNILTIHKGKGGYSRHPET-----------IRWIG  50
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDI  92
+           K   L  R   L+ E  +RG+       +  
+Sbjct  51  KTLALFNRHEALVKEFTRRGYQHLTPLNKKY  81
+
+
+> UniRef50_A0A1M7SRQ7 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=1 Tax=Desulfovibrio litoralis 
+DSM 11393 TaxID=1121455 RepID=A0A1M7SRQ7_9DELT
+Length=107
+
+ Score = 72.3 bits (176),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 20/119 (17%), Positives = 39/119 (33%), Gaps = 21/119 (18%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TR+      ++  +HL+ E+ E+  +  ++     + K  +D       +          
+Sbjct  2    TRMWGVNPKKMCRKHLLGEHVEMHMLASSIDTG-RSVKGFQDNNCLDAPL----------  50
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASIAISQARLDE  119
+                 + +R  +L  E L+RG+          +        D     AS     AR  E
+Sbjct  51   -----IEERHNQLADEMLRRGYKHNSPLYHQNNLASTPIDVD-----ASYKELIARCRE  99
+
+
+> UniRef50_A0A1V5RB15 Pyrimidine dimer DNA glycosylase n=22 Tax=cellular 
+organisms TaxID=131567 RepID=A0A1V5RB15_9BACT
+Length=111
+
+ Score = 72.3 bits (176),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 19/89 (21%), Positives = 32/89 (36%), Gaps = 11/89 (12%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI          +HL+AE+REL  ++  +  H   G   R  +              +  
+Sbjct  2   RIWDLPPKHFCHKHLVAEHRELHGLWNILTIHRGQGGYSRHPET-----------LRWVG  50
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQ  90
+           K + L  R   L+ E  +RG+       +
+Sbjct  51  KTKALYSRHKLLVKEFKRRGYRHLSPLDK  79
+
+
+> UniRef50_A0A2H9KYM6 Uncharacterized protein n=1 Tax=Candidatus 
+Micrarchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_45_29 
+TaxID=1974417 RepID=A0A2H9KYM6_9ARCH
+Length=107
+
+ Score = 68.4 bits (166),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 15/92 (16%), Positives = 33/92 (36%), Gaps = 16/92 (17%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+       +   HL+ E+ E+    G+++K ++    ++   ++P              
+Sbjct  2   RMWGISPKLMCRAHLLGEHVEMHMFSGSIKKKISICGYLQKNLVNPY-------------  48
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDIS  93
+               + KR   L  E  +RG+  K      + 
+Sbjct  49  ---LIEKRHDALAKEMKRRGYAHKSPLHLSLP  77
+
+
+> UniRef50_A0A0M0BIR6 Uncharacterized protein n=1 Tax=miscellaneous 
+Crenarchaeota group archaeon SMTZ-80 TaxID=1685135 RepID=A0A0M0BIR6_9ARCH
+Length=110
+
+ Score = 67.3 bits (163),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 14/92 (15%), Positives = 33/92 (36%), Gaps = 16/92 (17%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+ +   S +  +HL+ E+ E+    G + K ++    +    +                
+Sbjct  2   RMWMIEPSLMCKKHLLGEHCEIHMFVGTLNKGISIQGYIDKGLL----------------  45
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDIS  93
+           ++  L+ R   L+ E  +RG   + +      
+Sbjct  46  EIHNLKLRHELLMKEMNRRGMKHRSSLPTFKE  77
+
+
+> UniRef50_A0A1L8CQ10 Pyrimidine dimer DNA glycosylase n=1 Tax=Mariprofundus 
+micogutta TaxID=1921010 RepID=A0A1L8CQ10_9PROT
+Length=227
+
+ Score = 64.2 bits (155),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/100 (23%), Positives = 40/100 (40%), Gaps = 15/100 (15%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI       LA Q L+ E+REL  +F  + +        + +   P  +   GH+     
+Sbjct  2   RIWDVHPGYLARQQLLGEHRELHGLFNILDQG------KKAYSKHPETVRWIGHIP----  51
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDISD--IPQEF  99
+               L  R   L++E L RG+       Q  ++   P+++
+Sbjct  52  ---ALLLRHSLLVSEMLLRGYQHHSDLSQTNTEIIWPEQY  88
+
+
+> UniRef50_A0A256C6Q2 Uncharacterized protein n=1 Tax=Wohlfahrtiimonas 
+sp. G9077 TaxID=1980118 RepID=A0A256C6Q2_9GAMM
+Length=54
+
+ Score = 58.8 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 17/36 (47%), Positives = 23/36 (64%), Gaps = 0/36 (0%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN  36
+           TRIN+  V  L DQHL+AE+REL R+   + K +  
+Sbjct  2   TRINVVDVETLCDQHLLAEHRELTRIPNDIVKRLGK  37
+
+
+> UniRef50_A0A2H0K3L5 Uncharacterized protein n=5 Tax=unclassified 
+Zetaproteobacteria TaxID=1131280 RepID=A0A2H0K3L5_9PROT
+Length=227
+
+ Score = 60.7 bits (146),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 23/94 (24%), Positives = 34/94 (36%), Gaps = 13/94 (14%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI       L  + L+ E+REL  +F  V  H       + +   P  +    H      
+Sbjct  2   RIWDLNPGYLDRKRLLGEHRELHGLFNIVSLH------KKGYSHHPETLRWVNH------  49
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDI  95
+            L  L  R   L++E L RG+       +   DI
+Sbjct  50  -LPALCMRHGLLVSEMLLRGYRHHSPLPEIAEDI  82
+
+
+> UniRef50_A0A0S8KKC9 Uncharacterized protein n=2 Tax=Anaerolineae 
+bacterium SM23_84 TaxID=1703388 RepID=A0A0S8KKC9_9CHLR
+Length=239
+
+ Score = 60.3 bits (145),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 17/87 (20%), Positives = 28/87 (32%), Gaps = 13/87 (15%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+       L  Q L+ E+RE+  +   +          R F   P  +    H      
+Sbjct  2   RVWDVNPGYLNRQSLLGEHREMHALVSIIEN------EKRGFAHHPETLRWRRH------  49
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTT  88
+            L  L+ R   ++ E   RG+      
+Sbjct  50  -LGALKLRHDLVVEEMALRGYRHHSPV  75
+
+
+> UniRef50_A0A1V6GP08 Pyrimidine dimer DNA glycosylase n=3 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A1V6GP08_9DELT
+Length=243
+
+ Score = 59.6 bits (143),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 17/92 (18%), Positives = 32/92 (35%), Gaps = 13/92 (14%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+       L  + L+ E+RE+  +F  +      G R    +   T    A        
+Sbjct  2   RVWDINPGYLNRESLLGEHREVHALFSVI-----GGGRRGYARHPETLRWSAC-------  49
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQDIS  93
+            +  L  R   ++ E L RG+     +  + +
+Sbjct  50  -MGALVLRHDLIVQEMLLRGYRHMSPSPAEET  80
+
+
+> UniRef50_A0A1F3Y7F3 Uncharacterized protein n=1 Tax=Bdellovibrionales 
+bacterium RIFOXYD1_FULL_55_31 TaxID=1797404 RepID=A0A1F3Y7F3_9PROT
+Length=250
+
+ Score = 59.2 bits (142),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 25/118 (21%), Positives = 42/118 (36%), Gaps = 17/118 (14%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            RI       L  Q L+ E+ E+  +   +R H       + +   P  +   GH+     
+Sbjct  2    RIWDIHPGYLDSQSLLGEHGEIHGLISVLRNH------KKGYSNHPETLRWKGHM-----  50
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQD--ISDIPQEFRGDY--IPHEASIAISQA  115
+            K   L  R  +L AE   R +N +         SD+   +  D+   P E    + + 
+Sbjct  51   KAACL--RHDQLAAEMRFRAYNHRTPVTAFSLESDLTASWPKDFIDEPGEQFRKLKRK  106
+
+
+> UniRef50_A0A1F2VTZ1 Uncharacterized protein n=3 Tax=Bacteria 
+TaxID=2 RepID=A0A1F2VTZ1_9ACTN
+Length=238
+
+ Score = 59.2 bits (142),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/124 (22%), Positives = 48/124 (39%), Gaps = 17/124 (14%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+       L+ Q L+ E+ E+  ++  + K      +   + + P       H      
+Sbjct  2    RVWDIHPGYLSTQSLLGEHAEIHAIYSIISK------KKSGYSMHPETRRWKEH------  49
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHEASI-AISQARLDEK  120
+             LEFL  R   ++ E + RGFN       D S    E + D++P    +  +    L +K
+Sbjct  50   -LEFLVIRHNLVLKEMVLRGFNHNSPCPSDKS---IESKIDHVPSYIDLPEVQFEILQKK  105
+
+Query  121  IAQR  124
+              Q+
+Sbjct  106  YKQK  109
+
+
+> UniRef50_A0A0B3BE99 Pyrimidine dimer DNA glycosylase n=10 Tax=Bacteria 
+TaxID=2 RepID=A0A0B3BE99_9THEO
+Length=257
+
+ Score = 58.0 bits (139),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 17/90 (19%), Positives = 29/90 (32%), Gaps = 13/90 (14%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           RI       L  ++L+ E+REL  +       +    +        T          + +
+Sbjct  2   RIWDISPGYLNRENLLGEHRELHGIVS-----IYINNKKGYASHPET--------KRWKE  48
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDTTVQD  91
+            L  L  R I L+ E   RG+  +      
+Sbjct  49  CLPALYMRHILLVEEMRLRGYRHESPLPVS  78
+
+
+> UniRef50_UPI000A052036 hypothetical protein n=1 Tax=Xenorhabdus 
+hominickii TaxID=351679 RepID=UPI000A052036
+Length=75
+
+ Score = 54.2 bits (129),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/30 (60%), Positives = 23/30 (77%), Gaps = 0/30 (0%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAV  30
+           TRIN+ L SEL DQHL+AE+REL R+   +
+Sbjct  2   TRINVILSSELCDQHLLAEHRELTRIPNDI  31
+
+
+> UniRef50_A0A1W2ER69 Pyrimidine dimer DNA glycosylase /DNA-(Apurinic 
+or apyrimidinic site) lyase n=8 Tax=root TaxID=1 RepID=A0A1W2ER69_9DELT
+Length=232
+
+ Score = 56.5 bits (135),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/103 (19%), Positives = 31/103 (30%), Gaps = 15/103 (15%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            RI       L  Q L+ E+REL  +   +       K+    K   T          +  
+Sbjct  2    RIWDISPGYLNRQSLLGEHRELHGIVSIIIN-----KKKGYAKHPETIR--------WVG  48
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTV--QDISDIPQEFRGD  102
+                LR R  +L  E   RG+  +       +    P  +   
+Sbjct  49   YGWALRMRHKQLAREMALRGYRDRSPVKTRSNKGQWPATYIDS  91
+
+
+> UniRef50_A0A1W9N3S3 Uncharacterized protein n=2 Tax=Desulfobacteraceae 
+bacterium IS3 TaxID=1934248 RepID=A0A1W9N3S3_9DELT
+Length=244
+
+ Score = 56.1 bits (134),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/106 (19%), Positives = 36/106 (34%), Gaps = 17/106 (16%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+       L D+ L+ E+RE+  +   +       ++    +   T          F D
+Sbjct  2    RVWDIDAGFLNDRSLLGEHREIHGLVSVIIH-----QKTGYSRHPETLRW-----KSFTD  51
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTT----VQDISDIPQEFRGDY  103
+                L  R   L+AE   RGF  +       + +   +   +  DY
+Sbjct  52   ---ALALRHELLVAEMTLRGFKHRSPLEPVDLLNHHCLNLSWPSDY  94
+
+
+> UniRef50_A0A1Q6DSM5 Pyrimidine dimer DNA glycosylase T4 endoV 
+family n=2 Tax=Candidatus Methanohalarchaeum thermophilum TaxID=1903181 
+RepID=A0A1Q6DSM5_9EURY
+Length=127
+
+ Score = 53.4 bits (127),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 23/117 (20%), Positives = 48/117 (41%), Gaps = 11/117 (9%)
+
+Query  2    RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+            R+ +     +  QH++ E+REL  + G++ +           + + T +  +G +     
+Sbjct  2    RMWMIDPELMCMQHVVGEHRELHALKGSLERTKPKYDNHEKHRKNLTTLAKSGIIE----  57
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIKDTTVQDISD--IPQEFRGDYIPHEASIAISQAR  116
+             L+ L++R  EL+        N K    +  +   +P+E R   +  E +I     R
+Sbjct  58   -LKSLKERHEELVEYMD----NHKSPIGETPTLEHLPEEVRNAEVDKEKAIKDLINR  109
+
+
+> UniRef50_A0A060BH08 Endonuclease V N-glysidase n=1 Tax=Escherichia 
+phage vB_EcoM_JS09 TaxID=1430444 RepID=A0A060BH08_9CAUD
+Length=45
+
+ Score = 49.6 bits (117),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 28/36 (78%), Positives = 31/36 (86%), Gaps = 0/36 (0%)
+
+Query  1   TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVAN  36
+           T INLTLVS+ ADQHL+AEY ELPRVFG +RKHVA 
+Sbjct  5   TYINLTLVSKFADQHLIAEYCELPRVFGIIRKHVAK  40
+
+
+> UniRef50_E1VP45 Uncharacterized protein n=13 Tax=Proteobacteria 
+TaxID=1224 RepID=E1VP45_9GAMM
+Length=230
+
+ Score = 51.5 bits (122),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 17/81 (21%), Positives = 30/81 (37%), Gaps = 13/81 (16%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+       L    L+ E+REL  +     + +    +    K   T          + +
+Sbjct  2   RVWDLSPGYLNRGSLLGEHRELHGL-----RSILLNNKKGYSKHPETVR--------WVN  48
+
+Query  62  KLEFLRKRQIELIAECLKRGF  82
+            L  L +R  +L+AE   RG+
+Sbjct  49  CLSGLDRRHDQLVAEMRIRGY  69
+
+
+> UniRef50_A0A0E3PSL1 Uncharacterized protein n=1 Tax=Methanosarcina 
+siciliae C2J TaxID=1434118 RepID=A0A0E3PSL1_9EURY
+Length=51
+
+ Score = 48.8 bits (115),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 11/53 (21%), Positives = 21/53 (40%), Gaps = 6/53 (11%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAG  54
+           RI       +  QHL+ E+REL  ++  +  +       + +   P  +   G
+Sbjct  2   RIWDIPPENMCRQHLLGEHRELHALWSIITNN------KKAYAHHPETLRWKG  48
+
+
+> UniRef50_A0A1Y3GAG3 Pyrimidine dimer DNA glycosylase T4 endoV 
+family n=1 Tax=Methanonatronarchaeum thermophilum TaxID=1927129 
+RepID=A0A1Y3GAG3_9EURY
+Length=126
+
+ Score = 49.6 bits (117),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 22/130 (17%), Positives = 49/130 (38%), Gaps = 17/130 (13%)
+
+Query  5    LTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLE  64
+            +     +  QH++ E+REL  + G++ +     K     + +   +   G++      L+
+Sbjct  1    MINPEHMCIQHILGEHRELHALMGSIERTKPGYKGFERHRNNIKALARDGYIE-----LK  55
+
+Query  65   FLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHE-ASIAISQARLDEKIAQ  123
+             L+ R  +L+        N      +  +        +YIP E     ++  +  + +  
+Sbjct  56   SLKTRHEQLVGYLK----NHNSPIEEVPTL-------EYIPKEVIEAEVNIEKSRKDLID  104
+
+Query  124  RPTWYKYYGK  133
+            RP   +  GK
+Sbjct  105  RPQACRPNGK  114
+
+
+> UniRef50_C0GFI4 Uncharacterized protein n=1 Tax=Dethiobacter 
+alkaliphilus AHT 1 TaxID=555088 RepID=C0GFI4_9FIRM
+Length=239
+
+ Score = 49.9 bits (118),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 13/86 (15%), Positives = 25/86 (29%), Gaps = 13/86 (15%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYD  61
+           R+       L+ Q L+ ++ E+  +   +       K+        T          + +
+Sbjct  2   RVWDIHPGYLSRQSLLGQHAEIHAIINIIVN-----KKRGYAAHPET--------KRWKE  48
+
+Query  62  KLEFLRKRQIELIAECLKRGFNIKDT  87
+            L  L  R    + E   R F     
+Sbjct  49  NLVPLVARHDLTVKEMRLRKFKHASP  74
+
+
+> UniRef50_D7DSY0 Uncharacterized protein n=1 Tax=Methanococcus 
+voltae (strain ATCC BAA-1334 / A3) TaxID=456320 RepID=D7DSY0_METV3
+Length=127
+
+ Score = 48.0 bits (113),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 20/82 (24%), Positives = 34/82 (41%), Gaps = 16/82 (20%)
+
+Query  7   LVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFYDKLEFL  66
+            V  L  +HL + + E   + G++++     K                HV F   ++E +
+Sbjct  9   PVEALCQKHLGSAHVESHMLLGSLKRRRQITK----------------HVEFDQVEVESI  52
+
+Query  67  RKRQIELIAECLKRGFNIKDTT  88
+           +KR  EL  E  +RG+N K   
+Sbjct  53  KKRHDELAKEMSERGYNHKSDL  74
+
+
+> UniRef50_A0A0G0ILG0 Uncharacterized protein n=1 Tax=Parcubacteria 
+group bacterium GW2011_GWA2_38_13 TaxID=1618811 RepID=A0A0G0ILG0_9BACT
+Length=40
+
+ Score = 46.1 bits (108),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 12/36 (33%), Positives = 21/36 (58%), Gaps = 0/36 (0%)
+
+Query  2   RINLTLVSELADQHLMAEYRELPRVFGAVRKHVANG  37
+           R+       L  ++L+AE+REL  ++  + +H ANG
+Sbjct  2   RVWDIHPKHLCRKYLLAEHRELHGLWNILTQHKANG  37
+
+
+> UniRef50_A0A2H6GKQ6 Pyrimidine dimer DNA glycosylase n=1 Tax=bacterium 
+BMS3Abin14 TaxID=2005722 RepID=A0A2H6GKQ6_9BACT
+Length=262
+
+ Score = 49.2 bits (116),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 32/107 (30%), Gaps = 16/107 (15%)
+
+Query  1    TRINLTLVSELADQHLMAEYRELPRVFGAVRKHVANGKRVRDFKISPTFILGAGHVTFFY  60
+            TRI        +DQHL+AE+  L  +  A+            F+              F 
+Sbjct  2    TRIFSVHPKYFSDQHLVAEHDHLHEILDALGDDDKTSDNTDVFR--------------FN  47
+
+Query  61   DKLEFLRKRQIELIAECLKRGFNIKDTTVQDISDIPQEFRGDYIPHE  107
+             +   L  R   L  E   R      TT+ D   IP          +
+Sbjct  48   GRRGLLYIRHRMLAEEMGVRAME--HTTLIDRMKIPSTEWDSLEVDD  92
+
+
+> UniRef50_A0A0E3LE48 Uncharacterized protein n=1 Tax=Methanosarcina 
+siciliae C2J TaxID=1434118 RepID=A0A0E3LE48_9EURY
+Length=64
+
+ Score = 43.8 bits (102),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 16/58 (28%), Positives = 24/58 (41%), Gaps = 6/58 (10%)
+
+Query  62   KLEFLRKRQIELIAECLKRGFNIK---DTTVQDISDIPQEFRGDYIPHEASIAISQAR  116
+            KL+ L  R   L+ E  +RG+N     D  +     +  EF   Y   E  + I + R
+Sbjct  4    KLKALYLRHEALVEEMRRRGYNHHTPLDPALATGKAVQDEFVDSY---EKQVRILKER  58
+
+
+> UniRef50_C9V5M4 Pyrimidine dimer DNA glycosylase n=2 Tax=root 
+TaxID=1 RepID=C9V5M4_BRUNE
+Length=33
+
+ Score = 43.0 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 12/29 (41%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  94   DIPQEFRGDYIPHEASIAISQARLDEKIA  122
+             IP E+R D+ P   +IAI++AR+ E++ 
+Sbjct  4    GIPLEWRADWEPTAEAIAINRARIAERLR  32
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.146    0.450    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0448    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238597771466
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

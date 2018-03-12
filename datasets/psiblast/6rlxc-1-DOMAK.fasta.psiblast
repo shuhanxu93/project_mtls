@@ -1,0 +1,113 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 6rlxc-1-DOMAK
+
+Length=24
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437...  52.4    7e-08
+
+
+> UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437010 
+RepID=REL2_HUMAN
+Length=185
+
+ Score = 52.4 bits (124),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  2    LYSALANKCCHVGCTKRSLARFC  24
+            LYSALANKCCHVGCTKRSLARFC
+Sbjct  163  LYSALANKCCHVGCTKRSLARFC  185
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.137    0.500    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 227844113232
+Results from round 2
+
+
+Query= 6rlxc-1-DOMAK
+
+Length=24
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437...  52.3    7e-08
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef50_P04090 Prorelaxin H2 n=41 Tax=Boreoeutheria TaxID=1437010 
+RepID=REL2_HUMAN
+Length=185
+
+ Score = 52.3 bits (124),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 23/23 (100%), Positives = 23/23 (100%), Gaps = 0/23 (0%)
+
+Query  2    LYSALANKCCHVGCTKRSLARFC  24
+            LYSALANKCCHVGCTKRSLARFC
+Sbjct  163  LYSALANKCCHVGCTKRSLARFC  185
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.137    0.500    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0435    0.140     1.90     42.6     43.6 
+
+Effective search space used: 227844113232
+
+Search has CONVERGED!
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,414 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 2mhu
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_UPI00080A05C1 metallothionein isoform X1 n=2 Tax=Haplo...  57.0    9e-10
+  UniRef50_P02795 Metallothionein-2 n=176 Tax=Eutheria TaxID=9347...  56.2    1e-09
+  UniRef50_UPI000CA03901 uncharacterized protein LOC101355582 iso...  57.0    2e-09
+  UniRef50_P04732-2 Isoform 2 of Metallothionein-1E n=10 Tax=Simi...  57.0    2e-09
+  UniRef50_A0A1D5RHR6 Metallothionein n=1 Tax=Macaca mulatta TaxI...  55.8    3e-09
+  UniRef50_H3BRY8 Metallothionein n=8 Tax=Boreoeutheria TaxID=143...  54.7    4e-09
+  UniRef50_P68303 Metallothionein-2 n=23 Tax=Amniota TaxID=32524 ...  54.7    4e-09
+  UniRef50_UPI00083F463B uncharacterized protein LOC103880462 iso...  55.8    5e-09
+  UniRef50_H3BSS0 Metallothionein n=10 Tax=Catarrhini TaxID=9526 ...  53.9    1e-08
+  UniRef50_L9KU08 Metallothionein-2 n=1 Tax=Tupaia chinensis TaxI...  53.9    2e-08
+  UniRef50_UPI000273DD7B uncharacterized protein LOC100457885 n=1...  53.5    1e-07
+  UniRef50_UPI00045E0183 metallothionein-1E-like isoform X2 n=1 T...  51.2    2e-07
+  UniRef50_H3BR34 Metallothionein n=3 Tax=Hominoidea TaxID=314295...  49.3    6e-07
+  UniRef50_S9WMZ9 Uncharacterized protein n=1 Tax=Camelus ferus T...  46.6    8e-06
+  UniRef50_Q86YX6 Metallothionein n=11 Tax=Euteleostomi TaxID=117...  45.1    2e-05
+  UniRef50_H9KWX1 Metallothionein n=1 Tax=Callithrix jacchus TaxI...  44.7    2e-05
+  UniRef50_H9FMQ2 Metallothionein n=6 Tax=Boreoeutheria TaxID=143...  44.7    3e-05
+  UniRef50_A0A1D5RLN7 Metallothionein-1 n=5 Tax=Murinae TaxID=391...  45.1    3e-05
+  UniRef50_G1QP37 Metallothionein n=3 Tax=Boreoeutheria TaxID=143...  43.5    7e-05
+  UniRef50_S7PG17 Metallothionein-2 n=3 Tax=Boreoeutheria TaxID=1...  42.7    2e-04
+  UniRef50_M3XWU8 Uncharacterized protein n=6 Tax=Boreoeutheria T...  43.1    2e-04
+  UniRef50_P04732 Metallothionein-1E n=18 Tax=Catarrhini TaxID=95...  40.8    7e-04
+
+
+> UniRef50_UPI00080A05C1 metallothionein isoform X1 n=2 Tax=Haplorrhini 
+TaxID=376913 RepID=UPI00080A05C1
+Length=78
+
+ Score = 57.0 bits (136),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSC AGDSCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCTAGDSCTCAGSCKCKECKCTSCK  30
+
+
+> UniRef50_P02795 Metallothionein-2 n=176 Tax=Eutheria TaxID=9347 
+RepID=MT2_HUMAN
+Length=61
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCAAGDSCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+
+
+> UniRef50_UPI000CA03901 uncharacterized protein LOC101355582 isoform 
+X1 n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=UPI000CA03901
+Length=142
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCA GDSC CAGSCKCKEC+CTSCK
+Sbjct  1   MDPNCSCATGDSCVCAGSCKCKECRCTSCK  30
+
+
+> UniRef50_P04732-2 Isoform 2 of Metallothionein-1E n=10 Tax=Simiiformes 
+TaxID=314293 RepID=P04732-2
+Length=127
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCA G SCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCATGGSCTCAGSCKCKECKCTSCK  30
+
+
+> UniRef50_A0A1D5RHR6 Metallothionein n=1 Tax=Macaca mulatta TaxID=9544 
+RepID=A0A1D5RHR6_MACMU
+Length=97
+
+ Score = 55.8 bits (133),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCAAG SC CAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCAAGVSCACAGSCKCKECKCTSCK  30
+
+
+> UniRef50_H3BRY8 Metallothionein n=8 Tax=Boreoeutheria TaxID=1437010 
+RepID=H3BRY8_HUMAN
+Length=44
+
+ Score = 54.7 bits (130),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCAAG SCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCAAGVSCTCAGSCKCKECKCTSCK  30
+
+
+> UniRef50_P68303 Metallothionein-2 n=23 Tax=Amniota TaxID=32524 
+RepID=MT2_MACFA
+Length=61
+
+ Score = 54.7 bits (130),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSC AGDSCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCVAGDSCTCAGSCKCKECKCTSCK  30
+
+
+> UniRef50_UPI00083F463B uncharacterized protein LOC103880462 isoform 
+X1 n=2 Tax=Simiiformes TaxID=314293 RepID=UPI00083F463B
+Length=131
+
+ Score = 55.8 bits (133),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCAAG SCTCAGSCKCK CKCTSCK
+Sbjct  1   MDPNCSCAAGGSCTCAGSCKCKACKCTSCK  30
+
+
+> UniRef50_H3BSS0 Metallothionein n=10 Tax=Catarrhini TaxID=9526 
+RepID=H3BSS0_HUMAN
+Length=68
+
+ Score = 53.9 bits (128),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCAAG SCTCA SCKCKECKCTSCK
+Sbjct  1   MDPNCSCAAGVSCTCASSCKCKECKCTSCK  30
+
+
+> UniRef50_L9KU08 Metallothionein-2 n=1 Tax=Tupaia chinensis TaxID=246437 
+RepID=L9KU08_TUPCH
+Length=130
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCA G SCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCAPGGSCTCAGSCKCKECKCTSCK  30
+
+
+> UniRef50_UPI000273DD7B uncharacterized protein LOC100457885 n=1 
+Tax=Pongo abelii TaxID=9601 RepID=UPI000273DD7B
+Length=270
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2    DPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+            DPNCSCA G SCTCAGSCKCKECKCTSCK
+Sbjct  211  DPNCSCATGGSCTCAGSCKCKECKCTSCK  239
+
+
+> UniRef50_UPI00045E0183 metallothionein-1E-like isoform X2 n=1 
+Tax=Chlorocebus sabaeus TaxID=60711 RepID=UPI00045E0183
+Length=89
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDP+CSCAAG SCTC GSCKCKECKCTSCK
+Sbjct  1   MDPDCSCAAGGSCTCTGSCKCKECKCTSCK  30
+
+
+> UniRef50_H3BR34 Metallothionein n=3 Tax=Hominoidea TaxID=314295 
+RepID=H3BR34_HUMAN
+Length=70
+
+ Score = 49.3 bits (116),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 25/29 (86%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSC  29
+           MDPNCSC  G SC CAGSCKCKECKCTSC
+Sbjct  1   MDPNCSCTTGGSCACAGSCKCKECKCTSC  29
+
+
+> UniRef50_S9WMZ9 Uncharacterized protein n=1 Tax=Camelus ferus 
+TaxID=419612 RepID=S9WMZ9_CAMFR
+Length=118
+
+ Score = 46.6 bits (109),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 22/30 (73%), Positives = 25/30 (83%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSC+ G SC CA SC CK+C+CTSCK
+Sbjct  1   MDPNCSCSTGGSCICAASCTCKDCRCTSCK  30
+
+
+> UniRef50_Q86YX6 Metallothionein n=11 Tax=Euteleostomi TaxID=117571 
+RepID=Q86YX6_HUMAN
+Length=40
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 23/27 (85%), Positives = 23/27 (85%), Gaps = 0/27 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCT  27
+           MDPN SC  G SCTCAGSCKCKECKCT
+Sbjct  1   MDPNYSCTTGGSCTCAGSCKCKECKCT  27
+
+
+> UniRef50_H9KWX1 Metallothionein n=1 Tax=Callithrix jacchus TaxID=9483 
+RepID=H9KWX1_CALJA
+Length=31
+
+ Score = 44.7 bits (104),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 23/28 (82%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTS  28
+           MDPNCSCA G SCTC  SCKCKEC CTS
+Sbjct  1   MDPNCSCATGGSCTCTSSCKCKECTCTS  28
+
+
+> UniRef50_H9FMQ2 Metallothionein n=6 Tax=Boreoeutheria TaxID=1437010 
+RepID=H9FMQ2_MACMU
+Length=61
+
+ Score = 44.7 bits (104),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 23/25 (92%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECK  25
+           MDPNCSCAAG SCTCAGSCKCK+CK
+Sbjct  1   MDPNCSCAAGGSCTCAGSCKCKDCK  25
+
+
+> UniRef50_A0A1D5RLN7 Metallothionein-1 n=5 Tax=Murinae TaxID=39107 
+RepID=A0A1D5RLN7_MOUSE
+Length=132
+
+ Score = 45.1 bits (105),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 23/30 (77%), Positives = 24/30 (80%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSC+ G SCTC  SC CK CKCTSCK
+Sbjct  1   MDPNCSCSTGGSCTCTSSCACKNCKCTSCK  30
+
+
+> UniRef50_G1QP37 Metallothionein n=3 Tax=Boreoeutheria TaxID=1437010 
+RepID=G1QP37_NOMLE
+Length=63
+
+ Score = 43.5 bits (101),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 23/28 (82%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTS  28
+           MDPNCSCA G SC+CA S KCKECKCTS
+Sbjct  1   MDPNCSCATGGSCSCASSLKCKECKCTS  28
+
+
+> UniRef50_S7PG17 Metallothionein-2 n=3 Tax=Boreoeutheria TaxID=1437010 
+RepID=S7PG17_MYOBR
+Length=130
+
+ Score = 42.7 bits (99),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 22/24 (92%), Positives = 22/24 (92%), Gaps = 0/24 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKEC  24
+           MDPNCSCA G SCTCAGSCKCKEC
+Sbjct  70  MDPNCSCATGGSCTCAGSCKCKEC  93
+
+
+> UniRef50_M3XWU8 Uncharacterized protein n=6 Tax=Boreoeutheria 
+TaxID=1437010 RepID=M3XWU8_MUSPF
+Length=161
+
+ Score = 43.1 bits (100),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 21/24 (88%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+
+Query  1    MDPNCSCAAGDSCTCAGSCKCKEC  24
+            MDPNCSC++G SCTCAGSCKCKEC
+Sbjct  101  MDPNCSCSSGGSCTCAGSCKCKEC  124
+
+
+> UniRef50_P04732 Metallothionein-1E n=18 Tax=Catarrhini TaxID=9526 
+RepID=MT1E_HUMAN
+Length=61
+
+ Score = 40.8 bits (94),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 22/24 (92%), Positives = 22/24 (92%), Gaps = 0/24 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKEC  24
+           MDPNCSCA G SCTCAGSCKCKEC
+Sbjct  1   MDPNCSCATGGSCTCAGSCKCKEC  24
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.129    0.513    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233531472575
+Results from round 2
+
+
+Query= 2mhu
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI000CA03901 uncharacterized protein LOC101355582 iso...  44.3    6e-05
+  UniRef50_P04732-2 Isoform 2 of Metallothionein-1E n=10 Tax=Simi...  41.6    6e-04
+  UniRef50_P02795 Metallothionein-2 n=176 Tax=Eutheria TaxID=9347...  40.4    0.001
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef50_UPI000CA03901 uncharacterized protein LOC101355582 isoform 
+X1 n=1 Tax=Trichechus manatus latirostris TaxID=127582 
+RepID=UPI000CA03901
+Length=142
+
+ Score = 44.3 bits (103),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCA GDSC CAGSCKCKEC+CTSCK
+Sbjct  1   MDPNCSCATGDSCVCAGSCKCKECRCTSCK  30
+
+
+> UniRef50_P04732-2 Isoform 2 of Metallothionein-1E n=10 Tax=Simiiformes 
+TaxID=314293 RepID=P04732-2
+Length=127
+
+ Score = 41.6 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCA G SCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCATGGSCTCAGSCKCKECKCTSCK  30
+
+
+> UniRef50_P02795 Metallothionein-2 n=176 Tax=Eutheria TaxID=9347 
+RepID=MT2_HUMAN
+Length=61
+
+ Score = 40.4 bits (93),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+           MDPNCSCAAGDSCTCAGSCKCKECKCTSCK
+Sbjct  1   MDPNCSCAAGDSCTCAGSCKCKECKCTSCK  30
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.576    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233531472575
+
+Search has CONVERGED!
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

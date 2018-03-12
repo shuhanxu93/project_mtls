@@ -1,0 +1,2355 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 4rhv4
+
+Length=40
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P03303 Genome polyprotein n=236 Tax=Enterovirus TaxID=...  83.2    4e-17
+  UniRef50_B9V445 Genome polyprotein n=4 Tax=Enterovirus TaxID=12...  81.6    1e-16
+  UniRef50_Q2XU02 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059...  61.6    2e-11
+  UniRef50_A0A077K9F9 Polyprotein (Fragment) n=901 Tax=Picornavir...  62.4    3e-11
+  UniRef50_F5A7F4 Genome polyprotein n=76 Tax=Enterovirus TaxID=1...  64.3    1e-10
+  UniRef50_Q98VG7 Polyprotein (Fragment) n=5 Tax=Enterovirus TaxI...  60.5    2e-10
+  UniRef50_F6ME03 Polyprotein (Fragment) n=2 Tax=Coxsackievirus B...  61.6    8e-10
+  UniRef50_Q66790 Genome polyprotein (Fragment) n=110 Tax=Enterov...  61.2    9e-10
+  UniRef50_P29813 Genome polyprotein n=3804 Tax=Enterovirus TaxID...  61.6    1e-09
+  UniRef50_Q2L970 Polyprotein (Fragment) n=48 Tax=Enterovirus B T...  59.3    4e-09
+  UniRef50_Q9QCF0 Polyprotein (Fragment) n=22 Tax=Enterovirus B T...  59.3    5e-09
+  UniRef50_Q66474 Genome polyprotein n=470 Tax=Enterovirus TaxID=...  58.9    8e-09
+  UniRef50_O91734 Genome polyprotein n=751 Tax=Enterovirus TaxID=...  58.5    1e-08
+  UniRef50_P03300 Genome polyprotein n=22761 Tax=root TaxID=1 Rep...  58.5    1e-08
+  UniRef50_Q5EI88 Polyprotein (Fragment) n=32 Tax=Enterovirus Tax...  56.6    2e-08
+  UniRef50_Q91QW0 Polyprotein (Fragment) n=2 Tax=Enterovirus B Ta...  56.6    3e-08
+  UniRef50_Q8QM97 Polyprotein (Fragment) n=15 Tax=Enterovirus Tax...  57.0    3e-08
+  UniRef50_Q0VKI0 Polyprotein (Fragment) n=437 Tax=Human poliovir...  57.0    3e-08
+  UniRef50_O89966 Polyprotein (Fragment) n=228 Tax=Enterovirus C ...  57.0    4e-08
+  UniRef50_G5ENI2 VP4 protein (Fragment) n=82 Tax=Picornaviridae ...  53.1    5e-08
+  UniRef50_A0A1E1ELX7 Polyprotein (Fragment) n=2206 Tax=root TaxI...  52.4    1e-07
+  UniRef50_A0A291S472 Polyprotein (Fragment) n=1 Tax=Human rhinov...  50.8    4e-07
+  UniRef50_C7SJ14 Capsid protein (Fragment) n=4 Tax=Enterovirus T...  49.7    7e-07
+  UniRef50_A5GZG0 Genome polyprotein n=1329 Tax=Picornaviridae Ta...  52.4    1e-06
+  UniRef50_A0A0S2KWN5 Polyprotein (Fragment) n=2 Tax=Rhinovirus A...  52.0    2e-06
+  UniRef50_P23008 Genome polyprotein n=2302 Tax=Enterovirus TaxID...  52.4    2e-06
+  UniRef50_Q75Q82 Polyprotein (Fragment) n=7 Tax=Enterovirus TaxI...  48.1    4e-06
+  UniRef50_A4ZZH7 1A (Fragment) n=71 Tax=Enterovirus TaxID=12059 ...  45.8    2e-05
+  UniRef50_I3W9B5 VP4 protein (Fragment) n=2 Tax=Human enteroviru...  45.1    3e-05
+  UniRef50_C7SIX8 Capsid protein (Fragment) n=39 Tax=Enterovirus ...  44.7    5e-05
+  UniRef50_G5ENI6 VP4 protein (Fragment) n=1027 Tax=Picornavirida...  45.4    5e-05
+  UniRef50_Q5G9Z4 Polyprotein (Fragment) n=3 Tax=Enterovirus A90 ...  47.4    6e-05
+  UniRef50_M1F0L9 Polyprotein (Fragment) n=6 Tax=Enterovirus TaxI...  44.3    8e-05
+  UniRef50_A0A097HUU9 Genome polyprotein (Fragment) n=6 Tax=Enter...  47.0    1e-04
+  UniRef50_A0A1Y0DG86 Genome polyprotein (Fragment) n=1 Tax=Enter...  46.6    1e-04
+  UniRef50_D2Y2V1 VP4/VP2 protein (Fragment) n=17 Tax=Enterovirus...  43.5    1e-04
+  UniRef50_Q8QUZ7 Capsid protein VP4 n=1 Tax=Porcine enterovirus ...  43.5    1e-04
+  UniRef50_G0ZNT7 Genome polyprotein n=487 Tax=Picornaviridae Tax...  45.8    2e-04
+  UniRef50_A0A0H3VVZ7 Polyprotein (Fragment) n=1 Tax=Rhinovirus C...  44.7    3e-04
+  UniRef50_C7SJ17 Capsid protein (Fragment) n=15 Tax=Enterovirus ...  41.6    5e-04
+  UniRef50_A0A286KAZ1 Polyprotein (Fragment) n=1 Tax=Enterovirus ...  44.7    6e-04
+  UniRef50_A0A286KB15 Polyprotein (Fragment) n=12 Tax=Enterovirus...  44.3    7e-04
+  UniRef50_A0A286KAY8 Genome polyprotein (Fragment) n=5 Tax=Enter...  44.3    7e-04
+  UniRef50_A0A286KB00 Genome polyprotein (Fragment) n=13 Tax=Ente...  44.3    8e-04
+  UniRef50_A0A286KB01 Polyprotein (Fragment) n=1 Tax=Enterovirus ...  44.3    8e-04
+
+
+> UniRef50_P03303 Genome polyprotein n=236 Tax=Enterovirus TaxID=12059 
+RepID=POLG_HRV14
+Length=2179
+
+ Score = 83.2 bits (204),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 40/40 (100%), Positives = 40/40 (100%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN
+Sbjct  30  INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  69
+
+
+> UniRef50_B9V445 Genome polyprotein n=4 Tax=Enterovirus TaxID=12059 
+RepID=B9V445_9ENTO
+Length=2176
+
+ Score = 81.6 bits (200),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 39/40 (98%), Positives = 40/40 (100%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS+SSAGQSLSMDPSKFTEPVKDLMLKGAPALN
+Sbjct  30  INYYKDAASSSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  69
+
+
+> UniRef50_Q2XU02 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059 
+RepID=Q2XU02_ECHO9
+Length=73
+
+ Score = 61.6 bits (148),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_A0A077K9F9 Polyprotein (Fragment) n=901 Tax=Picornaviridae 
+TaxID=12058 RepID=A0A077K9F9_ECHO9
+Length=135
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_F5A7F4 Genome polyprotein n=76 Tax=Enterovirus TaxID=12059 
+RepID=F5A7F4_9ENTO
+Length=2218
+
+ Score = 64.3 bits (155),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 29/40 (73%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS +++ Q  S DPSKFTEPVKD+MLK APALN
+Sbjct  30  INYYKDSASNAASKQDFSQDPSKFTEPVKDIMLKSAPALN  69
+
+
+> UniRef50_Q98VG7 Polyprotein (Fragment) n=5 Tax=Enterovirus TaxID=12059 
+RepID=Q98VG7_9ENTO
+Length=217
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_F6ME03 Polyprotein (Fragment) n=2 Tax=Coxsackievirus 
+B4 TaxID=12073 RepID=F6ME03_9ENTO
+Length=1217
+
+ Score = 61.6 bits (148),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_Q66790 Genome polyprotein (Fragment) n=110 Tax=Enterovirus 
+TaxID=12059 RepID=POLG_EC16H
+Length=862
+
+ Score = 61.2 bits (147),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 29/40 (73%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  S DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFSQDPSKFTEPVKDIMIKSMPALN  69
+
+
+> UniRef50_P29813 Genome polyprotein n=3804 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC11G
+Length=2195
+
+ Score = 61.6 bits (148),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  S DP KFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQEFSQDPGKFTEPVKDIMVKSLPALN  69
+
+
+> UniRef50_Q2L970 Polyprotein (Fragment) n=48 Tax=Enterovirus B 
+TaxID=138949 RepID=Q2L970_9ENTO
+Length=920
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPVKDIMVKSLPALN  69
+
+
+> UniRef50_Q9QCF0 Polyprotein (Fragment) n=22 Tax=Enterovirus B 
+TaxID=138949 RepID=Q9QCF0_9ENTO
+Length=1236
+
+ Score = 59.3 bits (142),  Expect = 5e-09, Method: Composition-based stats.
+ Identities = 26/40 (65%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP K+TEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKYTEPVKDIMIKSMPALN  69
+
+
+> UniRef50_Q66474 Genome polyprotein n=470 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC06C
+Length=2191
+
+ Score = 58.9 bits (141),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEPVKD+M K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPVKDIMAKTLPALN  69
+
+
+> UniRef50_O91734 Genome polyprotein n=751 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC01F
+Length=2184
+
+ Score = 58.5 bits (140),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 26/40 (65%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEP+KD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPMKDVMIKTLPALN  69
+
+
+> UniRef50_P03300 Genome polyprotein n=22761 Tax=root TaxID=1 RepID=POLG_POL1M
+Length=2209
+
+ Score = 58.5 bits (140),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/40 (60%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  S DPSKFTEP+KD+++K AP LN
+Sbjct  30  INYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTAPMLN  69
+
+
+> UniRef50_Q5EI88 Polyprotein (Fragment) n=32 Tax=Enterovirus TaxID=12059 
+RepID=Q5EI88_9ENTO
+Length=330
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q91QW0 Polyprotein (Fragment) n=2 Tax=Enterovirus B 
+TaxID=138949 RepID=Q91QW0_9ENTO
+Length=431
+
+ Score = 56.6 bits (135),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q8QM97 Polyprotein (Fragment) n=15 Tax=Enterovirus TaxID=12059 
+RepID=Q8QM97_9ENTO
+Length=655
+
+ Score = 57.0 bits (136),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q0VKI0 Polyprotein (Fragment) n=437 Tax=Human poliovirus 
+2 TaxID=12083 RepID=Q0VKI0_9ENTO
+Length=912
+
+ Score = 57.0 bits (136),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  + DPSKFTEP+KD+++K AP LN
+Sbjct  30  INYYRDSASNAASKQDFAQDPSKFTEPIKDVLIKTAPMLN  69
+
+
+> UniRef50_O89966 Polyprotein (Fragment) n=228 Tax=Enterovirus 
+C TaxID=138950 RepID=O89966_9ENTO
+Length=912
+
+ Score = 57.0 bits (136),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  S DPSKFTEP+KD+++K +P LN
+Sbjct  30  INYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTSPMLN  69
+
+
+> UniRef50_G5ENI2 VP4 protein (Fragment) n=82 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI2_9ENTO
+Length=111
+
+ Score = 53.1 bits (126),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  23  INYFKDAASSGASRLDFSQDPSKFTDPVKDVLTKGIPTL  61
+
+
+> UniRef50_A0A1E1ELX7 Polyprotein (Fragment) n=2206 Tax=root TaxID=1 
+RepID=A0A1E1ELX7_9ENTO
+Length=130
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 23/39 (59%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS  ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASNGASRLDFSQDPSKFTDPVKDVLTKGIPTL  68
+
+
+> UniRef50_A0A291S472 Polyprotein (Fragment) n=1 Tax=Human rhinovirus 
+A46 TaxID=167324 RepID=A0A291S472_9ENTO
+Length=134
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 22/39 (56%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+P KD++ KG P L
+Sbjct  30  INYFKDAASSGASRLDFSQDPSKFTDPFKDVLTKGIPTL  68
+
+
+> UniRef50_C7SJ14 Capsid protein (Fragment) n=4 Tax=Enterovirus 
+TaxID=12059 RepID=C7SJ14_9ENTO
+Length=67
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 22/38 (58%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPA  38
+           INY+KDAAS  ++    S DPSKFT+PVKD++ KG P 
+Sbjct  30  INYFKDAASHGASKLDFSQDPSKFTDPVKDVLEKGIPT  67
+
+
+> UniRef50_A5GZG0 Genome polyprotein n=1329 Tax=Picornaviridae 
+TaxID=12058 RepID=A5GZG0_9ENTO
+Length=2155
+
+ Score = 52.4 bits (124),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASKLEFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_A0A0S2KWN5 Polyprotein (Fragment) n=2 Tax=Rhinovirus 
+A TaxID=147711 RepID=A0A0S2KWN5_9ENTO
+Length=1063
+
+ Score = 52.0 bits (123),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASKLEFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_P23008 Genome polyprotein n=2302 Tax=Enterovirus TaxID=12059 
+RepID=POLG_HRV1A
+Length=2157
+
+ Score = 52.4 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASRLDFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_Q75Q82 Polyprotein (Fragment) n=7 Tax=Enterovirus TaxID=12059 
+RepID=Q75Q82_9ENTO
+Length=100
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           I YYKDA+S S++    + DP KFTEPVKD+M+K  P L
+Sbjct  30  IIYYKDASSFSASLPDFTHDPGKFTEPVKDIMIKSMPTL  68
+
+
+> UniRef50_A4ZZH7 1A (Fragment) n=71 Tax=Enterovirus TaxID=12059 
+RepID=A4ZZH7_9ENTO
+Length=66
+
+ Score = 45.8 bits (107),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 27/39 (69%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           +NYYKDAAS+    Q  S DPSKFT+P+ D++    PAL
+Sbjct  30  VNYYKDAASSGLTKQDFSQDPSKFTQPIADILTN--PAL  66
+
+
+> UniRef50_I3W9B5 VP4 protein (Fragment) n=2 Tax=Human enterovirus 
+TaxID=1193974 RepID=I3W9B5_9ENTO
+Length=69
+
+ Score = 45.1 bits (105),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 19/39 (49%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S++ Q  + DP+KFT PV D++ + AP L
+Sbjct  30  INYYKDSYAASASRQDFTQDPTKFTSPVLDMLRETAPPL  68
+
+
+> UniRef50_C7SIX8 Capsid protein (Fragment) n=39 Tax=Enterovirus 
+TaxID=12059 RepID=C7SIX8_9ENTO
+Length=67
+
+ Score = 44.7 bits (104),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY+D+AS+  A Q  S DPSKFT+P+ D++    PAL
+Sbjct  30  INYYRDSASSGLAKQDFSQDPSKFTQPLADVLTN--PAL  66
+
+
+> UniRef50_G5ENI6 VP4 protein (Fragment) n=1027 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI6_9ENTO
+Length=169
+
+ Score = 45.4 bits (106),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 19/32 (59%), Positives = 24/32 (75%), Gaps = 0/32 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLM  32
+           +NYYKDAAS+    Q  S DPSKFT+PV D++
+Sbjct  56  VNYYKDAASSGLTKQDFSQDPSKFTQPVADIL  87
+
+
+> UniRef50_Q5G9Z4 Polyprotein (Fragment) n=3 Tax=Enterovirus A90 
+TaxID=297248 RepID=Q5G9Z4_9ENTO
+Length=863
+
+ Score = 47.4 bits (111),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S+A Q  S DPSKFT+PV D + + AP L
+Sbjct  30  INYYKDSYAASAAKQDFSQDPSKFTQPVVDALKETAPPL  68
+
+
+> UniRef50_M1F0L9 Polyprotein (Fragment) n=6 Tax=Enterovirus TaxID=12059 
+RepID=M1F0L9_9ENTO
+Length=120
+
+ Score = 44.3 bits (103),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+AS+  + Q  SMDP KFT+P+ ++M    PAL
+Sbjct  9   INYYKDSASSGLSKQDFSMDPEKFTKPIAEVMTN--PAL  45
+
+
+> UniRef50_A0A097HUU9 Genome polyprotein (Fragment) n=6 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A097HUU9_9ENTO
+Length=2141
+
+ Score = 47.0 bits (110),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSKFTEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKFTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A1Y0DG86 Genome polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A1Y0DG86_9ENTO
+Length=2156
+
+ Score = 46.6 bits (109),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSKFTEPV + +  GAP L
+Sbjct  4   INFYKDSYAASASKQDFSQDPSKFTEPVVEGLKAGAPVL  42
+
+
+> UniRef50_D2Y2V1 VP4/VP2 protein (Fragment) n=17 Tax=Enterovirus 
+TaxID=12059 RepID=D2Y2V1_9ENTO
+Length=95
+
+ Score = 43.5 bits (101),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 22/39 (56%), Positives = 26/39 (67%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKDAAS+    Q  S DPSKFT+P+ D +    PAL
+Sbjct  30  INYYKDAASSGLTKQDFSQDPSKFTQPLADALTN--PAL  66
+
+
+> UniRef50_Q8QUZ7 Capsid protein VP4 n=1 Tax=Porcine enterovirus 
+9 (strain UKG/410/73) TaxID=64141 RepID=Q8QUZ7_PEV9U
+Length=115
+
+ Score = 43.5 bits (101),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 19/36 (53%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYY  +AS S   Q ++ DPSKFT+PV D+M + A
+Sbjct  30  INYYSHSASASQNKQDITQDPSKFTQPVVDMMKEAA  65
+
+
+> UniRef50_G0ZNT7 Genome polyprotein n=487 Tax=Picornaviridae TaxID=12058 
+RepID=G0ZNT7_9ENTO
+Length=2155
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+AS+  A Q  S DPSKFT+P+ D++    PAL
+Sbjct  30  INYYKDSASSGLAKQDFSQDPSKFTQPLADVLTN--PAL  66
+
+
+> UniRef50_A0A0H3VVZ7 Polyprotein (Fragment) n=1 Tax=Rhinovirus 
+C TaxID=463676 RepID=A0A0H3VVZ7_9ENTO
+Length=258
+
+ Score = 44.7 bits (104),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 27/39 (69%), Gaps = 3/39 (8%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+AS+    Q  S DPSKFT+P+ D++    PAL
+Sbjct  30  INYYKDSASSGLTKQDFSQDPSKFTQPIADVL---TPAL  65
+
+
+> UniRef50_C7SJ17 Capsid protein (Fragment) n=15 Tax=Enterovirus 
+TaxID=12059 RepID=C7SJ17_9ENTO
+Length=67
+
+ Score = 41.6 bits (96),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+AS+  + Q  SMD  KFT+P+ ++M    PAL
+Sbjct  30  INYYKDSASSGLSKQDFSMDHEKFTKPIAEVMTN--PAL  66
+
+
+> UniRef50_A0A286KAZ1 Polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KAZ1_9ENTO
+Length=1549
+
+ Score = 44.7 bits (104),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A286KB15 Polyprotein (Fragment) n=12 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KB15_9ENTO
+Length=861
+
+ Score = 44.3 bits (103),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A286KAY8 Genome polyprotein (Fragment) n=5 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KAY8_9ENTO
+Length=1665
+
+ Score = 44.3 bits (103),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A286KB00 Genome polyprotein (Fragment) n=13 Tax=Enterovirus 
+TaxID=12059 RepID=A0A286KB00_9ENTO
+Length=1731
+
+ Score = 44.3 bits (103),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A286KB01 Polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KB01_9ENTO
+Length=1106
+
+ Score = 44.3 bits (103),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.122    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 235747627336
+Results from round 2
+
+
+Query= 4rhv4
+
+Length=40
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_Q98VG7 Polyprotein (Fragment) n=5 Tax=Enterovirus TaxI...  80.9    1e-17
+  UniRef50_F6ME03 Polyprotein (Fragment) n=2 Tax=Coxsackievirus B...  82.1    6e-17
+  UniRef50_Q5EI88 Polyprotein (Fragment) n=32 Tax=Enterovirus Tax...  78.6    1e-16
+  UniRef50_Q66474 Genome polyprotein n=470 Tax=Enterovirus TaxID=...  80.9    2e-16
+  UniRef50_Q9QCF0 Polyprotein (Fragment) n=22 Tax=Enterovirus B T...  80.5    3e-16
+  UniRef50_O91734 Genome polyprotein n=751 Tax=Enterovirus TaxID=...  80.5    3e-16
+  UniRef50_Q66790 Genome polyprotein (Fragment) n=110 Tax=Enterov...  79.7    4e-16
+  UniRef50_Q91QW0 Polyprotein (Fragment) n=2 Tax=Enterovirus B Ta...  78.2    6e-16
+  UniRef50_Q2L970 Polyprotein (Fragment) n=48 Tax=Enterovirus B T...  79.0    7e-16
+  UniRef50_P29813 Genome polyprotein n=3804 Tax=Enterovirus TaxID...  79.4    7e-16
+  UniRef50_Q8QM97 Polyprotein (Fragment) n=15 Tax=Enterovirus Tax...  78.2    1e-15
+  UniRef50_F5A7F4 Genome polyprotein n=76 Tax=Enterovirus TaxID=1...  79.0    1e-15
+  UniRef50_A0A077K9F9 Polyprotein (Fragment) n=901 Tax=Picornavir...  72.8    4e-15
+  UniRef50_P03300 Genome polyprotein n=22761 Tax=root TaxID=1 Rep...  76.3    9e-15
+  UniRef50_Q0VKI0 Polyprotein (Fragment) n=437 Tax=Human poliovir...  73.6    6e-14
+  UniRef50_O89966 Polyprotein (Fragment) n=228 Tax=Enterovirus C ...  73.2    8e-14
+  UniRef50_P23008 Genome polyprotein n=2302 Tax=Enterovirus TaxID...  71.7    3e-13
+  UniRef50_Q2XU02 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059...  66.3    4e-13
+  UniRef50_P03303 Genome polyprotein n=236 Tax=Enterovirus TaxID=...  71.3    4e-13
+  UniRef50_A0A291S472 Polyprotein (Fragment) n=1 Tax=Human rhinov...  67.0    5e-13
+  UniRef50_A5GZG0 Genome polyprotein n=1329 Tax=Picornaviridae Ta...  70.1    1e-12
+  UniRef50_A0A0S2KWN5 Polyprotein (Fragment) n=2 Tax=Rhinovirus A...  69.7    1e-12
+  UniRef50_G5ENI2 VP4 protein (Fragment) n=82 Tax=Picornaviridae ...  65.1    2e-12
+  UniRef50_Q5G9Z4 Polyprotein (Fragment) n=3 Tax=Enterovirus A90 ...  69.0    3e-12
+  UniRef50_A0A097HUU9 Genome polyprotein (Fragment) n=6 Tax=Enter...  67.4    1e-11
+  UniRef50_A0A1Y0DG86 Genome polyprotein (Fragment) n=1 Tax=Enter...  67.4    1e-11
+  UniRef50_A0A286KB01 Polyprotein (Fragment) n=1 Tax=Enterovirus ...  66.3    2e-11
+  UniRef50_A0A0H3VVZ7 Polyprotein (Fragment) n=1 Tax=Rhinovirus C...  64.0    2e-11
+  UniRef50_G0ZNT7 Genome polyprotein n=487 Tax=Picornaviridae Tax...  66.6    2e-11
+  UniRef50_G5ENI6 VP4 protein (Fragment) n=1027 Tax=Picornavirida...  63.2    2e-11
+  UniRef50_A0A1E1ELX7 Polyprotein (Fragment) n=2206 Tax=root TaxI...  62.8    2e-11
+  UniRef50_A0A286KAZ1 Polyprotein (Fragment) n=1 Tax=Enterovirus ...  64.7    7e-11
+  UniRef50_A0A286KAY8 Genome polyprotein (Fragment) n=5 Tax=Enter...  64.7    7e-11
+  UniRef50_A0A286KB00 Genome polyprotein (Fragment) n=13 Tax=Ente...  64.7    8e-11
+  UniRef50_Q75Q82 Polyprotein (Fragment) n=7 Tax=Enterovirus TaxI...  60.5    9e-11
+  UniRef50_Q8QUZ7 Capsid protein VP4 n=1 Tax=Porcine enterovirus ...  60.5    1e-10
+  UniRef50_A4ZZH7 1A (Fragment) n=71 Tax=Enterovirus TaxID=12059 ...  59.3    1e-10
+  UniRef50_A0A286KB15 Polyprotein (Fragment) n=12 Tax=Enterovirus...  63.2    2e-10
+  UniRef50_I3W9B5 VP4 protein (Fragment) n=2 Tax=Human enteroviru...  58.6    3e-10
+  UniRef50_C7SJ14 Capsid protein (Fragment) n=4 Tax=Enterovirus T...  57.4    8e-10
+  UniRef50_C7SIX8 Capsid protein (Fragment) n=39 Tax=Enterovirus ...  57.0    1e-09
+  UniRef50_D2Y2V1 VP4/VP2 protein (Fragment) n=17 Tax=Enterovirus...  56.6    2e-09
+  UniRef50_M1F0L9 Polyprotein (Fragment) n=6 Tax=Enterovirus TaxI...  55.9    6e-09
+  UniRef50_B9V445 Genome polyprotein n=4 Tax=Enterovirus TaxID=12...  56.2    6e-08
+  UniRef50_C7SJ17 Capsid protein (Fragment) n=15 Tax=Enterovirus ...  51.2    1e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_P82797 Capsid protein (Fragment) n=397 Tax=Enterovirus...  66.3    2e-11
+  UniRef50_A0A1W5PTB2 Polyprotein (Fragment) n=2 Tax=Enterovirus ...  64.0    7e-11
+  UniRef50_Q2LKZ6 Polyprotein (Fragment) n=1 Tax=Enterovirus E Ta...  64.7    7e-11
+  UniRef50_Q2LL14 Genome polyprotein n=30 Tax=Enterovirus TaxID=1...  64.7    8e-11
+  UniRef50_A0A077D0F3 Genome polyprotein (Fragment) n=1001 Tax=Pi...  64.0    2e-10
+  UniRef50_A0A0M3MZI2 Polyprotein (Fragment) n=10 Tax=Enterovirus...  62.8    2e-10
+  UniRef50_A0A1W6IYK5 Genome polyprotein n=4 Tax=Enterovirus TaxI...  62.8    4e-10
+  UniRef50_G8FXR3 Capsid protein (Fragment) n=14 Tax=Enterovirus ...  58.6    6e-10
+  UniRef50_G5ENI9 VP4 protein (Fragment) n=412 Tax=Picornaviridae...  58.6    8e-10
+  UniRef50_A0A1W5PTB5 Polyprotein (Fragment) n=2 Tax=Enterovirus ...  59.7    9e-10
+  UniRef50_Q65481 Capsid protein (Fragment) n=98 Tax=Enterovirus ...  60.1    3e-09
+  UniRef50_Q33C75 VP4-VP2 capsid protein (Fragment) n=60 Tax=Ente...  55.9    6e-09
+  UniRef50_UPI00001108A4 BOVINE ENTEROVIRUS COAT PROTEINS VP1 TO ...  53.2    3e-08
+  UniRef50_D6MTD1 Polyprotein (Fragment) n=11 Tax=Enterovirus Tax...  51.6    2e-07
+  UniRef50_Q2XU10 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059...  51.2    2e-07
+  UniRef50_E9RGC5 Polyprotein (Fragment) n=3 Tax=root TaxID=1 Rep...  53.6    4e-07
+  UniRef50_A0A0B4ZW63 Putative genome polyprotein (Fragment) n=26...  53.9    4e-07
+  UniRef50_A0A0V1KKV2 Uncharacterized protein (Fragment) n=1 Tax=...  52.8    8e-07
+
+
+> UniRef50_Q98VG7 Polyprotein (Fragment) n=5 Tax=Enterovirus TaxID=12059 
+RepID=Q98VG7_9ENTO
+Length=217
+
+ Score = 80.9 bits (198),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_F6ME03 Polyprotein (Fragment) n=2 Tax=Coxsackievirus 
+B4 TaxID=12073 RepID=F6ME03_9ENTO
+Length=1217
+
+ Score = 82.1 bits (201),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_Q5EI88 Polyprotein (Fragment) n=32 Tax=Enterovirus TaxID=12059 
+RepID=Q5EI88_9ENTO
+Length=330
+
+ Score = 78.6 bits (192),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q66474 Genome polyprotein n=470 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC06C
+Length=2191
+
+ Score = 80.9 bits (198),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEPVKD+M K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPVKDIMAKTLPALN  69
+
+
+> UniRef50_Q9QCF0 Polyprotein (Fragment) n=22 Tax=Enterovirus B 
+TaxID=138949 RepID=Q9QCF0_9ENTO
+Length=1236
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 26/40 (65%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP K+TEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKYTEPVKDIMIKSMPALN  69
+
+
+> UniRef50_O91734 Genome polyprotein n=751 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC01F
+Length=2184
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 26/40 (65%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEP+KD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPMKDVMIKTLPALN  69
+
+
+> UniRef50_Q66790 Genome polyprotein (Fragment) n=110 Tax=Enterovirus 
+TaxID=12059 RepID=POLG_EC16H
+Length=862
+
+ Score = 79.7 bits (195),  Expect = 4e-16, Method: Composition-based stats.
+ Identities = 29/40 (73%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  S DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFSQDPSKFTEPVKDIMIKSMPALN  69
+
+
+> UniRef50_Q91QW0 Polyprotein (Fragment) n=2 Tax=Enterovirus B 
+TaxID=138949 RepID=Q91QW0_9ENTO
+Length=431
+
+ Score = 78.2 bits (191),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q2L970 Polyprotein (Fragment) n=48 Tax=Enterovirus B 
+TaxID=138949 RepID=Q2L970_9ENTO
+Length=920
+
+ Score = 79.0 bits (193),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPVKDIMVKSLPALN  69
+
+
+> UniRef50_P29813 Genome polyprotein n=3804 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC11G
+Length=2195
+
+ Score = 79.4 bits (194),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  S DP KFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQEFSQDPGKFTEPVKDIMVKSLPALN  69
+
+
+> UniRef50_Q8QM97 Polyprotein (Fragment) n=15 Tax=Enterovirus TaxID=12059 
+RepID=Q8QM97_9ENTO
+Length=655
+
+ Score = 78.2 bits (191),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_F5A7F4 Genome polyprotein n=76 Tax=Enterovirus TaxID=12059 
+RepID=F5A7F4_9ENTO
+Length=2218
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 29/40 (73%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS +++ Q  S DPSKFTEPVKD+MLK APALN
+Sbjct  30  INYYKDSASNAASKQDFSQDPSKFTEPVKDIMLKSAPALN  69
+
+
+> UniRef50_A0A077K9F9 Polyprotein (Fragment) n=901 Tax=Picornaviridae 
+TaxID=12058 RepID=A0A077K9F9_ECHO9
+Length=135
+
+ Score = 72.8 bits (177),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_P03300 Genome polyprotein n=22761 Tax=root TaxID=1 RepID=POLG_POL1M
+Length=2209
+
+ Score = 76.3 bits (186),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 24/40 (60%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  S DPSKFTEP+KD+++K AP LN
+Sbjct  30  INYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTAPMLN  69
+
+
+> UniRef50_Q0VKI0 Polyprotein (Fragment) n=437 Tax=Human poliovirus 
+2 TaxID=12083 RepID=Q0VKI0_9ENTO
+Length=912
+
+ Score = 73.6 bits (179),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  + DPSKFTEP+KD+++K AP LN
+Sbjct  30  INYYRDSASNAASKQDFAQDPSKFTEPIKDVLIKTAPMLN  69
+
+
+> UniRef50_O89966 Polyprotein (Fragment) n=228 Tax=Enterovirus 
+C TaxID=138950 RepID=O89966_9ENTO
+Length=912
+
+ Score = 73.2 bits (178),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  S DPSKFTEP+KD+++K +P LN
+Sbjct  30  INYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTSPMLN  69
+
+
+> UniRef50_P23008 Genome polyprotein n=2302 Tax=Enterovirus TaxID=12059 
+RepID=POLG_HRV1A
+Length=2157
+
+ Score = 71.7 bits (174),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASRLDFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_Q2XU02 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059 
+RepID=Q2XU02_ECHO9
+Length=73
+
+ Score = 66.3 bits (160),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_P03303 Genome polyprotein n=236 Tax=Enterovirus TaxID=12059 
+RepID=POLG_HRV14
+Length=2179
+
+ Score = 71.3 bits (173),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 40/40 (100%), Positives = 40/40 (100%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN
+Sbjct  30  INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  69
+
+
+> UniRef50_A0A291S472 Polyprotein (Fragment) n=1 Tax=Human rhinovirus 
+A46 TaxID=167324 RepID=A0A291S472_9ENTO
+Length=134
+
+ Score = 67.0 bits (162),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+P KD++ KG P L
+Sbjct  30  INYFKDAASSGASRLDFSQDPSKFTDPFKDVLTKGIPTL  68
+
+
+> UniRef50_A5GZG0 Genome polyprotein n=1329 Tax=Picornaviridae 
+TaxID=12058 RepID=A5GZG0_9ENTO
+Length=2155
+
+ Score = 70.1 bits (170),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASKLEFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_A0A0S2KWN5 Polyprotein (Fragment) n=2 Tax=Rhinovirus 
+A TaxID=147711 RepID=A0A0S2KWN5_9ENTO
+Length=1063
+
+ Score = 69.7 bits (169),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASKLEFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_G5ENI2 VP4 protein (Fragment) n=82 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI2_9ENTO
+Length=111
+
+ Score = 65.1 bits (157),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  23  INYFKDAASSGASRLDFSQDPSKFTDPVKDVLTKGIPTL  61
+
+
+> UniRef50_Q5G9Z4 Polyprotein (Fragment) n=3 Tax=Enterovirus A90 
+TaxID=297248 RepID=Q5G9Z4_9ENTO
+Length=863
+
+ Score = 69.0 bits (167),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S+A Q  S DPSKFT+PV D + + AP L
+Sbjct  30  INYYKDSYAASAAKQDFSQDPSKFTQPVVDALKETAPPL  68
+
+
+> UniRef50_A0A097HUU9 Genome polyprotein (Fragment) n=6 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A097HUU9_9ENTO
+Length=2141
+
+ Score = 67.4 bits (163),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSKFTEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKFTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A1Y0DG86 Genome polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A1Y0DG86_9ENTO
+Length=2156
+
+ Score = 67.4 bits (163),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSKFTEPV + +  GAP L
+Sbjct  4   INFYKDSYAASASKQDFSQDPSKFTEPVVEGLKAGAPVL  42
+
+
+> UniRef50_A0A286KB01 Polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KB01_9ENTO
+Length=1106
+
+ Score = 66.3 bits (160),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A0H3VVZ7 Polyprotein (Fragment) n=1 Tax=Rhinovirus 
+C TaxID=463676 RepID=A0A0H3VVZ7_9ENTO
+Length=258
+
+ Score = 64.0 bits (154),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 27/39 (69%), Gaps = 3/39 (8%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+AS+    Q  S DPSKFT+P+ D++    PAL
+Sbjct  30  INYYKDSASSGLTKQDFSQDPSKFTQPIADVLT---PAL  65
+
+
+> UniRef50_G0ZNT7 Genome polyprotein n=487 Tax=Picornaviridae TaxID=12058 
+RepID=G0ZNT7_9ENTO
+Length=2155
+
+ Score = 66.6 bits (161),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+AS+  A Q  S DPSKFT+P+ D++    PAL
+Sbjct  30  INYYKDSASSGLAKQDFSQDPSKFTQPLADVLTN--PAL  66
+
+
+> UniRef50_G5ENI6 VP4 protein (Fragment) n=1027 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI6_9ENTO
+Length=169
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 27/39 (69%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           +NYYKDAAS+    Q  S DPSKFT+PV D++    PAL
+Sbjct  56  VNYYKDAASSGLTKQDFSQDPSKFTQPVADILSN--PAL  92
+
+
+> UniRef50_A0A1E1ELX7 Polyprotein (Fragment) n=2206 Tax=root TaxID=1 
+RepID=A0A1E1ELX7_9ENTO
+Length=130
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS  ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASNGASRLDFSQDPSKFTDPVKDVLTKGIPTL  68
+
+
+> UniRef50_P82797 Capsid protein (Fragment) n=397 Tax=Enterovirus 
+TaxID=12059 RepID=P82797_9ENTO
+Length=1008
+
+ Score = 66.3 bits (160),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S+A    + DP KFT+PV D + +  P L
+Sbjct  30  INYYKDSYAASAAKHDFTQDPGKFTQPVLDALREAVPPL  68
+
+
+> UniRef50_A0A1W5PTB2 Polyprotein (Fragment) n=2 Tax=Enterovirus 
+TaxID=12059 RepID=A0A1W5PTB2_9ENTO
+Length=399
+
+ Score = 64.0 bits (154),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S+  Q  S DPSKFT+PV D +   +  L
+Sbjct  30  INYYKDSYAASATKQDFSQDPSKFTQPVVDALQATSVPL  68
+
+
+> UniRef50_Q2LKZ6 Polyprotein (Fragment) n=1 Tax=Enterovirus E 
+TaxID=12064 RepID=Q2LKZ6_9ENTO
+Length=1177
+
+ Score = 64.7 bits (156),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY++AAS S   Q  + DP KFT PV D+M + A  L
+Sbjct  30  INYYENAASNSLNKQDFTQDPEKFTRPVVDVMKEAAVPL  68
+
+
+> UniRef50_A0A286KAZ1 Polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KAZ1_9ENTO
+Length=1549
+
+ Score = 64.7 bits (156),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A286KAY8 Genome polyprotein (Fragment) n=5 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KAY8_9ENTO
+Length=1665
+
+ Score = 64.7 bits (156),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_Q2LL14 Genome polyprotein n=30 Tax=Enterovirus TaxID=12059 
+RepID=Q2LL14_9ENTO
+Length=2167
+
+ Score = 64.7 bits (156),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY++AAS S   Q  + DP KFT PV D+M + A  L
+Sbjct  30  INYYENAASNSLNKQDFTQDPEKFTRPVVDVMKEAAVPL  68
+
+
+> UniRef50_A0A286KB00 Genome polyprotein (Fragment) n=13 Tax=Enterovirus 
+TaxID=12059 RepID=A0A286KB00_9ENTO
+Length=1731
+
+ Score = 64.7 bits (156),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_Q75Q82 Polyprotein (Fragment) n=7 Tax=Enterovirus TaxID=12059 
+RepID=Q75Q82_9ENTO
+Length=100
+
+ Score = 60.5 bits (145),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           I YYKDA+S S++    + DP KFTEPVKD+M+K  P L
+Sbjct  30  IIYYKDASSFSASLPDFTHDPGKFTEPVKDIMIKSMPTL  68
+
+
+> UniRef50_Q8QUZ7 Capsid protein VP4 n=1 Tax=Porcine enterovirus 
+9 (strain UKG/410/73) TaxID=64141 RepID=Q8QUZ7_PEV9U
+Length=115
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYY  +AS S   Q ++ DPSKFT+PV D+M + A
+Sbjct  30  INYYSHSASASQNKQDITQDPSKFTQPVVDMMKEAA  65
+
+
+> UniRef50_A4ZZH7 1A (Fragment) n=71 Tax=Enterovirus TaxID=12059 
+RepID=A4ZZH7_9ENTO
+Length=66
+
+ Score = 59.3 bits (142),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 27/39 (69%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           +NYYKDAAS+    Q  S DPSKFT+P+ D++    PAL
+Sbjct  30  VNYYKDAASSGLTKQDFSQDPSKFTQPIADILTN--PAL  66
+
+
+> UniRef50_A0A077D0F3 Genome polyprotein (Fragment) n=1001 Tax=Picornaviridae 
+TaxID=12058 RepID=A0A077D0F3_9ENTO
+Length=2045
+
+ Score = 64.0 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 26/39 (67%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKDAAS+    Q  S DPSKFT+P+ + +    PAL
+Sbjct  30  INYYKDAASSGLTKQDFSQDPSKFTQPLAEALTN--PAL  66
+
+
+> UniRef50_A0A0M3MZI2 Polyprotein (Fragment) n=10 Tax=Enterovirus 
+TaxID=12059 RepID=A0A0M3MZI2_9ENTO
+Length=597
+
+ Score = 62.8 bits (151),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 26/39 (67%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKDAAS+    Q  S DPSKFT+P+ + +    PAL
+Sbjct  30  INYYKDAASSGLTKQDFSQDPSKFTQPLAEALTN--PAL  66
+
+
+> UniRef50_A0A286KB15 Polyprotein (Fragment) n=12 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KB15_9ENTO
+Length=861
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_I3W9B5 VP4 protein (Fragment) n=2 Tax=Human enterovirus 
+TaxID=1193974 RepID=I3W9B5_9ENTO
+Length=69
+
+ Score = 58.6 bits (140),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S++ Q  + DP+KFT PV D++ + AP L
+Sbjct  30  INYYKDSYAASASRQDFTQDPTKFTSPVLDMLRETAPPL  68
+
+
+> UniRef50_A0A1W6IYK5 Genome polyprotein n=4 Tax=Enterovirus TaxID=12059 
+RepID=A0A1W6IYK5_9ENTO
+Length=2365
+
+ Score = 62.8 bits (151),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY  +AS S   Q ++ DPSKFT+PV DLM + A  L
+Sbjct  30  INYYSHSASASQNKQDIAQDPSKFTQPVVDLMKESAVPL  68
+
+
+> UniRef50_G8FXR3 Capsid protein (Fragment) n=14 Tax=Enterovirus 
+TaxID=12059 RepID=G8FXR3_9ENTO
+Length=113
+
+ Score = 58.6 bits (140),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+ + S+  Q  + DP KFT+PV D + + +  LN
+Sbjct  30  INYYKDSYAASATRQDFTQDPKKFTQPVLDSIKELSAPLN  69
+
+
+> UniRef50_C7SJ14 Capsid protein (Fragment) n=4 Tax=Enterovirus 
+TaxID=12059 RepID=C7SJ14_9ENTO
+Length=67
+
+ Score = 57.4 bits (137),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPA  38
+           INY+KDAAS  ++    S DPSKFT+PVKD++ KG P 
+Sbjct  30  INYFKDAASHGASKLDFSQDPSKFTDPVKDVLEKGIPT  67
+
+
+> UniRef50_G5ENI9 VP4 protein (Fragment) n=412 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI9_9ENTO
+Length=169
+
+ Score = 58.6 bits (140),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 26/39 (67%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY+D+AS+    Q  S DPSKFT+P+ D +    PAL
+Sbjct  57  INYYRDSASSGLTKQDFSQDPSKFTQPLVDTLTN--PAL  93
+
+
+> UniRef50_A0A1W5PTB5 Polyprotein (Fragment) n=2 Tax=Enterovirus 
+TaxID=12059 RepID=A0A1W5PTB5_9ENTO
+Length=279
+
+ Score = 59.7 bits (143),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYK++ + S+  Q  S DPSKFT+PV D++ + +  L
+Sbjct  30  INYYKESYAASATKQDFSQDPSKFTQPVVDMIKESSVPL  68
+
+
+> UniRef50_C7SIX8 Capsid protein (Fragment) n=39 Tax=Enterovirus 
+TaxID=12059 RepID=C7SIX8_9ENTO
+Length=67
+
+ Score = 57.0 bits (136),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYY+D+AS+  A Q  S DPSKFT+P+ D++   A
+Sbjct  30  INYYRDSASSGLAKQDFSQDPSKFTQPLADVLTNPA  65
+
+
+> UniRef50_D2Y2V1 VP4/VP2 protein (Fragment) n=17 Tax=Enterovirus 
+TaxID=12059 RepID=D2Y2V1_9ENTO
+Length=95
+
+ Score = 56.6 bits (135),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/36 (56%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKDAAS+    Q  S DPSKFT+P+ D +   A
+Sbjct  30  INYYKDAASSGLTKQDFSQDPSKFTQPLADALTNPA  65
+
+
+> UniRef50_Q65481 Capsid protein (Fragment) n=98 Tax=Enterovirus 
+TaxID=12059 RepID=Q65481_9ENTO
+Length=834
+
+ Score = 60.1 bits (144),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY++AAS S   Q  + DP  FT PV D+M + A  L
+Sbjct  30  INYYENAASNSLNKQDFTQDPETFTRPVVDVMKEAAVPL  68
+
+
+> UniRef50_Q33C75 VP4-VP2 capsid protein (Fragment) n=60 Tax=Enterovirus 
+TaxID=12059 RepID=Q33C75_9ENTO
+Length=126
+
+ Score = 55.9 bits (133),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+ + S+  Q  + DP KFT+PV D + + +  LN
+Sbjct  30  INYYKDSYAASATRQDFTQDPKKFTQPVLDSIRELSAPLN  69
+
+
+> UniRef50_M1F0L9 Polyprotein (Fragment) n=6 Tax=Enterovirus TaxID=12059 
+RepID=M1F0L9_9ENTO
+Length=120
+
+ Score = 55.9 bits (133),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 2/39 (5%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+AS+  + Q  SMDP KFT+P+ ++M    PAL
+Sbjct  9   INYYKDSASSGLSKQDFSMDPEKFTKPIAEVMTN--PAL  45
+
+
+> UniRef50_UPI00001108A4 BOVINE ENTEROVIRUS COAT PROTEINS VP1 TO 
+VP4 n=1 Tax=Bovine enterovirus (strain VG-5-27) TaxID=12065 
+RepID=UPI00001108A4
+Length=68
+
+ Score = 53.2 bits (126),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY  AAS +   Q  + DPSKFT+P+ D++ + A  L
+Sbjct  29  INYYSHAASAAQNKQDFTQDPSKFTQPIADVIKETAVPL  67
+
+
+> UniRef50_B9V445 Genome polyprotein n=4 Tax=Enterovirus TaxID=12059 
+RepID=B9V445_9ENTO
+Length=2176
+
+ Score = 56.2 bits (134),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 39/40 (98%), Positives = 40/40 (100%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS+SSAGQSLSMDPSKFTEPVKDLMLKGAPALN
+Sbjct  30  INYYKDAASSSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  69
+
+
+> UniRef50_C7SJ17 Capsid protein (Fragment) n=15 Tax=Enterovirus 
+TaxID=12059 RepID=C7SJ17_9ENTO
+Length=67
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKD+AS+  + Q  SMD  KFT+P+ ++M   A
+Sbjct  30  INYYKDSASSGLSKQDFSMDHEKFTKPIAEVMTNPA  65
+
+
+> UniRef50_D6MTD1 Polyprotein (Fragment) n=11 Tax=Enterovirus TaxID=12059 
+RepID=D6MTD1_9ENTO
+Length=122
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           I +YKD+ + S++ Q+ S DPSKFTEP  + +  GAP L
+Sbjct  30  IIFYKDSYAPSASKQNFSQDPSKFTEPGVEGLKAGAPFL  68
+
+
+> UniRef50_Q2XU10 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059 
+RepID=Q2XU10_9ENTO
+Length=73
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+ + S+  Q  + DP KFT+PV D + + +  LN
+Sbjct  30  INYYKDSYAASATRQDFAQDPKKFTQPVLDSITELSAPLN  69
+
+
+> UniRef50_E9RGC5 Polyprotein (Fragment) n=3 Tax=root TaxID=1 RepID=E9RGC5_9ENTO
+Length=573
+
+ Score = 53.6 bits (127),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + ++  QSL  DP KF  PVKD+  + A  L
+Sbjct  30  INYYKDSYAATAGRQSLKQDPDKFANPVKDIFTEMAAPL  68
+
+
+> UniRef50_A0A0B4ZW63 Putative genome polyprotein (Fragment) n=26 
+Tax=Enterovirus TaxID=12059 RepID=A0A0B4ZW63_9ENTO
+Length=1301
+
+ Score = 53.9 bits (128),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + ++  QSL  DP KF  PVKD+  + A  L
+Sbjct  30  INYYKDSYAATAGKQSLKQDPDKFANPVKDIFTEMAAPL  68
+
+
+> UniRef50_A0A0V1KKV2 Uncharacterized protein (Fragment) n=1 Tax=Trichinella 
+nativa TaxID=6335 RepID=A0A0V1KKV2_9BILA
+Length=810
+
+ Score = 52.8 bits (125),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + ++  QSL  DP KF  PVKD+  + A  L
+Sbjct  30  INYYKDSYAATAGKQSLKQDPDKFANPVKDIFTEMAAPL  68
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.132    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0376    0.140     1.90     42.6     43.6 
+
+Effective search space used: 235747627336
+Results from round 3
+
+
+Query= 4rhv4
+
+Length=40
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_Q98VG7 Polyprotein (Fragment) n=5 Tax=Enterovirus TaxI...  78.5    8e-17
+  UniRef50_F6ME03 Polyprotein (Fragment) n=2 Tax=Coxsackievirus B...  79.6    5e-16
+  UniRef50_Q5EI88 Polyprotein (Fragment) n=32 Tax=Enterovirus Tax...  76.9    7e-16
+  UniRef50_Q66474 Genome polyprotein n=470 Tax=Enterovirus TaxID=...  78.1    2e-15
+  UniRef50_Q66790 Genome polyprotein (Fragment) n=110 Tax=Enterov...  77.3    2e-15
+  UniRef50_Q91QW0 Polyprotein (Fragment) n=2 Tax=Enterovirus B Ta...  76.2    3e-15
+  UniRef50_Q9QCF0 Polyprotein (Fragment) n=22 Tax=Enterovirus B T...  77.3    3e-15
+  UniRef50_O91734 Genome polyprotein n=751 Tax=Enterovirus TaxID=...  77.3    3e-15
+  UniRef50_F5A7F4 Genome polyprotein n=76 Tax=Enterovirus TaxID=1...  77.3    3e-15
+  UniRef50_Q8QM97 Polyprotein (Fragment) n=15 Tax=Enterovirus Tax...  76.5    4e-15
+  UniRef50_Q2L970 Polyprotein (Fragment) n=48 Tax=Enterovirus B T...  76.5    6e-15
+  UniRef50_P29813 Genome polyprotein n=3804 Tax=Enterovirus TaxID...  76.2    1e-14
+  UniRef50_A0A077K9F9 Polyprotein (Fragment) n=901 Tax=Picornavir...  70.8    2e-14
+  UniRef50_P03300 Genome polyprotein n=22761 Tax=root TaxID=1 Rep...  74.6    3e-14
+  UniRef50_Q5G9Z4 Polyprotein (Fragment) n=3 Tax=Enterovirus A90 ...  73.5    6e-14
+  UniRef50_Q0VKI0 Polyprotein (Fragment) n=437 Tax=Human poliovir...  71.9    2e-13
+  UniRef50_O89966 Polyprotein (Fragment) n=228 Tax=Enterovirus C ...  71.9    2e-13
+  UniRef50_A0A1W5PTB2 Polyprotein (Fragment) n=2 Tax=Enterovirus ...  70.4    3e-13
+  UniRef50_P82797 Capsid protein (Fragment) n=397 Tax=Enterovirus...  70.8    6e-13
+  UniRef50_Q2XU02 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059...  65.0    1e-12
+  UniRef50_A0A097HUU9 Genome polyprotein (Fragment) n=6 Tax=Enter...  70.0    1e-12
+  UniRef50_Q2LKZ6 Polyprotein (Fragment) n=1 Tax=Enterovirus E Ta...  69.6    1e-12
+  UniRef50_Q8QUZ7 Capsid protein VP4 n=1 Tax=Porcine enterovirus ...  65.4    1e-12
+  UniRef50_A0A1Y0DG86 Genome polyprotein (Fragment) n=1 Tax=Enter...  69.6    1e-12
+  UniRef50_Q2LL14 Genome polyprotein n=30 Tax=Enterovirus TaxID=1...  69.6    1e-12
+  UniRef50_G8FXR3 Capsid protein (Fragment) n=14 Tax=Enterovirus ...  65.4    2e-12
+  UniRef50_P03303 Genome polyprotein n=236 Tax=Enterovirus TaxID=...  69.2    2e-12
+  UniRef50_A0A286KB01 Polyprotein (Fragment) n=1 Tax=Enterovirus ...  68.8    3e-12
+  UniRef50_P23008 Genome polyprotein n=2302 Tax=Enterovirus TaxID...  68.5    4e-12
+  UniRef50_A0A1W5PTB5 Polyprotein (Fragment) n=2 Tax=Enterovirus ...  65.8    4e-12
+  UniRef50_A0A291S472 Polyprotein (Fragment) n=1 Tax=Human rhinov...  64.2    5e-12
+  UniRef50_A0A1W6IYK5 Genome polyprotein n=4 Tax=Enterovirus TaxI...  68.1    6e-12
+  UniRef50_G5ENI6 VP4 protein (Fragment) n=1027 Tax=Picornavirida...  64.6    6e-12
+  UniRef50_G0ZNT7 Genome polyprotein n=487 Tax=Picornaviridae Tax...  67.7    7e-12
+  UniRef50_A0A286KAY8 Genome polyprotein (Fragment) n=5 Tax=Enter...  67.3    1e-11
+  UniRef50_A0A286KAZ1 Polyprotein (Fragment) n=1 Tax=Enterovirus ...  67.3    1e-11
+  UniRef50_A0A0H3VVZ7 Polyprotein (Fragment) n=1 Tax=Rhinovirus C...  64.6    1e-11
+  UniRef50_G5ENI2 VP4 protein (Fragment) n=82 Tax=Picornaviridae ...  63.1    1e-11
+  UniRef50_A0A286KB00 Genome polyprotein (Fragment) n=13 Tax=Ente...  66.9    1e-11
+  UniRef50_I3W9B5 VP4 protein (Fragment) n=2 Tax=Human enteroviru...  61.9    1e-11
+  UniRef50_A5GZG0 Genome polyprotein n=1329 Tax=Picornaviridae Ta...  66.5    2e-11
+  UniRef50_A0A0S2KWN5 Polyprotein (Fragment) n=2 Tax=Rhinovirus A...  66.5    2e-11
+  UniRef50_Q33C75 VP4-VP2 capsid protein (Fragment) n=60 Tax=Ente...  62.7    2e-11
+  UniRef50_A0A286KB15 Polyprotein (Fragment) n=12 Tax=Enterovirus...  65.8    3e-11
+  UniRef50_A0A077D0F3 Genome polyprotein (Fragment) n=1001 Tax=Pi...  65.8    4e-11
+  UniRef50_A0A0M3MZI2 Polyprotein (Fragment) n=10 Tax=Enterovirus...  65.0    4e-11
+  UniRef50_A4ZZH7 1A (Fragment) n=71 Tax=Enterovirus TaxID=12059 ...  60.8    4e-11
+  UniRef50_Q65481 Capsid protein (Fragment) n=98 Tax=Enterovirus ...  64.6    7e-11
+  UniRef50_G5ENI9 VP4 protein (Fragment) n=412 Tax=Picornaviridae...  61.1    9e-11
+  UniRef50_A0A1E1ELX7 Polyprotein (Fragment) n=2206 Tax=root TaxI...  60.4    1e-10
+  UniRef50_C7SIX8 Capsid protein (Fragment) n=39 Tax=Enterovirus ...  58.8    2e-10
+  UniRef50_D2Y2V1 VP4/VP2 protein (Fragment) n=17 Tax=Enterovirus...  58.8    3e-10
+  UniRef50_A0A0B4ZW63 Putative genome polyprotein (Fragment) n=26...  62.7    4e-10
+  UniRef50_E9RGC5 Polyprotein (Fragment) n=3 Tax=root TaxID=1 Rep...  62.3    4e-10
+  UniRef50_Q75Q82 Polyprotein (Fragment) n=7 Tax=Enterovirus TaxI...  58.4    5e-10
+  UniRef50_M1F0L9 Polyprotein (Fragment) n=6 Tax=Enterovirus TaxI...  58.4    8e-10
+  UniRef50_A0A0V1KKV2 Uncharacterized protein (Fragment) n=1 Tax=...  61.5    8e-10
+  UniRef50_Q2XU10 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059...  57.3    9e-10
+  UniRef50_UPI00001108A4 BOVINE ENTEROVIRUS COAT PROTEINS VP1 TO ...  57.3    9e-10
+  UniRef50_D6MTD1 Polyprotein (Fragment) n=11 Tax=Enterovirus Tax...  56.9    3e-09
+  UniRef50_C7SJ14 Capsid protein (Fragment) n=4 Tax=Enterovirus T...  55.7    4e-09
+  UniRef50_C7SJ17 Capsid protein (Fragment) n=15 Tax=Enterovirus ...  55.0    7e-09
+  UniRef50_B9V445 Genome polyprotein n=4 Tax=Enterovirus TaxID=12...  54.2    3e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A2H4RDT6 Polyprotein n=1 Tax=Picornavirales sp. TaxI...  49.6    1e-05
+  UniRef50_A0A145Y3F3 Genome polyprotein n=11 Tax=Enterovirus SEV...  44.2    8e-04
+
+
+> UniRef50_Q98VG7 Polyprotein (Fragment) n=5 Tax=Enterovirus TaxID=12059 
+RepID=Q98VG7_9ENTO
+Length=217
+
+ Score = 78.5 bits (192),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_F6ME03 Polyprotein (Fragment) n=2 Tax=Coxsackievirus 
+B4 TaxID=12073 RepID=F6ME03_9ENTO
+Length=1217
+
+ Score = 79.6 bits (195),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_Q5EI88 Polyprotein (Fragment) n=32 Tax=Enterovirus TaxID=12059 
+RepID=Q5EI88_9ENTO
+Length=330
+
+ Score = 76.9 bits (188),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q66474 Genome polyprotein n=470 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC06C
+Length=2191
+
+ Score = 78.1 bits (191),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEPVKD+M K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPVKDIMAKTLPALN  69
+
+
+> UniRef50_Q66790 Genome polyprotein (Fragment) n=110 Tax=Enterovirus 
+TaxID=12059 RepID=POLG_EC16H
+Length=862
+
+ Score = 77.3 bits (189),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 29/40 (73%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  S DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFSQDPSKFTEPVKDIMIKSMPALN  69
+
+
+> UniRef50_Q91QW0 Polyprotein (Fragment) n=2 Tax=Enterovirus B 
+TaxID=138949 RepID=Q91QW0_9ENTO
+Length=431
+
+ Score = 76.2 bits (186),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q9QCF0 Polyprotein (Fragment) n=22 Tax=Enterovirus B 
+TaxID=138949 RepID=Q9QCF0_9ENTO
+Length=1236
+
+ Score = 77.3 bits (189),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 26/40 (65%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP K+TEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKYTEPVKDIMIKSMPALN  69
+
+
+> UniRef50_O91734 Genome polyprotein n=751 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC01F
+Length=2184
+
+ Score = 77.3 bits (189),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 26/40 (65%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEP+KD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPMKDVMIKTLPALN  69
+
+
+> UniRef50_F5A7F4 Genome polyprotein n=76 Tax=Enterovirus TaxID=12059 
+RepID=F5A7F4_9ENTO
+Length=2218
+
+ Score = 77.3 bits (189),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 29/40 (73%), Positives = 34/40 (85%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS +++ Q  S DPSKFTEPVKD+MLK APALN
+Sbjct  30  INYYKDSASNAASKQDFSQDPSKFTEPVKDIMLKSAPALN  69
+
+
+> UniRef50_Q8QM97 Polyprotein (Fragment) n=15 Tax=Enterovirus TaxID=12059 
+RepID=Q8QM97_9ENTO
+Length=655
+
+ Score = 76.5 bits (187),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+AS S   Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDSASNSLNRQDFTQDPSKFTEPVKDVMIKTLPALN  69
+
+
+> UniRef50_Q2L970 Polyprotein (Fragment) n=48 Tax=Enterovirus B 
+TaxID=138949 RepID=Q2L970_9ENTO
+Length=920
+
+ Score = 76.5 bits (187),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 27/40 (68%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DP KFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPGKFTEPVKDIMVKSLPALN  69
+
+
+> UniRef50_P29813 Genome polyprotein n=3804 Tax=Enterovirus TaxID=12059 
+RepID=POLG_EC11G
+Length=2195
+
+ Score = 76.2 bits (186),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 31/40 (78%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  S DP KFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQEFSQDPGKFTEPVKDIMVKSLPALN  69
+
+
+> UniRef50_A0A077K9F9 Polyprotein (Fragment) n=901 Tax=Picornaviridae 
+TaxID=12058 RepID=A0A077K9F9_ECHO9
+Length=135
+
+ Score = 70.8 bits (172),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_P03300 Genome polyprotein n=22761 Tax=root TaxID=1 RepID=POLG_POL1M
+Length=2209
+
+ Score = 74.6 bits (182),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 24/40 (60%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  S DPSKFTEP+KD+++K AP LN
+Sbjct  30  INYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTAPMLN  69
+
+
+> UniRef50_Q5G9Z4 Polyprotein (Fragment) n=3 Tax=Enterovirus A90 
+TaxID=297248 RepID=Q5G9Z4_9ENTO
+Length=863
+
+ Score = 73.5 bits (179),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S+A Q  S DPSKFT+PV D + + AP L
+Sbjct  30  INYYKDSYAASAAKQDFSQDPSKFTQPVVDALKETAPPL  68
+
+
+> UniRef50_Q0VKI0 Polyprotein (Fragment) n=437 Tax=Human poliovirus 
+2 TaxID=12083 RepID=Q0VKI0_9ENTO
+Length=912
+
+ Score = 71.9 bits (175),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  + DPSKFTEP+KD+++K AP LN
+Sbjct  30  INYYRDSASNAASKQDFAQDPSKFTEPIKDVLIKTAPMLN  69
+
+
+> UniRef50_O89966 Polyprotein (Fragment) n=228 Tax=Enterovirus 
+C TaxID=138950 RepID=O89966_9ENTO
+Length=912
+
+ Score = 71.9 bits (175),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 23/40 (58%), Positives = 33/40 (83%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYY+D+AS +++ Q  S DPSKFTEP+KD+++K +P LN
+Sbjct  30  INYYRDSASNAASKQDFSQDPSKFTEPIKDVLIKTSPMLN  69
+
+
+> UniRef50_A0A1W5PTB2 Polyprotein (Fragment) n=2 Tax=Enterovirus 
+TaxID=12059 RepID=A0A1W5PTB2_9ENTO
+Length=399
+
+ Score = 70.4 bits (171),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S+  Q  S DPSKFT+PV D +   +  L
+Sbjct  30  INYYKDSYAASATKQDFSQDPSKFTQPVVDALQATSVPL  68
+
+
+> UniRef50_P82797 Capsid protein (Fragment) n=397 Tax=Enterovirus 
+TaxID=12059 RepID=P82797_9ENTO
+Length=1008
+
+ Score = 70.8 bits (172),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S+A    + DP KFT+PV D + +  P L
+Sbjct  30  INYYKDSYAASAAKHDFTQDPGKFTQPVLDALREAVPPL  68
+
+
+> UniRef50_Q2XU02 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059 
+RepID=Q2XU02_ECHO9
+Length=73
+
+ Score = 65.0 bits (157),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 28/40 (70%), Positives = 32/40 (80%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS S+  Q  + DPSKFTEPVKD+M+K  PALN
+Sbjct  30  INYYKDAASNSANRQDFTQDPSKFTEPVKDVMIKSLPALN  69
+
+
+> UniRef50_A0A097HUU9 Genome polyprotein (Fragment) n=6 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A097HUU9_9ENTO
+Length=2141
+
+ Score = 70.0 bits (170),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSKFTEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKFTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_Q2LKZ6 Polyprotein (Fragment) n=1 Tax=Enterovirus E 
+TaxID=12064 RepID=Q2LKZ6_9ENTO
+Length=1177
+
+ Score = 69.6 bits (169),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY++AAS S   Q  + DP KFT PV D+M + A  L
+Sbjct  30  INYYENAASNSLNKQDFTQDPEKFTRPVVDVMKEAAVPL  68
+
+
+> UniRef50_Q8QUZ7 Capsid protein VP4 n=1 Tax=Porcine enterovirus 
+9 (strain UKG/410/73) TaxID=64141 RepID=Q8QUZ7_PEV9U
+Length=115
+
+ Score = 65.4 bits (158),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY  +AS S   Q ++ DPSKFT+PV D+M + A  +
+Sbjct  30  INYYSHSASASQNKQDITQDPSKFTQPVVDMMKEAAVPV  68
+
+
+> UniRef50_A0A1Y0DG86 Genome polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A1Y0DG86_9ENTO
+Length=2156
+
+ Score = 69.6 bits (169),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSKFTEPV + +  GAP L
+Sbjct  4   INFYKDSYAASASKQDFSQDPSKFTEPVVEGLKAGAPVL  42
+
+
+> UniRef50_Q2LL14 Genome polyprotein n=30 Tax=Enterovirus TaxID=12059 
+RepID=Q2LL14_9ENTO
+Length=2167
+
+ Score = 69.6 bits (169),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY++AAS S   Q  + DP KFT PV D+M + A  L
+Sbjct  30  INYYENAASNSLNKQDFTQDPEKFTRPVVDVMKEAAVPL  68
+
+
+> UniRef50_G8FXR3 Capsid protein (Fragment) n=14 Tax=Enterovirus 
+TaxID=12059 RepID=G8FXR3_9ENTO
+Length=113
+
+ Score = 65.4 bits (158),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+ + S+  Q  + DP KFT+PV D + + +  LN
+Sbjct  30  INYYKDSYAASATRQDFTQDPKKFTQPVLDSIKELSAPLN  69
+
+
+> UniRef50_P03303 Genome polyprotein n=236 Tax=Enterovirus TaxID=12059 
+RepID=POLG_HRV14
+Length=2179
+
+ Score = 69.2 bits (168),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 40/40 (100%), Positives = 40/40 (100%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN
+Sbjct  30  INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  69
+
+
+> UniRef50_A0A286KB01 Polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KB01_9ENTO
+Length=1106
+
+ Score = 68.8 bits (167),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_P23008 Genome polyprotein n=2302 Tax=Enterovirus TaxID=12059 
+RepID=POLG_HRV1A
+Length=2157
+
+ Score = 68.5 bits (166),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASRLDFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_A0A1W5PTB5 Polyprotein (Fragment) n=2 Tax=Enterovirus 
+TaxID=12059 RepID=A0A1W5PTB5_9ENTO
+Length=279
+
+ Score = 65.8 bits (159),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYK++ + S+  Q  S DPSKFT+PV D++ + +  L
+Sbjct  30  INYYKESYAASATKQDFSQDPSKFTQPVVDMIKESSVPL  68
+
+
+> UniRef50_A0A291S472 Polyprotein (Fragment) n=1 Tax=Human rhinovirus 
+A46 TaxID=167324 RepID=A0A291S472_9ENTO
+Length=134
+
+ Score = 64.2 bits (155),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+P KD++ KG P L
+Sbjct  30  INYFKDAASSGASRLDFSQDPSKFTDPFKDVLTKGIPTL  68
+
+
+> UniRef50_A0A1W6IYK5 Genome polyprotein n=4 Tax=Enterovirus TaxID=12059 
+RepID=A0A1W6IYK5_9ENTO
+Length=2365
+
+ Score = 68.1 bits (165),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY  +AS S   Q ++ DPSKFT+PV DLM + A  L
+Sbjct  30  INYYSHSASASQNKQDIAQDPSKFTQPVVDLMKESAVPL  68
+
+
+> UniRef50_G5ENI6 VP4 protein (Fragment) n=1027 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI6_9ENTO
+Length=169
+
+ Score = 64.6 bits (156),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 20/36 (56%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           +NYYKDAAS+    Q  S DPSKFT+PV D++   A
+Sbjct  56  VNYYKDAASSGLTKQDFSQDPSKFTQPVADILSNPA  91
+
+
+> UniRef50_G0ZNT7 Genome polyprotein n=487 Tax=Picornaviridae TaxID=12058 
+RepID=G0ZNT7_9ENTO
+Length=2155
+
+ Score = 67.7 bits (164),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 20/36 (56%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKD+AS+  A Q  S DPSKFT+P+ D++   A
+Sbjct  30  INYYKDSASSGLAKQDFSQDPSKFTQPLADVLTNPA  65
+
+
+> UniRef50_A0A286KAY8 Genome polyprotein (Fragment) n=5 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KAY8_9ENTO
+Length=1665
+
+ Score = 67.3 bits (163),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A286KAZ1 Polyprotein (Fragment) n=1 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KAZ1_9ENTO
+Length=1549
+
+ Score = 67.3 bits (163),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A0H3VVZ7 Polyprotein (Fragment) n=1 Tax=Rhinovirus 
+C TaxID=463676 RepID=A0A0H3VVZ7_9ENTO
+Length=258
+
+ Score = 64.6 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 18/33 (55%), Positives = 24/33 (73%), Gaps = 0/33 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLML  33
+           INYYKD+AS+    Q  S DPSKFT+P+ D++ 
+Sbjct  30  INYYKDSASSGLTKQDFSQDPSKFTQPIADVLT  62
+
+
+> UniRef50_G5ENI2 VP4 protein (Fragment) n=82 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI2_9ENTO
+Length=111
+
+ Score = 63.1 bits (152),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  23  INYFKDAASSGASRLDFSQDPSKFTDPVKDVLTKGIPTL  61
+
+
+> UniRef50_A0A286KB00 Genome polyprotein (Fragment) n=13 Tax=Enterovirus 
+TaxID=12059 RepID=A0A286KB00_9ENTO
+Length=1731
+
+ Score = 66.9 bits (162),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_I3W9B5 VP4 protein (Fragment) n=2 Tax=Human enterovirus 
+TaxID=1193974 RepID=I3W9B5_9ENTO
+Length=69
+
+ Score = 61.9 bits (149),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + S++ Q  + DP+KFT PV D++ + AP L
+Sbjct  30  INYYKDSYAASASRQDFTQDPTKFTSPVLDMLRETAPPL  68
+
+
+> UniRef50_A5GZG0 Genome polyprotein n=1329 Tax=Picornaviridae 
+TaxID=12058 RepID=A5GZG0_9ENTO
+Length=2155
+
+ Score = 66.5 bits (161),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASKLEFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_A0A0S2KWN5 Polyprotein (Fragment) n=2 Tax=Rhinovirus 
+A TaxID=147711 RepID=A0A0S2KWN5_9ENTO
+Length=1063
+
+ Score = 66.5 bits (161),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS+ ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASSGASKLEFSQDPSKFTDPVKDVLEKGIPTL  68
+
+
+> UniRef50_Q33C75 VP4-VP2 capsid protein (Fragment) n=60 Tax=Enterovirus 
+TaxID=12059 RepID=Q33C75_9ENTO
+Length=126
+
+ Score = 62.7 bits (151),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+ + S+  Q  + DP KFT+PV D + + +  LN
+Sbjct  30  INYYKDSYAASATRQDFTQDPKKFTQPVLDSIRELSAPLN  69
+
+
+> UniRef50_A0A286KB15 Polyprotein (Fragment) n=12 Tax=Enterovirus 
+D68 TaxID=42789 RepID=A0A286KB15_9ENTO
+Length=861
+
+ Score = 65.8 bits (159),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 20/39 (51%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           IN+YKD+ + S++ Q  S DPSK TEPV + +  GAP L
+Sbjct  30  INFYKDSYAASASKQDFSQDPSKLTEPVVEGLKAGAPVL  68
+
+
+> UniRef50_A0A077D0F3 Genome polyprotein (Fragment) n=1001 Tax=Picornaviridae 
+TaxID=12058 RepID=A0A077D0F3_9ENTO
+Length=2045
+
+ Score = 65.8 bits (159),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKDAAS+    Q  S DPSKFT+P+ + +   A
+Sbjct  30  INYYKDAASSGLTKQDFSQDPSKFTQPLAEALTNPA  65
+
+
+> UniRef50_A0A0M3MZI2 Polyprotein (Fragment) n=10 Tax=Enterovirus 
+TaxID=12059 RepID=A0A0M3MZI2_9ENTO
+Length=597
+
+ Score = 65.0 bits (157),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKDAAS+    Q  S DPSKFT+P+ + +   A
+Sbjct  30  INYYKDAASSGLTKQDFSQDPSKFTQPLAEALTNPA  65
+
+
+> UniRef50_A4ZZH7 1A (Fragment) n=71 Tax=Enterovirus TaxID=12059 
+RepID=A4ZZH7_9ENTO
+Length=66
+
+ Score = 60.8 bits (146),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           +NYYKDAAS+    Q  S DPSKFT+P+ D++   A
+Sbjct  30  VNYYKDAASSGLTKQDFSQDPSKFTQPIADILTNPA  65
+
+
+> UniRef50_Q65481 Capsid protein (Fragment) n=98 Tax=Enterovirus 
+TaxID=12059 RepID=Q65481_9ENTO
+Length=834
+
+ Score = 64.6 bits (156),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 24/39 (62%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY++AAS S   Q  + DP  FT PV D+M + A  L
+Sbjct  30  INYYENAASNSLNKQDFTQDPETFTRPVVDVMKEAAVPL  68
+
+
+> UniRef50_G5ENI9 VP4 protein (Fragment) n=412 Tax=Picornaviridae 
+TaxID=12058 RepID=G5ENI9_9ENTO
+Length=169
+
+ Score = 61.1 bits (147),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYY+D+AS+    Q  S DPSKFT+P+ D +   A
+Sbjct  57  INYYRDSASSGLTKQDFSQDPSKFTQPLVDTLTNPA  92
+
+
+> UniRef50_A0A1E1ELX7 Polyprotein (Fragment) n=2206 Tax=root TaxID=1 
+RepID=A0A1E1ELX7_9ENTO
+Length=130
+
+ Score = 60.4 bits (145),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/39 (59%), Positives = 29/39 (74%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INY+KDAAS  ++    S DPSKFT+PVKD++ KG P L
+Sbjct  30  INYFKDAASNGASRLDFSQDPSKFTDPVKDVLTKGIPTL  68
+
+
+> UniRef50_C7SIX8 Capsid protein (Fragment) n=39 Tax=Enterovirus 
+TaxID=12059 RepID=C7SIX8_9ENTO
+Length=67
+
+ Score = 58.8 bits (141),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYY+D+AS+  A Q  S DPSKFT+P+ D++   A
+Sbjct  30  INYYRDSASSGLAKQDFSQDPSKFTQPLADVLTNPA  65
+
+
+> UniRef50_D2Y2V1 VP4/VP2 protein (Fragment) n=17 Tax=Enterovirus 
+TaxID=12059 RepID=D2Y2V1_9ENTO
+Length=95
+
+ Score = 58.8 bits (141),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 20/36 (56%), Positives = 24/36 (67%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKDAAS+    Q  S DPSKFT+P+ D +   A
+Sbjct  30  INYYKDAASSGLTKQDFSQDPSKFTQPLADALTNPA  65
+
+
+> UniRef50_A0A0B4ZW63 Putative genome polyprotein (Fragment) n=26 
+Tax=Enterovirus TaxID=12059 RepID=A0A0B4ZW63_9ENTO
+Length=1301
+
+ Score = 62.7 bits (151),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + ++  QSL  DP KF  PVKD+  + A  L
+Sbjct  30  INYYKDSYAATAGKQSLKQDPDKFANPVKDIFTEMAAPL  68
+
+
+> UniRef50_E9RGC5 Polyprotein (Fragment) n=3 Tax=root TaxID=1 RepID=E9RGC5_9ENTO
+Length=573
+
+ Score = 62.3 bits (150),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + ++  QSL  DP KF  PVKD+  + A  L
+Sbjct  30  INYYKDSYAATAGRQSLKQDPDKFANPVKDIFTEMAAPL  68
+
+
+> UniRef50_Q75Q82 Polyprotein (Fragment) n=7 Tax=Enterovirus TaxID=12059 
+RepID=Q75Q82_9ENTO
+Length=100
+
+ Score = 58.4 bits (140),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 22/39 (56%), Positives = 28/39 (72%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           I YYKDA+S S++    + DP KFTEPVKD+M+K  P L
+Sbjct  30  IIYYKDASSFSASLPDFTHDPGKFTEPVKDIMIKSMPTL  68
+
+
+> UniRef50_M1F0L9 Polyprotein (Fragment) n=6 Tax=Enterovirus TaxID=12059 
+RepID=M1F0L9_9ENTO
+Length=120
+
+ Score = 58.4 bits (140),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 19/36 (53%), Positives = 26/36 (72%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKD+AS+  + Q  SMDP KFT+P+ ++M   A
+Sbjct  9   INYYKDSASSGLSKQDFSMDPEKFTKPIAEVMTNPA  44
+
+
+> UniRef50_A0A0V1KKV2 Uncharacterized protein (Fragment) n=1 Tax=Trichinella 
+nativa TaxID=6335 RepID=A0A0V1KKV2_9BILA
+Length=810
+
+ Score = 61.5 bits (148),  Expect = 8e-10, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYYKD+ + ++  QSL  DP KF  PVKD+  + A  L
+Sbjct  30  INYYKDSYAATAGKQSLKQDPDKFANPVKDIFTEMAAPL  68
+
+
+> UniRef50_Q2XU10 VP4 (Fragment) n=55 Tax=Enterovirus TaxID=12059 
+RepID=Q2XU10_9ENTO
+Length=73
+
+ Score = 57.3 bits (137),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 26/40 (65%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKD+ + S+  Q  + DP KFT+PV D + + +  LN
+Sbjct  30  INYYKDSYAASATRQDFAQDPKKFTQPVLDSITELSAPLN  69
+
+
+> UniRef50_UPI00001108A4 BOVINE ENTEROVIRUS COAT PROTEINS VP1 TO 
+VP4 n=1 Tax=Bovine enterovirus (strain VG-5-27) TaxID=12065 
+RepID=UPI00001108A4
+Length=68
+
+ Score = 57.3 bits (137),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 25/39 (64%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY  AAS +   Q  + DPSKFT+P+ D++ + A  L
+Sbjct  29  INYYSHAASAAQNKQDFTQDPSKFTQPIADVIKETAVPL  67
+
+
+> UniRef50_D6MTD1 Polyprotein (Fragment) n=11 Tax=Enterovirus TaxID=12059 
+RepID=D6MTD1_9ENTO
+Length=122
+
+ Score = 56.9 bits (136),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 19/39 (49%), Positives = 27/39 (69%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           I +YKD+ + S++ Q+ S DPSKFTEP  + +  GAP L
+Sbjct  30  IIFYKDSYAPSASKQNFSQDPSKFTEPGVEGLKAGAPFL  68
+
+
+> UniRef50_C7SJ14 Capsid protein (Fragment) n=4 Tax=Enterovirus 
+TaxID=12059 RepID=C7SJ14_9ENTO
+Length=67
+
+ Score = 55.7 bits (133),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 22/38 (58%), Positives = 28/38 (74%), Gaps = 0/38 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPA  38
+           INY+KDAAS  ++    S DPSKFT+PVKD++ KG P 
+Sbjct  30  INYFKDAASHGASKLDFSQDPSKFTDPVKDVLEKGIPT  67
+
+
+> UniRef50_C7SJ17 Capsid protein (Fragment) n=15 Tax=Enterovirus 
+TaxID=12059 RepID=C7SJ17_9ENTO
+Length=67
+
+ Score = 55.0 bits (131),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 25/36 (69%), Gaps = 0/36 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+           INYYKD+AS+  + Q  SMD  KFT+P+ ++M   A
+Sbjct  30  INYYKDSASSGLSKQDFSMDHEKFTKPIAEVMTNPA  65
+
+
+> UniRef50_B9V445 Genome polyprotein n=4 Tax=Enterovirus TaxID=12059 
+RepID=B9V445_9ENTO
+Length=2176
+
+ Score = 54.2 bits (129),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 39/40 (98%), Positives = 40/40 (100%), Gaps = 0/40 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  40
+           INYYKDAAS+SSAGQSLSMDPSKFTEPVKDLMLKGAPALN
+Sbjct  30  INYYKDAASSSSAGQSLSMDPSKFTEPVKDLMLKGAPALN  69
+
+
+> UniRef50_A0A2H4RDT6 Polyprotein n=1 Tax=Picornavirales sp. TaxID=1955153 
+RepID=A0A2H4RDT6_9VIRU
+Length=2405
+
+ Score = 49.6 bits (117),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 18/36 (50%), Positives = 22/36 (61%), Gaps = 0/36 (0%)
+
+Query  1    INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGA  36
+            INYY    + S A Q L MDP KFT+PV D++   A
+Sbjct  98   INYYGSDYAASKADQQLQMDPGKFTQPVADILKGPA  133
+
+
+> UniRef50_A0A145Y3F3 Genome polyprotein n=11 Tax=Enterovirus SEV-gx 
+TaxID=1826059 RepID=A0A145Y3F3_9ENTO
+Length=2209
+
+ Score = 44.2 bits (103),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 18/39 (46%), Positives = 26/39 (67%), Gaps = 0/39 (0%)
+
+Query  1   INYYKDAASTSSAGQSLSMDPSKFTEPVKDLMLKGAPAL  39
+           INYY D+ +++S+  SL  DPSKFT+PV D +  G   +
+Sbjct  30  INYYNDSCASASSVASLQQDPSKFTQPVVDALKAGEVMM  68
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.143    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0424    0.140     1.90     42.6     43.6 
+
+Effective search space used: 235747627336
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

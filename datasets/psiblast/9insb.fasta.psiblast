@@ -1,0 +1,2131 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 9insb
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_J9P3Z4 Insulin n=6 Tax=Laurasiatheria TaxID=314145 Rep...  72.4    8e-15
+  UniRef50_F8WCM5 Insulin, isoform 2 n=8 Tax=Catarrhini TaxID=952...  70.9    3e-14
+  UniRef50_P67973 Insulin n=19 Tax=Eukaryota TaxID=2759 RepID=INS...  65.5    2e-13
+  UniRef50_B5FWC2 Insulin n=15 Tax=Bilateria TaxID=33213 RepID=B5...  67.0    3e-13
+  UniRef50_P01321 Insulin n=42 Tax=Gnathostomata TaxID=35060 RepI...  67.0    3e-13
+  UniRef50_P01315 Insulin n=6 Tax=Boreoeutheria TaxID=1437010 Rep...  66.6    3e-13
+  UniRef50_A5PJB2 Insulin n=6 Tax=Cetartiodactyla TaxID=91561 Rep...  66.6    3e-13
+  UniRef50_P01317 Insulin n=55 Tax=cellular organisms TaxID=13156...  66.2    4e-13
+  UniRef50_Q7M0U6 Epidermal growth factor/single chain insulin fu...  65.5    6e-13
+  UniRef50_P01308 Insulin n=67 Tax=Euteleostomi TaxID=117571 RepI...  65.1    1e-12
+  UniRef50_P30407 Insulin n=6 Tax=Euarchontoglires TaxID=314146 R...  65.1    1e-12
+  UniRef50_L5LRB0 Insulin n=2 Tax=Myotis TaxID=9434 RepID=L5LRB0_...  65.5    2e-12
+  UniRef50_Q6XVK7 Preproinsulin (Fragment) n=6 Tax=Aves TaxID=878...  62.8    4e-12
+  UniRef50_A0A1U7T3P2 insulin, isoform 2-like n=1 Tax=Tarsius syr...  64.3    4e-12
+  UniRef50_D3Z595 Insulin-2 n=2 Tax=Boreoeutheria TaxID=1437010 R...  63.2    7e-12
+  UniRef50_P51463 Insulin (Fragment) n=62 Tax=Euteleostomi TaxID=...  62.4    1e-11
+  UniRef50_F7FC22 INS-IGF2 readthrough n=6 Tax=Eutheria TaxID=934...  63.2    1e-11
+  UniRef50_D3Z596 Insulin-2 n=2 Tax=Mus musculus TaxID=10090 RepI...  61.2    2e-11
+  UniRef50_P67970 Insulin n=57 Tax=Euteleostomi TaxID=117571 RepI...  61.6    3e-11
+  UniRef50_P01333 Insulin n=18 Tax=Sauria TaxID=32561 RepID=INS_A...  58.9    2e-10
+  UniRef50_H2MW49 Insulin n=4 Tax=Ovalentaria TaxID=1489908 RepID...  57.8    7e-10
+  UniRef50_UPI0001C397B7 Insulin n=1 Tax=Homo sapiens TaxID=9606 ...  57.0    8e-10
+  UniRef50_P04667 Insulin n=11 Tax=Euteleosteomorpha TaxID=148938...  56.6    2e-09
+  UniRef50_P09476 Insulin n=30 Tax=Euteleostomi TaxID=117571 RepI...  55.5    2e-09
+  UniRef50_A0A060Y6K0 Insulin n=8 Tax=Clupeocephala TaxID=186625 ...  55.1    8e-09
+  UniRef50_Q98TA8 Insulin n=15 Tax=Neopterygii TaxID=41665 RepID=...  54.3    1e-08
+  UniRef50_P01334 Insulin n=29 Tax=Eukaryota TaxID=2759 RepID=INS...  53.1    1e-08
+  UniRef50_P81025 Insulin n=8 Tax=Percomorphaceae TaxID=1489872 R...  53.9    2e-08
+  UniRef50_P13190 Insulin n=22 Tax=Gnathostomata TaxID=35060 RepI...  52.4    6e-08
+  UniRef50_Q98TA9 Insulin (Fragment) n=1 Tax=Gnathonemus petersii...  52.4    6e-08
+  UniRef50_A0A2D0QAI1 Insulin n=2 Tax=Ictalurus punctatus TaxID=7...  52.0    9e-08
+  UniRef50_A0A0F8AG37 Insulin n=2 Tax=Larimichthys crocea TaxID=2...  54.7    9e-08
+  UniRef50_P12705 Insulin (Fragments) n=4 Tax=Gnathostomata TaxID...  50.8    1e-07
+  UniRef50_UPI000900A77B uncharacterized protein LOC104931882 n=1...  52.0    2e-07
+  UniRef50_O73727 Insulin n=27 Tax=Clupeocephala TaxID=186625 Rep...  50.8    2e-07
+  UniRef50_UPI000A1C6CE8 insulin-1-like n=1 Tax=Boleophthalmus pe...  49.7    5e-07
+  UniRef50_UPI0009D936B8 insulin-like n=2 Tax=Atherinomorphae Tax...  50.1    6e-07
+  UniRef50_F1QAE3 Insulin n=4 Tax=Danio rerio TaxID=7955 RepID=F1...  49.7    9e-07
+  UniRef50_UPI0006440328 uncharacterized protein LOC105902849 n=1...  49.7    2e-06
+  UniRef50_UPI0009A31182 insulin n=1 Tax=Rhincodon typus TaxID=25...  47.4    4e-06
+  UniRef50_A0A1A8ACH4 Preproinsulin n=2 Tax=Nothobranchius TaxID=...  47.4    5e-06
+  UniRef50_UPI0009731BB6 uncharacterized protein LOC105007078 n=1...  48.5    7e-06
+  UniRef50_UPI000C308B10 LOW QUALITY PROTEIN: insulin-like n=2 Ta...  46.6    1e-05
+  UniRef50_UPI0007BA3BB4 uncharacterized protein LOC107707184 n=1...  47.0    3e-05
+  UniRef50_UPI00094E74EC insulin-like n=4 Tax=Percomorphaceae Tax...  44.3    5e-05
+  UniRef50_P01342 Insulin n=5 Tax=Vertebrata TaxID=1261581 RepID=...  43.1    1e-04
+  UniRef50_A0A0H4A7I5 Insulin n=3 Tax=Desmognathus ocoee TaxID=17...  42.7    2e-04
+
+
+> UniRef50_J9P3Z4 Insulin n=6 Tax=Laurasiatheria TaxID=314145 RepID=J9P3Z4_CANLF
+Length=213
+
+ Score = 72.4 bits (176),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_F8WCM5 Insulin, isoform 2 n=8 Tax=Catarrhini TaxID=9526 
+RepID=INSR2_HUMAN
+Length=200
+
+ Score = 70.9 bits (172),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> UniRef50_P67973 Insulin n=19 Tax=Eukaryota TaxID=2759 RepID=INS_BALPH
+Length=51
+
+ Score = 65.5 bits (158),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> UniRef50_B5FWC2 Insulin n=15 Tax=Bilateria TaxID=33213 RepID=B5FWC2_OTOGA
+Length=110
+
+ Score = 67.0 bits (162),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_P01321 Insulin n=42 Tax=Gnathostomata TaxID=35060 RepID=INS_CANLF
+Length=110
+
+ Score = 67.0 bits (162),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_P01315 Insulin n=6 Tax=Boreoeutheria TaxID=1437010 RepID=INS_PIG
+Length=108
+
+ Score = 66.6 bits (161),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_A5PJB2 Insulin n=6 Tax=Cetartiodactyla TaxID=91561 RepID=A5PJB2_BOVIN
+Length=105
+
+ Score = 66.6 bits (161),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_P01317 Insulin n=55 Tax=cellular organisms TaxID=131567 
+RepID=INS_BOVIN
+Length=105
+
+ Score = 66.2 bits (160),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_Q7M0U6 Epidermal growth factor/single chain insulin 
+fusion protein (Fragment) n=2 Tax=cellular organisms TaxID=131567 
+RepID=Q7M0U6_BREBE
+Length=96
+
+ Score = 65.5 bits (158),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  47  FVNQHLCGSHLVEALYLVCGERGFFYTPK  75
+
+
+> UniRef50_P01308 Insulin n=67 Tax=Euteleostomi TaxID=117571 RepID=INS_HUMAN
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> UniRef50_P30407 Insulin n=6 Tax=Euarchontoglires TaxID=314146 
+RepID=INS_CHLAE
+Length=110
+
+ Score = 65.1 bits (157),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> UniRef50_L5LRB0 Insulin n=2 Tax=Myotis TaxID=9434 RepID=L5LRB0_MYODS
+Length=168
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> UniRef50_Q6XVK7 Preproinsulin (Fragment) n=6 Tax=Aves TaxID=8782 
+RepID=Q6XVK7_TURME
+Length=55
+
+ Score = 62.8 bits (151),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY PKA
+Sbjct  19  VNQHLCGSHLVEALYLVCGERGFFYQPKA  47
+
+
+> UniRef50_A0A1U7T3P2 insulin, isoform 2-like n=1 Tax=Tarsius syrichta 
+TaxID=1868482 RepID=A0A1U7T3P2_TARSY
+Length=150
+
+ Score = 64.3 bits (155),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PKA
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKA  54
+
+
+> UniRef50_D3Z595 Insulin-2 n=2 Tax=Boreoeutheria TaxID=1437010 
+RepID=D3Z595_MOUSE
+Length=106
+
+ Score = 63.2 bits (152),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> UniRef50_P51463 Insulin (Fragment) n=62 Tax=Euteleostomi TaxID=117571 
+RepID=INS_SELRF
+Length=103
+
+ Score = 62.4 bits (150),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  22  VNQHLCGSHLVEALYLVCGERGFFYSPKA  50
+
+
+> UniRef50_F7FC22 INS-IGF2 readthrough n=6 Tax=Eutheria TaxID=9347 
+RepID=F7FC22_CALJA
+Length=194
+
+ Score = 63.2 bits (152),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCG HLVEALYLVCGERGFFY PK
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPK  53
+
+
+> UniRef50_D3Z596 Insulin-2 n=2 Tax=Mus musculus TaxID=10090 RepID=D3Z596_MOUSE
+Length=79
+
+ Score = 61.2 bits (147),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> UniRef50_P67970 Insulin n=57 Tax=Euteleostomi TaxID=117571 RepID=INS_CHICK
+Length=107
+
+ Score = 61.6 bits (148),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  26  ANQHLCGSHLVEALYLVCGERGFFYSPKA  54
+
+
+> UniRef50_P01333 Insulin n=18 Tax=Sauria TaxID=32561 RepID=INS_ANAPL
+Length=81
+
+ Score = 58.9 bits (141),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> UniRef50_H2MW49 Insulin n=4 Tax=Ovalentaria TaxID=1489908 RepID=H2MW49_ORYLA
+Length=115
+
+ Score = 57.8 bits (138),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 25/26 (96%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLVEALYLVCG+RGFFYTPK
+Sbjct  28  QHLCGSHLVEALYLVCGDRGFFYTPK  53
+
+
+> UniRef50_UPI0001C397B7 Insulin n=1 Tax=Homo sapiens TaxID=9606 
+RepID=UPI0001C397B7
+Length=86
+
+ Score = 57.0 bits (136),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYT  27
+           FVNQHLCGS LVEALYLVCGERGFFYT
+Sbjct  1   FVNQHLCGSDLVEALYLVCGERGFFYT  27
+
+
+> UniRef50_P04667 Insulin n=11 Tax=Euteleosteomorpha TaxID=1489388 
+RepID=INS_ONCKE
+Length=105
+
+ Score = 56.6 bits (135),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 24/26 (92%), Positives = 26/26 (100%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCGE+GFFYTPK
+Sbjct  26  QHLCGSHLVDALYLVCGEKGFFYTPK  51
+
+
+> UniRef50_P09476 Insulin n=30 Tax=Euteleostomi TaxID=117571 RepID=INS_ATRSP
+Length=52
+
+ Score = 55.5 bits (132),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 24/28 (86%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGE+GFFY P 
+Sbjct  2   ANQHLCGSHLVEALYLVCGEKGFFYNPN  29
+
+
+> UniRef50_A0A060Y6K0 Insulin n=8 Tax=Clupeocephala TaxID=186625 
+RepID=A0A060Y6K0_ONCMY
+Length=107
+
+ Score = 55.1 bits (131),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 23/26 (88%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCGE+GFFY PK
+Sbjct  26  QHLCGSHLVDALYLVCGEKGFFYNPK  51
+
+
+> UniRef50_Q98TA8 Insulin n=15 Tax=Neopterygii TaxID=41665 RepID=INS_PANBU
+Length=110
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLV+ALY+VCGE+GFFY PK 
+Sbjct  26  SQHLCGSHLVDALYMVCGEKGFFYQPKT  53
+
+
+> UniRef50_P01334 Insulin n=29 Tax=Eukaryota TaxID=2759 RepID=INS_CROAT
+Length=51
+
+ Score = 53.1 bits (126),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           NQ LCGSHLVEAL+L+CGERGF+Y+P++
+Sbjct  3   NQRLCGSHLVEALFLICGERGFYYSPRS  30
+
+
+> UniRef50_P81025 Insulin n=8 Tax=Percomorphaceae TaxID=1489872 
+RepID=INS_ORENI
+Length=113
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 22/26 (85%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG+RGFFY P+
+Sbjct  29  QHLCGSHLVDALYLVCGDRGFFYNPR  54
+
+
+> UniRef50_P13190 Insulin n=22 Tax=Gnathostomata TaxID=35060 RepID=INS_CALMI
+Length=89
+
+ Score = 52.4 bits (124),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  3   TQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> UniRef50_Q98TA9 Insulin (Fragment) n=1 Tax=Gnathonemus petersii 
+TaxID=42645 RepID=Q98TA9_9TELE
+Length=87
+
+ Score = 52.4 bits (124),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLVEAL+LVCGERGFF+ P  
+Sbjct  4   QHLCGSHLVEALFLVCGERGFFFNPDT  30
+
+
+> UniRef50_A0A2D0QAI1 Insulin n=2 Tax=Ictalurus punctatus TaxID=7998 
+RepID=A0A2D0QAI1_ICTPU
+Length=108
+
+ Score = 52.0 bits (123),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 23/26 (88%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLVEALYLVCG  GFFY PK
+Sbjct  27  QHLCGSHLVEALYLVCGPNGFFYNPK  52
+
+
+> UniRef50_A0A0F8AG37 Insulin n=2 Tax=Larimichthys crocea TaxID=215358 
+RepID=A0A0F8AG37_LARCR
+Length=448
+
+ Score = 54.7 bits (130),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 22/26 (85%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  4    QHLCGSHLVEALYLVCGERGFFYTPK  29
+            QHLCGSHLV+ALY+VCG RGFFY PK
+Sbjct  361  QHLCGSHLVDALYMVCGPRGFFYNPK  386
+
+
+> UniRef50_P12705 Insulin (Fragments) n=4 Tax=Gnathostomata TaxID=35060 
+RepID=INS_TORMA
+Length=70
+
+ Score = 50.8 bits (120),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLVEALY VCG +GF+Y PKA
+Sbjct  3   SQHLCGSHLVEALYFVCGPKGFYYLPKA  30
+
+
+> UniRef50_UPI000900A77B uncharacterized protein LOC104931882 n=1 
+Tax=Larimichthys crocea TaxID=215358 RepID=UPI000900A77B
+Length=217
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 20/23 (87%), Positives = 22/23 (96%), Gaps = 0/23 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFY  26
+           QHLCGSHLV+ALY+VCG RGFFY
+Sbjct  29  QHLCGSHLVDALYMVCGPRGFFY  51
+
+
+> UniRef50_O73727 Insulin n=27 Tax=Clupeocephala TaxID=186625 RepID=INS_DANRE
+Length=108
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  27  QHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> UniRef50_UPI000A1C6CE8 insulin-1-like n=1 Tax=Boleophthalmus 
+pectinirostris TaxID=150288 RepID=UPI000A1C6CE8
+Length=86
+
+ Score = 49.7 bits (117),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 20/29 (69%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           F +QHLCG HLVEAL +VCG+RGF+Y P+
+Sbjct  23  FSSQHLCGPHLVEALNMVCGDRGFYYNPQ  51
+
+
+> UniRef50_UPI0009D936B8 insulin-like n=2 Tax=Atherinomorphae TaxID=1489913 
+RepID=UPI0009D936B8
+Length=145
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 20/25 (80%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTP  28
+           QHLCGSHLV+AL+ VCG+RGFFY P
+Sbjct  61  QHLCGSHLVDALFFVCGDRGFFYNP  85
+
+
+> UniRef50_F1QAE3 Insulin n=4 Tax=Danio rerio TaxID=7955 RepID=F1QAE3_DANRE
+Length=159
+
+ Score = 49.7 bits (117),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 21/28 (75%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGS LV+ALYLVCG RGFFYT + 
+Sbjct  77   SQHLCGSSLVDALYLVCGPRGFFYTNRG  104
+
+
+> UniRef50_UPI0006440328 uncharacterized protein LOC105902849 n=1 
+Tax=Clupea harengus TaxID=7950 RepID=UPI0006440328
+Length=251
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 21/26 (81%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  4    QHLCGSHLVEALYLVCGERGFFYTPK  29
+            Q+LCGSHLVEALYLVCG+ GFFY+P 
+Sbjct  169  QYLCGSHLVEALYLVCGDNGFFYSPS  194
+
+
+> UniRef50_UPI0009A31182 insulin n=1 Tax=Rhincodon typus TaxID=259920 
+RepID=UPI0009A31182
+Length=113
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/28 (68%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGS LV+ALY VCG +GF+Y PK 
+Sbjct  27  SQHLCGSQLVDALYFVCGSKGFYYEPKT  54
+
+
+> UniRef50_A0A1A8ACH4 Preproinsulin n=2 Tax=Nothobranchius TaxID=28779 
+RepID=A0A1A8ACH4_NOTFU
+Length=103
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           Q LCG HL +ALYLVCGERGF + P++
+Sbjct  28  QKLCGPHLTDALYLVCGERGFLFNPRS  54
+
+
+> UniRef50_UPI0009731BB6 uncharacterized protein LOC105007078 n=1 
+Tax=Esox lucius TaxID=8010 RepID=UPI0009731BB6
+Length=249
+
+ Score = 48.5 bits (114),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           Q LCGS LV+ALYLVCGE GFFY PK
+Sbjct  40  QLLCGSQLVDALYLVCGENGFFYNPK  65
+
+
+> UniRef50_UPI000C308B10 LOW QUALITY PROTEIN: insulin-like n=2 
+Tax=Pomacentridae TaxID=30863 RepID=UPI000C308B10
+Length=180
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 19/24 (79%), Positives = 22/24 (92%), Gaps = 0/24 (0%)
+
+Query  4    QHLCGSHLVEALYLVCGERGFFYT  27
+            QHLCGS LV+ALY VCGERGF+Y+
+Sbjct  96   QHLCGSRLVDALYFVCGERGFYYS  119
+
+
+> UniRef50_UPI0007BA3BB4 uncharacterized protein LOC107707184 n=1 
+Tax=Sinocyclocheilus rhinocerous TaxID=307959 RepID=UPI0007BA3BB4
+Length=243
+
+ Score = 47.0 bits (110),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGS+LV+AL+LVCG +GFFY+ ++
+Sbjct  25  SQHLCGSNLVDALFLVCGPKGFFYSSRS  52
+
+
+ Score = 47.0 bits (110),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGS+LV+AL+LVCG +GFFY+ ++
+Sbjct  157  SQHLCGSNLVDALFLVCGPKGFFYSSRS  184
+
+
+> UniRef50_UPI00094E74EC insulin-like n=4 Tax=Percomorphaceae TaxID=1489872 
+RepID=UPI00094E74EC
+Length=116
+
+ Score = 44.3 bits (103),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           + ++HLCG +LVEAL +VCG+RGFF + K
+Sbjct  25  YSSKHLCGPNLVEALSMVCGDRGFFTSSK  53
+
+
+> UniRef50_P01342 Insulin n=5 Tax=Vertebrata TaxID=1261581 RepID=INS_MYXGL
+Length=115
+
+ Score = 43.1 bits (100),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTP  28
+           HLCG  LV ALY+ CG RGFFY P
+Sbjct  31  HLCGKDLVNALYIACGVRGFFYDP  54
+
+
+> UniRef50_A0A0H4A7I5 Insulin n=3 Tax=Desmognathus ocoee TaxID=179530 
+RepID=A0A0H4A7I5_9SALA
+Length=105
+
+ Score = 42.7 bits (99),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGF  24
+           F +QHLCG  LV+AL +VCGERGF
+Sbjct  24  FSDQHLCGDQLVDALRVVCGERGF  47
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.146    0.494    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233531472575
+Results from round 2
+
+
+Query= 9insb
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_F8WCM5 Insulin, isoform 2 n=8 Tax=Catarrhini TaxID=952...  67.6    4e-13
+  UniRef50_J9P3Z4 Insulin n=6 Tax=Laurasiatheria TaxID=314145 Rep...  67.6    4e-13
+  UniRef50_D3Z595 Insulin-2 n=2 Tax=Boreoeutheria TaxID=1437010 R...  64.5    2e-12
+  UniRef50_A0A1U7T3P2 insulin, isoform 2-like n=1 Tax=Tarsius syr...  64.9    3e-12
+  UniRef50_F7FC22 INS-IGF2 readthrough n=6 Tax=Eutheria TaxID=934...  64.5    5e-12
+  UniRef50_P01321 Insulin n=42 Tax=Gnathostomata TaxID=35060 RepI...  62.6    1e-11
+  UniRef50_B5FWC2 Insulin n=15 Tax=Bilateria TaxID=33213 RepID=B5...  62.6    1e-11
+  UniRef50_L5LRB0 Insulin n=2 Tax=Myotis TaxID=9434 RepID=L5LRB0_...  62.6    2e-11
+  UniRef50_D3Z596 Insulin-2 n=2 Tax=Mus musculus TaxID=10090 RepI...  61.4    2e-11
+  UniRef50_P30407 Insulin n=6 Tax=Euarchontoglires TaxID=314146 R...  61.8    2e-11
+  UniRef50_P01308 Insulin n=67 Tax=Euteleostomi TaxID=117571 RepI...  61.8    2e-11
+  UniRef50_P01315 Insulin n=6 Tax=Boreoeutheria TaxID=1437010 Rep...  61.4    3e-11
+  UniRef50_P01317 Insulin n=55 Tax=cellular organisms TaxID=13156...  61.4    3e-11
+  UniRef50_A5PJB2 Insulin n=6 Tax=Cetartiodactyla TaxID=91561 Rep...  61.0    4e-11
+  UniRef50_A0A0F8AG37 Insulin n=2 Tax=Larimichthys crocea TaxID=2...  62.2    2e-10
+  UniRef50_Q6XVK7 Preproinsulin (Fragment) n=6 Tax=Aves TaxID=878...  57.9    2e-10
+  UniRef50_Q7M0U6 Epidermal growth factor/single chain insulin fu...  58.3    4e-10
+  UniRef50_P67970 Insulin n=57 Tax=Euteleostomi TaxID=117571 RepI...  57.9    5e-10
+  UniRef50_P51463 Insulin (Fragment) n=62 Tax=Euteleostomi TaxID=...  57.2    9e-10
+  UniRef50_P81025 Insulin n=8 Tax=Percomorphaceae TaxID=1489872 R...  57.2    1e-09
+  UniRef50_Q98TA8 Insulin n=15 Tax=Neopterygii TaxID=41665 RepID=...  56.8    1e-09
+  UniRef50_A0A060Y6K0 Insulin n=8 Tax=Clupeocephala TaxID=186625 ...  56.0    3e-09
+  UniRef50_P04667 Insulin n=11 Tax=Euteleosteomorpha TaxID=148938...  55.6    4e-09
+  UniRef50_P01333 Insulin n=18 Tax=Sauria TaxID=32561 RepID=INS_A...  55.2    4e-09
+  UniRef50_H2MW49 Insulin n=4 Tax=Ovalentaria TaxID=1489908 RepID...  55.2    7e-09
+  UniRef50_P67973 Insulin n=19 Tax=Eukaryota TaxID=2759 RepID=INS...  54.1    8e-09
+  UniRef50_UPI000900A77B uncharacterized protein LOC104931882 n=1...  55.6    8e-09
+  UniRef50_O73727 Insulin n=27 Tax=Clupeocephala TaxID=186625 Rep...  54.5    1e-08
+  UniRef50_UPI0009D936B8 insulin-like n=2 Tax=Atherinomorphae Tax...  54.5    1e-08
+  UniRef50_P13190 Insulin n=22 Tax=Gnathostomata TaxID=35060 RepI...  53.3    2e-08
+  UniRef50_A0A2D0QAI1 Insulin n=2 Tax=Ictalurus punctatus TaxID=7...  53.3    3e-08
+  UniRef50_UPI000A1C6CE8 insulin-1-like n=1 Tax=Boleophthalmus pe...  52.9    3e-08
+  UniRef50_UPI0001C397B7 Insulin n=1 Tax=Homo sapiens TaxID=9606 ...  52.9    4e-08
+  UniRef50_Q98TA9 Insulin (Fragment) n=1 Tax=Gnathonemus petersii...  52.5    5e-08
+  UniRef50_F1QAE3 Insulin n=4 Tax=Danio rerio TaxID=7955 RepID=F1...  52.5    7e-08
+  UniRef50_UPI0009A31182 insulin n=1 Tax=Rhincodon typus TaxID=25...  51.8    1e-07
+  UniRef50_P09476 Insulin n=30 Tax=Euteleostomi TaxID=117571 RepI...  51.0    1e-07
+  UniRef50_A0A1A8ACH4 Preproinsulin n=2 Tax=Nothobranchius TaxID=...  51.4    1e-07
+  UniRef50_UPI0007BA3BB4 uncharacterized protein LOC107707184 n=1...  52.2    3e-07
+  UniRef50_UPI000C308B10 LOW QUALITY PROTEIN: insulin-like n=2 Ta...  51.0    3e-07
+  UniRef50_UPI0009731BB6 uncharacterized protein LOC105007078 n=1...  51.8    4e-07
+  UniRef50_UPI00094E74EC insulin-like n=4 Tax=Percomorphaceae Tax...  49.5    7e-07
+  UniRef50_UPI0006440328 uncharacterized protein LOC105902849 n=1...  51.0    8e-07
+  UniRef50_P01334 Insulin n=29 Tax=Eukaryota TaxID=2759 RepID=INS...  48.3    1e-06
+  UniRef50_P12705 Insulin (Fragments) n=4 Tax=Gnathostomata TaxID...  47.9    2e-06
+  UniRef50_P01342 Insulin n=5 Tax=Vertebrata TaxID=1261581 RepID=...  46.8    7e-06
+  UniRef50_A0A0H4A7I5 Insulin n=3 Tax=Desmognathus ocoee TaxID=17...  46.0    1e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_UPI000B4F580F insulin-like growth factor I isoform X3 ...  41.0    9e-04
+
+
+> UniRef50_F8WCM5 Insulin, isoform 2 n=8 Tax=Catarrhini TaxID=9526 
+RepID=INSR2_HUMAN
+Length=200
+
+ Score = 67.6 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> UniRef50_J9P3Z4 Insulin n=6 Tax=Laurasiatheria TaxID=314145 RepID=J9P3Z4_CANLF
+Length=213
+
+ Score = 67.6 bits (164),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_D3Z595 Insulin-2 n=2 Tax=Boreoeutheria TaxID=1437010 
+RepID=D3Z595_MOUSE
+Length=106
+
+ Score = 64.5 bits (156),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> UniRef50_A0A1U7T3P2 insulin, isoform 2-like n=1 Tax=Tarsius syrichta 
+TaxID=1868482 RepID=A0A1U7T3P2_TARSY
+Length=150
+
+ Score = 64.9 bits (157),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PKA
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKA  54
+
+
+> UniRef50_F7FC22 INS-IGF2 readthrough n=6 Tax=Eutheria TaxID=9347 
+RepID=F7FC22_CALJA
+Length=194
+
+ Score = 64.5 bits (156),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKT  54
+
+
+> UniRef50_P01321 Insulin n=42 Tax=Gnathostomata TaxID=35060 RepID=INS_CANLF
+Length=110
+
+ Score = 62.6 bits (151),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_B5FWC2 Insulin n=15 Tax=Bilateria TaxID=33213 RepID=B5FWC2_OTOGA
+Length=110
+
+ Score = 62.6 bits (151),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_L5LRB0 Insulin n=2 Tax=Myotis TaxID=9434 RepID=L5LRB0_MYODS
+Length=168
+
+ Score = 62.6 bits (151),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+> UniRef50_D3Z596 Insulin-2 n=2 Tax=Mus musculus TaxID=10090 RepID=D3Z596_MOUSE
+Length=79
+
+ Score = 61.4 bits (148),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> UniRef50_P30407 Insulin n=6 Tax=Euarchontoglires TaxID=314146 
+RepID=INS_CHLAE
+Length=110
+
+ Score = 61.8 bits (149),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> UniRef50_P01308 Insulin n=67 Tax=Euteleostomi TaxID=117571 RepID=INS_HUMAN
+Length=110
+
+ Score = 61.8 bits (149),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> UniRef50_P01315 Insulin n=6 Tax=Boreoeutheria TaxID=1437010 RepID=INS_PIG
+Length=108
+
+ Score = 61.4 bits (148),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_P01317 Insulin n=55 Tax=cellular organisms TaxID=131567 
+RepID=INS_BOVIN
+Length=105
+
+ Score = 61.4 bits (148),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_A5PJB2 Insulin n=6 Tax=Cetartiodactyla TaxID=91561 RepID=A5PJB2_BOVIN
+Length=105
+
+ Score = 61.0 bits (147),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_A0A0F8AG37 Insulin n=2 Tax=Larimichthys crocea TaxID=215358 
+RepID=A0A0F8AG37_LARCR
+Length=448
+
+ Score = 62.2 bits (150),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2    VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+              QHLCGSHLV+ALY+VCG RGFFY PK
+Sbjct  359  APQHLCGSHLVDALYMVCGPRGFFYNPK  386
+
+
+> UniRef50_Q6XVK7 Preproinsulin (Fragment) n=6 Tax=Aves TaxID=8782 
+RepID=Q6XVK7_TURME
+Length=55
+
+ Score = 57.9 bits (139),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY PKA
+Sbjct  19  VNQHLCGSHLVEALYLVCGERGFFYQPKA  47
+
+
+> UniRef50_Q7M0U6 Epidermal growth factor/single chain insulin 
+fusion protein (Fragment) n=2 Tax=cellular organisms TaxID=131567 
+RepID=Q7M0U6_BREBE
+Length=96
+
+ Score = 58.3 bits (140),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  47  FVNQHLCGSHLVEALYLVCGERGFFYTPKG  76
+
+
+> UniRef50_P67970 Insulin n=57 Tax=Euteleostomi TaxID=117571 RepID=INS_CHICK
+Length=107
+
+ Score = 57.9 bits (139),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  26  ANQHLCGSHLVEALYLVCGERGFFYSPKA  54
+
+
+> UniRef50_P51463 Insulin (Fragment) n=62 Tax=Euteleostomi TaxID=117571 
+RepID=INS_SELRF
+Length=103
+
+ Score = 57.2 bits (137),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  22  VNQHLCGSHLVEALYLVCGERGFFYSPKA  50
+
+
+> UniRef50_P81025 Insulin n=8 Tax=Percomorphaceae TaxID=1489872 
+RepID=INS_ORENI
+Length=113
+
+ Score = 57.2 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 25/26 (96%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG+RGFFY P+
+Sbjct  29  QHLCGSHLVDALYLVCGDRGFFYNPR  54
+
+
+> UniRef50_Q98TA8 Insulin n=15 Tax=Neopterygii TaxID=41665 RepID=INS_PANBU
+Length=110
+
+ Score = 56.8 bits (136),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLV+ALY+VCGE+GFFY PK 
+Sbjct  25  SSQHLCGSHLVDALYMVCGEKGFFYQPKT  53
+
+
+> UniRef50_A0A060Y6K0 Insulin n=8 Tax=Clupeocephala TaxID=186625 
+RepID=A0A060Y6K0_ONCMY
+Length=107
+
+ Score = 56.0 bits (134),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCGE+GFFY PK
+Sbjct  24  AAQHLCGSHLVDALYLVCGEKGFFYNPK  51
+
+
+> UniRef50_P04667 Insulin n=11 Tax=Euteleosteomorpha TaxID=1489388 
+RepID=INS_ONCKE
+Length=105
+
+ Score = 55.6 bits (133),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCGE+GFFYTPK
+Sbjct  24  AAQHLCGSHLVDALYLVCGEKGFFYTPK  51
+
+
+> UniRef50_P01333 Insulin n=18 Tax=Sauria TaxID=32561 RepID=INS_ANAPL
+Length=81
+
+ Score = 55.2 bits (132),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> UniRef50_H2MW49 Insulin n=4 Tax=Ovalentaria TaxID=1489908 RepID=H2MW49_ORYLA
+Length=115
+
+ Score = 55.2 bits (132),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 25/28 (89%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLVEALYLVCG+RGFFYTPK
+Sbjct  26  APQHLCGSHLVEALYLVCGDRGFFYTPK  53
+
+
+> UniRef50_P67973 Insulin n=19 Tax=Eukaryota TaxID=2759 RepID=INS_BALPH
+Length=51
+
+ Score = 54.1 bits (129),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> UniRef50_UPI000900A77B uncharacterized protein LOC104931882 n=1 
+Tax=Larimichthys crocea TaxID=215358 RepID=UPI000900A77B
+Length=217
+
+ Score = 55.6 bits (133),  Expect = 8e-09, Method: Composition-based stats.
+ Identities = 20/26 (77%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             QHLCGSHLV+ALY+VCG RGFFY 
+Sbjct  27  APQHLCGSHLVDALYMVCGPRGFFYN  52
+
+
+ Score = 42.5 bits (99),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/28 (61%), Positives = 20/28 (71%), Gaps = 0/28 (0%)
+
+Query  2    VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+              Q +CGS LV+AL LVCG RGF +T K
+Sbjct  142  APQQICGSDLVDALMLVCGPRGFSFTTK  169
+
+
+> UniRef50_O73727 Insulin n=27 Tax=Clupeocephala TaxID=186625 RepID=INS_DANRE
+Length=108
+
+ Score = 54.5 bits (130),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 22/26 (85%), Positives = 23/26 (88%), Gaps = 0/26 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPK  29
+           QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  27  QHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> UniRef50_UPI0009D936B8 insulin-like n=2 Tax=Atherinomorphae TaxID=1489913 
+RepID=UPI0009D936B8
+Length=145
+
+ Score = 54.5 bits (130),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 20/25 (80%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTP  28
+           QHLCGSHLV+AL+ VCG+RGFFY P
+Sbjct  61  QHLCGSHLVDALFFVCGDRGFFYNP  85
+
+
+> UniRef50_P13190 Insulin n=22 Tax=Gnathostomata TaxID=35060 RepID=INS_CALMI
+Length=89
+
+ Score = 53.3 bits (127),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  3   TQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> UniRef50_A0A2D0QAI1 Insulin n=2 Tax=Ictalurus punctatus TaxID=7998 
+RepID=A0A2D0QAI1_ICTPU
+Length=108
+
+ Score = 53.3 bits (127),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLVEALYLVCG  GFFY PK
+Sbjct  25  APQHLCGSHLVEALYLVCGPNGFFYNPK  52
+
+
+> UniRef50_UPI000A1C6CE8 insulin-1-like n=1 Tax=Boleophthalmus 
+pectinirostris TaxID=150288 RepID=UPI000A1C6CE8
+Length=86
+
+ Score = 52.9 bits (126),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           F +QHLCG HLVEAL +VCG+RGF+Y P+
+Sbjct  23  FSSQHLCGPHLVEALNMVCGDRGFYYNPQ  51
+
+
+> UniRef50_UPI0001C397B7 Insulin n=1 Tax=Homo sapiens TaxID=9606 
+RepID=UPI0001C397B7
+Length=86
+
+ Score = 52.9 bits (126),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYT  27
+           FVNQHLCGS LVEALYLVCGERGFFYT
+Sbjct  1   FVNQHLCGSDLVEALYLVCGERGFFYT  27
+
+
+> UniRef50_Q98TA9 Insulin (Fragment) n=1 Tax=Gnathonemus petersii 
+TaxID=42645 RepID=Q98TA9_9TELE
+Length=87
+
+ Score = 52.5 bits (125),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           QHLCGSHLVEAL+LVCGERGFF+ P  
+Sbjct  4   QHLCGSHLVEALFLVCGERGFFFNPDT  30
+
+
+> UniRef50_F1QAE3 Insulin n=4 Tax=Danio rerio TaxID=7955 RepID=F1QAE3_DANRE
+Length=159
+
+ Score = 52.5 bits (125),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 21/28 (75%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGS LV+ALYLVCG RGFFYT + 
+Sbjct  77   SQHLCGSSLVDALYLVCGPRGFFYTNRG  104
+
+
+> UniRef50_UPI0009A31182 insulin n=1 Tax=Rhincodon typus TaxID=259920 
+RepID=UPI0009A31182
+Length=113
+
+ Score = 51.8 bits (123),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/28 (68%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGS LV+ALY VCG +GF+Y PK 
+Sbjct  27  SQHLCGSQLVDALYFVCGSKGFYYEPKT  54
+
+
+> UniRef50_P09476 Insulin n=30 Tax=Euteleostomi TaxID=117571 RepID=INS_ATRSP
+Length=52
+
+ Score = 51.0 bits (121),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGE+GFFY P 
+Sbjct  2   ANQHLCGSHLVEALYLVCGEKGFFYNPN  29
+
+
+> UniRef50_A0A1A8ACH4 Preproinsulin n=2 Tax=Nothobranchius TaxID=28779 
+RepID=A0A1A8ACH4_NOTFU
+Length=103
+
+ Score = 51.4 bits (122),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           Q LCG HL +ALYLVCGERGF + P++
+Sbjct  28  QKLCGPHLTDALYLVCGERGFLFNPRS  54
+
+
+> UniRef50_UPI0007BA3BB4 uncharacterized protein LOC107707184 n=1 
+Tax=Sinocyclocheilus rhinocerous TaxID=307959 RepID=UPI0007BA3BB4
+Length=243
+
+ Score = 52.2 bits (124),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGS+LV+AL+LVCG +GFFY+ ++
+Sbjct  25  SQHLCGSNLVDALFLVCGPKGFFYSSRS  52
+
+
+ Score = 52.2 bits (124),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGS+LV+AL+LVCG +GFFY+ ++
+Sbjct  157  SQHLCGSNLVDALFLVCGPKGFFYSSRS  184
+
+
+> UniRef50_UPI000C308B10 LOW QUALITY PROTEIN: insulin-like n=2 
+Tax=Pomacentridae TaxID=30863 RepID=UPI000C308B10
+Length=180
+
+ Score = 51.0 bits (121),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  4    QHLCGSHLVEALYLVCGERGFFYTPK  29
+            QHLCGS LV+ALY VCGERGF+Y+  
+Sbjct  96   QHLCGSRLVDALYFVCGERGFYYSSN  121
+
+
+> UniRef50_UPI0009731BB6 uncharacterized protein LOC105007078 n=1 
+Tax=Esox lucius TaxID=8010 RepID=UPI0009731BB6
+Length=249
+
+ Score = 51.8 bits (123),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            Q LCGS LV+ALYLVCGE GFFY PK
+Sbjct  39  TQLLCGSQLVDALYLVCGENGFFYNPK  65
+
+
+> UniRef50_UPI00094E74EC insulin-like n=4 Tax=Percomorphaceae TaxID=1489872 
+RepID=UPI00094E74EC
+Length=116
+
+ Score = 49.5 bits (117),  Expect = 7e-07, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           + ++HLCG +LVEAL +VCG+RGFF + K
+Sbjct  25  YSSKHLCGPNLVEALSMVCGDRGFFTSSK  53
+
+
+> UniRef50_UPI0006440328 uncharacterized protein LOC105902849 n=1 
+Tax=Clupea harengus TaxID=7950 RepID=UPI0006440328
+Length=251
+
+ Score = 51.0 bits (121),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 21/25 (84%), Positives = 24/25 (96%), Gaps = 0/25 (0%)
+
+Query  4    QHLCGSHLVEALYLVCGERGFFYTP  28
+            Q+LCGSHLVEALYLVCG+ GFFY+P
+Sbjct  169  QYLCGSHLVEALYLVCGDNGFFYSP  193
+
+
+> UniRef50_P01334 Insulin n=29 Tax=Eukaryota TaxID=2759 RepID=INS_CROAT
+Length=51
+
+ Score = 48.3 bits (114),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           NQ LCGSHLVEAL+L+CGERGF+Y+P++
+Sbjct  3   NQRLCGSHLVEALFLICGERGFYYSPRS  30
+
+
+> UniRef50_P12705 Insulin (Fragments) n=4 Tax=Gnathostomata TaxID=35060 
+RepID=INS_TORMA
+Length=70
+
+ Score = 47.9 bits (113),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLVEALY VCG +GF+Y PKA
+Sbjct  3   SQHLCGSHLVEALYFVCGPKGFYYLPKA  30
+
+
+> UniRef50_P01342 Insulin n=5 Tax=Vertebrata TaxID=1261581 RepID=INS_MYXGL
+Length=115
+
+ Score = 46.8 bits (110),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTP  28
+           HLCG  LV ALY+ CG RGFFY P
+Sbjct  31  HLCGKDLVNALYIACGVRGFFYDP  54
+
+
+> UniRef50_A0A0H4A7I5 Insulin n=3 Tax=Desmognathus ocoee TaxID=179530 
+RepID=A0A0H4A7I5_9SALA
+Length=105
+
+ Score = 46.0 bits (108),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGF  24
+           F +QHLCG  LV+AL +VCGERGF
+Sbjct  24  FSDQHLCGDQLVDALRVVCGERGF  47
+
+
+> UniRef50_UPI000B4F580F insulin-like growth factor I isoform X3 
+n=1 Tax=Meriones unguiculatus TaxID=10047 RepID=UPI000B4F580F
+Length=143
+
+ Score = 41.0 bits (95),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 13/22 (59%), Positives = 17/22 (77%), Gaps = 0/22 (0%)
+
+Query  6   LCGSHLVEALYLVCGERGFFYT  27
+           LCG+ LV+AL  VCG RGF++ 
+Sbjct  37  LCGAELVDALQFVCGPRGFYFN  58
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.156    0.531    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0482    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233531472575
+Results from round 3
+
+
+Query= 9insb
+
+Length=30
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_F8WCM5 Insulin, isoform 2 n=8 Tax=Catarrhini TaxID=952...  67.2    6e-13
+  UniRef50_J9P3Z4 Insulin n=6 Tax=Laurasiatheria TaxID=314145 Rep...  66.8    7e-13
+  UniRef50_D3Z595 Insulin-2 n=2 Tax=Boreoeutheria TaxID=1437010 R...  64.1    3e-12
+  UniRef50_A0A1U7T3P2 insulin, isoform 2-like n=1 Tax=Tarsius syr...  64.1    4e-12
+  UniRef50_F7FC22 INS-IGF2 readthrough n=6 Tax=Eutheria TaxID=934...  64.1    7e-12
+  UniRef50_P01321 Insulin n=42 Tax=Gnathostomata TaxID=35060 RepI...  62.2    1e-11
+  UniRef50_B5FWC2 Insulin n=15 Tax=Bilateria TaxID=33213 RepID=B5...  62.2    2e-11
+  UniRef50_L5LRB0 Insulin n=2 Tax=Myotis TaxID=9434 RepID=L5LRB0_...  62.6    2e-11
+  UniRef50_D3Z596 Insulin-2 n=2 Tax=Mus musculus TaxID=10090 RepI...  61.0    2e-11
+  UniRef50_P30407 Insulin n=6 Tax=Euarchontoglires TaxID=314146 R...  61.4    3e-11
+  UniRef50_P01308 Insulin n=67 Tax=Euteleostomi TaxID=117571 RepI...  61.4    3e-11
+  UniRef50_A0A0F8AG37 Insulin n=2 Tax=Larimichthys crocea TaxID=2...  64.5    3e-11
+  UniRef50_P01315 Insulin n=6 Tax=Boreoeutheria TaxID=1437010 Rep...  61.0    4e-11
+  UniRef50_P01317 Insulin n=55 Tax=cellular organisms TaxID=13156...  60.6    5e-11
+  UniRef50_A5PJB2 Insulin n=6 Tax=Cetartiodactyla TaxID=91561 Rep...  60.6    5e-11
+  UniRef50_Q6XVK7 Preproinsulin (Fragment) n=6 Tax=Aves TaxID=878...  57.5    3e-10
+  UniRef50_Q7M0U6 Epidermal growth factor/single chain insulin fu...  58.3    4e-10
+  UniRef50_P67970 Insulin n=57 Tax=Euteleostomi TaxID=117571 RepI...  58.3    4e-10
+  UniRef50_P81025 Insulin n=8 Tax=Percomorphaceae TaxID=1489872 R...  58.3    5e-10
+  UniRef50_P51463 Insulin (Fragment) n=62 Tax=Euteleostomi TaxID=...  57.2    1e-09
+  UniRef50_UPI000900A77B uncharacterized protein LOC104931882 n=1...  57.9    1e-09
+  UniRef50_Q98TA8 Insulin n=15 Tax=Neopterygii TaxID=41665 RepID=...  57.2    1e-09
+  UniRef50_H2MW49 Insulin n=4 Tax=Ovalentaria TaxID=1489908 RepID...  56.8    2e-09
+  UniRef50_A0A060Y6K0 Insulin n=8 Tax=Clupeocephala TaxID=186625 ...  56.8    2e-09
+  UniRef50_P04667 Insulin n=11 Tax=Euteleosteomorpha TaxID=148938...  56.4    2e-09
+  UniRef50_P01333 Insulin n=18 Tax=Sauria TaxID=32561 RepID=INS_A...  55.6    3e-09
+  UniRef50_O73727 Insulin n=27 Tax=Clupeocephala TaxID=186625 Rep...  55.6    4e-09
+  UniRef50_A0A2D0QAI1 Insulin n=2 Tax=Ictalurus punctatus TaxID=7...  55.2    6e-09
+  UniRef50_P67973 Insulin n=19 Tax=Eukaryota TaxID=2759 RepID=INS...  54.1    7e-09
+  UniRef50_UPI0009D936B8 insulin-like n=2 Tax=Atherinomorphae Tax...  55.2    7e-09
+  UniRef50_P13190 Insulin n=22 Tax=Gnathostomata TaxID=35060 RepI...  53.7    2e-08
+  UniRef50_UPI000A1C6CE8 insulin-1-like n=1 Tax=Boleophthalmus pe...  53.7    2e-08
+  UniRef50_Q98TA9 Insulin (Fragment) n=1 Tax=Gnathonemus petersii...  52.9    3e-08
+  UniRef50_UPI0001C397B7 Insulin n=1 Tax=Homo sapiens TaxID=9606 ...  52.9    4e-08
+  UniRef50_F1QAE3 Insulin n=4 Tax=Danio rerio TaxID=7955 RepID=F1...  52.9    5e-08
+  UniRef50_P09476 Insulin n=30 Tax=Euteleostomi TaxID=117571 RepI...  51.8    5e-08
+  UniRef50_UPI0009A31182 insulin n=1 Tax=Rhincodon typus TaxID=25...  52.5    6e-08
+  UniRef50_A0A1A8ACH4 Preproinsulin n=2 Tax=Nothobranchius TaxID=...  51.8    1e-07
+  UniRef50_UPI000C308B10 LOW QUALITY PROTEIN: insulin-like n=2 Ta...  52.2    1e-07
+  UniRef50_UPI0007BA3BB4 uncharacterized protein LOC107707184 n=1...  52.5    2e-07
+  UniRef50_UPI0009731BB6 uncharacterized protein LOC105007078 n=1...  52.5    2e-07
+  UniRef50_UPI0006440328 uncharacterized protein LOC105902849 n=1...  51.8    4e-07
+  UniRef50_UPI00094E74EC insulin-like n=4 Tax=Percomorphaceae Tax...  50.2    5e-07
+  UniRef50_P01334 Insulin n=29 Tax=Eukaryota TaxID=2759 RepID=INS...  48.7    9e-07
+  UniRef50_P12705 Insulin (Fragments) n=4 Tax=Gnathostomata TaxID...  48.7    1e-06
+  UniRef50_P01342 Insulin n=5 Tax=Vertebrata TaxID=1261581 RepID=...  47.1    5e-06
+  UniRef50_A0A0H4A7I5 Insulin n=3 Tax=Desmognathus ocoee TaxID=17...  46.4    1e-05
+  UniRef50_UPI000B4F580F insulin-like growth factor I isoform X3 ...  44.1    9e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A091DDT1 Insulin-like growth factor I n=4 Tax=Boreoe...  44.8    2e-04
+  UniRef50_UPI000A285AF4 insulin-like growth factor I isoform X7 ...  43.7    2e-04
+  UniRef50_S9WX28 Uncharacterized protein n=3 Tax=Cetartiodactyla...  44.5    2e-04
+  UniRef50_P10763-3 Isoform C of Insulin-like growth factor I n=5...  42.5    3e-04
+  UniRef50_P08025 Insulin-like growth factor I n=61 Tax=Gnathosto...  42.5    3e-04
+  UniRef50_F1SRJ7 Insulin-like growth factor 1 transcript variant...  43.3    4e-04
+  UniRef50_P05019 Insulin-like growth factor I n=273 Tax=Mammalia...  42.9    5e-04
+  UniRef50_A0A2C9F1F9 Insulin-like growth factor I n=3 Tax=Hystri...  41.8    5e-04
+  UniRef50_UPI0003C1994C insulin-like growth factor III n=1 Tax=L...  41.8    5e-04
+  UniRef50_Q8AV14 Insulin-like growth factor n=1 Tax=Petromyzon m...  41.4    6e-04
+  UniRef50_UPI0003EDE4AC insulin-like growth factor II-B-like n=2...  41.0    8e-04
+  UniRef50_Q28933 Insulin-like growth factor I (Fragment) n=9 Tax...  40.6    0.001
+  UniRef50_UPI000440A38F insulin-like n=2 Tax=Otomorpha TaxID=186...  40.6    0.001
+
+
+> UniRef50_F8WCM5 Insulin, isoform 2 n=8 Tax=Catarrhini TaxID=9526 
+RepID=INSR2_HUMAN
+Length=200
+
+ Score = 67.2 bits (163),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> UniRef50_J9P3Z4 Insulin n=6 Tax=Laurasiatheria TaxID=314145 RepID=J9P3Z4_CANLF
+Length=213
+
+ Score = 66.8 bits (162),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_D3Z595 Insulin-2 n=2 Tax=Boreoeutheria TaxID=1437010 
+RepID=D3Z595_MOUSE
+Length=106
+
+ Score = 64.1 bits (155),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> UniRef50_A0A1U7T3P2 insulin, isoform 2-like n=1 Tax=Tarsius syrichta 
+TaxID=1868482 RepID=A0A1U7T3P2_TARSY
+Length=150
+
+ Score = 64.1 bits (155),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 28/30 (93%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PKA
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKA  54
+
+
+> UniRef50_F7FC22 INS-IGF2 readthrough n=6 Tax=Eutheria TaxID=9347 
+RepID=F7FC22_CALJA
+Length=194
+
+ Score = 64.1 bits (155),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 27/30 (90%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCG HLVEALYLVCGERGFFY PK 
+Sbjct  25  FVNQHLCGPHLVEALYLVCGERGFFYAPKT  54
+
+
+> UniRef50_P01321 Insulin n=42 Tax=Gnathostomata TaxID=35060 RepID=INS_CANLF
+Length=110
+
+ Score = 62.2 bits (150),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_B5FWC2 Insulin n=15 Tax=Bilateria TaxID=33213 RepID=B5FWC2_OTOGA
+Length=110
+
+ Score = 62.2 bits (150),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_L5LRB0 Insulin n=2 Tax=Myotis TaxID=9434 RepID=L5LRB0_MYODS
+Length=168
+
+ Score = 62.6 bits (151),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 29/29 (100%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPK  53
+
+
+ Score = 41.8 bits (97),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 17/28 (61%), Positives = 20/28 (71%), Gaps = 1/28 (4%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCG  LV AL + CG+RGF Y P A
+Sbjct  90   DQHLCGDELVNALTITCGDRGF-YNPMA  116
+
+
+> UniRef50_D3Z596 Insulin-2 n=2 Tax=Mus musculus TaxID=10090 RepID=D3Z596_MOUSE
+Length=79
+
+ Score = 61.0 bits (147),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 27/30 (90%), Positives = 28/30 (93%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FV QHLCGSHLVEALYLVCGERGFFYTP +
+Sbjct  25  FVKQHLCGSHLVEALYLVCGERGFFYTPMS  54
+
+
+> UniRef50_P30407 Insulin n=6 Tax=Euarchontoglires TaxID=314146 
+RepID=INS_CHLAE
+Length=110
+
+ Score = 61.4 bits (148),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> UniRef50_P01308 Insulin n=67 Tax=Euteleostomi TaxID=117571 RepID=INS_HUMAN
+Length=110
+
+ Score = 61.4 bits (148),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKT  54
+
+
+> UniRef50_A0A0F8AG37 Insulin n=2 Tax=Larimichthys crocea TaxID=215358 
+RepID=A0A0F8AG37_LARCR
+Length=448
+
+ Score = 64.5 bits (156),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  2    VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+              QHLCGSHLV+ALY+VCG RGFFY PK
+Sbjct  359  APQHLCGSHLVDALYMVCGPRGFFYNPK  386
+
+
+> UniRef50_P01315 Insulin n=6 Tax=Boreoeutheria TaxID=1437010 RepID=INS_PIG
+Length=108
+
+ Score = 61.0 bits (147),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_P01317 Insulin n=55 Tax=cellular organisms TaxID=131567 
+RepID=INS_BOVIN
+Length=105
+
+ Score = 60.6 bits (146),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_A5PJB2 Insulin n=6 Tax=Cetartiodactyla TaxID=91561 RepID=A5PJB2_BOVIN
+Length=105
+
+ Score = 60.6 bits (146),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  25  FVNQHLCGSHLVEALYLVCGERGFFYTPKA  54
+
+
+> UniRef50_Q6XVK7 Preproinsulin (Fragment) n=6 Tax=Aves TaxID=8782 
+RepID=Q6XVK7_TURME
+Length=55
+
+ Score = 57.5 bits (138),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY PKA
+Sbjct  19  VNQHLCGSHLVEALYLVCGERGFFYQPKA  47
+
+
+> UniRef50_Q7M0U6 Epidermal growth factor/single chain insulin 
+fusion protein (Fragment) n=2 Tax=cellular organisms TaxID=131567 
+RepID=Q7M0U6_BREBE
+Length=96
+
+ Score = 58.3 bits (140),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 29/30 (97%), Positives = 29/30 (97%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPK 
+Sbjct  47  FVNQHLCGSHLVEALYLVCGERGFFYTPKG  76
+
+
+> UniRef50_P67970 Insulin n=57 Tax=Euteleostomi TaxID=117571 RepID=INS_CHICK
+Length=107
+
+ Score = 58.3 bits (140),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 27/29 (93%), Positives = 28/29 (97%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  26  ANQHLCGSHLVEALYLVCGERGFFYSPKA  54
+
+
+> UniRef50_P81025 Insulin n=8 Tax=Percomorphaceae TaxID=1489872 
+RepID=INS_ORENI
+Length=113
+
+ Score = 58.3 bits (140),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 25/27 (93%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            QHLCGSHLV+ALYLVCG+RGFFY P+
+Sbjct  28  PQHLCGSHLVDALYLVCGDRGFFYNPR  54
+
+
+> UniRef50_P51463 Insulin (Fragment) n=62 Tax=Euteleostomi TaxID=117571 
+RepID=INS_SELRF
+Length=103
+
+ Score = 57.2 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 28/29 (97%), Positives = 29/29 (100%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           VNQHLCGSHLVEALYLVCGERGFFY+PKA
+Sbjct  22  VNQHLCGSHLVEALYLVCGERGFFYSPKA  50
+
+
+> UniRef50_UPI000900A77B uncharacterized protein LOC104931882 n=1 
+Tax=Larimichthys crocea TaxID=215358 RepID=UPI000900A77B
+Length=217
+
+ Score = 57.9 bits (139),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 20/26 (77%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+             QHLCGSHLV+ALY+VCG RGFFY 
+Sbjct  27  APQHLCGSHLVDALYMVCGPRGFFYN  52
+
+
+ Score = 44.8 bits (105),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 17/28 (61%), Positives = 20/28 (71%), Gaps = 0/28 (0%)
+
+Query  2    VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+              Q +CGS LV+AL LVCG RGF +T K
+Sbjct  142  APQQICGSDLVDALMLVCGPRGFSFTTK  169
+
+
+> UniRef50_Q98TA8 Insulin n=15 Tax=Neopterygii TaxID=41665 RepID=INS_PANBU
+Length=110
+
+ Score = 57.2 bits (137),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 22/29 (76%), Positives = 26/29 (90%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGSHLV+ALY+VCGE+GFFY PK 
+Sbjct  25  SSQHLCGSHLVDALYMVCGEKGFFYQPKT  53
+
+
+> UniRef50_H2MW49 Insulin n=4 Tax=Ovalentaria TaxID=1489908 RepID=H2MW49_ORYLA
+Length=115
+
+ Score = 56.8 bits (136),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 25/28 (89%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLVEALYLVCG+RGFFYTPK
+Sbjct  26  APQHLCGSHLVEALYLVCGDRGFFYTPK  53
+
+
+> UniRef50_A0A060Y6K0 Insulin n=8 Tax=Clupeocephala TaxID=186625 
+RepID=A0A060Y6K0_ONCMY
+Length=107
+
+ Score = 56.8 bits (136),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCGE+GFFY PK
+Sbjct  24  AAQHLCGSHLVDALYLVCGEKGFFYNPK  51
+
+
+> UniRef50_P04667 Insulin n=11 Tax=Euteleosteomorpha TaxID=1489388 
+RepID=INS_ONCKE
+Length=105
+
+ Score = 56.4 bits (135),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCGE+GFFYTPK
+Sbjct  24  AAQHLCGSHLVDALYLVCGEKGFFYTPK  51
+
+
+> UniRef50_P01333 Insulin n=18 Tax=Sauria TaxID=32561 RepID=INS_ANAPL
+Length=81
+
+ Score = 55.6 bits (133),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 26/29 (90%), Positives = 27/29 (93%), Gaps = 0/29 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            NQHLCGSHLVEALYLVCGERGFFY+PK 
+Sbjct  2   ANQHLCGSHLVEALYLVCGERGFFYSPKT  30
+
+
+> UniRef50_O73727 Insulin n=27 Tax=Clupeocephala TaxID=186625 RepID=INS_DANRE
+Length=108
+
+ Score = 55.6 bits (133),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLV+ALYLVCG  GFFY PK
+Sbjct  25  TPQHLCGSHLVDALYLVCGPTGFFYNPK  52
+
+
+> UniRef50_A0A2D0QAI1 Insulin n=2 Tax=Ictalurus punctatus TaxID=7998 
+RepID=A0A2D0QAI1_ICTPU
+Length=108
+
+ Score = 55.2 bits (132),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 23/28 (82%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+             QHLCGSHLVEALYLVCG  GFFY PK
+Sbjct  25  APQHLCGSHLVEALYLVCGPNGFFYNPK  52
+
+
+> UniRef50_P67973 Insulin n=19 Tax=Eukaryota TaxID=2759 RepID=INS_BALPH
+Length=51
+
+ Score = 54.1 bits (129),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 30/30 (100%), Positives = 30/30 (100%), Gaps = 0/30 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           FVNQHLCGSHLVEALYLVCGERGFFYTPKA
+Sbjct  1   FVNQHLCGSHLVEALYLVCGERGFFYTPKA  30
+
+
+> UniRef50_UPI0009D936B8 insulin-like n=2 Tax=Atherinomorphae TaxID=1489913 
+RepID=UPI0009D936B8
+Length=145
+
+ Score = 55.2 bits (132),  Expect = 7e-09, Method: Composition-based stats.
+ Identities = 20/25 (80%), Positives = 23/25 (92%), Gaps = 0/25 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTP  28
+           QHLCGSHLV+AL+ VCG+RGFFY P
+Sbjct  61  QHLCGSHLVDALFFVCGDRGFFYNP  85
+
+
+> UniRef50_P13190 Insulin n=22 Tax=Gnathostomata TaxID=35060 RepID=INS_CALMI
+Length=89
+
+ Score = 53.7 bits (128),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 22/27 (81%), Positives = 24/27 (89%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            Q LCGSHLV+ALY VCGERGFFY+PK
+Sbjct  3   TQRLCGSHLVDALYFVCGERGFFYSPK  29
+
+
+> UniRef50_UPI000A1C6CE8 insulin-1-like n=1 Tax=Boleophthalmus 
+pectinirostris TaxID=150288 RepID=UPI000A1C6CE8
+Length=86
+
+ Score = 53.7 bits (128),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 20/29 (69%), Positives = 25/29 (86%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           F +QHLCG HLVEAL +VCG+RGF+Y P+
+Sbjct  23  FSSQHLCGPHLVEALNMVCGDRGFYYNPQ  51
+
+
+> UniRef50_Q98TA9 Insulin (Fragment) n=1 Tax=Gnathonemus petersii 
+TaxID=42645 RepID=Q98TA9_9TELE
+Length=87
+
+ Score = 52.9 bits (126),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            QHLCGSHLVEAL+LVCGERGFF+ P  
+Sbjct  3   AQHLCGSHLVEALFLVCGERGFFFNPDT  30
+
+
+> UniRef50_UPI0001C397B7 Insulin n=1 Tax=Homo sapiens TaxID=9606 
+RepID=UPI0001C397B7
+Length=86
+
+ Score = 52.9 bits (126),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 26/27 (96%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYT  27
+           FVNQHLCGS LVEALYLVCGERGFFYT
+Sbjct  1   FVNQHLCGSDLVEALYLVCGERGFFYT  27
+
+
+> UniRef50_F1QAE3 Insulin n=4 Tax=Danio rerio TaxID=7955 RepID=F1QAE3_DANRE
+Length=159
+
+ Score = 52.9 bits (126),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 21/28 (75%), Positives = 24/28 (86%), Gaps = 0/28 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGS LV+ALYLVCG RGFFYT + 
+Sbjct  77   SQHLCGSSLVDALYLVCGPRGFFYTNRG  104
+
+
+> UniRef50_P09476 Insulin n=30 Tax=Euteleostomi TaxID=117571 RepID=INS_ATRSP
+Length=52
+
+ Score = 51.8 bits (123),  Expect = 5e-08, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYTPK  29
+            NQHLCGSHLVEALYLVCGE+GFFY P 
+Sbjct  2   ANQHLCGSHLVEALYLVCGEKGFFYNPN  29
+
+
+> UniRef50_UPI0009A31182 insulin n=1 Tax=Rhincodon typus TaxID=259920 
+RepID=UPI0009A31182
+Length=113
+
+ Score = 52.5 bits (125),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 19/28 (68%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGS LV+ALY VCG +GF+Y PK 
+Sbjct  27  SQHLCGSQLVDALYFVCGSKGFYYEPKT  54
+
+
+> UniRef50_A0A1A8ACH4 Preproinsulin n=2 Tax=Nothobranchius TaxID=28779 
+RepID=A0A1A8ACH4_NOTFU
+Length=103
+
+ Score = 51.8 bits (123),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 18/27 (67%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  4   QHLCGSHLVEALYLVCGERGFFYTPKA  30
+           Q LCG HL +ALYLVCGERGF + P++
+Sbjct  28  QKLCGPHLTDALYLVCGERGFLFNPRS  54
+
+
+> UniRef50_UPI000C308B10 LOW QUALITY PROTEIN: insulin-like n=2 
+Tax=Pomacentridae TaxID=30863 RepID=UPI000C308B10
+Length=180
+
+ Score = 52.2 bits (124),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 19/26 (73%), Positives = 22/26 (85%), Gaps = 0/26 (0%)
+
+Query  4    QHLCGSHLVEALYLVCGERGFFYTPK  29
+            QHLCGS LV+ALY VCGERGF+Y+  
+Sbjct  96   QHLCGSRLVDALYFVCGERGFYYSSN  121
+
+
+> UniRef50_UPI0007BA3BB4 uncharacterized protein LOC107707184 n=1 
+Tax=Sinocyclocheilus rhinocerous TaxID=307959 RepID=UPI0007BA3BB4
+Length=243
+
+ Score = 52.5 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGS+LV+AL+LVCG +GFFY+ ++
+Sbjct  25  SQHLCGSNLVDALFLVCGPKGFFYSSRS  52
+
+
+ Score = 52.5 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/28 (64%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            +QHLCGS+LV+AL+LVCG +GFFY+ ++
+Sbjct  157  SQHLCGSNLVDALFLVCGPKGFFYSSRS  184
+
+
+> UniRef50_UPI0009731BB6 uncharacterized protein LOC105007078 n=1 
+Tax=Esox lucius TaxID=8010 RepID=UPI0009731BB6
+Length=249
+
+ Score = 52.5 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 21/27 (78%), Positives = 22/27 (81%), Gaps = 0/27 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPK  29
+            Q LCGS LV+ALYLVCGE GFFY PK
+Sbjct  39  TQLLCGSQLVDALYLVCGENGFFYNPK  65
+
+
+> UniRef50_UPI0006440328 uncharacterized protein LOC105902849 n=1 
+Tax=Clupea harengus TaxID=7950 RepID=UPI0006440328
+Length=251
+
+ Score = 51.8 bits (123),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 21/26 (81%), Positives = 24/26 (92%), Gaps = 0/26 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYTP  28
+             Q+LCGSHLVEALYLVCG+ GFFY+P
+Sbjct  168  PQYLCGSHLVEALYLVCGDNGFFYSP  193
+
+
+> UniRef50_UPI00094E74EC insulin-like n=4 Tax=Percomorphaceae TaxID=1489872 
+RepID=UPI00094E74EC
+Length=116
+
+ Score = 50.2 bits (119),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 17/29 (59%), Positives = 24/29 (83%), Gaps = 0/29 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTPK  29
+           + ++HLCG +LVEAL +VCG+RGFF + K
+Sbjct  25  YSSKHLCGPNLVEALSMVCGDRGFFTSSK  53
+
+
+> UniRef50_P01334 Insulin n=29 Tax=Eukaryota TaxID=2759 RepID=INS_CROAT
+Length=51
+
+ Score = 48.7 bits (115),  Expect = 9e-07, Method: Composition-based stats.
+ Identities = 21/28 (75%), Positives = 27/28 (96%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           NQ LCGSHLVEAL+L+CGERGF+Y+P++
+Sbjct  3   NQRLCGSHLVEALFLICGERGFYYSPRS  30
+
+
+> UniRef50_P12705 Insulin (Fragments) n=4 Tax=Gnathostomata TaxID=35060 
+RepID=INS_TORMA
+Length=70
+
+ Score = 48.7 bits (115),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 22/28 (79%), Positives = 25/28 (89%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+           +QHLCGSHLVEALY VCG +GF+Y PKA
+Sbjct  3   SQHLCGSHLVEALYFVCGPKGFYYLPKA  30
+
+
+> UniRef50_P01342 Insulin n=5 Tax=Vertebrata TaxID=1261581 RepID=INS_MYXGL
+Length=115
+
+ Score = 47.1 bits (111),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  5   HLCGSHLVEALYLVCGERGFFYTP  28
+           HLCG  LV ALY+ CG RGFFY P
+Sbjct  31  HLCGKDLVNALYIACGVRGFFYDP  54
+
+
+> UniRef50_A0A0H4A7I5 Insulin n=3 Tax=Desmognathus ocoee TaxID=179530 
+RepID=A0A0H4A7I5_9SALA
+Length=105
+
+ Score = 46.4 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 17/24 (71%), Positives = 20/24 (83%), Gaps = 0/24 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGF  24
+           F +QHLCG  LV+AL +VCGERGF
+Sbjct  24  FSDQHLCGDQLVDALRVVCGERGF  47
+
+
+> UniRef50_UPI000B4F580F insulin-like growth factor I isoform X3 
+n=1 Tax=Meriones unguiculatus TaxID=10047 RepID=UPI000B4F580F
+Length=143
+
+ Score = 44.1 bits (103),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG RGF++ 
+Sbjct  34  PETLCGAELVDALQFVCGPRGFYFN  58
+
+
+> UniRef50_A0A091DDT1 Insulin-like growth factor I n=4 Tax=Boreoeutheria 
+TaxID=1437010 RepID=A0A091DDT1_FUKDA
+Length=305
+
+ Score = 44.8 bits (105),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  157  PETLCGAELVDALQFVCGDRGFYFN  181
+
+
+> UniRef50_UPI000A285AF4 insulin-like growth factor I isoform X7 
+n=1 Tax=Phascolarctos cinereus TaxID=38626 RepID=UPI000A285AF4
+Length=178
+
+ Score = 43.7 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/28 (54%), Positives = 21/28 (75%), Gaps = 0/28 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTPKA  30
+            + LCG+ LV+AL  VCGERGF++T  +
+Sbjct  50  PETLCGAELVDALQFVCGERGFYFTTSS  77
+
+
+> UniRef50_S9WX28 Uncharacterized protein n=3 Tax=Cetartiodactyla 
+TaxID=91561 RepID=S9WX28_CAMFR
+Length=332
+
+ Score = 44.5 bits (104),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 14/26 (54%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYTP  28
+            + LCG+ LV+AL  VCG+RGF++T 
+Sbjct  64  PETLCGAELVDALQFVCGDRGFYFTS  89
+
+
+> UniRef50_P10763-3 Isoform C of Insulin-like growth factor I n=50 
+Tax=Euteleostomi TaxID=117571 RepID=P10763-3
+Length=138
+
+ Score = 42.5 bits (99),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  35  PETLCGAELVDALQFVCGDRGFYFN  59
+
+
+> UniRef50_P08025 Insulin-like growth factor I n=61 Tax=Gnathostomata 
+TaxID=35060 RepID=IGF1_RAT
+Length=153
+
+ Score = 42.5 bits (99),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 18/25 (72%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGPRGFYFN  74
+
+
+> UniRef50_F1SRJ7 Insulin-like growth factor 1 transcript variant 
+6 n=26 Tax=Amniota TaxID=32524 RepID=F1SRJ7_PIG
+Length=230
+
+ Score = 43.3 bits (101),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYT  27
+             + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  93   PETLCGAELVDALQFVCGDRGFYFN  117
+
+
+> UniRef50_P05019 Insulin-like growth factor I n=273 Tax=Mammalia 
+TaxID=40674 RepID=IGF1_HUMAN
+Length=195
+
+ Score = 42.9 bits (100),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  50  PETLCGAELVDALQFVCGDRGFYFN  74
+
+
+> UniRef50_A0A2C9F1F9 Insulin-like growth factor I n=3 Tax=Hystricomorpha 
+TaxID=33550 RepID=A0A2C9F1F9_CAVPO
+Length=137
+
+ Score = 41.8 bits (97),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  34  PETLCGAELVDALQFVCGDRGFYFN  58
+
+
+> UniRef50_UPI0003C1994C insulin-like growth factor III n=1 Tax=Latimeria 
+chalumnae TaxID=7897 RepID=UPI0003C1994C
+Length=130
+
+ Score = 41.8 bits (97),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/26 (58%), Positives = 20/26 (77%), Gaps = 0/26 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFYT  27
+            N+ LCGS LV+ L  VCG+RGFF++
+Sbjct  54  ANEMLCGSELVDTLQFVCGDRGFFFS  79
+
+
+> UniRef50_Q8AV14 Insulin-like growth factor n=1 Tax=Petromyzon 
+marinus TaxID=7757 RepID=Q8AV14_PETMA
+Length=132
+
+ Score = 41.4 bits (96),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 14/25 (56%), Positives = 20/25 (80%), Gaps = 0/25 (0%)
+
+Query  2   VNQHLCGSHLVEALYLVCGERGFFY  26
+            ++ LCGS LV+AL  VCG+RGF++
+Sbjct  54  ASETLCGSELVDALQFVCGDRGFYF  78
+
+
+> UniRef50_UPI0003EDE4AC insulin-like growth factor II-B-like n=2 
+Tax=Caniformia TaxID=379584 RepID=UPI0003EDE4AC
+Length=110
+
+ Score = 41.0 bits (95),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3    NQHLCGSHLVEALYLVCGERGFFYT  27
+            ++ LCG  LV+ L  VCG+RGF+++
+Sbjct  85   SETLCGGELVDTLQFVCGDRGFYFS  109
+
+
+> UniRef50_Q28933 Insulin-like growth factor I (Fragment) n=9 Tax=Euteleostomi 
+TaxID=117571 RepID=IGF1_SUNMU
+Length=81
+
+ Score = 40.6 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  3   NQHLCGSHLVEALYLVCGERGFFYT  27
+            + LCG+ LV+AL  VCG+RGF++ 
+Sbjct  6   PETLCGAELVDALQFVCGDRGFYFN  30
+
+
+> UniRef50_UPI000440A38F insulin-like n=2 Tax=Otomorpha TaxID=186634 
+RepID=UPI000440A38F
+Length=109
+
+ Score = 40.6 bits (94),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 17/28 (61%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  1   FVNQHLCGSHLVEALYLVCGERGFFYTP  28
+           F  + LCG  LVEAL  VCGE+G FY P
+Sbjct  23  FGTRRLCGIQLVEALLFVCGEKGVFYQP  50
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.156    0.525    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0477    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233531472575
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

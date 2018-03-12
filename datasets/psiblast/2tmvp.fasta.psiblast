@@ -1,0 +1,2934 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 2tmvp
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P69687 Capsid protein n=85 Tax=Tobamovirus TaxID=12234...  312     1e-106
+  UniRef50_P03575 Capsid protein n=267 Tax=Tobamovirus TaxID=1223...  267     5e-89 
+  UniRef50_R9QRM0 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 ...  267     6e-89 
+  UniRef50_A0A0K2WUQ5 Multifunctional fusion protein n=14 Tax=Tom...  274     4e-88 
+  UniRef50_F1CWG4 Capsid protein (Fragment) n=8 Tax=Tobamovirus T...  152     8e-45 
+  UniRef50_Q88601 Capsid protein n=4 Tax=Tobamovirus TaxID=12234 ...  142     5e-41 
+  UniRef50_P03580 Capsid protein n=45 Tax=Tobamovirus TaxID=12234...  139     7e-39 
+  UniRef50_A0A0E3DDZ9 Capsid protein n=1 Tax=Plumeria mosaic viru...  127     6e-34 
+  UniRef50_A0A0D3MFU4 Capsid protein n=1 Tax=Tobacco mosaic virus...  126     9e-34 
+  UniRef50_Q1XF42 Capsid protein n=1 Tax=Streptocarpus flower bre...  123     5e-33 
+  UniRef50_Q8JL64 Capsid protein n=3 Tax=Frangipani mosaic virus ...  124     1e-32 
+  UniRef50_P03581 Capsid protein n=2 Tax=Tobamovirus TaxID=12234 ...  122     3e-32 
+  UniRef50_Q7TF84 Capsid protein n=8 Tax=ssRNA positive-strand vi...  116     6e-30 
+  UniRef50_F1CWG5 Capsid protein n=2 Tax=Tomato mosaic virus TaxI...  113     1e-29 
+  UniRef50_P69474 Capsid protein n=54 Tax=Tobamovirus TaxID=12234...  114     3e-29 
+  UniRef50_Q96479 Capsid protein (Fragment) n=3 Tax=root TaxID=1 ...  111     5e-29 
+  UniRef50_Q589Z6 Capsid protein n=8 Tax=Tobamovirus TaxID=12234 ...  103     4e-25 
+  UniRef50_Q86705 Capsid protein n=1 Tax=Tobamovirus TaxID=12234 ...  102     7e-25 
+  UniRef50_A0SEL4 Capsid protein n=3 Tax=Tobamovirus TaxID=12234 ...  101     5e-24 
+  UniRef50_Q9DKW3 Coat protein n=2 Tax=Cucumber fruit mottle mosa...  97.8    9e-23 
+  UniRef50_G9CU46 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 ...  95.1    1e-21 
+  UniRef50_M4QBD6 Capsid protein (Fragment) n=3 Tax=Cucumber gree...  87.4    3e-19 
+  UniRef50_Q91KP8 Capsid protein n=1 Tax=Tomato mosaic virus TaxI...  75.5    2e-14 
+  UniRef50_A0A1L3KJW6 Putative coat protein n=1 Tax=Hubei virga-l...  48.5    1e-04 
+
+
+> UniRef50_P69687 Capsid protein n=85 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_TMV
+Length=159
+
+ Score = 312 bits (800),  Expect = 1e-106, Method: Compositional matrix adjust.
+ Identities = 154/154 (100%), Positives = 154/154 (100%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA
+Sbjct  62   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS
+Sbjct  122  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  155
+
+
+> UniRef50_P03575 Capsid protein n=267 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_TMVDA
+Length=159
+
+ Score = 267 bits (683),  Expect = 5e-89, Method: Compositional matrix adjust.
+ Identities = 128/154 (83%), Positives = 142/154 (92%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSIT+PSQFVFLSS WADPIEL+N+CT++LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  2    SYSITSPSQFVFLSSVWADPIELLNVCTSSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   +KVYRYNAVLDPL+TALLG FDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  62   RFPGDVYKVYRYNAVLDPLITALLGTFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  122  IRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  155
+
+
+> UniRef50_R9QRM0 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 
+RepID=R9QRM0_9VIRU
+Length=159
+
+ Score = 267 bits (683),  Expect = 6e-89, Method: Compositional matrix adjust.
+ Identities = 127/154 (82%), Positives = 142/154 (92%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT+PSQFVFLSSA ADP+ELIN+CTN+LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  2    SYAITSPSQFVFLSSAGADPVELINICTNSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ FKVYRYNA +DPL+TALLG FDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  62   RFPDNVFKVYRYNAAIDPLITALLGTFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSA+NNL+ EL+RGTG YN+S+FES SGL WTS
+Sbjct  122  IRSAVNNLVNELVRGTGFYNQSTFESMSGLAWTS  155
+
+
+> UniRef50_A0A0K2WUQ5 Multifunctional fusion protein n=14 Tax=Tomato 
+mosaic virus TaxID=12253 RepID=A0A0K2WUQ5_9VIRU
+Length=423
+
+ Score = 274 bits (701),  Expect = 4e-88, Method: Compositional matrix adjust.
+ Identities = 129/154 (84%), Positives = 143/154 (93%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSIT+PSQFVFLSS WADP+EL+N+CTN+LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  266  SYSITSPSQFVFLSSVWADPVELLNVCTNSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  325
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   +KVYRYNAVLDPL+TALLGAFDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  326  RFPGDVYKVYRYNAVLDPLITALLGAFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  385
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  386  IRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  419
+
+
+> UniRef50_F1CWG4 Capsid protein (Fragment) n=8 Tax=Tobamovirus 
+TaxID=12234 RepID=F1CWG4_TMGMV
+Length=99
+
+ Score = 152 bits (385),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 76/96 (79%), Positives = 86/96 (90%), Gaps = 1/96 (1%)
+
+Query  59   TVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDAT  118
+            T RFP + +K YRYNAVLDPL+T L GAF+TRNRIIEVENQ +PTTAETLDATRRVDDAT
+Sbjct  1    TGRFPGNVYKGYRYNAVLDPLITGL-GAFNTRNRIIEVENQQSPTTAETLDATRRVDDAT  59
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            VAIRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  60   VAIRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  95
+
+
+> UniRef50_Q88601 Capsid protein n=4 Tax=Tobamovirus TaxID=12234 
+RepID=Q88601_9VIRU
+Length=72
+
+ Score = 142 bits (358),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 68/71 (96%), Positives = 68/71 (96%), Gaps = 0/71 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SYSITTPSQ VF SSAWADPIELINLC NALGNQFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2   SYSITTPSQSVFFSSAWADPIELINLCINALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61  RFPDSDFKVYR  71
+           RFPDSDFKVYR
+Sbjct  62  RFPDSDFKVYR  72
+
+
+> UniRef50_P03580 Capsid protein n=45 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_RMVHR
+Length=157
+
+ Score = 139 bits (351),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 70/154 (45%), Positives = 101/154 (66%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT  +Q+ + ++ WA+P  ++N C +AL   +QTQ  R  V++QF+ +         
+Sbjct  2    SYNITNSNQYQYFAAVWAEPTPMLNQCVSALSQSYQTQAGRDTVRQQFANLLSTIVAPNQ  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ F+VY  +AV+ PL  AL+ +FDTRNRIIE E ++ P+ +E  +AT+RVDDATVA
+Sbjct  62   RFPDTGFRVYVNSAVIKPLYEALMKSFDTRNRIIETEEESRPSASEVANATQRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRS I  L+ EL  G G  NR+ FE+   L WT+
+Sbjct  122  IRSQIQLLLNELSNGHGYMNRAEFEAI--LPWTT  153
+
+
+> UniRef50_A0A0E3DDZ9 Capsid protein n=1 Tax=Plumeria mosaic virus 
+TaxID=1501716 RepID=A0A0E3DDZ9_9VIRU
+Length=175
+
+ Score = 127 bits (319),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 69/143 (48%), Positives = 90/143 (63%), Gaps = 2/143 (1%)
+
+Query  12   FLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSDFKVYR  71
+            + S ++   +E INL  + LG  FQTQ AR   + Q    +K     TVRFP++   ++ 
+Sbjct  13   YFSRSYIPGVEFINLIISGLGQSFQTQSARDEFRAQLIGSYKVVVTSTVRFPENSIYLWA  72
+
+Query  72   YNAVLDPLVTALLGAFDTRNRIIEVE--NQANPTTAETLDATRRVDDATVAIRSAINNLI  129
+             N  + PL+ A+  A DTRNRIIEVE  N  NPT++ET +ATRRVDDATVA+RS +  L 
+Sbjct  73   NNPAIRPLLLAVFQALDTRNRIIEVESANAINPTSSETREATRRVDDATVAVRSQLQLLF  132
+
+Query  130  VELIRGTGSYNRSSFESSSGLVW  152
+              L  GTG Y+R SFE +SGLVW
+Sbjct  133  DALSGGTGLYDRKSFEEASGLVW  155
+
+
+> UniRef50_A0A0D3MFU4 Capsid protein n=1 Tax=Tobacco mosaic virus 
+TaxID=12242 RepID=A0A0D3MFU4_9VIRU
+Length=159
+
+ Score = 126 bits (316),  Expect = 9e-34, Method: Compositional matrix adjust.
+ Identities = 60/68 (88%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SY ITTPSQFVFLSSAWADPIELIN CT ALG QFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2   SYGITTPSQFVFLSSAWADPIELINFCTIALGIQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61  RFPDSDFK  68
+           RFP    K
+Sbjct  62  RFPVVTLK  69
+
+
+> UniRef50_Q1XF42 Capsid protein n=1 Tax=Streptocarpus flower break 
+virus TaxID=335187 RepID=Q1XF42_9VIRU
+Length=134
+
+ Score = 123 bits (309),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 63/132 (48%), Positives = 88/132 (67%), Gaps = 2/132 (2%)
+
+Query  23   LINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLVTA  82
+            ++NLC+ +L   FQTQ AR  V+ QF    +     T RFP++ F+VY  +A L PL   
+Sbjct  1    MMNLCSASLSQIFQTQAARDAVREQFGNTLRSVVTQTTRFPEAGFQVYINDAALKPLWEN  60
+
+Query  83   LLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRS  142
+            LL +FDT+NRI+E E +  P+TAE L+AT+RVDD+T AIR A+  L  EL RG+G  NR+
+Sbjct  61   LLKSFDTKNRILETEEETRPSTAEVLNATQRVDDSTTAIRGALQRLSDELNRGSGYMNRT  120
+
+Query  143  SFESSSGLVWTS  154
+            SFE+   L+W++
+Sbjct  121  SFETI--LLWSA  130
+
+
+> UniRef50_Q8JL64 Capsid protein n=3 Tax=Frangipani mosaic virus 
+TaxID=99585 RepID=Q8JL64_9VIRU
+Length=174
+
+ Score = 124 bits (310),  Expect = 1e-32, Method: Compositional matrix adjust.
+ Identities = 66/154 (43%), Positives = 96/154 (62%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+  + +  ++ + ++   ++ I+L  + LG  FQTQ AR   + Q    +K     TV
+Sbjct  2    SYTNISTTNIIYFARSYIPGVDFIDLIISGLGQSFQTQSARDEFRSQLIGSYKVVVSKTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVE--NQANPTTAETLDATRRVDDAT  118
+            RFP++   ++  N  + PL+ A+  A DTRNRIIEVE  N  NPT++ET +ATRRVDDAT
+Sbjct  62   RFPENTIYLWANNPTIRPLLHAVFQALDTRNRIIEVESTNVVNPTSSETREATRRVDDAT  121
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            VA+RS +  L   L  G+G Y+R +FE +SGLVW
+Sbjct  122  VAVRSQLQLLFDALSGGSGLYDRKAFEDASGLVW  155
+
+
+> UniRef50_P03581 Capsid protein n=2 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_SHMV
+Length=163
+
+ Score = 122 bits (307),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 71/155 (46%), Positives = 95/155 (61%), Gaps = 5/155 (3%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQF--SEVWKPSPQV  58
+            +YSI TPSQ V+ +  +AD I  +N   NA  N FQTQ  R  ++     S+V   SP  
+Sbjct  2    AYSIPTPSQLVYFTENYADYIPFVNRLINARSNSFQTQSGRDELREILIKSQVSVVSP--  59
+
+Query  59   TVRFP-DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDA  117
+              RFP +  + +Y  +  +  + TALL + DTRNR+IEVEN  N TTAE L+A RR DDA
+Sbjct  60   ISRFPAEPAYYIYLRDPSISTVYTALLQSTDTRNRVIEVENSTNVTTAEQLNAVRRTDDA  119
+
+Query  118  TVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            + AI + +  L+  L  GTG +NR+SFES+SGL W
+Sbjct  120  STAIHNNLEQLLSLLTNGTGVFNRTSFESASGLTW  154
+
+
+> UniRef50_Q7TF84 Capsid protein n=8 Tax=ssRNA positive-strand 
+viruses, no DNA stage TaxID=35278 RepID=Q7TF84_9VIRU
+Length=158
+
+ Score = 116 bits (291),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 66/154 (43%), Positives = 91/154 (59%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYS  T    ++ S  +A    L+ +   +  N FQTQ  R +++ Q     +     T 
+Sbjct  2    SYSNITALNLIYSSPTFAPYDVLLEILIKSRSNSFQTQAGRDILREQLVNALQTVVTPTT  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP + + V+  N  L P+  ALL A DT+NRIIE E  + PTTAETL+AT+RVDDATVA
+Sbjct  62   RFPANRWYVWSRNPTLGPVFEALLQATDTKNRIIETEEDSRPTTAETLNATQRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            I   I+N++  L  GT  YN++SFE +SG  WT+
+Sbjct  122  IHKEIDNILGLLQGGTAVYNQASFEIASGWTWTA  155
+
+
+> UniRef50_F1CWG5 Capsid protein n=2 Tax=Tomato mosaic virus TaxID=12253 
+RepID=F1CWG5_9VIRU
+Length=74
+
+ Score = 113 bits (283),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 52/62 (84%), Positives = 58/62 (94%), Gaps = 0/62 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SYSIT+PSQFVFLSS WADPIEL+N+CTN+LGNQFQTQQART VQ+QFS+VWKP PQ TV
+Sbjct  2   SYSITSPSQFVFLSSVWADPIELLNICTNSLGNQFQTQQARTTVQQQFSDVWKPFPQSTV  61
+
+Query  61  RF  62
+           RF
+Sbjct  62  RF  63
+
+
+> UniRef50_P69474 Capsid protein n=54 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_CGMVS
+Length=161
+
+ Score = 114 bits (286),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 58/153 (38%), Positives = 92/153 (60%), Gaps = 0/153 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +Y+  TPS+ +  S+++     L+N    + G  FQTQ  R   +   S +      +  
+Sbjct  2    AYNPITPSKLIAFSASYVPVRTLLNFLVASQGTAFQTQAGRDSFRESLSALPSSVVDINS  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ F  +    VL P+  +LL + DTRNR+IEV + +NPTTAE+L+A +R DDA+ A
+Sbjct  62   RFPDAGFYAFLNGPVLRPIFVSLLSSTDTRNRVIEVVDPSNPTTAESLNAVKRTDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+             R+ I+NLI  + +G   Y+R+SFE++  +VW+
+Sbjct  122  ARAEIDNLIESISKGFDVYDRASFEAAFSVVWS  154
+
+
+> UniRef50_Q96479 Capsid protein (Fragment) n=3 Tax=root TaxID=1 
+RepID=Q96479_9VIRU
+Length=69
+
+ Score = 111 bits (278),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 54/65 (83%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  90   RNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSG  149
+            RNRIIEVENQ +PTTAETLDATRRVDDATVAIRSAINNL+ EL+RGTG YN+++FES +G
+Sbjct  1    RNRIIEVENQQSPTTAETLDATRRVDDATVAIRSAINNLVNELVRGTGLYNQNTFESMTG  60
+
+Query  150  LVWTS  154
+            LVWTS
+Sbjct  61   LVWTS  65
+
+
+> UniRef50_Q589Z6 Capsid protein n=8 Tax=Tobamovirus TaxID=12234 
+RepID=Q589Z6_9VIRU
+Length=161
+
+ Score = 103 bits (258),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 56/154 (36%), Positives = 88/154 (57%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSI+        + ++    +L NL   A G   QTQ  + +V+   + +      +  
+Sbjct  2    SYSISGVRSLPAFAKSFYPFYDLYNLLVKAQGGALQTQNGKDIVRESLTGLLTSVASLNT  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP ++F V+   + +  ++ +LL A D+RNR IEVEN +NP+T E L+AT+R DDA+ A
+Sbjct  62   RFPANEFFVWSRESRVAAVIDSLLSALDSRNRAIEVENPSNPSTGEALNATKRNDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+              + I  L+  L  G G ++ +SFES+ GLVWT+
+Sbjct  122  AHNDIPLLLAALNDGVGVFDSASFESAFGLVWTA  155
+
+
+> UniRef50_Q86705 Capsid protein n=1 Tax=Tobamovirus TaxID=12234 
+RepID=Q86705_9VIRU
+Length=129
+
+ Score = 102 bits (254),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 47/108 (44%), Positives = 73/108 (68%), Gaps = 0/108 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT P+Q+ + ++ WA+PI ++N C +AL   +QTQ AR  V++QFS +       + 
+Sbjct  2    SYNITNPNQYQYFAAVWAEPIPMLNQCISALSQSYQTQAARDTVRQQFSNLLSAVVAPSQ  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETL  108
+            RFP++  +VY  +AV+ PL  AL+ +FDTRNRIIE E ++ P+ +E L
+Sbjct  62   RFPETGSRVYVNSAVIKPLYEALMKSFDTRNRIIETEEESRPSASEVL  109
+
+
+> UniRef50_A0SEL4 Capsid protein n=3 Tax=Tobamovirus TaxID=12234 
+RepID=A0SEL4_9VIRU
+Length=163
+
+ Score = 101 bits (251),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 60/151 (40%), Positives = 85/151 (56%), Gaps = 1/151 (1%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVR  61
+            Y   T  Q  ++S+ WAD   L+N+  N     FQTQ  R  ++ Q +     + QV VR
+Sbjct  3    YQPITIKQLPWVSANWADYQTLVNVLRNTSATSFQTQAGRDSIRSQLTGCVDSAVQVNVR  62
+
+Query  62   FPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAI  121
+            FP+  F V+  +  +  +  ALL A DT+NRIIEV+ + +P+ +E    TRRVDDA+VAI
+Sbjct  63   FPER-FLVFINDPAIADVWFALLKATDTKNRIIEVDTERSPSNSEIESVTRRVDDASVAI  121
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R  +  L+  L    G Y+R+ FE  SGL W
+Sbjct  122  RINVERLLKALNDVQGVYDRTLFEQVSGLTW  152
+
+
+> UniRef50_Q9DKW3 Coat protein n=2 Tax=Cucumber fruit mottle mosaic 
+virus TaxID=146499 RepID=Q9DKW3_9VIRU
+Length=162
+
+ Score = 97.8 bits (242),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 52/132 (39%), Positives = 78/132 (59%), Gaps = 0/132 (0%)
+
+Query  23   LINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLVTA  82
+            L +L  +A G   QTQ  + +++   + +         RFP   F V+   + +  ++ +
+Sbjct  24   LYDLLVSAQGGALQTQNGKDILRDSINGLLTTVASPRSRFPAEGFFVWSRESRIAAILDS  83
+
+Query  83   LLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRS  142
+            LL A D+RNR IEVEN +NP+T+E L+AT+R DDA+ A  + I  LI  L  G G ++R+
+Sbjct  84   LLSALDSRNRAIEVENPSNPSTSEALNATKRNDDASTAAHNDIPQLISALNDGAGVFDRA  143
+
+Query  143  SFESSSGLVWTS  154
+            SFES  GLVWT+
+Sbjct  144  SFESQFGLVWTA  155
+
+
+> UniRef50_G9CU46 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 
+RepID=G9CU46_9VIRU
+Length=170
+
+ Score = 95.1 bits (235),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 54/146 (37%), Positives = 80/146 (55%), Gaps = 0/146 (0%)
+
+Query  7    PSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSD  66
+            P  FV+L+ +W DP  LI   ++     FQ QQ+RT +  + S +    P  + RFP   
+Sbjct  8    PKDFVYLTRSWVDPQRLIQFLSDMQTQAFQAQQSRTQLLNELSTMVVYGPTKSDRFPIDT  67
+
+Query  67   FKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAIN  126
+            + +      L      L  + DT++R+ EV      T AE+  AT+RVDDATVAIR+AI 
+Sbjct  68   YLINITKGGLSAYWFGLTQSADTKDRVFEVSEARAVTNAESKLATQRVDDATVAIRNAIK  127
+
+Query  127  NLIVELIRGTGSYNRSSFESSSGLVW  152
+            + +  LI G   Y+R+SFE++ G +W
+Sbjct  128  STLSYLIAGEDIYSRTSFEAALGWIW  153
+
+
+> UniRef50_M4QBD6 Capsid protein (Fragment) n=3 Tax=Cucumber green 
+mottle mosaic virus TaxID=12235 RepID=M4QBD6_9VIRU
+Length=109
+
+ Score = 87.4 bits (215),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 42/97 (43%), Positives = 64/97 (66%), Gaps = 0/97 (0%)
+
+Query  57   QVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDD  116
+             +  RFP+  F  +    VL P+  +LL + DTRNR+IEV + +NPTTAE+L+A +R +D
+Sbjct  9    DINSRFPNPGFYAFLNGPVLRPIFVSLLSSTDTRNRVIEVVDPSNPTTAESLNAVKRTED  68
+
+Query  117  ATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            A+ A R+ I+NLI  +  G   Y+R+SFE+   +VW+
+Sbjct  69   ASTAARAEIDNLIESISNGFDVYDRASFEAPFSVVWS  105
+
+
+> UniRef50_Q91KP8 Capsid protein n=1 Tax=Tomato mosaic virus TaxID=12253 
+RepID=Q91KP8_9VIRU
+Length=161
+
+ Score = 75.5 bits (184),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 60/149 (40%), Positives = 69/149 (46%), Gaps = 49/149 (33%)
+
+Query  3    SITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRF  62
+            SITTPSQFVF SSAW         CT  +               QF         +    
+Sbjct  28   SITTPSQFVFWSSAWG-----FIRCTGTI---------------QF--------WILYLL  59
+
+Query  63   PDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIR  122
+               DF+ + +                    IIEVENQ +PTTAETLDATRRVDDATVAIR
+Sbjct  60   RAGDFRYWEW--------------------IIEVENQQSPTTAETLDATRRVDDATVAIR  99
+
+Query  123  SAINNLIVELIRGTGSYNRSSFESSSGLV  151
+            SAINNL    +       R +FESS G +
+Sbjct  100  SAINNLFRNYLEVLDCTIR-TFESSLGCL  127
+
+
+> UniRef50_A0A1L3KJW6 Putative coat protein n=1 Tax=Hubei virga-like 
+virus 2 TaxID=1923335 RepID=A0A1L3KJW6_9VIRU
+Length=205
+
+ Score = 48.5 bits (114),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 44/138 (32%), Positives = 60/138 (43%), Gaps = 7/138 (5%)
+
+Query  17   WADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFP-DSDFKVYRYNA  74
+            W   ++L N       N F T  +R VV    + +   +P   T RFP D +F      +
+Sbjct  65   WCSLVDLCNFVEAHKMNGFHTHASRNVVVAAIARLRTHAPFSRTERFPEDVEFVDLDATS  124
+
+Query  75   VLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIR  134
+            VL P +  L  A D  +R + V N A P    T DA R  D A   IR       V+   
+Sbjct  125  VL-PYIDQLHQACDLNDRAVNVGN-AQPN-GSTNDAKRAFDVAFTKIRDFAT--AVDFPE  179
+
+Query  135  GTGSYNRSSFESSSGLVW  152
+            G+G + R +FE+  GL W
+Sbjct  180  GSGVWTRETFEARYGLEW  197
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233682187947
+Results from round 2
+
+
+Query= 2tmvp
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A0A0K2WUQ5 Multifunctional fusion protein n=14 Tax=Tom...  235     9e-73
+  UniRef50_P69687 Capsid protein n=85 Tax=Tobamovirus TaxID=12234...  208     8e-66
+  UniRef50_P03575 Capsid protein n=267 Tax=Tobamovirus TaxID=1223...  204     3e-64
+  UniRef50_R9QRM0 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 ...  198     1e-61
+  UniRef50_P03580 Capsid protein n=45 Tax=Tobamovirus TaxID=12234...  183     5e-56
+  UniRef50_Q7TF84 Capsid protein n=8 Tax=ssRNA positive-strand vi...  179     2e-54
+  UniRef50_Q8JL64 Capsid protein n=3 Tax=Frangipani mosaic virus ...  177     3e-53
+  UniRef50_Q589Z6 Capsid protein n=8 Tax=Tobamovirus TaxID=12234 ...  176     4e-53
+  UniRef50_P69474 Capsid protein n=54 Tax=Tobamovirus TaxID=12234...  174     2e-52
+  UniRef50_A0A0E3DDZ9 Capsid protein n=1 Tax=Plumeria mosaic viru...  174     4e-52
+  UniRef50_Q9DKW3 Coat protein n=2 Tax=Cucumber fruit mottle mosa...  171     4e-51
+  UniRef50_P03581 Capsid protein n=2 Tax=Tobamovirus TaxID=12234 ...  168     3e-50
+  UniRef50_A0SEL4 Capsid protein n=3 Tax=Tobamovirus TaxID=12234 ...  167     1e-49
+  UniRef50_G9CU46 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 ...  158     6e-46
+  UniRef50_Q1XF42 Capsid protein n=1 Tax=Streptocarpus flower bre...  154     7e-45
+  UniRef50_Q86705 Capsid protein n=1 Tax=Tobamovirus TaxID=12234 ...  137     2e-38
+  UniRef50_F1CWG4 Capsid protein (Fragment) n=8 Tax=Tobamovirus T...  128     4e-35
+  UniRef50_A0A1L3KJW6 Putative coat protein n=1 Tax=Hubei virga-l...  126     3e-33
+  UniRef50_M4QBD6 Capsid protein (Fragment) n=3 Tax=Cucumber gree...  119     8e-32
+  UniRef50_Q91KP8 Capsid protein n=1 Tax=Tomato mosaic virus TaxI...  101     4e-24
+  UniRef50_Q88601 Capsid protein n=4 Tax=Tobamovirus TaxID=12234 ...  95.3    1e-22
+  UniRef50_Q96479 Capsid protein (Fragment) n=3 Tax=root TaxID=1 ...  94.9    1e-22
+  UniRef50_A0A0D3MFU4 Capsid protein n=1 Tax=Tobacco mosaic virus...  97.6    1e-22
+  UniRef50_F1CWG5 Capsid protein n=2 Tax=Tomato mosaic virus TaxI...  85.3    7e-19
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A1L3KJP1 Putative capsid protein n=1 Tax=Beihai char...  65.6    6e-11
+  UniRef50_A0A1L6YQ00 ORF5 n=2 Tax=unclassified RNA viruses TaxID...  63.3    4e-10
+  UniRef50_A0A1L3KJU2 Uncharacterized protein n=1 Tax=Hubei virga...  62.2    2e-09
+  UniRef50_A0A0A1XEK4 Capsid protein n=6 Tax=Dacinae TaxID=164860...  58.3    2e-08
+  UniRef50_B4NDG4 Uncharacterized protein n=4 Tax=Schizophora Tax...  54.8    6e-07
+  UniRef50_A0A1L3KK50 Uncharacterized protein n=1 Tax=Hubei virga...  53.3    3e-06
+  UniRef50_A0A0M4EU67 CG15772 n=1 Tax=Drosophila busckii TaxID=30...  51.8    4e-06
+  UniRef50_A0A223FUM6 Capsid protein n=1 Tax=Abisko virus TaxID=2...  52.5    5e-06
+  UniRef50_UPI000C6C6925 high mobility group protein DSP1 n=1 Tax...  52.1    8e-06
+  UniRef50_A0A1W4UWN5 alpha-protein kinase 1-like n=18 Tax=Drosop...  52.1    1e-05
+  UniRef50_B3MSG7 Uncharacterized protein, isoform A n=8 Tax=Dros...  51.8    1e-05
+  UniRef50_F8ULT8 Coat protein n=1 Tax=Chara australis virus TaxI...  50.2    2e-05
+  UniRef50_UPI0006C98FF8 uncharacterized protein LOC106657222 n=1...  47.5    2e-04
+
+
+> UniRef50_A0A0K2WUQ5 Multifunctional fusion protein n=14 Tax=Tomato 
+mosaic virus TaxID=12253 RepID=A0A0K2WUQ5_9VIRU
+Length=423
+
+ Score = 235 bits (598),  Expect = 9e-73, Method: Composition-based stats.
+ Identities = 129/154 (84%), Positives = 143/154 (93%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSIT+PSQFVFLSS WADP+EL+N+CTN+LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  266  SYSITSPSQFVFLSSVWADPVELLNVCTNSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  325
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   +KVYRYNAVLDPL+TALLGAFDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  326  RFPGDVYKVYRYNAVLDPLITALLGAFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  385
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  386  IRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  419
+
+
+> UniRef50_P69687 Capsid protein n=85 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_TMV
+Length=159
+
+ Score = 208 bits (529),  Expect = 8e-66, Method: Composition-based stats.
+ Identities = 154/154 (100%), Positives = 154/154 (100%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA
+Sbjct  62   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS
+Sbjct  122  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  155
+
+
+> UniRef50_P03575 Capsid protein n=267 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_TMVDA
+Length=159
+
+ Score = 204 bits (519),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 128/154 (83%), Positives = 142/154 (92%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSIT+PSQFVFLSS WADPIEL+N+CT++LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  2    SYSITSPSQFVFLSSVWADPIELLNVCTSSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   +KVYRYNAVLDPL+TALLG FDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  62   RFPGDVYKVYRYNAVLDPLITALLGTFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  122  IRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  155
+
+
+> UniRef50_R9QRM0 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 
+RepID=R9QRM0_9VIRU
+Length=159
+
+ Score = 198 bits (502),  Expect = 1e-61, Method: Composition-based stats.
+ Identities = 127/154 (82%), Positives = 142/154 (92%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT+PSQFVFLSSA ADP+ELIN+CTN+LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  2    SYAITSPSQFVFLSSAGADPVELINICTNSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ FKVYRYNA +DPL+TALLG FDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  62   RFPDNVFKVYRYNAAIDPLITALLGTFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSA+NNL+ EL+RGTG YN+S+FES SGL WTS
+Sbjct  122  IRSAVNNLVNELVRGTGFYNQSTFESMSGLAWTS  155
+
+
+> UniRef50_P03580 Capsid protein n=45 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_RMVHR
+Length=157
+
+ Score = 183 bits (464),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 70/154 (45%), Positives = 101/154 (66%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT  +Q+ + ++ WA+P  ++N C +AL   +QTQ  R  V++QF+ +         
+Sbjct  2    SYNITNSNQYQYFAAVWAEPTPMLNQCVSALSQSYQTQAGRDTVRQQFANLLSTIVAPNQ  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ F+VY  +AV+ PL  AL+ +FDTRNRIIE E ++ P+ +E  +AT+RVDDATVA
+Sbjct  62   RFPDTGFRVYVNSAVIKPLYEALMKSFDTRNRIIETEEESRPSASEVANATQRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRS I  L+ EL  G G  NR+ FE+   L WT+
+Sbjct  122  IRSQIQLLLNELSNGHGYMNRAEFEAI--LPWTT  153
+
+
+> UniRef50_Q7TF84 Capsid protein n=8 Tax=ssRNA positive-strand 
+viruses, no DNA stage TaxID=35278 RepID=Q7TF84_9VIRU
+Length=158
+
+ Score = 179 bits (454),  Expect = 2e-54, Method: Composition-based stats.
+ Identities = 66/154 (43%), Positives = 91/154 (59%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYS  T    ++ S  +A    L+ +   +  N FQTQ  R +++ Q     +     T 
+Sbjct  2    SYSNITALNLIYSSPTFAPYDVLLEILIKSRSNSFQTQAGRDILREQLVNALQTVVTPTT  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP + + V+  N  L P+  ALL A DT+NRIIE E  + PTTAETL+AT+RVDDATVA
+Sbjct  62   RFPANRWYVWSRNPTLGPVFEALLQATDTKNRIIETEEDSRPTTAETLNATQRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            I   I+N++  L  GT  YN++SFE +SG  WT+
+Sbjct  122  IHKEIDNILGLLQGGTAVYNQASFEIASGWTWTA  155
+
+
+> UniRef50_Q8JL64 Capsid protein n=3 Tax=Frangipani mosaic virus 
+TaxID=99585 RepID=Q8JL64_9VIRU
+Length=174
+
+ Score = 177 bits (448),  Expect = 3e-53, Method: Composition-based stats.
+ Identities = 66/154 (43%), Positives = 96/154 (62%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+  + +  ++ + ++   ++ I+L  + LG  FQTQ AR   + Q    +K     TV
+Sbjct  2    SYTNISTTNIIYFARSYIPGVDFIDLIISGLGQSFQTQSARDEFRSQLIGSYKVVVSKTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVE--NQANPTTAETLDATRRVDDAT  118
+            RFP++   ++  N  + PL+ A+  A DTRNRIIEVE  N  NPT++ET +ATRRVDDAT
+Sbjct  62   RFPENTIYLWANNPTIRPLLHAVFQALDTRNRIIEVESTNVVNPTSSETREATRRVDDAT  121
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            VA+RS +  L   L  G+G Y+R +FE +SGLVW
+Sbjct  122  VAVRSQLQLLFDALSGGSGLYDRKAFEDASGLVW  155
+
+
+> UniRef50_Q589Z6 Capsid protein n=8 Tax=Tobamovirus TaxID=12234 
+RepID=Q589Z6_9VIRU
+Length=161
+
+ Score = 176 bits (446),  Expect = 4e-53, Method: Composition-based stats.
+ Identities = 56/154 (36%), Positives = 88/154 (57%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSI+        + ++    +L NL   A G   QTQ  + +V+   + +      +  
+Sbjct  2    SYSISGVRSLPAFAKSFYPFYDLYNLLVKAQGGALQTQNGKDIVRESLTGLLTSVASLNT  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP ++F V+   + +  ++ +LL A D+RNR IEVEN +NP+T E L+AT+R DDA+ A
+Sbjct  62   RFPANEFFVWSRESRVAAVIDSLLSALDSRNRAIEVENPSNPSTGEALNATKRNDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+              + I  L+  L  G G ++ +SFES+ GLVWT+
+Sbjct  122  AHNDIPLLLAALNDGVGVFDSASFESAFGLVWTA  155
+
+
+> UniRef50_P69474 Capsid protein n=54 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_CGMVS
+Length=161
+
+ Score = 174 bits (441),  Expect = 2e-52, Method: Composition-based stats.
+ Identities = 58/153 (38%), Positives = 92/153 (60%), Gaps = 0/153 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +Y+  TPS+ +  S+++     L+N    + G  FQTQ  R   +   S +      +  
+Sbjct  2    AYNPITPSKLIAFSASYVPVRTLLNFLVASQGTAFQTQAGRDSFRESLSALPSSVVDINS  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ F  +    VL P+  +LL + DTRNR+IEV + +NPTTAE+L+A +R DDA+ A
+Sbjct  62   RFPDAGFYAFLNGPVLRPIFVSLLSSTDTRNRVIEVVDPSNPTTAESLNAVKRTDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+             R+ I+NLI  + +G   Y+R+SFE++  +VW+
+Sbjct  122  ARAEIDNLIESISKGFDVYDRASFEAAFSVVWS  154
+
+
+> UniRef50_A0A0E3DDZ9 Capsid protein n=1 Tax=Plumeria mosaic virus 
+TaxID=1501716 RepID=A0A0E3DDZ9_9VIRU
+Length=175
+
+ Score = 174 bits (440),  Expect = 4e-52, Method: Composition-based stats.
+ Identities = 70/154 (45%), Positives = 94/154 (61%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +Y+  +     + S ++   +E INL  + LG  FQTQ AR   + Q    +K     TV
+Sbjct  2    AYTNISTVNLQYFSRSYIPGVEFINLIISGLGQSFQTQSARDEFRAQLIGSYKVVVTSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVE--NQANPTTAETLDATRRVDDAT  118
+            RFP++   ++  N  + PL+ A+  A DTRNRIIEVE  N  NPT++ET +ATRRVDDAT
+Sbjct  62   RFPENSIYLWANNPAIRPLLLAVFQALDTRNRIIEVESANAINPTSSETREATRRVDDAT  121
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            VA+RS +  L   L  GTG Y+R SFE +SGLVW
+Sbjct  122  VAVRSQLQLLFDALSGGTGLYDRKSFEEASGLVW  155
+
+
+> UniRef50_Q9DKW3 Coat protein n=2 Tax=Cucumber fruit mottle mosaic 
+virus TaxID=146499 RepID=Q9DKW3_9VIRU
+Length=162
+
+ Score = 171 bits (433),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 55/154 (36%), Positives = 85/154 (55%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYS +        + ++     L +L  +A G   QTQ  + +++   + +         
+Sbjct  2    SYSTSGLRSLPAYTKSFCPYYALYDLLVSAQGGALQTQNGKDILRDSINGLLTTVASPRS  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   F V+   + +  ++ +LL A D+RNR IEVEN +NP+T+E L+AT+R DDA+ A
+Sbjct  62   RFPAEGFFVWSRESRIAAILDSLLSALDSRNRAIEVENPSNPSTSEALNATKRNDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+              + I  LI  L  G G ++R+SFES  GLVWT+
+Sbjct  122  AHNDIPQLISALNDGAGVFDRASFESQFGLVWTA  155
+
+
+> UniRef50_P03581 Capsid protein n=2 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_SHMV
+Length=163
+
+ Score = 168 bits (426),  Expect = 3e-50, Method: Composition-based stats.
+ Identities = 67/153 (44%), Positives = 91/153 (59%), Gaps = 1/153 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +YSI TPSQ V+ +  +AD I  +N   NA  N FQTQ  R  ++    +          
+Sbjct  2    AYSIPTPSQLVYFTENYADYIPFVNRLINARSNSFQTQSGRDELREILIKSQVSVVSPIS  61
+
+Query  61   RFP-DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+            RFP +  + +Y  +  +  + TALL + DTRNR+IEVEN  N TTAE L+A RR DDA+ 
+Sbjct  62   RFPAEPAYYIYLRDPSISTVYTALLQSTDTRNRVIEVENSTNVTTAEQLNAVRRTDDAST  121
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            AI + +  L+  L  GTG +NR+SFES+SGL W
+Sbjct  122  AIHNNLEQLLSLLTNGTGVFNRTSFESASGLTW  154
+
+
+> UniRef50_A0SEL4 Capsid protein n=3 Tax=Tobamovirus TaxID=12234 
+RepID=A0SEL4_9VIRU
+Length=163
+
+ Score = 167 bits (423),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 60/151 (40%), Positives = 85/151 (56%), Gaps = 1/151 (1%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVR  61
+            Y   T  Q  ++S+ WAD   L+N+  N     FQTQ  R  ++ Q +     + QV VR
+Sbjct  3    YQPITIKQLPWVSANWADYQTLVNVLRNTSATSFQTQAGRDSIRSQLTGCVDSAVQVNVR  62
+
+Query  62   FPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAI  121
+            FP+  F V+  +  +  +  ALL A DT+NRIIEV+ + +P+ +E    TRRVDDA+VAI
+Sbjct  63   FPE-RFLVFINDPAIADVWFALLKATDTKNRIIEVDTERSPSNSEIESVTRRVDDASVAI  121
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R  +  L+  L    G Y+R+ FE  SGL W
+Sbjct  122  RINVERLLKALNDVQGVYDRTLFEQVSGLTW  152
+
+
+> UniRef50_G9CU46 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 
+RepID=G9CU46_9VIRU
+Length=170
+
+ Score = 158 bits (398),  Expect = 6e-46, Method: Composition-based stats.
+ Identities = 55/151 (36%), Positives = 81/151 (54%), Gaps = 0/151 (0%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVR  61
+            Y    P  FV+L+ +W DP  LI   ++     FQ QQ+RT +  + S +    P  + R
+Sbjct  3    YINVQPKDFVYLTRSWVDPQRLIQFLSDMQTQAFQAQQSRTQLLNELSTMVVYGPTKSDR  62
+
+Query  62   FPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAI  121
+            FP   + +      L      L  + DT++R+ EV      T AE+  AT+RVDDATVAI
+Sbjct  63   FPIDTYLINITKGGLSAYWFGLTQSADTKDRVFEVSEARAVTNAESKLATQRVDDATVAI  122
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R+AI + +  LI G   Y+R+SFE++ G +W
+Sbjct  123  RNAIKSTLSYLIAGEDIYSRTSFEAALGWIW  153
+
+
+> UniRef50_Q1XF42 Capsid protein n=1 Tax=Streptocarpus flower break 
+virus TaxID=335187 RepID=Q1XF42_9VIRU
+Length=134
+
+ Score = 154 bits (389),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 63/132 (48%), Positives = 88/132 (67%), Gaps = 2/132 (2%)
+
+Query  23   LINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLVTA  82
+            ++NLC+ +L   FQTQ AR  V+ QF    +     T RFP++ F+VY  +A L PL   
+Sbjct  1    MMNLCSASLSQIFQTQAARDAVREQFGNTLRSVVTQTTRFPEAGFQVYINDAALKPLWEN  60
+
+Query  83   LLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRS  142
+            LL +FDT+NRI+E E +  P+TAE L+AT+RVDD+T AIR A+  L  EL RG+G  NR+
+Sbjct  61   LLKSFDTKNRILETEEETRPSTAEVLNATQRVDDSTTAIRGALQRLSDELNRGSGYMNRT  120
+
+Query  143  SFESSSGLVWTS  154
+            SFE+   L+W++
+Sbjct  121  SFETI--LLWSA  130
+
+
+> UniRef50_Q86705 Capsid protein n=1 Tax=Tobamovirus TaxID=12234 
+RepID=Q86705_9VIRU
+Length=129
+
+ Score = 137 bits (344),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 47/108 (44%), Positives = 73/108 (68%), Gaps = 0/108 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT P+Q+ + ++ WA+PI ++N C +AL   +QTQ AR  V++QFS +       + 
+Sbjct  2    SYNITNPNQYQYFAAVWAEPIPMLNQCISALSQSYQTQAARDTVRQQFSNLLSAVVAPSQ  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETL  108
+            RFP++  +VY  +AV+ PL  AL+ +FDTRNRIIE E ++ P+ +E L
+Sbjct  62   RFPETGSRVYVNSAVIKPLYEALMKSFDTRNRIIETEEESRPSASEVL  109
+
+
+> UniRef50_F1CWG4 Capsid protein (Fragment) n=8 Tax=Tobamovirus 
+TaxID=12234 RepID=F1CWG4_TMGMV
+Length=99
+
+ Score = 128 bits (320),  Expect = 4e-35, Method: Composition-based stats.
+ Identities = 76/96 (79%), Positives = 86/96 (90%), Gaps = 1/96 (1%)
+
+Query  59   TVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDAT  118
+            T RFP + +K YRYNAVLDPL+T L GAF+TRNRIIEVENQ +PTTAETLDATRRVDDAT
+Sbjct  1    TGRFPGNVYKGYRYNAVLDPLITGL-GAFNTRNRIIEVENQQSPTTAETLDATRRVDDAT  59
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            VAIRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  60   VAIRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  95
+
+
+> UniRef50_A0A1L3KJW6 Putative coat protein n=1 Tax=Hubei virga-like 
+virus 2 TaxID=1923335 RepID=A0A1L3KJW6_9VIRU
+Length=205
+
+ Score = 126 bits (316),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 39/137 (28%), Positives = 55/137 (40%), Gaps = 5/137 (4%)
+
+Query  17   WADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFPDSDFKVYRYNAV  75
+            W   ++L N       N F T  +R VV    + +   +P   T RFP+    V      
+Sbjct  65   WCSLVDLCNFVEAHKMNGFHTHASRNVVVAAIARLRTHAPFSRTERFPEDVEFVDLDATS  124
+
+Query  76   LDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRG  135
+            + P +  L  A D  +R + V N        T DA R  D A   IR       V+   G
+Sbjct  125  VLPYIDQLHQACDLNDRAVNVGNAQ--PNGSTNDAKRAFDVAFTKIRDFAT--AVDFPEG  180
+
+Query  136  TGSYNRSSFESSSGLVW  152
+            +G + R +FE+  GL W
+Sbjct  181  SGVWTRETFEARYGLEW  197
+
+
+> UniRef50_M4QBD6 Capsid protein (Fragment) n=3 Tax=Cucumber green 
+mottle mosaic virus TaxID=12235 RepID=M4QBD6_9VIRU
+Length=109
+
+ Score = 119 bits (299),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 43/105 (41%), Positives = 66/105 (63%), Gaps = 0/105 (0%)
+
+Query  49   SEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETL  108
+            S +      +  RFP+  F  +    VL P+  +LL + DTRNR+IEV + +NPTTAE+L
+Sbjct  1    SALPSSVVDINSRFPNPGFYAFLNGPVLRPIFVSLLSSTDTRNRVIEVVDPSNPTTAESL  60
+
+Query  109  DATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            +A +R +DA+ A R+ I+NLI  +  G   Y+R+SFE+   +VW+
+Sbjct  61   NAVKRTEDASTAARAEIDNLIESISNGFDVYDRASFEAPFSVVWS  105
+
+
+> UniRef50_Q91KP8 Capsid protein n=1 Tax=Tomato mosaic virus TaxID=12253 
+RepID=Q91KP8_9VIRU
+Length=161
+
+ Score = 101 bits (251),  Expect = 4e-24, Method: Composition-based stats.
+ Identities = 60/150 (40%), Positives = 70/150 (47%), Gaps = 49/150 (33%)
+
+Query  3    SITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRF  62
+            SITTPSQFVF SSAW         CT  +               QF         +    
+Sbjct  28   SITTPSQFVFWSSAWG-----FIRCTGTI---------------QF--------WILYLL  59
+
+Query  63   PDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIR  122
+               DF+ + +                    IIEVENQ +PTTAETLDATRRVDDATVAIR
+Sbjct  60   RAGDFRYWEW--------------------IIEVENQQSPTTAETLDATRRVDDATVAIR  99
+
+Query  123  SAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            SAINNL    +       R +FESS G ++
+Sbjct  100  SAINNLFRNYLEVLDCTIR-TFESSLGCLF  128
+
+
+> UniRef50_Q88601 Capsid protein n=4 Tax=Tobamovirus TaxID=12234 
+RepID=Q88601_9VIRU
+Length=72
+
+ Score = 95.3 bits (235),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 68/71 (96%), Positives = 68/71 (96%), Gaps = 0/71 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SYSITTPSQ VF SSAWADPIELINLC NALGNQFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2   SYSITTPSQSVFFSSAWADPIELINLCINALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61  RFPDSDFKVYR  71
+           RFPDSDFKVYR
+Sbjct  62  RFPDSDFKVYR  72
+
+
+> UniRef50_Q96479 Capsid protein (Fragment) n=3 Tax=root TaxID=1 
+RepID=Q96479_9VIRU
+Length=69
+
+ Score = 94.9 bits (234),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 54/65 (83%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  90   RNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSG  149
+            RNRIIEVENQ +PTTAETLDATRRVDDATVAIRSAINNL+ EL+RGTG YN+++FES +G
+Sbjct  1    RNRIIEVENQQSPTTAETLDATRRVDDATVAIRSAINNLVNELVRGTGLYNQNTFESMTG  60
+
+Query  150  LVWTS  154
+            LVWTS
+Sbjct  61   LVWTS  65
+
+
+> UniRef50_A0A0D3MFU4 Capsid protein n=1 Tax=Tobacco mosaic virus 
+TaxID=12242 RepID=A0A0D3MFU4_9VIRU
+Length=159
+
+ Score = 97.6 bits (241),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 60/68 (88%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SY ITTPSQFVFLSSAWADPIELIN CT ALG QFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2   SYGITTPSQFVFLSSAWADPIELINFCTIALGIQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61  RFPDSDFK  68
+           RFP    K
+Sbjct  62  RFPVVTLK  69
+
+
+> UniRef50_F1CWG5 Capsid protein n=2 Tax=Tomato mosaic virus TaxID=12253 
+RepID=F1CWG5_9VIRU
+Length=74
+
+ Score = 85.3 bits (209),  Expect = 7e-19, Method: Composition-based stats.
+ Identities = 52/62 (84%), Positives = 58/62 (94%), Gaps = 0/62 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SYSIT+PSQFVFLSS WADPIEL+N+CTN+LGNQFQTQQART VQ+QFS+VWKP PQ TV
+Sbjct  2   SYSITSPSQFVFLSSVWADPIELLNICTNSLGNQFQTQQARTTVQQQFSDVWKPFPQSTV  61
+
+Query  61  RF  62
+           RF
+Sbjct  62  RF  63
+
+
+> UniRef50_A0A1L3KJP1 Putative capsid protein n=1 Tax=Beihai charybdis 
+crab virus 1 TaxID=1922376 RepID=A0A1L3KJP1_9VIRU
+Length=154
+
+ Score = 65.6 bits (158),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 35/154 (23%), Positives = 56/154 (36%), Gaps = 6/154 (4%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTV  60
+            Y+  +    V  ++ W D   L+    N     F  Q+AR     + + +   +P     
+Sbjct  3    YTNWSVEHIVLQAAPWYDVEMLLAALINIRAKNFSIQEARNQALAELNGLPTAAPFSRDR  62
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP+    V             L  A   +NR  E+     P   E     R  +DA+ +
+Sbjct  63   RFPEEAVYVTEAFGDWARQFAQLKAACGYKNRAAEIGGHV-PGEHE----RRAENDASQS  117
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+              +A   ++ EL R    Y+R  FE    L W +
+Sbjct  118  FWNATTKMLEELTRSNTVYSREKFERWGHLTWQA  151
+
+
+> UniRef50_A0A1L6YQ00 ORF5 n=2 Tax=unclassified RNA viruses TaxID=1922347 
+RepID=A0A1L6YQ00_9VIRU
+Length=159
+
+ Score = 63.3 bits (152),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 38/151 (25%), Positives = 57/151 (38%), Gaps = 10/151 (7%)
+
+Query  10   FVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFPDSDFK  68
+             +  +  W      +N+   A    F  +  R  V+     +    P  V  RFPD    
+Sbjct  10   LILQTHHWCLYNSFLNVIRRARYISFSVKAQREGVRNALENMQINLPFSVNNRFPDEAIY  69
+
+Query  69   VYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNL  128
+            +   ++V   L+T ++ A D  +R  E      P + E    +   +DA VA   A+ N 
+Sbjct  70   IDLDHSVPSRLLTQIMLALDFSDRQAEKGRVI-PDSVEVRSYSN-FEDAKVAYYQAVGNF  127
+
+Query  129  IV-------ELIRGTGSYNRSSFESSSGLVW  152
+            I        E     G Y RSSFE+   L W
+Sbjct  128  IDLVGPMAVETAHIFGVYTRSSFEAEHSLNW  158
+
+
+> UniRef50_A0A1L3KJU2 Uncharacterized protein n=1 Tax=Hubei virga-like 
+virus 1 TaxID=1923324 RepID=A0A1L3KJU2_9VIRU
+Length=246
+
+ Score = 62.2 bits (149),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 28/140 (20%), Positives = 54/140 (39%), Gaps = 2/140 (1%)
+
+Query  14   SSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFPDSDFKVYRY  72
+            + ++   ++L N     +   +     R  V      +  P+P    +R+P   F V   
+Sbjct  107  AHSYCSLVDLRNFVHTYMPLAYSVHSNRARVLEALKALRAPAPYAENIRYPQRGFYVDLN  166
+
+Query  73   NAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVEL  132
+            +  + P+++ L+   D  +R   V  Q   +     D  R  +     ++S      V+ 
+Sbjct  167  STSISPIISTLMYCCDCTDRATNVHGQTA-SQQTQNDVRRSYEVNFAQLQSLAYCAKVDE  225
+
+Query  133  IRGTGSYNRSSFESSSGLVW  152
+            +   G   R+ FESS+ L W
+Sbjct  226  LARNGIMARAMFESSNNLTW  245
+
+
+> UniRef50_A0A0A1XEK4 Capsid protein n=6 Tax=Dacinae TaxID=164860 
+RepID=A0A0A1XEK4_ZEUCU
+Length=182
+
+ Score = 58.3 bits (139),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 32/142 (23%), Positives = 54/142 (38%), Gaps = 12/142 (8%)
+
+Query  15   SAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPDSDFKVYRYN  73
+              +   I LI+        +F     R  +      + K +P     RFP+     +   
+Sbjct  46   QNYTPLILLIDFVEKTRTKRFYEAGERYEILMLIFIMRKGAPFCENKRFPEE---YWVNL  102
+
+Query  74   AVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVAIRSAINNLIV  130
+            +V  P+      AFD  +  I++ +   P      D T   ++ D A + IR        
+Sbjct  103  SV-GPIAE----AFDRLSAAIDIPDPQLPIHMTVTDLTSWKQQFDAAILDIRRFAYYTEP  157
+
+Query  131  ELIRGTGSYNRSSFESSSGLVW  152
+            +++   G YNR++FE   GL W
+Sbjct  158  QMLADVGVYNRTTFEERFGLHW  179
+
+
+> UniRef50_B4NDG4 Uncharacterized protein n=4 Tax=Schizophora TaxID=43738 
+RepID=B4NDG4_DROWI
+Length=213
+
+ Score = 54.8 bits (130),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 33/151 (22%), Positives = 51/151 (34%), Gaps = 12/151 (8%)
+
+Query  6    TPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPD  64
+            T  + +     +   I LI+        +F     R  +      + K +P     RFP 
+Sbjct  69   TDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFPA  128
+
+Query  65   SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVAI  121
+                 +   +V  P+      AFD     I++ +   P      D T   +  D A V I
+Sbjct  129  E---YWVNLSV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDVAMVDI  180
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R          +   G YNR +FE   G+ W
+Sbjct  181  RRYAYYTDPLQLADAGVYNRITFEQRFGMQW  211
+
+
+> UniRef50_A0A1L3KK50 Uncharacterized protein n=1 Tax=Hubei virga-like 
+virus 12 TaxID=1923327 RepID=A0A1L3KK50_9VIRU
+Length=244
+
+ Score = 53.3 bits (126),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 24/153 (16%), Positives = 57/153 (37%), Gaps = 3/153 (2%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWK--PSPQVT  59
+            ++          +  +    + I    +    +F  ++ R  ++  +S +     +  + 
+Sbjct  63   FNNMYTKYIKEFTHTFVIFNDYIFFINSIKPLRFNLKENRDQIRDNYSNLLSKAIAVDIN  122
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+             RF +    +   N     ++ +LL + DT +R  +        +    DA++   +   
+Sbjct  123  TRFDEEFILIDLDNWFNSKVLNSLLNSIDTADRFFDNSEFLITQSHHLNDASKNFQNCKN  182
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+             ++  +N  +    R  G YNR +FE +  L W
+Sbjct  183  RLQLILNLPVQNY-RNYGIYNRCNFEENFSLTW  214
+
+
+> UniRef50_A0A0M4EU67 CG15772 n=1 Tax=Drosophila busckii TaxID=30019 
+RepID=A0A0M4EU67_DROBS
+Length=139
+
+ Score = 51.8 bits (122),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 31/142 (22%), Positives = 47/142 (33%), Gaps = 12/142 (8%)
+
+Query  15   SAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPDSDFKVYRYN  73
+              +   I LI+        +F     R  +      + K +P     RFP      +   
+Sbjct  4    QNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFPAE---YWVNL  60
+
+Query  74   AVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVAIRSAINNLIV  130
+            +V  P+      AFD     I++ +   P      D T   +  D A V IR        
+Sbjct  61   SV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDVAMVDIRRYAYYTDP  115
+
+Query  131  ELIRGTGSYNRSSFESSSGLVW  152
+              +   G YNR +FE    + W
+Sbjct  116  MQLADVGVYNRITFEQRFAMQW  137
+
+
+> UniRef50_A0A223FUM6 Capsid protein n=1 Tax=Abisko virus TaxID=2025595 
+RepID=A0A223FUM6_9VIRU
+Length=233
+
+ Score = 52.5 bits (124),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 32/161 (20%), Positives = 60/161 (37%), Gaps = 16/161 (10%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWK---PSPQV  58
+            YS  T    +  +  +   ++L+   T A    F  +  R   +     +     P+   
+Sbjct  78   YSNWTIEHDLVSTQNFVPLLDLVRCLTVAHRIPFAIKARRDEARETLMGLLSVENPAFSK  137
+
+Query  59   TVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDAT  118
+              RFPD    V     ++  L+  +  A D   R +     A+   +++       DDA 
+Sbjct  138  ERRFPDQPL-VNVSIGIIADLLDRVTSALDFGERYL-----ADIANSQSTVKYGSTDDAK  191
+
+Query  119  VAIRSAINNLIVELIRG-------TGSYNRSSFESSSGLVW  152
+            ++    I  L+  L++         G ++RSSFE+   + W
+Sbjct  192  LSFYRGIQRLLDILVKTRSDSRILYGVFDRSSFEAKYSMRW  232
+
+
+> UniRef50_UPI000C6C6925 high mobility group protein DSP1 n=1 Tax=Drosophila 
+hydei TaxID=7224 RepID=UPI000C6C6925
+Length=241
+
+ Score = 52.1 bits (123),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 31/151 (21%), Positives = 50/151 (33%), Gaps = 12/151 (8%)
+
+Query  6    TPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPD  64
+            T  + +     +   I LI+        +F     R  +      + K +P     RFP 
+Sbjct  97   TDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFPA  156
+
+Query  65   SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVAI  121
+                 +   +V  P+      AFD     I++ +   P      D T      D A + I
+Sbjct  157  E---YWVNLSV-GPVAE----AFDRLQAAIDIPDPQLPIHMSVTDLTTWKEMFDGAMIDI  208
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R    +     +   G YNR +FE    + W
+Sbjct  209  RRFAYHTDPMQLADVGVYNRITFEQRFAMQW  239
+
+
+> UniRef50_A0A1W4UWN5 alpha-protein kinase 1-like n=18 Tax=Drosophila 
+TaxID=32281 RepID=A0A1W4UWN5_DROFC
+Length=256
+
+ Score = 52.1 bits (123),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 31/151 (21%), Positives = 51/151 (34%), Gaps = 12/151 (8%)
+
+Query  6    TPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPD  64
+            T  + +     +   I LI+        +F     R  +      + K +P     RFP 
+Sbjct  112  TDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFPA  171
+
+Query  65   SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVAI  121
+                 +   +V  P+      AFD     I++ +   P      D T   +  D A + I
+Sbjct  172  E---YWVNLSV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDLAMLDI  223
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R          +   G +NR +FE   G+ W
+Sbjct  224  RRFAYYTDPLQLADAGVFNRITFEQRFGMQW  254
+
+
+> UniRef50_B3MSG7 Uncharacterized protein, isoform A n=8 Tax=Drosophila 
+TaxID=32281 RepID=B3MSG7_DROAN
+Length=279
+
+ Score = 51.8 bits (122),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 31/151 (21%), Positives = 51/151 (34%), Gaps = 12/151 (8%)
+
+Query  6    TPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPD  64
+            T  + +     +   I LI+        +F     R  +      + K +P     RFP 
+Sbjct  135  TDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFPA  194
+
+Query  65   SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVAI  121
+                 +   +V  P+      AFD     I++ +   P      D T   +  D A + I
+Sbjct  195  E---YWVNLSV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDLAMLDI  246
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R          +   G +NR +FE   G+ W
+Sbjct  247  RRFAYYTDPLQLADAGVFNRITFEQRFGMQW  277
+
+
+> UniRef50_F8ULT8 Coat protein n=1 Tax=Chara australis virus TaxID=1051671 
+RepID=F8ULT8_9VIRU
+Length=154
+
+ Score = 50.2 bits (118),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 24/153 (16%), Positives = 53/153 (35%), Gaps = 4/153 (3%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVT-  59
+            +Y+ T    +  +   W +  + ++    A    F  Q  R  ++  F+ + +  P    
+Sbjct  2    AYTPTYALNYARVG-NWYEVSDFLDFLDAAQDAAFSVQTVRDGLRDSFNSLPRSPPFSLD  60
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+             RFP   F +  + +  + L+  +  A   +      + ++             V  +  
+Sbjct  61   TRFPSDFFYISGFKSKWNQLIIQMTTALSYKPG--SKDTKSRTVDTTDTTFDNDVTQSFF  118
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+                A+   I++       ++R SFE    L W
+Sbjct  119  QAIKAMKETIMQPPANKDLFDRDSFEKFFNLTW  151
+
+
+> UniRef50_UPI0006C98FF8 uncharacterized protein LOC106657222 n=1 
+Tax=Trichogramma pretiosum TaxID=7493 RepID=UPI0006C98FF8
+Length=165
+
+ Score = 47.5 bits (111),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 26/136 (19%), Positives = 46/136 (34%), Gaps = 8/136 (6%)
+
+Query  17   WADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSDFKVYRYNAVL  76
+            W +P  L+     A    F  +Q R  V      V   +  V  RFPD    V       
+Sbjct  21   WCNPEHLVQRLVKARTINFYIKQERRSVYLSLGCV---TFDVNKRFPDRTTLVNTSEGRC  77
+
+Query  77   DPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGT  136
+              L+  +  + +  + ++E    A+    E + A   +     ++ +             
+Sbjct  78   AELLDQIHHSLNVVDALLEDYAIAHQAAKEYMQAVHSLLSILSSLGNK-----DFDPEAY  132
+
+Query  137  GSYNRSSFESSSGLVW  152
+              ++R+SFE    L W
+Sbjct  133  NIHDRASFEKKYSLTW  148
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.120    0.308    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0368    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233682187947
+Results from round 3
+
+
+Query= 2tmvp
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A0A0K2WUQ5 Multifunctional fusion protein n=14 Tax=Tom...  205     2e-61
+  UniRef50_P69687 Capsid protein n=85 Tax=Tobamovirus TaxID=12234...  184     3e-56
+  UniRef50_P03575 Capsid protein n=267 Tax=Tobamovirus TaxID=1223...  178     7e-54
+  UniRef50_R9QRM0 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 ...  172     2e-51
+  UniRef50_Q7TF84 Capsid protein n=8 Tax=ssRNA positive-strand vi...  161     4e-47
+  UniRef50_P03580 Capsid protein n=45 Tax=Tobamovirus TaxID=12234...  160     5e-47
+  UniRef50_P69474 Capsid protein n=54 Tax=Tobamovirus TaxID=12234...  160     1e-46
+  UniRef50_Q589Z6 Capsid protein n=8 Tax=Tobamovirus TaxID=12234 ...  159     1e-46
+  UniRef50_Q9DKW3 Coat protein n=2 Tax=Cucumber fruit mottle mosa...  159     2e-46
+  UniRef50_A0A0E3DDZ9 Capsid protein n=1 Tax=Plumeria mosaic viru...  159     2e-46
+  UniRef50_Q8JL64 Capsid protein n=3 Tax=Frangipani mosaic virus ...  158     4e-46
+  UniRef50_A0SEL4 Capsid protein n=3 Tax=Tobamovirus TaxID=12234 ...  153     3e-44
+  UniRef50_P03581 Capsid protein n=2 Tax=Tobamovirus TaxID=12234 ...  151     3e-43
+  UniRef50_G9CU46 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 ...  144     1e-40
+  UniRef50_Q1XF42 Capsid protein n=1 Tax=Streptocarpus flower bre...  135     1e-37
+  UniRef50_UPI000C6C6925 high mobility group protein DSP1 n=1 Tax...  131     7e-35
+  UniRef50_A0A0A1XEK4 Capsid protein n=6 Tax=Dacinae TaxID=164860...  129     7e-35
+  UniRef50_B4NDG4 Uncharacterized protein n=4 Tax=Schizophora Tax...  130     1e-34
+  UniRef50_A0A1L3KJP1 Putative capsid protein n=1 Tax=Beihai char...  126     1e-33
+  UniRef50_A0A1W4UWN5 alpha-protein kinase 1-like n=18 Tax=Drosop...  128     3e-33
+  UniRef50_A0A1L3KJU2 Uncharacterized protein n=1 Tax=Hubei virga...  127     5e-33
+  UniRef50_B3MSG7 Uncharacterized protein, isoform A n=8 Tax=Dros...  126     2e-32
+  UniRef50_Q86705 Capsid protein n=1 Tax=Tobamovirus TaxID=12234 ...  120     6e-32
+  UniRef50_A0A1L3KJW6 Putative coat protein n=1 Tax=Hubei virga-l...  123     7e-32
+  UniRef50_A0A1L3KK50 Uncharacterized protein n=1 Tax=Hubei virga...  121     4e-31
+  UniRef50_A0A0M4EU67 CG15772 n=1 Tax=Drosophila busckii TaxID=30...  118     7e-31
+  UniRef50_A0A1L6YQ00 ORF5 n=2 Tax=unclassified RNA viruses TaxID...  118     2e-30
+  UniRef50_A0A223FUM6 Capsid protein n=1 Tax=Abisko virus TaxID=2...  115     1e-28
+  UniRef50_F1CWG4 Capsid protein (Fragment) n=8 Tax=Tobamovirus T...  109     6e-28
+  UniRef50_UPI0006C98FF8 uncharacterized protein LOC106657222 n=1...  111     8e-28
+  UniRef50_M4QBD6 Capsid protein (Fragment) n=3 Tax=Cucumber gree...  107     4e-27
+  UniRef50_F8ULT8 Coat protein n=1 Tax=Chara australis virus TaxI...  101     3e-24
+  UniRef50_A0A0D3MFU4 Capsid protein n=1 Tax=Tobacco mosaic virus...  89.1    2e-19
+  UniRef50_Q88601 Capsid protein n=4 Tax=Tobamovirus TaxID=12234 ...  85.7    5e-19
+  UniRef50_Q96479 Capsid protein (Fragment) n=3 Tax=root TaxID=1 ...  81.8    1e-17
+  UniRef50_Q91KP8 Capsid protein n=1 Tax=Tomato mosaic virus TaxI...  79.1    8e-16
+  UniRef50_F1CWG5 Capsid protein n=2 Tax=Tomato mosaic virus TaxI...  76.4    2e-15
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_UPI00083EBA84 nuclear control of ATPase protein 2 n=1 ...  108     3e-26
+  UniRef50_A0A1B0AL09 Uncharacterized protein n=4 Tax=Glossina Ta...  89.1    2e-19
+  UniRef50_UPI0006C94CBA uncharacterized protein LOC106657221 n=1...  73.0    2e-13
+  UniRef50_A0A2A3EMP2 Uncharacterized protein n=2 Tax=Apis cerana...  65.3    2e-10
+  UniRef50_UPI0003DF7AD0 uncharacterized protein LOC102673861 iso...  62.6    7e-10
+  UniRef50_A0A0A9DPR6 Uncharacterized protein n=1 Tax=Arundo dona...  62.2    1e-09
+  UniRef50_A0A088AL71 Uncharacterized protein n=2 Tax=Apis mellif...  59.9    9e-09
+  UniRef50_A0A1B0FG84 Uncharacterized protein n=1 Tax=Glossina mo...  58.3    1e-08
+  UniRef50_A0A1L3KJV8 Putative capsid protein n=1 Tax=Hubei virga...  59.5    2e-08
+  UniRef50_A0A0K8TQK3 Uncharacterized protein (Fragment) n=2 Tax=...  56.4    8e-08
+  UniRef50_Q05142 Coat protein n=1 Tax=Nicotiana velutina mosaic ...  56.8    9e-08
+  UniRef50_A0A0A1XGE5 Protein piccolo n=3 Tax=Dacinae TaxID=16486...  57.6    1e-07
+  UniRef50_A0A2H4RGL9 Coat protein n=3 Tax=Tobacco rattle virus T...  57.2    1e-07
+  UniRef50_UPI00062522D8 uncharacterized protein LOC105702805 iso...  56.4    1e-07
+  UniRef50_B4LTG7 Uncharacterized protein n=17 Tax=Drosophila Tax...  56.4    4e-07
+  UniRef50_Q65655 RNA2 polyprotein n=3 Tax=Barley mild mosaic vir...  56.4    6e-07
+  UniRef50_A0A1B0G660 Uncharacterized protein n=4 Tax=Glossina Ta...  55.2    8e-07
+  UniRef50_A0A1C7NMB6 Uncharacterized protein n=1 Tax=Choanephora...  53.7    8e-07
+  UniRef50_A0A1B0B7B4 Uncharacterized protein n=4 Tax=Glossina Ta...  53.3    1e-06
+  UniRef50_UPI000C6C4C6A uncharacterized protein LOC111596126 n=2...  54.9    1e-06
+  UniRef50_A0A288WG41 Polyprotein n=3 Tax=Barley mild mosaic viru...  54.9    2e-06
+  UniRef50_A0A0V1I0Q2 Uncharacterized protein n=1 Tax=Trichinella...  54.9    2e-06
+  UniRef50_A0A1L3KJL5 Uncharacterized protein n=1 Tax=Hubei virga...  51.8    3e-06
+  UniRef50_UPI00098B75D6 uncharacterized protein LOC109767828 n=1...  52.9    4e-06
+  UniRef50_A0A1C7NKC4 Uncharacterized protein n=1 Tax=Choanephora...  51.4    6e-06
+  UniRef50_A0A1X2HQ23 Uncharacterized protein n=1 Tax=Syncephalas...  51.0    6e-06
+  UniRef50_A0A0C9M7T1 Uncharacterized protein n=3 Tax=Mucor TaxID...  51.8    6e-06
+  UniRef50_S2K1Q9 Uncharacterized protein n=2 Tax=Mucor circinell...  51.0    8e-06
+  UniRef50_A0A0V1M541 Uncharacterized protein n=1 Tax=Trichinella...  52.5    1e-05
+  UniRef50_B5ST97 Readthrough protein n=8 Tax=Rice stripe necrosi...  52.5    1e-05
+  UniRef50_Q9VKU4 IP09348p n=9 Tax=melanogaster group TaxID=32346...  52.2    1e-05
+  UniRef50_S2J088 Uncharacterized protein (Fragment) n=1 Tax=Muco...  49.5    2e-05
+  UniRef50_A0A168J4J4 Uncharacterized protein n=2 Tax=Mucor circi...  48.7    6e-05
+  UniRef50_A0A142D7P9 Uncharacterized protein n=1 Tax=Mangifera i...  48.7    7e-05
+  UniRef50_P05072 Coat protein n=13 Tax=Tobravirus TaxID=12293 Re...  48.7    9e-05
+  UniRef50_Q88897 Capsid protein n=10 Tax=Tobacco rattle virus Ta...  48.7    9e-05
+  UniRef50_A0A1I8NI69 Uncharacterized protein n=1 Tax=Musca domes...  49.5    1e-04
+  UniRef50_Q08308 Capsid protein n=5 Tax=Pecluvirus TaxID=119492 ...  48.7    1e-04
+  UniRef50_S2IV71 Uncharacterized protein n=1 Tax=Mucor circinell...  47.5    1e-04
+  UniRef50_A0A077JF34 Coat protein n=1 Tax=Gentian ovary ringspot...  48.3    1e-04
+  UniRef50_A0A162UXR9 Uncharacterized protein n=1 Tax=Phycomyces ...  46.8    3e-04
+
+
+> UniRef50_A0A0K2WUQ5 Multifunctional fusion protein n=14 Tax=Tomato 
+mosaic virus TaxID=12253 RepID=A0A0K2WUQ5_9VIRU
+Length=423
+
+ Score = 205 bits (522),  Expect = 2e-61, Method: Composition-based stats.
+ Identities = 129/154 (84%), Positives = 143/154 (93%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSIT+PSQFVFLSS WADP+EL+N+CTN+LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  266  SYSITSPSQFVFLSSVWADPVELLNVCTNSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  325
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   +KVYRYNAVLDPL+TALLGAFDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  326  RFPGDVYKVYRYNAVLDPLITALLGAFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  385
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  386  IRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  419
+
+
+> UniRef50_P69687 Capsid protein n=85 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_TMV
+Length=159
+
+ Score = 184 bits (466),  Expect = 3e-56, Method: Composition-based stats.
+ Identities = 154/154 (100%), Positives = 154/154 (100%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA
+Sbjct  62   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS
+Sbjct  122  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  155
+
+
+> UniRef50_P03575 Capsid protein n=267 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_TMVDA
+Length=159
+
+ Score = 178 bits (450),  Expect = 7e-54, Method: Composition-based stats.
+ Identities = 128/154 (83%), Positives = 142/154 (92%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSIT+PSQFVFLSS WADPIEL+N+CT++LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  2    SYSITSPSQFVFLSSVWADPIELLNVCTSSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   +KVYRYNAVLDPL+TALLG FDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  62   RFPGDVYKVYRYNAVLDPLITALLGTFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  122  IRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  155
+
+
+> UniRef50_R9QRM0 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 
+RepID=R9QRM0_9VIRU
+Length=159
+
+ Score = 172 bits (435),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 127/154 (82%), Positives = 142/154 (92%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT+PSQFVFLSSA ADP+ELIN+CTN+LGNQFQTQQART VQ+QFSEVWKP PQ TV
+Sbjct  2    SYAITSPSQFVFLSSAGADPVELINICTNSLGNQFQTQQARTTVQQQFSEVWKPFPQSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ FKVYRYNA +DPL+TALLG FDTRNRIIEVENQ +PTTAETLDATRRVDDATVA
+Sbjct  62   RFPDNVFKVYRYNAAIDPLITALLGTFDTRNRIIEVENQQSPTTAETLDATRRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRSA+NNL+ EL+RGTG YN+S+FES SGL WTS
+Sbjct  122  IRSAVNNLVNELVRGTGFYNQSTFESMSGLAWTS  155
+
+
+> UniRef50_Q7TF84 Capsid protein n=8 Tax=ssRNA positive-strand 
+viruses, no DNA stage TaxID=35278 RepID=Q7TF84_9VIRU
+Length=158
+
+ Score = 161 bits (406),  Expect = 4e-47, Method: Composition-based stats.
+ Identities = 66/154 (43%), Positives = 91/154 (59%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYS  T    ++ S  +A    L+ +   +  N FQTQ  R +++ Q     +     T 
+Sbjct  2    SYSNITALNLIYSSPTFAPYDVLLEILIKSRSNSFQTQAGRDILREQLVNALQTVVTPTT  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP + + V+  N  L P+  ALL A DT+NRIIE E  + PTTAETL+AT+RVDDATVA
+Sbjct  62   RFPANRWYVWSRNPTLGPVFEALLQATDTKNRIIETEEDSRPTTAETLNATQRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            I   I+N++  L  GT  YN++SFE +SG  WT+
+Sbjct  122  IHKEIDNILGLLQGGTAVYNQASFEIASGWTWTA  155
+
+
+> UniRef50_P03580 Capsid protein n=45 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_RMVHR
+Length=157
+
+ Score = 160 bits (405),  Expect = 5e-47, Method: Composition-based stats.
+ Identities = 70/154 (45%), Positives = 101/154 (66%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT  +Q+ + ++ WA+P  ++N C +AL   +QTQ  R  V++QF+ +         
+Sbjct  2    SYNITNSNQYQYFAAVWAEPTPMLNQCVSALSQSYQTQAGRDTVRQQFANLLSTIVAPNQ  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ F+VY  +AV+ PL  AL+ +FDTRNRIIE E ++ P+ +E  +AT+RVDDATVA
+Sbjct  62   RFPDTGFRVYVNSAVIKPLYEALMKSFDTRNRIIETEEESRPSASEVANATQRVDDATVA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            IRS I  L+ EL  G G  NR+ FE+   L WT+
+Sbjct  122  IRSQIQLLLNELSNGHGYMNRAEFEAI--LPWTT  153
+
+
+> UniRef50_P69474 Capsid protein n=54 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_CGMVS
+Length=161
+
+ Score = 160 bits (403),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 58/153 (38%), Positives = 92/153 (60%), Gaps = 0/153 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +Y+  TPS+ +  S+++     L+N    + G  FQTQ  R   +   S +      +  
+Sbjct  2    AYNPITPSKLIAFSASYVPVRTLLNFLVASQGTAFQTQAGRDSFRESLSALPSSVVDINS  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+ F  +    VL P+  +LL + DTRNR+IEV + +NPTTAE+L+A +R DDA+ A
+Sbjct  62   RFPDAGFYAFLNGPVLRPIFVSLLSSTDTRNRVIEVVDPSNPTTAESLNAVKRTDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+             R+ I+NLI  + +G   Y+R+SFE++  +VW+
+Sbjct  122  ARAEIDNLIESISKGFDVYDRASFEAAFSVVWS  154
+
+
+> UniRef50_Q589Z6 Capsid protein n=8 Tax=Tobamovirus TaxID=12234 
+RepID=Q589Z6_9VIRU
+Length=161
+
+ Score = 159 bits (402),  Expect = 1e-46, Method: Composition-based stats.
+ Identities = 56/154 (36%), Positives = 88/154 (57%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYSI+        + ++    +L NL   A G   QTQ  + +V+   + +      +  
+Sbjct  2    SYSISGVRSLPAFAKSFYPFYDLYNLLVKAQGGALQTQNGKDIVRESLTGLLTSVASLNT  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP ++F V+   + +  ++ +LL A D+RNR IEVEN +NP+T E L+AT+R DDA+ A
+Sbjct  62   RFPANEFFVWSRESRVAAVIDSLLSALDSRNRAIEVENPSNPSTGEALNATKRNDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+              + I  L+  L  G G ++ +SFES+ GLVWT+
+Sbjct  122  AHNDIPLLLAALNDGVGVFDSASFESAFGLVWTA  155
+
+
+> UniRef50_Q9DKW3 Coat protein n=2 Tax=Cucumber fruit mottle mosaic 
+virus TaxID=146499 RepID=Q9DKW3_9VIRU
+Length=162
+
+ Score = 159 bits (401),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 55/154 (36%), Positives = 85/154 (55%), Gaps = 0/154 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SYS +        + ++     L +L  +A G   QTQ  + +++   + +         
+Sbjct  2    SYSTSGLRSLPAYTKSFCPYYALYDLLVSAQGGALQTQNGKDILRDSINGLLTTVASPRS  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   F V+   + +  ++ +LL A D+RNR IEVEN +NP+T+E L+AT+R DDA+ A
+Sbjct  62   RFPAEGFFVWSRESRIAAILDSLLSALDSRNRAIEVENPSNPSTSEALNATKRNDDASTA  121
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+              + I  LI  L  G G ++R+SFES  GLVWT+
+Sbjct  122  AHNDIPQLISALNDGAGVFDRASFESQFGLVWTA  155
+
+
+> UniRef50_A0A0E3DDZ9 Capsid protein n=1 Tax=Plumeria mosaic virus 
+TaxID=1501716 RepID=A0A0E3DDZ9_9VIRU
+Length=175
+
+ Score = 159 bits (402),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 70/154 (45%), Positives = 94/154 (61%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +Y+  +     + S ++   +E INL  + LG  FQTQ AR   + Q    +K     TV
+Sbjct  2    AYTNISTVNLQYFSRSYIPGVEFINLIISGLGQSFQTQSARDEFRAQLIGSYKVVVTSTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVE--NQANPTTAETLDATRRVDDAT  118
+            RFP++   ++  N  + PL+ A+  A DTRNRIIEVE  N  NPT++ET +ATRRVDDAT
+Sbjct  62   RFPENSIYLWANNPAIRPLLLAVFQALDTRNRIIEVESANAINPTSSETREATRRVDDAT  121
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            VA+RS +  L   L  GTG Y+R SFE +SGLVW
+Sbjct  122  VAVRSQLQLLFDALSGGTGLYDRKSFEEASGLVW  155
+
+
+> UniRef50_Q8JL64 Capsid protein n=3 Tax=Frangipani mosaic virus 
+TaxID=99585 RepID=Q8JL64_9VIRU
+Length=174
+
+ Score = 158 bits (400),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 66/154 (43%), Positives = 96/154 (62%), Gaps = 2/154 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+  + +  ++ + ++   ++ I+L  + LG  FQTQ AR   + Q    +K     TV
+Sbjct  2    SYTNISTTNIIYFARSYIPGVDFIDLIISGLGQSFQTQSARDEFRSQLIGSYKVVVSKTV  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVE--NQANPTTAETLDATRRVDDAT  118
+            RFP++   ++  N  + PL+ A+  A DTRNRIIEVE  N  NPT++ET +ATRRVDDAT
+Sbjct  62   RFPENTIYLWANNPTIRPLLHAVFQALDTRNRIIEVESTNVVNPTSSETREATRRVDDAT  121
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            VA+RS +  L   L  G+G Y+R +FE +SGLVW
+Sbjct  122  VAVRSQLQLLFDALSGGSGLYDRKAFEDASGLVW  155
+
+
+> UniRef50_A0SEL4 Capsid protein n=3 Tax=Tobamovirus TaxID=12234 
+RepID=A0SEL4_9VIRU
+Length=163
+
+ Score = 153 bits (386),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 60/151 (40%), Positives = 85/151 (56%), Gaps = 1/151 (1%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVR  61
+            Y   T  Q  ++S+ WAD   L+N+  N     FQTQ  R  ++ Q +     + QV VR
+Sbjct  3    YQPITIKQLPWVSANWADYQTLVNVLRNTSATSFQTQAGRDSIRSQLTGCVDSAVQVNVR  62
+
+Query  62   FPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAI  121
+            FP+  F V+  +  +  +  ALL A DT+NRIIEV+ + +P+ +E    TRRVDDA+VAI
+Sbjct  63   FPER-FLVFINDPAIADVWFALLKATDTKNRIIEVDTERSPSNSEIESVTRRVDDASVAI  121
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            R  +  L+  L    G Y+R+ FE  SGL W
+Sbjct  122  RINVERLLKALNDVQGVYDRTLFEQVSGLTW  152
+
+
+> UniRef50_P03581 Capsid protein n=2 Tax=Tobamovirus TaxID=12234 
+RepID=CAPSD_SHMV
+Length=163
+
+ Score = 151 bits (380),  Expect = 3e-43, Method: Composition-based stats.
+ Identities = 67/153 (44%), Positives = 90/153 (59%), Gaps = 1/153 (1%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +YSI TPSQ V+ +  +AD I  +N   NA  N FQTQ  R  ++    +          
+Sbjct  2    AYSIPTPSQLVYFTENYADYIPFVNRLINARSNSFQTQSGRDELREILIKSQVSVVSPIS  61
+
+Query  61   RFPDSD-FKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+            RFP    + +Y  +  +  + TALL + DTRNR+IEVEN  N TTAE L+A RR DDA+ 
+Sbjct  62   RFPAEPAYYIYLRDPSISTVYTALLQSTDTRNRVIEVENSTNVTTAEQLNAVRRTDDAST  121
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            AI + +  L+  L  GTG +NR+SFES+SGL W
+Sbjct  122  AIHNNLEQLLSLLTNGTGVFNRTSFESASGLTW  154
+
+
+> UniRef50_G9CU46 Capsid protein n=5 Tax=Tobamovirus TaxID=12234 
+RepID=G9CU46_9VIRU
+Length=170
+
+ Score = 144 bits (364),  Expect = 1e-40, Method: Composition-based stats.
+ Identities = 55/152 (36%), Positives = 81/152 (53%), Gaps = 0/152 (0%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVR  61
+            Y    P  FV+L+ +W DP  LI   ++     FQ QQ+RT +  + S +    P  + R
+Sbjct  3    YINVQPKDFVYLTRSWVDPQRLIQFLSDMQTQAFQAQQSRTQLLNELSTMVVYGPTKSDR  62
+
+Query  62   FPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAI  121
+            FP   + +      L      L  + DT++R+ EV      T AE+  AT+RVDDATVAI
+Sbjct  63   FPIDTYLINITKGGLSAYWFGLTQSADTKDRVFEVSEARAVTNAESKLATQRVDDATVAI  122
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            R+AI + +  LI G   Y+R+SFE++ G +W 
+Sbjct  123  RNAIKSTLSYLIAGEDIYSRTSFEAALGWIWQ  154
+
+
+> UniRef50_Q1XF42 Capsid protein n=1 Tax=Streptocarpus flower break 
+virus TaxID=335187 RepID=Q1XF42_9VIRU
+Length=134
+
+ Score = 135 bits (340),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 63/132 (48%), Positives = 88/132 (67%), Gaps = 2/132 (2%)
+
+Query  23   LINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLVTA  82
+            ++NLC+ +L   FQTQ AR  V+ QF    +     T RFP++ F+VY  +A L PL   
+Sbjct  1    MMNLCSASLSQIFQTQAARDAVREQFGNTLRSVVTQTTRFPEAGFQVYINDAALKPLWEN  60
+
+Query  83   LLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRS  142
+            LL +FDT+NRI+E E +  P+TAE L+AT+RVDD+T AIR A+  L  EL RG+G  NR+
+Sbjct  61   LLKSFDTKNRILETEEETRPSTAEVLNATQRVDDSTTAIRGALQRLSDELNRGSGYMNRT  120
+
+Query  143  SFESSSGLVWTS  154
+            SFE+   L+W++
+Sbjct  121  SFETI--LLWSA  130
+
+
+> UniRef50_UPI000C6C6925 high mobility group protein DSP1 n=1 Tax=Drosophila 
+hydei TaxID=7224 RepID=UPI000C6C6925
+Length=241
+
+ Score = 131 bits (330),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 31/153 (20%), Positives = 50/153 (33%), Gaps = 12/153 (8%)
+
+Query  5    TTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFP  63
+             T  + +     +   I LI+        +F     R  +      + K +P     RFP
+Sbjct  96   WTDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFP  155
+
+Query  64   DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVA  120
+                  +   +V  P+      AFD     I++ +   P      D T      D A + 
+Sbjct  156  AE---YWVNLSV-GPVAE----AFDRLQAAIDIPDPQLPIHMSVTDLTTWKEMFDGAMID  207
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            IR    +     +   G YNR +FE    + W 
+Sbjct  208  IRRFAYHTDPMQLADVGVYNRITFEQRFAMQWQ  240
+
+
+> UniRef50_A0A0A1XEK4 Capsid protein n=6 Tax=Dacinae TaxID=164860 
+RepID=A0A0A1XEK4_ZEUCU
+Length=182
+
+ Score = 129 bits (325),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 32/153 (21%), Positives = 58/153 (38%), Gaps = 12/153 (8%)
+
+Query  4    ITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRF  62
+            + +  + +     +   I LI+        +F     R  +      + K +P     RF
+Sbjct  35   VWSDRELLMHLQNYTPLILLIDFVEKTRTKRFYEAGERYEILMLIFIMRKGAPFCENKRF  94
+
+Query  63   PDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATV  119
+            P+     +   +V  P+      AFD  +  I++ +   P      D T   ++ D A +
+Sbjct  95   PEE---YWVNLSV-GPIAE----AFDRLSAAIDIPDPQLPIHMTVTDLTSWKQQFDAAIL  146
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+             IR        +++   G YNR++FE   GL W
+Sbjct  147  DIRRFAYYTEPQMLADVGVYNRTTFEERFGLHW  179
+
+
+> UniRef50_B4NDG4 Uncharacterized protein n=4 Tax=Schizophora TaxID=43738 
+RepID=B4NDG4_DROWI
+Length=213
+
+ Score = 130 bits (326),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 33/153 (22%), Positives = 51/153 (33%), Gaps = 12/153 (8%)
+
+Query  5    TTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFP  63
+             T  + +     +   I LI+        +F     R  +      + K +P     RFP
+Sbjct  68   WTDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFP  127
+
+Query  64   DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVA  120
+                  +   +V  P+      AFD     I++ +   P      D T   +  D A V 
+Sbjct  128  AE---YWVNLSV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDVAMVD  179
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            IR          +   G YNR +FE   G+ W 
+Sbjct  180  IRRYAYYTDPLQLADAGVYNRITFEQRFGMQWQ  212
+
+
+> UniRef50_A0A1L3KJP1 Putative capsid protein n=1 Tax=Beihai charybdis 
+crab virus 1 TaxID=1922376 RepID=A0A1L3KJP1_9VIRU
+Length=154
+
+ Score = 126 bits (315),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 35/154 (23%), Positives = 56/154 (36%), Gaps = 6/154 (4%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTV  60
+            Y+  +    V  ++ W D   L+    N     F  Q+AR     + + +   +P     
+Sbjct  3    YTNWSVEHIVLQAAPWYDVEMLLAALINIRAKNFSIQEARNQALAELNGLPTAAPFSRDR  62
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP+    V             L  A   +NR  E+     P   E     R  +DA+ +
+Sbjct  63   RFPEEAVYVTEAFGDWARQFAQLKAACGYKNRAAEIGGHV-PGEHE----RRAENDASQS  117
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+              +A   ++ EL R    Y+R  FE    L W +
+Sbjct  118  FWNATTKMLEELTRSNTVYSREKFERWGHLTWQA  151
+
+
+> UniRef50_A0A1W4UWN5 alpha-protein kinase 1-like n=18 Tax=Drosophila 
+TaxID=32281 RepID=A0A1W4UWN5_DROFC
+Length=256
+
+ Score = 128 bits (320),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 31/153 (20%), Positives = 51/153 (33%), Gaps = 12/153 (8%)
+
+Query  5    TTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFP  63
+             T  + +     +   I LI+        +F     R  +      + K +P     RFP
+Sbjct  111  WTDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFP  170
+
+Query  64   DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVA  120
+                  +   +V  P+      AFD     I++ +   P      D T   +  D A + 
+Sbjct  171  AE---YWVNLSV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDLAMLD  222
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            IR          +   G +NR +FE   G+ W 
+Sbjct  223  IRRFAYYTDPLQLADAGVFNRITFEQRFGMQWQ  255
+
+
+> UniRef50_A0A1L3KJU2 Uncharacterized protein n=1 Tax=Hubei virga-like 
+virus 1 TaxID=1923324 RepID=A0A1L3KJU2_9VIRU
+Length=246
+
+ Score = 127 bits (318),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 29/153 (19%), Positives = 56/153 (37%), Gaps = 2/153 (1%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTV  60
+            Y        +  + ++   ++L N     +   +     R  V      +  P+P    +
+Sbjct  95   YLGWNDEMELLSAHSYCSLVDLRNFVHTYMPLAYSVHSNRARVLEALKALRAPAPYAENI  154
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            R+P   F V   +  + P+++ L+   D  +R   V  Q   +     D  R  +     
+Sbjct  155  RYPQRGFYVDLNSTSISPIISTLMYCCDCTDRATNVHGQTA-SQQTQNDVRRSYEVNFAQ  213
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            ++S      V+ +   G   R+ FESS+ L W 
+Sbjct  214  LQSLAYCAKVDELARNGIMARAMFESSNNLTWQ  246
+
+
+> UniRef50_B3MSG7 Uncharacterized protein, isoform A n=8 Tax=Drosophila 
+TaxID=32281 RepID=B3MSG7_DROAN
+Length=279
+
+ Score = 126 bits (315),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 31/153 (20%), Positives = 51/153 (33%), Gaps = 12/153 (8%)
+
+Query  5    TTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFP  63
+             T  + +     +   I LI+        +F     R  +      + K +P     RFP
+Sbjct  134  WTDRELLMHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFP  193
+
+Query  64   DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVA  120
+                  +   +V  P+      AFD     I++ +   P      D T   +  D A + 
+Sbjct  194  AE---YWVNLSV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDLAMLD  245
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            IR          +   G +NR +FE   G+ W 
+Sbjct  246  IRRFAYYTDPLQLADAGVFNRITFEQRFGMQWQ  278
+
+
+> UniRef50_Q86705 Capsid protein n=1 Tax=Tobamovirus TaxID=12234 
+RepID=Q86705_9VIRU
+Length=129
+
+ Score = 120 bits (301),  Expect = 6e-32, Method: Composition-based stats.
+ Identities = 47/109 (43%), Positives = 73/109 (67%), Gaps = 0/109 (0%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            SY+IT P+Q+ + ++ WA+PI ++N C +AL   +QTQ AR  V++QFS +       + 
+Sbjct  2    SYNITNPNQYQYFAAVWAEPIPMLNQCISALSQSYQTQAARDTVRQQFSNLLSAVVAPSQ  61
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLD  109
+            RFP++  +VY  +AV+ PL  AL+ +FDTRNRIIE E ++ P+ +E L 
+Sbjct  62   RFPETGSRVYVNSAVIKPLYEALMKSFDTRNRIIETEEESRPSASEVLT  110
+
+
+> UniRef50_A0A1L3KJW6 Putative coat protein n=1 Tax=Hubei virga-like 
+virus 2 TaxID=1923335 RepID=A0A1L3KJW6_9VIRU
+Length=205
+
+ Score = 123 bits (307),  Expect = 7e-32, Method: Composition-based stats.
+ Identities = 39/139 (28%), Positives = 55/139 (40%), Gaps = 5/139 (4%)
+
+Query  15   SAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFPDSDFKVYRYN  73
+              W   ++L N       N F T  +R VV    + +   +P   T RFP+    V    
+Sbjct  63   HKWCSLVDLCNFVEAHKMNGFHTHASRNVVVAAIARLRTHAPFSRTERFPEDVEFVDLDA  122
+
+Query  74   AVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELI  133
+              + P +  L  A D  +R + V N        T DA R  D A   IR       V+  
+Sbjct  123  TSVLPYIDQLHQACDLNDRAVNVGNAQ--PNGSTNDAKRAFDVAFTKIRDFA--TAVDFP  178
+
+Query  134  RGTGSYNRSSFESSSGLVW  152
+             G+G + R +FE+  GL W
+Sbjct  179  EGSGVWTRETFEARYGLEW  197
+
+
+> UniRef50_A0A1L3KK50 Uncharacterized protein n=1 Tax=Hubei virga-like 
+virus 12 TaxID=1923327 RepID=A0A1L3KK50_9VIRU
+Length=244
+
+ Score = 121 bits (304),  Expect = 4e-31, Method: Composition-based stats.
+ Identities = 24/153 (16%), Positives = 57/153 (37%), Gaps = 3/153 (2%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPS--PQVT  59
+            ++          +  +    + I    +    +F  ++ R  ++  +S +   +    + 
+Sbjct  63   FNNMYTKYIKEFTHTFVIFNDYIFFINSIKPLRFNLKENRDQIRDNYSNLLSKAIAVDIN  122
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+             RF +    +   N     ++ +LL + DT +R  +        +    DA++   +   
+Sbjct  123  TRFDEEFILIDLDNWFNSKVLNSLLNSIDTADRFFDNSEFLITQSHHLNDASKNFQNCKN  182
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+             ++  +N  +    R  G YNR +FE +  L W
+Sbjct  183  RLQLILNLPVQNY-RNYGIYNRCNFEENFSLTW  214
+
+
+> UniRef50_A0A0M4EU67 CG15772 n=1 Tax=Drosophila busckii TaxID=30019 
+RepID=A0A0M4EU67_DROBS
+Length=139
+
+ Score = 118 bits (295),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 31/146 (21%), Positives = 47/146 (32%), Gaps = 12/146 (8%)
+
+Query  12   FLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPDSDFKVY  70
+                 +   I LI+        +F     R  +      + K +P     RFP      +
+Sbjct  1    MHLQNYTPLILLIDFVEKTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFPAE---YW  57
+
+Query  71   RYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDAT---RRVDDATVAIRSAINN  127
+               +V  P+      AFD     I++ +   P      D T   +  D A V IR     
+Sbjct  58   VNLSV-GPIAE----AFDRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDVAMVDIRRYAYY  112
+
+Query  128  LIVELIRGTGSYNRSSFESSSGLVWT  153
+                 +   G YNR +FE    + W 
+Sbjct  113  TDPMQLADVGVYNRITFEQRFAMQWQ  138
+
+
+> UniRef50_A0A1L6YQ00 ORF5 n=2 Tax=unclassified RNA viruses TaxID=1922347 
+RepID=A0A1L6YQ00_9VIRU
+Length=159
+
+ Score = 118 bits (294),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 38/157 (24%), Positives = 57/157 (36%), Gaps = 10/157 (6%)
+
+Query  5    TTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFP  63
+                  +  +  W      +N+   A    F  +  R  V+     +    P  V  RFP
+Sbjct  5    WHNEALILQTHHWCLYNSFLNVIRRARYISFSVKAQREGVRNALENMQINLPFSVNNRFP  64
+
+Query  64   DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRS  123
+            D    +   ++V   L+T ++ A D  +R  E      P + E    +   +DA VA   
+Sbjct  65   DEAIYIDLDHSVPSRLLTQIMLALDFSDRQAEKGR-VIPDSVEVRSYSN-FEDAKVAYYQ  122
+
+Query  124  AINNLIV-------ELIRGTGSYNRSSFESSSGLVWT  153
+            A+ N I        E     G Y RSSFE+   L W 
+Sbjct  123  AVGNFIDLVGPMAVETAHIFGVYTRSSFEAEHSLNWQ  159
+
+
+> UniRef50_A0A223FUM6 Capsid protein n=1 Tax=Abisko virus TaxID=2025595 
+RepID=A0A223FUM6_9VIRU
+Length=233
+
+ Score = 115 bits (287),  Expect = 1e-28, Method: Composition-based stats.
+ Identities = 32/161 (20%), Positives = 60/161 (37%), Gaps = 16/161 (10%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWK---PSPQV  58
+            YS  T    +  +  +   ++L+   T A    F  +  R   +     +     P+   
+Sbjct  78   YSNWTIEHDLVSTQNFVPLLDLVRCLTVAHRIPFAIKARRDEARETLMGLLSVENPAFSK  137
+
+Query  59   TVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDAT  118
+              RFPD    V     ++  L+  +  A D   R +     A+   +++       DDA 
+Sbjct  138  ERRFPDQP-LVNVSIGIIADLLDRVTSALDFGERYL-----ADIANSQSTVKYGSTDDAK  191
+
+Query  119  VAIRSAINNLIVELIRG-------TGSYNRSSFESSSGLVW  152
+            ++    I  L+  L++         G ++RSSFE+   + W
+Sbjct  192  LSFYRGIQRLLDILVKTRSDSRILYGVFDRSSFEAKYSMRW  232
+
+
+> UniRef50_F1CWG4 Capsid protein (Fragment) n=8 Tax=Tobamovirus 
+TaxID=12234 RepID=F1CWG4_TMGMV
+Length=99
+
+ Score = 109 bits (272),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 76/96 (79%), Positives = 86/96 (90%), Gaps = 1/96 (1%)
+
+Query  59   TVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDAT  118
+            T RFP + +K YRYNAVLDPL+T L GAF+TRNRIIEVENQ +PTTAETLDATRRVDDAT
+Sbjct  1    TGRFPGNVYKGYRYNAVLDPLITGL-GAFNTRNRIIEVENQQSPTTAETLDATRRVDDAT  59
+
+Query  119  VAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            VAIRSAINNL+ EL+RGTG YN+++FES SGLVWTS
+Sbjct  60   VAIRSAINNLVNELVRGTGLYNQNTFESMSGLVWTS  95
+
+
+> UniRef50_UPI0006C98FF8 uncharacterized protein LOC106657222 n=1 
+Tax=Trichogramma pretiosum TaxID=7493 RepID=UPI0006C98FF8
+Length=165
+
+ Score = 111 bits (277),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 28/151 (19%), Positives = 48/151 (32%), Gaps = 8/151 (5%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVR  61
+            Y        V     W +P  L+     A    F  +Q R  V      V   +  V  R
+Sbjct  6    YEPWHARHRVQSLHLWCNPEHLVQRLVKARTINFYIKQERRSVYLSLGCV---TFDVNKR  62
+
+Query  62   FPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAI  121
+            FPD    V         L+  +  + +  + ++E    A+    E + A   +     ++
+Sbjct  63   FPDRTTLVNTSEGRCAELLDQIHHSLNVVDALLEDYAIAHQAAKEYMQAVHSLLSILSSL  122
+
+Query  122  RSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+             +               ++R+SFE    L W
+Sbjct  123  GNK-----DFDPEAYNIHDRASFEKKYSLTW  148
+
+
+> UniRef50_M4QBD6 Capsid protein (Fragment) n=3 Tax=Cucumber green 
+mottle mosaic virus TaxID=12235 RepID=M4QBD6_9VIRU
+Length=109
+
+ Score = 107 bits (267),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 43/105 (41%), Positives = 66/105 (63%), Gaps = 0/105 (0%)
+
+Query  49   SEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETL  108
+            S +      +  RFP+  F  +    VL P+  +LL + DTRNR+IEV + +NPTTAE+L
+Sbjct  1    SALPSSVVDINSRFPNPGFYAFLNGPVLRPIFVSLLSSTDTRNRVIEVVDPSNPTTAESL  60
+
+Query  109  DATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            +A +R +DA+ A R+ I+NLI  +  G   Y+R+SFE+   +VW+
+Sbjct  61   NAVKRTEDASTAARAEIDNLIESISNGFDVYDRASFEAPFSVVWS  105
+
+
+> UniRef50_UPI00083EBA84 nuclear control of ATPase protein 2 n=1 
+Tax=Drosophila busckii TaxID=30019 RepID=UPI00083EBA84
+Length=207
+
+ Score = 108 bits (268),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 28/129 (22%), Positives = 42/129 (33%), Gaps = 12/129 (9%)
+
+Query  29   NALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPDSDFKVYRYNAVLDPLVTALLGAF  87
+                 +F     R  +      + K +P     RFP      +   +V  P+      AF
+Sbjct  86   KTRTKRFYESSERYEILMLVFIMRKGAPFCENKRFPAE---YWVNLSV-GPIAE----AF  137
+
+Query  88   DTRNRIIEVENQANPTTAETLDAT---RRVDDATVAIRSAINNLIVELIRGTGSYNRSSF  144
+            D     I++ +   P      D T   +  D A V IR          +   G YNR +F
+Sbjct  138  DRLQAAIDIPDPQLPIHMSVTDLTSWKQMFDVAMVDIRRYAYYTDPMQLADVGVYNRITF  197
+
+Query  145  ESSSGLVWT  153
+            E    + W 
+Sbjct  198  EQRFAMQWQ  206
+
+
+> UniRef50_F8ULT8 Coat protein n=1 Tax=Chara australis virus TaxID=1051671 
+RepID=F8ULT8_9VIRU
+Length=154
+
+ Score = 101 bits (252),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 24/153 (16%), Positives = 53/153 (35%), Gaps = 4/153 (3%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVT-  59
+            +Y+ T    +  +   W +  + ++    A    F  Q  R  ++  F+ + +  P    
+Sbjct  2    AYTPTYALNYARVG-NWYEVSDFLDFLDAAQDAAFSVQTVRDGLRDSFNSLPRSPPFSLD  60
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+             RFP   F +  + +  + L+  +  A   +      + ++             V  +  
+Sbjct  61   TRFPSDFFYISGFKSKWNQLIIQMTTALSYKPG--SKDTKSRTVDTTDTTFDNDVTQSFF  118
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+                A+   I++       ++R SFE    L W
+Sbjct  119  QAIKAMKETIMQPPANKDLFDRDSFEKFFNLTW  151
+
+
+> UniRef50_A0A0D3MFU4 Capsid protein n=1 Tax=Tobacco mosaic virus 
+TaxID=12242 RepID=A0A0D3MFU4_9VIRU
+Length=159
+
+ Score = 89.1 bits (219),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 60/68 (88%), Positives = 60/68 (88%), Gaps = 0/68 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SY ITTPSQFVFLSSAWADPIELIN CT ALG QFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2   SYGITTPSQFVFLSSAWADPIELINFCTIALGIQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61  RFPDSDFK  68
+           RFP    K
+Sbjct  62  RFPVVTLK  69
+
+
+> UniRef50_A0A1B0AL09 Uncharacterized protein n=4 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0AL09_9MUSC
+Length=178
+
+ Score = 89.1 bits (219),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 26/150 (17%), Positives = 54/150 (36%), Gaps = 4/150 (3%)
+
+Query  4    ITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRF  62
+              T  + +     ++  I LI+   N    +F     R  +      + + SP   T RF
+Sbjct  24   TWTYREPLLHLQKYSPLIRLIDFVENIKCKRFYEPSERFQMLMSACILRQNSPFCQTRRF  83
+
+Query  63   PDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIR  122
+            P+ D+        +   +  L+ A D      E         ++  +  ++ + +   +R
+Sbjct  84   PE-DYWANLSVGQMANALDNLVTALDIP--TTEFYGHIQVAASDLDNYKQKFNSSMEELR  140
+
+Query  123  SAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+              +    ++ +   G YNR +FE    + W
+Sbjct  141  RLVYCTDLDKLADIGVYNRQTFEQRFNMQW  170
+
+
+> UniRef50_Q88601 Capsid protein n=4 Tax=Tobamovirus TaxID=12234 
+RepID=Q88601_9VIRU
+Length=72
+
+ Score = 85.7 bits (210),  Expect = 5e-19, Method: Composition-based stats.
+ Identities = 68/71 (96%), Positives = 68/71 (96%), Gaps = 0/71 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SYSITTPSQ VF SSAWADPIELINLC NALGNQFQTQQARTVVQRQFSEVWKPSPQVTV
+Sbjct  2   SYSITTPSQSVFFSSAWADPIELINLCINALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  61
+
+Query  61  RFPDSDFKVYR  71
+           RFPDSDFKVYR
+Sbjct  62  RFPDSDFKVYR  72
+
+
+> UniRef50_Q96479 Capsid protein (Fragment) n=3 Tax=root TaxID=1 
+RepID=Q96479_9VIRU
+Length=69
+
+ Score = 81.8 bits (200),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 54/65 (83%), Positives = 61/65 (94%), Gaps = 0/65 (0%)
+
+Query  90   RNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSG  149
+            RNRIIEVENQ +PTTAETLDATRRVDDATVAIRSAINNL+ EL+RGTG YN+++FES +G
+Sbjct  1    RNRIIEVENQQSPTTAETLDATRRVDDATVAIRSAINNLVNELVRGTGLYNQNTFESMTG  60
+
+Query  150  LVWTS  154
+            LVWTS
+Sbjct  61   LVWTS  65
+
+
+> UniRef50_Q91KP8 Capsid protein n=1 Tax=Tomato mosaic virus TaxID=12253 
+RepID=Q91KP8_9VIRU
+Length=161
+
+ Score = 79.1 bits (193),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 58/150 (39%), Positives = 68/150 (45%), Gaps = 49/150 (33%)
+
+Query  3    SITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVRF  62
+            SITTPSQFVF SSAW         CT  +                          +    
+Sbjct  28   SITTPSQFVFWSSAWG-----FIRCTGTIQ-----------------------FWILYLL  59
+
+Query  63   PDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIR  122
+               DF+ + +                    IIEVENQ +PTTAETLDATRRVDDATVAIR
+Sbjct  60   RAGDFRYWEW--------------------IIEVENQQSPTTAETLDATRRVDDATVAIR  99
+
+Query  123  SAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            SAINNL    +       R +FESS G ++
+Sbjct  100  SAINNLFRNYLEVLDCTIR-TFESSLGCLF  128
+
+
+> UniRef50_F1CWG5 Capsid protein n=2 Tax=Tomato mosaic virus TaxID=12253 
+RepID=F1CWG5_9VIRU
+Length=74
+
+ Score = 76.4 bits (186),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 52/62 (84%), Positives = 58/62 (94%), Gaps = 0/62 (0%)
+
+Query  1   SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+           SYSIT+PSQFVFLSS WADPIEL+N+CTN+LGNQFQTQQART VQ+QFS+VWKP PQ TV
+Sbjct  2   SYSITSPSQFVFLSSVWADPIELLNICTNSLGNQFQTQQARTTVQQQFSDVWKPFPQSTV  61
+
+Query  61  RF  62
+           RF
+Sbjct  62  RF  63
+
+
+> UniRef50_UPI0006C94CBA uncharacterized protein LOC106657221 n=1 
+Tax=Trichogramma pretiosum TaxID=7493 RepID=UPI0006C94CBA
+Length=166
+
+ Score = 73.0 bits (177),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 21/152 (14%), Positives = 42/152 (28%), Gaps = 15/152 (10%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVW-KPSPQVTV  60
+            Y        V     W     L+ L   A    F     R  +  +  ++      +  V
+Sbjct  8    YHPWRTQHEVQTLHRWLKVDHLVKLLVEARQIDFYQHPERKKILGKLRDLNGDRRFEREV  67
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFP   + V         L+  +  A    +        + P       + + + +   +
+Sbjct  68   RFPQ-TYLVNATEGKCADLLDQMREALQHND-----PRHSRPA---YTQSVKALLEILSS  118
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            +                 ++R+SFE    + W
+Sbjct  119  LGKE-----DFDPEAHNIHDRASFEKKYSMTW  145
+
+
+> UniRef50_A0A2A3EMP2 Uncharacterized protein n=2 Tax=Apis cerana 
+TaxID=7461 RepID=A0A2A3EMP2_APICC
+Length=239
+
+ Score = 65.3 bits (157),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 29/152 (19%), Positives = 60/152 (39%), Gaps = 14/152 (9%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKP-SPQVTV  60
+            Y        V     +A  I++  + +  +  +F  + +R  V +  +E+        T 
+Sbjct  72   YENWLVVHIVLEEIEFAPLIQVAYVTSKIMSCKFHDEASRNEVLKLINELGSTEVVTRTK  131
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD  F V   +      + ++        R+I   ++ + +  + +        ++  
+Sbjct  132  RFPD-AFLVNLTHGEFAEQLNSV--------RLILEFDEQDLSEEKKMQRRNSYYSSSQR  182
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            +R+ + NL +        Y+R+SFE  S LVW
+Sbjct  183  LRTMLCNLKLYQ----DLYDRASFERRSQLVW  210
+
+
+> UniRef50_UPI0003DF7AD0 uncharacterized protein LOC102673861 isoform 
+X1 n=2 Tax=Apis dorsata TaxID=7462 RepID=UPI0003DF7AD0
+Length=172
+
+ Score = 62.6 bits (150),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 29/152 (19%), Positives = 58/152 (38%), Gaps = 14/152 (9%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKP-SPQVTV  60
+            Y        V     +A  I++  + +  +  +F  + +R  V +  +E+        T 
+Sbjct  5    YENWLVVHIVLEEIEFAPLIQVAYVTSKIMSCKFHDKASRNEVLKLINELGSTEVVTRTK  64
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD  F V   +      +  +        R I   ++   +  + ++       ++  
+Sbjct  65   RFPD-AFLVNLTHGEFAKQLINV--------RTILEFDEQELSEEKKMERRNSYYSSSQC  115
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            +R+ + NL +        Y+R+SFE  S LVW
+Sbjct  116  LRTMLCNLKLYQ----DLYDRASFERRSQLVW  143
+
+
+> UniRef50_A0A0A9DPR6 Uncharacterized protein n=1 Tax=Arundo donax 
+TaxID=35708 RepID=A0A0A9DPR6_ARUDO
+Length=172
+
+ Score = 62.2 bits (149),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 24/153 (16%), Positives = 44/153 (29%), Gaps = 10/153 (7%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPS--PQVT  59
+            YS     Q    +  WA   ++ +   +      + Q  R   +    ++++        
+Sbjct  21   YSPAWTLQMAR-AHCWAPYDDVASALRSLALGGLREQPGREAARATLRDLFQHPAPFDAN  79
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+             RFP+    +   +      V  +L                 P   + +DA      A  
+Sbjct  80   ARFPEGAVYLSVDHGEFGQCVYRILTQLLRVEAAAGT-----PRQHQIVDACEAFMKAVS  134
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+               +A      E       Y R+ FE    L+W
+Sbjct  135  --FAAATLTGPEEPEKPVLYTRARFEQEFSLIW  165
+
+
+> UniRef50_A0A088AL71 Uncharacterized protein n=2 Tax=Apis mellifera 
+TaxID=7460 RepID=A0A088AL71_APIME
+Length=206
+
+ Score = 59.9 bits (143),  Expect = 9e-09, Method: Composition-based stats.
+ Identities = 26/152 (17%), Positives = 55/152 (36%), Gaps = 14/152 (9%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKP-SPQVTV  60
+            Y        V     +A  +++  + +  +  +F  + +R  V +  +E+        T 
+Sbjct  39   YENWLVVHIVLEEIEFAPLLKVAYVTSKIMSCKFHDEASRNEVLKLINELGTTEVVTRTK  98
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD  F V   +      + ++    +   + +  E ++    +    + R        
+Sbjct  99   RFPD-AFLVNLTHGEFAEQLNSVRLILEFDEQQLSEEKKSQRRNSYYTSSQR--------  149
+
+Query  121  IRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+                +  ++  L      Y+R+SFE  S LVW
+Sbjct  150  ----LRTMLCNLKLYQDLYDRASFERRSQLVW  177
+
+
+> UniRef50_A0A1B0FG84 Uncharacterized protein n=1 Tax=Glossina 
+morsitans morsitans TaxID=37546 RepID=A0A1B0FG84_GLOMM
+Length=115
+
+ Score = 58.3 bits (139),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 16/106 (15%), Positives = 37/106 (35%), Gaps = 13/106 (12%)
+
+Query  52   WKPSPQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVEN-----QANPTTAE  106
+                   T RFP+     +   +V       +  A D     +++           T ++
+Sbjct  10   QNSPFCQTRRFPED---YWANLSV-----GQMTNALDNLVAGLDIPTTEFYGHIQVTASD  61
+
+Query  107  TLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+              +  ++ + +   +R  +    ++ +   G YNR +FE    + W
+Sbjct  62   LDNYKQKFNSSMEELRRLVYCTDLDKLADIGVYNRQTFEQRFNIQW  107
+
+
+> UniRef50_A0A1L3KJV8 Putative capsid protein n=1 Tax=Hubei virga-like 
+virus 9 TaxID=1923342 RepID=A0A1L3KJV8_9VIRU
+Length=275
+
+ Score = 59.5 bits (142),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 32/159 (20%), Positives = 60/159 (38%), Gaps = 17/159 (11%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVW-KPSPQVTV  60
+            Y   T     + ++ + D + + +         +  + AR         +        T+
+Sbjct  118  YERWTSRMERYTNANFMDAVIVEDTLREMSVRNYSNRPARESALTSIVSMNGDRIVGPTL  177
+
+Query  61   RFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVA  120
+            RFPD+   +      L  L   ++ A            +++PTT+    A  R DD  ++
+Sbjct  178  RFPDTGVYILVSTGPLRELFDQIILAC--------TLTESDPTTSSG-SAHNRYDDNKLS  228
+
+Query  121  IRSAINNLIVEL-------IRGTGSYNRSSFESSSGLVW  152
+               AI+N +  L             Y+RS+FES++ +VW
+Sbjct  229  YYKAISNALFLLRRRFEPAAHVYDIYSRSTFESTNRIVW  267
+
+
+> UniRef50_A0A0K8TQK3 Uncharacterized protein (Fragment) n=2 Tax=Tabanus 
+bromius TaxID=304241 RepID=A0A0K8TQK3_TABBR
+Length=147
+
+ Score = 56.4 bits (134),  Expect = 8e-08, Method: Composition-based stats.
+ Identities = 26/141 (18%), Positives = 46/141 (33%), Gaps = 15/141 (11%)
+
+Query  17   WADPIELINLCTNALGNQ---FQTQQARTVVQRQFSEVWKPSPQ-VTVRFPDSDFKVYRY  72
+            +     L         +    F ++  R  ++     +    P     RFP +D+ +   
+Sbjct  13   YVPYSRLKLFMDGLRYSGYSEFHSKFTRDRIRGSIVSLSIQPPFNRAARFP-TDYYISED  71
+
+Query  73   NAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVEL  132
+            +     +V  LL A D       + N          DA R  D+A   +   +       
+Sbjct  72   DGEFLKIVRRLLAATD-------LPNVQTDGGVSLTDAQREFDNAVTDM---LVRYSPMN  121
+
+Query  133  IRGTGSYNRSSFESSSGLVWT  153
+            +   G  NR+ FE+   L W+
+Sbjct  122  MVANGFMNRNIFETRLELTWS  142
+
+
+> UniRef50_Q05142 Coat protein n=1 Tax=Nicotiana velutina mosaic 
+virus TaxID=12292 RepID=COAT_NVMV
+Length=174
+
+ Score = 56.8 bits (135),  Expect = 9e-08, Method: Composition-based stats.
+ Identities = 25/163 (15%), Positives = 53/163 (33%), Gaps = 9/163 (6%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +Y            + W    +L++                   +   S +         
+Sbjct  2    AYRQWNEEASKAACATWYKRTDLLDTIRKIKKGDLSITAQVVAAKNLISSLTPVEWGHAT  61
+
+Query  61   RFPD------SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRV  114
+            RFPD       +  V         L+  +  + D          +    T    + +R  
+Sbjct  62   RFPDTMVRTGPEHYVNANEGPYSDLLDTIYASTDKSTCDSSTNARGVTPTISMPNNSRSR  121
+
+Query  115  DDATVA---IRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+            DD +++   +R+A++ +   L+ G   Y R++ E+  G+VW +
+Sbjct  122  DDPSLSRHQLRTALSQMEKALVNGESLYTRTTIENKLGIVWHA  164
+
+
+> UniRef50_A0A0A1XGE5 Protein piccolo n=3 Tax=Dacinae TaxID=164860 
+RepID=A0A0A1XGE5_ZEUCU
+Length=251
+
+ Score = 57.6 bits (137),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 25/159 (16%), Positives = 44/159 (28%), Gaps = 17/159 (11%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNA--LGNQFQTQQARTVVQRQFSEVWKP---SP  56
+            Y   T       +  W    ++IN C        QF     +  +  +   +        
+Sbjct  97   YINWTTKHSELTTQPWCCISDVINFCDKHEYQTLQFSDPNVKNKIVFEVKALLAGGIAPF  156
+
+Query  57   QVTVRFPDSDFK---VYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRR  113
+             +  RFPD+  K   ++   +    +   L        R +              D  R 
+Sbjct  157  DICKRFPDNIRKPEDLWICISRCASVEYHLQQMLSLFRRSL---------AHLLADKLRV  207
+
+Query  114  VDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            +        + +   I   I     Y+R+ FE    L W
+Sbjct  208  LKQNFRLAVNELRLDISAHISSVNLYDRNIFEHEFQLRW  246
+
+
+> UniRef50_A0A2H4RGL9 Coat protein n=3 Tax=Tobacco rattle virus 
+TaxID=12295 RepID=A0A2H4RGL9_9VIRU
+Length=231
+
+ Score = 57.2 bits (136),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 34/163 (21%), Positives = 54/163 (33%), Gaps = 29/163 (18%)
+
+Query  16   AWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFPDSDFKVYRYNA  74
+            +W +      L       +F  Q  R  +    +E+ +  P     +FPD        + 
+Sbjct  23   SWVESKAWKELLKKLHSVKFALQSGRDEITGLLTELLRQCPYSPFEQFPDKKVYFLLDSR  82
+
+Query  75   VLDPL-VTALLGAF----DTRNRIIEVENQANPTTA--------------------ETLD  109
+              + L V     AF    D +N +  V N   P+T                     E L 
+Sbjct  83   ANNALGVIQNASAFKRRADEKNAVAGVVNTPTPSTTVTNAQGGTISNKPNTGSSLEEDLY  142
+
+Query  110  ATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+               + DDA+ A   ++  L    ++    Y R +FE   GL W
+Sbjct  143  TYYKFDDASTAFHKSVTALENMQLKS---YYRRNFEKEFGLKW  182
+
+
+> UniRef50_UPI00062522D8 uncharacterized protein LOC105702805 isoform 
+X1 n=1 Tax=Orussus abietinus TaxID=222816 RepID=UPI00062522D8
+Length=211
+
+ Score = 56.4 bits (134),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 25/165 (15%), Positives = 51/165 (31%), Gaps = 15/165 (9%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVT-  59
+            SY     +  +     +    + +N            +Q     +     V K    V  
+Sbjct  45   SYLEWKSTVNLLSLKNFVPLKDYVNALRECRQGDL--RQEHDYCRNLIIGVEKNGTSVNK  102
+
+Query  60   -VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNR---------IIEVENQANPTTAETLD  109
+              RFP+++  +   +  L  +   LL + +T ++          +++ N          +
+Sbjct  103  HTRFPENEVFIDFEHPELHEMYIKLLDSLETNDKMSFDQSLLFFLDLTNLFVKQQFPEHE  162
+
+Query  110  ATRRVDDATVAIRSAINNLIVELIRGT--GSYNRSSFESSSGLVW  152
+                 D       +   +    +      G Y+R+ FES  GL W
+Sbjct  163  RRNMYDSGGYQASTETPDKKYIITPNFKDGIYDRTRFESDFGLQW  207
+
+
+> UniRef50_B4LTG7 Uncharacterized protein n=17 Tax=Drosophila TaxID=32281 
+RepID=B4LTG7_DROVI
+Length=309
+
+ Score = 56.4 bits (134),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 32/161 (20%), Positives = 43/161 (27%), Gaps = 20/161 (12%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQT------QQARTVVQRQFSEVWKPS  55
+            YS  + +        W    +L+  C         T      Q+    V+   S   K  
+Sbjct  157  YSNWSSNHTTLSGQPWCAISDLMYFCDKYEFKTLSTRDLKTHQEIVAEVRALLSG--KAP  214
+
+Query  56   PQVTVRFPD---SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATR  112
+                 RFP        ++        +   L        RII V     P    T D  R
+Sbjct  215  FDQRTRFPGNIHDPENLWVCIGRCASVEYHL-------QRIISV--FRKPLNQLTPDKQR  265
+
+Query  113  RVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+             V        S +   I   I     Y+R  FE    L W 
+Sbjct  266  AVRQNFHLAVSELRLDISARISEVRLYDRLVFEREFRLEWQ  306
+
+
+> UniRef50_Q65655 RNA2 polyprotein n=3 Tax=Barley mild mosaic virus 
+TaxID=12466 RepID=Q65655_9POTY
+Length=530
+
+ Score = 56.4 bits (134),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 26/158 (16%), Positives = 56/158 (35%), Gaps = 19/158 (12%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEV-WKPSPQVTV  60
+            YS    S   F+S  + + + ++ L  +AL   ++T  AR  +        +        
+Sbjct  234  YSFWKKSMDHFISDRFVEFLAMLVLLASALEQDYKTHDARDALLTALQNAGYTNVVARER  293
+
+Query  61   RFPDS----DFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDD  116
+            RFP+        +    A +   +  L       +R  E+ +  +       +       
+Sbjct  294  RFPNGHDPSTVWLNLNEAPISEKLAELKRYLLVGHRSDEIADITHNVNQHVFEV------  347
+
+Query  117  ATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+                    +  + V+  + T +YNR+ FE +  ++W +
+Sbjct  348  --------LKTMSVQFSKTTNAYNRARFEVNHKVMWNA  377
+
+
+> UniRef50_A0A1B0G660 Uncharacterized protein n=4 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0G660_GLOMM
+Length=246
+
+ Score = 55.2 bits (131),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 26/158 (16%), Positives = 49/158 (31%), Gaps = 14/158 (9%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQAR------TVVQRQFSEVWKPS  55
+            Y+    S +   S AW    +L++ C            +R      + V+   S   +  
+Sbjct  94   YTNWNSSHYHLTSQAWCCVGDLLSFCNKYEFKAVSATDSRSHVNIVSEVRSLLSA--EAP  151
+
+Query  56   PQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVD  115
+              +T RFP +  +      V       +         I            + + A     
+Sbjct  152  FAMTKRFPGNT-RNRDNLWVCIGRCPTVEYQLRRIQGIFRRPLIQLNADKQRM-ARENFH  209
+
+Query  116  DATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+             A   +R  + + + ++      Y+RS+FE    L W 
+Sbjct  210  LAIKELRRDLTSSVSDVRP----YDRSTFEKEFHLYWQ  243
+
+
+> UniRef50_A0A1C7NMB6 Uncharacterized protein n=1 Tax=Choanephora 
+cucurbitarum TaxID=101091 RepID=A0A1C7NMB6_9FUNG
+Length=160
+
+ Score = 53.7 bits (127),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 26/145 (18%), Positives = 41/145 (28%), Gaps = 14/145 (10%)
+
+Query  16   AWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWK--------PSPQVTVRFPDSDF  67
+            AW     L +        QF     R  ++     +          P   +  RFP    
+Sbjct  19   AWRSLNRLQDDLHQLQLLQFSCSFDRKGMRAILLSILSGTAEDSLEPVFDLHQRFPGCFN  78
+
+Query  68   KVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINN  127
+             VY +          +L A D ++   E+       +   L   R +          +  
+Sbjct  79   YVYLHAPKYVKATLGMLMALDHQDTPNELTVSDKGISMSELYVDRAI------FYRNLVK  132
+
+Query  128  LIVELIRGTGSYNRSSFESSSGLVW  152
+            L   + +    YNR  FE    L W
+Sbjct  133  LKKGIAKADYVYNRLLFEKKFDLTW  157
+
+
+> UniRef50_A0A1B0B7B4 Uncharacterized protein n=4 Tax=Glossina 
+TaxID=44049 RepID=A0A1B0B7B4_9MUSC
+Length=160
+
+ Score = 53.3 bits (126),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/122 (19%), Positives = 40/122 (33%), Gaps = 3/122 (2%)
+
+Query  34   QFQTQQARTVVQRQFSEVWKPS-PQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNR  92
+             F  + AR   ++  S++ +      T RFPD    +      +   +  ++ A      
+Sbjct  36   PFSDRAARETFRKAISDIPRKVIVNETTRFPDDGAYINLDELGVGQTLRTIIDASLFEEY  95
+
+Query  93   IIE-VENQANPTTAETLDATRRVDDATVAIRSAINNLIVELIRG-TGSYNRSSFESSSGL  150
+             +               DA     +    I+ ++N L   L     G Y R S+E    L
+Sbjct  96   EMHCKHGVHGYANTPYEDAKLAYTEGIDYIKRSLNMLGSPLTAALKGIYTRQSYEEIHQL  155
+
+Query  151  VW  152
+             W
+Sbjct  156  TW  157
+
+
+> UniRef50_UPI000C6C4C6A uncharacterized protein LOC111596126 n=2 
+Tax=repleta group TaxID=32321 RepID=UPI000C6C4C6A
+Length=323
+
+ Score = 54.9 bits (130),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 33/161 (20%), Positives = 43/161 (27%), Gaps = 20/161 (12%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQT------QQARTVVQRQFSEVWKPS  55
+            YS    +     S  W    +L+  C         T      Q+    V+   S   K  
+Sbjct  171  YSNWNNNHTTLSSQPWCAISDLMYFCDKYEFKTLSTRDLKTHQEIVAEVRALLSG--KAP  228
+
+Query  56   PQVTVRFPD---SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATR  112
+                 RFP        ++        +   L        RII V     P    T D  R
+Sbjct  229  FDQRTRFPGNIHDPENLWVCIGRCASVEYHL-------QRIISV--FRKPLNQLTPDKQR  279
+
+Query  113  RVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+             V        S +   I   I     Y+R  FE    L W 
+Sbjct  280  TVRQNFHLAVSELRLDISARISEVRLYDRLVFEREFRLEWQ  320
+
+
+> UniRef50_A0A288WG41 Polyprotein n=3 Tax=Barley mild mosaic virus 
+TaxID=12466 RepID=A0A288WG41_9POTY
+Length=893
+
+ Score = 54.9 bits (130),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 26/158 (16%), Positives = 55/158 (35%), Gaps = 19/158 (12%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEV-WKPSPQVTV  60
+            YS    S   F S  + + + + +L  +AL   + T  AR  +        +        
+Sbjct  234  YSFWKKSMDHFTSDRFVEFLAMQDLLASALEQDYATHDARDALLSALQNAGYTNVVARER  293
+
+Query  61   RFPD--SDFKVYRYNAV--LDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDD  116
+            RFP+      V+   +   +   +T L       +R  +  +  +       +       
+Sbjct  294  RFPNGHDPSIVWLNLSEAPISEKLTELKRYLLVGHRSDDTADITHNVHQHVFEV------  347
+
+Query  117  ATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+                    +  + V+  + T +YNR+ FE +  ++W +
+Sbjct  348  --------LKTMSVQFSKTTNAYNRARFEVNHKVIWNA  377
+
+
+> UniRef50_A0A0V1I0Q2 Uncharacterized protein n=1 Tax=Trichinella 
+zimbabwensis TaxID=268475 RepID=A0A0V1I0Q2_9BILA
+Length=830
+
+ Score = 54.9 bits (130),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 25/135 (19%), Positives = 40/135 (30%), Gaps = 6/135 (4%)
+
+Query  6    TPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSE-VWKPSPQ-VTVRFP  63
+                    S  W +  EL  L          TQ  R  +    S  +   +P    +RFP
+Sbjct  154  NSETLFAESDHWYNVGELYRLLFTMRRTNLNTQMGRDAMFDALSSTMEVNTPFGEFLRFP  213
+
+Query  64   DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRS  123
+                 V   +     L + L      R+R +E         A     ++   D+   +  
+Sbjct  214  SDRIFVREGDPNWLNLFSTLRSGLQHRDRWVETGR----VDASNTATSQSRADSMRQLMK  269
+
+Query  124  AINNLIVELIRGTGS  138
+             I  +I  L +  G 
+Sbjct  270  TIEAMIAMLQKKQGI  284
+
+
+> UniRef50_A0A1L3KJL5 Uncharacterized protein n=1 Tax=Hubei virga-like 
+virus 11 TaxID=1923326 RepID=A0A1L3KJL5_9VIRU
+Length=137
+
+ Score = 51.8 bits (122),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 26/148 (18%), Positives = 47/148 (32%), Gaps = 17/148 (11%)
+
+Query  6    TPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQV-TVRFPD  64
+            T   +   S +W D      +  +     F +Q  R +       +++ +     VR+P 
+Sbjct  5    TTEYYAVHSLSWIDIKIFSLVIHSIRAIDFSSQTDRQLAFAHLQVLYRTNQLKFDVRYPL  64
+
+Query  65   SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSA  124
+                +         L+T+LL +             + P      D     +      + A
+Sbjct  65   DVCLISLNLDPFLKLMTSLLKSL------------SIPNHHTPEDYRTYHE----LFQHA  108
+
+Query  125  INNLIVELIRGTGSYNRSSFESSSGLVW  152
+            +N +I  L       NR+ FE    L W
+Sbjct  109  MNGIIQNLNPNNYIMNRAVFEKLFNLRW  136
+
+
+> UniRef50_UPI00098B75D6 uncharacterized protein LOC109767828 n=1 
+Tax=Aegilops tauschii subsp. tauschii TaxID=169297 RepID=UPI00098B75D6
+Length=213
+
+ Score = 52.9 bits (125),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 20/142 (14%), Positives = 44/142 (31%), Gaps = 9/142 (6%)
+
+Query  14   SSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPS--PQVTVRFPDSDFKVYR  71
+            + +WA    +I    + L    + + +    +   + ++  +     + RFP  +  V  
+Sbjct  77   AHSWAPYSAIIPTLRSLLLMNLKEETSLRAAREAITGLYDHATPFGASRRFPAGEVYVCL  136
+
+Query  72   YNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRSAINNLIVE  131
+                L   +  ++    T                + +DA         +    +  +   
+Sbjct  137  DRVPLAQTMQRIVQPLVTVEAAGMFGE-------QLVDACSNYIGGISSALLDLTRVEDR  189
+
+Query  132  LIRGTGSYNRSSFESSSGLVWT  153
+                   Y+R+ FES   L WT
+Sbjct  190  PGISPVLYDRAIFESVFLLTWT  211
+
+
+> UniRef50_A0A1C7NKC4 Uncharacterized protein n=1 Tax=Choanephora 
+cucurbitarum TaxID=101091 RepID=A0A1C7NKC4_9FUNG
+Length=152
+
+ Score = 51.4 bits (121),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 25/156 (16%), Positives = 50/156 (32%), Gaps = 10/156 (6%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPS----PQ  57
+            Y+       +  +  W    EL +         + T   R  ++  F ++ + +      
+Sbjct  3    YNNRGLVDSIKKAYCWHKTPELKDTIHAMEKLDYST--DREKIKNLFDQLIQGTGYEPFT  60
+
+Query  58   VTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDA  117
+               RFP     VY        +++ L    +  + I+       P  +  +      +D 
+Sbjct  61   SINRFPKQQSWVYIGAPEYIEVLSELKMLLNQNDMIM----PGTPLPSSIITLKLNGEDR  116
+
+Query  118  TVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+            T      +  L + +   T  Y R +FE+   L W 
+Sbjct  117  TQTFNRHLTKLKLLVASNTKVYTRETFEAEYELKWQ  152
+
+
+> UniRef50_A0A1X2HQ23 Uncharacterized protein n=1 Tax=Syncephalastrum 
+racemosum TaxID=13706 RepID=A0A1X2HQ23_SYNRA
+Length=153
+
+ Score = 51.0 bits (120),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 21/155 (14%), Positives = 41/155 (26%), Gaps = 14/155 (9%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTV  60
+            +Y+       V     W +   L+N          +T    +       ++         
+Sbjct  2    AYNNWPARAQVVSLMRWYNLTALVNYLHALQDFITRTIGKLSETYAPVLDLSTCPASEHT  61
+
+Query  61   RFPDSDFKVYRYNAVLD---PLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDA  117
+            RFP            +     ++  +  A    NR        +               A
+Sbjct  62   RFPADTIYYCEAVGHISSQLSVLELVRSAILHGNRFQRGYPFGDTQG-----------QA  110
+
+Query  118  TVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+             + +   I  L+  + +     +R +FE   GL W
+Sbjct  111  EIHMLERIGTLLAAIEQLDDKMDRQTFEERYGLQW  145
+
+
+> UniRef50_A0A0C9M7T1 Uncharacterized protein n=3 Tax=Mucor TaxID=4830 
+RepID=A0A0C9M7T1_9FUNG
+Length=184
+
+ Score = 51.8 bits (122),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 22/155 (14%), Positives = 49/155 (32%), Gaps = 17/155 (11%)
+
+Query  2    YSITTPSQFVFLSSA--WADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVT  59
+            Y   + S F+  S+A  W     LI+   +   +  Q    R  ++              
+Sbjct  3    YINWSESSFIIQSAAFKWYSVECLIDYLHDLRAHILQQGGTRKDLKTSILASTPLPATEK  62
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+             RF      V                  D   ++ E+  +    +           +A +
+Sbjct  63   QRF--EGCYVCEAVG-------------DYGYKLDEIGLKFIKLSNNKCHRVSSTSEAEL  107
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVWTS  154
+             +   I++++  +       ++ +FE+  GL+W +
+Sbjct  108  DVLGIIHDMLKSIESKKDIMDQCTFEARYGLMWKT  142
+
+
+> UniRef50_S2K1Q9 Uncharacterized protein n=2 Tax=Mucor circinelloides 
+TaxID=36080 RepID=S2K1Q9_MUCC1
+Length=155
+
+ Score = 51.0 bits (120),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 23/107 (21%), Positives = 36/107 (34%), Gaps = 8/107 (7%)
+
+Query  47   QFSEVWKPSPQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANP-TTA  105
+             FS         T+RF +        +     +V  L        R ++V+ Q  P T  
+Sbjct  55   SFSLALFGIAGPTLRFNEFAVCYNMTHPTYIEIVGELY-------RALDVDVQKYPRTNT  107
+
+Query  106  ETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+                     D+A       +  L   +  G G Y+R +FE+   L W
+Sbjct  108  THSVCKNSYDEALERYTRFMLKLKKNIYAGVGCYDRKAFENEFDLTW  154
+
+
+> UniRef50_A0A0V1M541 Uncharacterized protein n=1 Tax=Trichinella 
+papuae TaxID=268474 RepID=A0A0V1M541_9BILA
+Length=467
+
+ Score = 52.5 bits (124),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 24/135 (18%), Positives = 39/135 (29%), Gaps = 6/135 (4%)
+
+Query  6    TPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSE-VWKPSPQ-VTVRFP  63
+                    S  W +  EL  L           Q  R  +    S  +   +P    +RFP
+Sbjct  123  NIETLFAESDHWYNVGELYRLLFTMRRTNLNIQMGRDAMFHALSSTMEVNTPFGEFLRFP  182
+
+Query  64   DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATVAIRS  123
+                 V   +     L + L      R+R +E         A     ++   D+   +  
+Sbjct  183  SDRIFVREGDPNWLNLFSTLRSGLQHRDRWVETGR----VDASNTATSQSRADSMRQLMK  238
+
+Query  124  AINNLIVELIRGTGS  138
+             I  +I  L +  G 
+Sbjct  239  TIEAMIAMLQKKQGI  253
+
+
+> UniRef50_B5ST97 Readthrough protein n=8 Tax=Rice stripe necrosis 
+virus TaxID=373373 RepID=B5ST97_9VIRU
+Length=672
+
+ Score = 52.5 bits (124),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 29/169 (17%), Positives = 50/169 (30%), Gaps = 17/169 (10%)
+
+Query  1    SYSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEV------WKP  54
+            SY   T +  V   S W    E ++    A  +      +   ++     +        P
+Sbjct  2    SYPDWTDTHDVLSYSRWVRTSEAMSAVRTARVSDLSVAPSLGEIKAAILSLGDRHNTEDP  61
+
+Query  55   SPQVTVRFPD-------SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTT-AE  106
+                  RFP        +   V   + V   ++ A+    D  N +    N         
+Sbjct  62   FVAPYYRFPHHITEKGCTHTYVNLSDNVFKQVLAAIEVCTDKDNAVNSAVNVRRDGAINS  121
+
+Query  107  TLDATRRVDDATV---AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            + DA    D+  +    +  A+      L      +NR  FE+   L W
+Sbjct  122  SSDAKTDKDNIIIGKYQLHQALRRFEELLGSPGNLWNRRKFETQYRLKW  170
+
+
+> UniRef50_Q9VKU4 IP09348p n=9 Tax=melanogaster group TaxID=32346 
+RepID=Q9VKU4_DROME
+Length=291
+
+ Score = 52.2 bits (123),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 33/160 (21%), Positives = 45/160 (28%), Gaps = 20/160 (13%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQART------VVQRQFSEVWKPS  55
+            Y+  +       S +W    EL+  C         T+  RT       V+   S   K  
+Sbjct  138  YTNWSNHHATLCSQSWVAISELMYFCDKYEFTTLSTRDLRTHQEIVAEVRALLSG--KAP  195
+
+Query  56   PQVTVRFPD---SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATR  112
+                 RFP        ++        +   L        RII +     P    T D  R
+Sbjct  196  FDQRTRFPGNIHDPENLWVCIGRCASVEYHL-------QRIISI--FRKPLNQLTPDKQR  246
+
+Query  113  RVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+             V        S +   I   I     Y+R  FE    L W
+Sbjct  247  TVRQNFHLAVSELRLDISARISEVRLYDRLVFEREFRLEW  286
+
+
+> UniRef50_S2J088 Uncharacterized protein (Fragment) n=1 Tax=Mucor 
+circinelloides f. circinelloides (strain 1006PhL) TaxID=1220926 
+RepID=S2J088_MUCC1
+Length=156
+
+ Score = 49.5 bits (116),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/95 (19%), Positives = 32/95 (34%), Gaps = 6/95 (6%)
+
+Query  58   VTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDA  117
+             + RF +        +     +  +L  A    + +   E        E        D A
+Sbjct  67   PSNRFNEGLICYNMTSGNYMEIFNSLYKALSV-DALASTE-----INREVPACKDSYDAA  120
+
+Query  118  TVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+              +  + +  L  ++  G G+Y+R SFE    L W
+Sbjct  121  LESYFANLLRLKKDIHAGVGAYDRDSFEELFSLTW  155
+
+
+> UniRef50_A0A168J4J4 Uncharacterized protein n=2 Tax=Mucor circinelloides 
+TaxID=36080 RepID=A0A168J4J4_MUCCL
+Length=173
+
+ Score = 48.7 bits (114),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 21/161 (13%), Positives = 47/161 (29%), Gaps = 19/161 (12%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKP-------  54
+            Y   T    +  +  +        + +      F  +  R  ++   +E+          
+Sbjct  6    YVNFTEKYKLIQTQNFLPGFRFKQILSELDKLSF--RDDRDKIKALLAELSSGQDEAAML  63
+
+Query  55   -SPQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRR  113
+                  +RFP+        +     + + L  A + R     + +           + + 
+Sbjct  64   KVFNKNLRFPEGVIYYTLSDFFRLKMTSLLHYALEYRPLPSNLVSTYIAAAQSDDASYQM  123
+
+Query  114  ----VDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGL  150
+                  D    ++S   ++        G Y+RS FE+  GL
+Sbjct  124  ALTLYSDTLFQLKSLFYSM-----GALGGYDRSRFEARFGL  159
+
+
+> UniRef50_A0A142D7P9 Uncharacterized protein n=1 Tax=Mangifera 
+indica latent virus TaxID=1814004 RepID=A0A142D7P9_9VIRU
+Length=182
+
+ Score = 48.7 bits (114),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 24/158 (15%), Positives = 52/158 (33%), Gaps = 7/158 (4%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVTVR  61
+            Y            S W    +++++            Q+ T  +   + +      V  R
+Sbjct  5    YQHWNIEATTAARSKWFRHSDMLDIVRAISALDLSVTQSVTTAKAIVNGLQPIRWGVYDR  64
+
+Query  62   FPDS------DFKVYRYNAVLDPLVTALLGAFDTRNR-IIEVENQANPTTAETLDATRRV  114
+            FP        +  +    +    L+  +    D           +A+P+  +    T+  
+Sbjct  65   FPAEETKTGPEVYINGSKSPFKGLIDQIQMVTDKAQSESATNYLRASPSFNDARSRTQDR  124
+
+Query  115  DDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            D    ++R+A+  L  EL++     +R   E   G++W
+Sbjct  125  DIGRFSLRNALGKLEDELLKIEHFKSRDDIERELGIIW  162
+
+
+> UniRef50_P05072 Coat protein n=13 Tax=Tobravirus TaxID=12293 
+RepID=COAT_TRVTC
+Length=205
+
+ Score = 48.7 bits (114),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 30/170 (18%), Positives = 51/170 (30%), Gaps = 33/170 (19%)
+
+Query  13   LSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFPDSDFKVYR  71
+            LS AW +     ++       +F  Q  R ++     ++    P     RFP        
+Sbjct  17   LSGAWVEKHNWSDILRRLTKIKFALQADRDMIPGIVEDLSTEIPVDENTRFPSGKVYHLL  76
+
+Query  72   YNAVLDPLVTALLGAFDTRNRIIEVENQ---------------------ANPTTA-----  105
+               +L   + A+  A   + R  E  N                        P        
+Sbjct  77   TKEMLMA-IEAIHAASSFKRRAEEKNNVNPRQRFEAESSSSQLPSGGLVVRPAAGSGDSS  135
+
+Query  106  --ETLDATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+              E L +  ++DDA+ A   ++  L     +      + +FE    L WT
+Sbjct  136  LGEDLFSNSKLDDASTAFHKSLATLKGSRPKAV---VQRTFEKEYSLRWT  182
+
+
+> UniRef50_Q88897 Capsid protein n=10 Tax=Tobacco rattle virus 
+TaxID=12295 RepID=CAPSD_TRVPP
+Length=204
+
+ Score = 48.7 bits (114),  Expect = 9e-05, Method: Composition-based stats.
+ Identities = 31/162 (19%), Positives = 54/162 (33%), Gaps = 30/162 (19%)
+
+Query  16   AWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFPDSDFKVYRYNA  74
+            +W + +   +L       +F  Q  R  +    + + +  P     +FPD        + 
+Sbjct  22   SWVESVSWKDLLKKLHSIKFALQSGRDEITGLLAALNRQCPYSPYEQFPDKKVYFLLDSR  81
+
+Query  75   VLDPL-----VTALLGAFDTRNRIIEVEN-QANPTTA--------------------ETL  108
+                L      +A     D +N +  V N  ANP T                     E L
+Sbjct  82   ANSALGVIQNASAFKRRADEKNAVAGVTNIPANPNTTVTTNQGSTTTTKANTGSTLEEDL  141
+
+Query  109  DATRRVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGL  150
+                + DDA+ A   ++ +L    ++    Y R +FE   G+
+Sbjct  142  YTYYKFDDASTAFHKSLTSLENMELKS---YYRRNFEKVFGI  180
+
+
+> UniRef50_A0A1I8NI69 Uncharacterized protein n=1 Tax=Musca domestica 
+TaxID=7370 RepID=A0A1I8NI69_MUSDO
+Length=413
+
+ Score = 49.5 bits (116),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 24/157 (15%), Positives = 38/157 (24%), Gaps = 14/157 (9%)
+
+Query  2    YSITTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQAR------TVVQRQFSEVWKPS  55
+            Y        +  S  W    +L+  C         +  +R        V+   S      
+Sbjct  260  YINWRNDHAILASMPWCCIGDLMAFCDKYEFKAVSSTASRTHASILNEVRALLSGC--AP  317
+
+Query  56   PQVTVRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVD  115
+                 RFP         N     L      + +     I+      P    + D  R   
+Sbjct  318  FAENKRFPSH-----IRNPENLMLCLGRSPSIEYHLGRIQ-SAFRRPLETLSPDKQRIAR  371
+
+Query  116  DATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+                     +   I   + G   Y++  FE    L W
+Sbjct  372  QNFHLAIRELRLDISARLTGLRLYDQKVFERDFHLTW  408
+
+
+> UniRef50_Q08308 Capsid protein n=5 Tax=Pecluvirus TaxID=119492 
+RepID=CAPSD_PCV87
+Length=207
+
+ Score = 48.7 bits (114),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 33/164 (20%), Positives = 59/164 (36%), Gaps = 30/164 (18%)
+
+Query  17   WADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQ-VTVRFPD-----------  64
+            W        L  +  G  F+   +R+ V    + V K  P  V+VRFP            
+Sbjct  33   WIRLDHWETLLADLRGVSFEVNSSRSQVADFINRVPKDLPAGVSVRFPGPRGNLGSTNYT  92
+
+Query  65   SDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAE------TLDATRRVD---  115
+              + V   + +   L++ +  A   +NR +E+     P  +        + A R V+   
+Sbjct  93   EVYFVRIKSELKQKLLSLIAAADQGKNRDVEIGRPNAPVVSTGAGGNQAIVAQRGVNTVR  152
+
+Query  116  ------DATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVWT  153
+                  D ++  R     +    + G   ++R+ FE +  L WT
+Sbjct  153  DQQPLRDGSLHYR---YLVQDIELAGAEQFDRALFEETFSLNWT  193
+
+
+> UniRef50_S2IV71 Uncharacterized protein n=1 Tax=Mucor circinelloides 
+f. circinelloides (strain 1006PhL) TaxID=1220926 RepID=S2IV71_MUCC1
+Length=147
+
+ Score = 47.5 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 26/153 (17%), Positives = 46/153 (30%), Gaps = 21/153 (14%)
+
+Query  5    TTPSQFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVW-----KPSPQVT  59
+              P    + +  W    EL+         +F   + R+  +RQ + V+          V 
+Sbjct  9    IRPELDQYRTHRWRSLRELLMDIRVLETCEFVQAEGRSQARRQLNIVYINRASATVFDVN  68
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+            +RFP     V         +   L G    ++ +++ ++ A                   
+Sbjct  69   IRFPSRKTMVNISLEPYAVIAKNLYGLLQ-QDNVLDCQSCAQLAPH--------------  113
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+               + I      L    G Y R  FE+   L W
+Sbjct  114  -FYAQIQEFKRLLELRVGVYTRQRFEAEFHLEW  145
+
+
+> UniRef50_A0A077JF34 Coat protein n=1 Tax=Gentian ovary ringspot 
+virus TaxID=1920772 RepID=A0A077JF34_9VIRU
+Length=195
+
+ Score = 48.3 bits (113),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 39/160 (24%), Positives = 51/160 (32%), Gaps = 28/160 (18%)
+
+Query  13   LSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSP-QVTVRFP--------  63
+                W   I+ +          FQ   AR  V R  S V K  P  V  RFP        
+Sbjct  35   FKDNWCKLIDDLMRV------NFQVTSARQDVSRLISAVHKDFPASVGRRFPGPVGTLGS  88
+
+Query  64   ---DSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEV--------ENQANPTTAETLDATR  112
+                        +   + L+  +  A   + R +EV        +NQA P     + A R
+Sbjct  89   ANYQEREFFRLDSVAQNKLLDLVRIADQGKERDLEVNRTAGNGSDNQARPAPK--MLAIR  146
+
+Query  113  RVDDATVAIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+                      S    L   +     SY+R SFES   LVW
+Sbjct  147  DQQVIRDGSNSYGYVLSDLVTTRLDSYDRDSFESEFNLVW  186
+
+
+> UniRef50_A0A162UXR9 Uncharacterized protein n=1 Tax=Phycomyces 
+blakesleeanus (strain ATCC 8743b / DSM 1359 / FGSC 10004 / 
+NBRC 33097 / NRRL 1555) TaxID=763407 RepID=A0A162UXR9_PHYB8
+Length=149
+
+ Score = 46.8 bits (109),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 22/153 (14%), Positives = 50/153 (33%), Gaps = 10/153 (7%)
+
+Query  2    YSITTPS-QFVFLSSAWADPIELINLCTNALGNQFQTQQARTVVQRQFSEVWKPSPQVT-  59
+            Y+  +     V     W     +++   +              ++   + V    P  T 
+Sbjct  2    YNNWSKRANIVSSFLHWYKIESIVDYLQSLRDYIIHPGDDHKNIKAIPTLVRTECPVGTE  61
+
+Query  60   VRFPDSDFKVYRYNAVLDPLVTALLGAFDTRNRIIEVENQANPTTAETLDATRRVDDATV  119
+             RFP+    V +        +  +    DT      V  +    +   L +  + ++  +
+Sbjct  62   SRFPEDGLFVCQGYGKWGLKIDIIQIFVDTI-----VHPKRLERSYWNLSSQGQSEEILL  116
+
+Query  120  AIRSAINNLIVELIRGTGSYNRSSFESSSGLVW  152
+            ++   +  +I ++       +R+SFE   GL W
+Sbjct  117  SLIDDLFQIIEQMS---DVVDRASFEKRYGLQW  146
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.119    0.296    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0365    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233682187947
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
