@@ -2,12 +2,11 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GroupKFold
-from sklearn.model_selection import cross_val_score
 
 np.set_printoptions(threshold=np.nan)
 
 
-def main(dataset_file, window_size):
+def main(dataset_file):
 
     # parsing file
     ids, seq, sec = parse(dataset_file)
@@ -23,32 +22,25 @@ def main(dataset_file, window_size):
 
     X_train = pssms
 
-    X_train_encoded, train_groups = encode_pssms(X_train, window_size)
     y_train_encoded = encode_targets(y_train)
 
-
-
-
-
-
-    '''
-    # fragment X_train into sliding windows and get group labels
-    X_train_fragmented, train_groups = fragment(X_train, window_size)
-
-    X_train_encoded = encode_attributes(X_train_fragmented)
-    y_train_encoded = encode_targets(y_train)
-
-
-    clf = svm.SVC(cache_size=5000)
+    svc = svm.SVC(kernel='rbf', cache_size=5000, class_weight='balanced')
+    C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
+    gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
+    parameters = {'C':C_range, 'gamma':gamma_range}
     group_kfold = GroupKFold(n_splits=5)
-    scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), cv=group_kfold, n_jobs=-1, verbose=2)
+    scoring = ['accuracy', 'f1_macro']
 
-    print(scores)
+    clf = GridSearchCV(svc, parameters, scoring=scoring, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
-    print(np.mean(scores))
-    '''
+    test_windows = [11, 13, 15, 17, 19, 21, 23]
 
-
+    for window_size in test_windows:
+        X_train_encoded, train_groups = encode_pssms(X_train, window_size)
+        clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
+        df = pd.DataFrame(clf.cv_results_)
+        output_file = '../results/fm_rbf_balanced_' + str(window_size) + '.csv'
+        df.to_csv(output_file, sep='\t', encoding='utf-8')
 
 
 def parse(filename):
@@ -106,4 +98,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 3)
+    main('../datasets/cas3.3line.txt')
