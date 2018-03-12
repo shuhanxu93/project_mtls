@@ -26,27 +26,13 @@ def main(dataset_file, window_size):
     X_train_encoded, train_groups = encode_pssms(X_train, window_size)
     y_train_encoded = encode_targets(y_train)
 
-
-
-
-
-
-    '''
-    # fragment X_train into sliding windows and get group labels
-    X_train_fragmented, train_groups = fragment(X_train, window_size)
-
-    X_train_encoded = encode_attributes(X_train_fragmented)
-    y_train_encoded = encode_targets(y_train)
-
-
     clf = svm.SVC(cache_size=5000)
     group_kfold = GroupKFold(n_splits=5)
-    scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), cv=group_kfold, n_jobs=-1, verbose=2)
+    scoring = ['accuracy', 'f1_macro']
+    scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), scoring=scoring, cv=group_kfold, n_jobs=-1, verbose=2)
 
     print(scores)
 
-    print(np.mean(scores))
-    '''
 
 
 
@@ -106,4 +92,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 3)
+    main('../datasets/cas3.3line.txt', 15)
