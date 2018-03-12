@@ -2,6 +2,8 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GroupKFold
+from sklearn.model_selection import GridSearchCV
+import pandas as pd
 
 np.set_printoptions(threshold=np.nan)
 
@@ -33,7 +35,7 @@ def main(dataset_file):
 
     clf = GridSearchCV(svc, parameters, scoring=scoring, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
-    test_windows = [11, 13, 15, 17, 19, 21, 23]
+    test_windows = [21, 23]
 
     for window_size in test_windows:
         X_train_encoded, train_groups = encode_pssms(X_train, window_size)

@@ -2,7 +2,7 @@ import numpy as np
 from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GroupKFold
-from sklearn.model_selection import cross_val_score
+from sklearn.model_selection import cross_validate
 
 np.set_printoptions(threshold=np.nan)
 
@@ -29,7 +29,7 @@ def main(dataset_file, window_size):
     clf = svm.SVC(cache_size=5000)
     group_kfold = GroupKFold(n_splits=5)
     scoring = ['accuracy', 'f1_macro']
-    scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), scoring=scoring, cv=group_kfold, n_jobs=-1, verbose=2)
+    scores = cross_validate(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), scoring=scoring, cv=group_kfold, n_jobs=-1, verbose=2)
 
     print(scores)
 

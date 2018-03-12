@@ -26,7 +26,7 @@ def main(dataset_file):
 
     y_train_encoded = encode_targets(y_train)
 
-    svc = svm.SVC(kernel='rbf', cache_size=5000)
+    svc = svm.SVC(kernel='rbf', cache_size=5000, class_weight='balanced')
     C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
     gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
     parameters = {'C':C_range, 'gamma':gamma_range}
@@ -35,13 +35,13 @@ def main(dataset_file):
 
     clf = GridSearchCV(svc, parameters, scoring=scoring, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
-    test_windows = [11, 13, 15, 17, 19, 21, 23]
+    test_windows = [17, 19]
 
     for window_size in test_windows:
         X_train_encoded, train_groups = encode_pssms(X_train, window_size)
         clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
         df = pd.DataFrame(clf.cv_results_)
-        output_file = '../results/fm_rbf_none_' + str(window_size) + '.csv'
+        output_file = '../results/fm_rbf_balanced_' + str(window_size) + '.csv'
         df.to_csv(output_file, sep='\t', encoding='utf-8')
 
 
