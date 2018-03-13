@@ -19,6 +19,10 @@ I have set my evalue to 0.001 since the database is much larger. However, using 
 
 #### Contour Plot
 I managed to get my new contour plots after 2 days of non-stop data crunching. This time the contour plots represent cross-validation accuracy of models train using 20 units/amino acid encoding instead of 21. Here are the results:
+
+window size 11
+
+
 - managed to get my contour plot after 2 days of non stop data crunching
 - confirm my previous suspicion that longer window may not provide more information
 - optimum accuracy score for balanced and non-balanced class-weights is similar
