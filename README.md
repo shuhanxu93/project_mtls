@@ -8,18 +8,17 @@ F1 macro
 ### 20180312
 
 #### PSIPRED
-- 15 groups of 21 units
-- padding encoding for substituion matrix
-- logistic scaling is dubious
+Although the PSIPRED paper is easy to understand, the methods is not thoroughly explained. One thing that stood out the most is how the author encoded the features. In the paper, the author states that the input layer consists of "315 input units, divided into 15 groups of 21 units". 15 represents the sliding window size. Instead of 20 units per amino acid, they encode one extra unit to indicate the N or C terminus. On Friday, John recommended using only 20 units per amino acid as having an extra unit for padding would means that an artifical amino exists and is given the same weight as a natural amino acid and this does not make biological sense.
+
+Lets leave that for now. There is another issue which I managed to figure out. For the substitution matrix, every element is a log odds ratio. For the padding, all log odds ratios should be negative infinity. Instead of appending rows of negative infinity to the substitution matrix, I can append rows of zeros after I have scaled the substitution matrix with logistic scaling. Marco recommended not using the substitution matrix as the author did not use the logistic scaling exactly as they have written in the paper. Marco said it is difficult to understand exactly what the authors did in the script. Hence, I will not use the substitution matrix in my predictor.
 
 #### Uniref50
-- frequency matrix does not capture much information
-- no output for 1wfbb-1-AUTO.1.fasta
-- evalue of 0.001
-- still does not output PSSM for 1wfbb-1-AUTO.1.fasta
-- Marco's comment about poor sequence
+I reran the psi-blast using Uniref50 out of 2 reasons. First since swiss prot database does not have contain as many sequences as Uniref50, frequency matrices returned from swiss prot does not capture much information. Many of the elements in the frequency matrices are either 100 or 0. I believe that they will make poor models. Second, psiblast did not return any pssm for 1wfbb-1-AUTO.1.fasta. This sequence is short and contains long stretches of 'A'. Hence I want to see if using Uniref50 will return me a pssm for this sequence.
 
-#### contour plot
+I have set my evalue to 0.001 since the database is much larger. However, using Uniref50 still does not give me a pssm for 1wfbb-1-AUTO.1.fasta. Marco said that if a sequence is poor, psi-blast will not return me pssm even if I use Uniref90. Hence, I will remove the sequence from my datasets.
+
+#### Contour Plot
+I managed to get my new contour plots after 2 days of non-stop data crunching. This time the contour plots represent cross-validation accuracy of models train using 20 units/amino acid encoding instead of 21. Here are the results:
 - managed to get my contour plot after 2 days of non stop data crunching
 - confirm my previous suspicion that longer window may not provide more information
 - optimum accuracy score for balanced and non-balanced class-weights is similar
