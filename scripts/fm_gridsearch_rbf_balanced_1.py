@@ -26,7 +26,7 @@ def main(dataset_file):
 
     y_train_encoded = encode_targets(y_train)
 
-    svc = svm.SVC(kernel='rbf', cache_size=5000, class_weight='balanced')
+    svc = svm.SVC(kernel='rbf', cache_size=3000, class_weight='balanced')
     C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
     gamma_range = np.power(2, np.linspace(-15, 3, 10)).tolist()
     parameters = {'C':C_range, 'gamma':gamma_range}

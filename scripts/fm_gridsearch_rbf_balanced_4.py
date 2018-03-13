@@ -35,7 +35,7 @@ def main(dataset_file):
 
     clf = GridSearchCV(svc, parameters, scoring=scoring, n_jobs=-1, refit=False, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
-    test_windows = [23]
+    test_windows = [21]
 
     for window_size in test_windows:
         X_train_encoded, train_groups = encode_pssms(X_train, window_size)
