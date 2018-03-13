@@ -1,5 +1,34 @@
 ## project_mtls
 
+### 20180312
+
+#### PSIPRED
+- 15 groups of 21 units
+- padding encoding for substituion matrix
+- logistic scaling is dubious
+
+#### Uniref50
+- frequency matrix does not capture much information
+- no output for 1wfbb-1-AUTO.1.fasta
+- evalue of 0.001
+- still does not output PSSM for 1wfbb-1-AUTO.1.fasta
+- Marco's comment about poor sequence
+
+#### contour plot
+- managed to get my contour plot after 2 days of non stop data crunching
+- confirm my previous suspicion that longer window may not provide more information
+- optimum accuracy score for balanced and non-balanced class-weights is similar
+- perform f1 score and confusion matrix analysis to see which one is the better predictor
+
+#### Train PSSM fm using gridsearch
+-default rbf kernel svc give ~4% higher accuracy compared to primary sequence predictor
+
+
+
+
+
+### 20180311
+
 ### 20180309
 
 ```
