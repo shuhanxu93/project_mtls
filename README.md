@@ -29,18 +29,10 @@ window size 17
 window size 23
 ![win23.png](/figures/win23.png)
 
-
-
-- managed to get my contour plot after 2 days of non stop data crunching
-- confirm my previous suspicion that longer window may not provide more information
-- optimum accuracy score for balanced and non-balanced class-weights is similar
-- perform f1 score and confusion matrix analysis to see which one is the better predictor
+What I see from these figures is that as window size increases from 11 to 17, the highest accuracy score increases. However, if the window size contines to increase to 23, the highest accuracy score decreases. This may due to fact that larger window size also adds more noise to the input, making the prediction less accurate. This highest accuracy scores for balanced and non-balanced class-weights are similar. I might need to use confusion matrix and f1 score to see which one is the better predictor.
 
 #### Train PSSM fm using gridsearch
--default rbf kernel svc give ~4% higher accuracy compared to primary sequence predictor
-
-
-
+I have tested the PSSM parser I wrote on Sunday. Using the default rbf kernel parameters give me ~4% higher accuracy compared to the primary sequence predictor. I will run grid search over the next few days to find the optimum parameters.
 
 
 ### 20180311
