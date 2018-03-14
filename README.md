@@ -1,8 +1,18 @@
 ## project_mtls
 
+### 20180314
+
+I have finished quite a lot of tasks today. I have rewrote scripts to train the sequence models. I have created two dummy models to test my other scripts. David taught me how to use dictionary to save the model together with the window size so that I do not have to hard code the window size when I am using the model. I have writen the scoring script which includes accuracy, confusion matrix, recall, precision, f1 score, f1 macro, mcc and q3. I added a loop which runs through all the models and store the scores in a csv. Since the arrays are converted to strings when they are loaded from csv, I have to store each element separately. However, I cannot use this method for confusion matrix. I think I will deal with confusion matrix separately. I have also written a script for plotting the best accuracy scores, including error bars, for each window size. Using this plot I have analysed my pssm grid search. It turns out that the optimum window size for my pssm is 11(`class_weight='balanced`) and the score deceases from 11 onwards. See the figure below. I expected the optimum window size to be at least 15. I need to ask the group about this result on Friday. I will continue the momentum tomrrow.
+
+![pssm.png](/figures/pssm.png)
+
+
+
 ### 20180313
 
-F1 macro
+I continued to run the gridsearch today. Warnings for F1 macro kept popping out during the cross-validaty. I realised that this happened when there was no correct prediction for at least one of the classes. As a result, F1 score for that class is undefined and set to zero.
+
+Hope that I will make more progress tomorrow. 
 
 
 ### 20180312
