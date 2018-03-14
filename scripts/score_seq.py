@@ -52,12 +52,14 @@ def main(dataset_file, model_file):
     q3_ave = np.mean(q3_scores)
 
     print("accuracy =", accuracy)
+    print("confusion matrix=", con_mat)
     print("recall =", recall)
     print("precision =", precision)
     print("f1 scores =", f1_scores)
     print("f1 macro = ", f1_macro)
-    print("Q3 score =", q3_ave)
     print("Matthews correlation coefficient (MCC) =", mcc)
+    print("Q3 score =", q3_ave)
+
 
 
 
