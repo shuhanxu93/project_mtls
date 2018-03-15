@@ -20,7 +20,6 @@ def main(dataset_file, window_size, model_name):
     X_train_encoded = encode_attributes(X_train_fragmented)
     y_train_encoded = encode_targets(y_train)
 
-
     clf = svm.SVC(C=2.0, gamma=0.031250, cache_size=5000) # modify the hyper-parameters here
     clf.fit(X_train_encoded, y_train_encoded)
 
