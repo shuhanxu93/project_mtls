@@ -14,7 +14,7 @@ def main(filename):
     fh = open("../datasets/pdb_ids.txt", 'w')
     
     pdbl = PDBList()
-    for pdb_id in pdb_ids_unique[:100]:
+    for pdb_id in pdb_ids_unique[:150]:
         pdbl.retrieve_pdb_file(pdb_id, pdir='../datasets/pdb/')
         fh.write(pdb_id + '\n')
 
