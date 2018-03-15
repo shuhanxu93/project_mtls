@@ -7,15 +7,14 @@ def main(filename):
 
     pdb_ids_unique = []
 
-    print(len(pdb_ids))
     for pdb_id in pdb_ids:
         if pdb_id[:-1] not in pdb_ids_unique:
             pdb_ids_unique.append(pdb_id[:-1])
-
+    
     pdbl = PDBList()
-    for pdb_id in pdb_ids_unique:
+    for pdb_id in pdb_ids_unique[:75]:
         pdbl.retrieve_pdb_file(pdb_id, pdir='../datasets/pdb')
-
+        
 
 
 def parse(filename):
