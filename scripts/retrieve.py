@@ -6,15 +6,20 @@ def main(filename):
     pdb_ids = parse(filename)
 
     pdb_ids_unique = []
-
+    
     for pdb_id in pdb_ids:
         if pdb_id[:-1] not in pdb_ids_unique:
             pdb_ids_unique.append(pdb_id[:-1])
     
+    fh = open("../datasets/pdb_ids.txt", 'w')
+    
     pdbl = PDBList()
-    for pdb_id in pdb_ids_unique[:75]:
-        pdbl.retrieve_pdb_file(pdb_id, pdir='../datasets/pdb')
-        
+    for pdb_id in pdb_ids_unique[:100]:
+        pdbl.retrieve_pdb_file(pdb_id, pdir='../datasets/pdb/')
+        fh.write(pdb_id + '\n')
+
+    fh.close()
+
 
 
 def parse(filename):
