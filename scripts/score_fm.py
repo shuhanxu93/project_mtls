@@ -126,4 +126,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', '../models/test_fm_none.pkl') # modify model_file here (last 2 arguments)
+    main('../datasets/cas3.3line.txt', '../models/test_fm_balanced.pkl') # modify model_file here (last 2 arguments)

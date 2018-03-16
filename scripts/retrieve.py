@@ -35,4 +35,4 @@ def parse(filename):
 
 
 if __name__ == '__main__':
-    main('../datasets/cullpdb_pc5_res1.5_R0.3_d180315_chains1415.txt')
+    main('../datasets/cullpdb_pc10_res1.5_R0.3_d180316_chains1446.txt')
