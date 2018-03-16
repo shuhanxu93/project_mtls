@@ -24,12 +24,21 @@ def main(dataset_file, model_file):
     ids, seq, sec = parse(dataset_file)
 
     # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
-    X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(ids, sec, test_size=0.3, random_state=0)
 
-    # fragment X_train into sliding windows and get group labels
-    X_test_fragmented, dummy = fragment(X_test, window_size) # dummy is not needed for this script
+    index = X_test.index('1wfbb-1-AUTO.1') # remove 1wfbb-1-AUTO.1 as it has no hit in psiblast
+    del X_test[index]
+    del y_test[index]
 
-    X_test_encoded = encode_attributes(X_test_fragmented)
+    pssms = []
+
+    for header in X_test:
+        pssm_filename = '../datasets/pssm/' + header + '.fasta.pssm'
+        pssms.append(np.genfromtxt(pssm_filename, skip_header=3, skip_footer=5, usecols=range(22, 42))) # range(2, 22) for sm
+
+    X_test = pssms
+
+    X_test_encoded, train_groups = encode_pssms(X_test, window_size) # train_groups is not needed for this script
     y_test_encoded = encode_targets(y_test)
     y_predicted = clf.predict(X_test_encoded)
 
@@ -43,12 +52,11 @@ def main(dataset_file, model_file):
 
     q3_scores = np.zeros(len(X_test))
     for index in range(len(X_test)):
-        sequence = [X_test[index]]
+        pssm = [X_test[index]]
         structure = [y_test[index]]
-        sequence_fragmented, dummy = fragment(sequence, window_size)
-        sequence_encoded = encode_attributes(sequence_fragmented)
+        pssm_encoded, train_groups = encode_pssms(pssm, window_size) # train_groups is not needed for this script
         structure_encoded = encode_targets(structure)
-        q3_scores[index] = clf.score(sequence_encoded, structure_encoded)
+        q3_scores[index] = clf.score(pssm_encoded, structure_encoded)
     q3_ave = np.mean(q3_scores)
 
     print("accuracy =", accuracy)
@@ -118,4 +126,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', '../models/test_balanced.pkl') # modify model_file here (last 2 arguments)
+    main('../datasets/cas3.3line.txt', '../models/test_fm_none.pkl') # modify model_file here (last 2 arguments)

@@ -27,7 +27,7 @@ def main(dataset_file, model_file):
     X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
 
     # fragment X_train into sliding windows and get group labels
-    X_test_fragmented, dummy = fragment(X_test, window_size) # dummy is not needed for this script
+    X_test_fragmented, train_groups = fragment(X_test, window_size) # train_groups is not needed for this script
 
     X_test_encoded = encode_attributes(X_test_fragmented)
     y_test_encoded = encode_targets(y_test)
@@ -45,7 +45,7 @@ def main(dataset_file, model_file):
     for index in range(len(X_test)):
         sequence = [X_test[index]]
         structure = [y_test[index]]
-        sequence_fragmented, dummy = fragment(sequence, window_size)
+        sequence_fragmented, train_groups = fragment(sequence, window_size) # train_groups is not needed for this script
         sequence_encoded = encode_attributes(sequence_fragmented)
         structure_encoded = encode_targets(structure)
         q3_scores[index] = clf.score(sequence_encoded, structure_encoded)

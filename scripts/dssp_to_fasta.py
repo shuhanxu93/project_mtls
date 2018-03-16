@@ -19,7 +19,7 @@ for pdb_id in pdb_ids:
         sequences.append(seq)
         sec = ''.join(np.genfromtxt(dssp_filename, skip_header=28, usecols=1,
                       dtype=str, delimiter=[16,1]).tolist())
-        sec = sec.replace(' ', 'L') # convert space to 'L'
+        sec = sub("[^HE]", 'C', sec) # convert all secondary structures except 'H' and 'E' to 'C'
         structures.append(sec)
 
 for index in range(len(ids)):

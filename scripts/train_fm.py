@@ -22,7 +22,7 @@ def main(dataset_file, window_size, model_name):
 
     X_train = pssms
 
-    X_train_encoded, train_groups = encode_pssms(X_train, window_size)
+    X_train_encoded, train_groups = encode_pssms(X_train, window_size) # train_groups is not needed for this script
     y_train_encoded = encode_targets(y_train)
 
     clf = svm.SVC(C=8.0, gamma=0.125000, cache_size=5000, class_weight='balanced') # modify the hyper-parameters here

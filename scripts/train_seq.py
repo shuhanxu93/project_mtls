@@ -15,7 +15,7 @@ def main(dataset_file, window_size, model_name):
     X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
 
     # fragment X_train into sliding windows and get group labels
-    X_train_fragmented, train_groups = fragment(X_train, window_size)
+    X_train_fragmented, train_groups = fragment(X_train, window_size) # train_groups is not needed for this script
 
     X_train_encoded = encode_attributes(X_train_fragmented)
     y_train_encoded = encode_targets(y_train)
