@@ -1,0 +1,155 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 2opc
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_Q6R661 AvrL567-A n=13 Tax=Melampsora lini TaxID=5261 R...  247     1e-81
+  UniRef50_F4RT28 Secreted protein n=1 Tax=Melampsora larici-popu...  78.6    5e-16
+
+
+> UniRef50_Q6R661 AvrL567-A n=13 Tax=Melampsora lini TaxID=5261 
+RepID=Q6R661_MELLI
+Length=150
+
+ Score = 247 bits (630),  Expect = 1e-81, Method: Compositional matrix adjust.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN  60
+            EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN
+Sbjct  36   EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN  95
+
+Query  61   RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIPNFPDYIKIKLVPKT  115
+            RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIPNFPDYIKIKLVPKT
+Sbjct  96   RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIPNFPDYIKIKLVPKT  150
+
+
+> UniRef50_F4RT28 Secreted protein n=1 Tax=Melampsora larici-populina 
+(strain 98AG31 / pathotype 3-4-7) TaxID=747676 RepID=F4RT28_MELLP
+Length=151
+
+ Score = 78.6 bits (192),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 50/119 (42%), Positives = 69/119 (58%), Gaps = 8/119 (7%)
+
+Query  1    EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN  60
+            + +T F +  T+   LS L+ V W NE +TMP FK +  ++ +E +F V I HS+GP  N
+Sbjct  32   QQWTDFTQHSTSEATLSNLMDVWW-NEPLTMPEFKSVAEDRDQEAYFDVQILHSTGPDCN  90
+
+Query  61   RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIP---NFPDYIKIKL--VPK  114
+            RARSLG V+SN ++ W    R  G +   IE  HLF   +    N P +IKI+L  VPK
+Sbjct  91   RARSLGIVSSN-NRDWT-VPRRIGKSAVVIEEKHLFAGSVVFRHNLPPFIKIRLCQVPK  147
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238922165510
+Results from round 2
+
+
+Query= 2opc
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_Q6R661 AvrL567-A n=13 Tax=Melampsora lini TaxID=5261 R...  215     2e-69
+  UniRef50_F4RT28 Secreted protein n=1 Tax=Melampsora larici-popu...  179     3e-55
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef50_Q6R661 AvrL567-A n=13 Tax=Melampsora lini TaxID=5261 
+RepID=Q6R661_MELLI
+Length=150
+
+ Score = 215 bits (548),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 115/115 (100%), Positives = 115/115 (100%), Gaps = 0/115 (0%)
+
+Query  1    EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN  60
+            EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN
+Sbjct  36   EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN  95
+
+Query  61   RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIPNFPDYIKIKLVPKT  115
+            RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIPNFPDYIKIKLVPKT
+Sbjct  96   RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIPNFPDYIKIKLVPKT  150
+
+
+> UniRef50_F4RT28 Secreted protein n=1 Tax=Melampsora larici-populina 
+(strain 98AG31 / pathotype 3-4-7) TaxID=747676 RepID=F4RT28_MELLP
+Length=151
+
+ Score = 179 bits (454),  Expect = 3e-55, Method: Composition-based stats.
+ Identities = 50/119 (42%), Positives = 69/119 (58%), Gaps = 8/119 (7%)
+
+Query  1    EGYTRFYRSPTASVILSGLVKVKWDNEQMTMPLFKWIGGEQAEELHFCVHIAHSSGPKLN  60
+            + +T F +  T+   LS L+ V W NE +TMP FK +  ++ +E +F V I HS+GP  N
+Sbjct  32   QQWTDFTQHSTSEATLSNLMDVWW-NEPLTMPEFKSVAEDRDQEAYFDVQILHSTGPDCN  90
+
+Query  61   RARSLGTVNSNMDQHWAQAQRNSGATRRTIEGFHLFENDIP---NFPDYIKIKL--VPK  114
+            RARSLG V+SN ++ W    R  G +   IE  HLF   +    N P +IKI+L  VPK
+Sbjct  91   RARSLGIVSSN-NRDWT-VPRRIGKSAVVIEEKHLFAGSVVFRHNLPPFIKIRLCQVPK  147
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.131    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0389    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238922165510
+
+Search has CONVERGED!
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,841 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 5n41
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_A0A0E3GTJ4 Uncharacterized protein n=26 Tax=Sulfolobal...  120     5e-34
+  UniRef50_A0A1W6K193 Uncharacterized protein n=3 Tax=Sulfolobace...  80.1    3e-18
+  UniRef50_F4FZM9 Uncharacterized protein n=1 Tax=Metallosphaera ...  70.5    2e-14
+  UniRef50_A0A256ZUR3 Uncharacterized protein n=1 Tax=Desulfuroco...  61.2    5e-11
+  UniRef50_U3TC80 Uncharacterized protein n=2 Tax=Aeropyrum camin...  59.3    5e-10
+  UniRef50_E0SPI9 Uncharacterized protein n=2 Tax=Thermoprotei Ta...  58.9    7e-10
+  UniRef50_A8ABS0 Uncharacterized protein n=2 Tax=Ignicoccus TaxI...  57.8    1e-09
+  UniRef50_D9PZT6 Uncharacterized protein n=2 Tax=Acidilobus TaxI...  57.0    4e-09
+  UniRef50_L0ABQ6 Uncharacterized protein n=1 Tax=Caldisphaera la...  55.8    1e-08
+  UniRef50_A0A256ZVM7 Uncharacterized protein n=2 Tax=unclassifie...  55.5    1e-08
+  UniRef50_V4JMZ7 Uncharacterized protein n=4 Tax=environmental s...  53.5    7e-08
+  UniRef50_G0EG33 Uncharacterized protein n=1 Tax=Pyrolobus fumar...  53.1    1e-07
+  UniRef50_A0A256YZ95 Uncharacterized protein n=2 Tax=unclassifie...  49.3    2e-06
+  UniRef50_A0A256XWL4 Uncharacterized protein n=1 Tax=Thermofilum...  48.5    2e-05
+  UniRef50_A2BLD0 Uncharacterized protein n=4 Tax=Pyrodictiaceae ...  44.3    2e-04
+
+
+> UniRef50_A0A0E3GTJ4 Uncharacterized protein n=26 Tax=Sulfolobales 
+TaxID=2281 RepID=A0A0E3GTJ4_SULSF
+Length=76
+
+ Score = 120 bits (302),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR
+Sbjct  11  VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  70
+
+
+> UniRef50_A0A1W6K193 Uncharacterized protein n=3 Tax=Sulfolobaceae 
+TaxID=118883 RepID=A0A1W6K193_9CREN
+Length=63
+
+ Score = 80.1 bits (196),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 36/58 (62%), Positives = 48/58 (83%), Gaps = 0/58 (0%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           + ++EIA +YFK Y+SVGEI+A  DLKA G+  P+ VI++L+E G+IEKGEGCYNLVR
+Sbjct  3   ETDLEIAEKYFKKYLSVGEIIAVRDLKALGVKEPEKVIAELMEKGVIEKGEGCYNLVR  60
+
+
+> UniRef50_F4FZM9 Uncharacterized protein n=1 Tax=Metallosphaera 
+cuprina (strain Ar-4) TaxID=1006006 RepID=F4FZM9_METCR
+Length=66
+
+ Score = 70.5 bits (171),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/57 (51%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           +++EIA  YF+  +SVGE +A  DLKA G+  P+  I++L+  G+IE+GEGCYNL+R
+Sbjct  5   RDLEIAKRYFQTNLSVGETIAVRDLKALGVREPEKAIAELLRRGVIERGEGCYNLLR  61
+
+
+> UniRef50_A0A256ZUR3 Uncharacterized protein n=1 Tax=Desulfurococcales 
+archaeon ex4484_217_2 TaxID=2012519 RepID=A0A256ZUR3_9CREN
+Length=66
+
+ Score = 61.2 bits (147),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 29/45 (64%), Positives = 35/45 (78%), Gaps = 0/45 (0%)
+
+Query  16  YISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           YISVGEI+A  +LKA GISNP  VI  LI  G++E+GEGCYNL +
+Sbjct  3   YISVGEILAEKELKALGISNPLKVIKNLILKGVLERGEGCYNLAK  47
+
+
+> UniRef50_U3TC80 Uncharacterized protein n=2 Tax=Aeropyrum camini 
+TaxID=229980 RepID=U3TC80_9CREN
+Length=90
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 38/49 (78%), Gaps = 0/49 (0%)
+
+Query  10  IEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           ++YF   ISVGEI A  +LK +G+  P+ VIS+L+E+G++E+G GCYNL
+Sbjct  23  LKYFFENISVGEIKAVEELKHQGVEEPEEVISRLVELGLLEEGVGCYNL  71
+
+
+> UniRef50_E0SPI9 Uncharacterized protein n=2 Tax=Thermoprotei 
+TaxID=183924 RepID=E0SPI9_IGNAA
+Length=103
+
+ Score = 58.9 bits (141),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 28/52 (54%), Positives = 39/52 (75%), Gaps = 1/52 (2%)
+
+Query  10  IEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           +EYF   ISVG I+A  +LKA  GI NP+ +I KLI++G++E+G GCYNL +
+Sbjct  32  LEYFLQNISVGSIIAQRELKAFYGIENPKDIIRKLIDLGLLEQGYGCYNLAK  83
+
+
+> UniRef50_A8ABS0 Uncharacterized protein n=2 Tax=Ignicoccus TaxID=54258 
+RepID=A8ABS0_IGNH4
+Length=72
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 25/56 (45%), Positives = 38/56 (68%), Gaps = 0/56 (0%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           E ++ +EYF  + SVGEI+A  +L+ +GI  P  V+  L++ GII  GEGCY+L +
+Sbjct  13  EEKVVVEYFVAFKSVGEIIALQELRRKGIKRPTLVLDSLVKKGIIRHGEGCYSLAK  68
+
+
+> UniRef50_D9PZT6 Uncharacterized protein n=2 Tax=Acidilobus TaxID=105850 
+RepID=D9PZT6_ACIS3
+Length=100
+
+ Score = 57.0 bits (136),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 24/54 (44%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           E+  A  Y  + +SVG++ A +DL+ RGI +P AV+ +L+ MG+ E+G+ CYNL
+Sbjct  22  ELREAFIYLVDNVSVGDLRAAIDLRRRGIRDPAAVLEELVNMGLAERGDECYNL  75
+
+
+> UniRef50_L0ABQ6 Uncharacterized protein n=1 Tax=Caldisphaera 
+lagunensis (strain DSM 15908 / JCM 11604 / IC-154) TaxID=1056495 
+RepID=L0ABQ6_CALLD
+Length=91
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 28/58 (48%), Positives = 41/58 (71%), Gaps = 1/58 (2%)
+
+Query  2   NQKEIEIAI-EYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           N  E+E  + +YF   ISVG++ A M+L+ +GI +P++VI  LI MG+IE+G  CYNL
+Sbjct  18  NLSEVEKKVFKYFLESISVGDLRAIMELEKKGIKDPRSVIENLILMGLIERGNYCYNL  75
+
+
+> UniRef50_A0A256ZVM7 Uncharacterized protein n=2 Tax=unclassified 
+Desulfurococcales (miscellaneous) TaxID=221496 RepID=A0A256ZVM7_9CREN
+Length=94
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 26/49 (53%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  12  YFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           YF   ISVGEI+A  +L+  G+ NP   I  LI  G++EKGEGCYNL +
+Sbjct  29  YFIKNISVGEILALRELEILGVKNPTRTIRSLILKGVLEKGEGCYNLAK  77
+
+
+> UniRef50_V4JMZ7 Uncharacterized protein n=4 Tax=environmental 
+samples TaxID=2066533 RepID=V4JMZ7_9CREN
+Length=98
+
+ Score = 53.5 bits (127),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 23/54 (43%), Positives = 36/54 (67%), Gaps = 0/54 (0%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           E   A  YF + +SVG++ A  DL  +GI +P  VI +LIE+G++E+G  C+N+
+Sbjct  22  EARDAFLYFLDNVSVGDLRAIRDLSKKGIRDPAGVIEELIEVGLLERGRDCFNV  75
+
+
+> UniRef50_G0EG33 Uncharacterized protein n=1 Tax=Pyrolobus fumarii 
+(strain DSM 11204 / 1A) TaxID=694429 RepID=G0EG33_PYRF1
+Length=104
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/57 (46%), Positives = 35/57 (61%), Gaps = 1/57 (2%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLK-ARGISNPQAVISKLIEMGIIEKGEGCYNLV  59
+           KE  I   Y   +ISVGEI+A  +L+   GI  P  +  ++ E G++EKGEGCYNL 
+Sbjct  26  KEEYITFRYLWEHISVGEIIAEQELRIQHGIMKPDLMFKRIREKGLMEKGEGCYNLA  82
+
+
+> UniRef50_A0A256YZ95 Uncharacterized protein n=2 Tax=unclassified 
+Desulfurococcales (miscellaneous) TaxID=221496 RepID=A0A256YZ95_9CREN
+Length=90
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 21/50 (42%), Positives = 36/50 (72%), Gaps = 1/50 (2%)
+
+Query  10  IEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           ++YF  Y SVGE++A  +L+    + +P  +I+KLI++GI+ +G GCYN+
+Sbjct  24  LKYFITYRSVGELLAVRELRGLYKVRDPTKIIAKLIDLGILSRGVGCYNI  73
+
+
+> UniRef50_A0A256XWL4 Uncharacterized protein n=1 Tax=Thermofilum 
+sp. ex4484_79 TaxID=2012527 RepID=A0A256XWL4_9CREN
+Length=257
+
+ Score = 48.5 bits (114),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 23/50 (46%), Positives = 33/50 (66%), Gaps = 0/50 (0%)
+
+Query  2    NQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEK  51
+            + K++EIA+ Y   Y SVGEI    DL+  G+ NP+ VI+K+IE G  E+
+Sbjct  182  DNKDMEIALSYLAKYWSVGEIRFIQDLRRMGVRNPRDVINKIIEKGYAER  231
+
+
+> UniRef50_A2BLD0 Uncharacterized protein n=4 Tax=Pyrodictiaceae 
+TaxID=2307 RepID=A2BLD0_HYPBU
+Length=105
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 23/50 (46%), Positives = 31/50 (62%), Gaps = 1/50 (2%)
+
+Query  12  YFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           Y  + ISVGE++   DL     +S P  V  +L E G+IE+GEGCYNL +
+Sbjct  33  YVWDNISVGELLFERDLYTIYKVSKPILVARRLREKGVIERGEGCYNLAK  82
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238535682056
+Results from round 2
+
+
+Query= 5n41
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A0A0E3GTJ4 Uncharacterized protein n=26 Tax=Sulfolobal...  86.1    2e-20
+  UniRef50_A0A1W6K193 Uncharacterized protein n=3 Tax=Sulfolobace...  75.3    2e-16
+  UniRef50_F4FZM9 Uncharacterized protein n=1 Tax=Metallosphaera ...  73.8    8e-16
+  UniRef50_G0EG33 Uncharacterized protein n=1 Tax=Pyrolobus fumar...  73.4    3e-15
+  UniRef50_A0A256ZVM7 Uncharacterized protein n=2 Tax=unclassifie...  72.6    4e-15
+  UniRef50_A8ABS0 Uncharacterized protein n=2 Tax=Ignicoccus TaxI...  71.9    4e-15
+  UniRef50_V4JMZ7 Uncharacterized protein n=4 Tax=environmental s...  72.2    6e-15
+  UniRef50_D9PZT6 Uncharacterized protein n=2 Tax=Acidilobus TaxI...  71.5    1e-14
+  UniRef50_L0ABQ6 Uncharacterized protein n=1 Tax=Caldisphaera la...  69.9    4e-14
+  UniRef50_E0SPI9 Uncharacterized protein n=2 Tax=Thermoprotei Ta...  69.6    7e-14
+  UniRef50_U3TC80 Uncharacterized protein n=2 Tax=Aeropyrum camin...  68.4    2e-13
+  UniRef50_A0A256YZ95 Uncharacterized protein n=2 Tax=unclassifie...  67.6    3e-13
+  UniRef50_A2BLD0 Uncharacterized protein n=4 Tax=Pyrodictiaceae ...  66.1    1e-12
+  UniRef50_A0A256ZUR3 Uncharacterized protein n=1 Tax=Desulfuroco...  64.9    2e-12
+  UniRef50_A0A256XWL4 Uncharacterized protein n=1 Tax=Thermofilum...  64.5    2e-11
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_S5ZES1 Uncharacterized protein n=2 Tax=Thermofilum Tax...  51.4    2e-06
+  UniRef50_A0A256YGZ0 Uncharacterized protein n=1 Tax=Desulfuroco...  47.2    2e-05
+  UniRef50_A0A257AB33 Uncharacterized protein n=1 Tax=Thermofilum...  47.2    3e-05
+  UniRef50_I0A0Z8 Uncharacterized protein n=1 Tax=Fervidicoccus f...  42.6    3e-04
+
+
+> UniRef50_A0A0E3GTJ4 Uncharacterized protein n=26 Tax=Sulfolobales 
+TaxID=2281 RepID=A0A0E3GTJ4_SULSF
+Length=76
+
+ Score = 86.1 bits (212),  Expect = 2e-20, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR
+Sbjct  11  VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  70
+
+
+> UniRef50_A0A1W6K193 Uncharacterized protein n=3 Tax=Sulfolobaceae 
+TaxID=118883 RepID=A0A1W6K193_9CREN
+Length=63
+
+ Score = 75.3 bits (184),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 48/58 (83%), Gaps = 0/58 (0%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           + ++EIA +YFK Y+SVGEI+A  DLKA G+  P+ VI++L+E G+IEKGEGCYNLVR
+Sbjct  3   ETDLEIAEKYFKKYLSVGEIIAVRDLKALGVKEPEKVIAELMEKGVIEKGEGCYNLVR  60
+
+
+> UniRef50_F4FZM9 Uncharacterized protein n=1 Tax=Metallosphaera 
+cuprina (strain Ar-4) TaxID=1006006 RepID=F4FZM9_METCR
+Length=66
+
+ Score = 73.8 bits (180),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 29/57 (51%), Positives = 43/57 (75%), Gaps = 0/57 (0%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           +++EIA  YF+  +SVGE +A  DLKA G+  P+  I++L+  G+IE+GEGCYNL+R
+Sbjct  5   RDLEIAKRYFQTNLSVGETIAVRDLKALGVREPEKAIAELLRRGVIERGEGCYNLLR  61
+
+
+> UniRef50_G0EG33 Uncharacterized protein n=1 Tax=Pyrolobus fumarii 
+(strain DSM 11204 / 1A) TaxID=694429 RepID=G0EG33_PYRF1
+Length=104
+
+ Score = 73.4 bits (179),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 26/57 (46%), Positives = 35/57 (61%), Gaps = 1/57 (2%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLK-ARGISNPQAVISKLIEMGIIEKGEGCYNLV  59
+           KE  I   Y   +ISVGEI+A  +L+   GI  P  +  ++ E G++EKGEGCYNL 
+Sbjct  26  KEEYITFRYLWEHISVGEIIAEQELRIQHGIMKPDLMFKRIREKGLMEKGEGCYNLA  82
+
+
+> UniRef50_A0A256ZVM7 Uncharacterized protein n=2 Tax=unclassified 
+Desulfurococcales (miscellaneous) TaxID=221496 RepID=A0A256ZVM7_9CREN
+Length=94
+
+ Score = 72.6 bits (177),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 26/60 (43%), Positives = 38/60 (63%), Gaps = 0/60 (0%)
+
+Query  1   VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           +  ++ +  + YF   ISVGEI+A  +L+  G+ NP   I  LI  G++EKGEGCYNL +
+Sbjct  18  ITSEDEKKVVLYFIKNISVGEILALRELEILGVKNPTRTIRSLILKGVLEKGEGCYNLAK  77
+
+
+> UniRef50_A8ABS0 Uncharacterized protein n=2 Tax=Ignicoccus TaxID=54258 
+RepID=A8ABS0_IGNH4
+Length=72
+
+ Score = 71.9 bits (175),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 25/57 (44%), Positives = 39/57 (68%), Gaps = 0/57 (0%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           +E ++ +EYF  + SVGEI+A  +L+ +GI  P  V+  L++ GII  GEGCY+L +
+Sbjct  12  EEEKVVVEYFVAFKSVGEIIALQELRRKGIKRPTLVLDSLVKKGIIRHGEGCYSLAK  68
+
+
+> UniRef50_V4JMZ7 Uncharacterized protein n=4 Tax=environmental 
+samples TaxID=2066533 RepID=V4JMZ7_9CREN
+Length=98
+
+ Score = 72.2 bits (176),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 23/54 (43%), Positives = 36/54 (67%), Gaps = 0/54 (0%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           E   A  YF + +SVG++ A  DL  +GI +P  VI +LIE+G++E+G  C+N+
+Sbjct  22  EARDAFLYFLDNVSVGDLRAIRDLSKKGIRDPAGVIEELIEVGLLERGRDCFNV  75
+
+
+> UniRef50_D9PZT6 Uncharacterized protein n=2 Tax=Acidilobus TaxID=105850 
+RepID=D9PZT6_ACIS3
+Length=100
+
+ Score = 71.5 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 24/54 (44%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           E+  A  Y  + +SVG++ A +DL+ RGI +P AV+ +L+ MG+ E+G+ CYNL
+Sbjct  22  ELREAFIYLVDNVSVGDLRAAIDLRRRGIRDPAAVLEELVNMGLAERGDECYNL  75
+
+
+> UniRef50_L0ABQ6 Uncharacterized protein n=1 Tax=Caldisphaera 
+lagunensis (strain DSM 15908 / JCM 11604 / IC-154) TaxID=1056495 
+RepID=L0ABQ6_CALLD
+Length=91
+
+ Score = 69.9 bits (170),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 28/58 (48%), Positives = 40/58 (69%), Gaps = 1/58 (2%)
+
+Query  2   NQKEIEI-AIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           N  E+E    +YF   ISVG++ A M+L+ +GI +P++VI  LI MG+IE+G  CYNL
+Sbjct  18  NLSEVEKKVFKYFLESISVGDLRAIMELEKKGIKDPRSVIENLILMGLIERGNYCYNL  75
+
+
+> UniRef50_E0SPI9 Uncharacterized protein n=2 Tax=Thermoprotei 
+TaxID=183924 RepID=E0SPI9_IGNAA
+Length=103
+
+ Score = 69.6 bits (169),  Expect = 7e-14, Method: Composition-based stats.
+ Identities = 29/59 (49%), Positives = 41/59 (69%), Gaps = 1/59 (2%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             E +  +EYF   ISVG I+A  +LKA  GI NP+ +I KLI++G++E+G GCYNL +
+Sbjct  25  NPEEKKVLEYFLQNISVGSIIAQRELKAFYGIENPKDIIRKLIDLGLLEQGYGCYNLAK  83
+
+
+> UniRef50_U3TC80 Uncharacterized protein n=2 Tax=Aeropyrum camini 
+TaxID=229980 RepID=U3TC80_9CREN
+Length=90
+
+ Score = 68.4 bits (166),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 26/54 (48%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  6   IEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLV  59
+               ++YF   ISVGEI A  +LK +G+  P+ VIS+L+E+G++E+G GCYNL 
+Sbjct  19  ERRVLKYFFENISVGEIKAVEELKHQGVEEPEEVISRLVELGLLEEGVGCYNLS  72
+
+
+> UniRef50_A0A256YZ95 Uncharacterized protein n=2 Tax=unclassified 
+Desulfurococcales (miscellaneous) TaxID=221496 RepID=A0A256YZ95_9CREN
+Length=90
+
+ Score = 67.6 bits (164),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 21/56 (38%), Positives = 38/56 (68%), Gaps = 1/56 (2%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLV  59
+           + +  ++YF  Y SVGE++A  +L+    + +P  +I+KLI++GI+ +G GCYN+ 
+Sbjct  19  DEKKVLKYFITYRSVGELLAVRELRGLYKVRDPTKIIAKLIDLGILSRGVGCYNIS  74
+
+
+> UniRef50_A2BLD0 Uncharacterized protein n=4 Tax=Pyrodictiaceae 
+TaxID=2307 RepID=A2BLD0_HYPBU
+Length=105
+
+ Score = 66.1 bits (160),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 32/58 (55%), Gaps = 1/58 (2%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+            E      Y  + ISVGE++   DL     +S P  V  +L E G+IE+GEGCYNL +
+Sbjct  25  SEELKVFAYVWDNISVGELLFERDLYTIYKVSKPILVARRLREKGVIERGEGCYNLAK  82
+
+
+> UniRef50_A0A256ZUR3 Uncharacterized protein n=1 Tax=Desulfurococcales 
+archaeon ex4484_217_2 TaxID=2012519 RepID=A0A256ZUR3_9CREN
+Length=66
+
+ Score = 64.9 bits (157),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/47 (62%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  14  KNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             YISVGEI+A  +LKA GISNP  VI  LI  G++E+GEGCYNL +
+Sbjct  1   MKYISVGEILAEKELKALGISNPLKVIKNLILKGVLERGEGCYNLAK  47
+
+
+> UniRef50_A0A256XWL4 Uncharacterized protein n=1 Tax=Thermofilum 
+sp. ex4484_79 TaxID=2012527 RepID=A0A256XWL4_9CREN
+Length=257
+
+ Score = 64.5 bits (156),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/50 (46%), Positives = 33/50 (66%), Gaps = 0/50 (0%)
+
+Query  2    NQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEK  51
+            + K++EIA+ Y   Y SVGEI    DL+  G+ NP+ VI+K+IE G  E+
+Sbjct  182  DNKDMEIALSYLAKYWSVGEIRFIQDLRRMGVRNPRDVINKIIEKGYAER  231
+
+
+> UniRef50_S5ZES1 Uncharacterized protein n=2 Tax=Thermofilum TaxID=2268 
+RepID=S5ZES1_9CREN
+Length=268
+
+ Score = 51.4 bits (122),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  4    KEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIE  50
+             ++E AI Y   Y SVG +    DL   G+ +P  VI++L   G+IE
+Sbjct  190  SDLETAIRYLGKYWSVGRLRLIDDLMGMGVKDPIKVINELARKGLIE  236
+
+
+> UniRef50_A0A256YGZ0 Uncharacterized protein n=1 Tax=Desulfurococcales 
+archaeon ex4484_58 TaxID=2012521 RepID=A0A256YGZ0_9CREN
+Length=116
+
+ Score = 47.2 bits (111),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 23/74 (31%), Positives = 39/74 (53%), Gaps = 17/74 (23%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLK--ARGISNPQAV---------------ISKLIEM  46
+           K   + +EYF  +ISVGEI+A ++L+   + + +P+ V               +++L+E 
+Sbjct  17  KLERLIMEYFIKHISVGEIIAVLELRDEIKRLKDPELVPEFDDIIIELEINKALARLVEK  76
+
+Query  47  GIIEKGEGCYNLVR  60
+           G +E   GCYNL  
+Sbjct  77  GFLEHVGGCYNLAE  90
+
+
+> UniRef50_A0A257AB33 Uncharacterized protein n=1 Tax=Thermofilum 
+sp. ex4484_15 TaxID=2012526 RepID=A0A257AB33_9CREN
+Length=189
+
+ Score = 47.2 bits (111),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  6    IEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGII  49
+            +  AI Y   Y SVGEI  ++DLKA G+ + + ++ KL+E+G I
+Sbjct  112  LYKAIRYLNRYWSVGEIRFSIDLKAMGVRDVRKILRKLLELGYI  155
+
+
+> UniRef50_I0A0Z8 Uncharacterized protein n=1 Tax=Fervidicoccus 
+fontis (strain DSM 19380 / JCM 18336 / VKM B-2539 / Kam940) 
+TaxID=1163730 RepID=I0A0Z8_FERFK
+Length=43
+
+ Score = 42.6 bits (99),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 24/37 (65%), Gaps = 1/37 (3%)
+
+Query  25  TMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             +L++  G+  P+ +I  LIE G IE+G GCYNL R
+Sbjct  1   MRELESIMGLKEPRRIIESLIEKGYIERGSGCYNLSR  37
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.149    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0459    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238535682056
+Results from round 3
+
+
+Query= 5n41
+
+Length=60
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_A0A0E3GTJ4 Uncharacterized protein n=26 Tax=Sulfolobal...  84.2    1e-19
+  UniRef50_A0A256ZVM7 Uncharacterized protein n=2 Tax=unclassifie...  77.6    5e-17
+  UniRef50_A0A1W6K193 Uncharacterized protein n=3 Tax=Sulfolobace...  75.3    2e-16
+  UniRef50_F4FZM9 Uncharacterized protein n=1 Tax=Metallosphaera ...  73.0    2e-15
+  UniRef50_G0EG33 Uncharacterized protein n=1 Tax=Pyrolobus fumar...  73.8    2e-15
+  UniRef50_A8ABS0 Uncharacterized protein n=2 Tax=Ignicoccus TaxI...  73.0    2e-15
+  UniRef50_L0ABQ6 Uncharacterized protein n=1 Tax=Caldisphaera la...  72.2    4e-15
+  UniRef50_E0SPI9 Uncharacterized protein n=2 Tax=Thermoprotei Ta...  71.5    1e-14
+  UniRef50_V4JMZ7 Uncharacterized protein n=4 Tax=environmental s...  71.5    1e-14
+  UniRef50_D9PZT6 Uncharacterized protein n=2 Tax=Acidilobus TaxI...  71.5    1e-14
+  UniRef50_U3TC80 Uncharacterized protein n=2 Tax=Aeropyrum camin...  70.3    3e-14
+  UniRef50_A0A256YZ95 Uncharacterized protein n=2 Tax=unclassifie...  69.9    4e-14
+  UniRef50_A2BLD0 Uncharacterized protein n=4 Tax=Pyrodictiaceae ...  69.2    1e-13
+  UniRef50_A0A256ZUR3 Uncharacterized protein n=1 Tax=Desulfuroco...  64.9    2e-12
+  UniRef50_A0A256XWL4 Uncharacterized protein n=1 Tax=Thermofilum...  66.8    3e-12
+  UniRef50_S5ZES1 Uncharacterized protein n=2 Tax=Thermofilum Tax...  61.5    4e-10
+  UniRef50_A0A256YGZ0 Uncharacterized protein n=1 Tax=Desulfuroco...  56.4    6e-09
+  UniRef50_A0A257AB33 Uncharacterized protein n=1 Tax=Thermofilum...  55.7    2e-08
+  UniRef50_I0A0Z8 Uncharacterized protein n=1 Tax=Fervidicoccus f...  46.0    2e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A3DLH0 Uncharacterized protein n=4 Tax=Desulfurococcac...  46.0    4e-05
+  UniRef50_A1RYY5 Uncharacterized protein n=1 Tax=Thermofilum pen...  47.2    5e-05
+
+
+> UniRef50_A0A0E3GTJ4 Uncharacterized protein n=26 Tax=Sulfolobales 
+TaxID=2281 RepID=A0A0E3GTJ4_SULSF
+Length=76
+
+ Score = 84.2 bits (207),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 60/60 (100%), Positives = 60/60 (100%), Gaps = 0/60 (0%)
+
+Query  1   VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR
+Sbjct  11  VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  70
+
+
+> UniRef50_A0A256ZVM7 Uncharacterized protein n=2 Tax=unclassified 
+Desulfurococcales (miscellaneous) TaxID=221496 RepID=A0A256ZVM7_9CREN
+Length=94
+
+ Score = 77.6 bits (190),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 26/60 (43%), Positives = 38/60 (63%), Gaps = 0/60 (0%)
+
+Query  1   VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           +  ++ +  + YF   ISVGEI+A  +L+  G+ NP   I  LI  G++EKGEGCYNL +
+Sbjct  18  ITSEDEKKVVLYFIKNISVGEILALRELEILGVKNPTRTIRSLILKGVLEKGEGCYNLAK  77
+
+
+> UniRef50_A0A1W6K193 Uncharacterized protein n=3 Tax=Sulfolobaceae 
+TaxID=118883 RepID=A0A1W6K193_9CREN
+Length=63
+
+ Score = 75.3 bits (184),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 36/58 (62%), Positives = 48/58 (83%), Gaps = 0/58 (0%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           + ++EIA +YFK Y+SVGEI+A  DLKA G+  P+ VI++L+E G+IEKGEGCYNLVR
+Sbjct  3   ETDLEIAEKYFKKYLSVGEIIAVRDLKALGVKEPEKVIAELMEKGVIEKGEGCYNLVR  60
+
+
+> UniRef50_F4FZM9 Uncharacterized protein n=1 Tax=Metallosphaera 
+cuprina (strain Ar-4) TaxID=1006006 RepID=F4FZM9_METCR
+Length=66
+
+ Score = 73.0 bits (178),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 29/59 (49%), Positives = 43/59 (73%), Gaps = 0/59 (0%)
+
+Query  2   NQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             +++EIA  YF+  +SVGE +A  DLKA G+  P+  I++L+  G+IE+GEGCYNL+R
+Sbjct  3   ESRDLEIAKRYFQTNLSVGETIAVRDLKALGVREPEKAIAELLRRGVIERGEGCYNLLR  61
+
+
+> UniRef50_G0EG33 Uncharacterized protein n=1 Tax=Pyrolobus fumarii 
+(strain DSM 11204 / 1A) TaxID=694429 RepID=G0EG33_PYRF1
+Length=104
+
+ Score = 73.8 bits (180),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 26/57 (46%), Positives = 35/57 (61%), Gaps = 1/57 (2%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLK-ARGISNPQAVISKLIEMGIIEKGEGCYNLV  59
+           KE  I   Y   +ISVGEI+A  +L+   GI  P  +  ++ E G++EKGEGCYNL 
+Sbjct  26  KEEYITFRYLWEHISVGEIIAEQELRIQHGIMKPDLMFKRIREKGLMEKGEGCYNLA  82
+
+
+> UniRef50_A8ABS0 Uncharacterized protein n=2 Tax=Ignicoccus TaxID=54258 
+RepID=A8ABS0_IGNH4
+Length=72
+
+ Score = 73.0 bits (178),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 25/57 (44%), Positives = 39/57 (68%), Gaps = 0/57 (0%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           +E ++ +EYF  + SVGEI+A  +L+ +GI  P  V+  L++ GII  GEGCY+L +
+Sbjct  12  EEEKVVVEYFVAFKSVGEIIALQELRRKGIKRPTLVLDSLVKKGIIRHGEGCYSLAK  68
+
+
+> UniRef50_L0ABQ6 Uncharacterized protein n=1 Tax=Caldisphaera 
+lagunensis (strain DSM 15908 / JCM 11604 / IC-154) TaxID=1056495 
+RepID=L0ABQ6_CALLD
+Length=91
+
+ Score = 72.2 bits (176),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 25/56 (45%), Positives = 38/56 (68%), Gaps = 0/56 (0%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+            +  +   +YF   ISVG++ A M+L+ +GI +P++VI  LI MG+IE+G  CYNL
+Sbjct  20  SEVEKKVFKYFLESISVGDLRAIMELEKKGIKDPRSVIENLILMGLIERGNYCYNL  75
+
+
+> UniRef50_E0SPI9 Uncharacterized protein n=2 Tax=Thermoprotei 
+TaxID=183924 RepID=E0SPI9_IGNAA
+Length=103
+
+ Score = 71.5 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 29/59 (49%), Positives = 41/59 (69%), Gaps = 1/59 (2%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             E +  +EYF   ISVG I+A  +LKA  GI NP+ +I KLI++G++E+G GCYNL +
+Sbjct  25  NPEEKKVLEYFLQNISVGSIIAQRELKAFYGIENPKDIIRKLIDLGLLEQGYGCYNLAK  83
+
+
+> UniRef50_V4JMZ7 Uncharacterized protein n=4 Tax=environmental 
+samples TaxID=2066533 RepID=V4JMZ7_9CREN
+Length=98
+
+ Score = 71.5 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 36/56 (64%), Gaps = 0/56 (0%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+           E   A  YF + +SVG++ A  DL  +GI +P  VI +LIE+G++E+G  C+N+  
+Sbjct  22  EARDAFLYFLDNVSVGDLRAIRDLSKKGIRDPAGVIEELIEVGLLERGRDCFNVPE  77
+
+
+> UniRef50_D9PZT6 Uncharacterized protein n=2 Tax=Acidilobus TaxID=105850 
+RepID=D9PZT6_ACIS3
+Length=100
+
+ Score = 71.5 bits (174),  Expect = 1e-14, Method: Composition-based stats.
+ Identities = 24/54 (44%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  5   EIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNL  58
+           E+  A  Y  + +SVG++ A +DL+ RGI +P AV+ +L+ MG+ E+G+ CYNL
+Sbjct  22  ELREAFIYLVDNVSVGDLRAAIDLRRRGIRDPAAVLEELVNMGLAERGDECYNL  75
+
+
+> UniRef50_U3TC80 Uncharacterized protein n=2 Tax=Aeropyrum camini 
+TaxID=229980 RepID=U3TC80_9CREN
+Length=90
+
+ Score = 70.3 bits (171),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 26/54 (48%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  6   IEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLV  59
+               ++YF   ISVGEI A  +LK +G+  P+ VIS+L+E+G++E+G GCYNL 
+Sbjct  19  ERRVLKYFFENISVGEIKAVEELKHQGVEEPEEVISRLVELGLLEEGVGCYNLS  72
+
+
+> UniRef50_A0A256YZ95 Uncharacterized protein n=2 Tax=unclassified 
+Desulfurococcales (miscellaneous) TaxID=221496 RepID=A0A256YZ95_9CREN
+Length=90
+
+ Score = 69.9 bits (170),  Expect = 4e-14, Method: Composition-based stats.
+ Identities = 21/58 (36%), Positives = 38/58 (66%), Gaps = 1/58 (2%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLV  59
+             + +  ++YF  Y SVGE++A  +L+    + +P  +I+KLI++GI+ +G GCYN+ 
+Sbjct  17  SDDEKKVLKYFITYRSVGELLAVRELRGLYKVRDPTKIIAKLIDLGILSRGVGCYNIS  74
+
+
+> UniRef50_A2BLD0 Uncharacterized protein n=4 Tax=Pyrodictiaceae 
+TaxID=2307 RepID=A2BLD0_HYPBU
+Length=105
+
+ Score = 69.2 bits (168),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 24/59 (41%), Positives = 32/59 (54%), Gaps = 1/59 (2%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             E      Y  + ISVGE++   DL     +S P  V  +L E G+IE+GEGCYNL +
+Sbjct  24  SSEELKVFAYVWDNISVGELLFERDLYTIYKVSKPILVARRLREKGVIERGEGCYNLAK  82
+
+
+> UniRef50_A0A256ZUR3 Uncharacterized protein n=1 Tax=Desulfurococcales 
+archaeon ex4484_217_2 TaxID=2012519 RepID=A0A256ZUR3_9CREN
+Length=66
+
+ Score = 64.9 bits (157),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 29/47 (62%), Positives = 35/47 (74%), Gaps = 0/47 (0%)
+
+Query  14  KNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             YISVGEI+A  +LKA GISNP  VI  LI  G++E+GEGCYNL +
+Sbjct  1   MKYISVGEILAEKELKALGISNPLKVIKNLILKGVLERGEGCYNLAK  47
+
+
+> UniRef50_A0A256XWL4 Uncharacterized protein n=1 Tax=Thermofilum 
+sp. ex4484_79 TaxID=2012527 RepID=A0A256XWL4_9CREN
+Length=257
+
+ Score = 66.8 bits (162),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 23/52 (44%), Positives = 34/52 (65%), Gaps = 0/52 (0%)
+
+Query  2    NQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIEKGE  53
+            + K++EIA+ Y   Y SVGEI    DL+  G+ NP+ VI+K+IE G  E+ +
+Sbjct  182  DNKDMEIALSYLAKYWSVGEIRFIQDLRRMGVRNPRDVINKIIEKGYAERVD  233
+
+
+> UniRef50_S5ZES1 Uncharacterized protein n=2 Tax=Thermofilum TaxID=2268 
+RepID=S5ZES1_9CREN
+Length=268
+
+ Score = 61.5 bits (148),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 26/47 (55%), Gaps = 0/47 (0%)
+
+Query  4    KEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIE  50
+             ++E AI Y   Y SVG +    DL   G+ +P  VI++L   G+IE
+Sbjct  190  SDLETAIRYLGKYWSVGRLRLIDDLMGMGVKDPIKVINELARKGLIE  236
+
+
+> UniRef50_A0A256YGZ0 Uncharacterized protein n=1 Tax=Desulfurococcales 
+archaeon ex4484_58 TaxID=2012521 RepID=A0A256YGZ0_9CREN
+Length=116
+
+ Score = 56.4 bits (135),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 23/74 (31%), Positives = 39/74 (53%), Gaps = 17/74 (23%)
+
+Query  4   KEIEIAIEYFKNYISVGEIVATMDLK--ARGISNPQAV---------------ISKLIEM  46
+           K   + +EYF  +ISVGEI+A ++L+   + + +P+ V               +++L+E 
+Sbjct  17  KLERLIMEYFIKHISVGEIIAVLELRDEIKRLKDPELVPEFDDIIIELEINKALARLVEK  76
+
+Query  47  GIIEKGEGCYNLVR  60
+           G +E   GCYNL  
+Sbjct  77  GFLEHVGGCYNLAE  90
+
+
+> UniRef50_A0A257AB33 Uncharacterized protein n=1 Tax=Thermofilum 
+sp. ex4484_15 TaxID=2012526 RepID=A0A257AB33_9CREN
+Length=189
+
+ Score = 55.7 bits (133),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 19/44 (43%), Positives = 29/44 (66%), Gaps = 0/44 (0%)
+
+Query  6    IEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGII  49
+            +  AI Y   Y SVGEI  ++DLKA G+ + + ++ KL+E+G I
+Sbjct  112  LYKAIRYLNRYWSVGEIRFSIDLKAMGVRDVRKILRKLLELGYI  155
+
+
+> UniRef50_I0A0Z8 Uncharacterized protein n=1 Tax=Fervidicoccus 
+fontis (strain DSM 19380 / JCM 18336 / VKM B-2539 / Kam940) 
+TaxID=1163730 RepID=I0A0Z8_FERFK
+Length=43
+
+ Score = 46.0 bits (108),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 17/37 (46%), Positives = 24/37 (65%), Gaps = 1/37 (3%)
+
+Query  25  TMDLKA-RGISNPQAVISKLIEMGIIEKGEGCYNLVR  60
+             +L++  G+  P+ +I  LIE G IE+G GCYNL R
+Sbjct  1   MRELESIMGLKEPRRIIESLIEKGYIERGSGCYNLSR  37
+
+
+> UniRef50_A3DLH0 Uncharacterized protein n=4 Tax=Desulfurococcaceae 
+TaxID=2272 RepID=A3DLH0_STAMF
+Length=115
+
+ Score = 46.0 bits (108),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 21/74 (28%), Positives = 36/74 (49%), Gaps = 17/74 (23%)
+
+Query  3   QKEIEIAIEYFKNYISVGEIVATMDLKA--RGISNPQAV---------------ISKLIE  45
+            K   + ++YF  +ISVGEI+A ++L+   + + +P  V               I++L+ 
+Sbjct  15  SKLERLVMDYFLKHISVGEIIAIIELREEVKRLRDPDLVPEFDDVIIELEIGRAINRLLR  74
+
+Query  46  MGIIEKGEGCYNLV  59
+              +E   GCYNL 
+Sbjct  75  DNFLEYRSGCYNLA  88
+
+
+> UniRef50_A1RYY5 Uncharacterized protein n=1 Tax=Thermofilum pendens 
+(strain DSM 2475 / Hrk 5) TaxID=368408 RepID=A1RYY5_THEPD
+Length=260
+
+ Score = 47.2 bits (111),  Expect = 5e-05, Method: Composition-based stats.
+ Identities = 14/50 (28%), Positives = 26/50 (52%), Gaps = 0/50 (0%)
+
+Query  1    VNQKEIEIAIEYFKNYISVGEIVATMDLKARGISNPQAVISKLIEMGIIE  50
+            +  +  E A+ Y   Y S+G +    DL   G+  P+  +++L + G+IE
+Sbjct  178  LGNEAYERALRYLCTYWSIGLLRLMDDLIRMGVKEPRKFLAELAKRGLIE  227
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.150    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0465    0.140     1.90     42.6     43.6 
+
+Effective search space used: 238535682056
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

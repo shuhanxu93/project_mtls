@@ -1,0 +1,2735 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 1w0n
+
+Length=120
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_P45796 Arabinoxylan arabinofuranohydrolase n=174 Tax=T...  241     1e-73
+  UniRef50_B8E1P4 Endo-1,4-beta-xylanase n=36 Tax=Bacteria TaxID=...  164     9e-47
+  UniRef50_A0A1R0XG00 1,4-beta-xylanase (Fragment) n=1 Tax=Paenib...  147     1e-42
+  UniRef50_A0A1I6V943 Endo-1,4-beta-xylanase n=3 Tax=Halolactibac...  150     1e-41
+  UniRef50_UPI000839530B xylanase deacetylase n=1 Tax=Paenibacill...  144     3e-39
+  UniRef50_A0A2A6E3J6 Endo-1,4-beta-xylanase n=1 Tax=Paenibacilla...  142     2e-38
+  UniRef50_E3EFC9 Xylanase deacetylase n=41 Tax=Paenibacillaceae ...  140     9e-38
+  UniRef50_A0A1G5CRY5 Peptidoglycan/xylan/chitin deacetylase, Pgd...  138     4e-37
+  UniRef50_A0A1G4VKI4 Endo-1,4-beta-xylanase n=7 Tax=Lachnospirac...  134     1e-34
+  UniRef50_A0A1I1IVV3 Beta-xylanase n=1 Tax=Butyrivibrio sp. YAB3...  134     1e-33
+  UniRef50_Q59257 Endo-1,4-beta-xylanase n=30 Tax=Bacillales TaxI...  127     5e-33
+  UniRef50_P83513 Bifunctional xylanase/deacetylase n=1 Tax=Pseud...  127     4e-32
+  UniRef50_A0A140HJ20 Endo-1,4-beta-xylanase n=10 Tax=Bacteria Ta...  128     5e-32
+  UniRef50_A0A1G5FSH1 Beta-xylanase n=5 Tax=Butyrivibrio TaxID=83...  129     7e-32
+  UniRef50_UPI0009DC008C hypothetical protein n=3 Tax=Butyrivibri...  123     2e-31
+  UniRef50_A0A1T4VYJ5 Endo-1,4-beta-xylanase n=4 Tax=Clostridiale...  123     4e-31
+  UniRef50_G8LV53 Endo-1,4-beta-xylanase n=2 Tax=Clostridiales Ta...  122     9e-31
+  UniRef50_A0A060BUV5 CBM_3 (Fragment) n=1 Tax=uncultured Caldice...  117     1e-30
+  UniRef50_A0A1H3X4K0 Endo-1,4-beta-xylanase n=2 Tax=Lachnospirac...  122     5e-30
+  UniRef50_A0A1G5AAV9 Endo-1,4-beta-xylanase n=4 Tax=root TaxID=1...  120     2e-29
+  UniRef50_A0A127JBT0 Endo-1,4-beta-xylanase n=1 Tax=uncultured b...  118     4e-29
+  UniRef50_G7VQ68 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillus te...  109     5e-27
+  UniRef50_B9MLP1 Endo-1,4-beta-xylanase n=7 Tax=Clostridia TaxID...  95.5    3e-21
+  UniRef50_UPI000472131D hypothetical protein n=1 Tax=Paenibacill...  97.1    5e-21
+  UniRef50_UPI0001E6D111 arabinoxylan arabinofuranohydrolase n=2 ...  84.7    3e-19
+  UniRef50_A0A150AJ84 Uncharacterized protein n=2 Tax=Flammeovirg...  88.2    9e-18
+  UniRef50_R6ANF3 Glycoside hydrolase family 8 n=1 Tax=Prevotella...  83.2    4e-16
+  UniRef50_A0A1B1G1H4 Glycoside hydrolase family 8 n=2 Tax=Flamme...  77.8    3e-14
+  UniRef50_A0A1Q6N476 Uncharacterized protein n=1 Tax=Clostridium...  76.6    9e-14
+  UniRef50_UPI000C30085C T9SS C-terminal target domain-containing...  68.2    6e-11
+  UniRef50_A0A1T5BDJ3 Por secretion system C-terminal sorting dom...  65.5    5e-10
+  UniRef50_A0A060BYL2 CAZy families CBM35|GH30 protein (Fragment)...  59.7    3e-09
+  UniRef50_R7C784 Endo-1 4-beta-xylanase n=1 Tax=Clostridium sp. ...  62.0    6e-09
+  UniRef50_A0A1H7K926 Por secretion system C-terminal sorting dom...  62.0    8e-09
+  UniRef50_UPI000691F2F9 hypothetical protein n=1 Tax=Kitasatospo...  58.2    1e-07
+  UniRef50_UPI0009DD359A hypothetical protein n=2 Tax=Actinobacte...  57.4    2e-07
+  UniRef50_R9PII5 Endo-1,4-beta-xylanase A n=5 Tax=Gammaproteobac...  51.6    2e-05
+  UniRef50_UPI0009E9583B hypothetical protein n=1 Tax=Paenibacill...  47.4    3e-05
+
+
+> UniRef50_P45796 Arabinoxylan arabinofuranohydrolase n=174 Tax=Terrabacteria 
+group TaxID=1783272 RepID=XYND_PAEPO
+Length=635
+
+ Score = 241 bits (614),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA
+Sbjct  516  ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  575
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL
+Sbjct  576  KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  635
+
+
+> UniRef50_B8E1P4 Endo-1,4-beta-xylanase n=36 Tax=Bacteria TaxID=2 
+RepID=B8E1P4_DICTD
+Length=356
+
+ Score = 164 bits (415),  Expect = 9e-47, Method: Compositional matrix adjust.
+ Identities = 75/117 (64%), Positives = 92/117 (79%), Gaps = 0/117 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            +T+VE ENM + G YA +IS+PF+GVALYAN D   Y+QYFANS H   +RG SSN  TA
+Sbjct  238  VTRVECENMSLSGPYASRISSPFNGVALYANNDRAYYTQYFANSVHTFRLRGCSSNNNTA  297
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             VDL IGG  VG+F FTG TPTVQTLSNI+HATG+Q ++L LTSD+GTWD Y+D++E
+Sbjct  298  AVDLRIGGQKVGTFYFTGTTPTVQTLSNISHATGNQTVELILTSDNGTWDVYLDYLE  354
+
+
+> UniRef50_A0A1R0XG00 1,4-beta-xylanase (Fragment) n=1 Tax=Paenibacillus 
+odorifer TaxID=189426 RepID=A0A1R0XG00_9BACL
+Length=126
+
+ Score = 147 bits (370),  Expect = 1e-42, Method: Compositional matrix adjust.
+ Identities = 68/115 (59%), Positives = 88/115 (77%), Gaps = 0/115 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK+EAENM   G Y   IS+PF GVALYAN D V Y+Q F   THN S+RGAS+N+  A+
+Sbjct  12   TKIEAENMIKSGQYTSNISSPFSGVALYANNDLVKYTQNFTTGTHNFSLRGASNNSNMAR  71
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            VDL IGGVT G+F F G +P V TL+N++H TG+QEI+L +T+D+GTWDAY+D++
+Sbjct  72   VDLKIGGVTKGTFYFGGSSPAVYTLNNVSHGTGNQEIQLVVTTDNGTWDAYLDYL  126
+
+
+> UniRef50_A0A1I6V943 Endo-1,4-beta-xylanase n=3 Tax=Halolactibacillus 
+TaxID=306539 RepID=A0A1I6V943_9BACI
+Length=360
+
+ Score = 150 bits (380),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 69/116 (59%), Positives = 91/116 (78%), Gaps = 0/116 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TKVE E+M  GG Y G IS+PF+GVALYAN D VSY+QYFAN+TH+ S+RGAS N+  A+
+Sbjct  243  TKVETEDMTKGGQYTGNISSPFNGVALYANNDSVSYTQYFANNTHSFSLRGASDNSEMAR  302
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+            VDL+IGG   G+F F G  P V T+ N++H TG+Q I+L +T+DDGTWDA++D++E
+Sbjct  303  VDLIIGGQNKGTFYFGGSYPAVYTIDNVSHGTGNQTIELVVTADDGTWDAFIDYLE  358
+
+
+> UniRef50_UPI000839530B xylanase deacetylase n=1 Tax=Paenibacillus 
+sp. GM2 TaxID=1622070 RepID=UPI000839530B
+Length=356
+
+ Score = 144 bits (363),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 66/118 (56%), Positives = 88/118 (75%), Gaps = 0/118 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T+VEAE+M   G Y G IS+PF GVALYAN D V Y+Q F +  H+ S+RGAS+N+  A+
+Sbjct  239  TRVEAESMTKSGQYTGNISSPFSGVALYANGDSVKYTQNFTSGNHHFSLRGASNNSNMAR  298
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            VDL IGG T G+F F G  P V TLSN++H TG+Q+I+L +T+D+GTWD Y+D++E S
+Sbjct  299  VDLKIGGQTKGTFYFGGTNPAVYTLSNVSHGTGNQQIELVVTADNGTWDVYIDYLEIS  356
+
+
+> UniRef50_A0A2A6E3J6 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillaceae 
+bacterium JTherm TaxID=1906605 RepID=A0A2A6E3J6_9BACL
+Length=368
+
+ Score = 142 bits (358),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 66/114 (58%), Positives = 87/114 (76%), Gaps = 0/114 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            V+AENM  GG Y   I++PF+GVALYAN D V Y+QYF+  TH+ S+RGASSN   A+VD
+Sbjct  253  VQAENMTKGGQYTSNITSPFNGVALYANNDRVYYTQYFSTGTHSFSLRGASSNNNMARVD  312
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+            L IGG T G+F F G  P V TL+NI+H TG+Q ++L +T+D+GTWDAY+D++E
+Sbjct  313  LRIGGQTKGTFYFGGPYPAVYTLNNISHGTGNQTVELIVTADNGTWDAYIDYLE  366
+
+
+> UniRef50_E3EFC9 Xylanase deacetylase n=41 Tax=Paenibacillaceae 
+TaxID=186822 RepID=E3EFC9_PAEPS
+Length=357
+
+ Score = 140 bits (353),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 65/117 (56%), Positives = 86/117 (74%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK+EA NM   G Y   IS+PF+GVALY N D V ++Q F + TH+ S+RGAS+N+  AK
+Sbjct  240  TKIEAVNMTKSGQYTSNISSPFNGVALYTNNDSVKFTQNFTSGTHSFSLRGASNNSNMAK  299
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG T G+F F G +P V TL N+ H TG+Q+I+L +T+DDGTWDAY+D++E 
+Sbjct  300  VDLKIGGQTKGTFYFGGSSPAVYTLKNVNHGTGNQKIELVVTADDGTWDAYLDYLEI  356
+
+
+> UniRef50_A0A1G5CRY5 Peptidoglycan/xylan/chitin deacetylase, PgdA/CDA1 
+family n=1 Tax=Paenibacillus polysaccharolyticus TaxID=582692 
+RepID=A0A1G5CRY5_9BACL
+Length=354
+
+ Score = 138 bits (348),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 64/117 (55%), Positives = 87/117 (74%), Gaps = 0/117 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+            ++E ENM   G Y G IS+PF+GV LYAN D V  +  F++ TH+ ++RGAS+NA  A+V
+Sbjct  238  RIETENMTKSGQYTGNISSPFNGVVLYANNDAVRTTHNFSSGTHSFALRGASNNANMARV  297
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL IGG T G+F F G +P V TL+NI+H TG+Q I+L +T+DDGTWDAY+D++E S
+Sbjct  298  DLKIGGQTKGTFYFGGSSPAVYTLNNISHGTGNQVIELIVTADDGTWDAYLDYLEIS  354
+
+
+> UniRef50_A0A1G4VKI4 Endo-1,4-beta-xylanase n=7 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A1G4VKI4_9FIRM
+Length=614
+
+ Score = 134 bits (337),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 61/116 (53%), Positives = 83/116 (72%), Gaps = 0/116 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T V+ E+M I G YAGKI  PF+GVALYAN D V+Y+QYFA  TH+ ++R  S+N   A+
+Sbjct  263  TTVQCESMSISGPYAGKIGNPFNGVALYANNDAVTYNQYFAYGTHDFTLRACSNNNNMAR  322
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+            VDL IGG   G+F + G  P   T+ N++H TG+QE+KL +T+DDG WDAY+D+ +
+Sbjct  323  VDLQIGGEYKGTFYYGGSYPAEYTIKNVSHKTGNQEVKLIVTADDGNWDAYIDYFK  378
+
+
+> UniRef50_A0A1I1IVV3 Beta-xylanase n=1 Tax=Butyrivibrio sp. YAB3001 
+TaxID=1520812 RepID=A0A1I1IVV3_9FIRM
+Length=1332
+
+ Score = 134 bits (336),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 63/116 (54%), Positives = 82/116 (71%), Gaps = 0/116 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+            KVE E M   G YAG IS PF+GVALYAN D VS+ QYFA  THN+++RG S+N   AKV
+Sbjct  514  KVECETMTKSGQYAGTISNPFNGVALYANNDSVSFEQYFAYDTHNVTLRGCSNNRNMAKV  573
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            DL IGG   G+F F  + P   T+ N+TH TG Q ++L +++DDGTWDAY+D++ +
+Sbjct  574  DLKIGGEKKGTFYFGDEYPAEYTIENVTHKTGAQTVELVVSADDGTWDAYLDYLTW  629
+
+
+> UniRef50_Q59257 Endo-1,4-beta-xylanase n=30 Tax=Bacillales TaxID=1385 
+RepID=Q59257_9BACI
+Length=354
+
+ Score = 127 bits (320),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 59/116 (51%), Positives = 84/116 (72%), Gaps = 0/116 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T+VEAE+M  GG Y   I++PF+GVALYAN D VS++  F  +  + S+RGAS+N+  A+
+Sbjct  237  TRVEAESMTKGGPYTSNITSPFNGVALYANGDNVSFNHSFTKANSSFSLRGASNNSNMAR  296
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+            VDL IGG   G+F F    P V T++N+ H TG+Q ++L +T+DDGTWDAY+D++E
+Sbjct  297  VDLRIGGQNRGTFYFGDHYPAVYTINNVNHGTGNQLVELIVTADDGTWDAYLDYLE  352
+
+
+> UniRef50_P83513 Bifunctional xylanase/deacetylase n=1 Tax=Pseudobutyrivibrio 
+xylanivorans TaxID=185007 RepID=XY11A_PSEXY
+Length=602
+
+ Score = 127 bits (319),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 58/118 (49%), Positives = 81/118 (69%), Gaps = 0/118 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+            K++ E M   G Y G IS+PF+GVALYAN D V Y+QYFA+ TH+ ++RG S+N   A+V
+Sbjct  250  KIQCETMTKSGQYTGNISSPFNGVALYANNDAVKYTQYFASGTHDFTLRGCSNNNKMARV  309
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            DL IGG   G+F +    P   T+ N++H TG+Q I+L +T+DDG WDAY+D+   S+
+Sbjct  310  DLKIGGQNKGTFYYGDSYPAEYTIKNVSHGTGNQTIELVVTADDGQWDAYLDYFNNSV  367
+
+
+> UniRef50_A0A140HJ20 Endo-1,4-beta-xylanase n=10 Tax=Bacteria 
+TaxID=2 RepID=A0A140HJ20_9BACT
+Length=787
+
+ Score = 128 bits (322),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 58/114 (51%), Positives = 78/114 (68%), Gaps = 0/114 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            V+ E+M   G Y G I+ PFDGVALY N D VSYSQYFA  TH+ ++R  S+N   A+VD
+Sbjct  438  VQCESMSKAGQYTGNINNPFDGVALYGNNDRVSYSQYFAYGTHDFTLRACSNNDNMARVD  497
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+            L IGG T G+F + G  P   T+ N+ H TG+Q ++L +T+DDG WDAY+D+ +
+Sbjct  498  LKIGGETKGTFYYGGPYPAEYTIKNVNHGTGEQTVELVVTADDGQWDAYIDYFK  551
+
+
+ Score = 125 bits (315),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 58/116 (50%), Positives = 81/116 (70%), Gaps = 0/116 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T V+ E+M  GG Y G I+ PF GVALY N D VSY+QYFA+ TH+ ++RG S+N   A+
+Sbjct  264  TIVQCESMTKGGQYTGNINNPFGGVALYGNNDKVSYTQYFASGTHDFTLRGCSNNDNMAR  323
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+            VDL IGG T G+F + G  P   T+ N+ H TG+Q I+L +T+D+G WDA +D+++
+Sbjct  324  VDLKIGGETKGTFYYGGSYPAEYTIKNVNHGTGNQTIELVVTADNGQWDANIDYLK  379
+
+
+> UniRef50_A0A1G5FSH1 Beta-xylanase n=5 Tax=Butyrivibrio TaxID=830 
+RepID=A0A1G5FSH1_9FIRM
+Length=1324
+
+ Score = 129 bits (323),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 62/116 (53%), Positives = 83/116 (72%), Gaps = 0/116 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            ++KVE E+M   G YAG IS+PFDGVALYAN D VS+ QYFA  TH++++R  S+N+  A
+Sbjct  510  VSKVECESMTRSGEYAGLISSPFDGVALYANGDTVSFDQYFAYGTHDVTLRACSNNSTMA  569
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            KV L IGG   G+F +  + P   TL  +TH TG Q ++L +TSDDGTWDAY+D++
+Sbjct  570  KVVLKIGGEEKGTFYYGDEYPAEFTLKGVTHGTGVQNVELTITSDDGTWDAYLDYL  625
+
+
+> UniRef50_UPI0009DC008C hypothetical protein n=3 Tax=Butyrivibrio 
+TaxID=830 RepID=UPI0009DC008C
+Length=343
+
+ Score = 123 bits (309),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 55/111 (50%), Positives = 76/111 (68%), Gaps = 0/111 (0%)
+
+Query  9    MKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIGG  68
+            M   G Y G IS+PF GVALYAN D VSY+QYFA  TH+  +RG ++N   A+VDL IGG
+Sbjct  1    MSKAGQYTGNISSPFSGVALYANNDRVSYTQYFAYGTHDFVLRGCANNGNMARVDLKIGG  60
+
+Query  69   VTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+               G+F + G  P   T+ N++H TG+Q ++L +T+DDG WDAY+D++  +
+Sbjct  61   QYKGTFYYGGSYPAEYTIKNVSHGTGNQTVELVVTADDGNWDAYIDYLRIN  111
+
+
+> UniRef50_A0A1T4VYJ5 Endo-1,4-beta-xylanase n=4 Tax=Clostridiales 
+TaxID=186802 RepID=A0A1T4VYJ5_9FIRM
+Length=399
+
+ Score = 123 bits (308),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 57/116 (49%), Positives = 77/116 (66%), Gaps = 0/116 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            ++ ENM   G Y G I++PF GVALYAN D VSY+Q F   THN S+R  S+N   A+VD
+Sbjct  282  IQCENMTKSGQYTGNINSPFSGVALYANQDAVSYTQSFGYGTHNFSLRACSNNNNMARVD  341
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            L IG    G+F +    P   TL N++H TG+QE+KL +T+DDG WDA++D +E +
+Sbjct  342  LYIGNEYKGTFYYGDGYPATYTLKNVSHKTGNQEVKLVVTADDGNWDAFLDSLEIT  397
+
+
+> UniRef50_G8LV53 Endo-1,4-beta-xylanase n=2 Tax=Clostridiales 
+TaxID=186802 RepID=G8LV53_CLOCD
+Length=525
+
+ Score = 122 bits (307),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 56/114 (49%), Positives = 79/114 (69%), Gaps = 0/114 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            ++ ENM   G Y G IS+PF GVALYAN D V ++  F +ST   S+RG S+N   A+VD
+Sbjct  410  IQCENMIKSGQYTGNISSPFSGVALYANNDSVKFTHNFTSSTSTFSLRGCSNNQNMARVD  469
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+            L IGG   G+F + G  P V T+ N++H TG+Q ++L +TSD+GTWDAY+D+++
+Sbjct  470  LRIGGQYKGTFYYGGSYPAVYTIQNVSHGTGNQTVELIVTSDNGTWDAYLDYLQ  523
+
+
+> UniRef50_A0A060BUV5 CBM_3 (Fragment) n=1 Tax=uncultured Caldicellulosiruptor 
+sp. TaxID=569407 RepID=A0A060BUV5_9FIRM
+Length=170
+
+ Score = 117 bits (293),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 61/100 (61%), Positives = 80/100 (80%), Gaps = 0/100 (0%)
+
+Query  21   APFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIGGVTVGSFNFTGKT  80
+            +PF GVALYAN D  S +QYFA   H+ ++RG SSN+GTA VDL IGG  VGSF+FTG T
+Sbjct  1    SPFSGVALYANGDSCSSTQYFAYDKHDFTLRGCSSNSGTATVDLNIGGTKVGSFSFTGTT  60
+
+Query  81   PTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            PT QT+SN+ + TG+Q++ L +T+DDGTWDAYVD++++SL
+Sbjct  61   PTTQTISNVENGTGNQDVTLTVTTDDGTWDAYVDYLQWSL  100
+
+
+> UniRef50_A0A1H3X4K0 Endo-1,4-beta-xylanase n=2 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A1H3X4K0_9FIRM
+Length=757
+
+ Score = 122 bits (307),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 53/110 (48%), Positives = 77/110 (70%), Gaps = 0/110 (0%)
+
+Query  5    EAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDL  64
+            E E+M +GG+YAG+IS+PF GVALY N D V ++  F N T++ ++ G S  +  A+VDL
+Sbjct  267  ECEDMTLGGSYAGRISSPFRGVALYGNQDSVKFTHDFKNGTNDFTLHGCSDGSNMARVDL  326
+
+Query  65   VIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVD  114
+            ++GGV  G+F F    P   T+ N++H TG QE+KL +++DDG+WDAY D
+Sbjct  327  LVGGVNKGTFYFGDNNPAYYTIKNVSHGTGSQEVKLVVSADDGSWDAYAD  376
+
+
+ Score = 121 bits (304),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 58/113 (51%), Positives = 77/113 (68%), Gaps = 0/113 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T ++ E+M I G YAGKIS+PF GVALY N+D VS +Q F   TH+ ++RGASSN   A+
+Sbjct  415  TTIQCEDMTIDGPYAGKISSPFSGVALYGNSDEVSCTQDFGYDTHDFTLRGASSNNNMAR  474
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVD  114
+            VDL+IGG   G+F F        T+ N+ H TG Q+I+L + +DDG WDAY+D
+Sbjct  475  VDLMIGGENKGTFYFGDAYSAEYTIKNVRHKTGQQKIELIVNADDGNWDAYID  527
+
+
+> UniRef50_A0A1G5AAV9 Endo-1,4-beta-xylanase n=4 Tax=root TaxID=1 
+RepID=A0A1G5AAV9_9FIRM
+Length=682
+
+ Score = 120 bits (302),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 54/116 (47%), Positives = 81/116 (70%), Gaps = 0/116 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            V+ E+M   G YA  I +PF+G+ALYAN D +S+ Q FA+ T + ++RG S+N   A+VD
+Sbjct  316  VQCESMSKSGQYADTIGSPFNGMALYANNDKLSFDQNFASDTSDFTLRGCSNNNNMARVD  375
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            L IGG   G+F + G  P   T+ N+ H TG+Q+++L +T+D+G WDAYVD+++FS
+Sbjct  376  LRIGGQNKGTFYYGGPYPAEYTIKNVKHGTGNQKVELVVTADNGQWDAYVDYLKFS  431
+
+
+> UniRef50_A0A127JBT0 Endo-1,4-beta-xylanase n=1 Tax=uncultured 
+bacterium TaxID=77133 RepID=A0A127JBT0_9BACT
+Length=515
+
+ Score = 118 bits (296),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 60/120 (50%), Positives = 81/120 (68%), Gaps = 3/120 (3%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TKVEAENM  GG Y G  S+PF+GV LYAN D VS++QYFAN+ H   +RGASSN   A+
+Sbjct  396  TKVEAENMTKGGQYTGNCSSPFNGVTLYANNDKVSFNQYFANNKHTFKLRGASSNDKEAQ  455
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITH--ATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            V+L IGG + G+F F+G  P+ +T++  TH  A     I+L   +D+ TWD  +D+IE +
+Sbjct  456  VELRIGGTSYGTFKFSGTYPSEKTIT-ATHYKANSTATIELICVNDNNTWDVNIDWIEIA  514
+
+
+ Score = 115 bits (289),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 58/119 (49%), Positives = 81/119 (68%), Gaps = 3/119 (3%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            +TKVEAENM  GG Y G  S+PF+GV LYAN D VS++QYF+N++H   +RGASSN   A
+Sbjct  257  VTKVEAENMTKGGQYTGSCSSPFNGVTLYANDDKVSFNQYFSNNSHTFKLRGASSNDKEA  316
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITH--ATGDQEIKLALTSDDGTWDAYVDFIE  117
+            +V L IGG + G+F F+G + + +T++  TH  A     I+L   +D+ TWD  +D+IE
+Sbjct  317  QVQLKIGGTSYGTFKFSGTSASEKTIT-ATHNKANSTATIELVCVNDNNTWDVKIDWIE  374
+
+
+> UniRef50_G7VQ68 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillus 
+terrae (strain HPL-003) TaxID=985665 RepID=G7VQ68_PAETH
+Length=228
+
+ Score = 109 bits (272),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 54/99 (55%), Positives = 68/99 (69%), Gaps = 0/99 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK E E+M  GG Y   IS+ F GVALYAN D V Y+QYF + THN S+RGAS+N+  A+
+Sbjct  129  TKKECESMTKGGQYTSNISSSFSGVALYANNDSVKYTQYFESGTHNFSLRGASNNSNMAR  188
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKL  100
+            VDL IGG T G+F F G  P V TL+N++H TG + + L
+Sbjct  189  VDLKIGGQTKGTFYFGGSNPAVYTLNNVSHGTGIKRLSL  227
+
+
+> UniRef50_B9MLP1 Endo-1,4-beta-xylanase n=7 Tax=Clostridia TaxID=186801 
+RepID=B9MLP1_CALBD
+Length=357
+
+ Score = 95.5 bits (236),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 46/115 (40%), Positives = 71/115 (62%), Gaps = 1/115 (1%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYF-ANSTHNISVRGASSNAGTAK  61
+            KVE ENM + G YA KI++PF G+ALYAN D  + +  F A+  +   +RG  +N   A 
+Sbjct  240  KVECENMSLSGPYASKITSPFYGMALYANGDKATTNINFSASRNYTFKLRGCGNNNNLAS  299
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            VDL+I G  VGSF + G  P    + N+  + G  ++++ +++D+GTWD Y D++
+Sbjct  300  VDLLIDGKKVGSFYYRGTYPWEAPIENVYVSAGSHKVEIVVSADNGTWDVYADYL  354
+
+
+> UniRef50_UPI000472131D hypothetical protein n=1 Tax=Paenibacillus 
+graminis TaxID=189425 RepID=UPI000472131D
+Length=688
+
+ Score = 97.1 bits (240),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 54/121 (45%), Positives = 75/121 (62%), Gaps = 3/121 (2%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAG  58
+            I+K EAE+M   G+Y   IS+PF GVALYAN D V  S  FA     + + VRGASSN+ 
+Sbjct  32   ISKYEAESMTKAGSYTSNISSPFTGVALYANNDLVKNSTTFATIPGKYEMRVRGASSNSS  91
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQT-LSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A V + +GG    S +FTG TP +Q+ L ++T  T  QE++L L +D+G+ D  +D+ E
+Sbjct  92   AAGVSVYVGGSKKASLSFTGTTPAIQSVLFDVTSGTSSQEVQLKLETDNGSNDTLIDYYE  151
+
+Query  118  F  118
+             
+Sbjct  152  L  152
+
+
+> UniRef50_UPI0001E6D111 arabinoxylan arabinofuranohydrolase n=2 
+Tax=Paenibacillus TaxID=44249 RepID=UPI0001E6D111
+Length=64
+
+ Score = 84.7 bits (208),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 40/44 (91%), Positives = 42/44 (95%), Gaps = 0/44 (0%)
+
+Query  11  IGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGAS  54
+           +GGTYAGKISAPFDGVALYANA+Y SYSQYFANS HNISVRGAS
+Sbjct  20  VGGTYAGKISAPFDGVALYANAEYASYSQYFANSMHNISVRGAS  63
+
+
+> UniRef50_A0A150AJ84 Uncharacterized protein n=2 Tax=Flammeovirga 
+sp. SJP92 TaxID=1775430 RepID=A0A150AJ84_9BACT
+Length=1019
+
+ Score = 88.2 bits (217),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 52/119 (44%), Positives = 76/119 (64%), Gaps = 3/119 (3%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGTA  60
+            K++AE + +GG YAG  + PF+G+ LYAN D  S +  F+++    +I+VRGAS+N+  A
+Sbjct  19   KIQAETLTLGGAYAGTTTTPFNGIILYANDDKGSTTINFSDAPGLFDIAVRGASTNSSAA  78
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             V L I GV V SF+F+G + T QT S  I    G++ I L L +DDG+ D  +D+I F
+Sbjct  79   GVSLEIDGVEVTSFSFSGTSATTQTKSVKIEGNPGNRTITLVLITDDGSNDTILDWISF  137
+
+
+> UniRef50_R6ANF3 Glycoside hydrolase family 8 n=1 Tax=Prevotella 
+sp. CAG:604 TaxID=1262932 RepID=R6ANF3_9BACT
+Length=943
+
+ Score = 83.2 bits (204),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 49/120 (41%), Positives = 68/120 (57%), Gaps = 3/120 (3%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGTAK  61
+            +EAE M  GG YAGK S+PF G+AL AN D  +      N +  +NI V GASSN   A 
+Sbjct  23   LEAETMAPGGQYAGKCSSPFQGMALCANGDNATGVVSLTNGSGVYNIKVTGASSNGTAAG  82
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQ-EIKLALTSDDGTWDAYVDFIEFSL  120
+            V L +GG  +   +F+G  P+VQ +    +      ++KL L +D+G+ D Y+D IEF  
+Sbjct  83   VALYVGGKKMADMSFSGTAPSVQQVQTKLYLDASSVDVKLNLENDNGSNDTYIDKIEFEF  142
+
+
+> UniRef50_A0A1B1G1H4 Glycoside hydrolase family 8 n=2 Tax=Flammeovirga 
+TaxID=59739 RepID=A0A1B1G1H4_9BACT
+Length=892
+
+ Score = 77.8 bits (190),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 46/119 (39%), Positives = 71/119 (60%), Gaps = 3/119 (3%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANS--THNISVRGASSNAGTAK  61
+            ++ E M + G Y G  + PFDG+ LYAN D  S +   +N+    +IS+RGAS+NA  A 
+Sbjct  50   IQTETMTLEGPYTGTTTTPFDGIILYANDDNGSTTIQLSNAPGVFDISLRGASTNASAAG  109
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            V L I G  + +F+F+G  P++ T S  I    G + I+L L +D+G+ D  +D+I F+
+Sbjct  110  VSLEIDGTEITTFSFSGTVPSIDTKSIKIEGNAGSKVIRLVLKTDNGSNDTLLDWISFT  168
+
+
+> UniRef50_A0A1Q6N476 Uncharacterized protein n=1 Tax=Clostridium 
+sp. CAG:62_40_43 TaxID=1896990 RepID=A0A1Q6N476_9CLOT
+Length=1002
+
+ Score = 76.6 bits (187),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 45/99 (45%), Positives = 61/99 (62%), Gaps = 3/99 (3%)
+
+Query  23   FDGVALYANADYVSYSQYFA--NSTHNISVRGASSNAGTAKVDLVIGGVTVGSFNFTGKT  80
+            + GVALYAN DY S S  F   N  + + V+GASSN+ TA V + IGG  VG+  FTG T
+Sbjct  287  YSGVALYANGDYCSTSYEFVGTNKKYRMVVKGASSNSTTANVSVYIGGKKVGTVGFTGTT  346
+
+Query  81   PTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             + Q+    +T  TG+QEIK  L +D+G+ D +V+  E 
+Sbjct  347  LSEQSFEFKMTDVTGNQEIKFLLETDNGSNDTFVNSYEL  385
+
+
+> UniRef50_UPI000C30085C T9SS C-terminal target domain-containing 
+protein n=1 Tax=Olleya sp. Bg11-27 TaxID=2058135 RepID=UPI000C30085C
+Length=1043
+
+ Score = 68.2 bits (165),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 41/117 (35%), Positives = 64/117 (55%), Gaps = 5/117 (4%)
+
+Query  5    EAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGTAKV  62
+            + E M  GG YAG+I+ PF+G A Y N D  S +    N+    N+++ GASS+   A++
+Sbjct  30   QVETMSFGGAYAGQITTPFNGGAFYGNGDNASATINLQNTPGLFNVAIVGASSSNSLAQI  89
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL +GG  V +++F G          + ++T    I+L L++D G  D  +D I FS
+Sbjct  90   DLYVGGAKVSTYSFNGTALQTVQKELVINSTA---IELRLSTDPGNNDTLLDRISFS  143
+
+
+> UniRef50_A0A1T5BDJ3 Por secretion system C-terminal sorting domain-containing 
+protein n=1 Tax=Alkalitalea saponilacus TaxID=889453 
+RepID=A0A1T5BDJ3_9BACT
+Length=771
+
+ Score = 65.5 bits (158),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 47/123 (38%), Positives = 66/123 (54%), Gaps = 8/123 (7%)
+
+Query  4    VEAENMKI--GGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGT  59
+            ++ ENM     G +      P +GV LYAN D VS +        T+ I VRGAS  +  
+Sbjct  24   LQCENMNPHSPGGFGLITDQPTNGVWLYANGDQVSQTVTLPEVPGTYLIEVRGASDGSSQ  83
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGD--QEIKLALTSDDGTWDAYVDFIE  117
+            A   L IGG T+ +F F+G    +QTL+  T  +GD  +E+ L  T DDGT + ++DFI 
+Sbjct  84   ADAQLRIGGTTIHTFQFSGTD--LQTLNIETTLSGDSEKEVILIRTQDDGTSNTFLDFIS  141
+
+Query  118  FSL  120
+             +L
+Sbjct  142  ITL  144
+
+
+> UniRef50_A0A060BYL2 CAZy families CBM35|GH30 protein (Fragment) 
+n=1 Tax=uncultured Paenibacillus sp. TaxID=227322 RepID=A0A060BYL2_9BACL
+Length=145
+
+ Score = 59.7 bits (143),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 26/47 (55%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNIS  49
+            K+E E+M + G YAG IS+PF GVALYAN D  S +QYFA   H+ +
+Sbjct  99   KIECEDMTLSGDYAGTISSPFSGVALYANGDSCSSTQYFAYDKHDFT  145
+
+
+> UniRef50_R7C784 Endo-1 4-beta-xylanase n=1 Tax=Clostridium sp. 
+CAG:62 TaxID=1262828 RepID=R7C784_9CLOT
+Length=732
+
+ Score = 62.0 bits (149),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 49/111 (44%), Positives = 65/111 (59%), Gaps = 6/111 (5%)
+
+Query  11   IGGTYAGKISAPFDGVALYANADYVSYSQYFA--NSTHNISVRGASSNAGTAKVDLVIGG  68
+            + G  +GK    + GVALYAN DY S S  F   N  + + V+GASSN+ TA V + IGG
+Sbjct  6    LAGYLSGK---EYSGVALYANNDYCSTSYEFKGTNKKYRMVVKGASSNSSTASVSVYIGG  62
+
+Query  69   VTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+              VG  +FTG T + Q+    +T  TG QEIK  L +D+G+ D YV+  E 
+Sbjct  63   KKVGKVSFTGTTLSEQSFEFKMTDVTGKQEIKFLLETDNGSNDTYVNSYEL  113
+
+
+> UniRef50_A0A1H7K926 Por secretion system C-terminal sorting domain-containing 
+protein n=2 Tax=Aquimarina TaxID=290174 RepID=A0A1H7K926_9FLAO
+Length=1021
+
+ Score = 62.0 bits (149),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 39/121 (32%), Positives = 62/121 (51%), Gaps = 3/121 (2%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGT  59
+            T V+ E++ I G Y G I +PF+G+  Y N D    S   +     + + + GASSN   
+Sbjct  23   TTVQIEDLNISGPYVGAIDSPFNGIGFYGNGDKAEGSINLSTLPGLYKVEIIGASSNDTE  82
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            AK++L IG   V SFNF+G + +  +       +      L L +D+G+ D ++D I F+
+Sbjct  83   AKINLNIGD-NVSSFNFSGASTSNSSREITIIGSSPLNFSLELITDNGSNDTFLDRITFT  141
+
+Query  120  L  120
+             
+Sbjct  142  F  142
+
+
+> UniRef50_UPI000691F2F9 hypothetical protein n=1 Tax=Kitasatospora 
+phosalacinea TaxID=2065 RepID=UPI000691F2F9
+Length=895
+
+ Score = 58.2 bits (139),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 42/120 (35%), Positives = 61/120 (51%), Gaps = 5/120 (4%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANS-THNISVRGASSNAGT  59
+            +  V+AE+M      AG  S        Y N D  S S  FA +  ++I+V GASS + T
+Sbjct  46   LVTVQAESMAK----AGCTSTDSTRAVYYCNDDSTSASYTFAQAGRYSITVAGASSQSNT  101
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            A + + +G   VGS  FT  + T Q+      + G QEI+L L +D G  D Y+D+ E +
+Sbjct  102  AGISVYVGQTKVGSLGFTSTSYTRQSAVFDIASAGAQEIRLKLETDSGQNDTYIDYFELA  161
+
+
+> UniRef50_UPI0009DD359A hypothetical protein n=2 Tax=Actinobacteria 
+TaxID=201174 RepID=UPI0009DD359A
+Length=803
+
+ Score = 57.4 bits (137),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 43/120 (36%), Positives = 59/120 (49%), Gaps = 4/120 (3%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANS-THNISVRGASSNAGT  59
+            +T V+AE+M   G   G  S        Y N D  S S  F  +  ++I+V GASS   T
+Sbjct  50   LTTVQAESMTKNG---GCTSTDSTRTVYYCNNDSTSISYAFPQAGRYSITVVGASSQNST  106
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            A + +  G   V +  FTG + T Q+      A G QEI+L L +D+G  D YVD  E +
+Sbjct  107  AGISVYAGSAKVAALTFTGTSYTRQSAVFDVAAAGSQEIRLKLETDNGQNDTYVDCFELA  166
+
+
+> UniRef50_R9PII5 Endo-1,4-beta-xylanase A n=5 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=R9PII5_AGAAL
+Length=851
+
+ Score = 51.6 bits (122),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 34/121 (28%), Positives = 59/121 (49%), Gaps = 3/121 (2%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAG  58
+            + K E EN  +   Y+  I +PF+GVA YAN D V  +   +N+     + + GASS   
+Sbjct  25   LQKFELENGSLLPGYSSAIDSPFNGVAAYANNDGVQATAQISNTPGQFRLDISGASSANN  84
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A + + +    +G+  F G   ++ + S  +     +  +   L +DDG+ D Y+D+ E
+Sbjct  85   AAGISVYLDDKKIGATEFVGTAASLGSFSFKLDSMPLNSSLSFKLETDDGSNDTYLDWFE  144
+
+Query  118  F  118
+             
+Sbjct  145  L  145
+
+
+> UniRef50_UPI0009E9583B hypothetical protein n=1 Tax=Paenibacillus 
+etheri TaxID=1306852 RepID=UPI0009E9583B
+Length=60
+
+ Score = 47.4 bits (111),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 21/39 (54%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLAL  102
+            + IGGVT G+F F G +PTV TL+N++H TG+QEI+  +
+Sbjct  1    MKIGGVTKGTFYFGGSSPTVYTLNNVSHGTGNQEIQREI  39
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233745807800
+Results from round 2
+
+
+Query= 1w0n
+
+Length=120
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI000839530B xylanase deacetylase n=1 Tax=Paenibacill...  185     1e-54
+  UniRef50_E3EFC9 Xylanase deacetylase n=41 Tax=Paenibacillaceae ...  182     1e-53
+  UniRef50_A0A1G5CRY5 Peptidoglycan/xylan/chitin deacetylase, Pgd...  181     2e-53
+  UniRef50_A0A2A6E3J6 Endo-1,4-beta-xylanase n=1 Tax=Paenibacilla...  180     7e-53
+  UniRef50_A0A1I6V943 Endo-1,4-beta-xylanase n=3 Tax=Halolactibac...  180     9e-53
+  UniRef50_P83513 Bifunctional xylanase/deacetylase n=1 Tax=Pseud...  184     1e-52
+  UniRef50_A0A1G4VKI4 Endo-1,4-beta-xylanase n=7 Tax=Lachnospirac...  183     3e-52
+  UniRef50_A0A1G5AAV9 Endo-1,4-beta-xylanase n=4 Tax=root TaxID=1...  182     1e-51
+  UniRef50_UPI0009DC008C hypothetical protein n=3 Tax=Butyrivibri...  176     1e-51
+  UniRef50_B8E1P4 Endo-1,4-beta-xylanase n=36 Tax=Bacteria TaxID=...  176     2e-51
+  UniRef50_A0A140HJ20 Endo-1,4-beta-xylanase n=10 Tax=Bacteria Ta...  180     1e-50
+  UniRef50_P45796 Arabinoxylan arabinofuranohydrolase n=174 Tax=T...  176     1e-49
+  UniRef50_A0A1T4VYJ5 Endo-1,4-beta-xylanase n=4 Tax=Clostridiale...  172     2e-49
+  UniRef50_Q59257 Endo-1,4-beta-xylanase n=30 Tax=Bacillales TaxI...  171     2e-49
+  UniRef50_A0A1R0XG00 1,4-beta-xylanase (Fragment) n=1 Tax=Paenib...  163     4e-49
+  UniRef50_G8LV53 Endo-1,4-beta-xylanase n=2 Tax=Clostridiales Ta...  172     2e-48
+  UniRef50_A0A1I1IVV3 Beta-xylanase n=1 Tax=Butyrivibrio sp. YAB3...  173     1e-47
+  UniRef50_A0A1H3X4K0 Endo-1,4-beta-xylanase n=2 Tax=Lachnospirac...  164     3e-45
+  UniRef50_A0A1G5FSH1 Beta-xylanase n=5 Tax=Butyrivibrio TaxID=83...  162     2e-43
+  UniRef50_B9MLP1 Endo-1,4-beta-xylanase n=7 Tax=Clostridia TaxID...  148     9e-41
+  UniRef50_A0A127JBT0 Endo-1,4-beta-xylanase n=1 Tax=uncultured b...  147     1e-39
+  UniRef50_G7VQ68 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillus te...  139     1e-38
+  UniRef50_UPI000472131D hypothetical protein n=1 Tax=Paenibacill...  145     2e-38
+  UniRef50_R6ANF3 Glycoside hydrolase family 8 n=1 Tax=Prevotella...  143     3e-37
+  UniRef50_A0A150AJ84 Uncharacterized protein n=2 Tax=Flammeovirg...  139     1e-35
+  UniRef50_A0A1B1G1H4 Glycoside hydrolase family 8 n=2 Tax=Flamme...  135     3e-34
+  UniRef50_A0A060BUV5 CBM_3 (Fragment) n=1 Tax=uncultured Caldice...  122     2e-32
+  UniRef50_A0A1Q6N476 Uncharacterized protein n=1 Tax=Clostridium...  128     8e-32
+  UniRef50_UPI0009DD359A hypothetical protein n=2 Tax=Actinobacte...  127     9e-32
+  UniRef50_A0A1H7K926 Por secretion system C-terminal sorting dom...  126     5e-31
+  UniRef50_UPI000C30085C T9SS C-terminal target domain-containing...  125     1e-30
+  UniRef50_UPI000691F2F9 hypothetical protein n=1 Tax=Kitasatospo...  124     1e-30
+  UniRef50_A0A1T5BDJ3 Por secretion system C-terminal sorting dom...  124     1e-30
+  UniRef50_R9PII5 Endo-1,4-beta-xylanase A n=5 Tax=Gammaproteobac...  123     4e-30
+  UniRef50_R7C784 Endo-1 4-beta-xylanase n=1 Tax=Clostridium sp. ...  101     1e-22
+  UniRef50_UPI0001E6D111 arabinoxylan arabinofuranohydrolase n=2 ...  65.0    1e-11
+  UniRef50_A0A060BYL2 CAZy families CBM35|GH30 protein (Fragment)...  65.0    5e-11
+  UniRef50_UPI0009E9583B hypothetical protein n=1 Tax=Paenibacill...  49.5    4e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_UPI0002AA6334 glycoside hydrolase n=1 Tax=Pseudoaltero...  90.4    2e-18
+  UniRef50_UPI00069D6D0A hypothetical protein n=1 Tax=Solirubroba...  48.0    3e-04
+  UniRef50_A0A0L6JLB6 Coagulation factor 5/8 type domain protein ...  48.0    3e-04
+
+
+> UniRef50_UPI000839530B xylanase deacetylase n=1 Tax=Paenibacillus 
+sp. GM2 TaxID=1622070 RepID=UPI000839530B
+Length=356
+
+ Score = 185 bits (469),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 66/118 (56%), Positives = 88/118 (75%), Gaps = 0/118 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T+VEAE+M   G Y G IS+PF GVALYAN D V Y+Q F +  H+ S+RGAS+N+  A+
+Sbjct  239  TRVEAESMTKSGQYTGNISSPFSGVALYANGDSVKYTQNFTSGNHHFSLRGASNNSNMAR  298
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            VDL IGG T G+F F G  P V TLSN++H TG+Q+I+L +T+D+GTWD Y+D++E S
+Sbjct  299  VDLKIGGQTKGTFYFGGTNPAVYTLSNVSHGTGNQQIELVVTADNGTWDVYIDYLEIS  356
+
+
+> UniRef50_E3EFC9 Xylanase deacetylase n=41 Tax=Paenibacillaceae 
+TaxID=186822 RepID=E3EFC9_PAEPS
+Length=357
+
+ Score = 182 bits (461),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 65/117 (56%), Positives = 86/117 (74%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK+EA NM   G Y   IS+PF+GVALY N D V ++Q F + TH+ S+RGAS+N+  AK
+Sbjct  240  TKIEAVNMTKSGQYTSNISSPFNGVALYTNNDSVKFTQNFTSGTHSFSLRGASNNSNMAK  299
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG T G+F F G +P V TL N+ H TG+Q+I+L +T+DDGTWDAY+D++E 
+Sbjct  300  VDLKIGGQTKGTFYFGGSSPAVYTLKNVNHGTGNQKIELVVTADDGTWDAYLDYLEI  356
+
+
+> UniRef50_A0A1G5CRY5 Peptidoglycan/xylan/chitin deacetylase, PgdA/CDA1 
+family n=1 Tax=Paenibacillus polysaccharolyticus TaxID=582692 
+RepID=A0A1G5CRY5_9BACL
+Length=354
+
+ Score = 181 bits (459),  Expect = 2e-53, Method: Composition-based stats.
+ Identities = 64/118 (54%), Positives = 87/118 (74%), Gaps = 0/118 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+             ++E ENM   G Y G IS+PF+GV LYAN D V  +  F++ TH+ ++RGAS+NA  A+
+Sbjct  237  VRIETENMTKSGQYTGNISSPFNGVVLYANNDAVRTTHNFSSGTHSFALRGASNNANMAR  296
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            VDL IGG T G+F F G +P V TL+NI+H TG+Q I+L +T+DDGTWDAY+D++E S
+Sbjct  297  VDLKIGGQTKGTFYFGGSSPAVYTLNNISHGTGNQVIELIVTADDGTWDAYLDYLEIS  354
+
+
+> UniRef50_A0A2A6E3J6 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillaceae 
+bacterium JTherm TaxID=1906605 RepID=A0A2A6E3J6_9BACL
+Length=368
+
+ Score = 180 bits (457),  Expect = 7e-53, Method: Composition-based stats.
+ Identities = 66/115 (57%), Positives = 87/115 (76%), Gaps = 0/115 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            V+AENM  GG Y   I++PF+GVALYAN D V Y+QYF+  TH+ S+RGASSN   A+VD
+Sbjct  253  VQAENMTKGGQYTSNITSPFNGVALYANNDRVYYTQYFSTGTHSFSLRGASSNNNMARVD  312
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            L IGG T G+F F G  P V TL+NI+H TG+Q ++L +T+D+GTWDAY+D++E 
+Sbjct  313  LRIGGQTKGTFYFGGPYPAVYTLNNISHGTGNQTVELIVTADNGTWDAYIDYLEI  367
+
+
+> UniRef50_A0A1I6V943 Endo-1,4-beta-xylanase n=3 Tax=Halolactibacillus 
+TaxID=306539 RepID=A0A1I6V943_9BACI
+Length=360
+
+ Score = 180 bits (456),  Expect = 9e-53, Method: Composition-based stats.
+ Identities = 69/117 (59%), Positives = 91/117 (78%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TKVE E+M  GG Y G IS+PF+GVALYAN D VSY+QYFAN+TH+ S+RGAS N+  A+
+Sbjct  243  TKVETEDMTKGGQYTGNISSPFNGVALYANNDSVSYTQYFANNTHSFSLRGASDNSEMAR  302
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL+IGG   G+F F G  P V T+ N++H TG+Q I+L +T+DDGTWDA++D++E 
+Sbjct  303  VDLIIGGQNKGTFYFGGSYPAVYTIDNVSHGTGNQTIELVVTADDGTWDAFIDYLEI  359
+
+
+> UniRef50_P83513 Bifunctional xylanase/deacetylase n=1 Tax=Pseudobutyrivibrio 
+xylanivorans TaxID=185007 RepID=XY11A_PSEXY
+Length=602
+
+ Score = 184 bits (467),  Expect = 1e-52, Method: Composition-based stats.
+ Identities = 58/118 (49%), Positives = 81/118 (69%), Gaps = 0/118 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+            K++ E M   G Y G IS+PF+GVALYAN D V Y+QYFA+ TH+ ++RG S+N   A+V
+Sbjct  250  KIQCETMTKSGQYTGNISSPFNGVALYANNDAVKYTQYFASGTHDFTLRGCSNNNKMARV  309
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            DL IGG   G+F +    P   T+ N++H TG+Q I+L +T+DDG WDAY+D+   S+
+Sbjct  310  DLKIGGQNKGTFYYGDSYPAEYTIKNVSHGTGNQTIELVVTADDGQWDAYLDYFNNSV  367
+
+
+> UniRef50_A0A1G4VKI4 Endo-1,4-beta-xylanase n=7 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A1G4VKI4_9FIRM
+Length=614
+
+ Score = 183 bits (464),  Expect = 3e-52, Method: Composition-based stats.
+ Identities = 61/117 (52%), Positives = 83/117 (71%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T V+ E+M I G YAGKI  PF+GVALYAN D V+Y+QYFA  TH+ ++R  S+N   A+
+Sbjct  263  TTVQCESMSISGPYAGKIGNPFNGVALYANNDAVTYNQYFAYGTHDFTLRACSNNNNMAR  322
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG   G+F + G  P   T+ N++H TG+QE+KL +T+DDG WDAY+D+ + 
+Sbjct  323  VDLQIGGEYKGTFYYGGSYPAEYTIKNVSHKTGNQEVKLIVTADDGNWDAYIDYFKI  379
+
+
+> UniRef50_A0A1G5AAV9 Endo-1,4-beta-xylanase n=4 Tax=root TaxID=1 
+RepID=A0A1G5AAV9_9FIRM
+Length=682
+
+ Score = 182 bits (462),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 81/117 (69%), Gaps = 0/117 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+             V+ E+M   G YA  I +PF+G+ALYAN D +S+ Q FA+ T + ++RG S+N   A+V
+Sbjct  315  TVQCESMSKSGQYADTIGSPFNGMALYANNDKLSFDQNFASDTSDFTLRGCSNNNNMARV  374
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL IGG   G+F + G  P   T+ N+ H TG+Q+++L +T+D+G WDAYVD+++FS
+Sbjct  375  DLRIGGQNKGTFYYGGPYPAEYTIKNVKHGTGNQKVELVVTADNGQWDAYVDYLKFS  431
+
+
+> UniRef50_UPI0009DC008C hypothetical protein n=3 Tax=Butyrivibrio 
+TaxID=830 RepID=UPI0009DC008C
+Length=343
+
+ Score = 176 bits (447),  Expect = 1e-51, Method: Composition-based stats.
+ Identities = 55/111 (50%), Positives = 76/111 (68%), Gaps = 0/111 (0%)
+
+Query  9    MKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIGG  68
+            M   G Y G IS+PF GVALYAN D VSY+QYFA  TH+  +RG ++N   A+VDL IGG
+Sbjct  1    MSKAGQYTGNISSPFSGVALYANNDRVSYTQYFAYGTHDFVLRGCANNGNMARVDLKIGG  60
+
+Query  69   VTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+               G+F + G  P   T+ N++H TG+Q ++L +T+DDG WDAY+D++  +
+Sbjct  61   QYKGTFYYGGSYPAEYTIKNVSHGTGNQTVELVVTADDGNWDAYIDYLRIN  111
+
+
+> UniRef50_B8E1P4 Endo-1,4-beta-xylanase n=36 Tax=Bacteria TaxID=2 
+RepID=B8E1P4_DICTD
+Length=356
+
+ Score = 176 bits (446),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 75/118 (64%), Positives = 92/118 (78%), Gaps = 0/118 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            +T+VE ENM + G YA +IS+PF+GVALYAN D   Y+QYFANS H   +RG SSN  TA
+Sbjct  238  VTRVECENMSLSGPYASRISSPFNGVALYANNDRAYYTQYFANSVHTFRLRGCSSNNNTA  297
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             VDL IGG  VG+F FTG TPTVQTLSNI+HATG+Q ++L LTSD+GTWD Y+D++E 
+Sbjct  298  AVDLRIGGQKVGTFYFTGTTPTVQTLSNISHATGNQTVELILTSDNGTWDVYLDYLEI  355
+
+
+> UniRef50_A0A140HJ20 Endo-1,4-beta-xylanase n=10 Tax=Bacteria 
+TaxID=2 RepID=A0A140HJ20_9BACT
+Length=787
+
+ Score = 180 bits (456),  Expect = 1e-50, Method: Composition-based stats.
+ Identities = 58/117 (50%), Positives = 81/117 (69%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T V+ E+M  GG Y G I+ PF GVALY N D VSY+QYFA+ TH+ ++RG S+N   A+
+Sbjct  264  TIVQCESMTKGGQYTGNINNPFGGVALYGNNDKVSYTQYFASGTHDFTLRGCSNNDNMAR  323
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG T G+F + G  P   T+ N+ H TG+Q I+L +T+D+G WDA +D+++ 
+Sbjct  324  VDLKIGGETKGTFYYGGSYPAEYTIKNVNHGTGNQTIELVVTADNGQWDANIDYLKI  380
+
+
+ Score = 177 bits (448),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 58/116 (50%), Positives = 78/116 (67%), Gaps = 0/116 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            V+ E+M   G Y G I+ PFDGVALY N D VSYSQYFA  TH+ ++R  S+N   A+VD
+Sbjct  438  VQCESMSKAGQYTGNINNPFDGVALYGNNDRVSYSQYFAYGTHDFTLRACSNNDNMARVD  497
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            L IGG T G+F + G  P   T+ N+ H TG+Q ++L +T+DDG WDAY+D+ +  
+Sbjct  498  LKIGGETKGTFYYGGPYPAEYTIKNVNHGTGEQTVELVVTADDGQWDAYIDYFKIE  553
+
+
+> UniRef50_P45796 Arabinoxylan arabinofuranohydrolase n=174 Tax=Terrabacteria 
+group TaxID=1783272 RepID=XYND_PAEPO
+Length=635
+
+ Score = 176 bits (446),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA
+Sbjct  516  ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  575
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL
+Sbjct  576  KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  635
+
+
+> UniRef50_A0A1T4VYJ5 Endo-1,4-beta-xylanase n=4 Tax=Clostridiales 
+TaxID=186802 RepID=A0A1T4VYJ5_9FIRM
+Length=399
+
+ Score = 172 bits (436),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 57/117 (49%), Positives = 77/117 (66%), Gaps = 0/117 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+             ++ ENM   G Y G I++PF GVALYAN D VSY+Q F   THN S+R  S+N   A+V
+Sbjct  281  TIQCENMTKSGQYTGNINSPFSGVALYANQDAVSYTQSFGYGTHNFSLRACSNNNNMARV  340
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL IG    G+F +    P   TL N++H TG+QE+KL +T+DDG WDA++D +E +
+Sbjct  341  DLYIGNEYKGTFYYGDGYPATYTLKNVSHKTGNQEVKLVVTADDGNWDAFLDSLEIT  397
+
+
+> UniRef50_Q59257 Endo-1,4-beta-xylanase n=30 Tax=Bacillales TaxID=1385 
+RepID=Q59257_9BACI
+Length=354
+
+ Score = 171 bits (433),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 59/117 (50%), Positives = 84/117 (72%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T+VEAE+M  GG Y   I++PF+GVALYAN D VS++  F  +  + S+RGAS+N+  A+
+Sbjct  237  TRVEAESMTKGGPYTSNITSPFNGVALYANGDNVSFNHSFTKANSSFSLRGASNNSNMAR  296
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG   G+F F    P V T++N+ H TG+Q ++L +T+DDGTWDAY+D++E 
+Sbjct  297  VDLRIGGQNRGTFYFGDHYPAVYTINNVNHGTGNQLVELIVTADDGTWDAYLDYLEI  353
+
+
+> UniRef50_A0A1R0XG00 1,4-beta-xylanase (Fragment) n=1 Tax=Paenibacillus 
+odorifer TaxID=189426 RepID=A0A1R0XG00_9BACL
+Length=126
+
+ Score = 163 bits (413),  Expect = 4e-49, Method: Composition-based stats.
+ Identities = 68/115 (59%), Positives = 88/115 (77%), Gaps = 0/115 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK+EAENM   G Y   IS+PF GVALYAN D V Y+Q F   THN S+RGAS+N+  A+
+Sbjct  12   TKIEAENMIKSGQYTSNISSPFSGVALYANNDLVKYTQNFTTGTHNFSLRGASNNSNMAR  71
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            VDL IGGVT G+F F G +P V TL+N++H TG+QEI+L +T+D+GTWDAY+D++
+Sbjct  72   VDLKIGGVTKGTFYFGGSSPAVYTLNNVSHGTGNQEIQLVVTTDNGTWDAYLDYL  126
+
+
+> UniRef50_G8LV53 Endo-1,4-beta-xylanase n=2 Tax=Clostridiales 
+TaxID=186802 RepID=G8LV53_CLOCD
+Length=525
+
+ Score = 172 bits (435),  Expect = 2e-48, Method: Composition-based stats.
+ Identities = 56/116 (48%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            ++ ENM   G Y G IS+PF GVALYAN D V ++  F +ST   S+RG S+N   A+VD
+Sbjct  410  IQCENMIKSGQYTGNISSPFSGVALYANNDSVKFTHNFTSSTSTFSLRGCSNNQNMARVD  469
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            L IGG   G+F + G  P V T+ N++H TG+Q ++L +TSD+GTWDAY+D+++ +
+Sbjct  470  LRIGGQYKGTFYYGGSYPAVYTIQNVSHGTGNQTVELIVTSDNGTWDAYLDYLQIN  525
+
+
+> UniRef50_A0A1I1IVV3 Beta-xylanase n=1 Tax=Butyrivibrio sp. YAB3001 
+TaxID=1520812 RepID=A0A1I1IVV3_9FIRM
+Length=1332
+
+ Score = 173 bits (440),  Expect = 1e-47, Method: Composition-based stats.
+ Identities = 63/116 (54%), Positives = 82/116 (71%), Gaps = 0/116 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+            KVE E M   G YAG IS PF+GVALYAN D VS+ QYFA  THN+++RG S+N   AKV
+Sbjct  514  KVECETMTKSGQYAGTISNPFNGVALYANNDSVSFEQYFAYDTHNVTLRGCSNNRNMAKV  573
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            DL IGG   G+F F  + P   T+ N+TH TG Q ++L +++DDGTWDAY+D++ +
+Sbjct  574  DLKIGGEKKGTFYFGDEYPAEYTIENVTHKTGAQTVELVVSADDGTWDAYLDYLTW  629
+
+
+> UniRef50_A0A1H3X4K0 Endo-1,4-beta-xylanase n=2 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A1H3X4K0_9FIRM
+Length=757
+
+ Score = 164 bits (416),  Expect = 3e-45, Method: Composition-based stats.
+ Identities = 58/115 (50%), Positives = 78/115 (68%), Gaps = 0/115 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T ++ E+M I G YAGKIS+PF GVALY N+D VS +Q F   TH+ ++RGASSN   A+
+Sbjct  415  TTIQCEDMTIDGPYAGKISSPFSGVALYGNSDEVSCTQDFGYDTHDFTLRGASSNNNMAR  474
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            VDL+IGG   G+F F        T+ N+ H TG Q+I+L + +DDG WDAY+D +
+Sbjct  475  VDLMIGGENKGTFYFGDAYSAEYTIKNVRHKTGQQKIELIVNADDGNWDAYIDSL  529
+
+
+ Score = 162 bits (410),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 79/117 (68%), Gaps = 0/117 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+              E E+M +GG+YAG+IS+PF GVALY N D V ++  F N T++ ++ G S  +  A+V
+Sbjct  265  TKECEDMTLGGSYAGRISSPFRGVALYGNQDSVKFTHDFKNGTNDFTLHGCSDGSNMARV  324
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL++GGV  G+F F    P   T+ N++H TG QE+KL +++DDG+WDAY D +  S
+Sbjct  325  DLLVGGVNKGTFYFGDNNPAYYTIKNVSHGTGSQEVKLVVSADDGSWDAYADQLIIS  381
+
+
+> UniRef50_A0A1G5FSH1 Beta-xylanase n=5 Tax=Butyrivibrio TaxID=830 
+RepID=A0A1G5FSH1_9FIRM
+Length=1324
+
+ Score = 162 bits (410),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 62/116 (53%), Positives = 83/116 (72%), Gaps = 0/116 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            ++KVE E+M   G YAG IS+PFDGVALYAN D VS+ QYFA  TH++++R  S+N+  A
+Sbjct  510  VSKVECESMTRSGEYAGLISSPFDGVALYANGDTVSFDQYFAYGTHDVTLRACSNNSTMA  569
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            KV L IGG   G+F +  + P   TL  +TH TG Q ++L +TSDDGTWDAY+D++
+Sbjct  570  KVVLKIGGEEKGTFYYGDEYPAEFTLKGVTHGTGVQNVELTITSDDGTWDAYLDYL  625
+
+
+> UniRef50_B9MLP1 Endo-1,4-beta-xylanase n=7 Tax=Clostridia TaxID=186801 
+RepID=B9MLP1_CALBD
+Length=357
+
+ Score = 148 bits (374),  Expect = 9e-41, Method: Composition-based stats.
+ Identities = 46/115 (40%), Positives = 71/115 (62%), Gaps = 1/115 (1%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYF-ANSTHNISVRGASSNAGTAK  61
+            KVE ENM + G YA KI++PF G+ALYAN D  + +  F A+  +   +RG  +N   A 
+Sbjct  240  KVECENMSLSGPYASKITSPFYGMALYANGDKATTNINFSASRNYTFKLRGCGNNNNLAS  299
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            VDL+I G  VGSF + G  P    + N+  + G  ++++ +++D+GTWD Y D++
+Sbjct  300  VDLLIDGKKVGSFYYRGTYPWEAPIENVYVSAGSHKVEIVVSADNGTWDVYADYL  354
+
+
+> UniRef50_A0A127JBT0 Endo-1,4-beta-xylanase n=1 Tax=uncultured 
+bacterium TaxID=77133 RepID=A0A127JBT0_9BACT
+Length=515
+
+ Score = 147 bits (372),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 58/119 (49%), Positives = 80/119 (67%), Gaps = 1/119 (1%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TKVEAENM  GG Y G  S+PF+GV LYAN D VS++QYFAN+ H   +RGASSN   A+
+Sbjct  396  TKVEAENMTKGGQYTGNCSSPFNGVTLYANNDKVSFNQYFANNKHTFKLRGASSNDKEAQ  455
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITH-ATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            V+L IGG + G+F F+G  P+ +T++   + A     I+L   +D+ TWD  +D+IE +
+Sbjct  456  VELRIGGTSYGTFKFSGTYPSEKTITATHYKANSTATIELICVNDNNTWDVNIDWIEIA  514
+
+
+ Score = 141 bits (356),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 56/119 (47%), Positives = 80/119 (67%), Gaps = 1/119 (1%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            +TKVEAENM  GG Y G  S+PF+GV LYAN D VS++QYF+N++H   +RGASSN   A
+Sbjct  257  VTKVEAENMTKGGQYTGSCSSPFNGVTLYANDDKVSFNQYFSNNSHTFKLRGASSNDKEA  316
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITH-ATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            +V L IGG + G+F F+G + + +T++   + A     I+L   +D+ TWD  +D+IE 
+Sbjct  317  QVQLKIGGTSYGTFKFSGTSASEKTITATHNKANSTATIELVCVNDNNTWDVKIDWIEI  375
+
+
+> UniRef50_G7VQ68 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillus 
+terrae (strain HPL-003) TaxID=985665 RepID=G7VQ68_PAETH
+Length=228
+
+ Score = 139 bits (351),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 54/100 (54%), Positives = 68/100 (68%), Gaps = 0/100 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK E E+M  GG Y   IS+ F GVALYAN D V Y+QYF + THN S+RGAS+N+  A+
+Sbjct  129  TKKECESMTKGGQYTSNISSSFSGVALYANNDSVKYTQYFESGTHNFSLRGASNNSNMAR  188
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLA  101
+            VDL IGG T G+F F G  P V TL+N++H TG + + L 
+Sbjct  189  VDLKIGGQTKGTFYFGGSNPAVYTLNNVSHGTGIKRLSLL  228
+
+
+> UniRef50_UPI000472131D hypothetical protein n=1 Tax=Paenibacillus 
+graminis TaxID=189425 RepID=UPI000472131D
+Length=688
+
+ Score = 145 bits (367),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 54/123 (44%), Positives = 75/123 (61%), Gaps = 3/123 (2%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAG  58
+            I+K EAE+M   G+Y   IS+PF GVALYAN D V  S  FA     + + VRGASSN+ 
+Sbjct  32   ISKYEAESMTKAGSYTSNISSPFTGVALYANNDLVKNSTTFATIPGKYEMRVRGASSNSS  91
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQT-LSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A V + +GG    S +FTG TP +Q+ L ++T  T  QE++L L +D+G+ D  +D+ E
+Sbjct  92   AAGVSVYVGGSKKASLSFTGTTPAIQSVLFDVTSGTSSQEVQLKLETDNGSNDTLIDYYE  151
+
+Query  118  FSL  120
+               
+Sbjct  152  LYF  154
+
+
+> UniRef50_R6ANF3 Glycoside hydrolase family 8 n=1 Tax=Prevotella 
+sp. CAG:604 TaxID=1262932 RepID=R6ANF3_9BACT
+Length=943
+
+ Score = 143 bits (361),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 68/122 (56%), Gaps = 3/122 (2%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGT  59
+              +EAE M  GG YAGK S+PF G+AL AN D  +      N +  +NI V GASSN   
+Sbjct  21   QTLEAETMAPGGQYAGKCSSPFQGMALCANGDNATGVVSLTNGSGVYNIKVTGASSNGTA  80
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQ-EIKLALTSDDGTWDAYVDFIEF  118
+            A V L +GG  +   +F+G  P+VQ +    +      ++KL L +D+G+ D Y+D IEF
+Sbjct  81   AGVALYVGGKKMADMSFSGTAPSVQQVQTKLYLDASSVDVKLNLENDNGSNDTYIDKIEF  140
+
+Query  119  SL  120
+              
+Sbjct  141  EF  142
+
+
+> UniRef50_A0A150AJ84 Uncharacterized protein n=2 Tax=Flammeovirga 
+sp. SJP92 TaxID=1775430 RepID=A0A150AJ84_9BACT
+Length=1019
+
+ Score = 139 bits (350),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 52/119 (44%), Positives = 76/119 (64%), Gaps = 3/119 (3%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGTA  60
+            K++AE + +GG YAG  + PF+G+ LYAN D  S +  F+++    +I+VRGAS+N+  A
+Sbjct  19   KIQAETLTLGGAYAGTTTTPFNGIILYANDDKGSTTINFSDAPGLFDIAVRGASTNSSAA  78
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             V L I GV V SF+F+G + T QT S  I    G++ I L L +DDG+ D  +D+I F
+Sbjct  79   GVSLEIDGVEVTSFSFSGTSATTQTKSVKIEGNPGNRTITLVLITDDGSNDTILDWISF  137
+
+
+> UniRef50_A0A1B1G1H4 Glycoside hydrolase family 8 n=2 Tax=Flammeovirga 
+TaxID=59739 RepID=A0A1B1G1H4_9BACT
+Length=892
+
+ Score = 135 bits (340),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 46/120 (38%), Positives = 71/120 (59%), Gaps = 3/120 (3%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGTA  60
+             ++ E M + G Y G  + PFDG+ LYAN D  S +   +N+    +IS+RGAS+NA  A
+Sbjct  49   TIQTETMTLEGPYTGTTTTPFDGIILYANDDNGSTTIQLSNAPGVFDISLRGASTNASAA  108
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+             V L I G  + +F+F+G  P++ T S  I    G + I+L L +D+G+ D  +D+I F+
+Sbjct  109  GVSLEIDGTEITTFSFSGTVPSIDTKSIKIEGNAGSKVIRLVLKTDNGSNDTLLDWISFT  168
+
+
+> UniRef50_A0A060BUV5 CBM_3 (Fragment) n=1 Tax=uncultured Caldicellulosiruptor 
+sp. TaxID=569407 RepID=A0A060BUV5_9FIRM
+Length=170
+
+ Score = 122 bits (306),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 61/100 (61%), Positives = 80/100 (80%), Gaps = 0/100 (0%)
+
+Query  21   APFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIGGVTVGSFNFTGKT  80
+            +PF GVALYAN D  S +QYFA   H+ ++RG SSN+GTA VDL IGG  VGSF+FTG T
+Sbjct  1    SPFSGVALYANGDSCSSTQYFAYDKHDFTLRGCSSNSGTATVDLNIGGTKVGSFSFTGTT  60
+
+Query  81   PTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            PT QT+SN+ + TG+Q++ L +T+DDGTWDAYVD++++SL
+Sbjct  61   PTTQTISNVENGTGNQDVTLTVTTDDGTWDAYVDYLQWSL  100
+
+
+> UniRef50_A0A1Q6N476 Uncharacterized protein n=1 Tax=Clostridium 
+sp. CAG:62_40_43 TaxID=1896990 RepID=A0A1Q6N476_9CLOT
+Length=1002
+
+ Score = 128 bits (322),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 48/117 (41%), Positives = 64/117 (55%), Gaps = 3/117 (3%)
+
+Query  5    EAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYF--ANSTHNISVRGASSNAGTAKV  62
+            E   M   G         + GVALYAN DY S S  F   N  + + V+GASSN+ TA V
+Sbjct  269  ECSKMPYKGMAGYLSGKEYSGVALYANGDYCSTSYEFVGTNKKYRMVVKGASSNSTTANV  328
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             + IGG  VG+  FTG T + Q+    +T  TG+QEIK  L +D+G+ D +V+  E 
+Sbjct  329  SVYIGGKKVGTVGFTGTTLSEQSFEFKMTDVTGNQEIKFLLETDNGSNDTFVNSYEL  385
+
+
+> UniRef50_UPI0009DD359A hypothetical protein n=2 Tax=Actinobacteria 
+TaxID=201174 RepID=UPI0009DD359A
+Length=803
+
+ Score = 127 bits (320),  Expect = 9e-32, Method: Composition-based stats.
+ Identities = 43/121 (36%), Positives = 58/121 (48%), Gaps = 4/121 (3%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN-STHNISVRGASSNAGT  59
+            +T V+AE+M   G   G  S        Y N D  S S  F     ++I+V GASS   T
+Sbjct  50   LTTVQAESMTKNG---GCTSTDSTRTVYYCNNDSTSISYAFPQAGRYSITVVGASSQNST  106
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            A + +  G   V +  FTG + T Q+      A G QEI+L L +D+G  D YVD  E +
+Sbjct  107  AGISVYAGSAKVAALTFTGTSYTRQSAVFDVAAAGSQEIRLKLETDNGQNDTYVDCFELA  166
+
+Query  120  L  120
+             
+Sbjct  167  Y  167
+
+
+> UniRef50_A0A1H7K926 Por secretion system C-terminal sorting domain-containing 
+protein n=2 Tax=Aquimarina TaxID=290174 RepID=A0A1H7K926_9FLAO
+Length=1021
+
+ Score = 126 bits (316),  Expect = 5e-31, Method: Composition-based stats.
+ Identities = 39/121 (32%), Positives = 62/121 (51%), Gaps = 3/121 (2%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGT  59
+            T V+ E++ I G Y G I +PF+G+  Y N D    S   +     + + + GASSN   
+Sbjct  23   TTVQIEDLNISGPYVGAIDSPFNGIGFYGNGDKAEGSINLSTLPGLYKVEIIGASSNDTE  82
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            AK++L IG   V SFNF+G + +  +       +      L L +D+G+ D ++D I F+
+Sbjct  83   AKINLNIGD-NVSSFNFSGASTSNSSREITIIGSSPLNFSLELITDNGSNDTFLDRITFT  141
+
+Query  120  L  120
+             
+Sbjct  142  F  142
+
+
+> UniRef50_UPI000C30085C T9SS C-terminal target domain-containing 
+protein n=1 Tax=Olleya sp. Bg11-27 TaxID=2058135 RepID=UPI000C30085C
+Length=1043
+
+ Score = 125 bits (314),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 41/120 (34%), Positives = 64/120 (53%), Gaps = 5/120 (4%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGTA  60
+              + E M  GG YAG+I+ PF+G A Y N D  S +    N+    N+++ GASS+   A
+Sbjct  28   TQQVETMSFGGAYAGQITTPFNGGAFYGNGDNASATINLQNTPGLFNVAIVGASSSNSLA  87
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            ++DL +GG  V +++F G          + ++T    I+L L++D G  D  +D I FS 
+Sbjct  88   QIDLYVGGAKVSTYSFNGTALQTVQKELVINSTA---IELRLSTDPGNNDTLLDRISFSY  144
+
+
+> UniRef50_UPI000691F2F9 hypothetical protein n=1 Tax=Kitasatospora 
+phosalacinea TaxID=2065 RepID=UPI000691F2F9
+Length=895
+
+ Score = 124 bits (312),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 42/121 (35%), Positives = 60/121 (50%), Gaps = 5/121 (4%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN-STHNISVRGASSNAGT  59
+            +  V+AE+M      AG  S        Y N D  S S  FA    ++I+V GASS + T
+Sbjct  46   LVTVQAESMAK----AGCTSTDSTRAVYYCNDDSTSASYTFAQAGRYSITVAGASSQSNT  101
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            A + + +G   VGS  FT  + T Q+      + G QEI+L L +D G  D Y+D+ E +
+Sbjct  102  AGISVYVGQTKVGSLGFTSTSYTRQSAVFDIASAGAQEIRLKLETDSGQNDTYIDYFELA  161
+
+Query  120  L  120
+             
+Sbjct  162  Y  162
+
+
+> UniRef50_A0A1T5BDJ3 Por secretion system C-terminal sorting domain-containing 
+protein n=1 Tax=Alkalitalea saponilacus TaxID=889453 
+RepID=A0A1T5BDJ3_9BACT
+Length=771
+
+ Score = 124 bits (311),  Expect = 1e-30, Method: Composition-based stats.
+ Identities = 41/122 (34%), Positives = 59/122 (48%), Gaps = 4/122 (3%)
+
+Query  3    KVEAENMKI--GGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAG  58
+             ++ ENM     G +      P +GV LYAN D VS +        T+ I VRGAS  + 
+Sbjct  23   TLQCENMNPHSPGGFGLITDQPTNGVWLYANGDQVSQTVTLPEVPGTYLIEVRGASDGSS  82
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             A   L IGG T+ +F F+G       +        ++E+ L  T DDGT + ++DFI  
+Sbjct  83   QADAQLRIGGTTIHTFQFSGTDLQTLNIETTLSGDSEKEVILIRTQDDGTSNTFLDFISI  142
+
+Query  119  SL  120
+            +L
+Sbjct  143  TL  144
+
+
+ Score = 84.2 bits (207),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 36/123 (29%), Positives = 58/123 (47%), Gaps = 5/123 (4%)
+
+Query  3    KVEAENMKIGGT--YAGKISAPFDGVALYANADYVSYSQYFA--NSTHNISVRGASSNAG  58
+             ++ ++M +     +      P +GV LYAN D VS        +  + I VRGAS+N  
+Sbjct  164  TLQCQSMNVHSPHGFGLITDNPTNGVWLYANGDQVSQIVTLPETSGRYRIDVRGASNNNN  223
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A   L I G  +  F+FTG TP + +   NI+      ++ L  T D G  + ++D+I 
+Sbjct  224  AAGAQLRINGDNIFLFSFTGTTPAIISREVNISGDNPSIDLLLIRTDDTGASNTFLDYIS  283
+
+Query  118  FSL  120
+             + 
+Sbjct  284  ITY  286
+
+
+> UniRef50_R9PII5 Endo-1,4-beta-xylanase A n=5 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=R9PII5_AGAAL
+Length=851
+
+ Score = 123 bits (309),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 34/121 (28%), Positives = 59/121 (49%), Gaps = 3/121 (2%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAG  58
+            + K E EN  +   Y+  I +PF+GVA YAN D V  +   +N+     + + GASS   
+Sbjct  25   LQKFELENGSLLPGYSSAIDSPFNGVAAYANNDGVQATAQISNTPGQFRLDISGASSANN  84
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A + + +    +G+  F G   ++ + S  +     +  +   L +DDG+ D Y+D+ E
+Sbjct  85   AAGISVYLDDKKIGATEFVGTAASLGSFSFKLDSMPLNSSLSFKLETDDGSNDTYLDWFE  144
+
+Query  118  F  118
+             
+Sbjct  145  L  145
+
+
+> UniRef50_R7C784 Endo-1 4-beta-xylanase n=1 Tax=Clostridium sp. 
+CAG:62 TaxID=1262828 RepID=R7C784_9CLOT
+Length=732
+
+ Score = 101 bits (253),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 49/111 (44%), Positives = 65/111 (59%), Gaps = 6/111 (5%)
+
+Query  11   IGGTYAGKISAPFDGVALYANADYVSYSQYF--ANSTHNISVRGASSNAGTAKVDLVIGG  68
+            + G  +GK    + GVALYAN DY S S  F   N  + + V+GASSN+ TA V + IGG
+Sbjct  6    LAGYLSGK---EYSGVALYANNDYCSTSYEFKGTNKKYRMVVKGASSNSSTASVSVYIGG  62
+
+Query  69   VTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+              VG  +FTG T + Q+    +T  TG QEIK  L +D+G+ D YV+  E 
+Sbjct  63   KKVGKVSFTGTTLSEQSFEFKMTDVTGKQEIKFLLETDNGSNDTYVNSYEL  113
+
+
+> UniRef50_UPI0002AA6334 glycoside hydrolase n=1 Tax=Pseudoalteromonas 
+sp. Bsw20308 TaxID=283699 RepID=UPI0002AA6334
+Length=918
+
+ Score = 90.4 bits (223),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 33/117 (28%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  5    EAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGTAKV  62
+            E E   +   Y+  I  PF+GVA +AN D V  +   +       + +RGAS++   A +
+Sbjct  29   ELEGGTLLPGYSSVIDTPFNGVAAFANNDGVEVNTQVSGIPGKFRLDIRGASTDNSAAGI  88
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             + +G   VG+ +F+G + +V ++   ++    + ++K  L SD+G  D ++DF E 
+Sbjct  89   SVYLGDKKVGATSFSGSSASVSSIDFKLSSQPSNTKLKFVLESDNGGNDTFLDFYEL  145
+
+
+> UniRef50_UPI0001E6D111 arabinoxylan arabinofuranohydrolase n=2 
+Tax=Paenibacillus TaxID=44249 RepID=UPI0001E6D111
+Length=64
+
+ Score = 65.0 bits (157),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 40/43 (93%), Positives = 41/43 (95%), Gaps = 0/43 (0%)
+
+Query  12  GGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGAS  54
+           GGTYAGKISAPFDGVALYANA+Y SYSQYFANS HNISVRGAS
+Sbjct  21  GGTYAGKISAPFDGVALYANAEYASYSQYFANSMHNISVRGAS  63
+
+
+> UniRef50_A0A060BYL2 CAZy families CBM35|GH30 protein (Fragment) 
+n=1 Tax=uncultured Paenibacillus sp. TaxID=227322 RepID=A0A060BYL2_9BACL
+Length=145
+
+ Score = 65.0 bits (157),  Expect = 5e-11, Method: Composition-based stats.
+ Identities = 26/47 (55%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNIS  49
+            K+E E+M + G YAG IS+PF GVALYAN D  S +QYFA   H+ +
+Sbjct  99   KIECEDMTLSGDYAGTISSPFSGVALYANGDSCSSTQYFAYDKHDFT  145
+
+
+> UniRef50_UPI0009E9583B hypothetical protein n=1 Tax=Paenibacillus 
+etheri TaxID=1306852 RepID=UPI0009E9583B
+Length=60
+
+ Score = 49.5 bits (117),  Expect = 4e-06, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLAL  102
+            + IGGVT G+F F G +PTV TL+N++H TG+QEI+  +
+Sbjct  1    MKIGGVTKGTFYFGGSSPTVYTLNNVSHGTGNQEIQREI  39
+
+
+> UniRef50_UPI00069D6D0A hypothetical protein n=1 Tax=Solirubrobacter 
+soli TaxID=363832 RepID=UPI00069D6D0A
+Length=547
+
+ Score = 48.0 bits (113),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 49/107 (46%), Gaps = 4/107 (4%)
+
+Query  1    ITKVEAENMKIGGTY-AGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGT  59
+            +  +EAE M   GT      ++    V L  N   VS      +S  +++VR        
+Sbjct  26   LVTLEAEAMSAAGTIKTDATASGGRDVMLSGNG-SVSAKVNLPSSATSVTVRAKGDQCLG  84
+
+Query  60   A-KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSD  105
+            A  + + + G TVG+F+ +  T +   ++  + ATG + + LA T+D
+Sbjct  85   APALAVKVDGSTVGTFSVSATTWSTYVVTR-SIATGTRTLTLAYTND  130
+
+
+> UniRef50_A0A0L6JLB6 Coagulation factor 5/8 type domain protein 
+n=1 Tax=Pseudobacteroides cellulosolvens ATCC 35603 = DSM 
+2933 TaxID=398512 RepID=A0A0L6JLB6_9FIRM
+Length=1839
+
+ Score = 48.0 bits (113),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 35/127 (28%), Positives = 53/127 (42%), Gaps = 10/127 (8%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGV----ALYANADYVSYSQYF-ANSTHNISVRGASS  55
+            ITK+EAEN  + G      SA + G       Y +   V+++    A  T+N+S+R A+ 
+Sbjct  239  ITKIEAENGVLSGALVQNGSAGYSGTGFLSGFYNDGVGVTFNVSVSAAGTYNLSLRYANG  298
+
+Query  56   NAGTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAY  112
+                 ++ L + G       F   +G     +    IT   G   I L   S DG    Y
+Sbjct  299  MGSQQQLSLYVNGSHFKDCVFPYTSGWDSWTEKADTITLNAGSNTIMLKRDSGDGA--LY  356
+
+Query  113  VDFIEFS  119
+            +D+I  S
+Sbjct  357  LDYITIS  363
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.147    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0454    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233745807800
+Results from round 3
+
+
+Query= 1w0n
+
+Length=120
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI000839530B xylanase deacetylase n=1 Tax=Paenibacill...  170     3e-49
+  UniRef50_E3EFC9 Xylanase deacetylase n=41 Tax=Paenibacillaceae ...  169     8e-49
+  UniRef50_A0A1G5CRY5 Peptidoglycan/xylan/chitin deacetylase, Pgd...  168     3e-48
+  UniRef50_A0A1G4VKI4 Endo-1,4-beta-xylanase n=7 Tax=Lachnospirac...  170     2e-47
+  UniRef50_A0A1I6V943 Endo-1,4-beta-xylanase n=3 Tax=Halolactibac...  165     2e-47
+  UniRef50_P83513 Bifunctional xylanase/deacetylase n=1 Tax=Pseud...  169     3e-47
+  UniRef50_A0A2A6E3J6 Endo-1,4-beta-xylanase n=1 Tax=Paenibacilla...  165     6e-47
+  UniRef50_A0A1G5AAV9 Endo-1,4-beta-xylanase n=4 Tax=root TaxID=1...  168     9e-47
+  UniRef50_UPI0009DC008C hypothetical protein n=3 Tax=Butyrivibri...  163     9e-47
+  UniRef50_B8E1P4 Endo-1,4-beta-xylanase n=36 Tax=Bacteria TaxID=...  161     1e-45
+  UniRef50_A0A140HJ20 Endo-1,4-beta-xylanase n=10 Tax=Bacteria Ta...  166     1e-45
+  UniRef50_A0A1T4VYJ5 Endo-1,4-beta-xylanase n=4 Tax=Clostridiale...  159     1e-44
+  UniRef50_P45796 Arabinoxylan arabinofuranohydrolase n=174 Tax=T...  162     2e-44
+  UniRef50_A0A1R0XG00 1,4-beta-xylanase (Fragment) n=1 Tax=Paenib...  149     9e-44
+  UniRef50_Q59257 Endo-1,4-beta-xylanase n=30 Tax=Bacillales TaxI...  156     9e-44
+  UniRef50_G8LV53 Endo-1,4-beta-xylanase n=2 Tax=Clostridiales Ta...  158     2e-43
+  UniRef50_A0A1I1IVV3 Beta-xylanase n=1 Tax=Butyrivibrio sp. YAB3...  159     2e-42
+  UniRef50_A0A1H3X4K0 Endo-1,4-beta-xylanase n=2 Tax=Lachnospirac...  155     6e-42
+  UniRef50_A0A1G5FSH1 Beta-xylanase n=5 Tax=Butyrivibrio TaxID=83...  148     9e-39
+  UniRef50_A0A127JBT0 Endo-1,4-beta-xylanase n=1 Tax=uncultured b...  138     2e-36
+  UniRef50_B9MLP1 Endo-1,4-beta-xylanase n=7 Tax=Clostridia TaxID...  136     3e-36
+  UniRef50_UPI000472131D hypothetical protein n=1 Tax=Paenibacill...  135     2e-34
+  UniRef50_G7VQ68 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillus te...  127     9e-34
+  UniRef50_R6ANF3 Glycoside hydrolase family 8 n=1 Tax=Prevotella...  133     1e-33
+  UniRef50_A0A1Q6N476 Uncharacterized protein n=1 Tax=Clostridium...  128     8e-32
+  UniRef50_A0A150AJ84 Uncharacterized protein n=2 Tax=Flammeovirg...  127     1e-31
+  UniRef50_A0A1B1G1H4 Glycoside hydrolase family 8 n=2 Tax=Flamme...  124     2e-30
+  UniRef50_A0A1T5BDJ3 Por secretion system C-terminal sorting dom...  121     1e-29
+  UniRef50_UPI0009DD359A hypothetical protein n=2 Tax=Actinobacte...  118     2e-28
+  UniRef50_A0A060BUV5 CBM_3 (Fragment) n=1 Tax=uncultured Caldice...  111     3e-28
+  UniRef50_UPI000C30085C T9SS C-terminal target domain-containing...  118     4e-28
+  UniRef50_A0A1H7K926 Por secretion system C-terminal sorting dom...  117     8e-28
+  UniRef50_R9PII5 Endo-1,4-beta-xylanase A n=5 Tax=Gammaproteobac...  115     3e-27
+  UniRef50_UPI000691F2F9 hypothetical protein n=1 Tax=Kitasatospo...  114     5e-27
+  UniRef50_R7C784 Endo-1 4-beta-xylanase n=1 Tax=Clostridium sp. ...  100     4e-22
+  UniRef50_UPI0002AA6334 glycoside hydrolase n=1 Tax=Pseudoaltero...  93.4    1e-19
+  UniRef50_A0A0L6JLB6 Coagulation factor 5/8 type domain protein ...  85.7    7e-17
+  UniRef50_UPI00069D6D0A hypothetical protein n=1 Tax=Solirubroba...  75.7    1e-13
+  UniRef50_UPI0001E6D111 arabinoxylan arabinofuranohydrolase n=2 ...  58.8    2e-09
+  UniRef50_A0A060BYL2 CAZy families CBM35|GH30 protein (Fragment)...  58.8    6e-09
+  UniRef50_UPI0009E9583B hypothetical protein n=1 Tax=Paenibacill...  45.3    1e-04
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_B8I0X3 Uncharacterized protein n=2 Tax=Clostridiales T...  55.7    1e-06
+  UniRef50_A0A0L6JL72 Carbohydrate binding family 6 n=1 Tax=Pseud...  53.4    5e-06
+  UniRef50_UPI000A1CD75E DUF4968 domain-containing protein n=1 Ta...  50.7    4e-05
+  UniRef50_E3FL59 Conserved uncharacterized protein n=11 Tax=Bact...  49.1    1e-04
+  UniRef50_A0A0W1ATY4 Uncharacterized protein n=1 Tax=Paenibacill...  48.8    2e-04
+  UniRef50_A0A1M6MP35 Beta-xylosidase, GH43 family n=1 Tax=Anaero...  48.4    2e-04
+  UniRef50_A7LUW1 Uncharacterized protein n=7 Tax=Bacteroides Tax...  45.7    2e-04
+  UniRef50_A0A0L6JI78 Type 3a cellulose-binding domain protein n=...  48.0    2e-04
+  UniRef50_UPI0006C77FC5 hypothetical protein n=1 Tax=Clostridia ...  47.2    3e-04
+  UniRef50_R5L8H0 F5/8 type C domain protein n=1 Tax=Eubacterium ...  48.0    3e-04
+  UniRef50_A0A1Y4ELN8 Uncharacterized protein (Fragment) n=1 Tax=...  47.6    4e-04
+  UniRef50_A0A1M4Z9S4 Carbohydrate binding module (Family 6) n=1 ...  46.8    5e-04
+  UniRef50_A0A197ZWS3 Uncharacterized protein n=1 Tax=Paenibacill...  46.8    6e-04
+  UniRef50_A0A1C0ZTU5 Uncharacterized protein n=1 Tax=Paenibacill...  46.4    8e-04
+  UniRef50_S0FJB0 Carbohydrate binding module (Family 6) (Fragmen...  46.4    8e-04
+  UniRef50_K9XTH9 Carbohydrate binding family 6 n=1 Tax=Stanieria...  46.4    9e-04
+  UniRef50_A0A101Y062 Glycosyl hydrolase n=15 Tax=Bacillales TaxI...  46.4    9e-04
+  UniRef50_A0A264EHV7 Alpha-amylase n=16 Tax=Paenibacillus TaxID=...  46.4    9e-04
+
+
+> UniRef50_UPI000839530B xylanase deacetylase n=1 Tax=Paenibacillus 
+sp. GM2 TaxID=1622070 RepID=UPI000839530B
+Length=356
+
+ Score = 170 bits (432),  Expect = 3e-49, Method: Composition-based stats.
+ Identities = 66/118 (56%), Positives = 88/118 (75%), Gaps = 0/118 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T+VEAE+M   G Y G IS+PF GVALYAN D V Y+Q F +  H+ S+RGAS+N+  A+
+Sbjct  239  TRVEAESMTKSGQYTGNISSPFSGVALYANGDSVKYTQNFTSGNHHFSLRGASNNSNMAR  298
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            VDL IGG T G+F F G  P V TLSN++H TG+Q+I+L +T+D+GTWD Y+D++E S
+Sbjct  299  VDLKIGGQTKGTFYFGGTNPAVYTLSNVSHGTGNQQIELVVTADNGTWDVYIDYLEIS  356
+
+
+> UniRef50_E3EFC9 Xylanase deacetylase n=41 Tax=Paenibacillaceae 
+TaxID=186822 RepID=E3EFC9_PAEPS
+Length=357
+
+ Score = 169 bits (429),  Expect = 8e-49, Method: Composition-based stats.
+ Identities = 65/117 (56%), Positives = 86/117 (74%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK+EA NM   G Y   IS+PF+GVALY N D V ++Q F + TH+ S+RGAS+N+  AK
+Sbjct  240  TKIEAVNMTKSGQYTSNISSPFNGVALYTNNDSVKFTQNFTSGTHSFSLRGASNNSNMAK  299
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG T G+F F G +P V TL N+ H TG+Q+I+L +T+DDGTWDAY+D++E 
+Sbjct  300  VDLKIGGQTKGTFYFGGSSPAVYTLKNVNHGTGNQKIELVVTADDGTWDAYLDYLEI  356
+
+
+> UniRef50_A0A1G5CRY5 Peptidoglycan/xylan/chitin deacetylase, PgdA/CDA1 
+family n=1 Tax=Paenibacillus polysaccharolyticus TaxID=582692 
+RepID=A0A1G5CRY5_9BACL
+Length=354
+
+ Score = 168 bits (425),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 64/118 (54%), Positives = 87/118 (74%), Gaps = 0/118 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+             ++E ENM   G Y G IS+PF+GV LYAN D V  +  F++ TH+ ++RGAS+NA  A+
+Sbjct  237  VRIETENMTKSGQYTGNISSPFNGVVLYANNDAVRTTHNFSSGTHSFALRGASNNANMAR  296
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            VDL IGG T G+F F G +P V TL+NI+H TG+Q I+L +T+DDGTWDAY+D++E S
+Sbjct  297  VDLKIGGQTKGTFYFGGSSPAVYTLNNISHGTGNQVIELIVTADDGTWDAYLDYLEIS  354
+
+
+> UniRef50_A0A1G4VKI4 Endo-1,4-beta-xylanase n=7 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A1G4VKI4_9FIRM
+Length=614
+
+ Score = 170 bits (430),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 61/117 (52%), Positives = 83/117 (71%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T V+ E+M I G YAGKI  PF+GVALYAN D V+Y+QYFA  TH+ ++R  S+N   A+
+Sbjct  263  TTVQCESMSISGPYAGKIGNPFNGVALYANNDAVTYNQYFAYGTHDFTLRACSNNNNMAR  322
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG   G+F + G  P   T+ N++H TG+QE+KL +T+DDG WDAY+D+ + 
+Sbjct  323  VDLQIGGEYKGTFYYGGSYPAEYTIKNVSHKTGNQEVKLIVTADDGNWDAYIDYFKI  379
+
+
+> UniRef50_A0A1I6V943 Endo-1,4-beta-xylanase n=3 Tax=Halolactibacillus 
+TaxID=306539 RepID=A0A1I6V943_9BACI
+Length=360
+
+ Score = 165 bits (419),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 69/117 (59%), Positives = 91/117 (78%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TKVE E+M  GG Y G IS+PF+GVALYAN D VSY+QYFAN+TH+ S+RGAS N+  A+
+Sbjct  243  TKVETEDMTKGGQYTGNISSPFNGVALYANNDSVSYTQYFANNTHSFSLRGASDNSEMAR  302
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL+IGG   G+F F G  P V T+ N++H TG+Q I+L +T+DDGTWDA++D++E 
+Sbjct  303  VDLIIGGQNKGTFYFGGSYPAVYTIDNVSHGTGNQTIELVVTADDGTWDAFIDYLEI  359
+
+
+> UniRef50_P83513 Bifunctional xylanase/deacetylase n=1 Tax=Pseudobutyrivibrio 
+xylanivorans TaxID=185007 RepID=XY11A_PSEXY
+Length=602
+
+ Score = 169 bits (429),  Expect = 3e-47, Method: Composition-based stats.
+ Identities = 58/118 (49%), Positives = 81/118 (69%), Gaps = 0/118 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+            K++ E M   G Y G IS+PF+GVALYAN D V Y+QYFA+ TH+ ++RG S+N   A+V
+Sbjct  250  KIQCETMTKSGQYTGNISSPFNGVALYANNDAVKYTQYFASGTHDFTLRGCSNNNKMARV  309
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            DL IGG   G+F +    P   T+ N++H TG+Q I+L +T+DDG WDAY+D+   S+
+Sbjct  310  DLKIGGQNKGTFYYGDSYPAEYTIKNVSHGTGNQTIELVVTADDGQWDAYLDYFNNSV  367
+
+
+> UniRef50_A0A2A6E3J6 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillaceae 
+bacterium JTherm TaxID=1906605 RepID=A0A2A6E3J6_9BACL
+Length=368
+
+ Score = 165 bits (417),  Expect = 6e-47, Method: Composition-based stats.
+ Identities = 66/115 (57%), Positives = 87/115 (76%), Gaps = 0/115 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            V+AENM  GG Y   I++PF+GVALYAN D V Y+QYF+  TH+ S+RGASSN   A+VD
+Sbjct  253  VQAENMTKGGQYTSNITSPFNGVALYANNDRVYYTQYFSTGTHSFSLRGASSNNNMARVD  312
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            L IGG T G+F F G  P V TL+NI+H TG+Q ++L +T+D+GTWDAY+D++E 
+Sbjct  313  LRIGGQTKGTFYFGGPYPAVYTLNNISHGTGNQTVELIVTADNGTWDAYIDYLEI  367
+
+
+> UniRef50_A0A1G5AAV9 Endo-1,4-beta-xylanase n=4 Tax=root TaxID=1 
+RepID=A0A1G5AAV9_9FIRM
+Length=682
+
+ Score = 168 bits (426),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 81/117 (69%), Gaps = 0/117 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+             V+ E+M   G YA  I +PF+G+ALYAN D +S+ Q FA+ T + ++RG S+N   A+V
+Sbjct  315  TVQCESMSKSGQYADTIGSPFNGMALYANNDKLSFDQNFASDTSDFTLRGCSNNNNMARV  374
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL IGG   G+F + G  P   T+ N+ H TG+Q+++L +T+D+G WDAYVD+++FS
+Sbjct  375  DLRIGGQNKGTFYYGGPYPAEYTIKNVKHGTGNQKVELVVTADNGQWDAYVDYLKFS  431
+
+
+> UniRef50_UPI0009DC008C hypothetical protein n=3 Tax=Butyrivibrio 
+TaxID=830 RepID=UPI0009DC008C
+Length=343
+
+ Score = 163 bits (414),  Expect = 9e-47, Method: Composition-based stats.
+ Identities = 55/111 (50%), Positives = 76/111 (68%), Gaps = 0/111 (0%)
+
+Query  9    MKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIGG  68
+            M   G Y G IS+PF GVALYAN D VSY+QYFA  TH+  +RG ++N   A+VDL IGG
+Sbjct  1    MSKAGQYTGNISSPFSGVALYANNDRVSYTQYFAYGTHDFVLRGCANNGNMARVDLKIGG  60
+
+Query  69   VTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+               G+F + G  P   T+ N++H TG+Q ++L +T+DDG WDAY+D++  +
+Sbjct  61   QYKGTFYYGGSYPAEYTIKNVSHGTGNQTVELVVTADDGNWDAYIDYLRIN  111
+
+
+> UniRef50_B8E1P4 Endo-1,4-beta-xylanase n=36 Tax=Bacteria TaxID=2 
+RepID=B8E1P4_DICTD
+Length=356
+
+ Score = 161 bits (407),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 75/118 (64%), Positives = 92/118 (78%), Gaps = 0/118 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            +T+VE ENM + G YA +IS+PF+GVALYAN D   Y+QYFANS H   +RG SSN  TA
+Sbjct  238  VTRVECENMSLSGPYASRISSPFNGVALYANNDRAYYTQYFANSVHTFRLRGCSSNNNTA  297
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             VDL IGG  VG+F FTG TPTVQTLSNI+HATG+Q ++L LTSD+GTWD Y+D++E 
+Sbjct  298  AVDLRIGGQKVGTFYFTGTTPTVQTLSNISHATGNQTVELILTSDNGTWDVYLDYLEI  355
+
+
+> UniRef50_A0A140HJ20 Endo-1,4-beta-xylanase n=10 Tax=Bacteria 
+TaxID=2 RepID=A0A140HJ20_9BACT
+Length=787
+
+ Score = 166 bits (420),  Expect = 1e-45, Method: Composition-based stats.
+ Identities = 58/117 (50%), Positives = 81/117 (69%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T V+ E+M  GG Y G I+ PF GVALY N D VSY+QYFA+ TH+ ++RG S+N   A+
+Sbjct  264  TIVQCESMTKGGQYTGNINNPFGGVALYGNNDKVSYTQYFASGTHDFTLRGCSNNDNMAR  323
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG T G+F + G  P   T+ N+ H TG+Q I+L +T+D+G WDA +D+++ 
+Sbjct  324  VDLKIGGETKGTFYYGGSYPAEYTIKNVNHGTGNQTIELVVTADNGQWDANIDYLKI  380
+
+
+ Score = 162 bits (411),  Expect = 3e-44, Method: Composition-based stats.
+ Identities = 58/116 (50%), Positives = 78/116 (67%), Gaps = 0/116 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            V+ E+M   G Y G I+ PFDGVALY N D VSYSQYFA  TH+ ++R  S+N   A+VD
+Sbjct  438  VQCESMSKAGQYTGNINNPFDGVALYGNNDRVSYSQYFAYGTHDFTLRACSNNDNMARVD  497
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            L IGG T G+F + G  P   T+ N+ H TG+Q ++L +T+DDG WDAY+D+ +  
+Sbjct  498  LKIGGETKGTFYYGGPYPAEYTIKNVNHGTGEQTVELVVTADDGQWDAYIDYFKIE  553
+
+
+> UniRef50_A0A1T4VYJ5 Endo-1,4-beta-xylanase n=4 Tax=Clostridiales 
+TaxID=186802 RepID=A0A1T4VYJ5_9FIRM
+Length=399
+
+ Score = 159 bits (402),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 57/117 (49%), Positives = 77/117 (66%), Gaps = 0/117 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+             ++ ENM   G Y G I++PF GVALYAN D VSY+Q F   THN S+R  S+N   A+V
+Sbjct  281  TIQCENMTKSGQYTGNINSPFSGVALYANQDAVSYTQSFGYGTHNFSLRACSNNNNMARV  340
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL IG    G+F +    P   TL N++H TG+QE+KL +T+DDG WDA++D +E +
+Sbjct  341  DLYIGNEYKGTFYYGDGYPATYTLKNVSHKTGNQEVKLVVTADDGNWDAFLDSLEIT  397
+
+
+> UniRef50_P45796 Arabinoxylan arabinofuranohydrolase n=174 Tax=Terrabacteria 
+group TaxID=1783272 RepID=XYND_PAEPO
+Length=635
+
+ Score = 162 bits (409),  Expect = 2e-44, Method: Composition-based stats.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA
+Sbjct  516  ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  575
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL
+Sbjct  576  KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  635
+
+
+> UniRef50_A0A1R0XG00 1,4-beta-xylanase (Fragment) n=1 Tax=Paenibacillus 
+odorifer TaxID=189426 RepID=A0A1R0XG00_9BACL
+Length=126
+
+ Score = 149 bits (377),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 68/115 (59%), Positives = 88/115 (77%), Gaps = 0/115 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK+EAENM   G Y   IS+PF GVALYAN D V Y+Q F   THN S+RGAS+N+  A+
+Sbjct  12   TKIEAENMIKSGQYTSNISSPFSGVALYANNDLVKYTQNFTTGTHNFSLRGASNNSNMAR  71
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            VDL IGGVT G+F F G +P V TL+N++H TG+QEI+L +T+D+GTWDAY+D++
+Sbjct  72   VDLKIGGVTKGTFYFGGSSPAVYTLNNVSHGTGNQEIQLVVTTDNGTWDAYLDYL  126
+
+
+> UniRef50_Q59257 Endo-1,4-beta-xylanase n=30 Tax=Bacillales TaxID=1385 
+RepID=Q59257_9BACI
+Length=354
+
+ Score = 156 bits (394),  Expect = 9e-44, Method: Composition-based stats.
+ Identities = 59/117 (50%), Positives = 84/117 (72%), Gaps = 0/117 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T+VEAE+M  GG Y   I++PF+GVALYAN D VS++  F  +  + S+RGAS+N+  A+
+Sbjct  237  TRVEAESMTKGGPYTSNITSPFNGVALYANGDNVSFNHSFTKANSSFSLRGASNNSNMAR  296
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL IGG   G+F F    P V T++N+ H TG+Q ++L +T+DDGTWDAY+D++E 
+Sbjct  297  VDLRIGGQNRGTFYFGDHYPAVYTINNVNHGTGNQLVELIVTADDGTWDAYLDYLEI  353
+
+
+> UniRef50_G8LV53 Endo-1,4-beta-xylanase n=2 Tax=Clostridiales 
+TaxID=186802 RepID=G8LV53_CLOCD
+Length=525
+
+ Score = 158 bits (400),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 56/116 (48%), Positives = 80/116 (69%), Gaps = 0/116 (0%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVD  63
+            ++ ENM   G Y G IS+PF GVALYAN D V ++  F +ST   S+RG S+N   A+VD
+Sbjct  410  IQCENMIKSGQYTGNISSPFSGVALYANNDSVKFTHNFTSSTSTFSLRGCSNNQNMARVD  469
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            L IGG   G+F + G  P V T+ N++H TG+Q ++L +TSD+GTWDAY+D+++ +
+Sbjct  470  LRIGGQYKGTFYYGGSYPAVYTIQNVSHGTGNQTVELIVTSDNGTWDAYLDYLQIN  525
+
+
+> UniRef50_A0A1I1IVV3 Beta-xylanase n=1 Tax=Butyrivibrio sp. YAB3001 
+TaxID=1520812 RepID=A0A1I1IVV3_9FIRM
+Length=1332
+
+ Score = 159 bits (403),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 63/116 (54%), Positives = 82/116 (71%), Gaps = 0/116 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+            KVE E M   G YAG IS PF+GVALYAN D VS+ QYFA  THN+++RG S+N   AKV
+Sbjct  514  KVECETMTKSGQYAGTISNPFNGVALYANNDSVSFEQYFAYDTHNVTLRGCSNNRNMAKV  573
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            DL IGG   G+F F  + P   T+ N+TH TG Q ++L +++DDGTWDAY+D++ +
+Sbjct  574  DLKIGGEKKGTFYFGDEYPAEYTIENVTHKTGAQTVELVVSADDGTWDAYLDYLTW  629
+
+
+> UniRef50_A0A1H3X4K0 Endo-1,4-beta-xylanase n=2 Tax=Lachnospiraceae 
+TaxID=186803 RepID=A0A1H3X4K0_9FIRM
+Length=757
+
+ Score = 155 bits (393),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 58/115 (50%), Positives = 78/115 (68%), Gaps = 0/115 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            T ++ E+M I G YAGKIS+PF GVALY N+D VS +Q F   TH+ ++RGASSN   A+
+Sbjct  415  TTIQCEDMTIDGPYAGKISSPFSGVALYGNSDEVSCTQDFGYDTHDFTLRGASSNNNMAR  474
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            VDL+IGG   G+F F        T+ N+ H TG Q+I+L + +DDG WDAY+D +
+Sbjct  475  VDLMIGGENKGTFYFGDAYSAEYTIKNVRHKTGQQKIELIVNADDGNWDAYIDSL  529
+
+
+ Score = 145 bits (365),  Expect = 6e-38, Method: Composition-based stats.
+ Identities = 54/117 (46%), Positives = 79/117 (68%), Gaps = 0/117 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKV  62
+              E E+M +GG+YAG+IS+PF GVALY N D V ++  F N T++ ++ G S  +  A+V
+Sbjct  265  TKECEDMTLGGSYAGRISSPFRGVALYGNQDSVKFTHDFKNGTNDFTLHGCSDGSNMARV  324
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            DL++GGV  G+F F    P   T+ N++H TG QE+KL +++DDG+WDAY D +  S
+Sbjct  325  DLLVGGVNKGTFYFGDNNPAYYTIKNVSHGTGSQEVKLVVSADDGSWDAYADQLIIS  381
+
+
+> UniRef50_A0A1G5FSH1 Beta-xylanase n=5 Tax=Butyrivibrio TaxID=830 
+RepID=A0A1G5FSH1_9FIRM
+Length=1324
+
+ Score = 148 bits (375),  Expect = 9e-39, Method: Composition-based stats.
+ Identities = 62/116 (53%), Positives = 83/116 (72%), Gaps = 0/116 (0%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            ++KVE E+M   G YAG IS+PFDGVALYAN D VS+ QYFA  TH++++R  S+N+  A
+Sbjct  510  VSKVECESMTRSGEYAGLISSPFDGVALYANGDTVSFDQYFAYGTHDVTLRACSNNSTMA  569
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+            KV L IGG   G+F +  + P   TL  +TH TG Q ++L +TSDDGTWDAY+D++
+Sbjct  570  KVVLKIGGEEKGTFYYGDEYPAEFTLKGVTHGTGVQNVELTITSDDGTWDAYLDYL  625
+
+
+> UniRef50_A0A127JBT0 Endo-1,4-beta-xylanase n=1 Tax=uncultured 
+bacterium TaxID=77133 RepID=A0A127JBT0_9BACT
+Length=515
+
+ Score = 138 bits (349),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 57/119 (48%), Positives = 79/119 (66%), Gaps = 1/119 (1%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TKVEAENM  GG Y G  S+PF+GV LYAN D VS++QYFAN+ H   +RGASSN   A+
+Sbjct  396  TKVEAENMTKGGQYTGNCSSPFNGVTLYANNDKVSFNQYFANNKHTFKLRGASSNDKEAQ  455
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHAT-GDQEIKLALTSDDGTWDAYVDFIEFS  119
+            V+L IGG + G+F F+G  P+ +T++   +       I+L   +D+ TWD  +D+IE +
+Sbjct  456  VELRIGGTSYGTFKFSGTYPSEKTITATHYKANSTATIELICVNDNNTWDVNIDWIEIA  514
+
+
+ Score = 132 bits (333),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 55/119 (46%), Positives = 79/119 (66%), Gaps = 1/119 (1%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTA  60
+            +TKVEAENM  GG Y G  S+PF+GV LYAN D VS++QYF+N++H   +RGASSN   A
+Sbjct  257  VTKVEAENMTKGGQYTGSCSSPFNGVTLYANDDKVSFNQYFSNNSHTFKLRGASSNDKEA  316
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHAT-GDQEIKLALTSDDGTWDAYVDFIEF  118
+            +V L IGG + G+F F+G + + +T++   +       I+L   +D+ TWD  +D+IE 
+Sbjct  317  QVQLKIGGTSYGTFKFSGTSASEKTITATHNKANSTATIELVCVNDNNTWDVKIDWIEI  375
+
+
+> UniRef50_B9MLP1 Endo-1,4-beta-xylanase n=7 Tax=Clostridia TaxID=186801 
+RepID=B9MLP1_CALBD
+Length=357
+
+ Score = 136 bits (343),  Expect = 3e-36, Method: Composition-based stats.
+ Identities = 46/117 (39%), Positives = 71/117 (61%), Gaps = 1/117 (1%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST-HNISVRGASSNAGTAK  61
+            KVE ENM + G YA KI++PF G+ALYAN D  + +  F+ S  +   +RG  +N   A 
+Sbjct  240  KVECENMSLSGPYASKITSPFYGMALYANGDKATTNINFSASRNYTFKLRGCGNNNNLAS  299
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+            VDL+I G  VGSF + G  P    + N+  + G  ++++ +++D+GTWD Y D++  
+Sbjct  300  VDLLIDGKKVGSFYYRGTYPWEAPIENVYVSAGSHKVEIVVSADNGTWDVYADYLLI  356
+
+
+> UniRef50_UPI000472131D hypothetical protein n=1 Tax=Paenibacillus 
+graminis TaxID=189425 RepID=UPI000472131D
+Length=688
+
+ Score = 135 bits (339),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 54/123 (44%), Positives = 75/123 (61%), Gaps = 3/123 (2%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAG  58
+            I+K EAE+M   G+Y   IS+PF GVALYAN D V  S  FA     + + VRGASSN+ 
+Sbjct  32   ISKYEAESMTKAGSYTSNISSPFTGVALYANNDLVKNSTTFATIPGKYEMRVRGASSNSS  91
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQT-LSNITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A V + +GG    S +FTG TP +Q+ L ++T  T  QE++L L +D+G+ D  +D+ E
+Sbjct  92   AAGVSVYVGGSKKASLSFTGTTPAIQSVLFDVTSGTSSQEVQLKLETDNGSNDTLIDYYE  151
+
+Query  118  FSL  120
+               
+Sbjct  152  LYF  154
+
+
+> UniRef50_G7VQ68 Endo-1,4-beta-xylanase n=1 Tax=Paenibacillus 
+terrae (strain HPL-003) TaxID=985665 RepID=G7VQ68_PAETH
+Length=228
+
+ Score = 127 bits (319),  Expect = 9e-34, Method: Composition-based stats.
+ Identities = 54/100 (54%), Positives = 68/100 (68%), Gaps = 0/100 (0%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAK  61
+            TK E E+M  GG Y   IS+ F GVALYAN D V Y+QYF + THN S+RGAS+N+  A+
+Sbjct  129  TKKECESMTKGGQYTSNISSSFSGVALYANNDSVKYTQYFESGTHNFSLRGASNNSNMAR  188
+
+Query  62   VDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLA  101
+            VDL IGG T G+F F G  P V TL+N++H TG + + L 
+Sbjct  189  VDLKIGGQTKGTFYFGGSNPAVYTLNNVSHGTGIKRLSLL  228
+
+
+> UniRef50_R6ANF3 Glycoside hydrolase family 8 n=1 Tax=Prevotella 
+sp. CAG:604 TaxID=1262932 RepID=R6ANF3_9BACT
+Length=943
+
+ Score = 133 bits (335),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 49/122 (40%), Positives = 68/122 (56%), Gaps = 3/122 (2%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANST--HNISVRGASSNAGT  59
+              +EAE M  GG YAGK S+PF G+AL AN D  +      N +  +NI V GASSN   
+Sbjct  21   QTLEAETMAPGGQYAGKCSSPFQGMALCANGDNATGVVSLTNGSGVYNIKVTGASSNGTA  80
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQ-EIKLALTSDDGTWDAYVDFIEF  118
+            A V L +GG  +   +F+G  P+VQ +    +      ++KL L +D+G+ D Y+D IEF
+Sbjct  81   AGVALYVGGKKMADMSFSGTAPSVQQVQTKLYLDASSVDVKLNLENDNGSNDTYIDKIEF  140
+
+Query  119  SL  120
+              
+Sbjct  141  EF  142
+
+
+> UniRef50_A0A1Q6N476 Uncharacterized protein n=1 Tax=Clostridium 
+sp. CAG:62_40_43 TaxID=1896990 RepID=A0A1Q6N476_9CLOT
+Length=1002
+
+ Score = 128 bits (322),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 48/119 (40%), Positives = 64/119 (54%), Gaps = 3/119 (3%)
+
+Query  5    EAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYF--ANSTHNISVRGASSNAGTAKV  62
+            E   M   G         + GVALYAN DY S S  F   N  + + V+GASSN+ TA V
+Sbjct  269  ECSKMPYKGMAGYLSGKEYSGVALYANGDYCSTSYEFVGTNKKYRMVVKGASSNSTTANV  328
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+             + IGG  VG+  FTG T + Q+    +T  TG+QEIK  L +D+G+ D +V+  E   
+Sbjct  329  SVYIGGKKVGTVGFTGTTLSEQSFEFKMTDVTGNQEIKFLLETDNGSNDTFVNSYELYY  387
+
+
+> UniRef50_A0A150AJ84 Uncharacterized protein n=2 Tax=Flammeovirga 
+sp. SJP92 TaxID=1775430 RepID=A0A150AJ84_9BACT
+Length=1019
+
+ Score = 127 bits (320),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 52/119 (44%), Positives = 75/119 (63%), Gaps = 3/119 (3%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGTA  60
+            K++AE + +GG YAG  + PF+G+ LYAN D  S +  F++     +I+VRGAS+N+  A
+Sbjct  19   KIQAETLTLGGAYAGTTTTPFNGIILYANDDKGSTTINFSDAPGLFDIAVRGASTNSSAA  78
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             V L I GV V SF+F+G + T QT S  I    G++ I L L +DDG+ D  +D+I F
+Sbjct  79   GVSLEIDGVEVTSFSFSGTSATTQTKSVKIEGNPGNRTITLVLITDDGSNDTILDWISF  137
+
+
+> UniRef50_A0A1B1G1H4 Glycoside hydrolase family 8 n=2 Tax=Flammeovirga 
+TaxID=59739 RepID=A0A1B1G1H4_9BACT
+Length=892
+
+ Score = 124 bits (311),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 46/120 (38%), Positives = 70/120 (58%), Gaps = 3/120 (3%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGTA  60
+             ++ E M + G Y G  + PFDG+ LYAN D  S +   +N     +IS+RGAS+NA  A
+Sbjct  49   TIQTETMTLEGPYTGTTTTPFDGIILYANDDNGSTTIQLSNAPGVFDISLRGASTNASAA  108
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+             V L I G  + +F+F+G  P++ T S  I    G + I+L L +D+G+ D  +D+I F+
+Sbjct  109  GVSLEIDGTEITTFSFSGTVPSIDTKSIKIEGNAGSKVIRLVLKTDNGSNDTLLDWISFT  168
+
+
+> UniRef50_A0A1T5BDJ3 Por secretion system C-terminal sorting domain-containing 
+protein n=1 Tax=Alkalitalea saponilacus TaxID=889453 
+RepID=A0A1T5BDJ3_9BACT
+Length=771
+
+ Score = 121 bits (305),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 41/122 (34%), Positives = 59/122 (48%), Gaps = 4/122 (3%)
+
+Query  3    KVEAENMKI--GGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAG  58
+             ++ ENM     G +      P +GV LYAN D VS +        T+ I VRGAS  + 
+Sbjct  23   TLQCENMNPHSPGGFGLITDQPTNGVWLYANGDQVSQTVTLPEVPGTYLIEVRGASDGSS  82
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             A   L IGG T+ +F F+G       +        ++E+ L  T DDGT + ++DFI  
+Sbjct  83   QADAQLRIGGTTIHTFQFSGTDLQTLNIETTLSGDSEKEVILIRTQDDGTSNTFLDFISI  142
+
+Query  119  SL  120
+            +L
+Sbjct  143  TL  144
+
+
+ Score = 83.8 bits (206),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 36/123 (29%), Positives = 58/123 (47%), Gaps = 5/123 (4%)
+
+Query  3    KVEAENMKIGGT--YAGKISAPFDGVALYANADYVSYSQYFA--NSTHNISVRGASSNAG  58
+             ++ ++M +     +      P +GV LYAN D VS        +  + I VRGAS+N  
+Sbjct  164  TLQCQSMNVHSPHGFGLITDNPTNGVWLYANGDQVSQIVTLPETSGRYRIDVRGASNNNN  223
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A   L I G  +  F+FTG TP + +   NI+      ++ L  T D G  + ++D+I 
+Sbjct  224  AAGAQLRINGDNIFLFSFTGTTPAIISREVNISGDNPSIDLLLIRTDDTGASNTFLDYIS  283
+
+Query  118  FSL  120
+             + 
+Sbjct  284  ITY  286
+
+
+> UniRef50_UPI0009DD359A hypothetical protein n=2 Tax=Actinobacteria 
+TaxID=201174 RepID=UPI0009DD359A
+Length=803
+
+ Score = 118 bits (296),  Expect = 2e-28, Method: Composition-based stats.
+ Identities = 43/121 (36%), Positives = 58/121 (48%), Gaps = 4/121 (3%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN-STHNISVRGASSNAGT  59
+            +T V+AE+M   G   G  S        Y N D  S S  F     ++I+V GASS   T
+Sbjct  50   LTTVQAESMTKNG---GCTSTDSTRTVYYCNNDSTSISYAFPQAGRYSITVVGASSQNST  106
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            A + +  G   V +  FTG + T Q+      A G QEI+L L +D+G  D YVD  E +
+Sbjct  107  AGISVYAGSAKVAALTFTGTSYTRQSAVFDVAAAGSQEIRLKLETDNGQNDTYVDCFELA  166
+
+Query  120  L  120
+             
+Sbjct  167  Y  167
+
+
+> UniRef50_A0A060BUV5 CBM_3 (Fragment) n=1 Tax=uncultured Caldicellulosiruptor 
+sp. TaxID=569407 RepID=A0A060BUV5_9FIRM
+Length=170
+
+ Score = 111 bits (277),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 61/100 (61%), Positives = 80/100 (80%), Gaps = 0/100 (0%)
+
+Query  21   APFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIGGVTVGSFNFTGKT  80
+            +PF GVALYAN D  S +QYFA   H+ ++RG SSN+GTA VDL IGG  VGSF+FTG T
+Sbjct  1    SPFSGVALYANGDSCSSTQYFAYDKHDFTLRGCSSNSGTATVDLNIGGTKVGSFSFTGTT  60
+
+Query  81   PTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            PT QT+SN+ + TG+Q++ L +T+DDGTWDAYVD++++SL
+Sbjct  61   PTTQTISNVENGTGNQDVTLTVTTDDGTWDAYVDYLQWSL  100
+
+
+> UniRef50_UPI000C30085C T9SS C-terminal target domain-containing 
+protein n=1 Tax=Olleya sp. Bg11-27 TaxID=2058135 RepID=UPI000C30085C
+Length=1043
+
+ Score = 118 bits (295),  Expect = 4e-28, Method: Composition-based stats.
+ Identities = 41/120 (34%), Positives = 63/120 (53%), Gaps = 5/120 (4%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGTA  60
+              + E M  GG YAG+I+ PF+G A Y N D  S +    N     N+++ GASS+   A
+Sbjct  28   TQQVETMSFGGAYAGQITTPFNGGAFYGNGDNASATINLQNTPGLFNVAIVGASSSNSLA  87
+
+Query  61   KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            ++DL +GG  V +++F G          + ++T    I+L L++D G  D  +D I FS 
+Sbjct  88   QIDLYVGGAKVSTYSFNGTALQTVQKELVINSTA---IELRLSTDPGNNDTLLDRISFSY  144
+
+
+> UniRef50_A0A1H7K926 Por secretion system C-terminal sorting domain-containing 
+protein n=2 Tax=Aquimarina TaxID=290174 RepID=A0A1H7K926_9FLAO
+Length=1021
+
+ Score = 117 bits (293),  Expect = 8e-28, Method: Composition-based stats.
+ Identities = 39/121 (32%), Positives = 62/121 (51%), Gaps = 3/121 (2%)
+
+Query  2    TKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGT  59
+            T V+ E++ I G Y G I +PF+G+  Y N D    S   +     + + + GASSN   
+Sbjct  23   TTVQIEDLNISGPYVGAIDSPFNGIGFYGNGDKAEGSINLSTLPGLYKVEIIGASSNDTE  82
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            AK++L IG   V SFNF+G + +  +       +      L L +D+G+ D ++D I F+
+Sbjct  83   AKINLNIGD-NVSSFNFSGASTSNSSREITIIGSSPLNFSLELITDNGSNDTFLDRITFT  141
+
+Query  120  L  120
+             
+Sbjct  142  F  142
+
+
+> UniRef50_R9PII5 Endo-1,4-beta-xylanase A n=5 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=R9PII5_AGAAL
+Length=851
+
+ Score = 115 bits (287),  Expect = 3e-27, Method: Composition-based stats.
+ Identities = 34/121 (28%), Positives = 58/121 (48%), Gaps = 3/121 (2%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAG  58
+            + K E EN  +   Y+  I +PF+GVA YAN D V  +   +N      + + GASS   
+Sbjct  25   LQKFELENGSLLPGYSSAIDSPFNGVAAYANNDGVQATAQISNTPGQFRLDISGASSANN  84
+
+Query  59   TAKVDLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIE  117
+             A + + +    +G+  F G   ++ + S  +     +  +   L +DDG+ D Y+D+ E
+Sbjct  85   AAGISVYLDDKKIGATEFVGTAASLGSFSFKLDSMPLNSSLSFKLETDDGSNDTYLDWFE  144
+
+Query  118  F  118
+             
+Sbjct  145  L  145
+
+
+> UniRef50_UPI000691F2F9 hypothetical protein n=1 Tax=Kitasatospora 
+phosalacinea TaxID=2065 RepID=UPI000691F2F9
+Length=895
+
+ Score = 114 bits (286),  Expect = 5e-27, Method: Composition-based stats.
+ Identities = 41/121 (34%), Positives = 59/121 (49%), Gaps = 5/121 (4%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN-STHNISVRGASSNAGT  59
+            +  V+AE+M   G      S        Y N D  S S  FA    ++I+V GASS + T
+Sbjct  46   LVTVQAESMAKAG----CTSTDSTRAVYYCNDDSTSASYTFAQAGRYSITVAGASSQSNT  101
+
+Query  60   AKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+            A + + +G   VGS  FT  + T Q+      + G QEI+L L +D G  D Y+D+ E +
+Sbjct  102  AGISVYVGQTKVGSLGFTSTSYTRQSAVFDIASAGAQEIRLKLETDSGQNDTYIDYFELA  161
+
+Query  120  L  120
+             
+Sbjct  162  Y  162
+
+
+> UniRef50_R7C784 Endo-1 4-beta-xylanase n=1 Tax=Clostridium sp. 
+CAG:62 TaxID=1262828 RepID=R7C784_9CLOT
+Length=732
+
+ Score = 100 bits (249),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 48/115 (42%), Positives = 62/115 (54%), Gaps = 3/115 (3%)
+
+Query  9    MKIGGTYAGKISAPFDGVALYANADYVSYSQYF--ANSTHNISVRGASSNAGTAKVDLVI  66
+            M   G         + GVALYAN DY S S  F   N  + + V+GASSN+ TA V + I
+Sbjct  1    MTCKGLAGYLSGKEYSGVALYANNDYCSTSYEFKGTNKKYRMVVKGASSNSSTASVSVYI  60
+
+Query  67   GGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEFSL  120
+            GG  VG  +FTG T + Q+    +T  TG QEIK  L +D+G+ D YV+  E   
+Sbjct  61   GGKKVGKVSFTGTTLSEQSFEFKMTDVTGKQEIKFLLETDNGSNDTYVNSYELYY  115
+
+
+> UniRef50_UPI0002AA6334 glycoside hydrolase n=1 Tax=Pseudoalteromonas 
+sp. Bsw20308 TaxID=283699 RepID=UPI0002AA6334
+Length=918
+
+ Score = 93.4 bits (231),  Expect = 1e-19, Method: Composition-based stats.
+ Identities = 33/117 (28%), Positives = 61/117 (52%), Gaps = 3/117 (3%)
+
+Query  5    EAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFAN--STHNISVRGASSNAGTAKV  62
+            E E   +   Y+  I  PF+GVA +AN D V  +   +       + +RGAS++   A +
+Sbjct  29   ELEGGTLLPGYSSVIDTPFNGVAAFANNDGVEVNTQVSGIPGKFRLDIRGASTDNSAAGI  88
+
+Query  63   DLVIGGVTVGSFNFTGKTPTVQTLS-NITHATGDQEIKLALTSDDGTWDAYVDFIEF  118
+             + +G   VG+ +F+G + +V ++   ++    + ++K  L SD+G  D ++DF E 
+Sbjct  89   SVYLGDKKVGATSFSGSSASVSSIDFKLSSQPSNTKLKFVLESDNGGNDTFLDFYEL  145
+
+
+> UniRef50_A0A0L6JLB6 Coagulation factor 5/8 type domain protein 
+n=1 Tax=Pseudobacteroides cellulosolvens ATCC 35603 = DSM 
+2933 TaxID=398512 RepID=A0A0L6JLB6_9FIRM
+Length=1839
+
+ Score = 85.7 bits (211),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 35/127 (28%), Positives = 53/127 (42%), Gaps = 10/127 (8%)
+
+Query  1    ITKVEAENMKIGGTYAGKISAPFDGVAL----YANADYVSYSQYF-ANSTHNISVRGASS  55
+            ITK+EAEN  + G      SA + G       Y +   V+++    A  T+N+S+R A+ 
+Sbjct  239  ITKIEAENGVLSGALVQNGSAGYSGTGFLSGFYNDGVGVTFNVSVSAAGTYNLSLRYANG  298
+
+Query  56   NAGTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAY  112
+                 ++ L + G       F   +G     +    IT   G   I L   S DG    Y
+Sbjct  299  MGSQQQLSLYVNGSHFKDCVFPYTSGWDSWTEKADTITLNAGSNTIMLKRDSGDGA--LY  356
+
+Query  113  VDFIEFS  119
+            +D+I  S
+Sbjct  357  LDYITIS  363
+
+
+> UniRef50_UPI00069D6D0A hypothetical protein n=1 Tax=Solirubrobacter 
+soli TaxID=363832 RepID=UPI00069D6D0A
+Length=547
+
+ Score = 75.7 bits (185),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 28/107 (26%), Positives = 49/107 (46%), Gaps = 4/107 (4%)
+
+Query  1    ITKVEAENMKIGGTY-AGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGT  59
+            +  +EAE M   GT      ++    V L  N   VS      +S  +++VR        
+Sbjct  26   LVTLEAEAMSAAGTIKTDATASGGRDVMLSGNG-SVSAKVNLPSSATSVTVRAKGDQCLG  84
+
+Query  60   A-KVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLALTSD  105
+            A  + + + G TVG+F+ +  T +   ++  + ATG + + LA T+D
+Sbjct  85   APALAVKVDGSTVGTFSVSATTWSTYVVTR-SIATGTRTLTLAYTND  130
+
+
+> UniRef50_UPI0001E6D111 arabinoxylan arabinofuranohydrolase n=2 
+Tax=Paenibacillus TaxID=44249 RepID=UPI0001E6D111
+Length=64
+
+ Score = 58.8 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 40/43 (93%), Positives = 41/43 (95%), Gaps = 0/43 (0%)
+
+Query  12  GGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNISVRGAS  54
+           GGTYAGKISAPFDGVALYANA+Y SYSQYFANS HNISVRGAS
+Sbjct  21  GGTYAGKISAPFDGVALYANAEYASYSQYFANSMHNISVRGAS  63
+
+
+> UniRef50_A0A060BYL2 CAZy families CBM35|GH30 protein (Fragment) 
+n=1 Tax=uncultured Paenibacillus sp. TaxID=227322 RepID=A0A060BYL2_9BACL
+Length=145
+
+ Score = 58.8 bits (141),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 26/47 (55%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVALYANADYVSYSQYFANSTHNIS  49
+            K+E E+M + G YAG IS+PF GVALYAN D  S +QYFA   H+ +
+Sbjct  99   KIECEDMTLSGDYAGTISSPFSGVALYANGDSCSSTQYFAYDKHDFT  145
+
+
+> UniRef50_B8I0X3 Uncharacterized protein n=2 Tax=Clostridiales 
+TaxID=186802 RepID=B8I0X3_CLOCE
+Length=2073
+
+ Score = 55.7 bits (133),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 23/126 (18%), Positives = 44/126 (35%), Gaps = 11/126 (9%)
+
+Query  4    VEAENMKIGGT-YAGKISAPFDGVAL----YANADYVSYSQYFAN-STHNISVRGASSNA  57
+             EAEN  + G        + + G       Y       ++        +++++R  +  +
+Sbjct  497  YEAENAALSGGALVSTEHSGYSGTGFVGGMYTEGTSAEFTVDAPYAGNYSVNLRYCNGFS  556
+
+Query  58   GTAK-VDLVIGGVTVGS---FNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYV  113
+               K + + + GV V     F+F   +   +   NI    G   I     S DG     +
+Sbjct  557  NIDKTLSMYVNGVKVKQIDLFSFGDWSKWSERYDNIELRAGSNTITYKYDSGDGGN-VNL  615
+
+Query  114  DFIEFS  119
+            D+I  +
+Sbjct  616  DYITVT  621
+
+
+> UniRef50_A0A0L6JL72 Carbohydrate binding family 6 n=1 Tax=Pseudobacteroides 
+cellulosolvens ATCC 35603 = DSM 2933 TaxID=398512 
+RepID=A0A0L6JL72_9FIRM
+Length=990
+
+ Score = 53.4 bits (127),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 22/127 (17%), Positives = 46/127 (36%), Gaps = 10/127 (8%)
+
+Query  2    TKVEAENMKIGGTYAGKIS-APFDGVAL---YAN-ADYVSYSQYFAN-STHNISVRGASS  55
+             K EAEN  + G          + G      Y N      ++        +++++R +++
+Sbjct  863  QKYEAENASLSGNARFADDHTGYSGSGFICGYGNIGAKALFTLTVPQDGDYSVNIRYSNA  922
+
+Query  56   NAGTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAY  112
+            +     + + + G+ +    F   +       +L  +   TG   I L    DDG     
+Sbjct  923  SEADKSLSIYVNGIKIKQTFFPKLSNWDTWEDSLEVLHLNTGINSISLQRDDDDGGT-VN  981
+
+Query  113  VDFIEFS  119
+            +D+I  +
+Sbjct  982  LDYITVT  988
+
+
+ Score = 51.5 bits (122),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 22/127 (17%), Positives = 45/127 (35%), Gaps = 10/127 (8%)
+
+Query  2    TKVEAENMKIGGTYAGKIS-APFDGVAL---YAN-ADYVSYSQYFAN-STHNISVRGASS  55
+             K EAEN  + G          + G      Y N      ++        +++++R A++
+Sbjct  730  QKYEAENASLSGNAQVADDHTGYSGSGFICGYGNIGAKALFTLTVPQDGDYSVNIRYANA  789
+
+Query  56   NAGTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAY  112
+            +     + + + G+ +    F   +        L  +   +G   I L    DDG     
+Sbjct  790  SEADKSLSIYVNGIKIRQTFFTRLSNWDTWENNLEVLRLNSGINSISLQRDDDDGGT-VN  848
+
+Query  113  VDFIEFS  119
+            +D+I  +
+Sbjct  849  LDYITVT  855
+
+
+> UniRef50_UPI000A1CD75E DUF4968 domain-containing protein n=1 
+Tax=Anaeromassilibacillus sp. Marseille-P3371 TaxID=1944639 
+RepID=UPI000A1CD75E
+Length=3299
+
+ Score = 50.7 bits (120),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 19/124 (15%), Positives = 39/124 (31%), Gaps = 7/124 (6%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVAL---YANADYVSYSQYFAN-STHNISVRGASSNAGT  59
+             EAE   +      K    F G            V+++    +   + + +R ++ +   
+Sbjct  52   YEAEEASLINAVTAKNLDDFSGDGFVDGLGTGSKVTFTVDVPDAGDYAVRLRYSNGSGEN  111
+
+Query  60   AKVDLVIGGVTVGSFNFT---GKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+              + L + G  V +   +             N+    G+  I  +L S D      +D I
+Sbjct  112  KTISLYVNGEKVRTTTLSKMINWDTWGAQTENVPLQAGENTIAFSLDSGDTGSGVKLDCI  171
+
+Query  117  EFSL  120
+              + 
+Sbjct  172  SLAY  175
+
+
+> UniRef50_E3FL59 Conserved uncharacterized protein n=11 Tax=Bacteria 
+TaxID=2 RepID=E3FL59_STIAD
+Length=1009
+
+ Score = 49.1 bits (116),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/130 (14%), Positives = 42/130 (32%), Gaps = 13/130 (10%)
+
+Query  2    TKVEAENMKIGGTYAGKIS-APFDGVAL---YANADYVSYSQYF-----ANSTHNISVRG  52
+            T  EAE+  + G          + G      + + +  + +  F     A  +++ ++R 
+Sbjct  49   TTYEAESAALSGGAVVATDHTGYSGSGFVGGFTDGNKGNAAAQFTVSASAAGSYDATLRY  108
+
+Query  53   ASSNAGTAKVDLVIGGVTVGSFNFTGKTPTVQ---TLSNITHATGDQEIKLALTSDDGTW  109
+            A+       + L + G  V   +                +T + G   ++    + D   
+Sbjct  109  ANGTGSAQTLSLYVDGAKVKQISLGATANWDSWGTRTDTLTLSAGTHTVRYKFDTTDSGN  168
+
+Query  110  DAYVDFIEFS  119
+               +D +  S
+Sbjct  169  -VNLDNLNLS  177
+
+
+> UniRef50_UPI0009E9583B hypothetical protein n=1 Tax=Paenibacillus 
+etheri TaxID=1306852 RepID=UPI0009E9583B
+Length=60
+
+ Score = 45.3 bits (106),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 21/39 (54%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  64   LVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLAL  102
+            + IGGVT G+F F G +PTV TL+N++H TG+QEI+  +
+Sbjct  1    MKIGGVTKGTFYFGGSSPTVYTLNNVSHGTGNQEIQREI  39
+
+
+> UniRef50_A0A0W1ATY4 Uncharacterized protein n=1 Tax=Paenibacillus 
+etheri TaxID=1306852 RepID=A0A0W1ATY4_9BACL
+Length=2121
+
+ Score = 48.8 bits (115),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/125 (19%), Positives = 43/125 (34%), Gaps = 10/125 (8%)
+
+Query  4    VEAENMKIGGTY-AGKISAPFDGVALYANADYVSYSQYF-----ANSTHNISVRGASSNA  57
+             EAE+  + G    G     + G    A  D +  +  F     +   +N+ +R A++  
+Sbjct  662  YEAEDASLSGGAEVGNDQLNYSGSGFTAGYDSIGATTTFTVNTASEGRYNLDLRYANTTG  721
+
+Query  58   GTAKVDLVIGGVTVGSF---NFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVD  114
+            GT  + L + G  +      +          +  I    GD  I     S D      +D
+Sbjct  722  GTKTLSLYVNGSKIKQISLPSLANGDTWGDKVETINLNAGDNTIAYKYESGDSGN-VSLD  780
+
+Query  115  FIEFS  119
+            +I  +
+Sbjct  781  YITVT  785
+
+
+> UniRef50_A0A1M6MP35 Beta-xylosidase, GH43 family n=1 Tax=Anaerocolumna 
+jejuensis DSM 15929 TaxID=1121322 RepID=A0A1M6MP35_9FIRM
+Length=1014
+
+ Score = 48.4 bits (114),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/125 (15%), Positives = 36/125 (29%), Gaps = 10/125 (8%)
+
+Query  4    VEAENMKIGGTYAGKIS-APFDGVALYA----NADYVSYSQYFAN-STHNISVRGASSNA  57
+             EAEN  + G          + G    A          ++        +++++R  +   
+Sbjct  473  YEAENATLSGGATVAADHNGYTGTGFVAGLLDKGASAQFTVNAPYAGNYSVNLRYCNGYD  532
+
+Query  58   GTAKVDLVIGGVTVGS---FNFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVD  114
+                + + +    V      N+           NIT   G+  I      DD      +D
+Sbjct  533  TDKTLSIYVNDEKVKQIELLNYRNWDKWADRYDNITLKAGNNTITYKYDDDDSGN-VNLD  591
+
+Query  115  FIEFS  119
+             I  +
+Sbjct  592  SITVT  596
+
+
+> UniRef50_A7LUW1 Uncharacterized protein n=7 Tax=Bacteroides TaxID=816 
+RepID=A7LUW1_BACO1
+Length=139
+
+ Score = 45.7 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 19/78 (24%), Positives = 36/78 (46%), Gaps = 3/78 (4%)
+
+Query  42   ANSTHNISVRGASSNAGTAKVDLVIGGVTVGSFNFTGKTPTVQTLSNITHATGDQEIKLA  101
+            A  T+ + V G + + GTA   L + G       F  ++   + +  ++ A G  +I   
+Sbjct  63   AAGTYTLHVMGYNYSKGTATCSLYVNGQKQSQLGFQEQSNWSEKVVQVSLAAGINQIAFQ  122
+
+Query  102  LTS-DDGTWDAYVDFIEF  118
+              + D+G +  Y+D+IE 
+Sbjct  123  RDAGDNGQF--YLDYIEI  138
+
+
+> UniRef50_A0A0L6JI78 Type 3a cellulose-binding domain protein 
+n=1 Tax=Pseudobacteroides cellulosolvens ATCC 35603 = DSM 2933 
+TaxID=398512 RepID=A0A0L6JI78_9FIRM
+Length=456
+
+ Score = 48.0 bits (113),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 20/126 (16%), Positives = 46/126 (37%), Gaps = 10/126 (8%)
+
+Query  3    KVEAENMKIGG-TYAGKISAPFDGVAL---YAN-ADYVSYSQYFA-NSTHNISVRGASSN  56
+            K EAEN  + G  +     + + G      Y N      ++     +  ++I V  ++++
+Sbjct  190  KYEAENANLSGKAFVANDHSGYSGTGFVCGYGNDGAKTLFTVNVPESGNYSIKVGYSNAS  249
+
+Query  57   AGTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYV  113
+                 + + + G   G   F   +  +   +  + +    G+  I L    +DG     +
+Sbjct  250  EAEKSLSIYVNGKKTGQIKFARLSSWSTWSEAQAIVPLNNGENTISLQRDIEDGGS-VNL  308
+
+Query  114  DFIEFS  119
+            D++   
+Sbjct  309  DYLLIE  314
+
+
+> UniRef50_UPI0006C77FC5 hypothetical protein n=1 Tax=Clostridia 
+bacterium UC5.1-1E11 TaxID=1697793 RepID=UPI0006C77FC5
+Length=273
+
+ Score = 47.2 bits (111),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 19/124 (15%), Positives = 39/124 (31%), Gaps = 7/124 (6%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVAL---YANADYVSYSQYFAN-STHNISVRGASSNAGT  59
+             EAE   +      K    F G            V+++    +   + + +R ++ +   
+Sbjct  52   YEAEEASLINAVTAKNLDDFSGDGFVDGLGTGSKVTFTVDVPDAGDYAVRLRYSNGSGEN  111
+
+Query  60   AKVDLVIGGVTVGSFNFT---GKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+              + L + G  V +   +             N+    G+  I  +L S D      +D I
+Sbjct  112  KTISLYVNGEKVRTTTLSKMINWDTWGAQTENVPLQAGENTIAFSLDSGDTGSGVKLDCI  171
+
+Query  117  EFSL  120
+              + 
+Sbjct  172  SLAY  175
+
+
+> UniRef50_R5L8H0 F5/8 type C domain protein n=1 Tax=Eubacterium 
+sp. CAG:161 TaxID=1262881 RepID=R5L8H0_9FIRM
+Length=2449
+
+ Score = 48.0 bits (113),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 20/110 (18%), Positives = 45/110 (41%), Gaps = 9/110 (8%)
+
+Query  20   SAPFDGVALYANADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIG-----GVTVGSF  74
+            ++    +   ++  +V Y+  F   T  I +R + +     K+D+ +      G  V + 
+Sbjct  430  ASGSKNIGGLSDGKWVQYNINFDRMTSRIYLRYSGNENSAGKIDVYVDNSTMSGTPVATI  489
+
+Query  75   NFTGK-TPTVQT--LSNITHATGDQEIKLALTSDDGTWDA-YVDFIEFSL  120
+            N +   + +  T     ++   G+ +I L  T+D G      +D+ +F  
+Sbjct  490  NVSSTGSWSTYTDISGEVSIPAGNHKIYLKFTTDTGKNYVCNLDYFQFEY  539
+
+
+> UniRef50_A0A1Y4ELN8 Uncharacterized protein (Fragment) n=1 Tax=Anaeromassilibacillus 
+sp. An250 TaxID=1965604 RepID=A0A1Y4ELN8_9FIRM
+Length=1451
+
+ Score = 47.6 bits (112),  Expect = 4e-04, Method: Composition-based stats.
+ Identities = 19/123 (15%), Positives = 38/123 (31%), Gaps = 7/123 (6%)
+
+Query  4    VEAENMKIGGTYAGKISAPFDGVAL---YANADYVSYSQYFAN-STHNISVRGASSNAGT  59
+             EAE   + G    +    F G            V ++    +   + + +R ++ +   
+Sbjct  49   YEAEEAALTGATVAQNLDDFSGDGFVDGMKTGSKVVFTVTVPDAGDYAVRLRYSNGSGEN  108
+
+Query  60   AKVDLVIGGVTVGSFNFT---GKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVDFI  116
+              + L      V +F  +             N+    G+  I  +L   D   D  +D I
+Sbjct  109  KTMSLYANDEKVRTFTLSKMINWDTWGAQTENVPLQAGENTIAFSLEEGDTGSDIKLDCI  168
+
+Query  117  EFS  119
+              +
+Sbjct  169  SLA  171
+
+
+> UniRef50_A0A1M4Z9S4 Carbohydrate binding module (Family 6) n=1 
+Tax=Cnuella takakiae TaxID=1302690 RepID=A0A1M4Z9S4_9BACT
+Length=481
+
+ Score = 46.8 bits (110),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 20/121 (17%), Positives = 42/121 (35%), Gaps = 8/121 (7%)
+
+Query  3    KVEAENMKIGGTYAGKISAPFDGVAL----YANADYVSYSQYFANSTHNISVRGASSNAG  58
+             +EAE     G       A F G        A+  Y+ ++       + +  R A+    
+Sbjct  70   TLEAEKAVFSGAAFASNQAGFTGTGFVDYASASGAYIEWTVNAVAGPYLLKFRYANGATT  129
+
+Query  59   TAKVDLVIGGVTVGSFN----FTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVD  114
+               + L + GVT+ + +             +L+ +    G  +I+L     +G     ++
+Sbjct  130  NRPLKLQVNGVTIATSHAFPPTGSWATWKLSLAAVNLIAGSNKIRLTTIGSNGGNLDNLN  189
+
+Query  115  F  115
+            +
+Sbjct  190  Y  190
+
+
+> UniRef50_A0A197ZWS3 Uncharacterized protein n=1 Tax=Paenibacillus 
+sp. 1ZS3-15 TaxID=1850517 RepID=A0A197ZWS3_9BACL
+Length=1142
+
+ Score = 46.8 bits (110),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 19/127 (15%), Positives = 41/127 (32%), Gaps = 10/127 (8%)
+
+Query  1     ITKVEAENMKIGGTYAGKIS-APFDGVAL----YANADYVSYSQYFAN-STHNISVRGAS  54
+             + K EAE+ ++ G          + G       + +    ++S        ++IS R A+
+Sbjct  1016  LIKAEAESAQLSGGAKVNTDHTGYSGTGFVDGYWISGANTTFSVTVPTAGNYSISARYAN  1075
+
+Query  55    SNAGTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDA  111
+             +    +   + + G  +    F               +    G   I     + D T   
+Sbjct  1076  AQNNPSTASIYVNGTKIKQATFAKLANWDTWANQTDVLALNAGVNTITYKYDTGD-TGYI  1134
+
+Query  112   YVDFIEF  118
+              +D+I+ 
+Sbjct  1135  NLDYIQV  1141
+
+
+ Score = 46.8 bits (110),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 21/128 (16%), Positives = 43/128 (34%), Gaps = 10/128 (8%)
+
+Query  1     ITKVEAENMKIGGTYAGKISAP-FDGVAL----YANADYVSYSQYFAN-STHNISVRGAS  54
+             +   EAE+ ++          P + G       + +    ++S   A   ++ ++ R A+
+Sbjct  888   VGTYEAESAQLSSGAKVNNDHPGYTGSGFVDGYWTSGATATFSVNVATAGSYRVTTRYAN  947
+
+Query  55    SNAGTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDA  111
+             +    +   L + G  +   NF               IT  +G   I     + D  W  
+Sbjct  948   AQNNPSTASLYVNGTKIKQSNFPKLANWDTWGNQSEVITLNSGSNTIAYKYDTGDTGW-I  1006
+
+Query  112   YVDFIEFS  119
+              +D I  +
+Sbjct  1007  NLDNITLT  1014
+
+
+> UniRef50_A0A1C0ZTU5 Uncharacterized protein n=1 Tax=Paenibacillus 
+pectinilyticus TaxID=512399 RepID=A0A1C0ZTU5_9BACL
+Length=1028
+
+ Score = 46.4 bits (109),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 21/113 (19%), Positives = 37/113 (33%), Gaps = 10/113 (9%)
+
+Query  2     TKVEAENMKIGGTYAGKIS-APFDGVALYAN-----ADYVSYSQYFAN-STHNISVRGAS  54
+                EAEN  + G          + G    AN         +++       T+NI++R ++
+Sbjct  900   QTYEAENATLSGAAGVYTDHTGYTGTGFVANYYNNIGPTTTFTVNVPTTGTYNIALRYSA  959
+
+Query  55    SNAGTAKVDLVIGGVTVGSFNFTGKT---PTVQTLSNITHATGDQEIKLALTS  104
+              N  +      + G  + +  F G T           +T   G+  I     S
+Sbjct  960   GNGISTNTGFYVNGTKLKNITFNGTTDWNTWATQTETVTLNAGNNTIAYKAES  1012
+
+
+> UniRef50_S0FJB0 Carbohydrate binding module (Family 6) (Fragment) 
+n=1 Tax=[Clostridium] termitidis CT1112 TaxID=1195236 RepID=S0FJB0_9FIRM
+Length=1671
+
+ Score = 46.4 bits (109),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 22/112 (20%), Positives = 42/112 (38%), Gaps = 9/112 (8%)
+
+Query  3     KVEAENMKIGGTYAGKISAPFDGVALYAN----ADYVSYSQYFA-NSTHNISVRGASSNA  57
+             K EAEN  + G    K    F G    A      D ++++        +N+ +R   + +
+Sbjct  1022  KFEAENAILVGCNTAKDLTGFSGTGFVAGLNAIGDSITFNVNAPAAGKYNVDMRY-GNGS  1080
+
+Query  58    GTAKVDLVIGGVTVGSFNF---TGKTPTVQTLSNITHATGDQEIKLALTSDD  106
+              T  + + + GV +   ++    G +     +  +T   G+  I     S D
+Sbjct  1081  STKTISIYVNGVKIKQSSYPATGGWSVWSDVIDVLTLNEGNNVIMYKADSGD  1132
+
+
+> UniRef50_K9XTH9 Carbohydrate binding family 6 n=1 Tax=Stanieria 
+cyanosphaera (strain ATCC 29371 / PCC 7437) TaxID=111780 
+RepID=K9XTH9_STAC7
+Length=663
+
+ Score = 46.4 bits (109),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 22/93 (24%), Positives = 42/93 (45%), Gaps = 6/93 (6%)
+
+Query  31   NADYVSYSQYFANSTHNISVRGASSNAGTAKVDLVIGGVTVGSFNFTGK----TPTVQTL  86
+            N +++ Y+      T++I VR AS+      + + +G   +G+ + TG          T+
+Sbjct  88   NGEWLEYTTNVTEGTYDIKVRVASAIEDPGSLQVKLGDELLGTVDITGTGGWQNWQTLTI  147
+
+Query  87   SNITHATGDQEIKLALTSDDGTWDAYVDFIEFS  119
+             ++    G QE  L L   DG     ++++EF 
+Sbjct  148  EDVQL-AGSQEQSLRLEVKDGGL-FNINWLEFE  178
+
+
+> UniRef50_A0A101Y062 Glycosyl hydrolase n=15 Tax=Bacillales TaxID=1385 
+RepID=A0A101Y062_9BACL
+Length=1299
+
+ Score = 46.4 bits (109),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 16/125 (13%), Positives = 38/125 (30%), Gaps = 10/125 (8%)
+
+Query  4    VEAENMKIGGTYAGKIS-APFDGVAL----YANADYVSYSQYFAN-STHNISVRGASSNA  57
+             +AE+  + G          F G       +      +++       T N+++R  + N 
+Sbjct  188  YQAESAALSGGAKVNTDHTGFSGTGFVDGYWTQGAVTTFTVNVPAAGTRNVTLRYGNGNT  247
+
+Query  58   GTAKVDLVIGGVTVGSFN---FTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYVD  114
+                + L + G  +   +    +G          +    G+  +     + D      +D
+Sbjct  248  SAQTLSLYVNGAKIRQTSLPNLSGWDTWGTKTEALNLNAGNNTVAYKYDAGDSAN-VNLD  306
+
+Query  115  FIEFS  119
+             I  +
+Sbjct  307  QITVA  311
+
+
+> UniRef50_A0A264EHV7 Alpha-amylase n=16 Tax=Paenibacillus TaxID=44249 
+RepID=A0A264EHV7_9BACL
+Length=1217
+
+ Score = 46.4 bits (109),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 21/126 (17%), Positives = 44/126 (35%), Gaps = 10/126 (8%)
+
+Query  3    KVEAENMKIGGTYAGKISA-PFDGVALYANADYVSYSQYF-----ANSTHNISVRGASSN  56
+            K EAE+  + G      +   + G            +  F     A  ++N ++  A+++
+Sbjct  154  KYEAESASLSGGAKVNTNHIGYSGTGFVDGYTTTGAATTFNVQSSAAGSYNATLHYANAS  213
+
+Query  57   AGTAKVDLVIGGVTVGSF---NFTGKTPTVQTLSNITHATGDQEIKLALTSDDGTWDAYV  113
+                KV + + G+ V      N          +  ++   G+  +     SDD      +
+Sbjct  214  GSAKKVSIYVNGIKVTQTTLANLANWDTWADQIEILSLQAGNNTLAYKYDSDDSGN-INI  272
+
+Query  114  DFIEFS  119
+            D++  S
+Sbjct  273  DYVTLS  278
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.149    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0458    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233745807800
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

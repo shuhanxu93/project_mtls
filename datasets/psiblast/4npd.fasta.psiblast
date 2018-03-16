@@ -1,0 +1,3178 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 4npd
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_A0A1D4RQU2 Immunoglobulin G binding protein A n=98 Tax...  119     2e-30
+  UniRef50_A0A1L1ATH8 Immunoglobulin G binding protein A n=2 Tax=...  118     2e-30
+  UniRef50_P02976 Immunoglobulin G-binding protein A n=1214 Tax=S...  118     3e-30
+  UniRef50_P0A015 Immunoglobulin G-binding protein A n=231 Tax=St...  116     1e-29
+  UniRef50_UPI0000352C62 Immunoglobulin G binding protein A n=15 ...  106     1e-28
+  UniRef50_UPI0005148B7D Immunoglobulin G-binding protein A n=1 T...  105     1e-27
+  UniRef50_S2XBG3 Uncharacterized protein (Fragment) n=1 Tax=Stap...  105     3e-27
+  UniRef50_UPI0007446E6C Immunoglobulin G-binding protein A,Coat ...  105     3e-26
+  UniRef50_X2JFP7 Immunoglobin G-binding protein A (Fragment) n=2...  101     4e-25
+  UniRef50_E3T5X0 Protein A (Fragment) n=1 Tax=Staphylococcus hyi...  101     1e-24
+  UniRef50_UPI000C1BC3D8 LysM peptidoglycan-binding domain-contai...  101     5e-24
+  UniRef50_A0A1B1P4U3 Protein A, von Willebrand factor binding pr...  99.4    8e-24
+  UniRef50_A0A2A4H4F0 IgG-binding protein n=5 Tax=Staphylococcus ...  99.0    1e-23
+  UniRef50_UPI000C1BE35F LysM peptidoglycan-binding domain-contai...  101     1e-23
+  UniRef50_A0A2A4EGB1 IgG-binding protein n=57 Tax=Staphylococcus...  99.0    2e-23
+  UniRef50_UPI00027FCDD0 Immunoglobulin G-binding protein A n=1 T...  90.1    5e-22
+  UniRef50_UPI000BF6FC55 LysM peptidoglycan-binding domain-contai...  93.2    7e-22
+  UniRef50_M4MFK0 Truncated protein A n=1 Tax=Staphylococcus aure...  93.6    8e-22
+  UniRef50_S2XB73 Immunoglobulin G-binding protein A (Fragment) n...  92.0    1e-21
+  UniRef50_UPI000B4E83E6 Immunoglobulin G-binding protein A n=2 T...  90.9    5e-21
+  UniRef50_Q9KWJ1 Protein A (Fragment) n=5 Tax=Staphylococcus Tax...  90.1    6e-21
+  UniRef50_UPI000B4E83C1 Immunoglobulin G-binding protein A, DHR1...  91.3    1e-20
+  UniRef50_UPI000B4E83C0 Immunoglobulin G-binding protein A n=1 T...  87.0    3e-20
+  UniRef50_UPI0003AFFA17 Immunoglobulin G-binding protein A n=2 T...  83.2    2e-19
+  UniRef50_UPI0001DD3759 Engineered protein, ZHER2 Affibody n=5 T...  80.5    2e-18
+  UniRef50_M4M875 Truncated protein A n=1 Tax=Staphylococcus aure...  81.6    2e-18
+  UniRef50_UPI000A09378D signal peptide protein n=1 Tax=Staphyloc...  81.3    6e-18
+  UniRef50_UPI00098B97FD hypothetical protein n=1 Tax=Staphylococ...  79.0    2e-17
+  UniRef50_UPI0001F84840 PHOSPHORYLASE B KINASE GAMMA CATALYTIC C...  67.4    6e-12
+  UniRef50_A0A1E5JH58 B domain protein n=1 Tax=Staphylococcus aur...  54.3    5e-08
+  UniRef50_A0A1D4J5D5 IgG-binding protein SBI n=1 Tax=Staphylococ...  53.5    3e-07
+  UniRef50_A0A1L1J0R5 IgG-binding protein SBI n=1 Tax=Staphylococ...  53.9    5e-07
+  UniRef50_Q2YVZ4 Immunoglobulin-binding protein sbi n=257 Tax=St...  53.5    6e-07
+  UniRef50_UPI000BA760BA immunoglobulin-binding protein sbi n=2 T...  53.5    7e-07
+  UniRef50_D3GGS8 Immunoglobulin G binding protein A (Fragment) n...  50.1    2e-06
+  UniRef50_A0A291B2M3 Immunoglobulin G binding protein A (Fragmen...  49.3    2e-06
+  UniRef50_UPI00050295EA immunoglobulin-binding protein sbi n=1 T...  52.0    2e-06
+  UniRef50_A0A291B2N6 Immunoglobulin G binding protein A (Fragmen...  49.3    3e-06
+  UniRef50_A0A291B2S9 Immunoglobulin G binding protein A (Fragmen...  49.3    3e-06
+  UniRef50_A0A291B2P6 Immunoglobulin G binding protein A (Fragmen...  48.9    3e-06
+  UniRef50_A0A291B2Q4 Immunoglobulin G binding protein A (Fragmen...  48.9    3e-06
+  UniRef50_X2FDB2 Staphylococcal protein A (Fragment) n=8 Tax=Sta...  48.5    3e-06
+  UniRef50_A0A2I0YI86 IgG-binding protein SBI (Fragment) n=1 Tax=...  48.9    2e-05
+  UniRef50_A0A1B1P4K7 Protein A, von Willebrand factor binding pr...  48.9    3e-05
+  UniRef50_UPI0006AB99E5 hypothetical protein n=1 Tax=Staphylococ...  47.0    1e-04
+  UniRef50_A0A291B2N3 Immunoglobulin G binding protein A (Fragmen...  43.9    2e-04
+  UniRef50_A0A143PDW3 Uncharacterized protein n=6 Tax=Staphylococ...  45.8    3e-04
+  UniRef50_A0A085UHD7 Immunoglobulin G-binding protein n=4 Tax=St...  45.8    3e-04
+  UniRef50_UPI0006153E7E hypothetical protein n=1 Tax=Staphylococ...  43.5    5e-04
+
+
+> UniRef50_A0A1D4RQU2 Immunoglobulin G binding protein A n=98 Tax=Staphylococcaceae 
+TaxID=90964 RepID=A0A1D4RQU2_STAAU
+Length=430
+
+ Score = 119 bits (297),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  224  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  281
+
+
+ Score = 102 bits (254),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  166  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  223
+
+
+ Score = 89.7 bits (221),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 42/56 (75%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  110  NNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  165
+
+
+ Score = 80.9 bits (198),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  55   QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+> UniRef50_A0A1L1ATH8 Immunoglobulin G binding protein A n=2 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1L1ATH8_STAAU
+Length=467
+
+ Score = 118 bits (296),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  229  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  286
+
+
+ Score = 97.1 bits (240),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 49/54 (91%), Gaps = 0/54 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N+EQQNAFYEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  175  LNEEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  228
+
+
+ Score = 89.7 bits (221),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 42/56 (75%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  98   NNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 80.9 bits (198),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  43  QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_P02976 Immunoglobulin G-binding protein A n=1214 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SPA_STAA8
+Length=516
+
+ Score = 118 bits (296),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  270  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  327
+
+
+ Score = 108 bits (269),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 53/58 (91%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  212  ADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  269
+
+
+ Score = 98.2 bits (243),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  154  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  211
+
+
+ Score = 89.7 bits (221),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 42/56 (75%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  98   NNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 80.9 bits (198),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  43  QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_P0A015 Immunoglobulin G-binding protein A n=231 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SPA_STAAM
+Length=450
+
+ Score = 116 bits (291),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 57/58 (98%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNL EEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  212  ADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  269
+
+
+ Score = 98.6 bits (244),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  154  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  211
+
+
+ Score = 89.7 bits (221),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 42/56 (75%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  98   NNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 81.3 bits (199),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  43  QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_UPI0000352C62 Immunoglobulin G binding protein A n=15 
+Tax=root TaxID=1 RepID=UPI0000352C62
+Length=62
+
+ Score = 106 bits (264),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ADNKFNKEQQNAF+EILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  4   ADNKFNKEQQNAFWEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  61
+
+
+> UniRef50_UPI0005148B7D Immunoglobulin G-binding protein A n=1 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI0005148B7D
+Length=116
+
+ Score = 105 bits (263),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ADNKFNKEQQNA+YEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  1   ADNKFNKEQQNAWYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  58
+
+
+ Score = 105 bits (263),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNA+YEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  59   ADNKFNKEQQNAWYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  116
+
+
+> UniRef50_S2XBG3 Uncharacterized protein (Fragment) n=1 Tax=Staphylococcus 
+sp. HGB0015 TaxID=1078083 RepID=S2XBG3_9STAP
+Length=140
+
+ Score = 105 bits (261),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 49/54 (91%), Positives = 53/54 (98%), Gaps = 0/54 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  17  YSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  70
+
+
+> UniRef50_UPI0007446E6C Immunoglobulin G-binding protein A,Coat 
+protein n=2 Tax=Sesbania mosaic virus TaxID=12558 RepID=UPI0007446E6C
+Length=282
+
+ Score = 105 bits (262),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 47/57 (82%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           DNKFNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  16  DNKFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  72
+
+
+> UniRef50_X2JFP7 Immunoglobin G-binding protein A (Fragment) n=2 
+Tax=Staphylococcus pseudintermedius TaxID=283734 RepID=X2JFP7_STAPS
+Length=210
+
+ Score = 101 bits (251),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  42  YSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  95
+
+
+ Score = 73.9 bits (180),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 35/38 (92%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  19  LPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  1   LPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  38
+
+
+> UniRef50_E3T5X0 Protein A (Fragment) n=1 Tax=Staphylococcus hyicus 
+TaxID=1284 RepID=E3T5X0_STAHY
+Length=288
+
+ Score = 101 bits (251),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 48/57 (84%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +N FN+ QQNAFYEILHLP LTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAP+
+Sbjct  101  ENNFNEAQQNAFYEILHLPYLTEEQRNGFIQSLKDDPSVSNDILAEAKKLNDSQAPQ  157
+
+
+ Score = 91.7 bits (226),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 44/54 (81%), Positives = 49/54 (91%), Gaps = 0/54 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           F+  QQNAFYEIL+LP L+EEQRNGFIQSLKDDPSVS +ILAEAKK NDAQAP+
+Sbjct  46  FDAAQQNAFYEILNLPYLSEEQRNGFIQSLKDDPSVSNDILAEAKKANDAQAPQ  99
+
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/39 (72%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  19  LPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           LPNLT+EQRNG+IQSLKDDPSVS +IL +A+  N  QAP
+Sbjct  1   LPNLTDEQRNGYIQSLKDDPSVSADILQQAQATNANQAP  39
+
+
+> UniRef50_UPI000C1BC3D8 LysM peptidoglycan-binding domain-containing 
+protein n=5 Tax=Staphylococcus pseudintermedius TaxID=283734 
+RepID=UPI000C1BC3D8
+Length=512
+
+ Score = 101 bits (252),  Expect = 5e-24, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  212  YSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  265
+
+
+ Score = 94.4 bits (233),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/52 (85%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  157  FDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  208
+
+
+ Score = 88.6 bits (218),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 41/53 (77%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            ++ EQQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  98   YSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  150
+
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+           QQNAF E++ LPNL+EEQRNGFIQSLKDDPS S+++L EAKKLND+Q
+Sbjct  43  QQNAFSEVVKLPNLSEEQRNGFIQSLKDDPSTSQDVLNEAKKLNDSQ  89
+
+
+> UniRef50_A0A1B1P4U3 Protein A, von Willebrand factor binding 
+protein Spa n=24 Tax=Staphylococcus TaxID=1279 RepID=A0A1B1P4U3_STAPS
+Length=292
+
+ Score = 99.4 bits (246),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  96   YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  149
+
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/52 (85%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  41  INDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  92
+
+
+> UniRef50_A0A2A4H4F0 IgG-binding protein n=5 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4H4F0_STAIN
+Length=348
+
+ Score = 99.0 bits (245),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 46/54 (85%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +++ QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  151  YSEAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSTDILAEAKKLNDSQAPK  204
+
+
+ Score = 92.8 bits (229),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 44/52 (85%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVSK +L EAKKLND+QA
+Sbjct  41  INDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSKNVLEEAKKLNDSQA  92
+
+
+ Score = 92.0 bits (227),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 43/52 (83%), Positives = 48/52 (92%), Gaps = 0/52 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            +++ QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +ILA AKKLND QA
+Sbjct  96   YSEAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSTDILAAAKKLNDTQA  147
+
+
+> UniRef50_UPI000C1BE35F LysM peptidoglycan-binding domain-containing 
+protein n=5 Tax=Staphylococcus pseudintermedius TaxID=283734 
+RepID=UPI000C1BE35F
+Length=666
+
+ Score = 101 bits (251),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  326  YSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  379
+
+
+ Score = 94.4 bits (233),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 44/52 (85%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  157  FDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  208
+
+
+ Score = 94.4 bits (233),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 44/52 (85%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  271  FDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  322
+
+
+ Score = 88.2 bits (217),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 41/53 (77%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            ++ EQQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  98   YSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  150
+
+
+ Score = 86.3 bits (212),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 40/53 (75%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            +++ QQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  212  YSEAQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  264
+
+
+ Score = 80.1 bits (196),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 36/47 (77%), Positives = 43/47 (91%), Gaps = 0/47 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+           QQNAF E++ LPNL+EEQRNGFIQSLKDDPS S+++L EAKKLND+Q
+Sbjct  43  QQNAFSEVVKLPNLSEEQRNGFIQSLKDDPSTSQDVLNEAKKLNDSQ  89
+
+
+> UniRef50_A0A2A4EGB1 IgG-binding protein n=57 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4EGB1_STAPS
+Length=402
+
+ Score = 99.0 bits (245),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 47/54 (87%), Positives = 52/54 (96%), Gaps = 0/54 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  206  YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  259
+
+
+ Score = 92.4 bits (228),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 44/52 (85%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  41  INDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  92
+
+
+ Score = 89.0 bits (219),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  96   YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  147
+
+
+ Score = 89.0 bits (219),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 42/52 (81%), Positives = 47/52 (90%), Gaps = 0/52 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  151  YSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  202
+
+
+> UniRef50_UPI00027FCDD0 Immunoglobulin G-binding protein A n=1 
+Tax=synthetic construct TaxID=32630 RepID=UPI00027FCDD0
+Length=88
+
+ Score = 90.1 bits (222),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 49/75 (65%), Positives = 51/75 (68%), Gaps = 17/75 (23%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSV-----------------SKE  43
+            DNKFNKEQQNAFYEILHLPNL EEQRN FIQSLKDD  +                 S  
+Sbjct  14  VDNKFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDSYIDTNNDGAYEGDELSGSQSAN  73
+
+Query  44  ILAEAKKLNDAQAPK  58
+           +LAEAKKLNDAQAPK
+Sbjct  74  LLAEAKKLNDAQAPK  88
+
+
+> UniRef50_UPI000BF6FC55 LysM peptidoglycan-binding domain-containing 
+protein n=1 Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000BF6FC55
+Length=217
+
+ Score = 93.2 bits (230),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 43/50 (86%), Positives = 48/50 (96%), Gaps = 0/50 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           QQNAFY++L++PNL  +QRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  43  QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  92
+
+
+> UniRef50_M4MFK0 Truncated protein A n=1 Tax=Staphylococcus aureus 
+TaxID=1280 RepID=M4MFK0_STAAU
+Length=281
+
+ Score = 93.6 bits (231),  Expect = 8e-22, Method: Compositional matrix adjust.
+ Identities = 43/50 (86%), Positives = 48/50 (96%), Gaps = 0/50 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           QQNAFY++L++PNL  +QRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  43  QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  92
+
+
+> UniRef50_S2XB73 Immunoglobulin G-binding protein A (Fragment) 
+n=9 Tax=Staphylococcus TaxID=1279 RepID=S2XB73_9STAP
+Length=220
+
+ Score = 92.0 bits (227),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 44/52 (85%), Positives = 50/52 (96%), Gaps = 0/52 (0%)
+
+Query  5    FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             N++QQNAFYEIL+LPNL E+QRNGFIQSLKDDPSVSK+ILAEAKKLND+QA
+Sbjct  161  VNEDQQNAFYEILNLPNLNEDQRNGFIQSLKDDPSVSKDILAEAKKLNDSQA  212
+
+
+ Score = 88.2 bits (217),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            +QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +IL +A+ +N AQAP
+Sbjct  105  DQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSADILIQARNVNVAQAP  154
+
+
+ Score = 84.7 bits (208),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 42/48 (88%), Positives = 44/48 (92%), Gaps = 0/48 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           QQNAF EIL LPNL E QRNGFIQSLKDDPSVSK+ILAEAKKLND+QA
+Sbjct  47  QQNAFAEILDLPNLNENQRNGFIQSLKDDPSVSKDILAEAKKLNDSQA  94
+
+
+> UniRef50_UPI000B4E83E6 Immunoglobulin G-binding protein A n=2 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000B4E83E6
+Length=237
+
+ Score = 90.9 bits (224),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 45/53 (85%), Positives = 47/53 (89%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           KFNKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  5   KFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  57
+
+
+ Score = 84.3 bits (207),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 42/49 (86%), Positives = 43/49 (88%), Gaps = 0/49 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLNDAQA
+Sbjct  189  EQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNDAQA  237
+
+
+ Score = 80.1 bits (196),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  99   EQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  147
+
+
+ Score = 80.1 bits (196),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 40/49 (82%), Positives = 42/49 (86%), Gaps = 0/49 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  144  EQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  192
+
+
+ Score = 76.6 bits (187),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            EQQ AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  54   EQQAAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  102
+
+
+> UniRef50_Q9KWJ1 Protein A (Fragment) n=5 Tax=Staphylococcus TaxID=1279 
+RepID=Q9KWJ1_STAAU
+Length=198
+
+ Score = 90.1 bits (222),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 42/56 (75%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  110  NNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  165
+
+
+ Score = 81.3 bits (199),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  55   QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRN  28
+            ADN FNKEQQNAFYEIL++PNL EEQRN
+Sbjct  166  ADNNFNKEQQNAFYEILNMPNLNEEQRN  193
+
+
+> UniRef50_UPI000B4E83C1 Immunoglobulin G-binding protein A, DHR14 
+n=1 Tax=synthetic construct TaxID=32630 RepID=UPI000B4E83C1
+Length=404
+
+ Score = 91.3 bits (225),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 45/55 (82%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           KFNKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAK LN  QA K
+Sbjct  5   KFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVK  59
+
+
+ Score = 77.0 bits (188),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 39/51 (76%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            EQQ+AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAK LN  QA K
+Sbjct  205  EQQSAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVK  255
+
+
+> UniRef50_UPI000B4E83C0 Immunoglobulin G-binding protein A n=1 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000B4E83C0
+Length=146
+
+ Score = 87.0 bits (214),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 43/50 (86%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLNDAQAP
+Sbjct  97   EQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNDAQAP  146
+
+
+ Score = 86.7 bits (213),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 43/52 (83%), Positives = 45/52 (87%), Gaps = 0/52 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            NKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  4   MNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  55
+
+
+ Score = 76.6 bits (187),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 39/49 (80%), Positives = 41/49 (84%), Gaps = 0/49 (0%)
+
+Query  8   EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           EQQ AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  52  EQQAAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  100
+
+
+> UniRef50_UPI0003AFFA17 Immunoglobulin G-binding protein A n=2 
+Tax=Staphylococcus aureus (strain Mu50 / ATCC 700699) TaxID=158878 
+RepID=UPI0003AFFA17
+Length=55
+
+ Score = 83.2 bits (204),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 38/52 (73%), Positives = 46/52 (88%), Gaps = 0/52 (0%)
+
+Query  5   FNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           +NK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QA
+Sbjct  4   YNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQA  55
+
+
+> UniRef50_UPI0001DD3759 Engineered protein, ZHER2 Affibody n=5 
+Tax=root TaxID=1 RepID=UPI0001DD3759
+Length=70
+
+ Score = 80.5 bits (197),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 39/58 (67%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            DNKFNKE +NA++EI  LPNL  +Q+  FI+SL DDPS S  +LAEAKKLNDAQAPK
+Sbjct  13  VDNKFNKEMRNAYWEIALLPNLNNQQKRAFIRSLYDDPSQSANLLAEAKKLNDAQAPK  70
+
+
+> UniRef50_M4M875 Truncated protein A n=1 Tax=Staphylococcus aureus 
+TaxID=1280 RepID=M4M875_STAAU
+Length=112
+
+ Score = 81.6 bits (200),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  43  QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_UPI000A09378D signal peptide protein n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=UPI000A09378D
+Length=152
+
+ Score = 81.3 bits (199),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 36/50 (72%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  55   QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+> UniRef50_UPI00098B97FD hypothetical protein n=1 Tax=Staphylococcus 
+hominis TaxID=1290 RepID=UPI00098B97FD
+Length=105
+
+ Score = 79.0 bits (193),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 34/50 (68%), Positives = 44/50 (88%), Gaps = 0/50 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+K+N++QAPK
+Sbjct  55   QQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKINESQAPK  104
+
+
+> UniRef50_UPI0001F84840 PHOSPHORYLASE B KINASE GAMMA CATALYTIC 
+CHAIN, TESTIS/LIVER ISOFORM n=11 Tax=Amniota TaxID=32524 RepID=UPI0001F84840
+Length=365
+
+ Score = 67.4 bits (163),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 38/54 (70%), Positives = 43/54 (80%), Gaps = 0/54 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+           DNKFNKE++ A  EI HLPNL  EQR  FI+SL+DDPS S  +LAEAKKLNDAQ
+Sbjct  12  DNKFNKERRRARREIRHLPNLNREQRRAFIRSLRDDPSQSANLLAEAKKLNDAQ  65
+
+
+> UniRef50_A0A1E5JH58 B domain protein n=1 Tax=Staphylococcus aureus 
+subsp. aureus TaxID=46170 RepID=A0A1E5JH58_STAAU
+Length=139
+
+ Score = 54.3 bits (129),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+> UniRef50_A0A1D4J5D5 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1D4J5D5_STAAU
+Length=254
+
+ Score = 53.5 bits (127),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+> UniRef50_A0A1L1J0R5 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1L1J0R5_STAAU
+Length=416
+
+ Score = 53.9 bits (128),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+ Score = 44.3 bits (103),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 19/40 (48%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+            QQNAFY +L   NLTEEQ+N +I  +K++P  S+++  E+
+Sbjct  103  QQNAFYNVLKNNNLTEEQKNNYIAQIKENPDRSQQVWVES  142
+
+
+> UniRef50_Q2YVZ4 Immunoglobulin-binding protein sbi n=257 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SBI_STAAB
+Length=436
+
+ Score = 53.5 bits (127),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  45  NNYITDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+> UniRef50_UPI000BA760BA immunoglobulin-binding protein sbi n=2 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000BA760BA
+Length=570
+
+ Score = 53.5 bits (127),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  179  NNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  231
+
+
+> UniRef50_D3GGS8 Immunoglobulin G binding protein A (Fragment) 
+n=8 Tax=Staphylococcus aureus TaxID=1280 RepID=D3GGS8_STAAU
+Length=169
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 24/27 (89%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  32  QSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           + +KDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  1   RPVKDDPSVSKEILAEAKKLNDAQAPK  27
+
+
+> UniRef50_A0A291B2M3 Immunoglobulin G binding protein A (Fragment) 
+n=43 Tax=Staphylococcus aureus TaxID=1280 RepID=A0A291B2M3_STAAU
+Length=123
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  35  KDDPSVSKEILAEAKKLNDAQAPK  58
+           KDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  1   KDDPSVSKEILAEAKKLNDAQAPK  24
+
+
+> UniRef50_UPI00050295EA immunoglobulin-binding protein sbi n=1 
+Tax=Staphylococcus schweitzeri TaxID=1654388 RepID=UPI00050295EA
+Length=437
+
+ Score = 52.0 bits (123),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           N +  +QQ AFY++LHL  +TEEQR+ +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRDQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+> UniRef50_A0A291B2N6 Immunoglobulin G binding protein A (Fragment) 
+n=30 Tax=Staphylococcus aureus TaxID=1280 RepID=A0A291B2N6_STAAU
+Length=131
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  35  KDDPSVSKEILAEAKKLNDAQAPK  58
+           KDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  1   KDDPSVSKEILAEAKKLNDAQAPK  24
+
+
+> UniRef50_A0A291B2S9 Immunoglobulin G binding protein A (Fragment) 
+n=35 Tax=Staphylococcus aureus TaxID=1280 RepID=A0A291B2S9_STAAU
+Length=107
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  35  KDDPSVSKEILAEAKKLNDAQAPK  58
+           KDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  1   KDDPSVSKEILAEAKKLNDAQAPK  24
+
+
+> UniRef50_A0A291B2P6 Immunoglobulin G binding protein A (Fragment) 
+n=22 Tax=Staphylococcus aureus TaxID=1280 RepID=A0A291B2P6_STAAU
+Length=75
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  35  KDDPSVSKEILAEAKKLNDAQAPK  58
+           KDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  1   KDDPSVSKEILAEAKKLNDAQAPK  24
+
+
+> UniRef50_A0A291B2Q4 Immunoglobulin G binding protein A (Fragment) 
+n=19 Tax=Staphylococcus aureus TaxID=1280 RepID=A0A291B2Q4_STAAU
+Length=107
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  35  KDDPSVSKEILAEAKKLNDAQAPK  58
+           KDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  1   KDDPSVSKEILAEAKKLNDAQAPK  24
+
+
+> UniRef50_X2FDB2 Staphylococcal protein A (Fragment) n=8 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=X2FDB2_STAAU
+Length=70
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/24 (100%), Positives = 24/24 (100%), Gaps = 0/24 (0%)
+
+Query  35  KDDPSVSKEILAEAKKLNDAQAPK  58
+           KDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  1   KDDPSVSKEILAEAKKLNDAQAPK  24
+
+
+> UniRef50_A0A2I0YI86 IgG-binding protein SBI (Fragment) n=1 Tax=Staphylococcus 
+pseudintermedius TaxID=283734 RepID=A0A2I0YI86_STAPS
+Length=400
+
+ Score = 48.9 bits (115),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 20/40 (50%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+            QQNAFY +LH  +L+EEQR+ +I  +K+DP  S+E+  E+
+Sbjct  104  QQNAFYSVLHNDDLSEEQRDAYIGRIKEDPDQSQEVFVES  143
+
+
+> UniRef50_A0A1B1P4K7 Protein A, von Willebrand factor binding 
+protein Spa n=25 Tax=Staphylococcus TaxID=1279 RepID=A0A1B1P4K7_STAPS
+Length=498
+
+ Score = 48.9 bits (115),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 20/40 (50%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+            QQNAFY +LH  +L+EEQR+ +I  +K+DP  S+E+  E+
+Sbjct  104  QQNAFYSVLHNDDLSEEQRDAYIGRIKEDPDQSQEVFVES  143
+
+
+> UniRef50_UPI0006AB99E5 hypothetical protein n=1 Tax=Staphylococcus 
+carnosus TaxID=1281 RepID=UPI0006AB99E5
+Length=386
+
+ Score = 47.0 bits (110),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLN  52
+            QQ AFYE+L + NLTE+++N +I ++K +P  S+E+ A A K N
+Sbjct  59   QQQAFYELLKMDNLTEQRKNDYIDTIKVNPQASQEVFASAIKEN  102
+
+
+> UniRef50_A0A291B2N3 Immunoglobulin G binding protein A (Fragment) 
+n=2 Tax=Staphylococcus aureus TaxID=1280 RepID=A0A291B2N3_STAAU
+Length=59
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 22/24 (92%), Positives = 23/24 (96%), Gaps = 0/24 (0%)
+
+Query  35  KDDPSVSKEILAEAKKLNDAQAPK  58
+           K+DPS SKEILAEAKKLNDAQAPK
+Sbjct  1   KEDPSESKEILAEAKKLNDAQAPK  24
+
+
+> UniRef50_A0A143PDW3 Uncharacterized protein n=6 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A143PDW3_9STAP
+Length=471
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 21/44 (48%), Positives = 32/44 (73%), Gaps = 0/44 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLN  52
+            QQ AFYE+L + NLTE+++N +I+++K +P  S+E  A A K N
+Sbjct  59   QQQAFYELLKMDNLTEQRKNDYIETIKVNPQASQEAFASAIKEN  102
+
+
+> UniRef50_A0A085UHD7 Immunoglobulin G-binding protein n=4 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A085UHD7_9STAP
+Length=471
+
+ Score = 45.8 bits (107),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 18/41 (44%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  10  QNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKK  50
+           Q A+Y++LHL  LT EQR+ +IQ L ++P  ++E+ +E+ K
+Sbjct  49  QRAYYKVLHLEGLTNEQRSNYIQKLHNNPGSAQEVFSESIK  89
+
+
+> UniRef50_UPI0006153E7E hypothetical protein n=1 Tax=Staphylococcus 
+carnosus TaxID=1281 RepID=UPI0006153E7E
+Length=176
+
+ Score = 43.5 bits (101),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 20/44 (45%), Positives = 31/44 (70%), Gaps = 0/44 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLN  52
+            QQ AFYE+L + NLTE+++N +I ++K +   S+E+ A A K N
+Sbjct  59   QQQAFYELLKMDNLTEQRKNDYIDTIKVNAQASQEVFASAIKEN  102
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.126    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 240240835184
+Results from round 2
+
+
+Query= 4npd
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI0007446E6C Immunoglobulin G-binding protein A,Coat ...  113     5e-29
+  UniRef50_UPI00098B97FD hypothetical protein n=1 Tax=Staphylococ...  80.5    4e-18
+  UniRef50_UPI000A09378D signal peptide protein n=1 Tax=Staphyloc...  80.5    1e-17
+  UniRef50_A0A1D4RQU2 Immunoglobulin G binding protein A n=98 Tax...  82.0    5e-17
+  UniRef50_UPI0000352C62 Immunoglobulin G binding protein A n=15 ...  76.3    7e-17
+  UniRef50_A0A1L1ATH8 Immunoglobulin G binding protein A n=2 Tax=...  80.5    2e-16
+  UniRef50_P0A015 Immunoglobulin G-binding protein A n=231 Tax=St...  80.1    2e-16
+  UniRef50_Q9KWJ1 Protein A (Fragment) n=5 Tax=Staphylococcus Tax...  77.0    5e-16
+  UniRef50_E3T5X0 Protein A (Fragment) n=1 Tax=Staphylococcus hyi...  77.4    5e-16
+  UniRef50_A0A1B1P4U3 Protein A, von Willebrand factor binding pr...  77.0    7e-16
+  UniRef50_UPI000BF6FC55 LysM peptidoglycan-binding domain-contai...  76.7    8e-16
+  UniRef50_UPI0001F84840 PHOSPHORYLASE B KINASE GAMMA CATALYTIC C...  77.8    8e-16
+  UniRef50_A0A2A4H4F0 IgG-binding protein n=5 Tax=Staphylococcus ...  77.4    9e-16
+  UniRef50_P02976 Immunoglobulin G-binding protein A n=1214 Tax=S...  78.2    1e-15
+  UniRef50_M4M875 Truncated protein A n=1 Tax=Staphylococcus aure...  72.8    5e-15
+  UniRef50_UPI0001DD3759 Engineered protein, ZHER2 Affibody n=5 T...  70.1    2e-14
+  UniRef50_A0A2A4EGB1 IgG-binding protein n=57 Tax=Staphylococcus...  74.7    2e-14
+  UniRef50_UPI0005148B7D Immunoglobulin G-binding protein A n=1 T...  71.3    2e-14
+  UniRef50_UPI000B4E83C1 Immunoglobulin G-binding protein A, DHR1...  74.3    2e-14
+  UniRef50_S2XB73 Immunoglobulin G-binding protein A (Fragment) n...  72.4    2e-14
+  UniRef50_M4MFK0 Truncated protein A n=1 Tax=Staphylococcus aure...  70.5    2e-13
+  UniRef50_UPI00027FCDD0 Immunoglobulin G-binding protein A n=1 T...  67.4    3e-13
+  UniRef50_UPI000C1BC3D8 LysM peptidoglycan-binding domain-contai...  70.5    8e-13
+  UniRef50_UPI0003AFFA17 Immunoglobulin G-binding protein A n=2 T...  64.3    3e-12
+  UniRef50_UPI000C1BE35F LysM peptidoglycan-binding domain-contai...  69.3    3e-12
+  UniRef50_UPI000B4E83E6 Immunoglobulin G-binding protein A n=2 T...  66.6    3e-12
+  UniRef50_UPI000B4E83C0 Immunoglobulin G-binding protein A n=1 T...  64.3    1e-11
+  UniRef50_X2JFP7 Immunoglobin G-binding protein A (Fragment) n=2...  63.6    3e-11
+  UniRef50_S2XBG3 Uncharacterized protein (Fragment) n=1 Tax=Stap...  62.8    4e-11
+  UniRef50_A0A1E5JH58 B domain protein n=1 Tax=Staphylococcus aur...  62.0    9e-11
+  UniRef50_UPI000BA760BA immunoglobulin-binding protein sbi n=2 T...  64.7    1e-10
+  UniRef50_A0A1L1J0R5 IgG-binding protein SBI n=1 Tax=Staphylococ...  62.8    3e-10
+  UniRef50_UPI00050295EA immunoglobulin-binding protein sbi n=1 T...  62.0    6e-10
+  UniRef50_Q2YVZ4 Immunoglobulin-binding protein sbi n=257 Tax=St...  60.5    3e-09
+  UniRef50_A0A1D4J5D5 IgG-binding protein SBI n=1 Tax=Staphylococ...  58.6    4e-09
+  UniRef50_UPI0006AB99E5 hypothetical protein n=1 Tax=Staphylococ...  56.2    7e-08
+  UniRef50_A0A085UHD7 Immunoglobulin G-binding protein n=4 Tax=St...  54.3    4e-07
+  UniRef50_A0A1B1P4K7 Protein A, von Willebrand factor binding pr...  52.8    1e-06
+  UniRef50_A0A143PDW3 Uncharacterized protein n=6 Tax=Staphylococ...  52.8    1e-06
+  UniRef50_A0A2I0YI86 IgG-binding protein SBI (Fragment) n=1 Tax=...  49.3    1e-05
+  UniRef50_UPI0006153E7E hypothetical protein n=1 Tax=Staphylococ...  46.2    4e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A2A4GTS6 IgG-binding protein SBI n=6 Tax=Staphylococ...  52.4    2e-06
+  UniRef50_A0A1W6BM20 IgG-binding protein SBI n=1 Tax=Staphylococ...  50.8    6e-06
+  UniRef50_A0A0M4V2K8 IgG-binding protein SBI n=1 Tax=Staphylococ...  50.5    8e-06
+  UniRef50_S2XJ01 Uncharacterized protein n=3 Tax=Staphylococcus ...  48.5    3e-05
+  UniRef50_A0A069F1U6 IgG-binding protein n=1 Tax=Staphylococcus ...  46.2    2e-04
+
+
+> UniRef50_UPI0007446E6C Immunoglobulin G-binding protein A,Coat 
+protein n=2 Tax=Sesbania mosaic virus TaxID=12558 RepID=UPI0007446E6C
+Length=282
+
+ Score = 113 bits (282),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 47/57 (82%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           DNKFNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  16  DNKFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  72
+
+
+> UniRef50_UPI00098B97FD hypothetical protein n=1 Tax=Staphylococcus 
+hominis TaxID=1290 RepID=UPI00098B97FD
+Length=105
+
+ Score = 80.5 bits (197),  Expect = 4e-18, Method: Composition-based stats.
+ Identities = 34/55 (62%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+K+N++QAPK
+Sbjct  50   QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKINESQAPK  104
+
+
+> UniRef50_UPI000A09378D signal peptide protein n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=UPI000A09378D
+Length=152
+
+ Score = 80.5 bits (197),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  50   QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+> UniRef50_A0A1D4RQU2 Immunoglobulin G binding protein A n=98 Tax=Staphylococcaceae 
+TaxID=90964 RepID=A0A1D4RQU2_STAAU
+Length=430
+
+ Score = 82.0 bits (201),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  224  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  281
+
+
+ Score = 81.3 bits (199),  Expect = 8e-17, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  166  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  223
+
+
+ Score = 74.7 bits (182),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  109  QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  165
+
+
+ Score = 67.8 bits (164),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  50   QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+> UniRef50_UPI0000352C62 Immunoglobulin G binding protein A n=15 
+Tax=root TaxID=1 RepID=UPI0000352C62
+Length=62
+
+ Score = 76.3 bits (186),  Expect = 7e-17, Method: Composition-based stats.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ADNKFNKEQQNAF+EILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  4   ADNKFNKEQQNAFWEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  61
+
+
+> UniRef50_A0A1L1ATH8 Immunoglobulin G binding protein A n=2 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1L1ATH8_STAAU
+Length=467
+
+ Score = 80.5 bits (197),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  229  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  286
+
+
+ Score = 74.7 bits (182),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 47/55 (85%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+              N+EQQNAFYEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  174  NLNEEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  228
+
+
+ Score = 73.6 bits (179),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  97   QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 66.6 bits (161),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  38  QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_P0A015 Immunoglobulin G-binding protein A n=231 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SPA_STAAM
+Length=450
+
+ Score = 80.1 bits (196),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 57/58 (98%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNL EEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  212  ADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  269
+
+
+ Score = 78.2 bits (191),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  154  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  211
+
+
+ Score = 73.2 bits (178),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  97   QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 66.3 bits (160),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  38  QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_Q9KWJ1 Protein A (Fragment) n=5 Tax=Staphylococcus TaxID=1279 
+RepID=Q9KWJ1_STAAU
+Length=198
+
+ Score = 77.0 bits (188),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  109  QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  165
+
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  50   QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+ Score = 45.5 bits (106),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRN  28
+            ADN FNKEQQNAFYEIL++PNL EEQRN
+Sbjct  166  ADNNFNKEQQNAFYEILNMPNLNEEQRN  193
+
+
+> UniRef50_E3T5X0 Protein A (Fragment) n=1 Tax=Staphylococcus hyicus 
+TaxID=1284 RepID=E3T5X0_STAHY
+Length=288
+
+ Score = 77.4 bits (189),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 48/57 (84%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +N FN+ QQNAFYEILHLP LTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAP+
+Sbjct  101  ENNFNEAQQNAFYEILHLPYLTEEQRNGFIQSLKDDPSVSNDILAEAKKLNDSQAPQ  157
+
+
+ Score = 69.0 bits (167),  Expect = 6e-13, Method: Composition-based stats.
+ Identities = 44/55 (80%), Positives = 49/55 (89%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            F+  QQNAFYEIL+LP L+EEQRNGFIQSLKDDPSVS +ILAEAKK NDAQAP+
+Sbjct  45  NFDAAQQNAFYEILNLPYLSEEQRNGFIQSLKDDPSVSNDILAEAKKANDAQAPQ  99
+
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 28/39 (72%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  19  LPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           LPNLT+EQRNG+IQSLKDDPSVS +IL +A+  N  QAP
+Sbjct  1   LPNLTDEQRNGYIQSLKDDPSVSADILQQAQATNANQAP  39
+
+
+> UniRef50_A0A1B1P4U3 Protein A, von Willebrand factor binding 
+protein Spa n=24 Tax=Staphylococcus TaxID=1279 RepID=A0A1B1P4U3_STAPS
+Length=292
+
+ Score = 77.0 bits (188),  Expect = 7e-16, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  92   AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  149
+
+
+ Score = 72.8 bits (177),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 44/53 (83%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  40  NINDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  92
+
+
+> UniRef50_UPI000BF6FC55 LysM peptidoglycan-binding domain-containing 
+protein n=1 Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000BF6FC55
+Length=217
+
+ Score = 76.7 bits (187),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 43/55 (78%), Positives = 51/55 (93%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  38  QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  92
+
+
+> UniRef50_UPI0001F84840 PHOSPHORYLASE B KINASE GAMMA CATALYTIC 
+CHAIN, TESTIS/LIVER ISOFORM n=11 Tax=Amniota TaxID=32524 RepID=UPI0001F84840
+Length=365
+
+ Score = 77.8 bits (190),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 40/58 (69%), Positives = 45/58 (78%), Gaps = 1/58 (2%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            DNKFNKE++ A  EI HLPNL  EQR  FI+SL+DDPS S  +LAEAKKLNDAQ PK
+Sbjct  11  VDNKFNKERRRARREIRHLPNLNREQRRAFIRSLRDDPSQSANLLAEAKKLNDAQ-PK  67
+
+
+> UniRef50_A0A2A4H4F0 IgG-binding protein n=5 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4H4F0_STAIN
+Length=348
+
+ Score = 77.4 bits (189),  Expect = 9e-16, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  147  AKPDYSEAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSTDILAEAKKLNDSQAPK  204
+
+
+ Score = 73.6 bits (179),  Expect = 3e-14, Method: Composition-based stats.
+ Identities = 44/53 (83%), Positives = 47/53 (89%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVSK +L EAKKLND+QA
+Sbjct  40  NINDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSKNVLEEAKKLNDSQA  92
+
+
+ Score = 70.9 bits (172),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 43/53 (81%), Positives = 48/53 (91%), Gaps = 0/53 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             +++ QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +ILA AKKLND QA
+Sbjct  95   DYSEAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSTDILAAAKKLNDTQA  147
+
+
+> UniRef50_P02976 Immunoglobulin G-binding protein A n=1214 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SPA_STAA8
+Length=516
+
+ Score = 78.2 bits (191),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 53/58 (91%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  212  ADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  269
+
+
+ Score = 77.8 bits (190),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  270  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  327
+
+
+ Score = 76.3 bits (186),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  154  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  211
+
+
+ Score = 70.9 bits (172),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  97   QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 64.3 bits (155),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  38  QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_M4M875 Truncated protein A n=1 Tax=Staphylococcus aureus 
+TaxID=1280 RepID=M4M875_STAAU
+Length=112
+
+ Score = 72.8 bits (177),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 36/55 (65%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  38  QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_UPI0001DD3759 Engineered protein, ZHER2 Affibody n=5 
+Tax=root TaxID=1 RepID=UPI0001DD3759
+Length=70
+
+ Score = 70.1 bits (170),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 39/58 (67%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            DNKFNKE +NA++EI  LPNL  +Q+  FI+SL DDPS S  +LAEAKKLNDAQAPK
+Sbjct  13  VDNKFNKEMRNAYWEIALLPNLNNQQKRAFIRSLYDDPSQSANLLAEAKKLNDAQAPK  70
+
+
+> UniRef50_A0A2A4EGB1 IgG-binding protein n=57 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4EGB1_STAPS
+Length=402
+
+ Score = 74.7 bits (182),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  202  AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  259
+
+
+ Score = 70.1 bits (170),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 44/53 (83%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  40  NINDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  92
+
+
+ Score = 67.8 bits (164),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 43/56 (77%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  92   AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  147
+
+
+ Score = 67.8 bits (164),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 43/56 (77%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  147  AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  202
+
+
+> UniRef50_UPI0005148B7D Immunoglobulin G-binding protein A n=1 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI0005148B7D
+Length=116
+
+ Score = 71.3 bits (173),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ADNKFNKEQQNA+YEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  1   ADNKFNKEQQNAWYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  58
+
+
+ Score = 71.3 bits (173),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNA+YEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  59   ADNKFNKEQQNAWYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  116
+
+
+> UniRef50_UPI000B4E83C1 Immunoglobulin G-binding protein A, DHR14 
+n=1 Tax=synthetic construct TaxID=32630 RepID=UPI000B4E83C1
+Length=404
+
+ Score = 74.3 bits (181),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 45/55 (82%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           KFNKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAK LN  QA K
+Sbjct  5   KFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVK  59
+
+
+ Score = 65.5 bits (158),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 39/51 (76%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            EQQ+AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAK LN  QA K
+Sbjct  205  EQQSAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVK  255
+
+
+> UniRef50_S2XB73 Immunoglobulin G-binding protein A (Fragment) 
+n=9 Tax=Staphylococcus TaxID=1279 RepID=S2XB73_9STAP
+Length=220
+
+ Score = 72.4 bits (176),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 44/53 (83%), Positives = 50/53 (94%), Gaps = 0/53 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+              N++QQNAFYEIL+LPNL E+QRNGFIQSLKDDPSVSK+ILAEAKKLND+QA
+Sbjct  160  NVNEDQQNAFYEILNLPNLNEDQRNGFIQSLKDDPSVSKDILAEAKKLNDSQA  212
+
+
+ Score = 64.7 bits (156),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 41/50 (82%), Positives = 46/50 (92%), Gaps = 0/50 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            +QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +IL +A+ +N AQAP
+Sbjct  105  DQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSADILIQARNVNVAQAP  154
+
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 42/53 (79%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+              + QQNAF EIL LPNL E QRNGFIQSLKDDPSVSK+ILAEAKKLND+QA
+Sbjct  42  NTAEAQQNAFAEILDLPNLNENQRNGFIQSLKDDPSVSKDILAEAKKLNDSQA  94
+
+
+> UniRef50_M4MFK0 Truncated protein A n=1 Tax=Staphylococcus aureus 
+TaxID=1280 RepID=M4MFK0_STAAU
+Length=281
+
+ Score = 70.5 bits (171),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 43/55 (78%), Positives = 51/55 (93%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  38  QHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  92
+
+
+> UniRef50_UPI00027FCDD0 Immunoglobulin G-binding protein A n=1 
+Tax=synthetic construct TaxID=32630 RepID=UPI00027FCDD0
+Length=88
+
+ Score = 67.4 bits (163),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 50/75 (67%), Positives = 51/75 (68%), Gaps = 17/75 (23%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP-----------------SVSKE  43
+            DNKFNKEQQNAFYEILHLPNL EEQRN FIQSLKDD                  S S  
+Sbjct  14  VDNKFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDSYIDTNNDGAYEGDELSGSQSAN  73
+
+Query  44  ILAEAKKLNDAQAPK  58
+           +LAEAKKLNDAQAPK
+Sbjct  74  LLAEAKKLNDAQAPK  88
+
+
+> UniRef50_UPI000C1BC3D8 LysM peptidoglycan-binding domain-containing 
+protein n=5 Tax=Staphylococcus pseudintermedius TaxID=283734 
+RepID=UPI000C1BC3D8
+Length=512
+
+ Score = 70.5 bits (171),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  208  AKPDYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  265
+
+
+ Score = 64.3 bits (155),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 44/53 (83%), Positives = 50/53 (94%), Gaps = 0/53 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  156  SFDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  208
+
+
+ Score = 63.9 bits (154),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 41/54 (76%), Positives = 45/54 (83%), Gaps = 0/54 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+             ++ EQQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  97   DYSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  150
+
+
+ Score = 58.6 bits (140),  Expect = 2e-08, Method: Composition-based stats.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+           +   + QQNAF E++ LPNL+EEQRNGFIQSLKDDPS S+++L EAKKLND+Q
+Sbjct  37  DNNAEAQQNAFSEVVKLPNLSEEQRNGFIQSLKDDPSTSQDVLNEAKKLNDSQ  89
+
+
+> UniRef50_UPI0003AFFA17 Immunoglobulin G-binding protein A n=2 
+Tax=Staphylococcus aureus (strain Mu50 / ATCC 700699) TaxID=158878 
+RepID=UPI0003AFFA17
+Length=55
+
+ Score = 64.3 bits (155),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 38/53 (72%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            +NK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QA
+Sbjct  3   SYNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQA  55
+
+
+> UniRef50_UPI000C1BE35F LysM peptidoglycan-binding domain-containing 
+protein n=5 Tax=Staphylococcus pseudintermedius TaxID=283734 
+RepID=UPI000C1BE35F
+Length=666
+
+ Score = 69.3 bits (168),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  322  AKPDYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  379
+
+
+ Score = 63.6 bits (153),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 44/53 (83%), Positives = 50/53 (94%), Gaps = 0/53 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  156  SFDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  208
+
+
+ Score = 63.6 bits (153),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 44/53 (83%), Positives = 50/53 (94%), Gaps = 0/53 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  270  SFDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  322
+
+
+ Score = 62.8 bits (151),  Expect = 5e-10, Method: Composition-based stats.
+ Identities = 41/54 (76%), Positives = 45/54 (83%), Gaps = 0/54 (0%)
+
+Query  4    KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+             ++ EQQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  97   DYSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  150
+
+
+ Score = 62.4 bits (150),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 41/57 (72%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            A   +++ QQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  208  AKPDYSEAQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  264
+
+
+ Score = 57.4 bits (137),  Expect = 4e-08, Method: Composition-based stats.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+           +   + QQNAF E++ LPNL+EEQRNGFIQSLKDDPS S+++L EAKKLND+Q
+Sbjct  37  DNNAEAQQNAFSEVVKLPNLSEEQRNGFIQSLKDDPSTSQDVLNEAKKLNDSQ  89
+
+
+> UniRef50_UPI000B4E83E6 Immunoglobulin G-binding protein A n=2 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000B4E83E6
+Length=237
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 45/53 (85%), Positives = 47/53 (89%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           KFNKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  5   KFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  57
+
+
+ Score = 62.4 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 44/56 (79%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLNDAQA
+Sbjct  182  AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNDAQA  237
+
+
+ Score = 60.9 bits (146),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 42/56 (75%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  92   AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  147
+
+
+ Score = 60.9 bits (146),  Expect = 4e-10, Method: Composition-based stats.
+ Identities = 42/56 (75%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  137  AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  192
+
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 41/56 (73%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  47   AEAKKLNEQQAAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  102
+
+
+> UniRef50_UPI000B4E83C0 Immunoglobulin G-binding protein A n=1 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000B4E83C0
+Length=146
+
+ Score = 64.3 bits (155),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 45/57 (79%), Positives = 47/57 (82%), Gaps = 0/57 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLNDAQAP
+Sbjct  90   AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNDAQAP  146
+
+
+ Score = 63.9 bits (154),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 43/54 (80%), Positives = 46/54 (85%), Gaps = 0/54 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           +  NKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  2   SHMNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  55
+
+
+ Score = 58.6 bits (140),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 41/56 (73%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           A+ K   EQQ AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  45  AEAKKLNEQQAAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  100
+
+
+> UniRef50_X2JFP7 Immunoglobin G-binding protein A (Fragment) n=2 
+Tax=Staphylococcus pseudintermedius TaxID=283734 RepID=X2JFP7_STAPS
+Length=210
+
+ Score = 63.6 bits (153),  Expect = 3e-11, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           A   +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  38  AKPDYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  95
+
+
+ Score = 44.7 bits (104),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 35/38 (92%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  19  LPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  1   LPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  38
+
+
+> UniRef50_S2XBG3 Uncharacterized protein (Fragment) n=1 Tax=Staphylococcus 
+sp. HGB0015 TaxID=1078083 RepID=S2XBG3_9STAP
+Length=140
+
+ Score = 62.8 bits (151),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 49/55 (89%), Positives = 53/55 (96%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  16  DYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  70
+
+
+> UniRef50_A0A1E5JH58 B domain protein n=1 Tax=Staphylococcus aureus 
+subsp. aureus TaxID=46170 RepID=A0A1E5JH58_STAAU
+Length=139
+
+ Score = 62.0 bits (149),  Expect = 9e-11, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 40/56 (71%), Gaps = 2/56 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  44  QNNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+> UniRef50_UPI000BA760BA immunoglobulin-binding protein sbi n=2 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000BA760BA
+Length=570
+
+ Score = 64.7 bits (156),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 40/56 (71%), Gaps = 2/56 (4%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+             N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  178  QNNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  231
+
+
+ Score = 47.4 bits (111),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+            QQNAFY +L   NLTE+++N +I  +K++P  S+++  E+ + + A+
+Sbjct  237  QQNAFYNVLKNDNLTEQEKNNYIAQIKENPDRSQQVWVESVQSSKAK  283
+
+
+> UniRef50_A0A1L1J0R5 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1L1J0R5_STAAU
+Length=416
+
+ Score = 62.8 bits (151),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 2/55 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+ Score = 47.0 bits (110),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+            QQNAFY +L   NLTEEQ+N +I  +K++P  S+++  E+ + + A+
+Sbjct  103  QQNAFYNVLKNNNLTEEQKNNYIAQIKENPDRSQQVWVESVQASKAK  149
+
+
+> UniRef50_UPI00050295EA immunoglobulin-binding protein sbi n=1 
+Tax=Staphylococcus schweitzeri TaxID=1654388 RepID=UPI00050295EA
+Length=437
+
+ Score = 62.0 bits (149),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 22/56 (39%), Positives = 41/56 (73%), Gaps = 2/56 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           N +  +QQ AFY++LHL  +TEEQR+ +I++L++ P  ++E+ +E+  L D++ P+
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRDQYIKTLREHPERAQEVFSES--LKDSKNPE  98
+
+
+> UniRef50_Q2YVZ4 Immunoglobulin-binding protein sbi n=257 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SBI_STAAB
+Length=436
+
+ Score = 60.5 bits (145),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 40/56 (71%), Gaps = 2/56 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  44  QNNYITDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+ Score = 44.7 bits (104),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+            QQNAFY +L   NLTE+++N +I  +K++P  S+++  E+ + + A+
+Sbjct  103  QQNAFYNVLKNDNLTEQEKNNYIAQIKENPDRSQQVWVESVQSSKAK  149
+
+
+> UniRef50_A0A1D4J5D5 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1D4J5D5_STAAU
+Length=254
+
+ Score = 58.6 bits (140),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 40/56 (71%), Gaps = 2/56 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+  L D++ P
+Sbjct  44  QNNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSES--LKDSKNP  97
+
+
+> UniRef50_UPI0006AB99E5 hypothetical protein n=1 Tax=Staphylococcus 
+carnosus TaxID=1281 RepID=UPI0006AB99E5
+Length=386
+
+ Score = 56.2 bits (134),  Expect = 7e-08, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  6    NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLN  52
+               QQ AFYE+L + NLTE+++N +I ++K +P  S+E+ A A K N
+Sbjct  56   VTGQQQAFYELLKMDNLTEQRKNDYIDTIKVNPQASQEVFASAIKEN  102
+
+
+> UniRef50_A0A085UHD7 Immunoglobulin G-binding protein n=4 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A085UHD7_9STAP
+Length=471
+
+ Score = 54.3 bits (129),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  6   NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+             + Q A+Y++LHL  LT EQR+ +IQ L ++P  ++E+ +E+ K ++ Q
+Sbjct  45  VDDAQRAYYKVLHLEGLTNEQRSNYIQKLHNNPGSAQEVFSESIKDSNNQ  94
+
+
+> UniRef50_A0A1B1P4K7 Protein A, von Willebrand factor binding 
+protein Spa n=25 Tax=Staphylococcus TaxID=1279 RepID=A0A1B1P4K7_STAPS
+Length=498
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 20/40 (50%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+            QQNAFY +LH  +L+EEQR+ +I  +K+DP  S+E+  E+
+Sbjct  104  QQNAFYSVLHNDDLSEEQRDAYIGRIKEDPDQSQEVFVES  143
+
+
+ Score = 48.2 bits (113),  Expect = 6e-05, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKK  50
+           D+      Q  FY++LH+  ++E+QR  +++ L +DPS ++ + +E+ K
+Sbjct  45  DSINVTPDQKTFYQVLHMEGISEDQREQYLKQLHEDPSSAQNVFSESIK  93
+
+
+> UniRef50_A0A143PDW3 Uncharacterized protein n=6 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A143PDW3_9STAP
+Length=471
+
+ Score = 52.8 bits (125),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 21/47 (45%), Positives = 32/47 (68%), Gaps = 0/47 (0%)
+
+Query  6    NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLN  52
+               QQ AFYE+L + NLTE+++N +I+++K +P  S+E  A A K N
+Sbjct  56   VTGQQQAFYELLKMDNLTEQRKNDYIETIKVNPQASQEAFASAIKEN  102
+
+
+> UniRef50_A0A2A4GTS6 IgG-binding protein SBI n=6 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4GTS6_9STAP
+Length=511
+
+ Score = 52.4 bits (124),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 17/50 (34%), Positives = 35/50 (70%), Gaps = 2/50 (4%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           +Q AFY++LH+  ++E QR+ +I+ L ++P  ++ + +E+ K  DA+ P+
+Sbjct  52  EQKAFYQVLHMEGISESQRDQYIKKLHENPESAQNVFSESIK--DAKNPE  99
+
+
+ Score = 46.6 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 16/40 (40%), Positives = 29/40 (73%), Gaps = 0/40 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+            QQNAFY +LH  +L+E+QR+ +I  +++D   S+E+  ++
+Sbjct  104  QQNAFYSVLHNEDLSEQQRDAYISEIREDADQSQEVFVKS  143
+
+
+> UniRef50_A0A1W6BM20 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+lutrae TaxID=155085 RepID=A0A1W6BM20_9STAP
+Length=478
+
+ Score = 50.8 bits (120),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 17/50 (34%), Positives = 35/50 (70%), Gaps = 2/50 (4%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           +Q AFY++LH+  ++E QR+ +++ L ++PS ++ + +E+ K  DA  P+
+Sbjct  52  EQKAFYQVLHMDGISESQRDQYLKQLHENPSSAQNVYSESIK--DASNPE  99
+
+
+ Score = 48.9 bits (115),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 19/48 (40%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            QQNAFYEIL   N+T++QR+ +I  +K++P  S+ +  E+      Q+
+Sbjct  104  QQNAFYEILKNTNITDKQRDQYISRIKENPDASQNVFVESLHATTEQS  151
+
+
+> UniRef50_A0A0M4V2K8 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+schleiferi TaxID=1295 RepID=A0A0M4V2K8_9STAP
+Length=452
+
+ Score = 50.5 bits (119),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 36/50 (72%), Gaps = 2/50 (4%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +Q AFY++LH+  +TEEQR+ +I+ L +D + ++ + +E+ K  D+Q P+
+Sbjct  54   EQKAFYQVLHMDGITEEQRDQYIKQLHEDKNSAQNVFSESIK--DSQRPE  101
+
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 17/47 (36%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+            QQNAFYEIL+  ++T+EQR+ +I  +K++P  ++++  E+    + +
+Sbjct  106  QQNAFYEILNNEDITDEQRDRYISEIKENPDAAQKVFVESVNQTETK  152
+
+
+> UniRef50_A0A2I0YI86 IgG-binding protein SBI (Fragment) n=1 Tax=Staphylococcus 
+pseudintermedius TaxID=283734 RepID=A0A2I0YI86_STAPS
+Length=400
+
+ Score = 49.3 bits (116),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/40 (50%), Positives = 30/40 (75%), Gaps = 0/40 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+            QQNAFY +LH  +L+EEQR+ +I  +K+DP  S+E+  E+
+Sbjct  104  QQNAFYSVLHNDDLSEEQRDAYIGRIKEDPDQSQEVFVES  143
+
+
+ Score = 45.1 bits (105),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 15/49 (31%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKK  50
+           D+      Q  FY++LH+  ++E+QR  +++ L +DPS ++ + +E+ K
+Sbjct  45  DSINVTPDQKTFYQVLHMEGISEDQREQYLKQLHEDPSSAQNVFSESIK  93
+
+
+> UniRef50_S2XJ01 Uncharacterized protein n=3 Tax=Staphylococcus 
+TaxID=1279 RepID=S2XJ01_9STAP
+Length=395
+
+ Score = 48.5 bits (114),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 16/42 (38%), Positives = 30/42 (71%), Gaps = 0/42 (0%)
+
+Query  9   QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKK  50
+           +Q AFY++LH+  +TEEQRN +++ L +D   ++ + +E+ K
+Sbjct  57  EQKAFYQVLHMEGITEEQRNQYLKQLHEDKESAQNVYSESIK  98
+
+
+ Score = 47.4 bits (111),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 18/47 (38%), Positives = 33/47 (70%), Gaps = 0/47 (0%)
+
+Query  9    QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+            QQNAFYEIL+  ++T+EQR+ +I  +K++P  S+++  E+    + +
+Sbjct  109  QQNAFYEILNNEDITDEQRDRYISQIKENPDASQKVFDESVNQTETK  155
+
+
+> UniRef50_UPI0006153E7E hypothetical protein n=1 Tax=Staphylococcus 
+carnosus TaxID=1281 RepID=UPI0006153E7E
+Length=176
+
+ Score = 46.2 bits (108),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 20/47 (43%), Positives = 31/47 (66%), Gaps = 0/47 (0%)
+
+Query  6    NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLN  52
+               QQ AFYE+L + NLTE+++N +I ++K +   S+E+ A A K N
+Sbjct  56   VTGQQQAFYELLKMDNLTEQRKNDYIDTIKVNAQASQEVFASAIKEN  102
+
+
+> UniRef50_A0A069F1U6 IgG-binding protein n=1 Tax=Staphylococcus 
+chromogenes MU 970 TaxID=1220551 RepID=A0A069F1U6_STACR
+Length=543
+
+ Score = 46.2 bits (108),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/59 (31%), Positives = 35/59 (59%), Gaps = 5/59 (8%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP---SVSKEILAEAKKLNDAQAP  57
+            D++   + Q AFY  LH+  +T+ QR G+I+ L+ +P   + ++ + +E+ K  D+  P
+Sbjct  58   DSQHVSDAQRAFYHTLHINGITDSQRQGYIKQLRQNPNHETTAQNVFSESTK--DSNNP  114
+
+
+
+Lambda      K        H        a         alpha
+   0.302    0.133    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0402    0.140     1.90     42.6     43.6 
+
+Effective search space used: 240240835184
+Results from round 3
+
+
+Query= 4npd
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI0007446E6C Immunoglobulin G-binding protein A,Coat ...  109     9e-28
+  UniRef50_UPI00098B97FD hypothetical protein n=1 Tax=Staphylococ...  84.0    2e-19
+  UniRef50_UPI000A09378D signal peptide protein n=1 Tax=Staphyloc...  83.6    8e-19
+  UniRef50_UPI000BF6FC55 LysM peptidoglycan-binding domain-contai...  79.8    5e-17
+  UniRef50_A0A1B1P4U3 Protein A, von Willebrand factor binding pr...  80.2    6e-17
+  UniRef50_A0A2A4H4F0 IgG-binding protein n=5 Tax=Staphylococcus ...  80.2    1e-16
+  UniRef50_A0A1D4RQU2 Immunoglobulin G binding protein A n=98 Tax...  80.2    2e-16
+  UniRef50_UPI0000352C62 Immunoglobulin G binding protein A n=15 ...  74.4    5e-16
+  UniRef50_M4M875 Truncated protein A n=1 Tax=Staphylococcus aure...  75.1    6e-16
+  UniRef50_A0A1L1ATH8 Immunoglobulin G binding protein A n=2 Tax=...  78.6    8e-16
+  UniRef50_P0A015 Immunoglobulin G-binding protein A n=231 Tax=St...  78.6    1e-15
+  UniRef50_Q9KWJ1 Protein A (Fragment) n=5 Tax=Staphylococcus Tax...  76.3    1e-15
+  UniRef50_A0A2A4EGB1 IgG-binding protein n=57 Tax=Staphylococcus...  76.7    3e-15
+  UniRef50_P02976 Immunoglobulin G-binding protein A n=1214 Tax=S...  77.1    3e-15
+  UniRef50_E3T5X0 Protein A (Fragment) n=1 Tax=Staphylococcus hyi...  75.1    4e-15
+  UniRef50_UPI0001F84840 PHOSPHORYLASE B KINASE GAMMA CATALYTIC C...  75.5    6e-15
+  UniRef50_M4MFK0 Truncated protein A n=1 Tax=Staphylococcus aure...  74.0    9e-15
+  UniRef50_S2XB73 Immunoglobulin G-binding protein A (Fragment) n...  70.9    8e-14
+  UniRef50_UPI0001DD3759 Engineered protein, ZHER2 Affibody n=5 T...  68.6    8e-14
+  UniRef50_UPI0005148B7D Immunoglobulin G-binding protein A n=1 T...  69.4    9e-14
+  UniRef50_UPI000C1BC3D8 LysM peptidoglycan-binding domain-contai...  73.2    1e-13
+  UniRef50_UPI000B4E83C1 Immunoglobulin G-binding protein A, DHR1...  71.7    2e-13
+  UniRef50_UPI000C1BE35F LysM peptidoglycan-binding domain-contai...  71.7    4e-13
+  UniRef50_UPI00027FCDD0 Immunoglobulin G-binding protein A n=1 T...  65.1    2e-12
+  UniRef50_UPI000BA760BA immunoglobulin-binding protein sbi n=2 T...  68.6    4e-12
+  UniRef50_X2JFP7 Immunoglobin G-binding protein A (Fragment) n=2...  65.9    4e-12
+  UniRef50_A0A1E5JH58 B domain protein n=1 Tax=Staphylococcus aur...  65.5    5e-12
+  UniRef50_UPI000B4E83C0 Immunoglobulin G-binding protein A n=1 T...  64.7    8e-12
+  UniRef50_UPI0003AFFA17 Immunoglobulin G-binding protein A n=2 T...  63.2    8e-12
+  UniRef50_A0A1L1J0R5 IgG-binding protein SBI n=1 Tax=Staphylococ...  66.7    2e-11
+  UniRef50_UPI00050295EA immunoglobulin-binding protein sbi n=1 T...  66.3    2e-11
+  UniRef50_S2XBG3 Uncharacterized protein (Fragment) n=1 Tax=Stap...  63.6    2e-11
+  UniRef50_UPI000B4E83E6 Immunoglobulin G-binding protein A n=2 T...  64.4    2e-11
+  UniRef50_A0A2A4GTS6 IgG-binding protein SBI n=6 Tax=Staphylococ...  65.1    7e-11
+  UniRef50_Q2YVZ4 Immunoglobulin-binding protein sbi n=257 Tax=St...  64.0    1e-10
+  UniRef50_A0A1W6BM20 IgG-binding protein SBI n=1 Tax=Staphylococ...  64.0    1e-10
+  UniRef50_A0A1D4J5D5 IgG-binding protein SBI n=1 Tax=Staphylococ...  62.0    2e-10
+  UniRef50_A0A0M4V2K8 IgG-binding protein SBI n=1 Tax=Staphylococ...  63.2    2e-10
+  UniRef50_A0A069F1U6 IgG-binding protein n=1 Tax=Staphylococcus ...  62.0    9e-10
+  UniRef50_S2XJ01 Uncharacterized protein n=3 Tax=Staphylococcus ...  60.5    2e-09
+  UniRef50_A0A085UHD7 Immunoglobulin G-binding protein n=4 Tax=St...  60.1    3e-09
+  UniRef50_A0A1B1P4K7 Protein A, von Willebrand factor binding pr...  60.1    3e-09
+  UniRef50_UPI0006AB99E5 hypothetical protein n=1 Tax=Staphylococ...  58.6    1e-08
+  UniRef50_A0A2I0YI86 IgG-binding protein SBI (Fragment) n=1 Tax=...  55.9    1e-07
+  UniRef50_A0A143PDW3 Uncharacterized protein n=6 Tax=Staphylococ...  54.7    3e-07
+  UniRef50_UPI0006153E7E hypothetical protein n=1 Tax=Staphylococ...  48.2    1e-05
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A0A8HQ03 Putative IgG-binding protein n=1 Tax=Staphy...  49.3    3e-05
+  UniRef50_A0A242VCI4 Uncharacterized protein n=1 Tax=Staphylococ...  49.0    4e-05
+  UniRef50_UPI0007616B57 hypothetical protein n=1 Tax=Staphylococ...  47.8    8e-05
+
+
+> UniRef50_UPI0007446E6C Immunoglobulin G-binding protein A,Coat 
+protein n=2 Tax=Sesbania mosaic virus TaxID=12558 RepID=UPI0007446E6C
+Length=282
+
+ Score = 109 bits (273),  Expect = 9e-28, Method: Composition-based stats.
+ Identities = 47/57 (82%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           DNKFNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  16  DNKFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  72
+
+
+> UniRef50_UPI00098B97FD hypothetical protein n=1 Tax=Staphylococcus 
+hominis TaxID=1290 RepID=UPI00098B97FD
+Length=105
+
+ Score = 84.0 bits (206),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 34/56 (61%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+K+N++QAPK
+Sbjct  49   AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKINESQAPK  104
+
+
+> UniRef50_UPI000A09378D signal peptide protein n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=UPI000A09378D
+Length=152
+
+ Score = 83.6 bits (205),  Expect = 8e-19, Method: Composition-based stats.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  49   AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+> UniRef50_UPI000BF6FC55 LysM peptidoglycan-binding domain-containing 
+protein n=1 Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000BF6FC55
+Length=217
+
+ Score = 79.8 bits (195),  Expect = 5e-17, Method: Composition-based stats.
+ Identities = 43/56 (77%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  37  AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  92
+
+
+> UniRef50_A0A1B1P4U3 Protein A, von Willebrand factor binding 
+protein Spa n=24 Tax=Staphylococcus TaxID=1279 RepID=A0A1B1P4U3_STAPS
+Length=292
+
+ Score = 80.2 bits (196),  Expect = 6e-17, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  92   AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  149
+
+
+ Score = 73.2 bits (178),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 44/55 (80%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           +   N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  38  NANINDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  92
+
+
+> UniRef50_A0A2A4H4F0 IgG-binding protein n=5 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4H4F0_STAIN
+Length=348
+
+ Score = 80.2 bits (196),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  147  AKPDYSEAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSTDILAEAKKLNDSQAPK  204
+
+
+ Score = 74.0 bits (180),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 44/55 (80%), Positives = 48/55 (87%), Gaps = 0/55 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           +   N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVSK +L EAKKLND+QA
+Sbjct  38  NANINDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSKNVLEEAKKLNDSQA  92
+
+
+ Score = 72.1 bits (175),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 44/56 (79%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A   +++ QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +ILA AKKLND QA
+Sbjct  92   AKVDYSEAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSTDILAAAKKLNDTQA  147
+
+
+> UniRef50_A0A1D4RQU2 Immunoglobulin G binding protein A n=98 Tax=Staphylococcaceae 
+TaxID=90964 RepID=A0A1D4RQU2_STAAU
+Length=430
+
+ Score = 80.2 bits (196),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  224  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  281
+
+
+ Score = 80.2 bits (196),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  166  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  223
+
+
+ Score = 74.8 bits (182),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  109  QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  165
+
+
+ Score = 70.9 bits (172),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  49   AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+> UniRef50_UPI0000352C62 Immunoglobulin G binding protein A n=15 
+Tax=root TaxID=1 RepID=UPI0000352C62
+Length=62
+
+ Score = 74.4 bits (181),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ADNKFNKEQQNAF+EILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  4   ADNKFNKEQQNAFWEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  61
+
+
+> UniRef50_M4M875 Truncated protein A n=1 Tax=Staphylococcus aureus 
+TaxID=1280 RepID=M4M875_STAAU
+Length=112
+
+ Score = 75.1 bits (183),  Expect = 6e-16, Method: Composition-based stats.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  37  AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_A0A1L1ATH8 Immunoglobulin G binding protein A n=2 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1L1ATH8_STAAU
+Length=467
+
+ Score = 78.6 bits (192),  Expect = 8e-16, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  229  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  286
+
+
+ Score = 74.8 bits (182),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 47/56 (84%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+               N+EQQNAFYEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  173  PNLNEEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  228
+
+
+ Score = 73.6 bits (179),  Expect = 6e-14, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  97   QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 69.8 bits (169),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  37  AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_P0A015 Immunoglobulin G-binding protein A n=231 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SPA_STAAM
+Length=450
+
+ Score = 78.6 bits (192),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 57/58 (98%), Positives = 57/58 (98%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNL EEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  212  ADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  269
+
+
+ Score = 77.5 bits (189),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  154  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  211
+
+
+ Score = 73.2 bits (178),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  97   QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 69.4 bits (168),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  37  AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_Q9KWJ1 Protein A (Fragment) n=5 Tax=Staphylococcus TaxID=1279 
+RepID=Q9KWJ1_STAAU
+Length=198
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  109  QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  165
+
+
+ Score = 72.4 bits (176),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  49   AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  104
+
+
+ Score = 43.2 bits (100),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 24/28 (86%), Positives = 26/28 (93%), Gaps = 0/28 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRN  28
+            ADN FNKEQQNAFYEIL++PNL EEQRN
+Sbjct  166  ADNNFNKEQQNAFYEILNMPNLNEEQRN  193
+
+
+> UniRef50_A0A2A4EGB1 IgG-binding protein n=57 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4EGB1_STAPS
+Length=402
+
+ Score = 76.7 bits (187),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  202  AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  259
+
+
+ Score = 70.5 bits (171),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 43/56 (77%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  92   AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  147
+
+
+ Score = 70.5 bits (171),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 43/56 (77%), Positives = 48/56 (86%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A   +++ QQNAFYEILHL NLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  147  AKPDYSEAQQNAFYEILHLSNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  202
+
+
+ Score = 70.1 bits (170),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 44/55 (80%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           +   N  QQNAFYEILHLPNLTEEQ+NGFIQSLKDDPSVS +IL EAKKLND QA
+Sbjct  38  NANINDAQQNAFYEILHLPNLTEEQQNGFIQSLKDDPSVSNDILVEAKKLNDTQA  92
+
+
+> UniRef50_P02976 Immunoglobulin G-binding protein A n=1214 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SPA_STAA8
+Length=516
+
+ Score = 77.1 bits (188),  Expect = 3e-15, Method: Composition-based stats.
+ Identities = 53/58 (91%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  212  ADNKFNKEQQNAFYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  269
+
+
+ Score = 76.3 bits (186),  Expect = 8e-15, Method: Composition-based stats.
+ Identities = 58/58 (100%), Positives = 58/58 (100%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  270  ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  327
+
+
+ Score = 75.1 bits (183),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 47/58 (81%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADN FNKEQQNAFYEIL++PNL EEQRNGFIQSLKDDPS S  +L+EAKKLN++QAPK
+Sbjct  154  ADNNFNKEQQNAFYEILNMPNLNEEQRNGFIQSLKDDPSQSANLLSEAKKLNESQAPK  211
+
+
+ Score = 70.9 bits (172),  Expect = 5e-13, Method: Composition-based stats.
+ Identities = 42/57 (74%), Positives = 49/57 (86%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N FNK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QAPK
+Sbjct  97   QNNFNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQAPK  153
+
+
+ Score = 67.4 bits (163),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 36/56 (64%), Positives = 47/56 (84%), Gaps = 0/56 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPS S  +L EA+KLND+QAPK
+Sbjct  37  AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSQSANVLGEAQKLNDSQAPK  92
+
+
+> UniRef50_E3T5X0 Protein A (Fragment) n=1 Tax=Staphylococcus hyicus 
+TaxID=1284 RepID=E3T5X0_STAHY
+Length=288
+
+ Score = 75.1 bits (183),  Expect = 4e-15, Method: Composition-based stats.
+ Identities = 48/57 (84%), Positives = 53/57 (93%), Gaps = 0/57 (0%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            +N FN+ QQNAFYEILHLP LTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAP+
+Sbjct  101  ENNFNEAQQNAFYEILHLPYLTEEQRNGFIQSLKDDPSVSNDILAEAKKLNDSQAPQ  157
+
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Composition-based stats.
+ Identities = 44/56 (79%), Positives = 49/56 (88%), Gaps = 0/56 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             F+  QQNAFYEIL+LP L+EEQRNGFIQSLKDDPSVS +ILAEAKK NDAQAP+
+Sbjct  44  PNFDAAQQNAFYEILNLPYLSEEQRNGFIQSLKDDPSVSNDILAEAKKANDAQAPQ  99
+
+
+ Score = 44.7 bits (104),  Expect = 5e-04, Method: Composition-based stats.
+ Identities = 28/39 (72%), Positives = 33/39 (85%), Gaps = 0/39 (0%)
+
+Query  19  LPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+           LPNLT+EQRNG+IQSLKDDPSVS +IL +A+  N  QAP
+Sbjct  1   LPNLTDEQRNGYIQSLKDDPSVSADILQQAQATNANQAP  39
+
+
+> UniRef50_UPI0001F84840 PHOSPHORYLASE B KINASE GAMMA CATALYTIC 
+CHAIN, TESTIS/LIVER ISOFORM n=11 Tax=Amniota TaxID=32524 RepID=UPI0001F84840
+Length=365
+
+ Score = 75.5 bits (184),  Expect = 6e-15, Method: Composition-based stats.
+ Identities = 40/58 (69%), Positives = 45/58 (78%), Gaps = 1/58 (2%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            DNKFNKE++ A  EI HLPNL  EQR  FI+SL+DDPS S  +LAEAKKLNDAQ PK
+Sbjct  11  VDNKFNKERRRARREIRHLPNLNREQRRAFIRSLRDDPSQSANLLAEAKKLNDAQ-PK  67
+
+
+> UniRef50_M4MFK0 Truncated protein A n=1 Tax=Staphylococcus aureus 
+TaxID=1280 RepID=M4MFK0_STAAU
+Length=281
+
+ Score = 74.0 bits (180),  Expect = 9e-15, Method: Composition-based stats.
+ Identities = 43/56 (77%), Positives = 51/56 (91%), Gaps = 0/56 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            + ++ QQNAFY++L++PNL  +QRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK
+Sbjct  37  AQHDEAQQNAFYQVLNMPNLNADQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  92
+
+
+> UniRef50_S2XB73 Immunoglobulin G-binding protein A (Fragment) 
+n=9 Tax=Staphylococcus TaxID=1279 RepID=S2XB73_9STAP
+Length=220
+
+ Score = 70.9 bits (172),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 44/54 (81%), Positives = 50/54 (93%), Gaps = 0/54 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+               N++QQNAFYEIL+LPNL E+QRNGFIQSLKDDPSVSK+ILAEAKKLND+QA
+Sbjct  159  PNVNEDQQNAFYEILNLPNLNEDQRNGFIQSLKDDPSVSKDILAEAKKLNDSQA  212
+
+
+ Score = 66.3 bits (160),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 41/55 (75%), Positives = 47/55 (85%), Gaps = 0/55 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+               + +QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +IL +A+ +N AQAP
+Sbjct  100  PDHSADQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSADILIQARNVNVAQAP  154
+
+
+ Score = 63.6 bits (153),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 42/54 (78%), Positives = 45/54 (83%), Gaps = 0/54 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+               + QQNAF EIL LPNL E QRNGFIQSLKDDPSVSK+ILAEAKKLND+QA
+Sbjct  41  TNTAEAQQNAFAEILDLPNLNENQRNGFIQSLKDDPSVSKDILAEAKKLNDSQA  94
+
+
+> UniRef50_UPI0001DD3759 Engineered protein, ZHER2 Affibody n=5 
+Tax=root TaxID=1 RepID=UPI0001DD3759
+Length=70
+
+ Score = 68.6 bits (166),  Expect = 8e-14, Method: Composition-based stats.
+ Identities = 39/58 (67%), Positives = 46/58 (79%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            DNKFNKE +NA++EI  LPNL  +Q+  FI+SL DDPS S  +LAEAKKLNDAQAPK
+Sbjct  13  VDNKFNKEMRNAYWEIALLPNLNNQQKRAFIRSLYDDPSQSANLLAEAKKLNDAQAPK  70
+
+
+> UniRef50_UPI0005148B7D Immunoglobulin G-binding protein A n=1 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI0005148B7D
+Length=116
+
+ Score = 69.4 bits (168),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ADNKFNKEQQNA+YEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  1   ADNKFNKEQQNAWYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  58
+
+
+ Score = 69.4 bits (168),  Expect = 9e-14, Method: Composition-based stats.
+ Identities = 52/58 (90%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ADNKFNKEQQNA+YEILHLPNL EEQRNGFIQSLKDDPS S  +LAEAKKLNDAQAPK
+Sbjct  59   ADNKFNKEQQNAWYEILHLPNLNEEQRNGFIQSLKDDPSQSANLLAEAKKLNDAQAPK  116
+
+
+> UniRef50_UPI000C1BC3D8 LysM peptidoglycan-binding domain-containing 
+protein n=5 Tax=Staphylococcus pseudintermedius TaxID=283734 
+RepID=UPI000C1BC3D8
+Length=512
+
+ Score = 73.2 bits (178),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  208  AKPDYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  265
+
+
+ Score = 65.5 bits (158),  Expect = 4e-11, Method: Composition-based stats.
+ Identities = 41/55 (75%), Positives = 45/55 (82%), Gaps = 0/55 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+              ++ EQQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  96   PDYSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  150
+
+
+ Score = 64.7 bits (156),  Expect = 8e-11, Method: Composition-based stats.
+ Identities = 44/54 (81%), Positives = 50/54 (93%), Gaps = 0/54 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+              F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  155  PSFDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  208
+
+
+ Score = 60.1 bits (144),  Expect = 4e-09, Method: Composition-based stats.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+           +   + QQNAF E++ LPNL+EEQRNGFIQSLKDDPS S+++L EAKKLND+Q
+Sbjct  37  DNNAEAQQNAFSEVVKLPNLSEEQRNGFIQSLKDDPSTSQDVLNEAKKLNDSQ  89
+
+
+> UniRef50_UPI000B4E83C1 Immunoglobulin G-binding protein A, DHR14 
+n=1 Tax=synthetic construct TaxID=32630 RepID=UPI000B4E83C1
+Length=404
+
+ Score = 71.7 bits (174),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 45/55 (82%), Positives = 46/55 (84%), Gaps = 0/55 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           KFNKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAK LN  QA K
+Sbjct  5   KFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVK  59
+
+
+ Score = 64.0 bits (154),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 39/51 (76%), Positives = 41/51 (80%), Gaps = 0/51 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            EQQ+AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAK LN  QA K
+Sbjct  205  EQQSAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVK  255
+
+
+> UniRef50_UPI000C1BE35F LysM peptidoglycan-binding domain-containing 
+protein n=5 Tax=Staphylococcus pseudintermedius TaxID=283734 
+RepID=UPI000C1BE35F
+Length=666
+
+ Score = 71.7 bits (174),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            A   +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  322  AKPDYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  379
+
+
+ Score = 65.5 bits (158),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 41/57 (72%), Positives = 46/57 (81%), Gaps = 0/57 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            A   +++ QQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  208  AKPDYSEAQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  264
+
+
+ Score = 64.4 bits (155),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 41/55 (75%), Positives = 45/55 (82%), Gaps = 0/55 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+              ++ EQQNAFYEILHLPNLTEEQRNG+IQSLKDDPSVS  IL EAK +N  Q P
+Sbjct  96   PDYSDEQQNAFYEILHLPNLTEEQRNGYIQSLKDDPSVSANILVEAKNMNVNQTP  150
+
+
+ Score = 63.6 bits (153),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 44/54 (81%), Positives = 50/54 (93%), Gaps = 0/54 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+              F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  155  PSFDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  208
+
+
+ Score = 63.6 bits (153),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 44/54 (81%), Positives = 50/54 (93%), Gaps = 0/54 (0%)
+
+Query  3    NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+              F++ QQNAFYEI++LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  269  PSFDEAQQNAFYEIVNLPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  322
+
+
+ Score = 59.0 bits (141),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 36/53 (68%), Positives = 45/53 (85%), Gaps = 0/53 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+           +   + QQNAF E++ LPNL+EEQRNGFIQSLKDDPS S+++L EAKKLND+Q
+Sbjct  37  DNNAEAQQNAFSEVVKLPNLSEEQRNGFIQSLKDDPSTSQDVLNEAKKLNDSQ  89
+
+
+> UniRef50_UPI00027FCDD0 Immunoglobulin G-binding protein A n=1 
+Tax=synthetic construct TaxID=32630 RepID=UPI00027FCDD0
+Length=88
+
+ Score = 65.1 bits (157),  Expect = 2e-12, Method: Composition-based stats.
+ Identities = 50/75 (67%), Positives = 51/75 (68%), Gaps = 17/75 (23%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP-----------------SVSKE  43
+            DNKFNKEQQNAFYEILHLPNL EEQRN FIQSLKDD                  S S  
+Sbjct  14  VDNKFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDSYIDTNNDGAYEGDELSGSQSAN  73
+
+Query  44  ILAEAKKLNDAQAPK  58
+           +LAEAKKLNDAQAPK
+Sbjct  74  LLAEAKKLNDAQAPK  88
+
+
+> UniRef50_UPI000BA760BA immunoglobulin-binding protein sbi n=2 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000BA760BA
+Length=570
+
+ Score = 68.6 bits (166),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 40/57 (70%), Gaps = 2/57 (4%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+ K  D++ P 
+Sbjct  178  QNNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSESLK--DSKNPD  232
+
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+             QQNAFY +L   NLTE+++N +I  +K++P  S+++  E+ + + A+
+Sbjct  236  AQQNAFYNVLKNDNLTEQEKNNYIAQIKENPDRSQQVWVESVQSSKAK  283
+
+
+> UniRef50_X2JFP7 Immunoglobin G-binding protein A (Fragment) n=2 
+Tax=Staphylococcus pseudintermedius TaxID=283734 RepID=X2JFP7_STAPS
+Length=210
+
+ Score = 65.9 bits (159),  Expect = 4e-12, Method: Composition-based stats.
+ Identities = 48/58 (83%), Positives = 53/58 (91%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           A   +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVS +ILAEAKKLND+QAPK
+Sbjct  38  AKPDYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSSDILAEAKKLNDSQAPK  95
+
+
+ Score = 44.7 bits (104),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 35/38 (92%), Positives = 37/38 (97%), Gaps = 0/38 (0%)
+
+Query  19  LPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           LPNLTEEQRNGFIQSLKDDPSVSK+IL EAKKLND+QA
+Sbjct  1   LPNLTEEQRNGFIQSLKDDPSVSKDILVEAKKLNDSQA  38
+
+
+> UniRef50_A0A1E5JH58 B domain protein n=1 Tax=Staphylococcus aureus 
+subsp. aureus TaxID=46170 RepID=A0A1E5JH58_STAAU
+Length=139
+
+ Score = 65.5 bits (158),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 40/57 (70%), Gaps = 2/57 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+ K  D++ P 
+Sbjct  44  QNNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSESLK--DSKNPD  98
+
+
+> UniRef50_UPI000B4E83C0 Immunoglobulin G-binding protein A n=1 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000B4E83C0
+Length=146
+
+ Score = 64.7 bits (156),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 45/57 (79%), Positives = 47/57 (82%), Gaps = 0/57 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAP  57
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLNDAQAP
+Sbjct  90   AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNDAQAP  146
+
+
+ Score = 62.4 bits (150),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 43/54 (80%), Positives = 46/54 (85%), Gaps = 0/54 (0%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           +  NKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  2   SHMNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  55
+
+
+ Score = 59.0 bits (141),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 41/56 (73%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           A+ K   EQQ AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  45  AEAKKLNEQQAAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  100
+
+
+> UniRef50_UPI0003AFFA17 Immunoglobulin G-binding protein A n=2 
+Tax=Staphylococcus aureus (strain Mu50 / ATCC 700699) TaxID=158878 
+RepID=UPI0003AFFA17
+Length=55
+
+ Score = 63.2 bits (152),  Expect = 8e-12, Method: Composition-based stats.
+ Identities = 38/53 (72%), Positives = 46/53 (87%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            +NK+QQ+AFYEIL++PNL E QRNGFIQSLKDDPS S  +L EAKKLN++QA
+Sbjct  3   SYNKDQQSAFYEILNMPNLNEAQRNGFIQSLKDDPSQSTNVLGEAKKLNESQA  55
+
+
+> UniRef50_A0A1L1J0R5 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1L1J0R5_STAAU
+Length=416
+
+ Score = 66.7 bits (161),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 23/56 (41%), Positives = 40/56 (71%), Gaps = 2/56 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+ K  D++ P 
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSESLK--DSKNPD  98
+
+
+ Score = 49.7 bits (117),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/48 (42%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+             QQNAFY +L   NLTEEQ+N +I  +K++P  S+++  E+ + + A+
+Sbjct  102  GQQNAFYNVLKNNNLTEEQKNNYIAQIKENPDRSQQVWVESVQASKAK  149
+
+
+> UniRef50_UPI00050295EA immunoglobulin-binding protein sbi n=1 
+Tax=Staphylococcus schweitzeri TaxID=1654388 RepID=UPI00050295EA
+Length=437
+
+ Score = 66.3 bits (160),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 22/56 (39%), Positives = 41/56 (73%), Gaps = 2/56 (4%)
+
+Query  3   NKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           N +  +QQ AFY++LHL  +TEEQR+ +I++L++ P  ++E+ +E+ K  D++ P+
+Sbjct  45  NNYVTDQQKAFYQVLHLKGITEEQRDQYIKTLREHPERAQEVFSESLK--DSKNPE  98
+
+
+ Score = 45.1 bits (105),  Expect = 6e-04, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 32/48 (67%), Gaps = 0/48 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+             QQNAFY+I +  NLTE ++N +I  +K++P  S+++  E+ +   A+
+Sbjct  102  AQQNAFYDIHNNKNLTEAEKNNYIAQIKENPDRSQQVWVESIQSPKAK  149
+
+
+> UniRef50_S2XBG3 Uncharacterized protein (Fragment) n=1 Tax=Staphylococcus 
+sp. HGB0015 TaxID=1078083 RepID=S2XBG3_9STAP
+Length=140
+
+ Score = 63.6 bits (153),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 50/58 (86%), Positives = 54/58 (93%), Gaps = 0/58 (0%)
+
+Query  1   ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           A   +++ QQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLND+QAPK
+Sbjct  13  AAPDYSEAQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDSQAPK  70
+
+
+> UniRef50_UPI000B4E83E6 Immunoglobulin G-binding protein A n=2 
+Tax=Staphylococcus aureus TaxID=1280 RepID=UPI000B4E83E6
+Length=237
+
+ Score = 64.4 bits (155),  Expect = 2e-11, Method: Composition-based stats.
+ Identities = 45/53 (85%), Positives = 47/53 (89%), Gaps = 0/53 (0%)
+
+Query  4   KFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+           KFNKEQQNAFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  5   KFNKEQQNAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  57
+
+
+ Score = 63.2 bits (152),  Expect = 6e-11, Method: Composition-based stats.
+ Identities = 44/56 (79%), Positives = 46/56 (82%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLNDAQA
+Sbjct  182  AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNDAQA  237
+
+
+ Score = 61.7 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 42/56 (75%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  92   AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  147
+
+
+ Score = 61.7 bits (148),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 42/56 (75%), Positives = 45/56 (80%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEILHLPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  137  AEAKKLNEQQAAFYEILHLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  192
+
+
+ Score = 59.4 bits (142),  Expect = 1e-09, Method: Composition-based stats.
+ Identities = 41/56 (73%), Positives = 44/56 (79%), Gaps = 0/56 (0%)
+
+Query  1    ADNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+            A+ K   EQQ AFYEIL LPNL EEQRN FIQSLKDDPS S  +LAEAKKLN+ QA
+Sbjct  47   AEAKKLNEQQAAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKKLNEQQA  102
+
+
+> UniRef50_A0A2A4GTS6 IgG-binding protein SBI n=6 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A2A4GTS6_9STAP
+Length=511
+
+ Score = 65.1 bits (157),  Expect = 7e-11, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 37/57 (65%), Gaps = 2/57 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ++     +Q AFY++LH+  ++E QR+ +I+ L ++P  ++ + +E+ K  DA+ P+
+Sbjct  45  ESTNVSPEQKAFYQVLHMEGISESQRDQYIKKLHENPESAQNVFSESIK--DAKNPE  99
+
+
+ Score = 47.8 bits (112),  Expect = 7e-05, Method: Composition-based stats.
+ Identities = 16/41 (39%), Positives = 29/41 (71%), Gaps = 0/41 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+             QQNAFY +LH  +L+E+QR+ +I  +++D   S+E+  ++
+Sbjct  103  AQQNAFYSVLHNEDLSEQQRDAYISEIREDADQSQEVFVKS  143
+
+
+> UniRef50_Q2YVZ4 Immunoglobulin-binding protein sbi n=257 Tax=Staphylococcaceae 
+TaxID=90964 RepID=SBI_STAAB
+Length=436
+
+ Score = 64.0 bits (154),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 40/57 (70%), Gaps = 2/57 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+ K  D++ P 
+Sbjct  44  QNNYITDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSESLK--DSKNPD  98
+
+
+ Score = 46.6 bits (109),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+             QQNAFY +L   NLTE+++N +I  +K++P  S+++  E+ + + A+
+Sbjct  102  AQQNAFYNVLKNDNLTEQEKNNYIAQIKENPDRSQQVWVESVQSSKAK  149
+
+
+> UniRef50_A0A1W6BM20 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+lutrae TaxID=155085 RepID=A0A1W6BM20_9STAP
+Length=478
+
+ Score = 64.0 bits (154),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 17/57 (30%), Positives = 37/57 (65%), Gaps = 2/57 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+           ++     +Q AFY++LH+  ++E QR+ +++ L ++PS ++ + +E+ K  DA  P+
+Sbjct  45  ESVKVSPEQKAFYQVLHMDGISESQRDQYLKQLHENPSSAQNVYSESIK--DASNPE  99
+
+
+ Score = 52.0 bits (123),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 19/49 (39%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQA  56
+             QQNAFYEIL   N+T++QR+ +I  +K++P  S+ +  E+      Q+
+Sbjct  103  AQQNAFYEILKNTNITDKQRDQYISRIKENPDASQNVFVESLHATTEQS  151
+
+
+> UniRef50_A0A1D4J5D5 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+aureus TaxID=1280 RepID=A0A1D4J5D5_STAAU
+Length=254
+
+ Score = 62.0 bits (149),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 23/57 (40%), Positives = 40/57 (70%), Gaps = 2/57 (4%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            N +  +QQ AFY++LHL  +TEEQRN +I++L++ P  ++E+ +E+ K  D++ P 
+Sbjct  44  QNNYVTDQQKAFYQVLHLKGITEEQRNQYIKTLREHPERAQEVFSESLK--DSKNPD  98
+
+
+ Score = 45.1 bits (105),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 18/48 (38%), Positives = 33/48 (69%), Gaps = 0/48 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+             QQNAFY +L   NLTE+++N +I  +K++P  S+++  E+ + + A+
+Sbjct  102  AQQNAFYNVLKNDNLTEQEKNNYIAQIKENPDRSQQVWVESVQSSKAK  149
+
+
+> UniRef50_A0A0M4V2K8 IgG-binding protein SBI n=1 Tax=Staphylococcus 
+schleiferi TaxID=1295 RepID=A0A0M4V2K8_9STAP
+Length=452
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 19/57 (33%), Positives = 38/57 (67%), Gaps = 2/57 (4%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ++     +Q AFY++LH+  +TEEQR+ +I+ L +D + ++ + +E+ K  D+Q P+
+Sbjct  47   ESAKVSPEQKAFYQVLHMDGITEEQRDQYIKQLHEDKNSAQNVFSESIK--DSQRPE  101
+
+
+ Score = 50.1 bits (118),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 17/51 (33%), Positives = 34/51 (67%), Gaps = 0/51 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             QQNAFYEIL+  ++T+EQR+ +I  +K++P  ++++  E+    + +  +
+Sbjct  105  GQQNAFYEILNNEDITDEQRDRYISEIKENPDAAQKVFVESVNQTETKPAE  155
+
+
+> UniRef50_A0A069F1U6 IgG-binding protein n=1 Tax=Staphylococcus 
+chromogenes MU 970 TaxID=1220551 RepID=A0A069F1U6_STACR
+Length=543
+
+ Score = 62.0 bits (149),  Expect = 9e-10, Method: Composition-based stats.
+ Identities = 18/60 (30%), Positives = 35/60 (58%), Gaps = 5/60 (8%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP---SVSKEILAEAKKLNDAQAPK  58
+            D++   + Q AFY  LH+  +T+ QR G+I+ L+ +P   + ++ + +E+ K  D+  P 
+Sbjct  58   DSQHVSDAQRAFYHTLHINGITDSQRQGYIKQLRQNPNHETTAQNVFSESTK--DSNNPD  115
+
+
+> UniRef50_S2XJ01 Uncharacterized protein n=3 Tax=Staphylococcus 
+TaxID=1279 RepID=S2XJ01_9STAP
+Length=395
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 18/57 (32%), Positives = 36/57 (63%), Gaps = 2/57 (4%)
+
+Query  2    DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+            ++     +Q AFY++LH+  +TEEQRN +++ L +D   ++ + +E+ K  D+  P+
+Sbjct  50   ESAKVSPEQKAFYQVLHMEGITEEQRNQYLKQLHEDKESAQNVYSESIK--DSLRPE  104
+
+
+ Score = 51.3 bits (121),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 18/51 (35%), Positives = 34/51 (67%), Gaps = 0/51 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQAPK  58
+             QQNAFYEIL+  ++T+EQR+ +I  +K++P  S+++  E+    + +  +
+Sbjct  108  GQQNAFYEILNNEDITDEQRDRYISQIKENPDASQKVFDESVNQTETKPAE  158
+
+
+> UniRef50_A0A085UHD7 Immunoglobulin G-binding protein n=4 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A085UHD7_9STAP
+Length=471
+
+ Score = 60.1 bits (144),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  6   NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+             + Q A+Y++LHL  LT EQR+ +IQ L ++P  ++E+ +E+ K ++ Q
+Sbjct  45  VDDAQRAYYKVLHLEGLTNEQRSNYIQKLHNNPGSAQEVFSESIKDSNNQ  94
+
+
+> UniRef50_A0A1B1P4K7 Protein A, von Willebrand factor binding 
+protein Spa n=25 Tax=Staphylococcus TaxID=1279 RepID=A0A1B1P4K7_STAPS
+Length=498
+
+ Score = 60.1 bits (144),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKL  51
+           D+      Q  FY++LH+  ++E+QR  +++ L +DPS ++ + +E+ K 
+Sbjct  45  DSINVTPDQKTFYQVLHMEGISEDQREQYLKQLHEDPSSAQNVFSESIKD  94
+
+
+ Score = 53.6 bits (127),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 20/41 (49%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+             QQNAFY +LH  +L+EEQR+ +I  +K+DP  S+E+  E+
+Sbjct  103  AQQNAFYSVLHNDDLSEEQRDAYIGRIKEDPDQSQEVFVES  143
+
+
+> UniRef50_UPI0006AB99E5 hypothetical protein n=1 Tax=Staphylococcus 
+carnosus TaxID=1281 RepID=UPI0006AB99E5
+Length=386
+
+ Score = 58.6 bits (140),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  6    NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+               QQ AFYE+L + NLTE+++N +I ++K +P  S+E+ A A K N   
+Sbjct  56   VTGQQQAFYELLKMDNLTEQRKNDYIDTIKVNPQASQEVFASAIKENRNS  105
+
+
+> UniRef50_A0A2I0YI86 IgG-binding protein SBI (Fragment) n=1 Tax=Staphylococcus 
+pseudintermedius TaxID=283734 RepID=A0A2I0YI86_STAPS
+Length=400
+
+ Score = 55.9 bits (133),  Expect = 1e-07, Method: Composition-based stats.
+ Identities = 15/50 (30%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  2   DNKFNKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKL  51
+           D+      Q  FY++LH+  ++E+QR  +++ L +DPS ++ + +E+ K 
+Sbjct  45  DSINVTPDQKTFYQVLHMEGISEDQREQYLKQLHEDPSSAQNVFSESIKD  94
+
+
+ Score = 49.7 bits (117),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/41 (49%), Positives = 30/41 (73%), Gaps = 0/41 (0%)
+
+Query  8    EQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEA  48
+             QQNAFY +LH  +L+EEQR+ +I  +K+DP  S+E+  E+
+Sbjct  103  AQQNAFYSVLHNDDLSEEQRDAYIGRIKEDPDQSQEVFVES  143
+
+
+> UniRef50_A0A143PDW3 Uncharacterized protein n=6 Tax=Staphylococcus 
+TaxID=1279 RepID=A0A143PDW3_9STAP
+Length=471
+
+ Score = 54.7 bits (130),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 21/50 (42%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  6    NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+               QQ AFYE+L + NLTE+++N +I+++K +P  S+E  A A K N   
+Sbjct  56   VTGQQQAFYELLKMDNLTEQRKNDYIETIKVNPQASQEAFASAIKENRNS  105
+
+
+> UniRef50_UPI0006153E7E hypothetical protein n=1 Tax=Staphylococcus 
+carnosus TaxID=1281 RepID=UPI0006153E7E
+Length=176
+
+ Score = 48.2 bits (113),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 20/50 (40%), Positives = 31/50 (62%), Gaps = 0/50 (0%)
+
+Query  6    NKEQQNAFYEILHLPNLTEEQRNGFIQSLKDDPSVSKEILAEAKKLNDAQ  55
+               QQ AFYE+L + NLTE+++N +I ++K +   S+E+ A A K N   
+Sbjct  56   VTGQQQAFYELLKMDNLTEQRKNDYIDTIKVNAQASQEVFASAIKENRNS  105
+
+
+> UniRef50_A0A0A8HQ03 Putative IgG-binding protein n=1 Tax=Staphylococcus 
+hyicus TaxID=1284 RepID=A0A0A8HQ03_STAHY
+Length=955
+
+ Score = 49.3 bits (116),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 31/54 (57%), Gaps = 4/54 (7%)
+
+Query  7    KEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP--SVSKEILAEAKKLNDAQAPK  58
+            K+ Q A+Y ++HL  + E QR  F++ L D+P    ++ + +E+ K  D   P+
+Sbjct  60   KDVQRAYYHLIHLKGIDEAQRGRFLKQLHDNPTKETAQNVFSESTK--DVNNPE  111
+
+
+> UniRef50_A0A242VCI4 Uncharacterized protein n=1 Tax=Staphylococcus 
+agnetis TaxID=985762 RepID=A0A242VCI4_9STAP
+Length=1069
+
+ Score = 49.0 bits (115),  Expect = 4e-05, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 31/54 (57%), Gaps = 4/54 (7%)
+
+Query  7    KEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP--SVSKEILAEAKKLNDAQAPK  58
+            K+ Q A+Y ++HL  + E QR  F++ L D+P    ++ + +E+ K  D   P+
+Sbjct  60   KDVQRAYYHLIHLKGIDEAQRGRFLKQLHDNPTKETAQNVFSESTK--DFNNPE  111
+
+
+> UniRef50_UPI0007616B57 hypothetical protein n=1 Tax=Staphylococcus 
+agnetis TaxID=985762 RepID=UPI0007616B57
+Length=572
+
+ Score = 47.8 bits (112),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 31/54 (57%), Gaps = 4/54 (7%)
+
+Query  7    KEQQNAFYEILHLPNLTEEQRNGFIQSLKDDP--SVSKEILAEAKKLNDAQAPK  58
+            K+ Q A+Y ++HL  + E QR  F++ L D+P    ++ + +E+ K  D   P+
+Sbjct  60   KDVQRAYYHLIHLKGIDEAQRGRFLKQLHDNPTKETAQNVFSESTK--DVNNPE  111
+
+
+
+Lambda      K        H        a         alpha
+   0.298    0.130    0.328    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0406    0.140     1.90     42.6     43.6 
+
+Effective search space used: 240240835184
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

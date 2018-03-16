@@ -1,0 +1,155 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 5kle
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_UPI00084CE63B Carbohydrate binding module E1 n=1 Tax=u...  190     2e-60
+  UniRef50_A0A2A5HA43 Uncharacterized protein n=1 Tax=Alteromonad...  55.5    8e-07
+
+
+> UniRef50_UPI00084CE63B Carbohydrate binding module E1 n=1 Tax=uncultured 
+bacterium TaxID=77133 RepID=UPI00084CE63B
+Length=97
+
+ Score = 190 bits (483),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   HMSASCGSGNFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGIT  60
+           HMSASCGSGNFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGIT
+Sbjct  3   HMSASCGSGNFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGIT  62
+
+Query  61  NTGNGWTTVANAANGDLYIKIVSASRSFNVKFDNW  95
+           NTGNGWTTVANAANGDLYIKIVSASRSFNVKFDNW
+Sbjct  63  NTGNGWTTVANAANGDLYIKIVSASRSFNVKFDNW  97
+
+
+> UniRef50_A0A2A5HA43 Uncharacterized protein n=1 Tax=Alteromonadaceae 
+bacterium TaxID=1916082 RepID=A0A2A5HA43_9ALTE
+Length=1412
+
+ Score = 55.5 bits (132),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 32/77 (42%), Positives = 47/77 (61%), Gaps = 5/77 (6%)
+
+Query  10    NFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGITNTGNGWTTV  69
+             N +K  A+ V    V GDCI YN  SG+LQIG+W  ++ +Y+I     GIT++G+GW T 
+Sbjct  1331  NLSKYQAQDV----VVGDCIAYNIVSGSLQIGNWQEMSFTYDIIGSISGITHSGSGWIT-  1385
+
+Query  70    ANAANGDLYIKIVSASR  86
+             ++   G  Y++I S  R
+Sbjct  1386  SSIGVGIKYVEIKSVDR  1402
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.126    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233887506866
+Results from round 2
+
+
+Query= 5kle
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI00084CE63B Carbohydrate binding module E1 n=1 Tax=u...  135     7e-39
+  UniRef50_A0A2A5HA43 Uncharacterized protein n=1 Tax=Alteromonad...  113     1e-26
+
+Sequences not found previously or not previously below threshold:
+
+
+
+> UniRef50_UPI00084CE63B Carbohydrate binding module E1 n=1 Tax=uncultured 
+bacterium TaxID=77133 RepID=UPI00084CE63B
+Length=97
+
+ Score = 135 bits (339),  Expect = 7e-39, Method: Composition-based stats.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   HMSASCGSGNFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGIT  60
+           HMSASCGSGNFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGIT
+Sbjct  3   HMSASCGSGNFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGIT  62
+
+Query  61  NTGNGWTTVANAANGDLYIKIVSASRSFNVKFDNW  95
+           NTGNGWTTVANAANGDLYIKIVSASRSFNVKFDNW
+Sbjct  63  NTGNGWTTVANAANGDLYIKIVSASRSFNVKFDNW  97
+
+
+> UniRef50_A0A2A5HA43 Uncharacterized protein n=1 Tax=Alteromonadaceae 
+bacterium TaxID=1916082 RepID=A0A2A5HA43_9ALTE
+Length=1412
+
+ Score = 113 bits (282),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 32/77 (42%), Positives = 47/77 (61%), Gaps = 5/77 (6%)
+
+Query  10    NFNKTAAKGVEFSAVAGDCIKYNKSSGTLQIGSWTGVASSYNITSGPQGITNTGNGWTTV  69
+             N +K  A+ V    V GDCI YN  SG+LQIG+W  ++ +Y+I     GIT++G+GW T 
+Sbjct  1331  NLSKYQAQDV----VVGDCIAYNIVSGSLQIGNWQEMSFTYDIIGSISGITHSGSGWIT-  1385
+
+Query  70    ANAANGDLYIKIVSASR  86
+             ++   G  Y++I S  R
+Sbjct  1386  SSIGVGIKYVEIKSVDR  1402
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.123    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0387    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233887506866
+
+Search has CONVERGED!
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

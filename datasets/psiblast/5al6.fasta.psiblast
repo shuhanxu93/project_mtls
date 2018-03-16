@@ -1,0 +1,226 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 5al6
+
+Length=44
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_Q9XZ31 Anastral spindle 2, isoform A n=22 Tax=Drosophi...  70.9    3e-13
+  UniRef50_B4QG98 GD10133 n=1 Tax=Drosophila simulans TaxID=7240 ...  48.5    1e-05
+
+
+> UniRef50_Q9XZ31 Anastral spindle 2, isoform A n=22 Tax=Drosophila 
+TaxID=32281 RepID=Q9XZ31_DROME
+Length=420
+
+ Score = 70.9 bits (172),  Expect = 3e-13, Method: Composition-based stats.
+ Identities = 35/35 (100%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1    SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK  35
+            SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK
+Sbjct  195  SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK  229
+
+
+> UniRef50_B4QG98 GD10133 n=1 Tax=Drosophila simulans TaxID=7240 
+RepID=B4QG98_DROSI
+Length=265
+
+ Score = 48.5 bits (114),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   SDLAALVSLVESVRHEQQQLRNLCEMI  27
+           SDLA+LV+LVES+ HEQQQLRNLCEMI
+Sbjct  39  SDLASLVTLVESMCHEQQQLRNLCEMI  65
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 232580914384
+Results from round 2
+
+
+Query= 5al6
+
+Length=44
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_Q9XZ31 Anastral spindle 2, isoform A n=22 Tax=Drosophi...  70.4    4e-13
+  UniRef50_B4QG98 GD10133 n=1 Tax=Drosophila simulans TaxID=7240 ...  56.6    1e-08
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_B4MK49 Uncharacterized protein n=1 Tax=Drosophila will...  43.9    8e-04
+
+
+> UniRef50_Q9XZ31 Anastral spindle 2, isoform A n=22 Tax=Drosophila 
+TaxID=32281 RepID=Q9XZ31_DROME
+Length=420
+
+ Score = 70.4 bits (171),  Expect = 4e-13, Method: Composition-based stats.
+ Identities = 35/35 (100%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1    SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK  35
+            SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK
+Sbjct  195  SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK  229
+
+
+> UniRef50_B4QG98 GD10133 n=1 Tax=Drosophila simulans TaxID=7240 
+RepID=B4QG98_DROSI
+Length=265
+
+ Score = 56.6 bits (135),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   SDLAALVSLVESVRHEQQQLRNLCEMI  27
+           SDLA+LV+LVES+ HEQQQLRNLCEMI
+Sbjct  39  SDLASLVTLVESMCHEQQQLRNLCEMI  65
+
+
+> UniRef50_B4MK49 Uncharacterized protein n=1 Tax=Drosophila willistoni 
+TaxID=7260 RepID=B4MK49_DROWI
+Length=444
+
+ Score = 43.9 bits (102),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 19/31 (61%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  2    DLAALVSLVESVRHEQQQLRNLCEMILEQQQ  32
+            DLAALVSL+E++R +Q+QL+ LCE + +QQQ
+Sbjct  215  DLAALVSLLEAMREDQRQLKQLCESMAKQQQ  245
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 232580914384
+Results from round 3
+
+
+Query= 5al6
+
+Length=44
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_Q9XZ31 Anastral spindle 2, isoform A n=22 Tax=Drosophi...  67.4    5e-12
+  UniRef50_B4MK49 Uncharacterized protein n=1 Tax=Drosophila will...  57.8    1e-08
+  UniRef50_B4QG98 GD10133 n=1 Tax=Drosophila simulans TaxID=7240 ...  53.5    2e-07
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_B4LN96 Uncharacterized protein n=10 Tax=Drosophila Tax...  45.8    2e-04
+
+
+> UniRef50_Q9XZ31 Anastral spindle 2, isoform A n=22 Tax=Drosophila 
+TaxID=32281 RepID=Q9XZ31_DROME
+Length=420
+
+ Score = 67.4 bits (163),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 35/35 (100%), Positives = 35/35 (100%), Gaps = 0/35 (0%)
+
+Query  1    SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK  35
+            SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK
+Sbjct  195  SDLAALVSLVESVRHEQQQLRNLCEMILEQQQRAK  229
+
+
+> UniRef50_B4MK49 Uncharacterized protein n=1 Tax=Drosophila willistoni 
+TaxID=7260 RepID=B4MK49_DROWI
+Length=444
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 19/31 (61%), Positives = 27/31 (87%), Gaps = 0/31 (0%)
+
+Query  2    DLAALVSLVESVRHEQQQLRNLCEMILEQQQ  32
+            DLAALVSL+E++R +Q+QL+ LCE + +QQQ
+Sbjct  215  DLAALVSLLEAMREDQRQLKQLCESMAKQQQ  245
+
+
+> UniRef50_B4QG98 GD10133 n=1 Tax=Drosophila simulans TaxID=7240 
+RepID=B4QG98_DROSI
+Length=265
+
+ Score = 53.5 bits (127),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 23/27 (85%), Positives = 26/27 (96%), Gaps = 0/27 (0%)
+
+Query  1   SDLAALVSLVESVRHEQQQLRNLCEMI  27
+           SDLA+LV+LVES+ HEQQQLRNLCEMI
+Sbjct  39  SDLASLVTLVESMCHEQQQLRNLCEMI  65
+
+
+> UniRef50_B4LN96 Uncharacterized protein n=10 Tax=Drosophila TaxID=32281 
+RepID=B4LN96_DROVI
+Length=444
+
+ Score = 45.8 bits (107),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 18/40 (45%), Positives = 29/40 (73%), Gaps = 2/40 (5%)
+
+Query  2    DLAALVSLVESVRHEQQQLRNLCEMILEQQQRA--KEFGE  39
+            D+  L++L+E++R EQ+QL+ LCE + +QQ +A  K F E
+Sbjct  199  DIRELLTLLETMRQEQKQLKRLCESLAQQQLQASTKTFKE  238
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.134    0.347    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0409    0.140     1.90     42.6     43.6 
+
+Effective search space used: 232580914384
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

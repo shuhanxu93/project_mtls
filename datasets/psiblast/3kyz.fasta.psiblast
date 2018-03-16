@@ -1,0 +1,3080 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 3kyz
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_UPI0001C2FA41 Sensor protein pfeS n=1 Tax=Pseudomonas ...  222     3e-72
+  UniRef50_UPI00085935FB HAMP domain-containing protein n=1 Tax=P...  217     3e-68
+  UniRef50_Q04804 Sensor protein PfeS n=194 Tax=root TaxID=1 RepI...  221     3e-68
+  UniRef50_A0A2C9ELH2 Sensor protein PfeS n=42 Tax=Pseudomonadace...  176     1e-50
+  UniRef50_S2KSJ3 Integral membrane sensor signal transduction hi...  172     3e-50
+  UniRef50_A0A125QH63 Sensor protein PfeS n=491 Tax=Bacteria TaxI...  100     4e-23
+  UniRef50_A0A0F7XTU5 Sensor protein PfeS n=284 Tax=Proteobacteri...  92.0    8e-20
+  UniRef50_A0A1Y0KS51 Two-component sensor histidine kinase n=3 T...  90.1    4e-19
+  UniRef50_N2J3U4 Uncharacterized protein n=3 Tax=Pseudomonas Tax...  85.1    3e-17
+  UniRef50_A0A119A5Y9 Sensor protein PfeS n=59 Tax=Pseudomonadace...  83.2    1e-16
+  UniRef50_A0A109LBS5 Sensor protein PfeS n=14 Tax=Pseudomonas Ta...  82.0    2e-16
+  UniRef50_A0A259M930 Two-component sensor histidine kinase (Frag...  80.5    3e-16
+  UniRef50_A0A095S9M5 Kinase sensor protein n=5 Tax=Alcanivorax T...  74.3    2e-13
+  UniRef50_A0A1E5XDH5 Two-component sensor histidine kinase n=38 ...  72.8    6e-13
+  UniRef50_F6AG62 Integral membrane sensor signal transduction hi...  71.6    2e-12
+  UniRef50_A0A1Q9RBF6 Sensor protein PfeS n=21 Tax=Gammaproteobac...  69.3    1e-11
+  UniRef50_A0A1M5YRG3 Signal transduction histidine kinase n=1 Ta...  67.8    3e-11
+  UniRef50_A0A1G7Y6V8 Two-component system, OmpR family, sensor h...  67.0    6e-11
+  UniRef50_A0A266NLD7 Two-component sensor histidine kinase n=8 T...  66.6    8e-11
+  UniRef50_A0A1C2E5P3 Two-component sensor histidine kinase n=11 ...  65.1    3e-10
+  UniRef50_U1ZCR8 Uncharacterized protein (Fragment) n=1 Tax=Pseu...  60.5    2e-09
+  UniRef50_A0A1H5YV59 Signal transduction histidine kinase n=4 Ta...  62.8    2e-09
+  UniRef50_Q0VNW0 Putative kinase sensor protein n=28 Tax=Alcaniv...  62.4    3e-09
+  UniRef50_A0A0C4WKM5 Integral membrane sensor signal transductio...  60.5    1e-08
+  UniRef50_UPI000A392A62 HAMP domain-containing protein n=1 Tax=O...  59.7    2e-08
+  UniRef50_A0A166LS27 Histidine kinase n=6 Tax=Gammaproteobacteri...  54.7    1e-06
+  UniRef50_A0A101M6I6 Uncharacterized protein n=1 Tax=Rheinheimer...  52.4    6e-06
+  UniRef50_A0A244CTL1 Uncharacterized protein n=1 Tax=Pseudoalter...  48.9    1e-04
+  UniRef50_W8R9G9 Histidine kinase n=16 Tax=root TaxID=1 RepID=W8...  48.5    1e-04
+  UniRef50_A0A0E0YGS1 Integral membrane sensor signal transductio...  48.1    2e-04
+  UniRef50_I1YFA5 Integral membrane sensor signal transduction hi...  47.8    2e-04
+  UniRef50_UPI000948B29D HAMP domain-containing histidine kinase ...  46.2    8e-04
+
+
+> UniRef50_UPI0001C2FA41 Sensor protein pfeS n=1 Tax=Pseudomonas 
+aeruginosa TaxID=287 RepID=UPI0001C2FA41
+Length=125
+
+ Score = 222 bits (565),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  13   YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  72
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  73   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  124
+
+
+> UniRef50_UPI00085935FB HAMP domain-containing protein n=1 Tax=Pseudomonas 
+aeruginosa TaxID=287 RepID=UPI00085935FB
+Length=294
+
+ Score = 217 bits (553),  Expect = 3e-68, Method: Compositional matrix adjust.
+ Identities = 108/112 (96%), Positives = 108/112 (96%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADR YLADYARQAEDAWR EGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  37   YFLAPADRSYLADYARQAEDAWRSEGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  97   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  148
+
+
+> UniRef50_Q04804 Sensor protein PfeS n=194 Tax=root TaxID=1 RepID=PFES_PSEAE
+Length=446
+
+ Score = 221 bits (564),  Expect = 3e-68, Method: Compositional matrix adjust.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  37   YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  97   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  148
+
+
+> UniRef50_A0A2C9ELH2 Sensor protein PfeS n=42 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=A0A2C9ELH2_PSEPH
+Length=445
+
+ Score = 176 bits (445),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 83/112 (74%), Positives = 97/112 (87%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFL PADR YLA YA+QAE AWR+ G A  + F+++L+ +EDTWVA++G  L+SLGSTPL
+Sbjct  37   YFLDPADRQYLASYAQQAEHAWRQGGVAAVDEFQRQLATREDTWVAVIGDRLQSLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +AEE+SHLTF RKLDWP SRRLQDELPYVSIEFP HPEQGRLV+QLPERLLP
+Sbjct  97   TAEEASHLTFMRKLDWPMSRRLQDELPYVSIEFPEHPEQGRLVLQLPERLLP  148
+
+
+> UniRef50_S2KSJ3 Integral membrane sensor signal transduction 
+histidine kinase n=1 Tax=Pseudomonas plecoglossicida NB2011 
+TaxID=1330531 RepID=S2KSJ3_9PSED
+Length=330
+
+ Score = 172 bits (436),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 85/112 (76%), Positives = 95/112 (85%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFL+P D+ YLA YA+QAE+AWR  GA GAE +R++L   EDTWVALVGP L+SLGSTPL
+Sbjct  37   YFLSPDDQDYLARYAQQAEEAWRSGGATGAEAYRRQLERAEDTWVALVGPRLDSLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEES+ LTF RKLDWP SRRLQDELPYVSI FP HP+ GRLVIQLPERLLP
+Sbjct  97   SAEESARLTFMRKLDWPMSRRLQDELPYVSIAFPEHPQDGRLVIQLPERLLP  148
+
+
+> UniRef50_A0A125QH63 Sensor protein PfeS n=491 Tax=Bacteria TaxID=2 
+RepID=A0A125QH63_PSEFL
+Length=452
+
+ Score = 100 bits (250),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 50/111 (45%), Positives = 71/111 (64%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+   R  L  YA  AE AW  +G+AG + + + ++ +E TWV ++G  L+SL STPLS
+Sbjct  45   YLSEKSREILTGYAAGAELAWSTQGSAGVDAWLQRMAERESTWVGVIGNDLQSLSSTPLS  104
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +ES  LTF R LDWP SR +   LP++ + FP  P  G LVI+LP+R +P
+Sbjct  105  DKESQRLTFLRGLDWPVSRHVIG-LPWMKVPFPVDPGAGSLVIELPQRFMP  154
+
+
+> UniRef50_A0A0F7XTU5 Sensor protein PfeS n=284 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A0F7XTU5_9PSED
+Length=466
+
+ Score = 92.0 bits (227),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 49/111 (44%), Positives = 67/111 (60%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            FL+   R  L  YA +AE AWR  GA G + +  E+  +E  WV ++   L+ LGS  L+
+Sbjct  39   FLSEPARQVLRGYAAEAEQAWRSGGAEGVDAWLAEMRGREQGWVGVLDGDLQPLGSADLT  98
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            A ++  LT  R +DWP SRR   + P++ + FPG PEQG LVI+LPER  P
+Sbjct  99   AGQAQRLTRLRGVDWPMSRRSIGQ-PWLRLPFPGAPEQGMLVIELPERFNP  148
+
+
+> UniRef50_A0A1Y0KS51 Two-component sensor histidine kinase n=3 
+Tax=Pseudomonas TaxID=286 RepID=A0A1Y0KS51_9PSED
+Length=445
+
+ Score = 90.1 bits (222),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 51/112 (46%), Positives = 73/112 (65%), Gaps = 4/112 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKE-DTWVALVGPHLESLGSTPL  60
+            +L+PA +  L  YA +AE AW + GA G ER+ ++++ +E   WVA++G  LESLG  P 
+Sbjct  39   YLSPAAQQQLHAYADEAEQAWLQSGADGVERWVEQMAVREPGIWVAVIGSSLESLGRQPF  98
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +AEE SHL   R +D P S+R++  LPY+ I F   P  G++VIQLP R +P
+Sbjct  99   TAEEFSHLRRLRIVDGPMSQRVRG-LPYLGIPFVQAP--GQVVIQLPRRFVP  147
+
+
+> UniRef50_N2J3U4 Uncharacterized protein n=3 Tax=Pseudomonas TaxID=286 
+RepID=N2J3U4_9PSED
+Length=450
+
+ Score = 85.1 bits (209),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 45/110 (41%), Positives = 60/110 (55%), Gaps = 1/110 (1%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            Y LA AD+  L +YA   E AWR +G  G E   + +   E  W   V    + LG   L
+Sbjct  41   YELAQADKEELLNYAASVEQAWRTQGKEGVETALRRIREGEQVWAVAVDRLYQPLGQRAL  100
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERL  110
+            +  ++   +F R+LDWP S R   ELP + I FP HPE GRL ++LPER+
+Sbjct  101  TPSDADRFSFMRRLDWPLSGR-ATELPVMDIPFPQHPEAGRLAMELPERM  149
+
+
+> UniRef50_A0A119A5Y9 Sensor protein PfeS n=59 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=A0A119A5Y9_9PSED
+Length=462
+
+ Score = 83.2 bits (204),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 45/111 (41%), Positives = 62/111 (56%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            FL+   R  L  YA +AE AW     AG +++ + L   E  W+ ++G  L+SL S PL 
+Sbjct  44   FLSQEARSTLLRYASEAERAWESGQQAGVDQWLQALGQVESGWIGVIGQDLQSLSSYPLR  103
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              ES  LTF R LDWP S  L+   P++ + FP     G LVI+LP+R +P
+Sbjct  104  DAESQRLTFLRGLDWPVS-HLKATRPWIKVPFPRDSSLGYLVIELPQRFMP  153
+
+
+> UniRef50_A0A109LBS5 Sensor protein PfeS n=14 Tax=Pseudomonas 
+TaxID=286 RepID=A0A109LBS5_PSEFL
+Length=373
+
+ Score = 82.0 bits (201),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 39/76 (51%), Positives = 53/76 (70%), Gaps = 1/76 (1%)
+
+Query  37   LSAKEDTWVALVGPHLESLGSTPLSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGH  96
+            ++ +E TWV ++G  L+SLGSTPLS +ES  LTF R LDWP SR +   LP++ + FP  
+Sbjct  1    MAERESTWVGVIGNDLQSLGSTPLSDKESQRLTFLRGLDWPVSRHVIG-LPWMKVPFPVD  59
+
+Query  97   PEQGRLVIQLPERLLP  112
+            P  G LVI+LP+R +P
+Sbjct  60   PGAGSLVIELPQRFMP  75
+
+
+> UniRef50_A0A259M930 Two-component sensor histidine kinase (Fragment) 
+n=1 Tax=Pseudomonas sp. 34-62-33 TaxID=1970429 RepID=A0A259M930_9PSED
+Length=322
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 46/111 (41%), Positives = 63/111 (57%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L    R  L  YAR+AE AW+ EGA+G + F ++L   E  W  +V  H  SL S PLS
+Sbjct  41   YLPEPTRQTLKGYAREAETAWQEEGASGVDAFLRQLQEHEQIWAVVVDAHKRSLSSRPLS  100
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            AE++  L F RKLD+P  R       Y+    P +  + RLV++LP+RL P
+Sbjct  101  AEQAQRLDFVRKLDFPVGRPGGTPTFYI----PFNAGEARLVMELPQRLNP  147
+
+
+> UniRef50_A0A095S9M5 Kinase sensor protein n=5 Tax=Alcanivorax 
+TaxID=59753 RepID=A0A095S9M5_9GAMM
+Length=446
+
+ Score = 74.3 bits (181),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 42/111 (38%), Positives = 59/111 (53%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+   +  L  YA  AE AW   GAAG E +   +  +E   + +V    +SL   PL+
+Sbjct  39   LLSDEAKSALRGYAADAEQAWLENGAAGVEHWIAAMGDREPGNIMVVSQDDQSLSGIPLT  98
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E + L F R L+W  S R +  +PY+ + FP  PEQG LV+QLP R +P
+Sbjct  99   ESERAGLRFQRGLEWRMSFRYR-SMPYIGVPFPKSPEQGSLVMQLPPRYMP  148
+
+
+> UniRef50_A0A1E5XDH5 Two-component sensor histidine kinase n=38 
+Tax=Pseudomonadales TaxID=72274 RepID=A0A1E5XDH5_9PSED
+Length=447
+
+ Score = 72.8 bits (177),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 43/112 (38%), Positives = 64/112 (57%), Gaps = 2/112 (2%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKE-DTWVALVGPHLESLGSTPL  60
+            FL P  +  +  YARQAE AW + G+ G E + + ++ +E   W+ +V     SL    L
+Sbjct  39   FLEPMAKRQMHAYARQAERAWLQGGSDGVEHWLERMAKREPGVWLVVVDNKWRSLTRHKL  98
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             AE+   L   R LD P S+R + +L Y+ + F   P+QG+LV+QLP+R LP
+Sbjct  99   DAEDYVRLRRVRGLDNPMSKRARGQL-YIGMPFVHAPQQGQLVMQLPQRFLP  149
+
+
+> UniRef50_F6AG62 Integral membrane sensor signal transduction 
+histidine kinase n=10 Tax=Pseudomonas TaxID=286 RepID=F6AG62_PSEF1
+Length=454
+
+ Score = 71.6 bits (174),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 44/110 (40%), Positives = 57/110 (52%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+P+ R  L  YAR+AEDAWR  G  G + F      +E+ WV  V     SL S PLS 
+Sbjct  43   LSPSTRSELTGYAREAEDAWRSRGRIGLDEFLNAFYQRENVWVVAVDAWHRSLSSCPLSE  102
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            EE+  L F R+LD    R     + Y+    P   + G LV++LP RL P
+Sbjct  103  EEAQRLNFMRRLDQKVGRPGGQPVFYM----PFSDDAGYLVMELPPRLDP  148
+
+
+> UniRef50_A0A1Q9RBF6 Sensor protein PfeS n=21 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A1Q9RBF6_PSEPU
+Length=445
+
+ Score = 69.3 bits (168),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 42/105 (40%), Positives = 52/105 (50%), Gaps = 4/105 (4%)
+
+Query  8    RHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSH  67
+            +  LADYA +AE AW   G  G + F + L  +E  W A+VG + +SL S PL   E   
+Sbjct  47   QKILADYAAEAESAWNARGTPGVDDFLRSLREREGVWAAVVGQYDQSLSSQPLRGRERKK  106
+
+Query  68   LTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            L F R LDW   R       YV    P    + RLV+ LP RL P
+Sbjct  107  LHFMRTLDWSVGRPGGTPTFYV----PFSDSEARLVMDLPARLDP  147
+
+
+> UniRef50_A0A1M5YRG3 Signal transduction histidine kinase n=1 
+Tax=Candidimonas bauzanensis TaxID=658167 RepID=A0A1M5YRG3_9BURK
+Length=471
+
+ Score = 67.8 bits (164),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 38/111 (34%), Positives = 57/111 (51%), Gaps = 2/111 (2%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F++ AD+  L +YARQAE AW+ +G  G   +   +  KE  WV +V  H  ++   PL 
+Sbjct  41   FISDADKDILRNYARQAELAWKEQGNGGLAAYLAMVRQKEQVWVEVVDEHGRTMDGLPLR  100
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E   L F R+LDW   R  +++   V + F       RLV++LP  + P
+Sbjct  101  GRERKRLNFMRELDWSVGRPQRNDNTTVFLPFADGLH--RLVMELPWHMNP  149
+
+
+> UniRef50_A0A1G7Y6V8 Two-component system, OmpR family, sensor 
+histidine kinase PfeS n=2 Tax=Pseudomonas aeruginosa group 
+TaxID=136841 RepID=A0A1G7Y6V8_9PSED
+Length=453
+
+ Score = 67.0 bits (162),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 41/105 (39%), Positives = 56/105 (53%), Gaps = 4/105 (4%)
+
+Query  8    RHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSH  67
+            R  L DYAR+AE AWR  G AG + F ++L  +E  W  ++     SL S  LS E+S +
+Sbjct  45   RAILTDYAREAEKAWRERGRAGVDDFLRQLREREGVWAVVIDERRHSLSSGVLSEEQSQY  104
+
+Query  68   LTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            L F R +D    R   +   YV    P    + RLV++LP+RL P
+Sbjct  105  LEFNRPIDGSLGRPGGNPPLYV----PFSDGKARLVMELPQRLNP  145
+
+
+> UniRef50_A0A266NLD7 Two-component sensor histidine kinase n=8 
+Tax=Pseudomonas TaxID=286 RepID=A0A266NLD7_PSEFR
+Length=447
+
+ Score = 66.6 bits (161),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 42/108 (39%), Positives = 55/108 (51%), Gaps = 5/108 (5%)
+
+Query  5    PADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEE  64
+            PA + ++A YARQAE AWR  G  G + F   L  +E  W A+V  H +SL S PL   E
+Sbjct  45   PAKQSHIA-YARQAETAWRERGTQGVDEFLLSLRKQERVWAAVVDEHQQSLSSQPLDEHE  103
+
+Query  65   SSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               L F R L W   R   +  P   + F    ++ RLV++LP R  P
+Sbjct  104  RRKLDFVRPLHWTVGR--PNGWPTFYVPFSD--DKARLVMELPHRFNP  147
+
+
+> UniRef50_A0A1C2E5P3 Two-component sensor histidine kinase n=11 
+Tax=Pseudomonas TaxID=286 RepID=A0A1C2E5P3_9PSED
+Length=443
+
+ Score = 65.1 bits (157),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 45/111 (41%), Positives = 61/111 (55%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+   R  L DYA +A  A R +G    +R+  EL  KED+W  +V  +L   GS  LS
+Sbjct  39   YLSEDARTILEDYAAEAGAALR-QGPQVLDRWLAELRRKEDSWAVVVDRNLHPQGSQRLS  97
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E   LTF R  DWP SRR  + LP +S+      +Q  L+++LPERL P
+Sbjct  98   DNERQLLTFVRHHDWPMSRR-GERLPLISVPLGEMGDQ--LIMRLPERLRP  145
+
+
+> UniRef50_U1ZCR8 Uncharacterized protein (Fragment) n=1 Tax=Pseudomonas 
+sp. EGD-AK9 TaxID=1386078 RepID=U1ZCR8_9PSED
+Length=201
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 38/110 (35%), Positives = 53/110 (48%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L  + +  L  Y ++AE AWR  G +G + F   L  +E  W  +V     SL S  L  
+Sbjct  42   LPASTKALLRAYGQEAEAAWREAGMSGVDAFLARLHEREQVWAVVVDGQQRSLSSQALDG  101
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +E + L F R+LDW   R       YV    P    + RLV++LP+RL P
+Sbjct  102  DERARLDFVRRLDWLVGRPGGTPTFYV----PFSDGESRLVMELPQRLNP  147
+
+
+> UniRef50_A0A1H5YV59 Signal transduction histidine kinase n=4 
+Tax=Oceanospirillales TaxID=135619 RepID=A0A1H5YV59_9GAMM
+Length=449
+
+ Score = 62.8 bits (151),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 37/110 (34%), Positives = 57/110 (52%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P  +  L+DYAR+A + ++     G  R   E++ K DTW A++ P L +   T +  
+Sbjct  38   IKPEHQQVLSDYARRASEFYQARNEEGMHRLIAEINEKHDTWAAVITPKLNATLGTHVPE  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            E    L+F RKLDWP     ++ L  + I F  H     LV++LPE + P
+Sbjct  98   EYLGGLSFQRKLDWPVHTVWREVL--IGIPFKDHA--ASLVLRLPESMHP  143
+
+
+> UniRef50_Q0VNW0 Putative kinase sensor protein n=28 Tax=Alcanivoracaceae 
+TaxID=224372 RepID=Q0VNW0_ALCBS
+Length=451
+
+ Score = 62.4 bits (150),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 33/88 (38%), Positives = 52/88 (59%), Gaps = 0/88 (0%)
+
+Query  25   EGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSHLTFXRKLDWPXSRRLQD  84
+            EG AG +++   + ++E   +A++    +SL STPL+ +E S L F R +    S R   
+Sbjct  62   EGRAGVDQWLAGMRSRESGDIAVISNTDQSLSSTPLTVQERSGLRFQRGVHSRMSFRYGK  121
+
+Query  85   ELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            ++PY+ + FP  PEQG L++QLP R  P
+Sbjct  122  KMPYLGLPFPTVPEQGSLLMQLPPRFRP  149
+
+
+> UniRef50_A0A0C4WKM5 Integral membrane sensor signal transduction 
+histidine kinase n=1 Tax=Azotobacter chroococcum NCIMB 8003 
+TaxID=1328314 RepID=A0A0C4WKM5_9GAMM
+Length=404
+
+ Score = 60.5 bits (145),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 48/112 (43%), Positives = 62/112 (55%), Gaps = 8/112 (7%)
+
+Query  2    FLAPADRHYLADYARQA-EDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            +L+   R  L  YA +A   AW  EG    + FR +L  +E   + L+  HL+SLGS P 
+Sbjct  39   YLSGEARRVLQGYADEAGRIAW--EGPEAVDAFRDDLKQREPGALDLLDAHLQSLGSRP-  95
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             + E S LT  R+L+WP SRR Q  LP +SI  P    +G L IQLPER  P
+Sbjct  96   -SIEPSRLTRMRRLEWPMSRRSQT-LPLISI--PLVEGRGYLAIQLPERYRP  143
+
+
+> UniRef50_UPI000A392A62 HAMP domain-containing protein n=1 Tax=Oceanospirillum 
+sanctuarii TaxID=1434821 RepID=UPI000A392A62
+Length=464
+
+ Score = 59.7 bits (143),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 37/110 (34%), Positives = 54/110 (49%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P D+  L DYA +AE  +R++  AG  +   E+ AK  TW A++ P L +   T +  
+Sbjct  38   IDPVDQQVLKDYALRAEVFYRQQDQAGMHQLIDEIEAKHQTWAAVLTPELHTALGTRVPE  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               S L+F RKL WP     ++    V I  P       LVI+LP  + P
+Sbjct  98   AYQSRLSFQRKLAWPVHGVWKE----VLIGIPFQEHAASLVIRLPSAMHP  143
+
+
+> UniRef50_A0A166LS27 Histidine kinase n=6 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A166LS27_9GAMM
+Length=460
+
+ Score = 54.7 bits (130),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/106 (32%), Positives = 50/106 (47%), Gaps = 5/106 (5%)
+
+Query  8    RHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSH  67
+            R  L +YA++AE     EG      +   L  KE+TW+A+  P + +L +T LS      
+Sbjct  43   REELKNYAKEAERILNTEGEEALAEWVDHLEKKENTWIAIATPTISTLANTKLSQHYLDA  102
+
+Query  68   LTFXRKLDWPXSRRLQDELPYVSIEFP-GHPEQGRLVIQLPERLLP  112
+             T  R ++W          P + I F  GH    R +IQLP+R+ P
+Sbjct  103  FTLGRSIEWKIHLYFTQN-PTMDIPFADGHT---RFLIQLPQRMRP  144
+
+
+> UniRef50_A0A101M6I6 Uncharacterized protein n=1 Tax=Rheinheimera 
+sp. EpRS3 TaxID=1712383 RepID=A0A101M6I6_9GAMM
+Length=443
+
+ Score = 52.4 bits (124),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 54/111 (49%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+PA R  L  Y  QAE  +     A  +++  +   +E++WV +V   + S+ ST L 
+Sbjct  37   MLSPAARQTLLQYRDQAEALYDPANPAALQQWLNQFRQQENSWVTVVHLDVVSIDSTDLQ  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            A  +      R +DWP    L D  P + + F  H     L+++LPE+L P
+Sbjct  97   ARFTDGFILGRSIDWPIHLHL-DYNPVMDLPFIHH--HASLLLELPEQLRP  144
+
+
+> UniRef50_A0A244CTL1 Uncharacterized protein n=1 Tax=Pseudoalteromonas 
+ulvae TaxID=107327 RepID=A0A244CTL1_9GAMM
+Length=454
+
+ Score = 48.9 bits (115),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++  A +  L DYA  A+  WR        ++ +++  +E TWVA+V   L    ++ LS
+Sbjct  46   YIDDAHQQALLDYAHHAQSLWRLGDDTALAKYIEQIEQQESTWVAIVESALMLKANSTLS  105
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +     T  R + W      ++  P + I F         +IQLP R+ P
+Sbjct  106  QDYIDTFTLGRDVSWKIHLYFENN-PVMGIRFAD--SDTHFLIQLPARMRP  153
+
+
+> UniRef50_W8R9G9 Histidine kinase n=16 Tax=root TaxID=1 RepID=W8R9G9_PSEST
+Length=443
+
+ Score = 48.5 bits (114),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 36/111 (32%), Positives = 55/111 (50%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+      LA YA +A  A +  G     ++   +  +E +W+ +V   L+ LG   LS
+Sbjct  39   YLSQEAHEILAGYAEEAHAALQ-AGPQTLGQWLARMRQRESSWLVVVDEKLQPLGGQTLS  97
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             EE   LTF R  + P SRR +  LP +S+  P       L+++LPER  P
+Sbjct  98   DEERQMLTFVRHYERPMSRRYEG-LPLISV--PIADSGALLIMRLPERFRP  145
+
+
+> UniRef50_A0A0E0YGS1 Integral membrane sensor signal transduction 
+histidine kinase n=21 Tax=Alteromonas TaxID=226 RepID=A0A0E0YGS1_ALTME
+Length=476
+
+ Score = 48.1 bits (113),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 30/111 (27%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+  A +  L  Y ++AE  +  +G      F +E+  KEDTW+A+V   + +   T + 
+Sbjct  37   FIDKAHQEALYSYGQEAEKIYLEDGEQALAAFLQEVKTKEDTWLAVVNSQMTTFADTQML  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E        R  +W        E P   +E P   +    +IQLP+R+ P
+Sbjct  97   DEFVDRFQIGRSPEWKIHLYFS-ENPV--MEVPFVDDNTHFLIQLPQRMRP  144
+
+
+> UniRef50_I1YFA5 Integral membrane sensor signal transduction 
+histidine kinase n=2 Tax=Methylophaga TaxID=40222 RepID=I1YFA5_METFJ
+Length=453
+
+ Score = 47.8 bits (112),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 32/113 (28%), Positives = 52/113 (46%), Gaps = 7/113 (6%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F++P  +  L DYAR+AE  +++   A   +F   +S +E TWVA+V   L  +  T L 
+Sbjct  37   FISPLHQQTLRDYAREAEQYYQQGDMATLTQFLARVSDEEQTWVAVVESDLTPIAGTTLL  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGR--LVIQLPERLLP  112
+                   T  R + W      ++  P + + F    E G    +I LP+ + P
+Sbjct  97   PSYKERFTLGRDVSWKIHLYFKEN-PVMDVTF----EDGNTHFLILLPQHMRP  144
+
+
+> UniRef50_UPI000948B29D HAMP domain-containing histidine kinase 
+n=2 Tax=Neptunomonas phycophila TaxID=1572645 RepID=UPI000948B29D
+Length=459
+
+ Score = 46.2 bits (108),  Expect = 8e-04, Method: Compositional matrix adjust.
+ Identities = 29/111 (26%), Positives = 53/111 (48%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +++ +D+  L  Y R+AE  ++       ER+ +EL  KEDTW A+V   +E    + L 
+Sbjct  37   YISKSDQQTLISYGRKAETLYQAGQEKILERWLQELRIKEDTWAAVVESSIEVKAGSDLP  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               +   +  R ++W      +   P  +++ P    +   +IQLP R+ P
+Sbjct  97   LHYTQGFSLGRSVEWKIHLYFKAN-P--TMDIPFADGKTHFLIQLPARMRP  144
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233904687753
+Results from round 2
+
+
+Query= 3kyz
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI0001C2FA41 Sensor protein pfeS n=1 Tax=Pseudomonas ...  154     9e-46
+  UniRef50_UPI00085935FB HAMP domain-containing protein n=1 Tax=P...  154     1e-43
+  UniRef50_Q04804 Sensor protein PfeS n=194 Tax=root TaxID=1 RepI...  156     2e-43
+  UniRef50_A0A2C9ELH2 Sensor protein PfeS n=42 Tax=Pseudomonadace...  155     5e-43
+  UniRef50_A0A125QH63 Sensor protein PfeS n=491 Tax=Bacteria TaxI...  152     6e-42
+  UniRef50_S2KSJ3 Integral membrane sensor signal transduction hi...  147     8e-41
+  UniRef50_A0A0F7XTU5 Sensor protein PfeS n=284 Tax=Proteobacteri...  148     2e-40
+  UniRef50_A0A119A5Y9 Sensor protein PfeS n=59 Tax=Pseudomonadace...  140     3e-37
+  UniRef50_A0A1M5YRG3 Signal transduction histidine kinase n=1 Ta...  137     5e-36
+  UniRef50_A0A259M930 Two-component sensor histidine kinase (Frag...  135     5e-36
+  UniRef50_A0A095S9M5 Kinase sensor protein n=5 Tax=Alcanivorax T...  135     1e-35
+  UniRef50_A0A166LS27 Histidine kinase n=6 Tax=Gammaproteobacteri...  134     3e-35
+  UniRef50_N2J3U4 Uncharacterized protein n=3 Tax=Pseudomonas Tax...  134     5e-35
+  UniRef50_A0A0E0YGS1 Integral membrane sensor signal transductio...  133     7e-35
+  UniRef50_F6AG62 Integral membrane sensor signal transduction hi...  133     1e-34
+  UniRef50_I1YFA5 Integral membrane sensor signal transduction hi...  133     1e-34
+  UniRef50_A0A1G7Y6V8 Two-component system, OmpR family, sensor h...  132     2e-34
+  UniRef50_U1ZCR8 Uncharacterized protein (Fragment) n=1 Tax=Pseu...  125     1e-33
+  UniRef50_A0A1Q9RBF6 Sensor protein PfeS n=21 Tax=Gammaproteobac...  130     1e-33
+  UniRef50_UPI000948B29D HAMP domain-containing histidine kinase ...  130     2e-33
+  UniRef50_A0A244CTL1 Uncharacterized protein n=1 Tax=Pseudoalter...  128     4e-33
+  UniRef50_A0A266NLD7 Two-component sensor histidine kinase n=8 T...  128     5e-33
+  UniRef50_A0A1E5XDH5 Two-component sensor histidine kinase n=38 ...  128     5e-33
+  UniRef50_A0A1Y0KS51 Two-component sensor histidine kinase n=3 T...  124     1e-31
+  UniRef50_A0A1H5YV59 Signal transduction histidine kinase n=4 Ta...  123     3e-31
+  UniRef50_A0A1C2E5P3 Two-component sensor histidine kinase n=11 ...  122     6e-31
+  UniRef50_UPI000A392A62 HAMP domain-containing protein n=1 Tax=O...  120     3e-30
+  UniRef50_A0A101M6I6 Uncharacterized protein n=1 Tax=Rheinheimer...  120     4e-30
+  UniRef50_W8R9G9 Histidine kinase n=16 Tax=root TaxID=1 RepID=W8...  120     4e-30
+  UniRef50_Q0VNW0 Putative kinase sensor protein n=28 Tax=Alcaniv...  119     1e-29
+  UniRef50_A0A109LBS5 Sensor protein PfeS n=14 Tax=Pseudomonas Ta...  108     4e-26
+  UniRef50_A0A0C4WKM5 Integral membrane sensor signal transductio...  96.6    1e-21
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_UPI000414EC01 HAMP domain-containing protein n=1 Tax=P...  117     5e-29
+  UniRef50_A4XQE7 Integral membrane sensor signal transduction hi...  113     1e-27
+  UniRef50_A0A2D9LCK3 Two-component sensor histidine kinase (Frag...  110     4e-27
+  UniRef50_A0A099L668 Integral membrane sensor signal transductio...  111     6e-27
+  UniRef50_I1XII4 Integral membrane sensor signal transduction hi...  111     7e-27
+  UniRef50_A0A2D6VX03 Histidine kinase (Fragment) n=13 Tax=Gammap...  109     2e-26
+  UniRef50_A0A137SII6 Signal transduction histidine kinase n=11 T...  109     3e-26
+  UniRef50_V4HUV4 Signal transduction histidine kinase n=21 Tax=P...  106     2e-25
+  UniRef50_A0A1E3GSZ7 Sensor protein PfeS n=35 Tax=Gammaproteobac...  106     3e-25
+  UniRef50_A0A1A8LQ62 Signal transduction histidine kinase n=1 Ta...  106     5e-25
+  UniRef50_A0A0N0M007 Histidine kinase n=7 Tax=Alteromonadales Ta...  96.6    1e-21
+  UniRef50_UPI0002EE955C HAMP domain-containing protein n=3 Tax=A...  96.2    2e-21
+  UniRef50_A0A1B1NUI9 Heme sensor protein HssS n=7 Tax=Vibrio Tax...  94.6    7e-21
+  UniRef50_A0A0Q0H2C0 Sensor protein PfeS n=18 Tax=Gammaproteobac...  94.6    9e-21
+  UniRef50_K5UXP8 HAMP domain protein (Fragment) n=1 Tax=Vibrio s...  91.9    3e-20
+  UniRef50_A7N2U6 Uncharacterized protein n=47 Tax=Vibrionaceae T...  92.7    4e-20
+  UniRef50_A0A2D9FJD0 Two-component sensor histidine kinase n=1 T...  91.6    2e-19
+  UniRef50_G7G834 Periplasmic sensor signal transduction histidin...  90.8    2e-19
+  UniRef50_A0A0U3I5U7 Histidine kinase n=3 Tax=Alteromonadales Ta...  90.8    2e-19
+  UniRef50_A0A290T672 Uncharacterized protein n=4 Tax=Pseudoalter...  90.0    4e-19
+  UniRef50_A0A0M0IMD1 Histidine kinase n=18 Tax=Vibrio TaxID=662 ...  82.7    2e-16
+  UniRef50_Q1N0E0 Periplasmic Sensor Signal Transduction Histidin...  82.3    3e-16
+  UniRef50_UPI000483E022 HAMP domain-containing protein n=1 Tax=M...  81.5    5e-16
+  UniRef50_Q2BGC7 Sensor protein CpxA n=3 Tax=Oceanospirillaceae ...  77.3    2e-14
+  UniRef50_UPI0001B94A1B HAMP domain-containing protein n=5 Tax=V...  75.0    1e-13
+  UniRef50_A0A166UXX5 Uncharacterized protein n=2 Tax=Thalassolit...  75.0    1e-13
+  UniRef50_A0A2E3BBX6 Uncharacterized protein (Fragment) n=1 Tax=...  68.1    7e-12
+  UniRef50_A0A2D8RG08 Uncharacterized protein n=1 Tax=Hahellaceae...  51.9    1e-06
+  UniRef50_A0A1B1EIC7 Two-component sensor histidine kinase n=140...  52.6    5e-06
+  UniRef50_A0A0F4PFZ8 Histidine kinase n=18 Tax=Vibrio TaxID=662 ...  52.6    5e-06
+  UniRef50_A0A061Q580 Probable two-component system sensor kinase...  49.9    1e-05
+  UniRef50_A0A090P4I0 Probable two-component system sensor kinase...  49.9    3e-05
+
+
+> UniRef50_UPI0001C2FA41 Sensor protein pfeS n=1 Tax=Pseudomonas 
+aeruginosa TaxID=287 RepID=UPI0001C2FA41
+Length=125
+
+ Score = 154 bits (390),  Expect = 9e-46, Method: Composition-based stats.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  13   YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  72
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  73   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  124
+
+
+> UniRef50_UPI00085935FB HAMP domain-containing protein n=1 Tax=Pseudomonas 
+aeruginosa TaxID=287 RepID=UPI00085935FB
+Length=294
+
+ Score = 154 bits (389),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 108/112 (96%), Positives = 108/112 (96%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADR YLADYARQAEDAWR EGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  37   YFLAPADRSYLADYARQAEDAWRSEGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  97   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  148
+
+
+> UniRef50_Q04804 Sensor protein PfeS n=194 Tax=root TaxID=1 RepID=PFES_PSEAE
+Length=446
+
+ Score = 156 bits (395),  Expect = 2e-43, Method: Composition-based stats.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  37   YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  97   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  148
+
+
+> UniRef50_A0A2C9ELH2 Sensor protein PfeS n=42 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=A0A2C9ELH2_PSEPH
+Length=445
+
+ Score = 155 bits (393),  Expect = 5e-43, Method: Composition-based stats.
+ Identities = 83/112 (74%), Positives = 97/112 (87%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFL PADR YLA YA+QAE AWR+ G A  + F+++L+ +EDTWVA++G  L+SLGSTPL
+Sbjct  37   YFLDPADRQYLASYAQQAEHAWRQGGVAAVDEFQRQLATREDTWVAVIGDRLQSLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +AEE+SHLTF RKLDWP SRRLQDELPYVSIEFP HPEQGRLV+QLPERLLP
+Sbjct  97   TAEEASHLTFMRKLDWPMSRRLQDELPYVSIEFPEHPEQGRLVLQLPERLLP  148
+
+
+> UniRef50_A0A125QH63 Sensor protein PfeS n=491 Tax=Bacteria TaxID=2 
+RepID=A0A125QH63_PSEFL
+Length=452
+
+ Score = 152 bits (385),  Expect = 6e-42, Method: Composition-based stats.
+ Identities = 50/111 (45%), Positives = 71/111 (64%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+   R  L  YA  AE AW  +G+AG + + + ++ +E TWV ++G  L+SL STPLS
+Sbjct  45   YLSEKSREILTGYAAGAELAWSTQGSAGVDAWLQRMAERESTWVGVIGNDLQSLSSTPLS  104
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +ES  LTF R LDWP SR +   LP++ + FP  P  G LVI+LP+R +P
+Sbjct  105  DKESQRLTFLRGLDWPVSRHVIG-LPWMKVPFPVDPGAGSLVIELPQRFMP  154
+
+
+> UniRef50_S2KSJ3 Integral membrane sensor signal transduction 
+histidine kinase n=1 Tax=Pseudomonas plecoglossicida NB2011 
+TaxID=1330531 RepID=S2KSJ3_9PSED
+Length=330
+
+ Score = 147 bits (372),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 85/112 (76%), Positives = 95/112 (85%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFL+P D+ YLA YA+QAE+AWR  GA GAE +R++L   EDTWVALVGP L+SLGSTPL
+Sbjct  37   YFLSPDDQDYLARYAQQAEEAWRSGGATGAEAYRRQLERAEDTWVALVGPRLDSLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEES+ LTF RKLDWP SRRLQDELPYVSI FP HP+ GRLVIQLPERLLP
+Sbjct  97   SAEESARLTFMRKLDWPMSRRLQDELPYVSIAFPEHPQDGRLVIQLPERLLP  148
+
+
+> UniRef50_A0A0F7XTU5 Sensor protein PfeS n=284 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A0F7XTU5_9PSED
+Length=466
+
+ Score = 148 bits (375),  Expect = 2e-40, Method: Composition-based stats.
+ Identities = 49/111 (44%), Positives = 67/111 (60%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            FL+   R  L  YA +AE AWR  GA G + +  E+  +E  WV ++   L+ LGS  L+
+Sbjct  39   FLSEPARQVLRGYAAEAEQAWRSGGAEGVDAWLAEMRGREQGWVGVLDGDLQPLGSADLT  98
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            A ++  LT  R +DWP SRR   + P++ + FPG PEQG LVI+LPER  P
+Sbjct  99   AGQAQRLTRLRGVDWPMSRRSIGQ-PWLRLPFPGAPEQGMLVIELPERFNP  148
+
+
+> UniRef50_A0A119A5Y9 Sensor protein PfeS n=59 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=A0A119A5Y9_9PSED
+Length=462
+
+ Score = 140 bits (353),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 45/111 (41%), Positives = 62/111 (56%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            FL+   R  L  YA +AE AW     AG +++ + L   E  W+ ++G  L+SL S PL 
+Sbjct  44   FLSQEARSTLLRYASEAERAWESGQQAGVDQWLQALGQVESGWIGVIGQDLQSLSSYPLR  103
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              ES  LTF R LDWP S  L+   P++ + FP     G LVI+LP+R +P
+Sbjct  104  DAESQRLTFLRGLDWPVS-HLKATRPWIKVPFPRDSSLGYLVIELPQRFMP  153
+
+
+> UniRef50_A0A1M5YRG3 Signal transduction histidine kinase n=1 
+Tax=Candidimonas bauzanensis TaxID=658167 RepID=A0A1M5YRG3_9BURK
+Length=471
+
+ Score = 137 bits (344),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 38/111 (34%), Positives = 57/111 (51%), Gaps = 2/111 (2%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F++ AD+  L +YARQAE AW+ +G  G   +   +  KE  WV +V  H  ++   PL 
+Sbjct  41   FISDADKDILRNYARQAELAWKEQGNGGLAAYLAMVRQKEQVWVEVVDEHGRTMDGLPLR  100
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E   L F R+LDW   R  +++   V + F       RLV++LP  + P
+Sbjct  101  GRERKRLNFMRELDWSVGRPQRNDNTTVFLPFADGLH--RLVMELPWHMNP  149
+
+
+> UniRef50_A0A259M930 Two-component sensor histidine kinase (Fragment) 
+n=1 Tax=Pseudomonas sp. 34-62-33 TaxID=1970429 RepID=A0A259M930_9PSED
+Length=322
+
+ Score = 135 bits (339),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 46/111 (41%), Positives = 63/111 (57%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L    R  L  YAR+AE AW+ EGA+G + F ++L   E  W  +V  H  SL S PLS
+Sbjct  41   YLPEPTRQTLKGYAREAETAWQEEGASGVDAFLRQLQEHEQIWAVVVDAHKRSLSSRPLS  100
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            AE++  L F RKLD+P  R       Y+    P +  + RLV++LP+RL P
+Sbjct  101  AEQAQRLDFVRKLDFPVGRPGGTPTFYI----PFNAGEARLVMELPQRLNP  147
+
+
+> UniRef50_A0A095S9M5 Kinase sensor protein n=5 Tax=Alcanivorax 
+TaxID=59753 RepID=A0A095S9M5_9GAMM
+Length=446
+
+ Score = 135 bits (340),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 42/110 (38%), Positives = 59/110 (54%), Gaps = 1/110 (1%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+   +  L  YA  AE AW   GAAG E +   +  +E   + +V    +SL   PL+ 
+Sbjct  40   LSDEAKSALRGYAADAEQAWLENGAAGVEHWIAAMGDREPGNIMVVSQDDQSLSGIPLTE  99
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E + L F R L+W  S R +  +PY+ + FP  PEQG LV+QLP R +P
+Sbjct  100  SERAGLRFQRGLEWRMSFRYR-SMPYIGVPFPKSPEQGSLVMQLPPRYMP  148
+
+
+> UniRef50_A0A166LS27 Histidine kinase n=6 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A166LS27_9GAMM
+Length=460
+
+ Score = 134 bits (338),  Expect = 3e-35, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++  + R  L +YA++AE     EG      +   L  KE+TW+A+  P + +L +T LS
+Sbjct  37   YIDQSYREELKNYAKEAERILNTEGEEALAEWVDHLEKKENTWIAIATPTISTLANTKLS  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                   T  R ++W        + P + I F       R +IQLP+R+ P
+Sbjct  97   QHYLDAFTLGRSIEWKIHLYF-TQNPTMDIPF--ADGHTRFLIQLPQRMRP  144
+
+
+> UniRef50_N2J3U4 Uncharacterized protein n=3 Tax=Pseudomonas TaxID=286 
+RepID=N2J3U4_9PSED
+Length=450
+
+ Score = 134 bits (337),  Expect = 5e-35, Method: Composition-based stats.
+ Identities = 45/110 (41%), Positives = 60/110 (55%), Gaps = 1/110 (1%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            Y LA AD+  L +YA   E AWR +G  G E   + +   E  W   V    + LG   L
+Sbjct  41   YELAQADKEELLNYAASVEQAWRTQGKEGVETALRRIREGEQVWAVAVDRLYQPLGQRAL  100
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERL  110
+            +  ++   +F R+LDWP S R   ELP + I FP HPE GRL ++LPER+
+Sbjct  101  TPSDADRFSFMRRLDWPLSGR-ATELPVMDIPFPQHPEAGRLAMELPERM  149
+
+
+> UniRef50_A0A0E0YGS1 Integral membrane sensor signal transduction 
+histidine kinase n=21 Tax=Alteromonas TaxID=226 RepID=A0A0E0YGS1_ALTME
+Length=476
+
+ Score = 133 bits (336),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+  A +  L  Y ++AE  +  +G      F +E+  KEDTW+A+V   + +   T + 
+Sbjct  37   FIDKAHQEALYSYGQEAEKIYLEDGEQALAAFLQEVKTKEDTWLAVVNSQMTTFADTQML  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E        R  +W       +  P + + F    +    +IQLP+R+ P
+Sbjct  97   DEFVDRFQIGRSPEWKIHLYFSEN-PVMEVPF--VDDNTHFLIQLPQRMRP  144
+
+
+> UniRef50_F6AG62 Integral membrane sensor signal transduction 
+histidine kinase n=10 Tax=Pseudomonas TaxID=286 RepID=F6AG62_PSEF1
+Length=454
+
+ Score = 133 bits (334),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 44/110 (40%), Positives = 57/110 (52%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+P+ R  L  YAR+AEDAWR  G  G + F      +E+ WV  V     SL S PLS 
+Sbjct  43   LSPSTRSELTGYAREAEDAWRSRGRIGLDEFLNAFYQRENVWVVAVDAWHRSLSSCPLSE  102
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            EE+  L F R+LD    R     + Y+    P   + G LV++LP RL P
+Sbjct  103  EEAQRLNFMRRLDQKVGRPGGQPVFYM----PFSDDAGYLVMELPPRLDP  148
+
+
+> UniRef50_I1YFA5 Integral membrane sensor signal transduction 
+histidine kinase n=2 Tax=Methylophaga TaxID=40222 RepID=I1YFA5_METFJ
+Length=453
+
+ Score = 133 bits (334),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 50/111 (45%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F++P  +  L DYAR+AE  +++   A   +F   +S +E TWVA+V   L  +  T L 
+Sbjct  37   FISPLHQQTLRDYAREAEQYYQQGDMATLTQFLARVSDEEQTWVAVVESDLTPIAGTTLL  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                   T  R + W      ++  P + + F         +I LP+ + P
+Sbjct  97   PSYKERFTLGRDVSWKIHLYFKEN-PVMDVTF--EDGNTHFLILLPQHMRP  144
+
+
+> UniRef50_A0A1G7Y6V8 Two-component system, OmpR family, sensor 
+histidine kinase PfeS n=2 Tax=Pseudomonas aeruginosa group 
+TaxID=136841 RepID=A0A1G7Y6V8_9PSED
+Length=453
+
+ Score = 132 bits (332),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 42/110 (38%), Positives = 58/110 (53%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+   R  L DYAR+AE AWR  G AG + F ++L  +E  W  ++     SL S  LS 
+Sbjct  40   LSEPARAILTDYAREAEKAWRERGRAGVDDFLRQLREREGVWAVVIDERRHSLSSGVLSE  99
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            E+S +L F R +D    R   +   YV    P    + RLV++LP+RL P
+Sbjct  100  EQSQYLEFNRPIDGSLGRPGGNPPLYV----PFSDGKARLVMELPQRLNP  145
+
+
+> UniRef50_U1ZCR8 Uncharacterized protein (Fragment) n=1 Tax=Pseudomonas 
+sp. EGD-AK9 TaxID=1386078 RepID=U1ZCR8_9PSED
+Length=201
+
+ Score = 125 bits (315),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 38/110 (35%), Positives = 53/110 (48%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L  + +  L  Y ++AE AWR  G +G + F   L  +E  W  +V     SL S  L  
+Sbjct  42   LPASTKALLRAYGQEAEAAWREAGMSGVDAFLARLHEREQVWAVVVDGQQRSLSSQALDG  101
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +E + L F R+LDW   R       YV    P    + RLV++LP+RL P
+Sbjct  102  DERARLDFVRRLDWLVGRPGGTPTFYV----PFSDGESRLVMELPQRLNP  147
+
+
+> UniRef50_A0A1Q9RBF6 Sensor protein PfeS n=21 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A1Q9RBF6_PSEPU
+Length=445
+
+ Score = 130 bits (326),  Expect = 1e-33, Method: Composition-based stats.
+ Identities = 43/110 (39%), Positives = 53/110 (48%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L    +  LADYA +AE AW   G  G + F + L  +E  W A+VG + +SL S PL  
+Sbjct  42   LPAPTQKILADYAAEAESAWNARGTPGVDDFLRSLREREGVWAAVVGQYDQSLSSQPLRG  101
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E   L F R LDW   R       YV    P    + RLV+ LP RL P
+Sbjct  102  RERKKLHFMRTLDWSVGRPGGTPTFYV----PFSDSEARLVMDLPARLDP  147
+
+
+> UniRef50_UPI000948B29D HAMP domain-containing histidine kinase 
+n=2 Tax=Neptunomonas phycophila TaxID=1572645 RepID=UPI000948B29D
+Length=459
+
+ Score = 130 bits (326),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +++ +D+  L  Y R+AE  ++       ER+ +EL  KEDTW A+V   +E    + L 
+Sbjct  37   YISKSDQQTLISYGRKAETLYQAGQEKILERWLQELRIKEDTWAAVVESSIEVKAGSDLP  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               +   +  R ++W      +   P + I F     +   +IQLP R+ P
+Sbjct  97   LHYTQGFSLGRSVEWKIHLYFKAN-PTMDIPF--ADGKTHFLIQLPARMRP  144
+
+
+> UniRef50_A0A244CTL1 Uncharacterized protein n=1 Tax=Pseudoalteromonas 
+ulvae TaxID=107327 RepID=A0A244CTL1_9GAMM
+Length=454
+
+ Score = 128 bits (323),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++  A +  L DYA  A+  WR        ++ +++  +E TWVA+V   L    ++ LS
+Sbjct  46   YIDDAHQQALLDYAHHAQSLWRLGDDTALAKYIEQIEQQESTWVAIVESALMLKANSTLS  105
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +     T  R + W       +  P + I F         +IQLP R+ P
+Sbjct  106  QDYIDTFTLGRDVSWKIHLYF-ENNPVMGIRFADSD--THFLIQLPARMRP  153
+
+
+> UniRef50_A0A266NLD7 Two-component sensor histidine kinase n=8 
+Tax=Pseudomonas TaxID=286 RepID=A0A266NLD7_PSEFR
+Length=447
+
+ Score = 128 bits (322),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 41/110 (37%), Positives = 51/110 (46%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+   +     YARQAE AWR  G  G + F   L  +E  W A+V  H +SL S PL  
+Sbjct  42   LSEPAKQSHIAYARQAETAWRERGTQGVDEFLLSLRKQERVWAAVVDEHQQSLSSQPLDE  101
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E   L F R L W   R       YV    P   ++ RLV++LP R  P
+Sbjct  102  HERRKLDFVRPLHWTVGRPNGWPTFYV----PFSDDKARLVMELPHRFNP  147
+
+
+> UniRef50_A0A1E5XDH5 Two-component sensor histidine kinase n=38 
+Tax=Pseudomonadales TaxID=72274 RepID=A0A1E5XDH5_9PSED
+Length=447
+
+ Score = 128 bits (322),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 43/112 (38%), Positives = 64/112 (57%), Gaps = 2/112 (2%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKE-DTWVALVGPHLESLGSTPL  60
+            FL P  +  +  YARQAE AW + G+ G E + + ++ +E   W+ +V     SL    L
+Sbjct  39   FLEPMAKRQMHAYARQAERAWLQGGSDGVEHWLERMAKREPGVWLVVVDNKWRSLTRHKL  98
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             AE+   L   R LD P S+R + +L Y+ + F   P+QG+LV+QLP+R LP
+Sbjct  99   DAEDYVRLRRVRGLDNPMSKRARGQL-YIGMPFVHAPQQGQLVMQLPQRFLP  149
+
+
+> UniRef50_A0A1Y0KS51 Two-component sensor histidine kinase n=3 
+Tax=Pseudomonas TaxID=286 RepID=A0A1Y0KS51_9PSED
+Length=445
+
+ Score = 124 bits (311),  Expect = 1e-31, Method: Composition-based stats.
+ Identities = 51/112 (46%), Positives = 73/112 (65%), Gaps = 4/112 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDT-WVALVGPHLESLGSTPL  60
+            +L+PA +  L  YA +AE AW + GA G ER+ ++++ +E   WVA++G  LESLG  P 
+Sbjct  39   YLSPAAQQQLHAYADEAEQAWLQSGADGVERWVEQMAVREPGIWVAVIGSSLESLGRQPF  98
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +AEE SHL   R +D P S+R++  LPY+ I F   P  G++VIQLP R +P
+Sbjct  99   TAEEFSHLRRLRIVDGPMSQRVRG-LPYLGIPFVQAP--GQVVIQLPRRFVP  147
+
+
+> UniRef50_A0A1H5YV59 Signal transduction histidine kinase n=4 
+Tax=Oceanospirillales TaxID=135619 RepID=A0A1H5YV59_9GAMM
+Length=449
+
+ Score = 123 bits (309),  Expect = 3e-31, Method: Composition-based stats.
+ Identities = 36/110 (33%), Positives = 55/110 (50%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P  +  L+DYAR+A + ++     G  R   E++ K DTW A++ P L +   T +  
+Sbjct  38   IKPEHQQVLSDYARRASEFYQARNEEGMHRLIAEINEKHDTWAAVITPKLNATLGTHVPE  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            E    L+F RKLDWP     ++    V I  P       LV++LPE + P
+Sbjct  98   EYLGGLSFQRKLDWPVHTVWRE----VLIGIPFKDHAASLVLRLPESMHP  143
+
+
+> UniRef50_A0A1C2E5P3 Two-component sensor histidine kinase n=11 
+Tax=Pseudomonas TaxID=286 RepID=A0A1C2E5P3_9PSED
+Length=443
+
+ Score = 122 bits (307),  Expect = 6e-31, Method: Composition-based stats.
+ Identities = 45/111 (41%), Positives = 61/111 (55%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+   R  L DYA +A  A R+ G    +R+  EL  KED+W  +V  +L   GS  LS
+Sbjct  39   YLSEDARTILEDYAAEAGAALRQ-GPQVLDRWLAELRRKEDSWAVVVDRNLHPQGSQRLS  97
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E   LTF R  DWP SRR  + LP +S+      +Q  L+++LPERL P
+Sbjct  98   DNERQLLTFVRHHDWPMSRR-GERLPLISVPLGEMGDQ--LIMRLPERLRP  145
+
+
+> UniRef50_UPI000A392A62 HAMP domain-containing protein n=1 Tax=Oceanospirillum 
+sanctuarii TaxID=1434821 RepID=UPI000A392A62
+Length=464
+
+ Score = 120 bits (302),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 37/110 (34%), Positives = 54/110 (49%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P D+  L DYA +AE  +R++  AG  +   E+ AK  TW A++ P L +   T +  
+Sbjct  38   IDPVDQQVLKDYALRAEVFYRQQDQAGMHQLIDEIEAKHQTWAAVLTPELHTALGTRVPE  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               S L+F RKL WP     ++    V I  P       LVI+LP  + P
+Sbjct  98   AYQSRLSFQRKLAWPVHGVWKE----VLIGIPFQEHAASLVIRLPSAMHP  143
+
+
+> UniRef50_A0A101M6I6 Uncharacterized protein n=1 Tax=Rheinheimera 
+sp. EpRS3 TaxID=1712383 RepID=A0A101M6I6_9GAMM
+Length=443
+
+ Score = 120 bits (301),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 54/111 (49%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+PA R  L  Y  QAE  +     A  +++  +   +E++WV +V   + S+ ST L 
+Sbjct  37   MLSPAARQTLLQYRDQAEALYDPANPAALQQWLNQFRQQENSWVTVVHLDVVSIDSTDLQ  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            A  +      R +DWP    L D  P + + F  H     L+++LPE+L P
+Sbjct  97   ARFTDGFILGRSIDWPIHLHL-DYNPVMDLPFIHH--HASLLLELPEQLRP  144
+
+
+> UniRef50_W8R9G9 Histidine kinase n=16 Tax=root TaxID=1 RepID=W8R9G9_PSEST
+Length=443
+
+ Score = 120 bits (301),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 35/111 (32%), Positives = 54/111 (49%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+      LA YA +A  A +  G     ++   +  +E +W+ +V   L+ LG   LS
+Sbjct  39   YLSQEAHEILAGYAEEAHAALQA-GPQTLGQWLARMRQRESSWLVVVDEKLQPLGGQTLS  97
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             EE   LTF R  + P SRR +  LP +S+          L+++LPER  P
+Sbjct  98   DEERQMLTFVRHYERPMSRRYEG-LPLISVPI--ADSGALLIMRLPERFRP  145
+
+
+> UniRef50_Q0VNW0 Putative kinase sensor protein n=28 Tax=Alcanivoracaceae 
+TaxID=224372 RepID=Q0VNW0_ALCBS
+Length=451
+
+ Score = 119 bits (298),  Expect = 1e-29, Method: Composition-based stats.
+ Identities = 40/110 (36%), Positives = 61/110 (55%), Gaps = 0/110 (0%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+      +  YA  AE AW  EG AG +++   + ++E   +A++    +SL STPL+ 
+Sbjct  40   LSDQAVAVMRGYAAAAEQAWLAEGRAGVDQWLAGMRSRESGDIAVISNTDQSLSSTPLTV  99
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +E S L F R +    S R   ++PY+ + FP  PEQG L++QLP R  P
+Sbjct  100  QERSGLRFQRGVHSRMSFRYGKKMPYLGLPFPTVPEQGSLLMQLPPRFRP  149
+
+
+> UniRef50_UPI000414EC01 HAMP domain-containing protein n=1 Tax=Psychromonas 
+sp. SP041 TaxID=1365007 RepID=UPI000414EC01
+Length=453
+
+ Score = 117 bits (293),  Expect = 5e-29, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 46/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L +YA+ AE  + +        +   L   E+TWVA+V   L     T + 
+Sbjct  37   FIKIEHQQQLNEYAKHAEQLYLQGQHEQLSDWLGTLQKNENTWVAIVKSSLTPTLGTYMQ  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E        R +DW       ++ P + + F    +    +IQLPER+ P
+Sbjct  97   QEYLDRFVLGRGIDWKVHLYF-NQNPVMEVPF--VDKNTHFLIQLPERMRP  144
+
+
+> UniRef50_A4XQE7 Integral membrane sensor signal transduction 
+histidine kinase n=23 Tax=Pseudomonadales TaxID=72274 RepID=A4XQE7_PSEMY
+Length=444
+
+ Score = 113 bits (282),  Expect = 1e-27, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 43/111 (39%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L  Y  QAE  +R        R+   L  +E TW A+V   +  L  + L+
+Sbjct  37   FIDAEHQRTLRHYGEQAEAMYRAGDHEALARWLNTLQQQEQTWAAVVEAEVRPLAGSVLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R + W      Q+  P + + F     +   +I LP+R+ P
+Sbjct  97   ERFYEGFGLGRDVSWKIHLYFQEN-PIMDLPF--ADGRTHFLIILPQRMRP  144
+
+
+> UniRef50_A0A2D9LCK3 Two-component sensor histidine kinase (Fragment) 
+n=2 Tax=Alteromonadaceae TaxID=72275 RepID=A0A2D9LCK3_9ALTE
+Length=270
+
+ Score = 110 bits (275),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 46/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   +  L D+   AE  +         R+ ++L   E+TW A+V   ++ L  + LS
+Sbjct  37   FIARKHQETLKDWGHTAERLYLAGDEQALARWLEQLQRDENTWAAVVRSEIQPLAGSELS  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +        R ++W        E P + + F         +I LP+R+ P
+Sbjct  97   LQFQEGFRLGRNVEWKIHLYF-TENPIMDLTF--ADGHTHFLITLPQRMRP  144
+
+
+> UniRef50_A0A099L668 Integral membrane sensor signal transduction 
+histidine kinase n=2 Tax=Alteromonadales TaxID=135622 RepID=A0A099L668_COLPS
+Length=457
+
+ Score = 111 bits (278),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 46/110 (42%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +A   +  +  YA + E  + +        + K++  +EDTW ++V   L  L  T LS 
+Sbjct  38   IATEHQQQILAYANKTEQLYIQGDMIALSTYMKKIQQQEDTWASVVQSSLMPLADTSLSK  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                  T  R + W       D  P + + F    + G  ++QLP R+ P
+Sbjct  98   RYIDEFTLGRDVSWKIHLYFADN-PVMGVVF--SDKTGHFLMQLPARMRP  144
+
+
+> UniRef50_I1XII4 Integral membrane sensor signal transduction 
+histidine kinase n=18 Tax=Gammaproteobacteria TaxID=1236 RepID=I1XII4_METNJ
+Length=447
+
+ Score = 111 bits (277),  Expect = 7e-27, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 43/111 (39%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L DYA  AE  + +        +   +  +EDTWVAL+   L  L  + + 
+Sbjct  37   FIDQHYQQQLIDYASHAEKLYLQGEEEKLADWINTIQQREDTWVALIRSKLTPLAGSEMD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 +    R + W          P + I F         +I+LP+R+ P
+Sbjct  97   NYFIDNFALGRDISWKIHLYFAQN-PIMDITF--SDGHTHFLIRLPQRMRP  144
+
+
+> UniRef50_A0A2D6VX03 Histidine kinase (Fragment) n=13 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A2D6VX03_9ALTE
+Length=412
+
+ Score = 109 bits (273),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 25/110 (23%), Positives = 46/110 (42%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +A   +  L D+   AE  +         R+ ++L   E+TW A+V   ++ L  + LS+
+Sbjct  1    IARKHQETLKDWGHTAERLYLAGDEQALARWLEQLQRDENTWAAVVRSEIQPLAGSELSS  60
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +        R ++W        E P + + F         +I LP+R+ P
+Sbjct  61   QFQEGFRLGRNVEWKIHLYF-TENPIMDLTF--ADGHTHFLITLPQRMRP  107
+
+
+> UniRef50_A0A137SII6 Signal transduction histidine kinase n=11 
+Tax=Gammaproteobacteria TaxID=1236 RepID=A0A137SII6_9ALTE
+Length=448
+
+ Score = 109 bits (273),  Expect = 3e-26, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 45/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   +  L  + R AE  +          + + L  +EDTW A+V   ++ L  + LS
+Sbjct  37   FIAKHHQDTLKQWGRTAERLYLSGDERALADWLENLQVQEDTWAAVVRSSVQPLAGSELS  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +        R ++W       D  P + + F         +I LP+R+ P
+Sbjct  97   GQFMEGFRLGRNVEWKIHLYFADN-PIMDMTF--ADGHTHFLITLPQRMRP  144
+
+
+> UniRef50_A0A109LBS5 Sensor protein PfeS n=14 Tax=Pseudomonas 
+TaxID=286 RepID=A0A109LBS5_PSEFL
+Length=373
+
+ Score = 108 bits (271),  Expect = 4e-26, Method: Composition-based stats.
+ Identities = 39/76 (51%), Positives = 53/76 (70%), Gaps = 1/76 (1%)
+
+Query  37   LSAKEDTWVALVGPHLESLGSTPLSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGH  96
+            ++ +E TWV ++G  L+SLGSTPLS +ES  LTF R LDWP SR +   LP++ + FP  
+Sbjct  1    MAERESTWVGVIGNDLQSLGSTPLSDKESQRLTFLRGLDWPVSRHVIG-LPWMKVPFPVD  59
+
+Query  97   PEQGRLVIQLPERLLP  112
+            P  G LVI+LP+R +P
+Sbjct  60   PGAGSLVIELPQRFMP  75
+
+
+> UniRef50_V4HUV4 Signal transduction histidine kinase n=21 Tax=Pseudoalteromonas 
+TaxID=53246 RepID=V4HUV4_9GAMM
+Length=445
+
+ Score = 106 bits (266),  Expect = 2e-25, Method: Composition-based stats.
+ Identities = 24/110 (22%), Positives = 39/110 (35%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +    +  L    + AE  +     A    + K++    +TW A+V   L  L  T L  
+Sbjct  41   IKVEHQEELIALGQHAEQLFLNGDMAALSAYVKKIEQAHNTWAAVVQRELTPLADTQLQQ  100
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                  T  R + W          P + I F    ++   +IQLP  + P
+Sbjct  101  YYLDEFTLGRNVRWKIHLYFP-RNPVMDIPF--ADDKTHFLIQLPSHMRP  147
+
+
+> UniRef50_A0A1E3GSZ7 Sensor protein PfeS n=35 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A1E3GSZ7_9GAMM
+Length=449
+
+ Score = 106 bits (265),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 44/111 (40%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L DYAR AE  + +        +   +  +EDTWVALV   L  L  + + 
+Sbjct  37   FIDKQYQQQLIDYARHAESLYLQGEEEKLAEWINTIQLQEDTWVALVKSQLTLLADSEMD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                   +  R + W          P + I F         +I+LP+R+ P
+Sbjct  97   DYFIDTFSLGRDVSWKIHLYFAQN-PIMDIMF--ADRHTHFLIRLPQRMRP  144
+
+
+> UniRef50_A0A1A8LQ62 Signal transduction histidine kinase n=1 
+Tax=Halomonas sp. HL-93 TaxID=1666906 RepID=A0A1A8LQ62_9GAMM
+Length=447
+
+ Score = 106 bits (264),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 30/110 (27%), Positives = 47/110 (43%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +AP  +  LAD+  +AE  +          +   L A+EDTW A+V   +  +    LSA
+Sbjct  38   IAPHHQRTLADWGTKAEALYTAGDMQALGEWLDALQAQEDTWAAVVTSDVTPVAGGTLSA  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +        R ++WP      D  P + I F         +I LP+R+ P
+Sbjct  98   QFKEGYRLGRLIEWPIHLYFPDN-PIMDITF--EGGHRHFLITLPQRMRP  144
+
+
+> UniRef50_A0A0C4WKM5 Integral membrane sensor signal transduction 
+histidine kinase n=1 Tax=Azotobacter chroococcum NCIMB 8003 
+TaxID=1328314 RepID=A0A0C4WKM5_9GAMM
+Length=404
+
+ Score = 96.6 bits (239),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 47/112 (42%), Positives = 61/112 (54%), Gaps = 8/112 (7%)
+
+Query  2    FLAPADRHYLADYARQAED-AWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            +L+   R  L  YA +A   AW  EG    + FR +L  +E   + L+  HL+SLGS P 
+Sbjct  39   YLSGEARRVLQGYADEAGRIAW--EGPEAVDAFRDDLKQREPGALDLLDAHLQSLGSRP-  95
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             + E S LT  R+L+WP SRR Q  LP +SI       +G L IQLPER  P
+Sbjct  96   -SIEPSRLTRMRRLEWPMSRRSQT-LPLISIPL--VEGRGYLAIQLPERYRP  143
+
+
+> UniRef50_A0A0N0M007 Histidine kinase n=7 Tax=Alteromonadales 
+TaxID=135622 RepID=A0A0N0M007_9GAMM
+Length=445
+
+ Score = 96.6 bits (239),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   R  L  +++QAE  +  +      ++ + L A+E TWV++   +   +    + 
+Sbjct  37   FIAEQHREQLKQWSKQAEQLYLSDQHEDLVQWLENLQAQEQTWVSVASFNAVHIAGEQIE  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +      F R +DW       +  P + + F        L+I+LPER+ P
+Sbjct  97   KDIVGGYHFGRSIDWKIHLYF-EVNPIMELPF--SQTNASLLIKLPERMRP  144
+
+
+> UniRef50_UPI0002EE955C HAMP domain-containing protein n=3 Tax=Alteromonadales 
+TaxID=135622 RepID=UPI0002EE955C
+Length=445
+
+ Score = 96.2 bits (238),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A  DR  L  +   AE  +          +  +L A+E+TW+++ G  ++ +      
+Sbjct  37   FIAEQDRAQLQAWGAHAEQLYTAGKTTELNTWLADLKAQENTWISIAGFKVKHIAGETFD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E   +  F R ++W       ++ P + I F        L+I+LP+R+ P
+Sbjct  97   KEIVGNYHFGRSVEWKIHLYF-EQNPIMEIPF--TDSNASLLIKLPDRMRP  144
+
+
+> UniRef50_A0A1B1NUI9 Heme sensor protein HssS n=7 Tax=Vibrio TaxID=662 
+RepID=A0A1B1NUI9_9VIBR
+Length=444
+
+ Score = 94.6 bits (234),  Expect = 7e-21, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 44/111 (40%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++    +  +  +   A+    +    G  ++  +L+ +E TW  +V   ++ +   PL+
+Sbjct  37   YIETQHQQEILQWGNTAQQFIEQGDTQGLNQWLTQLANQEQTWATVVKSQIDVVSGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                S     R ++W       D  P + +     P     +I LPER+ P
+Sbjct  97   QRFWSGYGIGRNVEWKIHLDFPDN-PIMEV--ALSPSNHHFLIILPERMRP  144
+
+
+> UniRef50_A0A0Q0H2C0 Sensor protein PfeS n=18 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0Q0H2C0_9GAMM
+Length=451
+
+ Score = 94.6 bits (234),  Expect = 9e-21, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 46/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+ + R  L  + +QAED   +      E++   L  +E+ W  +    +  L      
+Sbjct  37   MLSDSSRAQLLKWQKQAEDILHQGDIEALEQWVSNLQQQENIWAVIARADVVELAGNRNH  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E +     R +DW       D  P + + F  +  +  LV+QLPER+ P
+Sbjct  97   RYEYTGYNLGRSIDWKIHLYF-DHAPVMQLPFTHN--EASLVVQLPERMRP  144
+
+
+> UniRef50_K5UXP8 HAMP domain protein (Fragment) n=1 Tax=Vibrio 
+sp. HENC-02 TaxID=992011 RepID=K5UXP8_9VIBR
+Length=338
+
+ Score = 91.9 bits (227),  Expect = 3e-20, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L  + R  + D+   A+    ++   G + + +EL+ KE TW  ++  HL+  G  PL+
+Sbjct  34   YLKKSHRQQILDWGNTAQTFIDQQDWHGLDVWLEELAIKESTWATVLQSHLDVKGGNPLN  93
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R ++W       D  P + +     P     +I LP+R+ P
+Sbjct  94   QRFWQGYGIGRSVEWKIHLDFPDN-PIMEVPL--SPFGYHFLILLPDRMRP  141
+
+
+> UniRef50_A7N2U6 Uncharacterized protein n=47 Tax=Vibrionaceae 
+TaxID=641 RepID=A7N2U6_VIBCB
+Length=446
+
+ Score = 92.7 bits (229),  Expect = 4e-20, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 45/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L  + R  +  +   A+    ++   G + + ++L+  E TW  ++   L+  G  PL+
+Sbjct  37   YLKKSHRQQILAWGHSAQTYVDQQDWQGLDIWLEQLAIDESTWATVLQSRLDVKGGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R ++W       D  P + +     P     +I LP+R+ P
+Sbjct  97   ERFWQGYGIGRSVEWKIHLDFPDN-PIMEVPL--SPSGYHFLILLPDRMRP  144
+
+
+> UniRef50_A0A2D9FJD0 Two-component sensor histidine kinase n=1 
+Tax=Halomonas sp. TaxID=1486246 RepID=A0A2D9FJD0_HALSX
+Length=464
+
+ Score = 91.6 bits (226),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 32/110 (29%), Positives = 50/110 (45%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +AP  +  LAD+   AE  +R    A    + + L A+E+TW A+V   +  +    LSA
+Sbjct  38   IAPHHQRTLADWGATAEALYRAGDDAALAAWLEALQAQENTWAAVVTSSVTPVAGGTLSA  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +        R ++WP      D  P + I F G       +I LP+R+ P
+Sbjct  98   QFEEGYRLGRLIEWPIHLYFPDN-PIMDITFAG--GHRHFLITLPQRMRP  144
+
+
+> UniRef50_G7G834 Periplasmic sensor signal transduction histidine 
+kinase n=9 Tax=root TaxID=1 RepID=G7G834_9GAMM
+Length=452
+
+ Score = 90.8 bits (224),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 46/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+ + R  L D+  +AE  + +   +  ER+   L  +E+ W  +   ++  L      
+Sbjct  37   MLSDSSRTELTDWQTKAEIIFDQGDMSELERWVDNLQQQENIWAVIAKANVVELAGNRSH  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E +     R ++W       D  P + + F        LV+QLP+R+ P
+Sbjct  97   RYEYTGYNLGRSINWKIHLYF-DRAPAMQLPFK--DGTTSLVVQLPQRMRP  144
+
+
+> UniRef50_A0A0U3I5U7 Histidine kinase n=3 Tax=Alteromonadales 
+TaxID=135622 RepID=A0A0U3I5U7_9GAMM
+Length=447
+
+ Score = 90.8 bits (224),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 23/111 (21%), Positives = 42/111 (38%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             +A ADR  L  +  ++E  +          +  +L  +E TW ++       L   P+ 
+Sbjct  37   MIAKADRAELTQWRIKSEQLYMANNTQVLNAWLAQLMKEESTWASVASFRAIHLAGEPID  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +      F R ++W          P + + F        L+I+LP R+ P
+Sbjct  97   KDIVGTYHFGRSIEWKIHLYFSAN-PVMELPFEHS--NASLLIKLPSRMRP  144
+
+
+> UniRef50_A0A290T672 Uncharacterized protein n=4 Tax=Pseudoalteromonas 
+TaxID=53246 RepID=A0A290T672_9GAMM
+Length=445
+
+ Score = 90.0 bits (222),  Expect = 4e-19, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   R+ L  + RQAE  + +E  A  + + + L  +E T+V++       +    L 
+Sbjct  37   FIAEQHRNQLNAWGRQAETLYLKENKAALQAWLETLKRQEKTYVSIASFEALHIAGDTLD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                    F R ++W       DE P + + F        LVI+LP+ + P
+Sbjct  97   KNIVGAYHFGRSVEWKIHLYF-DENPIMEVPFTQT--NASLVIRLPDYMRP  144
+
+
+> UniRef50_A0A0M0IMD1 Histidine kinase n=18 Tax=Vibrio TaxID=662 
+RepID=A0A0M0IMD1_9VIBR
+Length=444
+
+ Score = 82.7 bits (203),  Expect = 2e-16, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 41/111 (37%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++  + +  + D+    +D            +  ELS +E TW  +V   ++ +   PL+
+Sbjct  37   YIKQSHQQEILDWGAHVQDLLAARKFDELNSWVNELSIREKTWATVVRSQIDVVSGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R + W       D  P + +     P     +I+LP R+ P
+Sbjct  97   QRFWEGYGIGRNVAWKIHLDFPDN-PIMEV--ALTPSDYHFLIKLPARMRP  144
+
+
+> UniRef50_Q1N0E0 Periplasmic Sensor Signal Transduction Histidine 
+Kinase n=1 Tax=Bermanella marisrubri TaxID=207949 RepID=Q1N0E0_9GAMM
+Length=462
+
+ Score = 82.3 bits (202),  Expect = 3e-16, Method: Composition-based stats.
+ Identities = 30/112 (27%), Positives = 51/112 (46%), Gaps = 5/112 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            ++   R+ L +YA +A D   +      +++ + L  KEDTWVA++    + L     + 
+Sbjct  51   ISKEHRNTLLNYALEASDLIDKNNIDQLKKWTENLKRKEDTWVAILKTEPKWLVGNIDTD  110
+
+Query  63   EES--SHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 S LT  R +++P         P + I  P    Q  L+IQLP+ + P
+Sbjct  111  IFQGISDLTIGRDINYPIHLNFS-YNPVMKIPIP--DSQYNLMIQLPQHMRP  159
+
+
+> UniRef50_UPI000483E022 HAMP domain-containing protein n=1 Tax=Marinobacterium 
+jannaschii TaxID=64970 RepID=UPI000483E022
+Length=443
+
+ Score = 81.5 bits (200),  Expect = 5e-16, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 45/112 (40%), Gaps = 5/112 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++    +  L  Y  QAE+           R+ ++L  +E  +  +V  +  SL S  L 
+Sbjct  37   YIDSQYQEELRAYRSQAENLVATADNQALTRWLEQLQNEEQVFATVVSINATSLTSPILP  96
+
+Query  62   AEESSHLT-FXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              +   L    R+L WP       + P + + F         +I+LP+R+ P
+Sbjct  97   DAKLRPLIGAGRELKWPIHLH--HDNPLMRVPFEHSSNL--FLIELPQRMRP  144
+
+
+> UniRef50_Q2BGC7 Sensor protein CpxA n=3 Tax=Oceanospirillaceae 
+TaxID=135620 RepID=Q2BGC7_NEPCE
+Length=450
+
+ Score = 77.3 bits (189),  Expect = 2e-14, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 41/110 (37%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P ++  L   A +AE                E+ A+  TW A+V      + S+P+  
+Sbjct  38   ITPDNQSVLRQLAVRAEKDMAVGDREDLLALALEVKAQYGTWAAVVLSDNTIISSSPIPK  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R + WP    + D    V +  P        VI+LP  + P
+Sbjct  98   HLRVKLGFQRHVYWPVHEFMTD----VLVGIPFSDNSASFVIELPREMFP  143
+
+
+> UniRef50_UPI0001B94A1B HAMP domain-containing protein n=5 Tax=Vibrio 
+coralliilyticus TaxID=190893 RepID=UPI0001B94A1B
+Length=444
+
+ Score = 75.0 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 15/111 (14%), Positives = 42/111 (38%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++    +  +  +    +    +       ++  +L+ +E+TW  +V  ++  +   PL+
+Sbjct  37   YIDKNHQQEILAWGEHVQSQLGQGKYDEMNQWVNQLALREETWATVVRSNVSVVSGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R ++W       +  P + +     P     +++LP R+ P
+Sbjct  97   KRFWDGYGIGRNVEWKIHLYFPEN-PIMEV--ALTPSDYHFLVKLPARMRP  144
+
+
+> UniRef50_A0A166UXX5 Uncharacterized protein n=2 Tax=Thalassolituus 
+sp. HI0120 TaxID=1822263 RepID=A0A166UXX5_9GAMM
+Length=471
+
+ Score = 75.0 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 33/118 (28%), Positives = 48/118 (41%), Gaps = 12/118 (10%)
+
+Query  3    LAPADRHYLADYARQAEDAWRR-----EGAAGAERFRKELSAKEDTWVALVGPHLESLGS  57
+            + P  R  L  YA QA + + R     +       + K+L  KE+TW A+     E L  
+Sbjct  46   IEPEHRQTLRLYASQASNLYLRYPDIDQRQQELNSWLKQLMKKENTWAAMGKTQAEWLAG  105
+
+Query  58   ---TPLSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               T L  E    L+  R +D+P         P + +   G      L IQLP+R+ P
+Sbjct  106  ELDTRLFGENPD-LSVGRSIDYPIHLYYS-FNPVMKLRMEGTDY--FLFIQLPQRMRP  159
+
+
+> UniRef50_A0A2E3BBX6 Uncharacterized protein (Fragment) n=1 Tax=Oleispira 
+sp. TaxID=2024846 RepID=A0A2E3BBX6_9GAMM
+Length=268
+
+ Score = 68.1 bits (165),  Expect = 7e-12, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 46/114 (40%), Gaps = 8/114 (7%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAA-GAERFRKELSAKEDTWVALVGPHLESLGSTP--  59
+            ++  ++  L +YA QA    +          +  ++   EDTW+A++      L  +   
+Sbjct  39   ISVENQESLQEYAMQASHIIKGRDKTISISDWVDKIGKSEDTWLAVIKSEFTWLAGSYDA  98
+
+Query  60   -LSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +   E   +T  R + +P         P + ++ P       L+IQLP+ + P
+Sbjct  99   IVLYGEMD-ITTGRDIKYPIHLYYS-RNPVMKLKIPDTEYN--LLIQLPQSMRP  148
+
+
+> UniRef50_A0A2D8RG08 Uncharacterized protein n=1 Tax=Hahellaceae 
+bacterium TaxID=2048971 RepID=A0A2D8RG08_9GAMM
+Length=112
+
+ Score = 51.9 bits (123),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 19/44 (43%), Gaps = 0/44 (0%)
+
+Query  3   LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVA  46
+           +A   +  L  Y   AE  +        E +  +L A+EDTW A
+Sbjct  38  IADEHQETLLAYGETAEALYEAGDTRALENWLADLQAREDTWAA  81
+
+
+> UniRef50_A0A1B1EIC7 Two-component sensor histidine kinase n=140 
+Tax=Vibrio TaxID=662 RepID=A0A1B1EIC7_VIBNA
+Length=457
+
+ Score = 52.6 bits (125),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 18/110 (16%), Positives = 39/110 (35%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +  + +  + + A QA +            +       +  ++ ++   L+ +    +  
+Sbjct  49   VPDSVKSEMLELAHQANELIEYGDMDELADWANA----QQFYLFVLNEQLQPITHRLMHP  104
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R LD       +   P +++       +  LVI+LP RL P
+Sbjct  105  HFEFKLQFKRSLD--SQLEDKVNQPLINLPLV---NEHSLVIELPHRLHP  149
+
+
+> UniRef50_A0A0F4PFZ8 Histidine kinase n=18 Tax=Vibrio TaxID=662 
+RepID=A0A0F4PFZ8_9VIBR
+Length=462
+
+ Score = 52.6 bits (125),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 38/110 (35%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + PA +  +   A +A              +       +  ++ ++    + L    +  
+Sbjct  50   VPPALKAQMLTLAEEANVLIEEGDMDDLADWANA----QPFYLFVLNEEHKPLSHRQMHP  105
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R+LD P     Q   P + I      E+  LVIQLP  + P
+Sbjct  106  HFEFKLRFLRELDGP--LNDQVSKPLIGIPLI---ERNTLVIQLPSEVHP  150
+
+
+> UniRef50_A0A061Q580 Probable two-component system sensor kinase 
+n=1 Tax=Vibrio sp. JCM 19052 TaxID=1460647 RepID=A0A061Q580_9VIBR
+Length=198
+
+ Score = 49.9 bits (118),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 21/102 (21%), Positives = 33/102 (32%), Gaps = 9/102 (9%)
+
+Query  11   LADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSHLTF  70
+            + D A QA              +       +  ++ ++  +   L    +       L F
+Sbjct  1    MLDLAHQANVLIEEGDMDELADWANA----QHFYLFVLDENQRPLTHRLMHPHFEFKLKF  56
+
+Query  71   XRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             R+LD       +   P  +I          LVIQLP RL P
+Sbjct  57   KRRLD--EQLEGRVSRPIFNIPLV---GNNSLVIQLPHRLHP  93
+
+
+> UniRef50_A0A090P4I0 Probable two-component system sensor kinase 
+n=1 Tax=Vibrio ponticus TaxID=265668 RepID=A0A090P4I0_9VIBR
+Length=294
+
+ Score = 49.9 bits (118),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 21/110 (19%), Positives = 35/110 (32%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L    +  + D A QA              +       +  ++ ++    + L    +  
+Sbjct  49   LPEPVKQQMRDLASQASVLIETGDMDELADW----ENAQPYYLFVLDKSSQPLTHRNMHP  104
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R+L      R+    P + I       +  LVIQLP  L P
+Sbjct  105  HFEFKLKFLRELGANLGERVAK--PLIGIPLA---NKNTLVIQLPSELHP  149
+
+
+
+Lambda      K        H        a         alpha
+   0.305    0.145    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0450    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233904687753
+Results from round 3
+
+
+Query= 3kyz
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_UPI0001C2FA41 Sensor protein pfeS n=1 Tax=Pseudomonas ...  138     1e-39
+  UniRef50_A0A2D9LCK3 Two-component sensor histidine kinase (Frag...  140     1e-38
+  UniRef50_UPI000414EC01 HAMP domain-containing protein n=1 Tax=P...  143     1e-38
+  UniRef50_A0A137SII6 Signal transduction histidine kinase n=11 T...  143     2e-38
+  UniRef50_A0A2D6VX03 Histidine kinase (Fragment) n=13 Tax=Gammap...  141     7e-38
+  UniRef50_A4XQE7 Integral membrane sensor signal transduction hi...  141     1e-37
+  UniRef50_I1YFA5 Integral membrane sensor signal transduction hi...  141     1e-37
+  UniRef50_I1XII4 Integral membrane sensor signal transduction hi...  141     1e-37
+  UniRef50_A0A1B1NUI9 Heme sensor protein HssS n=7 Tax=Vibrio Tax...  140     2e-37
+  UniRef50_A0A0E0YGS1 Integral membrane sensor signal transductio...  141     2e-37
+  UniRef50_A0A125QH63 Sensor protein PfeS n=491 Tax=Bacteria TaxI...  140     3e-37
+  UniRef50_UPI00085935FB HAMP domain-containing protein n=1 Tax=P...  137     4e-37
+  UniRef50_A0A2C9ELH2 Sensor protein PfeS n=42 Tax=Pseudomonadace...  140     4e-37
+  UniRef50_A0A244CTL1 Uncharacterized protein n=1 Tax=Pseudoalter...  139     4e-37
+  UniRef50_Q04804 Sensor protein PfeS n=194 Tax=root TaxID=1 RepI...  139     6e-37
+  UniRef50_A0A166LS27 Histidine kinase n=6 Tax=Gammaproteobacteri...  138     1e-36
+  UniRef50_A0A0F7XTU5 Sensor protein PfeS n=284 Tax=Proteobacteri...  138     2e-36
+  UniRef50_UPI000948B29D HAMP domain-containing histidine kinase ...  138     2e-36
+  UniRef50_A0A1A8LQ62 Signal transduction histidine kinase n=1 Ta...  136     4e-36
+  UniRef50_UPI0002EE955C HAMP domain-containing protein n=3 Tax=A...  136     5e-36
+  UniRef50_A0A099L668 Integral membrane sensor signal transductio...  135     1e-35
+  UniRef50_V4HUV4 Signal transduction histidine kinase n=21 Tax=P...  135     1e-35
+  UniRef50_A0A0N0M007 Histidine kinase n=7 Tax=Alteromonadales Ta...  134     2e-35
+  UniRef50_S2KSJ3 Integral membrane sensor signal transduction hi...  133     2e-35
+  UniRef50_A0A1E3GSZ7 Sensor protein PfeS n=35 Tax=Gammaproteobac...  133     6e-35
+  UniRef50_A0A119A5Y9 Sensor protein PfeS n=59 Tax=Pseudomonadace...  133     1e-34
+  UniRef50_K5UXP8 HAMP domain protein (Fragment) n=1 Tax=Vibrio s...  130     3e-34
+  UniRef50_A7N2U6 Uncharacterized protein n=47 Tax=Vibrionaceae T...  131     4e-34
+  UniRef50_A0A0Q0H2C0 Sensor protein PfeS n=18 Tax=Gammaproteobac...  129     3e-33
+  UniRef50_A0A095S9M5 Kinase sensor protein n=5 Tax=Alcanivorax T...  128     4e-33
+  UniRef50_A0A290T672 Uncharacterized protein n=4 Tax=Pseudoalter...  128     5e-33
+  UniRef50_A0A0M0IMD1 Histidine kinase n=18 Tax=Vibrio TaxID=662 ...  128     7e-33
+  UniRef50_A0A0U3I5U7 Histidine kinase n=3 Tax=Alteromonadales Ta...  127     8e-33
+  UniRef50_G7G834 Periplasmic sensor signal transduction histidin...  127     2e-32
+  UniRef50_A0A1M5YRG3 Signal transduction histidine kinase n=1 Ta...  125     8e-32
+  UniRef50_A0A101M6I6 Uncharacterized protein n=1 Tax=Rheinheimer...  124     2e-31
+  UniRef50_A0A259M930 Two-component sensor histidine kinase (Frag...  122     2e-31
+  UniRef50_N2J3U4 Uncharacterized protein n=3 Tax=Pseudomonas Tax...  122     7e-31
+  UniRef50_A0A266NLD7 Two-component sensor histidine kinase n=8 T...  120     3e-30
+  UniRef50_F6AG62 Integral membrane sensor signal transduction hi...  120     4e-30
+  UniRef50_A0A1E5XDH5 Two-component sensor histidine kinase n=38 ...  119     5e-30
+  UniRef50_A0A2D9FJD0 Two-component sensor histidine kinase n=1 T...  119     9e-30
+  UniRef50_U1ZCR8 Uncharacterized protein (Fragment) n=1 Tax=Pseu...  115     9e-30
+  UniRef50_Q1N0E0 Periplasmic Sensor Signal Transduction Histidin...  118     2e-29
+  UniRef50_A0A1G7Y6V8 Two-component system, OmpR family, sensor h...  118     3e-29
+  UniRef50_A0A1Q9RBF6 Sensor protein PfeS n=21 Tax=Gammaproteobac...  118     3e-29
+  UniRef50_UPI0001B94A1B HAMP domain-containing protein n=5 Tax=V...  117     3e-29
+  UniRef50_A0A1Y0KS51 Two-component sensor histidine kinase n=3 T...  117     4e-29
+  UniRef50_A0A1H5YV59 Signal transduction histidine kinase n=4 Ta...  114     3e-28
+  UniRef50_A0A1C2E5P3 Two-component sensor histidine kinase n=11 ...  112     2e-27
+  UniRef50_W8R9G9 Histidine kinase n=16 Tax=root TaxID=1 RepID=W8...  111     4e-27
+  UniRef50_UPI000A392A62 HAMP domain-containing protein n=1 Tax=O...  111     6e-27
+  UniRef50_Q0VNW0 Putative kinase sensor protein n=28 Tax=Alcaniv...  111     9e-27
+  UniRef50_UPI000483E022 HAMP domain-containing protein n=1 Tax=M...  110     1e-26
+  UniRef50_A0A166UXX5 Uncharacterized protein n=2 Tax=Thalassolit...  106     3e-25
+  UniRef50_A0A1B1EIC7 Two-component sensor histidine kinase n=140...  106     5e-25
+  UniRef50_Q2BGC7 Sensor protein CpxA n=3 Tax=Oceanospirillaceae ...  104     2e-24
+  UniRef50_A0A2E3BBX6 Uncharacterized protein (Fragment) n=1 Tax=...  101     6e-24
+  UniRef50_A0A109LBS5 Sensor protein PfeS n=14 Tax=Pseudomonas Ta...  102     9e-24
+  UniRef50_A0A0F4PFZ8 Histidine kinase n=18 Tax=Vibrio TaxID=662 ...  102     1e-23
+  UniRef50_A0A061Q580 Probable two-component system sensor kinase...  96.9    1e-22
+  UniRef50_A0A090P4I0 Probable two-component system sensor kinase...  96.5    5e-22
+  UniRef50_A0A0C4WKM5 Integral membrane sensor signal transductio...  91.5    6e-20
+  UniRef50_A0A2D8RG08 Uncharacterized protein n=1 Tax=Hahellaceae...  61.0    6e-10
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A1Q1PMQ3 Sensor protein CpxA n=55 Tax=Vibrionaceae T...  100     6e-23
+  UniRef50_A0A264T7B4 Two-component sensor histidine kinase n=4 T...  86.1    1e-17
+  UniRef50_UPI000C331E3B HAMP domain-containing protein n=1 Tax=P...  80.7    1e-15
+  UniRef50_A0A0B9GHQ5 Histidine kinase n=2 Tax=Gammaproteobacteri...  79.9    2e-15
+  UniRef50_A0A1T4R5L8 Sensor protein CpxA n=211 Tax=Vibrionaceae ...  78.8    5e-15
+  UniRef50_E3BFN9 Histidine kinase n=1 Tax=Vibrio caribbeanicus A...  74.9    1e-13
+  UniRef50_A8FUU3 Putative two-component system sensor kinase n=6...  70.3    5e-12
+  UniRef50_A9EKH4 Hypothetical two-component system sensor kinase...  64.1    2e-10
+  UniRef50_A0A151JHR5 Histidine kinase n=9 Tax=Vibrio TaxID=662 R...  65.3    3e-10
+  UniRef50_Q2BX79 Histidine kinase n=56 Tax=Vibrionales TaxID=135...  61.0    6e-09
+  UniRef50_A0A090IHT8 Sensor protein n=9 Tax=Moritella TaxID=5805...  59.5    3e-08
+  UniRef50_A0A1S2TJ73 Histidine kinase n=17 Tax=Shewanella TaxID=...  59.1    3e-08
+  UniRef50_A0A099KUZ3 Integral membrane sensor signal transductio...  56.8    2e-07
+  UniRef50_C9P1E1 Two component system histidine kinase n=4 Tax=V...  50.6    3e-05
+  UniRef50_UPI00093536D4 HAMP domain-containing protein n=1 Tax=V...  46.4    7e-04
+
+
+> UniRef50_UPI0001C2FA41 Sensor protein pfeS n=1 Tax=Pseudomonas 
+aeruginosa TaxID=287 RepID=UPI0001C2FA41
+Length=125
+
+ Score = 138 bits (349),  Expect = 1e-39, Method: Composition-based stats.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  13   YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  72
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  73   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  124
+
+
+> UniRef50_A0A2D9LCK3 Two-component sensor histidine kinase (Fragment) 
+n=2 Tax=Alteromonadaceae TaxID=72275 RepID=A0A2D9LCK3_9ALTE
+Length=270
+
+ Score = 140 bits (353),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 46/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   +  L D+   AE  +         R+ ++L   E+TW A+V   ++ L  + LS
+Sbjct  37   FIARKHQETLKDWGHTAERLYLAGDEQALARWLEQLQRDENTWAAVVRSEIQPLAGSELS  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +        R ++W        E P + + F         +I LP+R+ P
+Sbjct  97   LQFQEGFRLGRNVEWKIHLYF-TENPIMDLTF--ADGHTHFLITLPQRMRP  144
+
+
+> UniRef50_UPI000414EC01 HAMP domain-containing protein n=1 Tax=Psychromonas 
+sp. SP041 TaxID=1365007 RepID=UPI000414EC01
+Length=453
+
+ Score = 143 bits (362),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 46/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L +YA+ AE  + +        +   L   E+TWVA+V   L     T + 
+Sbjct  37   FIKIEHQQQLNEYAKHAEQLYLQGQHEQLSDWLGTLQKNENTWVAIVKSSLTPTLGTYMQ  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E        R +DW       ++ P + + F    +    +IQLPER+ P
+Sbjct  97   QEYLDRFVLGRGIDWKVHLYF-NQNPVMEVPFV--DKNTHFLIQLPERMRP  144
+
+
+> UniRef50_A0A137SII6 Signal transduction histidine kinase n=11 
+Tax=Gammaproteobacteria TaxID=1236 RepID=A0A137SII6_9ALTE
+Length=448
+
+ Score = 143 bits (361),  Expect = 2e-38, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 45/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   +  L  + R AE  +          + + L  +EDTW A+V   ++ L  + LS
+Sbjct  37   FIAKHHQDTLKQWGRTAERLYLSGDERALADWLENLQVQEDTWAAVVRSSVQPLAGSELS  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +        R ++W       D  P + + F         +I LP+R+ P
+Sbjct  97   GQFMEGFRLGRNVEWKIHLYFAD-NPIMDMTF--ADGHTHFLITLPQRMRP  144
+
+
+> UniRef50_A0A2D6VX03 Histidine kinase (Fragment) n=13 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A2D6VX03_9ALTE
+Length=412
+
+ Score = 141 bits (356),  Expect = 7e-38, Method: Composition-based stats.
+ Identities = 25/110 (23%), Positives = 46/110 (42%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +A   +  L D+   AE  +         R+ ++L   E+TW A+V   ++ L  + LS+
+Sbjct  1    IARKHQETLKDWGHTAERLYLAGDEQALARWLEQLQRDENTWAAVVRSEIQPLAGSELSS  60
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +        R ++W        E P + + F         +I LP+R+ P
+Sbjct  61   QFQEGFRLGRNVEWKIHLYF-TENPIMDLTF--ADGHTHFLITLPQRMRP  107
+
+
+> UniRef50_A4XQE7 Integral membrane sensor signal transduction 
+histidine kinase n=23 Tax=Pseudomonadales TaxID=72274 RepID=A4XQE7_PSEMY
+Length=444
+
+ Score = 141 bits (356),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 43/111 (39%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L  Y  QAE  +R        R+   L  +E TW A+V   +  L  + L+
+Sbjct  37   FIDAEHQRTLRHYGEQAEAMYRAGDHEALARWLNTLQQQEQTWAAVVEAEVRPLAGSVLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R + W      Q+  P + + F     +   +I LP+R+ P
+Sbjct  97   ERFYEGFGLGRDVSWKIHLYFQE-NPIMDLPF--ADGRTHFLIILPQRMRP  144
+
+
+> UniRef50_I1YFA5 Integral membrane sensor signal transduction 
+histidine kinase n=2 Tax=Methylophaga TaxID=40222 RepID=I1YFA5_METFJ
+Length=453
+
+ Score = 141 bits (356),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 50/111 (45%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F++P  +  L DYAR+AE  +++   A   +F   +S +E TWVA+V   L  +  T L 
+Sbjct  37   FISPLHQQTLRDYAREAEQYYQQGDMATLTQFLARVSDEEQTWVAVVESDLTPIAGTTLL  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                   T  R + W      ++  P + + F         +I LP+ + P
+Sbjct  97   PSYKERFTLGRDVSWKIHLYFKE-NPVMDVTFE--DGNTHFLILLPQHMRP  144
+
+
+> UniRef50_I1XII4 Integral membrane sensor signal transduction 
+histidine kinase n=18 Tax=Gammaproteobacteria TaxID=1236 RepID=I1XII4_METNJ
+Length=447
+
+ Score = 141 bits (355),  Expect = 1e-37, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 44/111 (40%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L DYA  AE  + +        +   +  +EDTWVAL+   L  L  + + 
+Sbjct  37   FIDQHYQQQLIDYASHAEKLYLQGEEEKLADWINTIQQREDTWVALIRSKLTPLAGSEMD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 +    R + W        + P + I F         +I+LP+R+ P
+Sbjct  97   NYFIDNFALGRDISWKIHLYFA-QNPIMDITF--SDGHTHFLIRLPQRMRP  144
+
+
+> UniRef50_A0A1B1NUI9 Heme sensor protein HssS n=7 Tax=Vibrio TaxID=662 
+RepID=A0A1B1NUI9_9VIBR
+Length=444
+
+ Score = 140 bits (354),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 44/111 (40%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++    +  +  +   A+    +    G  ++  +L+ +E TW  +V   ++ +   PL+
+Sbjct  37   YIETQHQQEILQWGNTAQQFIEQGDTQGLNQWLTQLANQEQTWATVVKSQIDVVSGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                S     R ++W       D  P + +     P     +I LPER+ P
+Sbjct  97   QRFWSGYGIGRNVEWKIHLDFPD-NPIMEV--ALSPSNHHFLIILPERMRP  144
+
+
+> UniRef50_A0A0E0YGS1 Integral membrane sensor signal transduction 
+histidine kinase n=21 Tax=Alteromonas TaxID=226 RepID=A0A0E0YGS1_ALTME
+Length=476
+
+ Score = 141 bits (355),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+  A +  L  Y ++AE  +  +G      F +E+  KEDTW+A+V   + +   T + 
+Sbjct  37   FIDKAHQEALYSYGQEAEKIYLEDGEQALAAFLQEVKTKEDTWLAVVNSQMTTFADTQML  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E        R  +W       +  P + + F    +    +IQLP+R+ P
+Sbjct  97   DEFVDRFQIGRSPEWKIHLYFSE-NPVMEVPFV--DDNTHFLIQLPQRMRP  144
+
+
+> UniRef50_A0A125QH63 Sensor protein PfeS n=491 Tax=Bacteria TaxID=2 
+RepID=A0A125QH63_PSEFL
+Length=452
+
+ Score = 140 bits (353),  Expect = 3e-37, Method: Composition-based stats.
+ Identities = 50/111 (45%), Positives = 71/111 (64%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+   R  L  YA  AE AW  +G+AG + + + ++ +E TWV ++G  L+SL STPLS
+Sbjct  45   YLSEKSREILTGYAAGAELAWSTQGSAGVDAWLQRMAERESTWVGVIGNDLQSLSSTPLS  104
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +ES  LTF R LDWP SR +   LP++ + FP  P  G LVI+LP+R +P
+Sbjct  105  DKESQRLTFLRGLDWPVSRHVIG-LPWMKVPFPVDPGAGSLVIELPQRFMP  154
+
+
+> UniRef50_UPI00085935FB HAMP domain-containing protein n=1 Tax=Pseudomonas 
+aeruginosa TaxID=287 RepID=UPI00085935FB
+Length=294
+
+ Score = 137 bits (345),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 108/112 (96%), Positives = 108/112 (96%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADR YLADYARQAEDAWR EGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  37   YFLAPADRSYLADYARQAEDAWRSEGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  97   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  148
+
+
+> UniRef50_A0A2C9ELH2 Sensor protein PfeS n=42 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=A0A2C9ELH2_PSEPH
+Length=445
+
+ Score = 140 bits (352),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 83/112 (74%), Positives = 97/112 (87%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFL PADR YLA YA+QAE AWR+ G A  + F+++L+ +EDTWVA++G  L+SLGSTPL
+Sbjct  37   YFLDPADRQYLASYAQQAEHAWRQGGVAAVDEFQRQLATREDTWVAVIGDRLQSLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +AEE+SHLTF RKLDWP SRRLQDELPYVSIEFP HPEQGRLV+QLPERLLP
+Sbjct  97   TAEEASHLTFMRKLDWPMSRRLQDELPYVSIEFPEHPEQGRLVLQLPERLLP  148
+
+
+> UniRef50_A0A244CTL1 Uncharacterized protein n=1 Tax=Pseudoalteromonas 
+ulvae TaxID=107327 RepID=A0A244CTL1_9GAMM
+Length=454
+
+ Score = 139 bits (351),  Expect = 4e-37, Method: Composition-based stats.
+ Identities = 29/111 (26%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++  A +  L DYA  A+  WR        ++ +++  +E TWVA+V   L    ++ LS
+Sbjct  46   YIDDAHQQALLDYAHHAQSLWRLGDDTALAKYIEQIEQQESTWVAIVESALMLKANSTLS  105
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +     T  R + W       +  P + I F         +IQLP R+ P
+Sbjct  106  QDYIDTFTLGRDVSWKIHLYF-ENNPVMGIRFADSD--THFLIQLPARMRP  153
+
+
+> UniRef50_Q04804 Sensor protein PfeS n=194 Tax=root TaxID=1 RepID=PFES_PSEAE
+Length=446
+
+ Score = 139 bits (350),  Expect = 6e-37, Method: Composition-based stats.
+ Identities = 110/112 (98%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL
+Sbjct  37   YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEESSHLTF RKLDWP SRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP
+Sbjct  97   SAEESSHLTFMRKLDWPMSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  148
+
+
+> UniRef50_A0A166LS27 Histidine kinase n=6 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A166LS27_9GAMM
+Length=460
+
+ Score = 138 bits (348),  Expect = 1e-36, Method: Composition-based stats.
+ Identities = 32/111 (29%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++  + R  L +YA++AE     EG      +   L  KE+TW+A+  P + +L +T LS
+Sbjct  37   YIDQSYREELKNYAKEAERILNTEGEEALAEWVDHLEKKENTWIAIATPTISTLANTKLS  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                   T  R ++W        + P + I F       R +IQLP+R+ P
+Sbjct  97   QHYLDAFTLGRSIEWKIHLYF-TQNPTMDIPF--ADGHTRFLIQLPQRMRP  144
+
+
+> UniRef50_A0A0F7XTU5 Sensor protein PfeS n=284 Tax=Proteobacteria 
+TaxID=1224 RepID=A0A0F7XTU5_9PSED
+Length=466
+
+ Score = 138 bits (348),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 49/111 (44%), Positives = 67/111 (60%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            FL+   R  L  YA +AE AWR  GA G + +  E+  +E  WV ++   L+ LGS  L+
+Sbjct  39   FLSEPARQVLRGYAAEAEQAWRSGGAEGVDAWLAEMRGREQGWVGVLDGDLQPLGSADLT  98
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            A ++  LT  R +DWP SRR   + P++ + FPG PEQG LVI+LPER  P
+Sbjct  99   AGQAQRLTRLRGVDWPMSRRSIGQ-PWLRLPFPGAPEQGMLVIELPERFNP  148
+
+
+> UniRef50_UPI000948B29D HAMP domain-containing histidine kinase 
+n=2 Tax=Neptunomonas phycophila TaxID=1572645 RepID=UPI000948B29D
+Length=459
+
+ Score = 138 bits (347),  Expect = 2e-36, Method: Composition-based stats.
+ Identities = 30/111 (27%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +++ +D+  L  Y R+AE  ++       ER+ +EL  KEDTW A+V   +E    + L 
+Sbjct  37   YISKSDQQTLISYGRKAETLYQAGQEKILERWLQELRIKEDTWAAVVESSIEVKAGSDLP  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               +   +  R ++W      +   P + I F     +   +IQLP R+ P
+Sbjct  97   LHYTQGFSLGRSVEWKIHLYFKA-NPTMDIPF--ADGKTHFLIQLPARMRP  144
+
+
+> UniRef50_A0A1A8LQ62 Signal transduction histidine kinase n=1 
+Tax=Halomonas sp. HL-93 TaxID=1666906 RepID=A0A1A8LQ62_9GAMM
+Length=447
+
+ Score = 136 bits (344),  Expect = 4e-36, Method: Composition-based stats.
+ Identities = 31/110 (28%), Positives = 48/110 (44%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +AP  +  LAD+  +AE  +          +   L A+EDTW A+V   +  +    LSA
+Sbjct  38   IAPHHQRTLADWGTKAEALYTAGDMQALGEWLDALQAQEDTWAAVVTSDVTPVAGGTLSA  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +        R ++WP      D  P + I F G       +I LP+R+ P
+Sbjct  98   QFKEGYRLGRLIEWPIHLYFPD-NPIMDITFEG--GHRHFLITLPQRMRP  144
+
+
+> UniRef50_UPI0002EE955C HAMP domain-containing protein n=3 Tax=Alteromonadales 
+TaxID=135622 RepID=UPI0002EE955C
+Length=445
+
+ Score = 136 bits (344),  Expect = 5e-36, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A  DR  L  +   AE  +          +  +L A+E+TW+++ G  ++ +      
+Sbjct  37   FIAEQDRAQLQAWGAHAEQLYTAGKTTELNTWLADLKAQENTWISIAGFKVKHIAGETFD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E   +  F R ++W       ++ P + I F        L+I+LP+R+ P
+Sbjct  97   KEIVGNYHFGRSVEWKIHLYF-EQNPIMEIPF--TDSNASLLIKLPDRMRP  144
+
+
+> UniRef50_A0A099L668 Integral membrane sensor signal transduction 
+histidine kinase n=2 Tax=Alteromonadales TaxID=135622 RepID=A0A099L668_COLPS
+Length=457
+
+ Score = 135 bits (341),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 27/110 (25%), Positives = 46/110 (42%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +A   +  +  YA + E  + +        + K++  +EDTW ++V   L  L  T LS 
+Sbjct  38   IATEHQQQILAYANKTEQLYIQGDMIALSTYMKKIQQQEDTWASVVQSSLMPLADTSLSK  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                  T  R + W       D  P + + F    + G  ++QLP R+ P
+Sbjct  98   RYIDEFTLGRDVSWKIHLYFAD-NPVMGVVF--SDKTGHFLMQLPARMRP  144
+
+
+> UniRef50_V4HUV4 Signal transduction histidine kinase n=21 Tax=Pseudoalteromonas 
+TaxID=53246 RepID=V4HUV4_9GAMM
+Length=445
+
+ Score = 135 bits (341),  Expect = 1e-35, Method: Composition-based stats.
+ Identities = 24/110 (22%), Positives = 39/110 (35%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +    +  L    + AE  +     A    + K++    +TW A+V   L  L  T L  
+Sbjct  41   IKVEHQEELIALGQHAEQLFLNGDMAALSAYVKKIEQAHNTWAAVVQRELTPLADTQLQQ  100
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                  T  R + W          P + I F    ++   +IQLP  + P
+Sbjct  101  YYLDEFTLGRNVRWKIHLYFP-RNPVMDIPF--ADDKTHFLIQLPSHMRP  147
+
+
+> UniRef50_A0A0N0M007 Histidine kinase n=7 Tax=Alteromonadales 
+TaxID=135622 RepID=A0A0N0M007_9GAMM
+Length=445
+
+ Score = 134 bits (339),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 49/111 (44%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   R  L  +++QAE  +  +      ++ + L A+E TWV++   +   +    + 
+Sbjct  37   FIAEQHREQLKQWSKQAEQLYLSDQHEDLVQWLENLQAQEQTWVSVASFNAVHIAGEQIE  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +      F R +DW       +  P + + F        L+I+LPER+ P
+Sbjct  97   KDIVGGYHFGRSIDWKIHLYF-EVNPIMELPFSQT--NASLLIKLPERMRP  144
+
+
+> UniRef50_S2KSJ3 Integral membrane sensor signal transduction 
+histidine kinase n=1 Tax=Pseudomonas plecoglossicida NB2011 
+TaxID=1330531 RepID=S2KSJ3_9PSED
+Length=330
+
+ Score = 133 bits (335),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 85/112 (76%), Positives = 95/112 (85%), Gaps = 0/112 (0%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            YFL+P D+ YLA YA+QAE+AWR  GA GAE +R++L   EDTWVALVGP L+SLGSTPL
+Sbjct  37   YFLSPDDQDYLARYAQQAEEAWRSGGATGAEAYRRQLERAEDTWVALVGPRLDSLGSTPL  96
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            SAEES+ LTF RKLDWP SRRLQDELPYVSI FP HP+ GRLVIQLPERLLP
+Sbjct  97   SAEESARLTFMRKLDWPMSRRLQDELPYVSIAFPEHPQDGRLVIQLPERLLP  148
+
+
+> UniRef50_A0A1E3GSZ7 Sensor protein PfeS n=35 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A1E3GSZ7_9GAMM
+Length=449
+
+ Score = 133 bits (336),  Expect = 6e-35, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 45/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+    +  L DYAR AE  + +        +   +  +EDTWVALV   L  L  + + 
+Sbjct  37   FIDKQYQQQLIDYARHAESLYLQGEEEKLAEWINTIQLQEDTWVALVKSQLTLLADSEMD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                   +  R + W        + P + I F         +I+LP+R+ P
+Sbjct  97   DYFIDTFSLGRDVSWKIHLYFA-QNPIMDIMF--ADRHTHFLIRLPQRMRP  144
+
+
+> UniRef50_A0A119A5Y9 Sensor protein PfeS n=59 Tax=Pseudomonadaceae 
+TaxID=135621 RepID=A0A119A5Y9_9PSED
+Length=462
+
+ Score = 133 bits (334),  Expect = 1e-34, Method: Composition-based stats.
+ Identities = 45/111 (41%), Positives = 62/111 (56%), Gaps = 1/111 (1%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            FL+   R  L  YA +AE AW     AG +++ + L   E  W+ ++G  L+SL S PL 
+Sbjct  44   FLSQEARSTLLRYASEAERAWESGQQAGVDQWLQALGQVESGWIGVIGQDLQSLSSYPLR  103
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              ES  LTF R LDWP S  L+   P++ + FP     G LVI+LP+R +P
+Sbjct  104  DAESQRLTFLRGLDWPVS-HLKATRPWIKVPFPRDSSLGYLVIELPQRFMP  153
+
+
+> UniRef50_K5UXP8 HAMP domain protein (Fragment) n=1 Tax=Vibrio 
+sp. HENC-02 TaxID=992011 RepID=K5UXP8_9VIBR
+Length=338
+
+ Score = 130 bits (327),  Expect = 3e-34, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L  + R  + D+   A+    ++   G + + +EL+ KE TW  ++  HL+  G  PL+
+Sbjct  34   YLKKSHRQQILDWGNTAQTFIDQQDWHGLDVWLEELAIKESTWATVLQSHLDVKGGNPLN  93
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R ++W       D  P + +     P     +I LP+R+ P
+Sbjct  94   QRFWQGYGIGRSVEWKIHLDFPD-NPIMEVPL--SPFGYHFLILLPDRMRP  141
+
+
+> UniRef50_A7N2U6 Uncharacterized protein n=47 Tax=Vibrionaceae 
+TaxID=641 RepID=A7N2U6_VIBCB
+Length=446
+
+ Score = 131 bits (330),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 22/111 (20%), Positives = 45/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L  + R  +  +   A+    ++   G + + ++L+  E TW  ++   L+  G  PL+
+Sbjct  37   YLKKSHRQQILAWGHSAQTYVDQQDWQGLDIWLEQLAIDESTWATVLQSRLDVKGGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R ++W       D  P + +     P     +I LP+R+ P
+Sbjct  97   ERFWQGYGIGRSVEWKIHLDFPD-NPIMEVPL--SPSGYHFLILLPDRMRP  144
+
+
+> UniRef50_A0A0Q0H2C0 Sensor protein PfeS n=18 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0Q0H2C0_9GAMM
+Length=451
+
+ Score = 129 bits (324),  Expect = 3e-33, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 45/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+ + R  L  + +QAED   +      E++   L  +E+ W  +    +  L      
+Sbjct  37   MLSDSSRAQLLKWQKQAEDILHQGDIEALEQWVSNLQQQENIWAVIARADVVELAGNRNH  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E +     R +DW       D  P + + F     +  LV+QLPER+ P
+Sbjct  97   RYEYTGYNLGRSIDWKIHLYF-DHAPVMQLPFTH--NEASLVVQLPERMRP  144
+
+
+> UniRef50_A0A095S9M5 Kinase sensor protein n=5 Tax=Alcanivorax 
+TaxID=59753 RepID=A0A095S9M5_9GAMM
+Length=446
+
+ Score = 128 bits (323),  Expect = 4e-33, Method: Composition-based stats.
+ Identities = 42/110 (38%), Positives = 59/110 (54%), Gaps = 1/110 (1%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+   +  L  YA  AE AW   GAAG E +   +  +E   + +V    +SL   PL+ 
+Sbjct  40   LSDEAKSALRGYAADAEQAWLENGAAGVEHWIAAMGDREPGNIMVVSQDDQSLSGIPLTE  99
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E + L F R L+W  S R +  +PY+ + FP  PEQG LV+QLP R +P
+Sbjct  100  SERAGLRFQRGLEWRMSFRYR-SMPYIGVPFPKSPEQGSLVMQLPPRYMP  148
+
+
+> UniRef50_A0A290T672 Uncharacterized protein n=4 Tax=Pseudoalteromonas 
+TaxID=53246 RepID=A0A290T672_9GAMM
+Length=445
+
+ Score = 128 bits (322),  Expect = 5e-33, Method: Composition-based stats.
+ Identities = 28/111 (25%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F+A   R+ L  + RQAE  + +E  A  + + + L  +E T+V++       +    L 
+Sbjct  37   FIAEQHRNQLNAWGRQAETLYLKENKAALQAWLETLKRQEKTYVSIASFEALHIAGDTLD  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                    F R ++W       DE P + + F        LVI+LP+ + P
+Sbjct  97   KNIVGAYHFGRSVEWKIHLYF-DENPIMEVPFTQT--NASLVIRLPDYMRP  144
+
+
+> UniRef50_A0A0M0IMD1 Histidine kinase n=18 Tax=Vibrio TaxID=662 
+RepID=A0A0M0IMD1_9VIBR
+Length=444
+
+ Score = 128 bits (321),  Expect = 7e-33, Method: Composition-based stats.
+ Identities = 21/111 (19%), Positives = 41/111 (37%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++  + +  + D+    +D            +  ELS +E TW  +V   ++ +   PL+
+Sbjct  37   YIKQSHQQEILDWGAHVQDLLAARKFDELNSWVNELSIREKTWATVVRSQIDVVSGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R + W       D  P + +     P     +I+LP R+ P
+Sbjct  97   QRFWEGYGIGRNVAWKIHLDFPD-NPIMEV--ALTPSDYHFLIKLPARMRP  144
+
+
+> UniRef50_A0A0U3I5U7 Histidine kinase n=3 Tax=Alteromonadales 
+TaxID=135622 RepID=A0A0U3I5U7_9GAMM
+Length=447
+
+ Score = 127 bits (320),  Expect = 8e-33, Method: Composition-based stats.
+ Identities = 23/111 (21%), Positives = 42/111 (38%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             +A ADR  L  +  ++E  +          +  +L  +E TW ++       L   P+ 
+Sbjct  37   MIAKADRAELTQWRIKSEQLYMANNTQVLNAWLAQLMKEESTWASVASFRAIHLAGEPID  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +      F R ++W          P + + F        L+I+LP R+ P
+Sbjct  97   KDIVGTYHFGRSIEWKIHLYFSA-NPVMELPFEHS--NASLLIKLPSRMRP  144
+
+
+> UniRef50_G7G834 Periplasmic sensor signal transduction histidine 
+kinase n=9 Tax=root TaxID=1 RepID=G7G834_9GAMM
+Length=452
+
+ Score = 127 bits (319),  Expect = 2e-32, Method: Composition-based stats.
+ Identities = 25/111 (23%), Positives = 46/111 (41%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+ + R  L D+  +AE  + +   +  ER+   L  +E+ W  +   ++  L      
+Sbjct  37   MLSDSSRTELTDWQTKAEIIFDQGDMSELERWVDNLQQQENIWAVIAKANVVELAGNRSH  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E +     R ++W       D  P + + F        LV+QLP+R+ P
+Sbjct  97   RYEYTGYNLGRSINWKIHLYF-DRAPAMQLPF--KDGTTSLVVQLPQRMRP  144
+
+
+> UniRef50_A0A1M5YRG3 Signal transduction histidine kinase n=1 
+Tax=Candidimonas bauzanensis TaxID=658167 RepID=A0A1M5YRG3_9BURK
+Length=471
+
+ Score = 125 bits (314),  Expect = 8e-32, Method: Composition-based stats.
+ Identities = 38/111 (34%), Positives = 57/111 (51%), Gaps = 2/111 (2%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            F++ AD+  L +YARQAE AW+ +G  G   +   +  KE  WV +V  H  ++   PL 
+Sbjct  41   FISDADKDILRNYARQAELAWKEQGNGGLAAYLAMVRQKEQVWVEVVDEHGRTMDGLPLR  100
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E   L F R+LDW   R  +++   V + F       RLV++LP  + P
+Sbjct  101  GRERKRLNFMRELDWSVGRPQRNDNTTVFLPF--ADGLHRLVMELPWHMNP  149
+
+
+> UniRef50_A0A101M6I6 Uncharacterized protein n=1 Tax=Rheinheimera 
+sp. EpRS3 TaxID=1712383 RepID=A0A101M6I6_9GAMM
+Length=443
+
+ Score = 124 bits (311),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 34/111 (31%), Positives = 54/111 (49%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+             L+PA R  L  Y  QAE  +     A  +++  +   +E++WV +V   + S+ ST L 
+Sbjct  37   MLSPAARQTLLQYRDQAEALYDPANPAALQQWLNQFRQQENSWVTVVHLDVVSIDSTDLQ  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            A  +      R +DWP    L D  P + + F  H     L+++LPE+L P
+Sbjct  97   ARFTDGFILGRSIDWPIHLHL-DYNPVMDLPFIHH--HASLLLELPEQLRP  144
+
+
+> UniRef50_A0A259M930 Two-component sensor histidine kinase (Fragment) 
+n=1 Tax=Pseudomonas sp. 34-62-33 TaxID=1970429 RepID=A0A259M930_9PSED
+Length=322
+
+ Score = 122 bits (307),  Expect = 2e-31, Method: Composition-based stats.
+ Identities = 46/111 (41%), Positives = 63/111 (57%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L    R  L  YAR+AE AW+ EGA+G + F ++L   E  W  +V  H  SL S PLS
+Sbjct  41   YLPEPTRQTLKGYAREAETAWQEEGASGVDAFLRQLQEHEQIWAVVVDAHKRSLSSRPLS  100
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            AE++  L F RKLD+P  R       Y+    P +  + RLV++LP+RL P
+Sbjct  101  AEQAQRLDFVRKLDFPVGRPGGTPTFYI----PFNAGEARLVMELPQRLNP  147
+
+
+> UniRef50_N2J3U4 Uncharacterized protein n=3 Tax=Pseudomonas TaxID=286 
+RepID=N2J3U4_9PSED
+Length=450
+
+ Score = 122 bits (306),  Expect = 7e-31, Method: Composition-based stats.
+ Identities = 45/110 (41%), Positives = 60/110 (55%), Gaps = 1/110 (1%)
+
+Query  1    YFLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPL  60
+            Y LA AD+  L +YA   E AWR +G  G E   + +   E  W   V    + LG   L
+Sbjct  41   YELAQADKEELLNYAASVEQAWRTQGKEGVETALRRIREGEQVWAVAVDRLYQPLGQRAL  100
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERL  110
+            +  ++   +F R+LDWP S R   ELP + I FP HPE GRL ++LPER+
+Sbjct  101  TPSDADRFSFMRRLDWPLSGR-ATELPVMDIPFPQHPEAGRLAMELPERM  149
+
+
+> UniRef50_A0A266NLD7 Two-component sensor histidine kinase n=8 
+Tax=Pseudomonas TaxID=286 RepID=A0A266NLD7_PSEFR
+Length=447
+
+ Score = 120 bits (302),  Expect = 3e-30, Method: Composition-based stats.
+ Identities = 41/110 (37%), Positives = 51/110 (46%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+   +     YARQAE AWR  G  G + F   L  +E  W A+V  H +SL S PL  
+Sbjct  42   LSEPAKQSHIAYARQAETAWRERGTQGVDEFLLSLRKQERVWAAVVDEHQQSLSSQPLDE  101
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E   L F R L W   R       YV    P   ++ RLV++LP R  P
+Sbjct  102  HERRKLDFVRPLHWTVGRPNGWPTFYV----PFSDDKARLVMELPHRFNP  147
+
+
+> UniRef50_F6AG62 Integral membrane sensor signal transduction 
+histidine kinase n=10 Tax=Pseudomonas TaxID=286 RepID=F6AG62_PSEF1
+Length=454
+
+ Score = 120 bits (301),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 44/110 (40%), Positives = 57/110 (52%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+P+ R  L  YAR+AEDAWR  G  G + F      +E+ WV  V     SL S PLS 
+Sbjct  43   LSPSTRSELTGYAREAEDAWRSRGRIGLDEFLNAFYQRENVWVVAVDAWHRSLSSCPLSE  102
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            EE+  L F R+LD    R     + Y+    P   + G LV++LP RL P
+Sbjct  103  EEAQRLNFMRRLDQKVGRPGGQPVFYM----PFSDDAGYLVMELPPRLDP  148
+
+
+> UniRef50_A0A1E5XDH5 Two-component sensor histidine kinase n=38 
+Tax=Pseudomonadales TaxID=72274 RepID=A0A1E5XDH5_9PSED
+Length=447
+
+ Score = 119 bits (300),  Expect = 5e-30, Method: Composition-based stats.
+ Identities = 43/112 (38%), Positives = 64/112 (57%), Gaps = 2/112 (2%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDT-WVALVGPHLESLGSTPL  60
+            FL P  +  +  YARQAE AW + G+ G E + + ++ +E   W+ +V     SL    L
+Sbjct  39   FLEPMAKRQMHAYARQAERAWLQGGSDGVEHWLERMAKREPGVWLVVVDNKWRSLTRHKL  98
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             AE+   L   R LD P S+R + +L Y+ + F   P+QG+LV+QLP+R LP
+Sbjct  99   DAEDYVRLRRVRGLDNPMSKRARGQL-YIGMPFVHAPQQGQLVMQLPQRFLP  149
+
+
+> UniRef50_A0A2D9FJD0 Two-component sensor histidine kinase n=1 
+Tax=Halomonas sp. TaxID=1486246 RepID=A0A2D9FJD0_HALSX
+Length=464
+
+ Score = 119 bits (299),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 32/110 (29%), Positives = 50/110 (45%), Gaps = 3/110 (3%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +AP  +  LAD+   AE  +R    A    + + L A+E+TW A+V   +  +    LSA
+Sbjct  38   IAPHHQRTLADWGATAEALYRAGDDAALAAWLEALQAQENTWAAVVTSSVTPVAGGTLSA  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +        R ++WP      D  P + I F G       +I LP+R+ P
+Sbjct  98   QFEEGYRLGRLIEWPIHLYFPD-NPIMDITFAG--GHRHFLITLPQRMRP  144
+
+
+> UniRef50_U1ZCR8 Uncharacterized protein (Fragment) n=1 Tax=Pseudomonas 
+sp. EGD-AK9 TaxID=1386078 RepID=U1ZCR8_9PSED
+Length=201
+
+ Score = 115 bits (289),  Expect = 9e-30, Method: Composition-based stats.
+ Identities = 38/110 (35%), Positives = 53/110 (48%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L  + +  L  Y ++AE AWR  G +G + F   L  +E  W  +V     SL S  L  
+Sbjct  42   LPASTKALLRAYGQEAEAAWREAGMSGVDAFLARLHEREQVWAVVVDGQQRSLSSQALDG  101
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +E + L F R+LDW   R       YV    P    + RLV++LP+RL P
+Sbjct  102  DERARLDFVRRLDWLVGRPGGTPTFYV----PFSDGESRLVMELPQRLNP  147
+
+
+> UniRef50_Q1N0E0 Periplasmic Sensor Signal Transduction Histidine 
+Kinase n=1 Tax=Bermanella marisrubri TaxID=207949 RepID=Q1N0E0_9GAMM
+Length=462
+
+ Score = 118 bits (296),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 30/112 (27%), Positives = 51/112 (46%), Gaps = 5/112 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            ++   R+ L +YA +A D   +      +++ + L  KEDTWVA++    + L     + 
+Sbjct  51   ISKEHRNTLLNYALEASDLIDKNNIDQLKKWTENLKRKEDTWVAILKTEPKWLVGNIDTD  110
+
+Query  63   EES--SHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 S LT  R +++P         P + I  P    Q  L+IQLP+ + P
+Sbjct  111  IFQGISDLTIGRDINYPIHLNFS-YNPVMKIPIP--DSQYNLMIQLPQHMRP  159
+
+
+> UniRef50_A0A1G7Y6V8 Two-component system, OmpR family, sensor 
+histidine kinase PfeS n=2 Tax=Pseudomonas aeruginosa group 
+TaxID=136841 RepID=A0A1G7Y6V8_9PSED
+Length=453
+
+ Score = 118 bits (295),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 42/110 (38%), Positives = 58/110 (53%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+   R  L DYAR+AE AWR  G AG + F ++L  +E  W  ++     SL S  LS 
+Sbjct  40   LSEPARAILTDYAREAEKAWRERGRAGVDDFLRQLREREGVWAVVIDERRHSLSSGVLSE  99
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            E+S +L F R +D    R   +   YV    P    + RLV++LP+RL P
+Sbjct  100  EQSQYLEFNRPIDGSLGRPGGNPPLYV----PFSDGKARLVMELPQRLNP  145
+
+
+> UniRef50_A0A1Q9RBF6 Sensor protein PfeS n=21 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A1Q9RBF6_PSEPU
+Length=445
+
+ Score = 118 bits (295),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 43/110 (39%), Positives = 53/110 (48%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L    +  LADYA +AE AW   G  G + F + L  +E  W A+VG + +SL S PL  
+Sbjct  42   LPAPTQKILADYAAEAESAWNARGTPGVDDFLRSLREREGVWAAVVGQYDQSLSSQPLRG  101
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             E   L F R LDW   R       YV    P    + RLV+ LP RL P
+Sbjct  102  RERKKLHFMRTLDWSVGRPGGTPTFYV----PFSDSEARLVMDLPARLDP  147
+
+
+> UniRef50_UPI0001B94A1B HAMP domain-containing protein n=5 Tax=Vibrio 
+coralliilyticus TaxID=190893 RepID=UPI0001B94A1B
+Length=444
+
+ Score = 117 bits (294),  Expect = 3e-29, Method: Composition-based stats.
+ Identities = 15/111 (14%), Positives = 42/111 (38%), Gaps = 3/111 (3%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++    +  +  +    +    +       ++  +L+ +E+TW  +V  ++  +   PL+
+Sbjct  37   YIDKNHQQEILAWGEHVQSQLGQGKYDEMNQWVNQLALREETWATVVRSNVSVVSGNPLN  96
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                      R ++W       +  P + +     P     +++LP R+ P
+Sbjct  97   KRFWDGYGIGRNVEWKIHLYFPE-NPIMEV--ALTPSDYHFLVKLPARMRP  144
+
+
+> UniRef50_A0A1Y0KS51 Two-component sensor histidine kinase n=3 
+Tax=Pseudomonas TaxID=286 RepID=A0A1Y0KS51_9PSED
+Length=445
+
+ Score = 117 bits (294),  Expect = 4e-29, Method: Composition-based stats.
+ Identities = 51/112 (46%), Positives = 72/112 (64%), Gaps = 4/112 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDT-WVALVGPHLESLGSTPL  60
+            +L+PA +  L  YA +AE AW + GA G ER+ ++++ +E   WVA++G  LESLG  P 
+Sbjct  39   YLSPAAQQQLHAYADEAEQAWLQSGADGVERWVEQMAVREPGIWVAVIGSSLESLGRQPF  98
+
+Query  61   SAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +AEE SHL   R +D P S+R++  LPY+ I F   P Q  +VIQLP R +P
+Sbjct  99   TAEEFSHLRRLRIVDGPMSQRVRG-LPYLGIPFVQAPGQ--VVIQLPRRFVP  147
+
+
+> UniRef50_A0A1H5YV59 Signal transduction histidine kinase n=4 
+Tax=Oceanospirillales TaxID=135619 RepID=A0A1H5YV59_9GAMM
+Length=449
+
+ Score = 114 bits (287),  Expect = 3e-28, Method: Composition-based stats.
+ Identities = 36/110 (33%), Positives = 55/110 (50%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P  +  L+DYAR+A + ++     G  R   E++ K DTW A++ P L +   T +  
+Sbjct  38   IKPEHQQVLSDYARRASEFYQARNEEGMHRLIAEINEKHDTWAAVITPKLNATLGTHVPE  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            E    L+F RKLDWP     ++    V I  P       LV++LPE + P
+Sbjct  98   EYLGGLSFQRKLDWPVHTVWRE----VLIGIPFKDHAASLVLRLPESMHP  143
+
+
+> UniRef50_A0A1C2E5P3 Two-component sensor histidine kinase n=11 
+Tax=Pseudomonas TaxID=286 RepID=A0A1C2E5P3_9PSED
+Length=443
+
+ Score = 112 bits (281),  Expect = 2e-27, Method: Composition-based stats.
+ Identities = 44/111 (40%), Positives = 60/111 (54%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+   R  L DYA +A  A R+      +R+  EL  KED+W  +V  +L   GS  LS
+Sbjct  39   YLSEDARTILEDYAAEAGAALRQG-PQVLDRWLAELRRKEDSWAVVVDRNLHPQGSQRLS  97
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              E   LTF R  DWP SRR  + LP +S+      +Q  L+++LPERL P
+Sbjct  98   DNERQLLTFVRHHDWPMSRR-GERLPLISVPLGEMGDQ--LIMRLPERLRP  145
+
+
+> UniRef50_W8R9G9 Histidine kinase n=16 Tax=root TaxID=1 RepID=W8R9G9_PSEST
+Length=443
+
+ Score = 111 bits (279),  Expect = 4e-27, Method: Composition-based stats.
+ Identities = 35/111 (32%), Positives = 54/111 (49%), Gaps = 4/111 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+      LA YA +A  A  + G     ++   +  +E +W+ +V   L+ LG   LS
+Sbjct  39   YLSQEAHEILAGYAEEAHAA-LQAGPQTLGQWLARMRQRESSWLVVVDEKLQPLGGQTLS  97
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             EE   LTF R  + P SRR +  LP +S+          L+++LPER  P
+Sbjct  98   DEERQMLTFVRHYERPMSRRYEG-LPLISVPI--ADSGALLIMRLPERFRP  145
+
+
+> UniRef50_UPI000A392A62 HAMP domain-containing protein n=1 Tax=Oceanospirillum 
+sanctuarii TaxID=1434821 RepID=UPI000A392A62
+Length=464
+
+ Score = 111 bits (278),  Expect = 6e-27, Method: Composition-based stats.
+ Identities = 37/110 (34%), Positives = 54/110 (49%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P D+  L DYA +AE  +R++  AG  +   E+ AK  TW A++ P L +   T +  
+Sbjct  38   IDPVDQQVLKDYALRAEVFYRQQDQAGMHQLIDEIEAKHQTWAAVLTPELHTALGTRVPE  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               S L+F RKL WP     ++    V I  P       LVI+LP  + P
+Sbjct  98   AYQSRLSFQRKLAWPVHGVWKE----VLIGIPFQEHAASLVIRLPSAMHP  143
+
+
+> UniRef50_Q0VNW0 Putative kinase sensor protein n=28 Tax=Alcanivoracaceae 
+TaxID=224372 RepID=Q0VNW0_ALCBS
+Length=451
+
+ Score = 111 bits (277),  Expect = 9e-27, Method: Composition-based stats.
+ Identities = 40/110 (36%), Positives = 61/110 (55%), Gaps = 0/110 (0%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+      +  YA  AE AW  EG AG +++   + ++E   +A++    +SL STPL+ 
+Sbjct  40   LSDQAVAVMRGYAAAAEQAWLAEGRAGVDQWLAGMRSRESGDIAVISNTDQSLSSTPLTV  99
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +E S L F R +    S R   ++PY+ + FP  PEQG L++QLP R  P
+Sbjct  100  QERSGLRFQRGVHSRMSFRYGKKMPYLGLPFPTVPEQGSLLMQLPPRFRP  149
+
+
+> UniRef50_UPI000483E022 HAMP domain-containing protein n=1 Tax=Marinobacterium 
+jannaschii TaxID=64970 RepID=UPI000483E022
+Length=443
+
+ Score = 110 bits (276),  Expect = 1e-26, Method: Composition-based stats.
+ Identities = 25/112 (22%), Positives = 45/112 (40%), Gaps = 5/112 (4%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++    +  L  Y  QAE+           R+ ++L  +E  +  +V  +  SL S  L 
+Sbjct  37   YIDSQYQEELRAYRSQAENLVATADNQALTRWLEQLQNEEQVFATVVSINATSLTSPILP  96
+
+Query  62   AEESSHL-TFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              +   L    R+L WP       + P + + F         +I+LP+R+ P
+Sbjct  97   DAKLRPLIGAGRELKWPIHLH--HDNPLMRVPFEHSSNL--FLIELPQRMRP  144
+
+
+> UniRef50_A0A166UXX5 Uncharacterized protein n=2 Tax=Thalassolituus 
+sp. HI0120 TaxID=1822263 RepID=A0A166UXX5_9GAMM
+Length=471
+
+ Score = 106 bits (266),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 33/118 (28%), Positives = 48/118 (41%), Gaps = 12/118 (10%)
+
+Query  3    LAPADRHYLADYARQAEDAWRR-----EGAAGAERFRKELSAKEDTWVALVGPHLESLGS  57
+            + P  R  L  YA QA + + R     +       + K+L  KE+TW A+     E L  
+Sbjct  46   IEPEHRQTLRLYASQASNLYLRYPDIDQRQQELNSWLKQLMKKENTWAAMGKTQAEWLAG  105
+
+Query  58   ---TPLSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+               T L  E    L+  R +D+P         P + +   G      L IQLP+R+ P
+Sbjct  106  ELDTRLFGENPD-LSVGRSIDYPIHLYYS-FNPVMKLRMEGTD--YFLFIQLPQRMRP  159
+
+
+> UniRef50_A0A1B1EIC7 Two-component sensor histidine kinase n=140 
+Tax=Vibrio TaxID=662 RepID=A0A1B1EIC7_VIBNA
+Length=457
+
+ Score = 106 bits (264),  Expect = 5e-25, Method: Composition-based stats.
+ Identities = 18/110 (16%), Positives = 39/110 (35%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +  + +  + + A QA +            +       +  ++ ++   L+ +    +  
+Sbjct  49   VPDSVKSEMLELAHQANELIEYGDMDELADWANA----QQFYLFVLNEQLQPITHRLMHP  104
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R LD       +   P +++       +  LVI+LP RL P
+Sbjct  105  HFEFKLQFKRSLD--SQLEDKVNQPLINLPLV---NEHSLVIELPHRLHP  149
+
+
+> UniRef50_Q2BGC7 Sensor protein CpxA n=3 Tax=Oceanospirillaceae 
+TaxID=135620 RepID=Q2BGC7_NEPCE
+Length=450
+
+ Score = 104 bits (260),  Expect = 2e-24, Method: Composition-based stats.
+ Identities = 26/110 (24%), Positives = 41/110 (37%), Gaps = 4/110 (4%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + P ++  L   A +AE                E+ A+  TW A+V      + S+P+  
+Sbjct  38   ITPDNQSVLRQLAVRAEKDMAVGDREDLLALALEVKAQYGTWAAVVLSDNTIISSSPIPK  97
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R + WP    + D    V +  P        VI+LP  + P
+Sbjct  98   HLRVKLGFQRHVYWPVHEFMTD----VLVGIPFSDNSASFVIELPREMFP  143
+
+
+> UniRef50_A0A2E3BBX6 Uncharacterized protein (Fragment) n=1 Tax=Oleispira 
+sp. TaxID=2024846 RepID=A0A2E3BBX6_9GAMM
+Length=268
+
+ Score = 101 bits (252),  Expect = 6e-24, Method: Composition-based stats.
+ Identities = 23/114 (20%), Positives = 46/114 (40%), Gaps = 8/114 (7%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAA-GAERFRKELSAKEDTWVALVGPHLESLGSTP--  59
+            ++  ++  L +YA QA    +          +  ++   EDTW+A++      L  +   
+Sbjct  39   ISVENQESLQEYAMQASHIIKGRDKTISISDWVDKIGKSEDTWLAVIKSEFTWLAGSYDA  98
+
+Query  60   -LSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             +   E   +T  R + +P         P + ++ P       L+IQLP+ + P
+Sbjct  99   IVLYGEMD-ITTGRDIKYPIHLYYS-RNPVMKLKIPDTEYN--LLIQLPQSMRP  148
+
+
+> UniRef50_A0A109LBS5 Sensor protein PfeS n=14 Tax=Pseudomonas 
+TaxID=286 RepID=A0A109LBS5_PSEFL
+Length=373
+
+ Score = 102 bits (254),  Expect = 9e-24, Method: Composition-based stats.
+ Identities = 39/76 (51%), Positives = 53/76 (70%), Gaps = 1/76 (1%)
+
+Query  37   LSAKEDTWVALVGPHLESLGSTPLSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGH  96
+            ++ +E TWV ++G  L+SLGSTPLS +ES  LTF R LDWP SR +   LP++ + FP  
+Sbjct  1    MAERESTWVGVIGNDLQSLGSTPLSDKESQRLTFLRGLDWPVSRHVIG-LPWMKVPFPVD  59
+
+Query  97   PEQGRLVIQLPERLLP  112
+            P  G LVI+LP+R +P
+Sbjct  60   PGAGSLVIELPQRFMP  75
+
+
+> UniRef50_A0A0F4PFZ8 Histidine kinase n=18 Tax=Vibrio TaxID=662 
+RepID=A0A0F4PFZ8_9VIBR
+Length=462
+
+ Score = 102 bits (254),  Expect = 1e-23, Method: Composition-based stats.
+ Identities = 22/110 (20%), Positives = 38/110 (35%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            + PA +  +   A +A              +       +  ++ ++    + L    +  
+Sbjct  50   VPPALKAQMLTLAEEANVLIEEGDMDDLADWANA----QPFYLFVLNEEHKPLSHRQMHP  105
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R+LD P     Q   P + I      E+  LVIQLP  + P
+Sbjct  106  HFEFKLRFLRELDGP--LNDQVSKPLIGIPLI---ERNTLVIQLPSEVHP  150
+
+
+> UniRef50_A0A1Q1PMQ3 Sensor protein CpxA n=55 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A1Q1PMQ3_9VIBR
+Length=457
+
+ Score = 100 bits (250),  Expect = 6e-23, Method: Composition-based stats.
+ Identities = 19/110 (17%), Positives = 35/110 (32%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +  + +  + + A QA              +       +  ++ ++  +   L    +  
+Sbjct  49   VPASVKVEMLELAHQANILIEEGDMDELADWANA----QHFYLFVLDENQHPLTHRMMHP  104
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R LD       +   P  SI          L+IQLP +L P
+Sbjct  105  HFEFKLKFKRSLD--EQLEGRVSRPIFSIPLV---GNNSLMIQLPHQLHP  149
+
+
+> UniRef50_A0A061Q580 Probable two-component system sensor kinase 
+n=1 Tax=Vibrio sp. JCM 19052 TaxID=1460647 RepID=A0A061Q580_9VIBR
+Length=198
+
+ Score = 96.9 bits (240),  Expect = 1e-22, Method: Composition-based stats.
+ Identities = 21/102 (21%), Positives = 33/102 (32%), Gaps = 9/102 (9%)
+
+Query  11   LADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSHLTF  70
+            + D A QA              +       +  ++ ++  +   L    +       L F
+Sbjct  1    MLDLAHQANVLIEEGDMDELADWANA----QHFYLFVLDENQRPLTHRLMHPHFEFKLKF  56
+
+Query  71   XRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+             R+LD       +   P  +I          LVIQLP RL P
+Sbjct  57   KRRLD--EQLEGRVSRPIFNIPLV---GNNSLVIQLPHRLHP  93
+
+
+> UniRef50_A0A090P4I0 Probable two-component system sensor kinase 
+n=1 Tax=Vibrio ponticus TaxID=265668 RepID=A0A090P4I0_9VIBR
+Length=294
+
+ Score = 96.5 bits (239),  Expect = 5e-22, Method: Composition-based stats.
+ Identities = 21/110 (19%), Positives = 35/110 (32%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L    +  + D A QA              +       +  ++ ++    + L    +  
+Sbjct  49   LPEPVKQQMRDLASQASVLIETGDMDELADW----ENAQPYYLFVLDKSSQPLTHRNMHP  104
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R+L      R+    P + I       +  LVIQLP  L P
+Sbjct  105  HFEFKLKFLRELGANLGERVAK--PLIGIPLA---NKNTLVIQLPSELHP  149
+
+
+> UniRef50_A0A0C4WKM5 Integral membrane sensor signal transduction 
+histidine kinase n=1 Tax=Azotobacter chroococcum NCIMB 8003 
+TaxID=1328314 RepID=A0A0C4WKM5_9GAMM
+Length=404
+
+ Score = 91.5 bits (226),  Expect = 6e-20, Method: Composition-based stats.
+ Identities = 45/111 (41%), Positives = 59/111 (53%), Gaps = 6/111 (5%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +L+   R  L  YA +A      EG    + FR +L  +E   + L+  HL+SLGS P  
+Sbjct  39   YLSGEARRVLQGYADEAGR-IAWEGPEAVDAFRDDLKQREPGALDLLDAHLQSLGSRP--  95
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            + E S LT  R+L+WP SRR Q  LP +SI       +G L IQLPER  P
+Sbjct  96   SIEPSRLTRMRRLEWPMSRRSQT-LPLISIPLV--EGRGYLAIQLPERYRP  143
+
+
+> UniRef50_A0A264T7B4 Two-component sensor histidine kinase n=4 
+Tax=Photobacterium TaxID=657 RepID=A0A264T7B4_9GAMM
+Length=475
+
+ Score = 86.1 bits (212),  Expect = 1e-17, Method: Composition-based stats.
+ Identities = 16/110 (15%), Positives = 33/110 (30%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +    +  +   + QAE             +       ++ ++ ++      L    +  
+Sbjct  71   VPSRVQSEMLALSLQAEIMIAEGDMDELADW----ERGQEYYLFVLDAQQNVLSGREMHP  126
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R LD       +   P +++         +LVIQ P    P
+Sbjct  127  HFKFKLNFIRSLD--SILDDRVNQPIIAVPLT---NGNQLVIQFPHEKHP  171
+
+
+> UniRef50_UPI000C331E3B HAMP domain-containing protein n=1 Tax=Psychromonas 
+sp. Urea-02u-13 TaxID=2058326 RepID=UPI000C331E3B
+Length=470
+
+ Score = 80.7 bits (198),  Expect = 1e-15, Method: Composition-based stats.
+ Identities = 17/114 (15%), Positives = 36/114 (32%), Gaps = 15/114 (13%)
+
+Query  2    FLAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            ++    +  + + A QAE             +       +  ++ ++      L    + 
+Sbjct  50   YIPGQIQEEMLELAYQAEVLIEEGDLDEVSDW----ERGQKYYLFILDERNHVLSDRDIH  105
+
+Query  62   AEESSHLTFXRKLDWPXSRRL--QDELPYVSIEFPGHPEQGRLV-IQLPERLLP  112
+                  L + R L      R+  Q   P + +      + G  + IQLP  + P
+Sbjct  106  PHFVFKLAYQRDL----HERMESQVRKPIIVLPL----KTGHFLAIQLPSEVHP  151
+
+
+> UniRef50_A0A0B9GHQ5 Histidine kinase n=2 Tax=Gammaproteobacteria 
+TaxID=1236 RepID=A0A0B9GHQ5_9GAMM
+Length=460
+
+ Score = 79.9 bits (196),  Expect = 2e-15, Method: Composition-based stats.
+ Identities = 14/110 (13%), Positives = 35/110 (32%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +    +  + + + QAE   +         +       +  ++ ++  + + +    +  
+Sbjct  54   IPEKIKTEMVELSHQAEVNVQAGDMDELADW----ERGQKYYLFVLDHNHQVISGREMHP  109
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R +D       +   P +++          LVIQ P    P
+Sbjct  110  HFEFKLQFARDID--TIFDNKVNQPIIALPL---STGHTLVIQFPYERHP  154
+
+
+> UniRef50_A0A1T4R5L8 Sensor protein CpxA n=211 Tax=Vibrionaceae 
+TaxID=641 RepID=A0A1T4R5L8_9GAMM
+Length=466
+
+ Score = 78.8 bits (193),  Expect = 5e-15, Method: Composition-based stats.
+ Identities = 14/110 (13%), Positives = 40/110 (36%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +    +  +   A QA+            ++      ++  ++ ++      +G   +  
+Sbjct  52   VPEKVQQKIRVMADQAQQLIDTGNKHQLGQW----EKQQPYYLFVLDKDQHEMGDRKMHP  107
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+              +  L++ R++        +   P  +I      +  +L++QLP +L P
+Sbjct  108  HFAFKLSYAREI--KSILDSRVNQPIFAIPLK---DGNQLMVQLPHQLHP  152
+
+
+> UniRef50_E3BFN9 Histidine kinase n=1 Tax=Vibrio caribbeanicus 
+ATCC BAA-2122 TaxID=796620 RepID=E3BFN9_9VIBR
+Length=459
+
+ Score = 74.9 bits (183),  Expect = 1e-13, Method: Composition-based stats.
+ Identities = 16/110 (15%), Positives = 39/110 (35%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            +    ++ L     +A     +   +G E +       +  ++ ++    + L S  +  
+Sbjct  45   VPQEIKNELYQLVDEANSFIDKNDISGLEEW----EESQPYYIFVLNNLNKPLTSRQMHP  100
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 L F R++D       +   P + +         +L++QLP +  P
+Sbjct  101  HFEFKLKFLREID--EILDNKVNKPLIGMGLR---NGNKLIVQLPSQKHP  145
+
+
+> UniRef50_A8FUU3 Putative two-component system sensor kinase n=6 
+Tax=Shewanella TaxID=22 RepID=A8FUU3_SHESH
+Length=471
+
+ Score = 70.3 bits (171),  Expect = 5e-12, Method: Composition-based stats.
+ Identities = 19/113 (17%), Positives = 42/113 (37%), Gaps = 9/113 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L  + + +L   A +A+    +    G  ++      ++D  + ++  +  ++    +  
+Sbjct  53   LPTSTQEHLQKLANEAKALLEKNDIEGLAKW----EEQQDFTLYILDKNQNTVSHREMHP  108
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPG---HPEQGRLVIQLPERLLP  112
+                 L + R+L  P   R++   P + I             LV+QL   L P
+Sbjct  109  HFVFKLQYMRQLQQPMGDRVRK--PLIGIPLFDSFNSDSPLTLVVQLNADLHP  159
+
+
+> UniRef50_A9EKH4 Hypothetical two-component system sensor kinase 
+n=1 Tax=Shewanella benthica KT99 TaxID=314608 RepID=A9EKH4_9GAMM
+Length=268
+
+ Score = 64.1 bits (155),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 24/113 (21%), Positives = 39/113 (35%), Gaps = 9/113 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L  + +  +   A QA D   +E      R+       +   V ++   L+S+  + L  
+Sbjct  45   LPQSTQDQINHLANQATDLVNKEALTALTRW----EQNQAFRVYVLDKDLKSITKSALHP  100
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQG---RLVIQLPERLLP  112
+                 L + R+L  P         P + I  P          LV+QL   L P
+Sbjct  101  HFIFKLQYIRQLHLPMG--NSVRKPLIGIPLPNAHHINGPLTLVVQLNPELHP  151
+
+
+> UniRef50_A0A151JHR5 Histidine kinase n=9 Tax=Vibrio TaxID=662 
+RepID=A0A151JHR5_9VIBR
+Length=459
+
+ Score = 65.3 bits (158),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 23/110 (21%), Positives = 41/110 (37%), Gaps = 9/110 (8%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L+        D A QA     R+      ++     AK+   + +V      +    +  
+Sbjct  47   LSKQQHQEFVDLAHQAGLWVARKEWVQLAQW----EAKQRYVLYVVDQQFHPVSGREVHP  102
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 + F R+LD P   R+    P + I      ++ +L+IQLP +  P
+Sbjct  103  HVLKKMHFYRRLDQPMGARVS--RPMIGIRL---DQEHQLMIQLPWQQHP  147
+
+
+> UniRef50_A0A2D8RG08 Uncharacterized protein n=1 Tax=Hahellaceae 
+bacterium TaxID=2048971 RepID=A0A2D8RG08_9GAMM
+Length=112
+
+ Score = 61.0 bits (147),  Expect = 6e-10, Method: Composition-based stats.
+ Identities = 13/44 (30%), Positives = 19/44 (43%), Gaps = 0/44 (0%)
+
+Query  3   LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVA  46
+           +A   +  L  Y   AE  +        E +  +L A+EDTW A
+Sbjct  38  IADEHQETLLAYGETAEALYEAGDTRALENWLADLQAREDTWAA  81
+
+
+> UniRef50_Q2BX79 Histidine kinase n=56 Tax=Vibrionales TaxID=135623 
+RepID=Q2BX79_9GAMM
+Length=427
+
+ Score = 61.0 bits (147),  Expect = 6e-09, Method: Composition-based stats.
+ Identities = 16/111 (14%), Positives = 32/111 (29%), Gaps = 10/111 (9%)
+
+Query  3    LAPADRHYLADYARQAEDAWRRE-GAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLS  61
+            +    +  +   A   E              +     +K+  +   +    + L +  + 
+Sbjct  53   VPQHVKQDIMKMATDVEPLLPENSDPHRLAEW----ESKQKYYAFALNSDNKELSTRIMH  108
+
+Query  62   AEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                  L F R L+       +   P  +I         +LV+ LP  L P
+Sbjct  109  PHFKFKLKFARPLN--TILDSRVNQPIFTIPIK---NDNKLVVLLPHELHP  154
+
+
+> UniRef50_A0A090IHT8 Sensor protein n=9 Tax=Moritella TaxID=58050 
+RepID=A0A090IHT8_9GAMM
+Length=465
+
+ Score = 59.5 bits (143),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 16/116 (14%), Positives = 43/116 (37%), Gaps = 15/116 (13%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAG------AERFRKELSAKEDTWVALVGPHLESLG  56
+            L    +  + D A+QA+     + + G         +       + +++ ++  +L+ + 
+Sbjct  54   LPATVKVEMLDLAKQADALLDSKDSEGNIDRTKLAEW----EEAQSSYLFVLNDNLDEVS  109
+
+Query  57   STPLSAEESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            +  +       L + R LD       +   P +S+         +L++Q  ++  P
+Sbjct  110  TRVMHPHFKFKLRYIRPLD--TILENKVNKPVISLPLRA---GYQLIVQFSDKQHP  160
+
+
+> UniRef50_A0A1S2TJ73 Histidine kinase n=17 Tax=Shewanella TaxID=22 
+RepID=A0A1S2TJ73_9GAMM
+Length=492
+
+ Score = 59.1 bits (142),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 17/101 (17%), Positives = 34/101 (34%), Gaps = 9/101 (9%)
+
+Query  15   ARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSHLTFXRKL  74
+            A +A D   R    G   +      ++   + ++    +++    +       L F R+L
+Sbjct  73   ADEANDYIVRGDITGLADW----EGRQAFVLYVLDSEQQAVSQREMHPHFVYKLNFLRQL  128
+
+Query  75   DWPXSRRLQDELPYVSIEFPGH---PEQGRLVIQLPERLLP  112
+              P     + + P + +             LV+QL   L P
+Sbjct  129  QQPMG--DRVQKPLIGLPLRNSLEPDNPLLLVVQLNASLHP  167
+
+
+> UniRef50_A0A099KUZ3 Integral membrane sensor signal transduction 
+histidine kinase n=1 Tax=Colwellia psychrerythraea TaxID=28229 
+RepID=A0A099KUZ3_COLPS
+Length=451
+
+ Score = 56.8 bits (136),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 18/105 (17%), Positives = 40/105 (38%), Gaps = 9/105 (9%)
+
+Query  8    RHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSAEESSH  67
+            +      A++AE        +G + +       +   + +V  + +S+ +  +     S 
+Sbjct  50   QREFKTLAKEAEQYISINDTSGLKVW----EKTQKYTLYVVDDNNQSVTNNAIHPYIKSK  105
+
+Query  68   LTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+            ++F  +L  P     +   P + I          L++QLP +L P
+Sbjct  106  MSFSHQLHKP--MNNRVSKPMIMI---HLSSGLHLMVQLPWQLHP  145
+
+
+> UniRef50_C9P1E1 Two component system histidine kinase n=4 Tax=Vibrio 
+TaxID=662 RepID=C9P1E1_VIBME
+Length=464
+
+ Score = 50.6 bits (120),  Expect = 3e-05, Method: Composition-based stats.
+ Identities = 16/110 (15%), Positives = 36/110 (33%), Gaps = 10/110 (9%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L    +  L   +  A    R+ GA    ++       +   + ++      +    +  
+Sbjct  52   LPNKVQRELQQLSTSANQQ-RQLGAEALAQW----EMSQPYLLYVIDSTNHVVSGRDIHP  106
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 +   R+L  P   R+    P + +      +   L++QLP +  P
+Sbjct  107  HVQMKMRNARQLTEPMGTRVSK--PMIIVPM---SDGYSLMVQLPWQQHP  151
+
+
+> UniRef50_UPI00093536D4 HAMP domain-containing protein n=1 Tax=Vibrio 
+sp. M12-1144 TaxID=1307414 RepID=UPI00093536D4
+Length=462
+
+ Score = 46.4 bits (109),  Expect = 7e-04, Method: Composition-based stats.
+ Identities = 18/110 (16%), Positives = 37/110 (34%), Gaps = 10/110 (9%)
+
+Query  3    LAPADRHYLADYARQAEDAWRREGAAGAERFRKELSAKEDTWVALVGPHLESLGSTPLSA  62
+            L    +  L   +  A+   R+ GA    ++       +   + ++      L    +  
+Sbjct  52   LPNKIQRELQQLSTIADQQ-RQLGAEALAQW----EMSQPYLLYVIDGANHVLSERDIHP  106
+
+Query  63   EESSHLTFXRKLDWPXSRRLQDELPYVSIEFPGHPEQGRLVIQLPERLLP  112
+                 +   R+L  P   R+    P + +      E   L++QLP +  P
+Sbjct  107  HVQMKMRNARQLSEPMGTRVSK--PMIIVPMT---EGHSLMVQLPWQQHP  151
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.153    0.458    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0472    0.140     1.90     42.6     43.6 
+
+Effective search space used: 233904687753
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

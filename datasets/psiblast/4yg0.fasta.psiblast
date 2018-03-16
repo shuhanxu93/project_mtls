@@ -1,0 +1,3888 @@
+PSIBLAST 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen F.
+Altschul, John C. Wootton, E. Michael Gertz, Richa Agarwala,
+Aleksandr Morgulis, Alejandro A. Schaffer, and Yi-Kuo Yu (2005)
+"Protein database searches using compositionally adjusted
+substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Alejandro A. Schaffer, L. Aravind, Thomas L. Madden, Sergei
+Shavirin, John L. Spouge, Yuri I. Wolf, Eugene V. Koonin, and
+Stephen F. Altschul (2001), "Improving the accuracy of PSI-BLAST
+protein database searches with composition-based statistics and
+other refinements", Nucleic Acids Res. 29:2994-3005.
+
+
+
+Database: uniref50.fasta
+           30,449,163 sequences; 9,493,504,718 total letters
+
+Results from round 1
+
+
+Query= 4yg0
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  UniRef50_UPI0006BB9A37 Outer capsid protein VP4 n=1 Tax=Rotavir...  334     4e-115
+  UniRef50_A8IJH8 Outer capsid protein VP4 (Fragment) n=84 Tax=Ro...  293     1e-96 
+  UniRef50_A7TUM4 VP4 (Fragment) n=3 Tax=Rotavirus A TaxID=28875 ...  285     2e-95 
+  UniRef50_B5AAV2 Outer capsid protein VP4 (Fragment) n=10 Tax=Ro...  211     2e-66 
+  UniRef50_M9QW09 Outer capsid protein VP4 (Fragment) n=7 Tax=Rot...  103     8e-25 
+  UniRef50_A0A0S0VAT8 Outer capsid protein VP4 (Fragment) n=39 Ta...  96.7    5e-22 
+  UniRef50_A0A0N7CDJ7 Outer capsid protein VP4 (Fragment) n=497 T...  96.7    2e-21 
+  UniRef50_Q5CD28 Outer capsid protein VP4 (Fragment) n=4 Tax=Rot...  97.1    2e-21 
+  UniRef50_D0TZ86 Outer capsid protein VP4 (Fragment) n=54 Tax=Ro...  94.7    5e-21 
+  UniRef50_D5HMS2 Outer capsid protein VP4 (Fragment) n=514 Tax=R...  95.5    7e-21 
+  UniRef50_Q90102 Outer capsid protein VP4 (Fragment) n=48 Tax=Ro...  92.8    4e-20 
+  UniRef50_B7TAC3 Outer capsid protein VP4 (Fragment) n=2214 Tax=...  92.4    8e-20 
+  UniRef50_A0A075W1Z3 Outer capsid protein VP4 (Fragment) n=2 Tax...  90.9    1e-19 
+  UniRef50_V5UZH1 Outer capsid protein VP4 (Fragment) n=114 Tax=R...  90.9    2e-19 
+  UniRef50_D4N5V0 Outer capsid protein VP4 (Fragment) n=254 Tax=R...  90.5    3e-19 
+  UniRef50_A0A1S5WJA6 Outer capsid protein VP4 (Fragment) n=17 Ta...  89.0    1e-18 
+  UniRef50_A0A077AZS1 Outer capsid protein VP4 (Fragment) n=6 Tax...  87.8    2e-18 
+  UniRef50_A0A1V0FUL0 Outer capsid protein VP4 n=1 Tax=Rotavirus ...  91.3    2e-18 
+  UniRef50_A0A2H4W7Z6 VP4 (Fragment) n=5 Tax=Rotavirus A TaxID=28...  89.4    5e-18 
+  UniRef50_P11193 Outer capsid protein VP4 n=4016 Tax=Rotavirus T...  89.7    6e-18 
+  UniRef50_A0A0D5Z7X7 Outer capsid protein VP4 (Fragment) n=78 Ta...  87.8    1e-17 
+  UniRef50_A0A0A0Q1V1 Outer capsid spike (Fragment) n=3 Tax=Rotav...  85.1    2e-17 
+  UniRef50_P12473 Outer capsid protein VP4 n=1091 Tax=Rotavirus T...  88.2    3e-17 
+  UniRef50_A0A1I9ZJD7 Outer capsid protein VP4 (Fragment) n=5 Tax...  83.2    6e-17 
+  UniRef50_A0A1Z1W220 Outer capsid protein VP4 (Fragment) n=12 Ta...  83.2    8e-17 
+  UniRef50_A0A1S5YEY9 Outer capsid protein VP4 (Fragment) n=34 Ta...  83.6    9e-17 
+  UniRef50_A0A1Z1W237 Outer capsid protein VP4 (Fragment) n=14 Ta...  82.4    1e-16 
+  UniRef50_A0A068L7V3 Outer capsid protein VP4 (Fragment) n=164 T...  82.4    3e-16 
+  UniRef50_F1T2J6 Outer capsid protein VP4 (Fragment) n=4 Tax=Rot...  80.5    1e-15 
+  UniRef50_A0A1I9ZJT1 Outer capsid protein VP4 (Fragment) n=3 Tax...  78.2    2e-15 
+  UniRef50_B5MGI6 Outer capsid protein VP4 (Fragment) n=1 Tax=Bov...  75.1    7e-14 
+  UniRef50_A0A218KSJ7 Outer capsid protein VP4 (Fragment) n=19 Ta...  72.8    4e-13 
+  UniRef50_A2THZ3 Outer capsid protein (Fragment) n=1 Tax=Human r...  70.1    3e-12 
+  UniRef50_B7ZGS2 Capsid protein (Fragment) n=7 Tax=Rotavirus A i...  68.2    9e-12 
+  UniRef50_Q7T6W2 Outer capsid protein VP4 n=3 Tax=Rotavirus TaxI...  67.0    2e-11 
+  UniRef50_D3GCM5 Major outer capsid protein (Fragment) n=9 Tax=H...  66.6    2e-11 
+  UniRef50_M4PW48 Outer capsid protein VP4 (Fragment) n=31 Tax=Ro...  67.0    3e-11 
+  UniRef50_J9QM11 Protease-sensitive outer capsid protein (Fragme...  66.2    4e-11 
+  UniRef50_Q7T6W5 Outer capsid protein VP4 (Fragment) n=43 Tax=Ro...  65.5    8e-11 
+  UniRef50_A0A023UHQ5 VP4 (Fragment) n=3 Tax=Human rotavirus A Ta...  58.9    1e-08 
+  UniRef50_G9HX95 Outer capsid protein VP4 (Fragment) n=1 Tax=Rot...  57.8    4e-08 
+  UniRef50_A0A222UAC4 Outer capsid protein VP4 (Fragment) n=3 Tax...  56.6    6e-08 
+  UniRef50_A0A1Q1N9W2 Outer capsid protein VP4 (Fragment) n=1 Tax...  56.2    8e-08 
+  UniRef50_A0A0P0YJV8 Outer capsid protein VP4 n=1 Tax=Rotavirus ...  58.2    3e-07 
+  UniRef50_D0QTW3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rot...  54.7    5e-07 
+  UniRef50_Q68HJ4 Outer capsid protein VP4 (Fragment) n=14 Tax=Ro...  53.5    2e-06 
+  UniRef50_A0A222NXN9 Outer capsid protein (Fragment) n=1 Tax=Hum...  50.8    7e-06 
+  UniRef50_Q67534 VP4 (Fragment) n=2 Tax=Rotavirus A TaxID=28875 ...  50.1    1e-05 
+  UniRef50_J9QNI6 Protease-sensitive outer capsid protein (Fragme...  49.3    2e-05 
+  UniRef50_Q9DLD1 Outer capsid protein VP4 (Fragment) n=18 Tax=Ro...  49.7    2e-05 
+  UniRef50_Q9IVF6 Capsid protein (Fragment) n=2 Tax=Rotavirus A T...  48.1    5e-05 
+  UniRef50_F8V183 Outer capsid protein VP4 (Fragment) n=2 Tax=Hum...  46.6    9e-05 
+  UniRef50_C0LK47 Outer capsid protein VP4 (Fragment) n=3 Tax=Hum...  46.6    2e-04 
+  UniRef50_A7YCD5 Outer capsid protein VP4 (Fragment) n=19 Tax=Hu...  46.2    5e-04 
+  UniRef50_J9QLU0 Outer capsid protein VP4 (Fragment) n=23 Tax=Ro...  46.2    6e-04 
+  UniRef50_A0A1I9ZJE5 Outer capsid protein VP4 (Fragment) n=2 Tax...  44.7    6e-04 
+
+
+> UniRef50_UPI0006BB9A37 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=UPI0006BB9A37
+Length=164
+
+ Score = 334 bits (857),  Expect = 4e-115, Method: Compositional matrix adjust.
+ Identities = 164/164 (100%), Positives = 164/164 (100%), Gaps = 0/164 (0%)
+
+Query  1    GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV  60
+            GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV
+Sbjct  1    GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV  60
+
+Query  61   MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+            MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS
+Sbjct  61   MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+
+Query  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL
+Sbjct  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+
+
+> UniRef50_A8IJH8 Outer capsid protein VP4 (Fragment) n=84 Tax=Rotavirus 
+A TaxID=28875 RepID=A8IJH8_9REOV
+Length=315
+
+ Score = 293 bits (749),  Expect = 1e-96, Method: Compositional matrix adjust.
+ Identities = 141/161 (88%), Positives = 148/161 (92%), Gaps = 0/161 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY PDSSNLPSNYWYL+NP NDGVVFSVT+NSTFWMFTYL+LPNTAQTNVTVNVMNE
+Sbjct  40   LDGPYAPDSSNLPSNYWYLVNPSNDGVVFSVTDNSTFWMFTYLVLPNTAQTNVTVNVMNE  99
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+            TVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HRLQAYRRD  GNISNYWG+ T G
+Sbjct  100  TVNISIDNSGSTYRFVDYIKTSSTQAYGSRNYLNTAHRLQAYRRDGDGNISNYWGADTQG  159
+
+Query  124  DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            DLRVGTY NPV NAVINLNADFY+IPDSQQEKCTEYI+GGL
+Sbjct  160  DLRVGTYSNPVPNAVINLNADFYVIPDSQQEKCTEYIRGGL  200
+
+
+> UniRef50_A7TUM4 VP4 (Fragment) n=3 Tax=Rotavirus A TaxID=28875 
+RepID=A7TUM4_9REOV
+Length=182
+
+ Score = 285 bits (729),  Expect = 2e-95, Method: Compositional matrix adjust.
+ Identities = 138/161 (86%), Positives = 146/161 (91%), Gaps = 0/161 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY PDSSNLPSNYWYL+NP  DGVVFSVT+NSTFWMFTYL+LPNTAQTNVTVNVMNE
+Sbjct  11   LDGPYAPDSSNLPSNYWYLVNPSYDGVVFSVTDNSTFWMFTYLVLPNTAQTNVTVNVMNE  70
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+            TVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HRLQAYRRD  GNISNYWG+ T G
+Sbjct  71   TVNISIDNSGSTYRFVDYIKTSSTQTYGSRNYLNTAHRLQAYRRDGDGNISNYWGADTQG  130
+
+Query  124  DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            DLRVGTY NPV + VINLNADFY+IPDSQQEKCTEYI+GGL
+Sbjct  131  DLRVGTYSNPVPDVVINLNADFYVIPDSQQEKCTEYIRGGL  171
+
+
+> UniRef50_B5AAV2 Outer capsid protein VP4 (Fragment) n=10 Tax=Rotavirus 
+A TaxID=28875 RepID=B5AAV2_9REOV
+Length=190
+
+ Score = 211 bits (538),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 104/123 (85%), Positives = 109/123 (89%), Gaps = 0/123 (0%)
+
+Query  42   MFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHR  101
+            MFTYL+LPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HR
+Sbjct  1    MFTYLVLPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYIKTSSTQAYGSRNYLNTAHR  60
+
+Query  102  LQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIK  161
+            LQAYRRD  GNISNYWG+ T  DL VGTY NPV NAVINLNADFY+IPDSQQE CTEYI+
+Sbjct  61   LQAYRRDGDGNISNYWGADTQDDLGVGTYSNPVPNAVINLNADFYVIPDSQQETCTEYIR  120
+
+Query  162  GGL  164
+            GGL
+Sbjct  121  GGL  123
+
+
+> UniRef50_M9QW09 Outer capsid protein VP4 (Fragment) n=7 Tax=Rotavirus 
+TaxID=10912 RepID=M9QW09_9REOV
+Length=161
+
+ Score = 103 bits (257),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 65/164 (40%), Positives = 95/164 (58%), Gaps = 7/164 (4%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P++YW L+ P  +GVV   TNN   W+ T LI PN   TN   N+  +
+Sbjct  2    LDGPYQPTTFNPPTSYWILLAPTVEGVVIQGTNNIDRWLATILIEPNVQTTNRIYNLFGQ  61
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V +S++N+  T ++F+D  KT+ T +Y Q   L +  +L A  +  SG I  Y G++  
+Sbjct  62   QVTLSVENTSQTQWKFIDVSKTTPTGNYTQHGSLFSTPKLYAVMK-FSGRIYTYNGTT--  118
+
+Query  123  GDLRVGTYFNPVLNAVINLNA--DFYIIPDSQQEKCTEYIKGGL  164
+             +   G Y++      +N+ +  DFYIIP +Q+EKCTEYI  GL
+Sbjct  119  PNATTG-YYSTTNYDTVNMTSFCDFYIIPRNQEEKCTEYINHGL  161
+
+
+> UniRef50_A0A0S0VAT8 Outer capsid protein VP4 (Fragment) n=39 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0S0VAT8_9REOV
+Length=177
+
+ Score = 96.7 bits (239),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 63/164 (38%), Positives = 85/164 (52%), Gaps = 5/164 (3%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P  YW L++P   GVV   TNN+  W+ T LI PN      T  +  
+Sbjct  1    VLDGPYQPTSFNPPVGYWMLLSPTAAGVVVEGTNNTDRWLATILIEPNVPSQQRTYTIFG  60
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+++N+  T +RFVD  KT+   SY Q   L++  +L A  +   G I  Y G + 
+Sbjct  61   VQEQITVENTSQTQWRFVDVSKTTQNGSYSQYGPLLSTPKLYAVMK-YGGRIHTYSGQTP  119
+
+Query  122  YGDLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+              +   G Y     ++V +    DFYIIP S++ KCTEYI  GL
+Sbjct  120  --NATTGYYSATNYDSVNMTTFCDFYIIPRSEESKCTEYINNGL  161
+
+
+> UniRef50_A0A0N7CDJ7 Outer capsid protein VP4 (Fragment) n=497 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0N7CDJ7_9REOV
+Length=244
+
+ Score = 96.7 bits (239),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 60/170 (35%), Positives = 85/170 (50%), Gaps = 18/170 (11%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LI+   DGVV+  TNNS FW     + P+ +QTN    +  
+Sbjct  17   VLDGPYQPTTFKPPNDYWLLISSNTDGVVYESTNNSDFWTAVIAVEPHVSQTNRQYVLFG  76
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWG----  118
+            E    +I+NS   ++F + FK SS   +  R  L + +RL    +   G +  + G    
+Sbjct  77   ENKQFNIENSSDKWKFFEMFKGSSQSDFTNRRTLTSNNRLVGMLK-YGGRVWTFHGVTPR  135
+
+Query  119  ----SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                SS   DL          N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  136  ATIDSSNTADLN---------NISIIIHSEFYIIPRSQESKCNEYINNGL  176
+
+
+> UniRef50_Q5CD28 Outer capsid protein VP4 (Fragment) n=4 Tax=Rotavirus 
+A TaxID=28875 RepID=Q5CD28_9REOV
+Length=266
+
+ Score = 97.1 bits (240),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 87/162 (54%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  +V   TN +  W+   LI PN    +    +  
+Sbjct  49   VLDGPYQPTSFKPPNDYWLLLNPTNQQIVLEGTNRTDVWVVILLIEPNVVSQSRQYVLFG  108
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F+ +++  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  109  ETKQITVENNSNKWKFFEMFRNNASAEFQHKRTLTSDTKLAGFLK-HGGRIWTFHGETPH  167
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  T  N + +    ++ +FYIIP SQ+ KC+EYI  GL
+Sbjct  168  ATTDYSTTSN-LYDIETMIHTEFYIIPRSQEAKCSEYINTGL  208
+
+
+> UniRef50_D0TZ86 Outer capsid protein VP4 (Fragment) n=54 Tax=Rotavirus 
+A TaxID=28875 RepID=D0TZ86_9REOV
+Length=207
+
+ Score = 94.7 bits (234),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  VV   TN +  W+   L+ PN    +    +  
+Sbjct  44   VLDGPYQPTSFKPPNDYWILLNPTNQQVVLEGTNKTDAWVALLLVEPNVTNQSRQYTLFG  103
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F++S +  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  104  ETKQITVENNTNKWKFFEMFRSSVSAEFQHKRTLTSDTKLSGFLK-HGGRIWTFHGETPH  162
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  163  ATTDYSSTSN-LSEVETVIHTEFYIIPRSQESKCNEYINTGL  203
+
+
+> UniRef50_D5HMS2 Outer capsid protein VP4 (Fragment) n=514 Tax=Rotavirus 
+TaxID=10912 RepID=D5HMS2_9REOV
+Length=287
+
+ Score = 95.5 bits (236),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  +V   TN +  W+   L+ PN    N    +  
+Sbjct  64   VLDGPYQPTSFKPPNDYWILLNPTNQQIVLEGTNRTDVWIALLLVEPNVTNQNRQYTLFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F+ S++  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  124  ETKQITVENNTNKWKFYEMFRNSASVEFQHKRTLTSDTKLAGFLK-HGGRIWTFHGETPH  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  183  ATTDYSSTSN-LSEVETVIHTEFYIIPRSQESKCNEYINTGL  223
+
+
+> UniRef50_Q90102 Outer capsid protein VP4 (Fragment) n=48 Tax=Rotavirus 
+A TaxID=28875 RepID=Q90102_9REOV
+Length=265
+
+ Score = 92.8 bits (229),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 58/165 (35%), Positives = 85/165 (52%), Gaps = 7/165 (4%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L+ P N GVV   TNN+  W+ T LI PN      T  +  
+Sbjct  49   VLDGPYQPTTFNPPVSYWMLLAPTNAGVVVEGTNNTNRWLATILIEPNVQSVERTYTLFG  108
+
+Query  63   ETVNISID-NSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + V I++  +S + ++F D  K +   +Y Q   L++  +L    +   G I  Y G + 
+Sbjct  109  QQVQITVSLDSQTIWKFADVSKQTQDGNYSQHGLLLSTPKLYGVMK-HGGKIYTYNGETP  167
+
+Query  122  YGDLRVGTYFNPVLNAVINLNA--DFYIIPDSQQEKCTEYIKGGL  164
+              +     Y++      +N+ A  DFYIIP +Q+ KCTEYI  GL
+Sbjct  168  NANTG---YYSTTNYDSVNMTAYCDFYIIPLAQEAKCTEYINNGL  209
+
+
+> UniRef50_B7TAC3 Outer capsid protein VP4 (Fragment) n=2214 Tax=Rotavirus 
+TaxID=10912 RepID=B7TAC3_9REOV
+Length=278
+
+ Score = 92.4 bits (228),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 55/162 (34%), Positives = 83/162 (51%), Gaps = 4/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +   NV  E
+Sbjct  65   LDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFGE  124
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+                ++ N  + ++F++ F+ SS   +  R  L ++ RL    +   G I  + G +   
+Sbjct  125  NKQFNVRNDSNKWKFLEMFRGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGETPRA  183
+
+Query  124  DLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+                    N  LN + I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  184  TTDSSNTAN--LNGISITIHSEFYIIPRSQESKCNEYINNGL  223
+
+
+> UniRef50_A0A075W1Z3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A075W1Z3_9REOV
+Length=198
+
+ Score = 90.9 bits (224),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 48/158 (30%), Positives = 83/158 (53%), Gaps = 2/158 (1%)
+
+Query  7    PYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVN  66
+            PY P S   P++YW L++P N  V+   TN +  W+   LI PNT   +    +  ET  
+Sbjct  1    PYQPTSFKPPNDYWILLDPTNQKVILEGTNRTDVWVAILLIEPNTISQDRQYTLFGETKQ  60
+
+Query  67   ISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLR  126
+            I+I+N+ S ++F + F+ +++  ++ +  L ++ +L  + +   G +  + G +      
+Sbjct  61   ITIENNSSKWKFFEMFRNNASAEFQHKRTLTSDTKLAGFLK-HGGRVWTFHGETPNATTD  119
+
+Query  127  VGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              T  N + +    ++ DFYIIP SQ+ KC EYI  GL
+Sbjct  120  YSTTSN-LSDIETVIHTDFYIIPRSQESKCKEYINTGL  156
+
+
+> UniRef50_V5UZH1 Outer capsid protein VP4 (Fragment) n=114 Tax=Rotavirus 
+A TaxID=28875 RepID=V5UZH1_9REOV
+Length=278
+
+ Score = 90.9 bits (224),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 50/164 (30%), Positives = 90/164 (55%), Gaps = 6/164 (4%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P +YW L+NP +  VV   TN +  W+   L+ PN    +    +  
+Sbjct  57   VLDGPYQPTSFNPPGDYWILLNPTDQQVVLESTNKTDIWIALLLVEPNVTNQSRQYTLFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E   I+I+N+ + ++F + F+ ++   ++ ++ L ++ +L  + +    ++  ++G + +
+Sbjct  117  EMRQITIENNTNKWKFFEVFRRTAGAEFQHKHTLTSDTKLAGFLK-LYNSVWTFYGETPH  175
+
+Query  123  G--DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+               D  + +  + V  AVI++  +FYIIP SQ+ KC EYI  GL
+Sbjct  176  ATTDYLLTSNLSEV-EAVIHV--EFYIIPRSQESKCVEYINTGL  216
+
+
+> UniRef50_D4N5V0 Outer capsid protein VP4 (Fragment) n=254 Tax=Rotavirus 
+A TaxID=28875 RepID=D4N5V0_9REOV
+Length=275
+
+ Score = 90.5 bits (223),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 54/162 (33%), Positives = 82/162 (51%), Gaps = 4/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +   NV  E
+Sbjct  58   LDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFGE  117
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+                ++ N    ++F++ F+ SS   +  R  L ++ +L    +   G I  + G +   
+Sbjct  118  NKQFNVRNDSDKWKFLEMFRGSSQSDFYNRPPLTSDTKLVGILK-YGGRIWTFHGETPRA  176
+
+Query  124  DLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+                    N  LN + I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  177  TTDSSNTAN--LNGISITIHSEFYIIPRSQESKCNEYINNGL  216
+
+
+> UniRef50_A0A1S5WJA6 Outer capsid protein VP4 (Fragment) n=17 
+Tax=Rotavirus A TaxID=28875 RepID=A0A1S5WJA6_9REOV
+Length=277
+
+ Score = 89.0 bits (219),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 53/172 (31%), Positives = 86/172 (50%), Gaps = 22/172 (13%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+N  ++GVV   TNN+  W+    + PN    +   ++  
+Sbjct  57   VLDGPYQPVSFKPPNDYWILVNSSSNGVVLEGTNNTDVWVAIISVEPNVNSESRQYSLFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYL--------ITEH--RLQAYRRDESGN  112
+                I++ N+ S ++F++ F+  S   ++ +  L        + +H  RL  YR +    
+Sbjct  117  VNKQITVVNTSSKWKFMEMFRNDSNAEFQHKRTLTSSTRLVGVLKHGGRLWTYRGETPNA  176
+
+Query  113  ISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+             ++Y  +S   ++ V TY            A+FYIIP SQ+ KCTEY+  GL
+Sbjct  177  TTDYSTTSNLNEISVTTY------------AEFYIIPRSQESKCTEYVNTGL  216
+
+
+> UniRef50_A0A077AZS1 Outer capsid protein VP4 (Fragment) n=6 Tax=Rotavirus 
+TaxID=10912 RepID=A0A077AZS1_9REOV
+Length=214
+
+ Score = 87.8 bits (216),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 51/173 (29%), Positives = 83/173 (48%), Gaps = 23/173 (13%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P NYW L  P   GV+   TNN   W+   L+ P   QT     V  
+Sbjct  16   VLDGPYQPTTFNPPVNYWLLFAPSTQGVIAEGTNNINRWLAIILVEPGVTQTTREYTVFG  75
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQA----------YRRDESG  111
+            E + + ++N+  T ++F+D  + + + +Y Q   L+++ +L A          Y  +   
+Sbjct  76   ERIQLQVENTHQTKWKFIDISRANQSDNYMQYGPLLSDTKLYAAMKYGGLICTYEGETPN  135
+
+Query  112  NISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              +N++ ++ Y D+ +  +             DFYIIP +Q+  CT+YI  GL
+Sbjct  136  ARTNWYSTTNYSDVEMTIF------------CDFYIIPRAQENICTDYINNGL  176
+
+
+> UniRef50_A0A1V0FUL0 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1V0FUL0_9REOV
+Length=783
+
+ Score = 91.3 bits (225),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 57/164 (35%), Positives = 89/164 (54%), Gaps = 7/164 (4%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P   W ++ P  +G+V S TNN   W+F  L+ PNT     T  V   
+Sbjct  65   LDGPYQPTTFNPPIKNWIMLCPEQEGLVASGTNNVDRWLFLVLVAPNTQAEQRTYRVFGA  124
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V +S++NS +T ++F+D+ KT  T +Y     L++  ++ A  + E+  +  Y GS+  
+Sbjct  125  DVQVSVENSDTTLWKFIDFAKTDRTNTYTAYGTLMSSTKIDAVLKFEN-KLYTYIGSTP-  182
+
+Query  123  GDLRVGTYFNPVLNAVINLN--ADFYIIPDSQQEKCTEYIKGGL  164
+             D + G Y++    A +N+    DFYII   Q+ +CT Y+  GL
+Sbjct  183  -DAQTG-YYSTTDYANVNITTYCDFYIIHRDQERQCTNYVNNGL  224
+
+
+> UniRef50_A0A2H4W7Z6 VP4 (Fragment) n=5 Tax=Rotavirus A TaxID=28875 
+RepID=A0A2H4W7Z6_9REOV
+Length=464
+
+ Score = 89.4 bits (220),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 58/163 (36%), Positives = 85/163 (52%), Gaps = 5/163 (3%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P +YW L++P N GVV   TNNS  W+ T LI PN      T  +   
+Sbjct  65   LDGPYQPTTFNPPVDYWMLLSPSNAGVVVEGTNNSNRWLATVLIEPNVQTETRTYTLFGV  124
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+               IS+ N   T ++F+D  KT+   ++ Q   ++++ +L    +  +G +  Y G +  
+Sbjct  125  EEQISVSNDSLTKWKFIDLSKTTLNGTFTQHGPMLSDPKLYGVMK-HNGKLYTYNGETP-  182
+
+Query  123  GDLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+             +   G Y     ++V +    DFYIIP SQ+  CTEYI  GL
+Sbjct  183  -NATTGYYSTTNYDSVNMTTFCDFYIIPRSQESICTEYINNGL  224
+
+
+> UniRef50_P11193 Outer capsid protein VP4 n=4016 Tax=Rotavirus 
+TaxID=10912 RepID=VP4_ROTHW
+Length=775
+
+ Score = 89.7 bits (221),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 51/161 (32%), Positives = 83/161 (52%), Gaps = 2/161 (1%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P +   P++YW LIN   +GVV+  TNNS FW     I P+    +    +  E
+Sbjct  65   LDGPYQPTTFTPPNDYWILINSNTNGVVYESTNNSDFWTAVVAIEPHVNPVDRQYTIFGE  124
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+            +   ++ N  + ++F++ F++SS   +  R  L ++ R     +   G +  + G +   
+Sbjct  125  SKQFNVSNDSNKWKFLEMFRSSSQNEFYNRRTLTSDTRFVGILK-YGGRVWTFHGETPRA  183
+
+Query  124  DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                 +  N + N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  184  TTDSSSTAN-LNNISITIHSEFYIIPRSQESKCNEYINNGL  223
+
+
+> UniRef50_A0A0D5Z7X7 Outer capsid protein VP4 (Fragment) n=78 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0D5Z7X7_9REOV
+Length=435
+
+ Score = 87.8 bits (216),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 57/163 (35%), Positives = 86/163 (53%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L++P N GVV   TNNS  W+ T LI PN    + T  +  
+Sbjct  64   VLDGPYQPTTFNPPVSYWILLSPSNAGVVVEGTNNSDRWLATILIEPNVTSESRTYTLFG  123
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+++N  +T ++FVD  KT    ++ Q   L+++ +L    +  SG +  Y G + 
+Sbjct  124  RQEQITVENVSTTKWKFVDLAKTDINGTFTQHGPLLSDTKLYGVMK-FSGRLYTYNGETP  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   T  N     +I+ + DFYIIP +++  CT+YI  GL
+Sbjct  183  NATTGYYTTTNYDTVNMIS-HCDFYIIPRAEENTCTDYINNGL  224
+
+
+> UniRef50_A0A0A0Q1V1 Outer capsid spike (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0A0Q1V1_9REOV
+Length=216
+
+ Score = 85.1 bits (209),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 55/164 (34%), Positives = 84/164 (51%), Gaps = 7/164 (4%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  17   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNATDRWFACVLVEPNVQNTQRQYVLDGQ  76
+
+Query  64   TVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAY-RRDESGNISNYWGSST  121
+             V +++ N S ++++F+ + K +   +Y Q + L T H+L A+ +RD       YW    
+Sbjct  77   NVQLNVSNDSNTSWKFILFIKLTPNGTYTQYSTLSTPHKLCAWMKRDNRV----YWYQGA  132
+
+Query  122  YGDLRVGTYFNP-VLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              +     Y      N+ ++ +A+FY+IP SQ   CT+YI  GL
+Sbjct  133  TPNASESYYLTINNDNSNVSSDAEFYLIPQSQTAMCTQYINNGL  176
+
+
+> UniRef50_P12473 Outer capsid protein VP4 n=1091 Tax=Rotavirus 
+TaxID=10912 RepID=VP4_ROTRH
+Length=776
+
+ Score = 88.2 bits (217),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 58/164 (35%), Positives = 83/164 (51%), Gaps = 7/164 (4%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S N P +YW L+ P   GVV   TNN+  W+ T L+ PN      +  +   
+Sbjct  65   LDGPYQPTSFNPPVDYWMLLAPTAAGVVVEGTNNTDRWLATILVEPNVTSETRSYTLFGT  124
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+               I+I N+  T ++F+D  KT+   SY Q   L +  +L A  +  +G I  Y G +  
+Sbjct  125  QEQITIANASQTQWKFIDVVKTTQNGSYSQYGPLQSTPKLYAVMK-HNGKIYTYNGETPN  183
+
+Query  123  GDLRVGTYFNPVLNAVINLNA--DFYIIPDSQQEKCTEYIKGGL  164
+               +   Y++      +N+ A  DFYIIP  ++  CTEYI  GL
+Sbjct  184  VTTK---YYSTTNYDSVNMTAFCDFYIIPREEESTCTEYINNGL  224
+
+
+> UniRef50_A0A1I9ZJD7 Outer capsid protein VP4 (Fragment) n=5 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJD7_9REOV
+Length=193
+
+ Score = 83.2 bits (204),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 56/149 (38%), Positives = 83/149 (56%), Gaps = 7/149 (5%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P++YW L+ P  +GV+   TNN   W+ T LI PN   TN T N+  +
+Sbjct  49   LDGPYQPTTFNPPTSYWILLAPTVEGVIIQGTNNVDRWLATILIEPNVQTTNRTYNLFGQ  108
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+               +S++N+  T ++FVD  KT+ T SY Q   L +  +L A  +  SG I  Y G++  
+Sbjct  109  QETLSVENTSQTQWKFVDISKTTPTGSYTQHGPLFSTPKLYAVMK-FSGRIYTYNGTTP-  166
+
+Query  123  GDLRVGTYFNPVLNAVINLNA--DFYIIP  149
+             +   G Y++      +N+ +  DFYIIP
+Sbjct  167  -NATTG-YYSTTNYDTVNMTSFCDFYIIP  193
+
+
+> UniRef50_A0A1Z1W220 Outer capsid protein VP4 (Fragment) n=12 
+Tax=Porcine rotavirus A TaxID=10967 RepID=A0A1Z1W220_9REOV
+Length=215
+
+ Score = 83.2 bits (204),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 55/174 (32%), Positives = 82/174 (47%), Gaps = 25/174 (14%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P  YW L  P + GVV  +TNN   W+   LI PN  Q   T  +  +
+Sbjct  15   LDGPYQPTTFNPPIEYWTLFAPSDKGVVAELTNNIDMWLAIILIEPNVPQELKTYTIFGQ  74
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRR------DESGNISNY  116
+             VN+ I+N+  T ++F D+ K S   +Y   + L ++ +LQA  +        +GN  N 
+Sbjct  75   QVNLVIENTSQTKWKFADFRKRSQNDTYVLNDTLSSDTKLQAAMKYGARLFTFTGNTPNA  134
+
+Query  117  ------WGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  + ++ Y  + + ++             DFYIIP   +E C  YI  GL
+Sbjct  135  APQEYGYETNNYSAIEIRSF------------CDFYIIPRMPREVCRNYINHGL  176
+
+
+> UniRef50_A0A1S5YEY9 Outer capsid protein VP4 (Fragment) n=34 
+Tax=Rotavirus TaxID=10912 RepID=A0A1S5YEY9_9REOV
+Length=290
+
+ Score = 83.6 bits (205),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 50/163 (31%), Positives = 79/163 (48%), Gaps = 1/163 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P  YW L  P N G+V  +TNN+  W+   LI PN +    T  +  
+Sbjct  63   VLDGPYQPTTLNPPIEYWMLFAPNNKGMVAELTNNTDIWLAIILIEPNVSPEIRTYTIFG  122
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN++++N+  T ++F D+ + S   +Y     L+++ +LQA  +  +   +    + +
+Sbjct  123  QQVNLTVENTSQTKWKFFDFRRRSQHDTYILEGTLLSDTKLQAAMKYGAKLFTFIGDTPS  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  G   N      +    DFYIIP   +E C  YI  GL
+Sbjct  183  AAPQEYGYETNNYSAIEVKSFCDFYIIPRLPREVCRNYINHGL  225
+
+
+> UniRef50_A0A1Z1W237 Outer capsid protein VP4 (Fragment) n=14 
+Tax=Rotavirus A TaxID=28875 RepID=A0A1Z1W237_9REOV
+Length=210
+
+ Score = 82.4 bits (202),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 54/163 (33%), Positives = 81/163 (50%), Gaps = 3/163 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P  YW L  P + GVV  +TNN   W+   LI PN  Q   T  +  +
+Sbjct  12   LDGPYQPTTFNPPVEYWTLFAPSDKGVVAELTNNIDMWLAIILIEPNVPQELRTYTIFGQ  71
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             VN+ ++N+  T ++F D+ K S   +Y   + L ++ +LQA  +     +  + G++  
+Sbjct  72   QVNLVVENASQTKWKFADFRKRSQNDTYVLNDTLSSDTKLQAAMK-YGARLFTFTGNTPD  130
+
+Query  123  GDLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+               +   Y     +A+ I    DFYIIP   +E C  YI  GL
+Sbjct  131  AAPQEYGYETNNYSAIEIRSFCDFYIIPRMPREVCRNYINHGL  173
+
+
+> UniRef50_A0A068L7V3 Outer capsid protein VP4 (Fragment) n=164 
+Tax=Rotavirus TaxID=10912 RepID=A0A068L7V3_9REOV
+Length=273
+
+ Score = 82.4 bits (202),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 54/164 (33%), Positives = 88/164 (54%), Gaps = 7/164 (4%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            L GPY P + N P+ YW  + PL    +    NN+   + T + L +   T+   N+  +
+Sbjct  49   LXGPYXPXTFNPPTKYWAPLAPLAQXKIXXCXNNTXKCLDTIVFLXDVQATSRIYNLFGQ  108
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V +S++N+  T ++F+D  +T+ T +Y Q   L +  +L A  +  SG I  Y G++  
+Sbjct  109  QVTLSVENTSQTQWKFIDVSRTTPTGNYTQHGLLFSTPKLYAVMK-FSGRIYTYNGTTP-  166
+
+Query  123  GDLRVGTYFNPVLNAVINLNA--DFYIIPDSQQEKCTEYIKGGL  164
+             +   G Y++      +N+ +  DFYIIP +Q+EKCTEYI  GL
+Sbjct  167  -NATTG-YYSTTNYDTVNMTSFCDFYIIPRNQEEKCTEYINHGL  208
+
+
+> UniRef50_F1T2J6 Outer capsid protein VP4 (Fragment) n=4 Tax=Rotavirus 
+A TaxID=28875 RepID=F1T2J6_9REOV
+Length=260
+
+ Score = 80.5 bits (197),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 52/175 (30%), Positives = 81/175 (46%), Gaps = 25/175 (14%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + + P  YW L  P + G+V  +TNN   W+   LI PN +    T  +  
+Sbjct  44   VLDGPYQPTTLDPPIEYWTLFAPNDKGIVAELTNNVDIWLAIILIEPNVSPEMRTYTMFG  103
+
+Query  63   ETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRR----------DESG  111
+            + VN++++N S + ++FVD+ + S   +Y     L+++ +LQA  +          D   
+Sbjct  104  QQVNLTVENTSQARWKFVDFRRRSQHDTYVIEGTLLSDTKLQAAMKYGARLFTFIGDTPN  163
+
+Query  112  NISNYWGSST--YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                 +G  T  Y  + V ++             DFYIIP   +E C  YI  GL
+Sbjct  164  AAPQEYGYETNNYSAIEVKSF------------CDFYIIPRLPREVCRNYINHGL  206
+
+
+> UniRef50_A0A1I9ZJT1 Outer capsid protein VP4 (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJT1_9REOV
+Length=153
+
+ Score = 78.2 bits (191),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 41/100 (41%), Positives = 59/100 (59%), Gaps = 1/100 (1%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P++YW L+ P  +GV+   TNN   W+ T LI PN   TN T N+  +
+Sbjct  48   LDGPYQPTTFNPPTSYWILLAPTVEGVIIQGTNNVDRWLATILIEPNVQTTNRTYNLFGQ  107
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRL  102
+               +S++N+  T ++FVD  KT+ T SY Q   L +  +L
+Sbjct  108  QETLSVENTSQTQWKFVDISKTTPTGSYTQHGPLFSTPKL  147
+
+
+> UniRef50_B5MGI6 Outer capsid protein VP4 (Fragment) n=1 Tax=Bovine 
+rotavirus A TaxID=35333 RepID=B5MGI6_9REOV
+Length=231
+
+ Score = 75.1 bits (183),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 50/164 (30%), Positives = 83/164 (51%), Gaps = 4/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P      +  W L+ P   GV+ + T+N+  WM   +I PN +    T  + +
+Sbjct  34   VLDGPYQPIKFKPDNGNWLLLQPERPGVIMTGTDNANIWMAAIIIEPNLSAEQRTYRIYD  93
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLI-TEHRLQAYRRDESGNISNYWGSS  120
+            E V + +DN+  T ++ VD +KT  +  Y ++N+ I T ++L   R  ++  + +Y G +
+Sbjct  94   EDVELLVDNASRTKWKIVDLYKTQQSGQYVRQNWRIYTAYKLYGIRIVDT-KLQSYGGET  152
+
+Query  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                +   T  N   N  I   ++F+II  +  EKCT Y+  GL
+Sbjct  153  PNLSMITTTVTN-YSNVEITTLSNFFIISSNNTEKCTTYMNQGL  195
+
+
+> UniRef50_A0A218KSJ7 Outer capsid protein VP4 (Fragment) n=19 
+Tax=Rotavirus A TaxID=28875 RepID=A0A218KSJ7_9REOV
+Length=262
+
+ Score = 72.8 bits (177),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 48/163 (29%), Positives = 80/163 (49%), Gaps = 7/163 (4%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSV-TNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+            LDGPY+  S  +   YW L+NP +  VV      N  F     ++ PNT +++    ++ 
+Sbjct  53   LDGPYSASSIVIQPQYWILVNPTSQEVVIEADAQNKKFACV--MLPPNTPESDKQYMILG  110
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + + I + N+ +  Y+F D        +Y +   L+T HRL A+ +D +G +  Y G+  
+Sbjct  111  KQITIRLGNTDAVNYKFCDLLSNDGI-TYTKSIELVTPHRLNAFMKD-AGKLYAYSGTVP  168
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   T  N + N   N+  ++YI+P+SQ     EY+K GL
+Sbjct  169  IIKREYHTLDN-IENVQTNITCEYYIVPNSQVSTLEEYLKNGL  210
+
+
+> UniRef50_A2THZ3 Outer capsid protein (Fragment) n=1 Tax=Human 
+rotavirus A TaxID=10941 RepID=A2THZ3_9REOV
+Length=172
+
+ Score = 70.1 bits (170),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 45/153 (29%), Positives = 81/153 (53%), Gaps = 7/153 (5%)
+
+Query  15   LPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGS  74
+            LP +YW +++P   G V   TN +  W    ++ PN +  +    +  +TV + +DN+ +
+Sbjct  1    LPVDYWMMMSPTQAGRVAEGTNGTDRWFACIIVEPNVSLQSRDYVLDGQTVQLQVDNTSN  60
+
+Query  75   T-YRFVDYFKTSSTQSYRQRNYLITEHRLQAY-RRDESGNISNYWGSSTYGDLRVGTYFN  132
+            T ++F+ + K + + +Y Q + L T H+L A+ +RD  G +  YW   T  +     Y  
+Sbjct  61   TMWKFILFIKLTKSGNYSQYSSLSTNHKLCAWIKRD--GRV--YWFDGTVPNSSDNYYLT  116
+
+Query  133  P-VLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                N++++ + DFY+IP +Q + C  YI  GL
+Sbjct  117  INNDNSIVSSDVDFYLIPRTQTDSCRRYINNGL  149
+
+
+> UniRef50_B7ZGS2 Capsid protein (Fragment) n=7 Tax=Rotavirus A 
+isolates TaxID=161240 RepID=B7ZGS2_9REOV
+Length=154
+
+ Score = 68.2 bits (165),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 38/107 (36%), Positives = 58/107 (54%), Gaps = 2/107 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  34   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNTTDRWFACVLVEPNVQNTQRQYVLDGQ  93
+
+Query  64   TVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAY-RRD  108
+             V + + N S ++++F+ + K +   +Y Q + L T H+L A+ +RD
+Sbjct  94   NVQLHVSNDSNTSWKFILFIKLTPDGTYTQYSTLSTPHKLCAWMKRD  140
+
+
+> UniRef50_Q7T6W2 Outer capsid protein VP4 n=3 Tax=Rotavirus TaxID=10912 
+RepID=Q7T6W2_9REOV
+Length=149
+
+ Score = 67.0 bits (162),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 48/155 (31%), Positives = 77/155 (50%), Gaps = 25/155 (16%)
+
+Query  22   LINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGST-YRFVD  80
+            L++PLN GVV   TN+   W+ T L+ PN   T  T  +      IS++N+ +T ++F++
+Sbjct  2    LLSPLNAGVVVEGTNSIDRWLATVLVEPNVTTTVRTYTLFGVQEQISVENNSTTKWKFIN  61
+
+Query  81   YFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWG-----------SSTYGDLRVGT  129
+              KT+ + S+   + L++E +L A  +   G +  Y G           +S Y  L + +
+Sbjct  62   LIKTTLSGSFTLYSTLLSEPKLHAIMK-HGGQLWVYNGETPNATTTGYVTSNYDSLTMTS  120
+
+Query  130  YFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            +             DFYIIP +Q+  CTEYI  GL
+Sbjct  121  F------------CDFYIIPRNQESTCTEYINNGL  143
+
+
+> UniRef50_D3GCM5 Major outer capsid protein (Fragment) n=9 Tax=Human 
+rotavirus A TaxID=10941 RepID=D3GCM5_9REOV
+Length=137
+
+ Score = 66.6 bits (161),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 32/84 (38%), Positives = 48/84 (57%), Gaps = 0/84 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LI+   DGVV+  TNNS FW     + P+ +QTN    +  
+Sbjct  53   VLDGPYQPTTFKPPNDYWLLISSNTDGVVYESTNNSDFWTAVIAVEPHVSQTNRQYVLFG  112
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSS  86
+            E    +++N+   ++F + FK SS
+Sbjct  113  ENKQFNVENNSDKWKFFEMFKGSS  136
+
+
+> UniRef50_M4PW48 Outer capsid protein VP4 (Fragment) n=31 Tax=Rotavirus 
+TaxID=10912 RepID=M4PW48_9REOV
+Length=200
+
+ Score = 67.0 bits (162),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 48/144 (33%), Positives = 75/144 (52%), Gaps = 3/144 (2%)
+
+Query  22   LINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGST-YRFVD  80
+            L++P N GVV   TNNS  W+ T LI PN      T  +  +   I+++N  +T ++FVD
+Sbjct  1    LLSPSNAGVVVEGTNNSDRWLATILIEPNVISQTRTYTLFGQQEQITVENVSTTKWKFVD  60
+
+Query  81   YFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVIN  140
+              KT    +Y Q   L+++ +L    +  SG +  Y G++        T  N  +  +++
+Sbjct  61   LAKTDINGTYTQHGPLLSDTKLYGVMK-FSGRLYTYNGATPNATTGYYTTTNYDMVNMVS  119
+
+Query  141  LNADFYIIPDSQQEKCTEYIKGGL  164
+             + DFYIIP S++  CT YI  GL
+Sbjct  120  -HCDFYIIPRSEESTCTNYINNGL  142
+
+
+> UniRef50_J9QM11 Protease-sensitive outer capsid protein (Fragment) 
+n=18 Tax=Rotavirus A TaxID=28875 RepID=J9QM11_9REOV
+Length=165
+
+ Score = 66.2 bits (160),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 35/99 (35%), Positives = 51/99 (52%), Gaps = 0/99 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P +   PS+YW LIN   +GVV+  TNNS FW     + P+    +   NV  E
+Sbjct  50   LDGPYQPTTFTPPSDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFGE  109
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRL  102
+                ++ N    ++F++ F  SS   +  R  L ++ RL
+Sbjct  110  NKQFNVRNDSYKWKFLEMFIGSSQNDFYNRRTLTSDTRL  148
+
+
+> UniRef50_Q7T6W5 Outer capsid protein VP4 (Fragment) n=43 Tax=Rotavirus 
+TaxID=10912 RepID=Q7T6W5_9REOV
+Length=149
+
+ Score = 65.5 bits (158),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 36/98 (37%), Positives = 55/98 (56%), Gaps = 1/98 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   N P NYW L++PLN GVV   TN+   W+ T L+ PN   T  T  +  
+Sbjct  48   VLDGPYQPTKFNPPVNYWMLLSPLNAGVVVEGTNSIDRWLATILVEPNVTTTARTYTLFG  107
+
+Query  63   ETVNISID-NSGSTYRFVDYFKTSSTQSYRQRNYLITE  99
+                IS++ NS + ++F++  KT+ +  +   + L++E
+Sbjct  108  VQEQISVETNSTTKWKFINLIKTTLSGRFTLYSTLLSE  145
+
+
+> UniRef50_A0A023UHQ5 VP4 (Fragment) n=3 Tax=Human rotavirus A 
+TaxID=10941 RepID=A0A023UHQ5_9REOV
+Length=137
+
+ Score = 58.9 bits (141),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 25/92 (27%), Positives = 51/92 (55%), Gaps = 0/92 (0%)
+
+Query  16   PSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGST  75
+            P++YW L+NP N  VV   TN +  W+   L+ PN    +    +  ET  I+++N+ S 
+Sbjct  5    PNDYWILLNPTNQQVVLEGTNRTDIWVALLLVEPNVINQSRQYTLFGETKQITVENNTSK  64
+
+Query  76   YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRR  107
+            ++F + F++S +  ++ +  L ++ +L  + +
+Sbjct  65   WKFFEMFRSSGSAEFQHKRTLTSDTKLAGFMK  96
+
+
+> UniRef50_G9HX95 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=G9HX95_9REOV
+Length=144
+
+ Score = 57.8 bits (138),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 31/106 (29%), Positives = 50/106 (47%), Gaps = 1/106 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   +LP   W L+ P   GVV   T+NS  W+   LI P       T  +  
+Sbjct  5    VLDGPYQPALFDLPVGNWMLLAPTGPGVVVEGTDNSGRWLSVILIEPGVTSETRTYTMFG  64
+
+Query  63   ETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRR  107
+             +  + + N S + ++FV+  KT+    Y +   L+++ +L    +
+Sbjct  65   SSKQVLVSNVSDTKWKFVEMMKTAVDGDYAEWGTLLSDTKLYGMMK  110
+
+
+> UniRef50_A0A222UAC4 Outer capsid protein VP4 (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A222UAC4_9REOV
+Length=130
+
+ Score = 56.6 bits (135),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 25/78 (32%), Positives = 42/78 (54%), Gaps = 0/78 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P     P++YW L+NP N  +V   TN +  W+   L+ PN    +    +  
+Sbjct  52   VLDGPYQPTGFKPPNDYWLLLNPTNQQIVLEGTNRTDIWIAVLLVEPNVTNQSRQYVLFG  111
+
+Query  63   ETVNISIDNSGSTYRFVD  80
+            ET  I+++N+ + ++F +
+Sbjct  112  ETKQITVENNSNKWKFFE  129
+
+
+> UniRef50_A0A1Q1N9W2 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1Q1N9W2_9REOV
+Length=116
+
+ Score = 56.2 bits (134),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 39/101 (39%), Positives = 59/101 (58%), Gaps = 7/101 (7%)
+
+Query  67   ISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDL  125
+            +S++N+  T ++FVD  KT+ T SY Q   L +  +L A  +  SG I  Y G++   + 
+Sbjct  1    LSVENTSQTQWKFVDISKTTPTASYTQHGPLFSTPKLYAVMKF-SGRIYTYNGAT--PNA  57
+
+Query  126  RVGTYFNPVLNAVINLNA--DFYIIPDSQQEKCTEYIKGGL  164
+              G Y++      +N+ +  DFYIIP +Q+EKCTEYI  GL
+Sbjct  58   TTG-YYSTTNYDTVNMTSFCDFYIIPRNQEEKCTEYINNGL  97
+
+
+> UniRef50_A0A0P0YJV8 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0P0YJV8_9REOV
+Length=749
+
+ Score = 58.2 bits (139),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 43/169 (25%), Positives = 79/169 (47%), Gaps = 17/169 (10%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPN-TAQTNVTVNVMN  62
+            LDGPY P +       W+++ P   G V  +   S       L+ P  T     TVN   
+Sbjct  65   LDGPYRPSTYKFFKGLWFILKPTQQGKVLELKTTSGICYALALVEPGFTGDREYTVN--G  122
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGN-ISNYWGSST  121
+            + V I+++N+G+ +++VD   +    S+     L T H + A +R ++ + +  Y G ++
+Sbjct  123  KQVTITVNNTGTLWKYVDII-SYDGNSFNSSVSLTTPHMITAVKRAKTTDTLYTYSGDAS  181
+
+Query  122  YGDLRVGTYFNPVLNAVIN------LNADFYIIPDSQQEKCTEYIKGGL  164
+                     F+P    VI+      L + +YI+ + ++E CTE ++ G+
+Sbjct  182  ------SPTFHPYSGVVIDDKTYIHLLSVYYIVAEDKEEYCTEIVRNGI  224
+
+
+> UniRef50_D0QTW3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+TaxID=10912 RepID=D0QTW3_9REOV
+Length=156
+
+ Score = 54.7 bits (130),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 37/116 (32%), Positives = 57/116 (49%), Gaps = 23/116 (20%)
+
+Query  60   VMNETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQA----------YRRD  108
+            +  ET +IS+ N S S +RFVD  KT++  +Y Q   L+++ +L            Y  +
+Sbjct  2    LFGETASISVANPSQSKWRFVDVVKTTANGTYAQYGPLLSDTKLYGVMKYNGKLYTYNGE  61
+
+Query  109  ESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                 +NY+  + Y  + + +Y             DFYIIP +Q+ KCTEYI  GL
+Sbjct  62   TPNATTNYYSITNYDSVNMTSY------------CDFYIIPRTQESKCTEYINNGL  105
+
+
+> UniRef50_Q68HJ4 Outer capsid protein VP4 (Fragment) n=14 Tax=Rotavirus 
+A TaxID=28875 RepID=Q68HJ4_9REOV
+Length=197
+
+ Score = 53.5 bits (127),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 28/118 (24%), Positives = 60/118 (51%), Gaps = 1/118 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW L+N  ++GVV   TNN+  W+    I PN    +   ++  
+Sbjct  64   VLDGPYQPVAFKPPNDYWILVNSNSNGVVLEGTNNTDVWVAIISIEPNVNSESRQYSLFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+                +++ N+ + ++F++  + ++   ++ +  L +  +L    +   G +  Y+G +
+Sbjct  124  VNKQVTVVNTSNKWKFMEMVRNNNNAEFQHKRTLTSSTKLIGILK-HGGRLWTYYGET  180
+
+
+> UniRef50_A0A222NXN9 Outer capsid protein (Fragment) n=1 Tax=Human 
+rotavirus A TaxID=10941 RepID=A0A222NXN9_9REOV
+Length=136
+
+ Score = 50.8 bits (120),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 33/119 (28%), Positives = 57/119 (48%), Gaps = 4/119 (3%)
+
+Query  47   ILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYR  106
+            + P+    +   NV  E    ++  +   ++F++ F+ SS  ++  R  L ++ RL    
+Sbjct  6    VEPHVDPVDRQYNVFGENKQFNVKKNSDKWKFLEMFRGSSQNAFYNRRTLTSDTRLVGIL  65
+
+Query  107  RDESGNISNYWGSSTYGDLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+            +   G I  + G +           N  LN + I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  66   K-YGGRIWTFHGETPRATTDSSNTVN--LNGISITIHSEFYIIPRSQESKCNEYINNGL  121
+
+
+> UniRef50_Q67534 VP4 (Fragment) n=2 Tax=Rotavirus A TaxID=28875 
+RepID=Q67534_9REOV
+Length=110
+
+ Score = 50.1 bits (118),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 24/51 (47%), Positives = 28/51 (55%), Gaps = 0/51 (0%)
+
+Query  4   LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQT  54
+           LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T
+Sbjct  50  LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNTTDRWFACVLVEPNVQNT  100
+
+
+> UniRef50_J9QNI6 Protease-sensitive outer capsid protein (Fragment) 
+n=17 Tax=Rotavirus A TaxID=28875 RepID=J9QNI6_9REOV
+Length=124
+
+ Score = 49.3 bits (116),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 25/68 (37%), Positives = 35/68 (51%), Gaps = 0/68 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +    V  E
+Sbjct  55   LDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYKVFGE  114
+
+Query  64   TVNISIDN  71
+                ++ N
+Sbjct  115  NKQFNVRN  122
+
+
+> UniRef50_Q9DLD1 Outer capsid protein VP4 (Fragment) n=18 Tax=Rotavirus 
+TaxID=10912 RepID=Q9DLD1_9REOV
+Length=136
+
+ Score = 49.7 bits (117),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 27/78 (35%), Positives = 39/78 (50%), Gaps = 1/78 (1%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P   +LP   W L+ P   GVV   T+NS  W+   LI P  A    T  +   
+Sbjct  57   LDGPYQPAPFDLPVGNWMLLAPTRPGVVVEGTDNSGRWLSVILIEPGVASETRTYMMFGS  116
+
+Query  64   TVNISIDN-SGSTYRFVD  80
+            +  + + N S + ++FV+
+Sbjct  117  SKQVVVSNVSDTKWKFVE  134
+
+
+> UniRef50_Q9IVF6 Capsid protein (Fragment) n=2 Tax=Rotavirus A 
+TaxID=28875 RepID=Q9IVF6_9REOV
+Length=104
+
+ Score = 48.1 bits (113),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 43/83 (52%), Gaps = 0/83 (0%)
+
+Query  20   WYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFV  79
+            W LIN   +GVV+  TN+S FW     I P+    +    +  E+   ++ N  + ++F+
+Sbjct  1    WILINSNTNGVVYESTNSSDFWTAVVAIEPHVNPVDRQYTIFGESKQFNVSNDSNKWKFL  60
+
+Query  80   DYFKTSSTQSYRQRNYLITEHRL  102
+            + F++SS   +  R  L ++ RL
+Sbjct  61   EMFRSSSQNEFYNRRTLTSDTRL  83
+
+
+> UniRef50_F8V183 Outer capsid protein VP4 (Fragment) n=2 Tax=Human 
+rotavirus A TaxID=10941 RepID=F8V183_9REOV
+Length=68
+
+ Score = 46.6 bits (109),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 23/47 (49%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  4   LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPN  50
+           LDGPY P +   P++YW LIN   +GVV+  TNNS FW     I P+
+Sbjct  13  LDGPYQPTTFTPPNDYWILINSNTNGVVYESTNNSDFWTAVVAIEPH  59
+
+
+> UniRef50_C0LK47 Outer capsid protein VP4 (Fragment) n=3 Tax=Human 
+rotavirus A TaxID=10941 RepID=C0LK47_9REOV
+Length=135
+
+ Score = 46.6 bits (109),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 31/103 (30%), Positives = 50/103 (49%), Gaps = 4/103 (4%)
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    ++ N    ++F++ F+ SS   +  R  L ++ RL    +   G I  + G +  
+Sbjct  1    ENKQFNVRNDSDKWKFLEMFRGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGETPR  59
+
+Query  123  GDLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N  LN + I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  60   ATTDSSNTAN--LNGISITIHSEFYIIPRSQESKCNEYINNGL  100
+
+
+> UniRef50_A7YCD5 Outer capsid protein VP4 (Fragment) n=19 Tax=Human 
+rotavirus A TaxID=10941 RepID=A7YCD5_9REOV
+Length=159
+
+ Score = 46.2 bits (108),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 52/113 (46%), Gaps = 18/113 (16%)
+
+Query  60   VMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWG-  118
+            +  E    +++N+   ++F + FK SS   +  R  L + +RL    +   G +  + G 
+Sbjct  5    LFGENKQFNVENNSDKWKFFEMFKGSSQSDFSNRRTLTSNNRLVGMLK-YGGRVWTFHGE  63
+
+Query  119  -------SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   SS   DL          N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  64   TPRATTDSSNTADLN---------NISIIIHSEFYIIPRSQESKCNEYINNGL  107
+
+
+> UniRef50_J9QLU0 Outer capsid protein VP4 (Fragment) n=23 Tax=Rotavirus 
+A TaxID=28875 RepID=J9QLU0_9REOV
+Length=169
+
+ Score = 46.2 bits (108),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 32/107 (30%), Positives = 51/107 (48%), Gaps = 4/107 (4%)
+
+Query  59   NVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWG  118
+            NV  E    ++ N     +F++ F+ SS   +  R  L ++ +L    +   G I  + G
+Sbjct  9    NVFGENKQFNVRNDSDKSKFLEMFRGSSQSDFYNRRTLTSDTKLVGILK-YGGRIWTFHG  67
+
+Query  119  SSTYGDLRVGTYFNPVLNAV-INLNADFYIIPDSQQEKCTEYIKGGL  164
+             +           N  LN + I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  68   ETPRATTDSSNTAN--LNDISITIHSEFYIIPRSQESKCNEYINNGL  112
+
+
+> UniRef50_A0A1I9ZJE5 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJE5_9REOV
+Length=85
+
+ Score = 44.7 bits (104),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 29/49 (59%), Gaps = 0/49 (0%)
+
+Query  3   ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNT  51
+            LDGPY P +   P++YW L+N  ++GVV   TNN+  W+    I PN 
+Sbjct  20  VLDGPYQPXAFKPPNDYWILVNSNSNGVVLEGTNNTDVWVAIISIEPNV  68
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 235678564429
+Results from round 2
+
+
+Query= 4yg0
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_Q5CD28 Outer capsid protein VP4 (Fragment) n=4 Tax=Rot...  228     4e-72
+  UniRef50_D5HMS2 Outer capsid protein VP4 (Fragment) n=514 Tax=R...  227     2e-71
+  UniRef50_D0TZ86 Outer capsid protein VP4 (Fragment) n=54 Tax=Ro...  224     3e-71
+  UniRef50_A0A075W1Z3 Outer capsid protein VP4 (Fragment) n=2 Tax...  221     7e-70
+  UniRef50_A0A0N7CDJ7 Outer capsid protein VP4 (Fragment) n=497 T...  222     8e-70
+  UniRef50_B7TAC3 Outer capsid protein VP4 (Fragment) n=2214 Tax=...  222     2e-69
+  UniRef50_A0A2H4W7Z6 VP4 (Fragment) n=5 Tax=Rotavirus A TaxID=28...  226     1e-68
+  UniRef50_A0A0S0VAT8 Outer capsid protein VP4 (Fragment) n=39 Ta...  216     2e-68
+  UniRef50_D4N5V0 Outer capsid protein VP4 (Fragment) n=254 Tax=R...  219     3e-68
+  UniRef50_P12473 Outer capsid protein VP4 n=1091 Tax=Rotavirus T...  231     3e-68
+  UniRef50_P11193 Outer capsid protein VP4 n=4016 Tax=Rotavirus T...  230     5e-68
+  UniRef50_A0A1S5WJA6 Outer capsid protein VP4 (Fragment) n=17 Ta...  216     3e-67
+  UniRef50_Q90102 Outer capsid protein VP4 (Fragment) n=48 Tax=Ro...  216     3e-67
+  UniRef50_V5UZH1 Outer capsid protein VP4 (Fragment) n=114 Tax=R...  213     5e-66
+  UniRef50_A0A0D5Z7X7 Outer capsid protein VP4 (Fragment) n=78 Ta...  217     9e-66
+  UniRef50_A0A1Z1W237 Outer capsid protein VP4 (Fragment) n=14 Ta...  207     1e-64
+  UniRef50_M9QW09 Outer capsid protein VP4 (Fragment) n=7 Tax=Rot...  205     2e-64
+  UniRef50_F1T2J6 Outer capsid protein VP4 (Fragment) n=4 Tax=Rot...  208     2e-64
+  UniRef50_A0A1S5YEY9 Outer capsid protein VP4 (Fragment) n=34 Ta...  209     3e-64
+  UniRef50_A0A077AZS1 Outer capsid protein VP4 (Fragment) n=6 Tax...  206     6e-64
+  UniRef50_A0A1Z1W220 Outer capsid protein VP4 (Fragment) n=12 Ta...  205     1e-63
+  UniRef50_A0A0A0Q1V1 Outer capsid spike (Fragment) n=3 Tax=Rotav...  196     5e-60
+  UniRef50_A0A068L7V3 Outer capsid protein VP4 (Fragment) n=164 T...  197     7e-60
+  UniRef50_UPI0006BB9A37 Outer capsid protein VP4 n=1 Tax=Rotavir...  190     2e-58
+  UniRef50_A0A1V0FUL0 Outer capsid protein VP4 n=1 Tax=Rotavirus ...  203     3e-58
+  UniRef50_A8IJH8 Outer capsid protein VP4 (Fragment) n=84 Tax=Ro...  189     5e-56
+  UniRef50_M4PW48 Outer capsid protein VP4 (Fragment) n=31 Tax=Ro...  180     4e-54
+  UniRef50_A7TUM4 VP4 (Fragment) n=3 Tax=Rotavirus A TaxID=28875 ...  179     9e-54
+  UniRef50_A0A023UHQ5 VP4 (Fragment) n=3 Tax=Human rotavirus A Ta...  177     1e-53
+  UniRef50_A0A1I9ZJD7 Outer capsid protein VP4 (Fragment) n=5 Tax...  179     1e-53
+  UniRef50_Q7T6W2 Outer capsid protein VP4 n=3 Tax=Rotavirus TaxI...  171     4e-51
+  UniRef50_Q68HJ4 Outer capsid protein VP4 (Fragment) n=14 Tax=Ro...  169     1e-49
+  UniRef50_A0A222NXN9 Outer capsid protein (Fragment) n=1 Tax=Hum...  163     3e-48
+  UniRef50_J9QM11 Protease-sensitive outer capsid protein (Fragme...  163     6e-48
+  UniRef50_A2THZ3 Outer capsid protein (Fragment) n=1 Tax=Human r...  162     2e-47
+  UniRef50_B5MGI6 Outer capsid protein VP4 (Fragment) n=1 Tax=Bov...  161     2e-46
+  UniRef50_G9HX95 Outer capsid protein VP4 (Fragment) n=1 Tax=Rot...  158     2e-46
+  UniRef50_B7ZGS2 Capsid protein (Fragment) n=7 Tax=Rotavirus A i...  155     8e-45
+  UniRef50_A0A218KSJ7 Outer capsid protein VP4 (Fragment) n=19 Ta...  152     2e-42
+  UniRef50_J9QLU0 Outer capsid protein VP4 (Fragment) n=23 Tax=Ro...  149     3e-42
+  UniRef50_A0A1I9ZJT1 Outer capsid protein VP4 (Fragment) n=3 Tax...  147     7e-42
+  UniRef50_A7YCD5 Outer capsid protein VP4 (Fragment) n=19 Tax=Hu...  146     2e-41
+  UniRef50_Q9IVF6 Capsid protein (Fragment) n=2 Tax=Rotavirus A T...  137     1e-38
+  UniRef50_C0LK47 Outer capsid protein VP4 (Fragment) n=3 Tax=Hum...  137     3e-38
+  UniRef50_B5AAV2 Outer capsid protein VP4 (Fragment) n=10 Tax=Ro...  137     2e-37
+  UniRef50_Q7T6W5 Outer capsid protein VP4 (Fragment) n=43 Tax=Ro...  131     2e-35
+  UniRef50_A0A0P0YJV8 Outer capsid protein VP4 n=1 Tax=Rotavirus ...  139     2e-35
+  UniRef50_D3GCM5 Major outer capsid protein (Fragment) n=9 Tax=H...  130     2e-35
+  UniRef50_D0QTW3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rot...  127     4e-34
+  UniRef50_A0A222UAC4 Outer capsid protein VP4 (Fragment) n=3 Tax...  123     1e-32
+  UniRef50_Q9DLD1 Outer capsid protein VP4 (Fragment) n=18 Tax=Ro...  116     4e-30
+  UniRef50_A0A1Q1N9W2 Outer capsid protein VP4 (Fragment) n=1 Tax...  114     2e-29
+  UniRef50_J9QNI6 Protease-sensitive outer capsid protein (Fragme...  103     3e-25
+  UniRef50_A0A1I9ZJE5 Outer capsid protein VP4 (Fragment) n=2 Tax...  99.7    3e-24
+  UniRef50_Q67534 VP4 (Fragment) n=2 Tax=Rotavirus A TaxID=28875 ...  95.1    4e-22
+  UniRef50_F8V183 Outer capsid protein VP4 (Fragment) n=2 Tax=Hum...  79.7    1e-16
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_Q67526 Outer capsid protein VP4 (Fragment) n=80 Tax=Ro...  141     2e-39
+  UniRef50_A0A286S7T5 Outer capsid protein VP4 (Fragment) n=14 Ta...  129     2e-35
+  UniRef50_W8DTF1 Outer capsid protein VP4 (Fragment) n=1 Tax=Rot...  127     2e-34
+  UniRef50_D3JPR3 Outer capsid protein VP4 (Fragment) n=6 Tax=Rot...  125     2e-33
+  UniRef50_A0A220XLW8 Outer capsid protein VP4 (Fragment) n=17 Ta...  112     6e-26
+  UniRef50_J9QM10 Protease-sensitive outer capsid protein (Fragme...  93.5    2e-21
+  UniRef50_A0A291EVP4 Outer capsid protein VP4 (Fragment) n=1 Tax...  91.2    1e-20
+  UniRef50_Q7T6W9 Viral protein 4 (Fragment) n=2 Tax=Rotavirus Ta...  86.6    2e-19
+  UniRef50_Q7T6W6 Outer capsid protein VP4 (Fragment) n=1 Tax=Equ...  85.5    1e-18
+  UniRef50_J9QN92 Outer capsid protein VP4 (Fragment) n=9 Tax=Rot...  85.8    2e-18
+  UniRef50_Q1HM04 Outer capsid protein VP4 (Fragment) n=23 Tax=Ro...  63.1    3e-10
+  UniRef50_A0A0B4U754 Outer capsid protein VP4 (Fragment) n=2 Tax...  61.2    3e-09
+  UniRef50_A0A0G2SS85 Outer capsid protein VP4 (Fragment) n=2 Tax...  57.0    3e-08
+  UniRef50_A0A0B4U7V0 Outer capsid protein VP4 (Fragment) n=2 Tax...  59.3    6e-08
+  UniRef50_K9KAD1 Outer capsid protein (Fragment) n=8 Tax=Human r...  50.0    7e-06
+
+
+> UniRef50_Q5CD28 Outer capsid protein VP4 (Fragment) n=4 Tax=Rotavirus 
+A TaxID=28875 RepID=Q5CD28_9REOV
+Length=266
+
+ Score = 228 bits (582),  Expect = 4e-72, Method: Composition-based stats.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  +V   TN +  W+   LI PN    +    +  
+Sbjct  49   VLDGPYQPTSFKPPNDYWLLLNPTNQQIVLEGTNRTDVWVVILLIEPNVVSQSRQYVLFG  108
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F+ +++  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  109  ETKQITVENNSNKWKFFEMFRNNASAEFQHKRTLTSDTKLAGFLK-HGGRIWTFHGETPH  167
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  T  N        ++ +FYIIP SQ+ KC+EYI  GL
+Sbjct  168  ATTDYSTTSNLYD-IETMIHTEFYIIPRSQEAKCSEYINTGL  208
+
+
+> UniRef50_D5HMS2 Outer capsid protein VP4 (Fragment) n=514 Tax=Rotavirus 
+TaxID=10912 RepID=D5HMS2_9REOV
+Length=287
+
+ Score = 227 bits (580),  Expect = 2e-71, Method: Composition-based stats.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  +V   TN +  W+   L+ PN    N    +  
+Sbjct  64   VLDGPYQPTSFKPPNDYWILLNPTNQQIVLEGTNRTDVWIALLLVEPNVTNQNRQYTLFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F+ S++  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  124  ETKQITVENNTNKWKFYEMFRNSASVEFQHKRTLTSDTKLAGFLK-HGGRIWTFHGETPH  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  183  ATTDYSSTSN-LSEVETVIHTEFYIIPRSQESKCNEYINTGL  223
+
+
+> UniRef50_D0TZ86 Outer capsid protein VP4 (Fragment) n=54 Tax=Rotavirus 
+A TaxID=28875 RepID=D0TZ86_9REOV
+Length=207
+
+ Score = 224 bits (571),  Expect = 3e-71, Method: Composition-based stats.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  VV   TN +  W+   L+ PN    +    +  
+Sbjct  44   VLDGPYQPTSFKPPNDYWILLNPTNQQVVLEGTNKTDAWVALLLVEPNVTNQSRQYTLFG  103
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F++S +  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  104  ETKQITVENNTNKWKFFEMFRSSVSAEFQHKRTLTSDTKLSGFLK-HGGRIWTFHGETPH  162
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  163  ATTDYSSTSN-LSEVETVIHTEFYIIPRSQESKCNEYINTGL  203
+
+
+> UniRef50_A0A075W1Z3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A075W1Z3_9REOV
+Length=198
+
+ Score = 221 bits (562),  Expect = 7e-70, Method: Composition-based stats.
+ Identities = 48/158 (30%), Positives = 83/158 (53%), Gaps = 2/158 (1%)
+
+Query  7    PYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVN  66
+            PY P S   P++YW L++P N  V+   TN +  W+   LI PNT   +    +  ET  
+Sbjct  1    PYQPTSFKPPNDYWILLDPTNQKVILEGTNRTDVWVAILLIEPNTISQDRQYTLFGETKQ  60
+
+Query  67   ISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLR  126
+            I+I+N+ S ++F + F+ +++  ++ +  L ++ +L  + +   G +  + G +      
+Sbjct  61   ITIENNSSKWKFFEMFRNNASAEFQHKRTLTSDTKLAGFLK-HGGRVWTFHGETPNATTD  119
+
+Query  127  VGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              T  N + +    ++ DFYIIP SQ+ KC EYI  GL
+Sbjct  120  YSTTSN-LSDIETVIHTDFYIIPRSQESKCKEYINTGL  156
+
+
+> UniRef50_A0A0N7CDJ7 Outer capsid protein VP4 (Fragment) n=497 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0N7CDJ7_9REOV
+Length=244
+
+ Score = 222 bits (565),  Expect = 8e-70, Method: Composition-based stats.
+ Identities = 56/162 (35%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LI+   DGVV+  TNNS FW     + P+ +QTN    +  
+Sbjct  17   VLDGPYQPTTFKPPNDYWLLISSNTDGVVYESTNNSDFWTAVIAVEPHVSQTNRQYVLFG  76
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    +I+NS   ++F + FK SS   +  R  L + +RL    +   G +  + G +  
+Sbjct  77   ENKQFNIENSSDKWKFFEMFKGSSQSDFTNRRTLTSNNRLVGMLK-YGGRVWTFHGVTPR  135
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              +      + + N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  136  ATIDSSNTAD-LNNISIIIHSEFYIIPRSQESKCNEYINNGL  176
+
+
+> UniRef50_B7TAC3 Outer capsid protein VP4 (Fragment) n=2214 Tax=Rotavirus 
+TaxID=10912 RepID=B7TAC3_9REOV
+Length=278
+
+ Score = 222 bits (565),  Expect = 2e-69, Method: Composition-based stats.
+ Identities = 53/162 (33%), Positives = 81/162 (50%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +   NV  
+Sbjct  64   ILDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    ++ N  + ++F++ F+ SS   +  R  L ++ RL    +   G I  + G +  
+Sbjct  124  ENKQFNVRNDSNKWKFLEMFRGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGETPR  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +    I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  183  ATTDSSNTAN-LNGISITIHSEFYIIPRSQESKCNEYINNGL  223
+
+
+> UniRef50_A0A2H4W7Z6 VP4 (Fragment) n=5 Tax=Rotavirus A TaxID=28875 
+RepID=A0A2H4W7Z6_9REOV
+Length=464
+
+ Score = 226 bits (575),  Expect = 1e-68, Method: Composition-based stats.
+ Identities = 55/163 (34%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L++P N GVV   TNNS  W+ T LI PN      T  +  
+Sbjct  64   ILDGPYQPTTFNPPVDYWMLLSPSNAGVVVEGTNNSNRWLATVLIEPNVQTETRTYTLFG  123
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                IS+ N   + ++F+D  KT+   ++ Q   ++++ +L    +  +G +  Y G + 
+Sbjct  124  VEEQISVSNDSLTKWKFIDLSKTTLNGTFTQHGPMLSDPKLYGVMK-HNGKLYTYNGETP  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N   +  +    DFYIIP SQ+  CTEYI  GL
+Sbjct  183  NATTGYYSTTN-YDSVNMTTFCDFYIIPRSQESICTEYINNGL  224
+
+
+> UniRef50_A0A0S0VAT8 Outer capsid protein VP4 (Fragment) n=39 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0S0VAT8_9REOV
+Length=177
+
+ Score = 216 bits (550),  Expect = 2e-68, Method: Composition-based stats.
+ Identities = 61/163 (37%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P  YW L++P   GVV   TNN+  W+ T LI PN      T  +  
+Sbjct  1    VLDGPYQPTSFNPPVGYWMLLSPTAAGVVVEGTNNTDRWLATILIEPNVPSQQRTYTIFG  60
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+++N+  T +RFVD  KT+   SY Q   L++  +L A  +   G I  Y G + 
+Sbjct  61   VQEQITVENTSQTQWRFVDVSKTTQNGSYSQYGPLLSTPKLYAVMK-YGGRIHTYSGQTP  119
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N   +  +    DFYIIP S++ KCTEYI  GL
+Sbjct  120  NATTGYYSATN-YDSVNMTTFCDFYIIPRSEESKCTEYINNGL  161
+
+
+> UniRef50_D4N5V0 Outer capsid protein VP4 (Fragment) n=254 Tax=Rotavirus 
+A TaxID=28875 RepID=D4N5V0_9REOV
+Length=275
+
+ Score = 219 bits (558),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 52/162 (32%), Positives = 80/162 (49%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +   NV  
+Sbjct  57   ILDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    ++ N    ++F++ F+ SS   +  R  L ++ +L    +   G I  + G +  
+Sbjct  117  ENKQFNVRNDSDKWKFLEMFRGSSQSDFYNRPPLTSDTKLVGILK-YGGRIWTFHGETPR  175
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +    I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  176  ATTDSSNTAN-LNGISITIHSEFYIIPRSQESKCNEYINNGL  216
+
+
+> UniRef50_P12473 Outer capsid protein VP4 n=1091 Tax=Rotavirus 
+TaxID=10912 RepID=VP4_ROTRH
+Length=776
+
+ Score = 231 bits (588),  Expect = 3e-68, Method: Composition-based stats.
+ Identities = 56/163 (34%), Positives = 80/163 (49%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P +YW L+ P   GVV   TNN+  W+ T L+ PN      +  +  
+Sbjct  64   VLDGPYQPTSFNPPVDYWMLLAPTAAGVVVEGTNNTDRWLATILVEPNVTSETRSYTLFG  123
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+I N+  T ++F+D  KT+   SY Q   L +  +L A  +  +G I  Y G + 
+Sbjct  124  TQEQITIANASQTQWKFIDVVKTTQNGSYSQYGPLQSTPKLYAVMK-HNGKIYTYNGETP  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                +  +  N   +  +    DFYIIP  ++  CTEYI  GL
+Sbjct  183  NVTTKYYSTTN-YDSVNMTAFCDFYIIPREEESTCTEYINNGL  224
+
+
+> UniRef50_P11193 Outer capsid protein VP4 n=4016 Tax=Rotavirus 
+TaxID=10912 RepID=VP4_ROTHW
+Length=775
+
+ Score = 230 bits (587),  Expect = 5e-68, Method: Composition-based stats.
+ Identities = 51/162 (31%), Positives = 83/162 (51%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     I P+    +    +  
+Sbjct  64   ILDGPYQPTTFTPPNDYWILINSNTNGVVYESTNNSDFWTAVVAIEPHVNPVDRQYTIFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E+   ++ N  + ++F++ F++SS   +  R  L ++ R     +   G +  + G +  
+Sbjct  124  ESKQFNVSNDSNKWKFLEMFRSSSQNEFYNRRTLTSDTRFVGILK-YGGRVWTFHGETPR  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N + N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  183  ATTDSSSTAN-LNNISITIHSEFYIIPRSQESKCNEYINNGL  223
+
+
+> UniRef50_A0A1S5WJA6 Outer capsid protein VP4 (Fragment) n=17 
+Tax=Rotavirus A TaxID=28875 RepID=A0A1S5WJA6_9REOV
+Length=277
+
+ Score = 216 bits (551),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 50/162 (31%), Positives = 81/162 (50%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+N  ++GVV   TNN+  W+    + PN    +   ++  
+Sbjct  57   VLDGPYQPVSFKPPNDYWILVNSSSNGVVLEGTNNTDVWVAIISVEPNVNSESRQYSLFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+                I++ N+ S ++F++ F+  S   ++ +  L +  RL    +   G +  Y G +  
+Sbjct  117  VNKQITVVNTSSKWKFMEMFRNDSNAEFQHKRTLTSSTRLVGVLK-HGGRLWTYRGETPN  175
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  T  N +    +   A+FYIIP SQ+ KCTEY+  GL
+Sbjct  176  ATTDYSTTSN-LNEISVTTYAEFYIIPRSQESKCTEYVNTGL  216
+
+
+> UniRef50_Q90102 Outer capsid protein VP4 (Fragment) n=48 Tax=Rotavirus 
+A TaxID=28875 RepID=Q90102_9REOV
+Length=265
+
+ Score = 216 bits (550),  Expect = 3e-67, Method: Composition-based stats.
+ Identities = 56/163 (34%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L+ P N GVV   TNN+  W+ T LI PN      T  +  
+Sbjct  49   VLDGPYQPTTFNPPVSYWMLLAPTNAGVVVEGTNNTNRWLATILIEPNVQSVERTYTLFG  108
+
+Query  63   ETVNISID-NSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + V I++  +S + ++F D  K +   +Y Q   L++  +L    +   G I  Y G + 
+Sbjct  109  QQVQITVSLDSQTIWKFADVSKQTQDGNYSQHGLLLSTPKLYGVMK-HGGKIYTYNGETP  167
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              +    +  N   +  +    DFYIIP +Q+ KCTEYI  GL
+Sbjct  168  NANTGYYSTTN-YDSVNMTAYCDFYIIPLAQEAKCTEYINNGL  209
+
+
+> UniRef50_V5UZH1 Outer capsid protein VP4 (Fragment) n=114 Tax=Rotavirus 
+A TaxID=28875 RepID=V5UZH1_9REOV
+Length=278
+
+ Score = 213 bits (543),  Expect = 5e-66, Method: Composition-based stats.
+ Identities = 46/162 (28%), Positives = 84/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P +YW L+NP +  VV   TN +  W+   L+ PN    +    +  
+Sbjct  57   VLDGPYQPTSFNPPGDYWILLNPTDQQVVLESTNKTDIWIALLLVEPNVTNQSRQYTLFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E   I+I+N+ + ++F + F+ ++   ++ ++ L ++ +L  + +    ++  ++G + +
+Sbjct  117  EMRQITIENNTNKWKFFEVFRRTAGAEFQHKHTLTSDTKLAGFLKLY-NSVWTFYGETPH  175
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  176  ATTDYLLTSN-LSEVEAVIHVEFYIIPRSQESKCVEYINTGL  216
+
+
+> UniRef50_A0A0D5Z7X7 Outer capsid protein VP4 (Fragment) n=78 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0D5Z7X7_9REOV
+Length=435
+
+ Score = 217 bits (553),  Expect = 9e-66, Method: Composition-based stats.
+ Identities = 57/163 (35%), Positives = 86/163 (53%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L++P N GVV   TNNS  W+ T LI PN    + T  +  
+Sbjct  64   VLDGPYQPTTFNPPVSYWILLSPSNAGVVVEGTNNSDRWLATILIEPNVTSESRTYTLFG  123
+
+Query  63   ETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+++N S + ++FVD  KT    ++ Q   L+++ +L    +  SG +  Y G + 
+Sbjct  124  RQEQITVENVSTTKWKFVDLAKTDINGTFTQHGPLLSDTKLYGVMK-FSGRLYTYNGETP  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   T  N     +I+ + DFYIIP +++  CT+YI  GL
+Sbjct  183  NATTGYYTTTNYDTVNMIS-HCDFYIIPRAEENTCTDYINNGL  224
+
+
+> UniRef50_A0A1Z1W237 Outer capsid protein VP4 (Fragment) n=14 
+Tax=Rotavirus A TaxID=28875 RepID=A0A1Z1W237_9REOV
+Length=210
+
+ Score = 207 bits (527),  Expect = 1e-64, Method: Composition-based stats.
+ Identities = 53/164 (32%), Positives = 78/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P  YW L  P + GVV  +TNN   W+   LI PN  Q   T  +  
+Sbjct  11   VLDGPYQPTTFNPPVEYWTLFAPSDKGVVAELTNNIDMWLAIILIEPNVPQELRTYTIFG  70
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN+ ++N+  + ++F D+ K S   +Y   + L ++ +LQA  +     +  + G++ 
+Sbjct  71   QQVNLVVENASQTKWKFADFRKRSQNDTYVLNDTLSSDTKLQAAMK-YGARLFTFTGNTP  129
+
+Query  122  YGD-LRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      I    DFYIIP   +E C  YI  GL
+Sbjct  130  DAAPQEYGYETNNYSAIEIRSFCDFYIIPRMPREVCRNYINHGL  173
+
+
+> UniRef50_M9QW09 Outer capsid protein VP4 (Fragment) n=7 Tax=Rotavirus 
+TaxID=10912 RepID=M9QW09_9REOV
+Length=161
+
+ Score = 205 bits (522),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 63/163 (39%), Positives = 89/163 (55%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P++YW L+ P  +GVV   TNN   W+ T LI PN   TN   N+  
+Sbjct  1    LLDGPYQPTTFNPPTSYWILLAPTVEGVVIQGTNNIDRWLATILIEPNVQTTNRIYNLFG  60
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + V +S++N+  T ++F+D  KT+ T +Y Q   L +  +L A  +  SG I  Y G++ 
+Sbjct  61   QQVTLSVENTSQTQWKFIDVSKTTPTGNYTQHGSLFSTPKLYAVMK-FSGRIYTYNGTTP  119
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N      +    DFYIIP +Q+EKCTEYI  GL
+Sbjct  120  NATTGYYSTTN-YDTVNMTSFCDFYIIPRNQEEKCTEYINHGL  161
+
+
+> UniRef50_F1T2J6 Outer capsid protein VP4 (Fragment) n=4 Tax=Rotavirus 
+A TaxID=28875 RepID=F1T2J6_9REOV
+Length=260
+
+ Score = 208 bits (530),  Expect = 2e-64, Method: Composition-based stats.
+ Identities = 49/164 (30%), Positives = 78/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + + P  YW L  P + G+V  +TNN   W+   LI PN +    T  +  
+Sbjct  44   VLDGPYQPTTLDPPIEYWTLFAPNDKGIVAELTNNVDIWLAIILIEPNVSPEMRTYTMFG  103
+
+Query  63   ETVNISIDNSGS-TYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN++++N+    ++FVD+ + S   +Y     L+++ +LQA  +     +  + G + 
+Sbjct  104  QQVNLTVENTSQARWKFVDFRRRSQHDTYVIEGTLLSDTKLQAAMK-YGARLFTFIGDTP  162
+
+Query  122  YGD-LRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      +    DFYIIP   +E C  YI  GL
+Sbjct  163  NAAPQEYGYETNNYSAIEVKSFCDFYIIPRLPREVCRNYINHGL  206
+
+
+> UniRef50_A0A1S5YEY9 Outer capsid protein VP4 (Fragment) n=34 
+Tax=Rotavirus TaxID=10912 RepID=A0A1S5YEY9_9REOV
+Length=290
+
+ Score = 209 bits (532),  Expect = 3e-64, Method: Composition-based stats.
+ Identities = 50/164 (30%), Positives = 79/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P  YW L  P N G+V  +TNN+  W+   LI PN +    T  +  
+Sbjct  63   VLDGPYQPTTLNPPIEYWMLFAPNNKGMVAELTNNTDIWLAIILIEPNVSPEIRTYTIFG  122
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN++++N+  + ++F D+ + S   +Y     L+++ +LQA  +     +  + G + 
+Sbjct  123  QQVNLTVENTSQTKWKFFDFRRRSQHDTYILEGTLLSDTKLQAAMK-YGAKLFTFIGDTP  181
+
+Query  122  YGD-LRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      +    DFYIIP   +E C  YI  GL
+Sbjct  182  SAAPQEYGYETNNYSAIEVKSFCDFYIIPRLPREVCRNYINHGL  225
+
+
+> UniRef50_A0A077AZS1 Outer capsid protein VP4 (Fragment) n=6 Tax=Rotavirus 
+TaxID=10912 RepID=A0A077AZS1_9REOV
+Length=214
+
+ Score = 206 bits (523),  Expect = 6e-64, Method: Composition-based stats.
+ Identities = 51/163 (31%), Positives = 81/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P NYW L  P   GV+   TNN   W+   L+ P   QT     V  
+Sbjct  16   VLDGPYQPTTFNPPVNYWLLFAPSTQGVIAEGTNNINRWLAIILVEPGVTQTTREYTVFG  75
+
+Query  63   ETVNISIDNS-GSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            E + + ++N+  + ++F+D  + + + +Y Q   L+++ +L A  +   G I  Y G + 
+Sbjct  76   ERIQLQVENTHQTKWKFIDISRANQSDNYMQYGPLLSDTKLYAAMK-YGGLICTYEGETP  134
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N   +  + +  DFYIIP +Q+  CT+YI  GL
+Sbjct  135  NARTNWYSTTN-YSDVEMTIFCDFYIIPRAQENICTDYINNGL  176
+
+
+> UniRef50_A0A1Z1W220 Outer capsid protein VP4 (Fragment) n=12 
+Tax=Porcine rotavirus A TaxID=10967 RepID=A0A1Z1W220_9REOV
+Length=215
+
+ Score = 205 bits (522),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 54/164 (33%), Positives = 78/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P  YW L  P + GVV  +TNN   W+   LI PN  Q   T  +  
+Sbjct  14   VLDGPYQPTTFNPPIEYWTLFAPSDKGVVAELTNNIDMWLAIILIEPNVPQELKTYTIFG  73
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN+ I+N+  + ++F D+ K S   +Y   + L ++ +LQA  +     +  + G++ 
+Sbjct  74   QQVNLVIENTSQTKWKFADFRKRSQNDTYVLNDTLSSDTKLQAAMK-YGARLFTFTGNTP  132
+
+Query  122  YGD-LRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      I    DFYIIP   +E C  YI  GL
+Sbjct  133  NAAPQEYGYETNNYSAIEIRSFCDFYIIPRMPREVCRNYINHGL  176
+
+
+> UniRef50_A0A0A0Q1V1 Outer capsid spike (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0A0Q1V1_9REOV
+Length=216
+
+ Score = 196 bits (497),  Expect = 5e-60, Method: Composition-based stats.
+ Identities = 53/162 (33%), Positives = 84/162 (52%), Gaps = 3/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  17   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNATDRWFACVLVEPNVQNTQRQYVLDGQ  76
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V +++ N  +T ++F+ + K +   +Y Q + L T H+L A+ + +   +  Y G++  
+Sbjct  77   NVQLNVSNDSNTSWKFILFIKLTPNGTYTQYSTLSTPHKLCAWMKRD-NRVYWYQGATPN  135
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N   N+ ++ +A+FY+IP SQ   CT+YI  GL
+Sbjct  136  ASESYYLTIN-NDNSNVSSDAEFYLIPQSQTAMCTQYINNGL  176
+
+
+> UniRef50_A0A068L7V3 Outer capsid protein VP4 (Fragment) n=164 
+Tax=Rotavirus TaxID=10912 RepID=A0A068L7V3_9REOV
+Length=273
+
+ Score = 197 bits (501),  Expect = 7e-60, Method: Composition-based stats.
+ Identities = 52/163 (32%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             L GPY P + N P+ YW  + PL    +    NN+   + T + L +   T+   N+  
+Sbjct  48   LLXGPYXPXTFNPPTKYWAPLAPLAQXKIXXCXNNTXKCLDTIVFLXDVQATSRIYNLFG  107
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + V +S++N+  T ++F+D  +T+ T +Y Q   L +  +L A  +  SG I  Y G++ 
+Sbjct  108  QQVTLSVENTSQTQWKFIDVSRTTPTGNYTQHGLLFSTPKLYAVMK-FSGRIYTYNGTTP  166
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N      +    DFYIIP +Q+EKCTEYI  GL
+Sbjct  167  NATTGYYSTTN-YDTVNMTSFCDFYIIPRNQEEKCTEYINHGL  208
+
+
+> UniRef50_UPI0006BB9A37 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=UPI0006BB9A37
+Length=164
+
+ Score = 190 bits (483),  Expect = 2e-58, Method: Composition-based stats.
+ Identities = 164/164 (100%), Positives = 164/164 (100%), Gaps = 0/164 (0%)
+
+Query  1    GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV  60
+            GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV
+Sbjct  1    GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV  60
+
+Query  61   MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+            MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS
+Sbjct  61   MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+
+Query  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL
+Sbjct  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+
+
+> UniRef50_A0A1V0FUL0 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1V0FUL0_9REOV
+Length=783
+
+ Score = 203 bits (516),  Expect = 3e-58, Method: Composition-based stats.
+ Identities = 54/162 (33%), Positives = 82/162 (51%), Gaps = 3/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P   W ++ P  +G+V S TNN   W+F  L+ PNT     T  V   
+Sbjct  65   LDGPYQPTTFNPPIKNWIMLCPEQEGLVASGTNNVDRWLFLVLVAPNTQAEQRTYRVFGA  124
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V +S++NS +T ++F+D+ KT  T +Y     L++  ++ A  + E   +  Y GS+  
+Sbjct  125  DVQVSVENSDTTLWKFIDFAKTDRTNTYTAYGTLMSSTKIDAVLKFE-NKLYTYIGSTPD  183
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  +   N  I    DFYII   Q+ +CT Y+  GL
+Sbjct  184  AQTGYYSTTD-YANVNITTYCDFYIIHRDQERQCTNYVNNGL  224
+
+
+> UniRef50_A8IJH8 Outer capsid protein VP4 (Fragment) n=84 Tax=Rotavirus 
+A TaxID=28875 RepID=A8IJH8_9REOV
+Length=315
+
+ Score = 189 bits (479),  Expect = 5e-56, Method: Composition-based stats.
+ Identities = 141/161 (88%), Positives = 148/161 (92%), Gaps = 0/161 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY PDSSNLPSNYWYL+NP NDGVVFSVT+NSTFWMFTYL+LPNTAQTNVTVNVMNE
+Sbjct  40   LDGPYAPDSSNLPSNYWYLVNPSNDGVVFSVTDNSTFWMFTYLVLPNTAQTNVTVNVMNE  99
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+            TVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HRLQAYRRD  GNISNYWG+ T G
+Sbjct  100  TVNISIDNSGSTYRFVDYIKTSSTQAYGSRNYLNTAHRLQAYRRDGDGNISNYWGADTQG  159
+
+Query  124  DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            DLRVGTY NPV NAVINLNADFY+IPDSQQEKCTEYI+GGL
+Sbjct  160  DLRVGTYSNPVPNAVINLNADFYVIPDSQQEKCTEYIRGGL  200
+
+
+> UniRef50_M4PW48 Outer capsid protein VP4 (Fragment) n=31 Tax=Rotavirus 
+TaxID=10912 RepID=M4PW48_9REOV
+Length=200
+
+ Score = 180 bits (457),  Expect = 4e-54, Method: Composition-based stats.
+ Identities = 47/144 (33%), Positives = 71/144 (49%), Gaps = 3/144 (2%)
+
+Query  22   LINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDN-SGSTYRFVD  80
+            L++P N GVV   TNNS  W+ T LI PN      T  +  +   I+++N S + ++FVD
+Sbjct  1    LLSPSNAGVVVEGTNNSDRWLATILIEPNVISQTRTYTLFGQQEQITVENVSTTKWKFVD  60
+
+Query  81   YFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVIN  140
+              KT    +Y Q   L+++ +L    +  SG +  Y G++        T         + 
+Sbjct  61   LAKTDINGTYTQHGPLLSDTKLYGVMK-FSGRLYTYNGATPNATTGYYT-TTNYDMVNMV  118
+
+Query  141  LNADFYIIPDSQQEKCTEYIKGGL  164
+             + DFYIIP S++  CT YI  GL
+Sbjct  119  SHCDFYIIPRSEESTCTNYINNGL  142
+
+
+> UniRef50_A7TUM4 VP4 (Fragment) n=3 Tax=Rotavirus A TaxID=28875 
+RepID=A7TUM4_9REOV
+Length=182
+
+ Score = 179 bits (453),  Expect = 9e-54, Method: Composition-based stats.
+ Identities = 138/161 (86%), Positives = 146/161 (91%), Gaps = 0/161 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY PDSSNLPSNYWYL+NP  DGVVFSVT+NSTFWMFTYL+LPNTAQTNVTVNVMNE
+Sbjct  11   LDGPYAPDSSNLPSNYWYLVNPSYDGVVFSVTDNSTFWMFTYLVLPNTAQTNVTVNVMNE  70
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+            TVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HRLQAYRRD  GNISNYWG+ T G
+Sbjct  71   TVNISIDNSGSTYRFVDYIKTSSTQTYGSRNYLNTAHRLQAYRRDGDGNISNYWGADTQG  130
+
+Query  124  DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            DLRVGTY NPV + VINLNADFY+IPDSQQEKCTEYI+GGL
+Sbjct  131  DLRVGTYSNPVPDVVINLNADFYVIPDSQQEKCTEYIRGGL  171
+
+
+> UniRef50_A0A023UHQ5 VP4 (Fragment) n=3 Tax=Human rotavirus A 
+TaxID=10941 RepID=A0A023UHQ5_9REOV
+Length=137
+
+ Score = 177 bits (448),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 32/138 (23%), Positives = 68/138 (49%), Gaps = 2/138 (1%)
+
+Query  13   SNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNS  72
+               P++YW L+NP N  VV   TN +  W+   L+ PN    +    +  ET  I+++N+
+Sbjct  2    FKPPNDYWILLNPTNQQVVLEGTNRTDIWVALLLVEPNVINQSRQYTLFGETKQITVENN  61
+
+Query  73   GSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFN  132
+             S ++F + F++S +  ++ +  L ++ +L  + +    ++  + G + +      +  N
+Sbjct  62   TSKWKFFEMFRSSGSAEFQHKRTLTSDTKLAGFMKFY-NSVWTFHGETPHATTDYSSTSN  120
+
+Query  133  PVLNAVINLNADFYIIPD  150
+             +      ++ +FYIIP 
+Sbjct  121  -LSEVETVIHVEFYIIPR  137
+
+
+> UniRef50_A0A1I9ZJD7 Outer capsid protein VP4 (Fragment) n=5 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJD7_9REOV
+Length=193
+
+ Score = 179 bits (453),  Expect = 1e-53, Method: Composition-based stats.
+ Identities = 54/148 (36%), Positives = 77/148 (52%), Gaps = 3/148 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P++YW L+ P  +GV+   TNN   W+ T LI PN   TN T N+  
+Sbjct  48   LLDGPYQPTTFNPPTSYWILLAPTVEGVIIQGTNNVDRWLATILIEPNVQTTNRTYNLFG  107
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            +   +S++N+  T ++FVD  KT+ T SY Q   L +  +L A  +  SG I  Y G++ 
+Sbjct  108  QQETLSVENTSQTQWKFVDISKTTPTGSYTQHGPLFSTPKLYAVMK-FSGRIYTYNGTTP  166
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIP  149
+                   +  N      +    DFYIIP
+Sbjct  167  NATTGYYSTTN-YDTVNMTSFCDFYIIP  193
+
+
+> UniRef50_Q7T6W2 Outer capsid protein VP4 n=3 Tax=Rotavirus TaxID=10912 
+RepID=Q7T6W2_9REOV
+Length=149
+
+ Score = 171 bits (433),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 45/145 (31%), Positives = 74/145 (51%), Gaps = 3/145 (2%)
+
+Query  21   YLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSG-STYRFV  79
+             L++PLN GVV   TN+   W+ T L+ PN   T  T  +      IS++N+  + ++F+
+Sbjct  1    MLLSPLNAGVVVEGTNSIDRWLATVLVEPNVTTTVRTYTLFGVQEQISVENNSTTKWKFI  60
+
+Query  80   DYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVI  139
+            +  KT+ + S+   + L++E +L A  +   G +  Y G +       G   +   +  +
+Sbjct  61   NLIKTTLSGSFTLYSTLLSEPKLHAIMK-HGGQLWVYNGETPNATT-TGYVTSNYDSLTM  118
+
+Query  140  NLNADFYIIPDSQQEKCTEYIKGGL  164
+                DFYIIP +Q+  CTEYI  GL
+Sbjct  119  TSFCDFYIIPRNQESTCTEYINNGL  143
+
+
+> UniRef50_Q68HJ4 Outer capsid protein VP4 (Fragment) n=14 Tax=Rotavirus 
+A TaxID=28875 RepID=Q68HJ4_9REOV
+Length=197
+
+ Score = 169 bits (427),  Expect = 1e-49, Method: Composition-based stats.
+ Identities = 30/133 (23%), Positives = 62/133 (47%), Gaps = 1/133 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW L+N  ++GVV   TNN+  W+    I PN    +   ++  
+Sbjct  64   VLDGPYQPVAFKPPNDYWILVNSNSNGVVLEGTNNTDVWVAIISIEPNVNSESRQYSLFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+                +++ N+ + ++F++  + ++   ++ +  L +  +L    +   G +  Y+G +  
+Sbjct  124  VNKQVTVVNTSNKWKFMEMVRNNNNAEFQHKRTLTSSTKLIGILK-HGGRLWTYYGETPN  182
+
+Query  123  GDLRVGTYFNPVL  135
+                  T  N   
+Sbjct  183  ATTDYSTTSNLNE  195
+
+
+> UniRef50_A0A222NXN9 Outer capsid protein (Fragment) n=1 Tax=Human 
+rotavirus A TaxID=10941 RepID=A0A222NXN9_9REOV
+Length=136
+
+ Score = 163 bits (412),  Expect = 3e-48, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 55/123 (45%), Gaps = 2/123 (2%)
+
+Query  42   MFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHR  101
+                 + P+    +   NV  E    ++  +   ++F++ F+ SS  ++  R  L ++ R
+Sbjct  1    TAVIAVEPHVDPVDRQYNVFGENKQFNVKKNSDKWKFLEMFRGSSQNAFYNRRTLTSDTR  60
+
+Query  102  LQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIK  161
+            L    +   G I  + G +           N +    I ++++FYIIP SQ+ KC EYI 
+Sbjct  61   LVGILK-YGGRIWTFHGETPRATTDSSNTVN-LNGISITIHSEFYIIPRSQESKCNEYIN  118
+
+Query  162  GGL  164
+             GL
+Sbjct  119  NGL  121
+
+
+> UniRef50_J9QM11 Protease-sensitive outer capsid protein (Fragment) 
+n=18 Tax=Rotavirus A TaxID=28875 RepID=J9QM11_9REOV
+Length=165
+
+ Score = 163 bits (413),  Expect = 6e-48, Method: Composition-based stats.
+ Identities = 38/118 (32%), Positives = 57/118 (48%), Gaps = 1/118 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   PS+YW LIN   +GVV+  TNNS FW     + P+    +   NV  
+Sbjct  49   ILDGPYQPTTFTPPSDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFG  108
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+            E    ++ N    ++F++ F  SS   +  R  L ++ RL    +   G I  + G +
+Sbjct  109  ENKQFNVRNDSYKWKFLEMFIGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGET  165
+
+
+> UniRef50_A2THZ3 Outer capsid protein (Fragment) n=1 Tax=Human 
+rotavirus A TaxID=10941 RepID=A2THZ3_9REOV
+Length=172
+
+ Score = 162 bits (411),  Expect = 2e-47, Method: Composition-based stats.
+ Identities = 41/151 (27%), Positives = 79/151 (52%), Gaps = 3/151 (2%)
+
+Query  15   LPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGS  74
+            LP +YW +++P   G V   TN +  W    ++ PN +  +    +  +TV + +DN+ +
+Sbjct  1    LPVDYWMMMSPTQAGRVAEGTNGTDRWFACIIVEPNVSLQSRDYVLDGQTVQLQVDNTSN  60
+
+Query  75   T-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNP  133
+            T ++F+ + K + + +Y Q + L T H+L A+ + + G +  + G+            N 
+Sbjct  61   TMWKFILFIKLTKSGNYSQYSSLSTNHKLCAWIKRD-GRVYWFDGTVPNSSDNYYLTIN-  118
+
+Query  134  VLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              N++++ + DFY+IP +Q + C  YI  GL
+Sbjct  119  NDNSIVSSDVDFYLIPRTQTDSCRRYINNGL  149
+
+
+> UniRef50_B5MGI6 Outer capsid protein VP4 (Fragment) n=1 Tax=Bovine 
+rotavirus A TaxID=35333 RepID=B5MGI6_9REOV
+Length=231
+
+ Score = 161 bits (408),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 49/164 (30%), Positives = 83/164 (51%), Gaps = 4/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P      +  W L+ P   GV+ + T+N+  WM   +I PN +    T  + +
+Sbjct  34   VLDGPYQPIKFKPDNGNWLLLQPERPGVIMTGTDNANIWMAAIIIEPNLSAEQRTYRIYD  93
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLI-TEHRLQAYRRDESGNISNYWGSS  120
+            E V + +DN+  + ++ VD +KT  +  Y ++N+ I T ++L   R  ++  + +Y G +
+Sbjct  94   EDVELLVDNASRTKWKIVDLYKTQQSGQYVRQNWRIYTAYKLYGIRIVDT-KLQSYGGET  152
+
+Query  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                +   T  N   N  I   ++F+II  +  EKCT Y+  GL
+Sbjct  153  PNLSMITTTVTN-YSNVEITTLSNFFIISSNNTEKCTTYMNQGL  195
+
+
+> UniRef50_G9HX95 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=G9HX95_9REOV
+Length=144
+
+ Score = 158 bits (400),  Expect = 2e-46, Method: Composition-based stats.
+ Identities = 34/134 (25%), Positives = 56/134 (42%), Gaps = 2/134 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   +LP   W L+ P   GVV   T+NS  W+   LI P       T  +  
+Sbjct  5    VLDGPYQPALFDLPVGNWMLLAPTGPGVVVEGTDNSGRWLSVILIEPGVTSETRTYTMFG  64
+
+Query  63   ETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+             +  + + N S + ++FV+  KT+    Y +   L+++ +L    +     +  Y G + 
+Sbjct  65   SSKQVLVSNVSDTKWKFVEMMKTAVDGDYAEWGTLLSDTKLYGMMK-YGERLFIYEGETP  123
+
+Query  122  YGDLRVGTYFNPVL  135
+                +     N   
+Sbjct  124  NVTTKGYIVTNYAS  137
+
+
+> UniRef50_B7ZGS2 Capsid protein (Fragment) n=7 Tax=Rotavirus A 
+isolates TaxID=161240 RepID=B7ZGS2_9REOV
+Length=154
+
+ Score = 155 bits (391),  Expect = 8e-45, Method: Composition-based stats.
+ Identities = 38/122 (31%), Positives = 61/122 (50%), Gaps = 2/122 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  34   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNTTDRWFACVLVEPNVQNTQRQYVLDGQ  93
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V + + N  +T ++F+ + K +   +Y Q + L T H+L A+ + +   +  Y G++  
+Sbjct  94   NVQLHVSNDSNTSWKFILFIKLTPDGTYTQYSTLSTPHKLCAWMKRD-NRVYWYQGTTPN  152
+
+Query  123  GD  124
+              
+Sbjct  153  AS  154
+
+
+> UniRef50_A0A218KSJ7 Outer capsid protein VP4 (Fragment) n=19 
+Tax=Rotavirus A TaxID=28875 RepID=A0A218KSJ7_9REOV
+Length=262
+
+ Score = 152 bits (383),  Expect = 2e-42, Method: Composition-based stats.
+ Identities = 46/162 (28%), Positives = 79/162 (49%), Gaps = 5/162 (3%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY+  S  +   YW L+NP +  VV    +         ++ PNT +++    ++ +
+Sbjct  53   LDGPYSASSIVIQPQYWILVNPTSQEVVIEA-DAQNKKFACVMLPPNTPESDKQYMILGK  111
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             + I + N+ +  Y+F D        +Y +   L+T HRL A+ +D +G +  Y G+   
+Sbjct  112  QITIRLGNTDAVNYKFCDLLSNDGI-TYTKSIELVTPHRLNAFMKD-AGKLYAYSGTVPI  169
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  T  N + N   N+  ++YI+P+SQ     EY+K GL
+Sbjct  170  IKREYHTLDN-IENVQTNITCEYYIVPNSQVSTLEEYLKNGL  210
+
+
+> UniRef50_J9QLU0 Outer capsid protein VP4 (Fragment) n=23 Tax=Rotavirus 
+A TaxID=28875 RepID=J9QLU0_9REOV
+Length=169
+
+ Score = 149 bits (376),  Expect = 3e-42, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 51/114 (45%), Gaps = 2/114 (2%)
+
+Query  51   TAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDES  110
+                +   NV  E    ++ N     +F++ F+ SS   +  R  L ++ +L    +   
+Sbjct  1    VDPVDRQYNVFGENKQFNVRNDSDKSKFLEMFRGSSQSDFYNRRTLTSDTKLVGILK-YG  59
+
+Query  111  GNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            G I  + G +           N + +  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  60   GRIWTFHGETPRATTDSSNTAN-LNDISITIHSEFYIIPRSQESKCNEYINNGL  112
+
+
+> UniRef50_A0A1I9ZJT1 Outer capsid protein VP4 (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJT1_9REOV
+Length=153
+
+ Score = 147 bits (372),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P++YW L+ P  +GV+   TNN   W+ T LI PN   TN T N+  
+Sbjct  47   LLDGPYQPTTFNPPTSYWILLAPTVEGVIIQGTNNVDRWLATILIEPNVQTTNRTYNLFG  106
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRD  108
+            +   +S++N+  T ++FVD  KT+ T SY Q   L +  +L    + 
+Sbjct  107  QQETLSVENTSQTQWKFVDISKTTPTGSYTQHGPLFSTPKLYPVMKF  153
+
+
+> UniRef50_A7YCD5 Outer capsid protein VP4 (Fragment) n=19 Tax=Human 
+rotavirus A TaxID=10941 RepID=A7YCD5_9REOV
+Length=159
+
+ Score = 146 bits (369),  Expect = 2e-41, Method: Composition-based stats.
+ Identities = 29/109 (27%), Positives = 51/109 (47%), Gaps = 2/109 (2%)
+
+Query  56   VTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISN  115
+                +  E    +++N+   ++F + FK SS   +  R  L + +RL    +   G +  
+Sbjct  1    RQYVLFGENKQFNVENNSDKWKFFEMFKGSSQSDFSNRRTLTSNNRLVGMLK-YGGRVWT  59
+
+Query  116  YWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            + G +           + + N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  60   FHGETPRATTDSSNTAD-LNNISIIIHSEFYIIPRSQESKCNEYINNGL  107
+
+
+> UniRef50_Q67526 Outer capsid protein VP4 (Fragment) n=80 Tax=Rotavirus 
+A TaxID=28875 RepID=Q67526_9REOV
+Length=170
+
+ Score = 141 bits (356),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 24/115 (21%), Positives = 57/115 (50%), Gaps = 2/115 (2%)
+
+Query  50   NTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDE  109
+            N    +    +  ET  I+++N+ + ++F + F+ + +  ++ +  L ++ +L  + +  
+Sbjct  1    NVTTQSRQYTLFGETKQITVENNTNKWKFFEMFRGNVSAEFQHKRTLTSDTKLAGFMKFY  60
+
+Query  110  SGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              ++  + G + +      +  N +      ++ + YIIP SQ+ KC+EYI  GL
+Sbjct  61   -NSVWTFHGETPHATTDYSSTSN-LSEVETVIHVESYIIPRSQESKCSEYINTGL  113
+
+
+> UniRef50_Q9IVF6 Capsid protein (Fragment) n=2 Tax=Rotavirus A 
+TaxID=28875 RepID=Q9IVF6_9REOV
+Length=104
+
+ Score = 137 bits (345),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 26/105 (25%), Positives = 49/105 (47%), Gaps = 1/105 (1%)
+
+Query  20   WYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFV  79
+            W LIN   +GVV+  TN+S FW     I P+    +    +  E+   ++ N  + ++F+
+Sbjct  1    WILINSNTNGVVYESTNSSDFWTAVVAIEPHVNPVDRQYTIFGESKQFNVSNDSNKWKFL  60
+
+Query  80   DYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGD  124
+            + F++SS   +  R  L ++ RL    +   G +  + G +    
+Sbjct  61   EMFRSSSQNEFYNRRTLTSDTRLVGILK-YGGRVWTFHGETPRAT  104
+
+
+> UniRef50_C0LK47 Outer capsid protein VP4 (Fragment) n=3 Tax=Human 
+rotavirus A TaxID=10941 RepID=C0LK47_9REOV
+Length=135
+
+ Score = 137 bits (346),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 29/102 (28%), Positives = 48/102 (47%), Gaps = 2/102 (2%)
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    ++ N    ++F++ F+ SS   +  R  L ++ RL    +   G I  + G +  
+Sbjct  1    ENKQFNVRNDSDKWKFLEMFRGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGETPR  59
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +    I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  60   ATTDSSNTAN-LNGISITIHSEFYIIPRSQESKCNEYINNGL  100
+
+
+> UniRef50_B5AAV2 Outer capsid protein VP4 (Fragment) n=10 Tax=Rotavirus 
+A TaxID=28875 RepID=B5AAV2_9REOV
+Length=190
+
+ Score = 137 bits (345),  Expect = 2e-37, Method: Composition-based stats.
+ Identities = 104/123 (85%), Positives = 109/123 (89%), Gaps = 0/123 (0%)
+
+Query  42   MFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHR  101
+            MFTYL+LPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HR
+Sbjct  1    MFTYLVLPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYIKTSSTQAYGSRNYLNTAHR  60
+
+Query  102  LQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIK  161
+            LQAYRRD  GNISNYWG+ T  DL VGTY NPV NAVINLNADFY+IPDSQQE CTEYI+
+Sbjct  61   LQAYRRDGDGNISNYWGADTQDDLGVGTYSNPVPNAVINLNADFYVIPDSQQETCTEYIR  120
+
+Query  162  GGL  164
+            GGL
+Sbjct  121  GGL  123
+
+
+> UniRef50_Q7T6W5 Outer capsid protein VP4 (Fragment) n=43 Tax=Rotavirus 
+TaxID=10912 RepID=Q7T6W5_9REOV
+Length=149
+
+ Score = 131 bits (329),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 36/99 (36%), Positives = 55/99 (56%), Gaps = 1/99 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   N P NYW L++PLN GVV   TN+   W+ T L+ PN   T  T  +  
+Sbjct  48   VLDGPYQPTKFNPPVNYWMLLSPLNAGVVVEGTNSIDRWLATILVEPNVTTTARTYTLFG  107
+
+Query  63   ETVNISID-NSGSTYRFVDYFKTSSTQSYRQRNYLITEH  100
+                IS++ NS + ++F++  KT+ +  +   + L++E 
+Sbjct  108  VQEQISVETNSTTKWKFINLIKTTLSGRFTLYSTLLSEP  146
+
+
+> UniRef50_A0A286S7T5 Outer capsid protein VP4 (Fragment) n=14 
+Tax=Rotavirus A TaxID=28875 RepID=A0A286S7T5_9REOV
+Length=105
+
+ Score = 129 bits (325),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 20/107 (19%), Positives = 43/107 (40%), Gaps = 2/107 (2%)
+
+Query  39   TFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLIT  98
+             FW     + P+    +   NV  E    ++ +    ++F++ F+ SS   +  R  L +
+Sbjct  1    DFWTAVIAVEPHVNPVDRQYNVFGENKQFNVRSDSDKWKFLEMFRGSSQNDFYNRRTLTS  60
+
+Query  99   EHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADF  145
+            + +L    +   G I  + G +           N + N  I ++++F
+Sbjct  61   DTKLVGILK-YGGRIWTFHGETPRATTDSSNTAN-LNNISITIHSEF  105
+
+
+> UniRef50_A0A0P0YJV8 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0P0YJV8_9REOV
+Length=749
+
+ Score = 139 bits (351),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 37/162 (23%), Positives = 74/162 (46%), Gaps = 3/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P +       W+++ P   G V  +   S       L+ P     +    V  +
+Sbjct  65   LDGPYRPSTYKFFKGLWFILKPTQQGKVLELKTTSGICYALALVEPGFTG-DREYTVNGK  123
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGN-ISNYWGSSTY  122
+             V I+++N+G+ +++VD   +    S+     L T H + A +R ++ + +  Y G ++ 
+Sbjct  124  QVTITVNNTGTLWKYVDII-SYDGNSFNSSVSLTTPHMITAVKRAKTTDTLYTYSGDASS  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +         I+L + +YI+ + ++E CTE ++ G+
+Sbjct  183  PTFHPYSGVVIDDKTYIHLLSVYYIVAEDKEEYCTEIVRNGI  224
+
+
+> UniRef50_D3GCM5 Major outer capsid protein (Fragment) n=9 Tax=Human 
+rotavirus A TaxID=10941 RepID=D3GCM5_9REOV
+Length=137
+
+ Score = 130 bits (327),  Expect = 2e-35, Method: Composition-based stats.
+ Identities = 32/85 (38%), Positives = 48/85 (56%), Gaps = 0/85 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LI+   DGVV+  TNNS FW     + P+ +QTN    +  
+Sbjct  53   VLDGPYQPTTFKPPNDYWLLISSNTDGVVYESTNNSDFWTAVIAVEPHVSQTNRQYVLFG  112
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSST  87
+            E    +++N+   ++F + FK SS 
+Sbjct  113  ENKQFNVENNSDKWKFFEMFKGSSQ  137
+
+
+> UniRef50_W8DTF1 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=W8DTF1_9REOV
+Length=106
+
+ Score = 127 bits (318),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 20/108 (19%), Positives = 51/108 (47%), Gaps = 2/108 (2%)
+
+Query  47   ILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYR  106
+            + PN    +    +  ET  I+++N+ + ++F + FK + +  ++ +  L +  +L  + 
+Sbjct  1    VEPNVTNQSRQYTLFGETKQITVENNTNKWKFFEMFKNNVSAEFQHKRTLTSXAKLAGFM  60
+
+Query  107  RDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQE  154
+            +    ++  + G + +      +  N +      ++ +FYIIP SQ+ 
+Sbjct  61   KFY-NSVWTFHGETPHATTDYSSTSN-LSEVETVIHVEFYIIPRSQES  106
+
+
+> UniRef50_D0QTW3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+TaxID=10912 RepID=D0QTW3_9REOV
+Length=156
+
+ Score = 127 bits (320),  Expect = 4e-34, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 56/107 (52%), Gaps = 3/107 (3%)
+
+Query  59   NVMNETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYW  117
+             +  ET +IS+ N S S +RFVD  KT++  +Y Q   L+++ +L    +  +G +  Y 
+Sbjct  1    TLFGETASISVANPSQSKWRFVDVVKTTANGTYAQYGPLLSDTKLYGVMK-YNGKLYTYN  59
+
+Query  118  GSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            G +        +  N   +  +    DFYIIP +Q+ KCTEYI  GL
+Sbjct  60   GETPNATTNYYSITN-YDSVNMTSYCDFYIIPRTQESKCTEYINNGL  105
+
+
+> UniRef50_D3JPR3 Outer capsid protein VP4 (Fragment) n=6 Tax=Rotavirus 
+A TaxID=28875 RepID=D3JPR3_9REOV
+Length=167
+
+ Score = 125 bits (315),  Expect = 2e-33, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  55   NVTVNVMNETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNI  113
+              T  +      + + N S + ++FV+  KT+    Y +   L+++ +L    +     +
+Sbjct  1    TRTYTMFGSNKQVLVSNVSDTKWKFVEMVKTAVDGDYAEWGTLLSDTKLYGMMK-YGERL  59
+
+Query  114  SNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              Y G +     + G       +  +   +DFYII  SQ+  CTEYI  GL
+Sbjct  60   FIYEGETPNATTK-GYIVTNYASVEVRPYSDFYIISRSQESACTEYINNGL  109
+
+
+> UniRef50_A0A222UAC4 Outer capsid protein VP4 (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A222UAC4_9REOV
+Length=130
+
+ Score = 123 bits (308),  Expect = 1e-32, Method: Composition-based stats.
+ Identities = 25/79 (32%), Positives = 42/79 (53%), Gaps = 0/79 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P     P++YW L+NP N  +V   TN +  W+   L+ PN    +    +  
+Sbjct  52   VLDGPYQPTGFKPPNDYWLLLNPTNQQIVLEGTNRTDIWIAVLLVEPNVTNQSRQYVLFG  111
+
+Query  63   ETVNISIDNSGSTYRFVDY  81
+            ET  I+++N+ + ++F + 
+Sbjct  112  ETKQITVENNSNKWKFFEM  130
+
+
+> UniRef50_Q9DLD1 Outer capsid protein VP4 (Fragment) n=18 Tax=Rotavirus 
+TaxID=10912 RepID=Q9DLD1_9REOV
+Length=136
+
+ Score = 116 bits (291),  Expect = 4e-30, Method: Composition-based stats.
+ Identities = 27/81 (33%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   +LP   W L+ P   GVV   T+NS  W+   LI P  A    T  +  
+Sbjct  56   VLDGPYQPAPFDLPVGNWMLLAPTRPGVVVEGTDNSGRWLSVILIEPGVASETRTYMMFG  115
+
+Query  63   ETVNISIDN-SGSTYRFVDYF  82
+             +  + + N S + ++FV+  
+Sbjct  116  SSKQVVVSNVSDTKWKFVEMV  136
+
+
+> UniRef50_A0A1Q1N9W2 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1Q1N9W2_9REOV
+Length=116
+
+ Score = 114 bits (286),  Expect = 2e-29, Method: Composition-based stats.
+ Identities = 37/99 (37%), Positives = 53/99 (54%), Gaps = 3/99 (3%)
+
+Query  67   ISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDL  125
+            +S++N+  T ++FVD  KT+ T SY Q   L +  +L A  +  SG I  Y G++     
+Sbjct  1    LSVENTSQTQWKFVDISKTTPTASYTQHGPLFSTPKLYAVMK-FSGRIYTYNGATPNATT  59
+
+Query  126  RVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+               +  N      +    DFYIIP +Q+EKCTEYI  GL
+Sbjct  60   GYYSTTN-YDTVNMTSFCDFYIIPRNQEEKCTEYINNGL  97
+
+
+> UniRef50_A0A220XLW8 Outer capsid protein VP4 (Fragment) n=17 
+Tax=Rotavirus A TaxID=28875 RepID=A0A220XLW8_9REOV
+Length=562
+
+ Score = 112 bits (279),  Expect = 6e-26, Method: Composition-based stats.
+ Identities = 27/98 (28%), Positives = 46/98 (47%), Gaps = 3/98 (3%)
+
+Query  69   IDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDL-R  126
+            ++N+  T ++F+D+ + S T +Y   N L+++ +LQA  +     +  + G +       
+Sbjct  2    VENTSQTRWKFIDFHRRSQTDTYVLNNTLLSDTKLQAAMK-YGARLFTFIGDTPNAAPQE  60
+
+Query  127  VGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+             G   +      I    DFYIIP   +E C  YI  GL
+Sbjct  61   YGYETSNYSAIEIRSFCDFYIIPRIPREVCRSYINHGL  98
+
+
+> UniRef50_J9QNI6 Protease-sensitive outer capsid protein (Fragment) 
+n=17 Tax=Rotavirus A TaxID=28875 RepID=J9QNI6_9REOV
+Length=124
+
+ Score = 103 bits (257),  Expect = 3e-25, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 35/71 (49%), Gaps = 0/71 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +    V  
+Sbjct  54   ILDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYKVFG  113
+
+Query  63   ETVNISIDNSG  73
+            E    ++ N  
+Sbjct  114  ENKQFNVRNDS  124
+
+
+> UniRef50_A0A1I9ZJE5 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJE5_9REOV
+Length=85
+
+ Score = 99.7 bits (247),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 35/66 (53%), Gaps = 0/66 (0%)
+
+Query  3   ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+            LDGPY P +   P++YW L+N  ++GVV   TNN+  W+    I PN    +   ++  
+Sbjct  20  VLDGPYQPXAFKPPNDYWILVNSNSNGVVLEGTNNTDVWVAIISIEPNVNSESRQYSLFG  79
+
+Query  63  ETVNIS  68
+           +   I+
+Sbjct  80  QHKQIT  85
+
+
+> UniRef50_Q67534 VP4 (Fragment) n=2 Tax=Rotavirus A TaxID=28875 
+RepID=Q67534_9REOV
+Length=110
+
+ Score = 95.1 bits (235),  Expect = 4e-22, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 30/61 (49%), Gaps = 0/61 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  50   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNTTDRWFACVLVEPNVQNTQRQYVLDGQ  109
+
+Query  64   T  64
+             
+Sbjct  110  N  110
+
+
+> UniRef50_J9QM10 Protease-sensitive outer capsid protein (Fragment) 
+n=2 Tax=Human rotavirus A TaxID=10941 RepID=J9QM10_9REOV
+Length=124
+
+ Score = 93.5 bits (231),  Expect = 2e-21, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 31/71 (44%), Gaps = 0/71 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P+ YW LIN   +GVV+  TNN  F      + P+         V  
+Sbjct  54   ILDGPYQPTTFTPPTEYWILINSNTNGVVYKSTNNIDFCTAFIAVEPHVYPLYRQYKVFG  113
+
+Query  63   ETVNISIDNSG  73
+            E    ++ N  
+Sbjct  114  ENKQFNVRNDS  124
+
+
+> UniRef50_A0A291EVP4 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A291EVP4_9REOV
+Length=121
+
+ Score = 91.2 bits (225),  Expect = 1e-20, Method: Composition-based stats.
+ Identities = 24/74 (32%), Positives = 34/74 (46%), Gaps = 2/74 (3%)
+
+Query  91   RQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPD  150
+             Q   L++  +L A  +   G I  Y G +        +  N   +  +    DFYIIP 
+Sbjct  1    SQYGPLLSTPKLYAVMK-YGGRIHTYSGQTPNATTGYYSASN-YDSINMTTFCDFYIIPR  58
+
+Query  151  SQQEKCTEYIKGGL  164
+            S++ KCTEYI  GL
+Sbjct  59   SEESKCTEYINNGL  72
+
+
+> UniRef50_Q7T6W9 Viral protein 4 (Fragment) n=2 Tax=Rotavirus 
+TaxID=10912 RepID=Q7T6W9_9REOV
+Length=61
+
+ Score = 86.6 bits (213),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 33/61 (54%), Gaps = 0/61 (0%)
+
+Query  13  SNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNS  72
+            N P NYW L++PLN GVV   TN+   W+ T L+ PN   T  T  +      IS++N+
+Sbjct  1   FNPPVNYWMLLSPLNAGVVVEGTNSIDRWLATVLVEPNVTTTVRTYTLFGVHEQISVENN  60
+
+Query  73  G  73
+            
+Sbjct  61  S  61
+
+
+> UniRef50_Q7T6W6 Outer capsid protein VP4 (Fragment) n=1 Tax=Equine 
+rotavirus TaxID=10937 RepID=Q7T6W6_9REOV
+Length=85
+
+ Score = 85.5 bits (210),  Expect = 1e-18, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 38/77 (49%), Gaps = 1/77 (1%)
+
+Query  21  YLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSG-STYRFV  79
+            L++PLN GVV   TN+   W+ T L+ PN   T  T  +      IS++NS  + ++F+
+Sbjct  1   MLLSPLNAGVVVEGTNSIDRWLATILVEPNVTTTARTYTLFGVQEQISVENSSTTKWKFI  60
+
+Query  80  DYFKTSSTQSYRQRNYL  96
+           +  +  S +       L
+Sbjct  61  NLIQNHSIRQVLHYILL  77
+
+
+> UniRef50_J9QN92 Outer capsid protein VP4 (Fragment) n=9 Tax=Rotavirus 
+A TaxID=28875 RepID=J9QN92_9REOV
+Length=129
+
+ Score = 85.8 bits (211),  Expect = 2e-18, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 32/74 (43%), Gaps = 2/74 (3%)
+
+Query  91   RQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPD  150
+              R  L ++ RL    +   G +  + G +           N +    I +++++YII  
+Sbjct  1    YNRRTLTSDTRLVGILK-YGGRVWTFHGETPRATTDSSNTAN-LDGISITVHSEYYIITR  58
+
+Query  151  SQQEKCTEYIKGGL  164
+             Q+ KC EYI  GL
+Sbjct  59   YQEYKCNEYINNGL  72
+
+
+> UniRef50_F8V183 Outer capsid protein VP4 (Fragment) n=2 Tax=Human 
+rotavirus A TaxID=10941 RepID=F8V183_9REOV
+Length=68
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Composition-based stats.
+ Identities = 23/55 (42%), Positives = 30/55 (55%), Gaps = 0/55 (0%)
+
+Query  3   ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVT  57
+            LDGPY P +   P++YW LIN   +GVV+  TNNS FW     I P+    +  
+Sbjct  12  ILDGPYQPTTFTPPNDYWILINSNTNGVVYESTNNSDFWTAVVAIEPHVNPVDRQ  66
+
+
+> UniRef50_Q1HM04 Outer capsid protein VP4 (Fragment) n=23 Tax=Rotavirus 
+TaxID=10912 RepID=Q1HM04_9REOV
+Length=111
+
+ Score = 63.1 bits (152),  Expect = 3e-10, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 22/46 (48%), Gaps = 1/46 (2%)
+
+Query  119  SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+             +        +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  1    ETPNATTDYSSTSN-LSEIETVIHTEFYIIPRSQESKCNEYINTGL  45
+
+
+> UniRef50_A0A0B4U754 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0B4U754_9REOV
+Length=189
+
+ Score = 61.2 bits (147),  Expect = 3e-09, Method: Composition-based stats.
+ Identities = 17/46 (37%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query  119  SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+             +        +  N +L+    ++ DFYIIP SQ+ KC EYI  GL
+Sbjct  1    ETPNATTDYSSTSN-LLDIETVIHTDFYIIPRSQESKCNEYINTGL  45
+
+
+> UniRef50_A0A0G2SS85 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0G2SS85_9REOV
+Length=88
+
+ Score = 57.0 bits (136),  Expect = 3e-08, Method: Composition-based stats.
+ Identities = 15/37 (41%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  128  GTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                    +  +  + DFYIIP +Q+ KCTEYI  GL
+Sbjct  3    YYSTTNYDSVNMTAHCDFYIIPRAQEAKCTEYINSGL  39
+
+
+> UniRef50_A0A0B4U7V0 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0B4U7V0_9REOV
+Length=333
+
+ Score = 59.3 bits (142),  Expect = 6e-08, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 18/46 (39%), Gaps = 0/46 (0%)
+
+Query  119  SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            + +      G   N      +    DFYIIP   +E C  YI  GL
+Sbjct  2    TPSAVPQEFGYTTNNYSAIEVRSFCDFYIIPRIPREVCRNYINHGL  47
+
+
+> UniRef50_K9KAD1 Outer capsid protein (Fragment) n=8 Tax=Human 
+rotavirus A TaxID=10941 RepID=K9KAD1_9REOV
+Length=74
+
+ Score = 50.0 bits (118),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 14/26 (54%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  3   ALDGPYTPDSSNLPSNYWYLINPLND  28
+            LDGPY P     P+NYW L+NP N 
+Sbjct  49  VLDGPYQPTKFKPPNNYWILLNPTNQ  74
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.138    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0422    0.140     1.90     42.6     43.6 
+
+Effective search space used: 235678564429
+Results from round 3
+
+
+Query= 4yg0
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+Sequences used in model and found again:
+
+  UniRef50_Q5CD28 Outer capsid protein VP4 (Fragment) n=4 Tax=Rot...  241     6e-77
+  UniRef50_D5HMS2 Outer capsid protein VP4 (Fragment) n=514 Tax=R...  241     9e-77
+  UniRef50_A0A2H4W7Z6 VP4 (Fragment) n=5 Tax=Rotavirus A TaxID=28...  246     1e-76
+  UniRef50_D0TZ86 Outer capsid protein VP4 (Fragment) n=54 Tax=Ro...  237     2e-76
+  UniRef50_A0A0S0VAT8 Outer capsid protein VP4 (Fragment) n=39 Ta...  237     2e-76
+  UniRef50_P12473 Outer capsid protein VP4 n=1091 Tax=Rotavirus T...  251     8e-76
+  UniRef50_A0A075W1Z3 Outer capsid protein VP4 (Fragment) n=2 Tax...  234     3e-75
+  UniRef50_A0A0N7CDJ7 Outer capsid protein VP4 (Fragment) n=497 T...  235     7e-75
+  UniRef50_B7TAC3 Outer capsid protein VP4 (Fragment) n=2214 Tax=...  235     1e-74
+  UniRef50_Q90102 Outer capsid protein VP4 (Fragment) n=48 Tax=Ro...  234     4e-74
+  UniRef50_D4N5V0 Outer capsid protein VP4 (Fragment) n=254 Tax=R...  233     1e-73
+  UniRef50_P11193 Outer capsid protein VP4 n=4016 Tax=Rotavirus T...  244     5e-73
+  UniRef50_A0A1S5WJA6 Outer capsid protein VP4 (Fragment) n=17 Ta...  229     2e-72
+  UniRef50_A0A077AZS1 Outer capsid protein VP4 (Fragment) n=6 Tax...  227     4e-72
+  UniRef50_V5UZH1 Outer capsid protein VP4 (Fragment) n=114 Tax=R...  228     8e-72
+  UniRef50_M9QW09 Outer capsid protein VP4 (Fragment) n=7 Tax=Rot...  224     1e-71
+  UniRef50_A0A1Z1W237 Outer capsid protein VP4 (Fragment) n=14 Ta...  224     4e-71
+  UniRef50_A0A1S5YEY9 Outer capsid protein VP4 (Fragment) n=34 Ta...  227     4e-71
+  UniRef50_F1T2J6 Outer capsid protein VP4 (Fragment) n=4 Tax=Rot...  225     4e-71
+  UniRef50_A0A1Z1W220 Outer capsid protein VP4 (Fragment) n=12 Ta...  223     1e-70
+  UniRef50_A0A0D5Z7X7 Outer capsid protein VP4 (Fragment) n=78 Ta...  229     4e-70
+  UniRef50_A0A0A0Q1V1 Outer capsid spike (Fragment) n=3 Tax=Rotav...  212     1e-66
+  UniRef50_A0A1V0FUL0 Outer capsid protein VP4 n=1 Tax=Rotavirus ...  219     5e-64
+  UniRef50_A0A068L7V3 Outer capsid protein VP4 (Fragment) n=164 T...  207     1e-63
+  UniRef50_A0A1I9ZJD7 Outer capsid protein VP4 (Fragment) n=5 Tax...  197     5e-61
+  UniRef50_A0A023UHQ5 VP4 (Fragment) n=3 Tax=Human rotavirus A Ta...  190     5e-59
+  UniRef50_UPI0006BB9A37 Outer capsid protein VP4 n=1 Tax=Rotavir...  191     8e-59
+  UniRef50_M4PW48 Outer capsid protein VP4 (Fragment) n=31 Tax=Ro...  192     9e-59
+  UniRef50_A8IJH8 Outer capsid protein VP4 (Fragment) n=84 Tax=Ro...  192     2e-57
+  UniRef50_Q7T6W2 Outer capsid protein VP4 n=3 Tax=Rotavirus TaxI...  186     6e-57
+  UniRef50_A7TUM4 VP4 (Fragment) n=3 Tax=Rotavirus A TaxID=28875 ...  183     1e-55
+  UniRef50_A2THZ3 Outer capsid protein (Fragment) n=1 Tax=Human r...  180     1e-54
+  UniRef50_G9HX95 Outer capsid protein VP4 (Fragment) n=1 Tax=Rot...  178     3e-54
+  UniRef50_Q68HJ4 Outer capsid protein VP4 (Fragment) n=14 Tax=Ro...  179     8e-54
+  UniRef50_A0A222NXN9 Outer capsid protein (Fragment) n=1 Tax=Hum...  172     6e-52
+  UniRef50_B5MGI6 Outer capsid protein VP4 (Fragment) n=1 Tax=Bov...  174     2e-51
+  UniRef50_J9QM11 Protease-sensitive outer capsid protein (Fragme...  171     4e-51
+  UniRef50_B7ZGS2 Capsid protein (Fragment) n=7 Tax=Rotavirus A i...  167     2e-49
+  UniRef50_A0A218KSJ7 Outer capsid protein VP4 (Fragment) n=19 Ta...  162     4e-46
+  UniRef50_J9QLU0 Outer capsid protein VP4 (Fragment) n=23 Tax=Ro...  155     7e-45
+  UniRef50_A0A0P0YJV8 Outer capsid protein VP4 n=1 Tax=Rotavirus ...  165     9e-45
+  UniRef50_A0A1I9ZJT1 Outer capsid protein VP4 (Fragment) n=3 Tax...  154     1e-44
+  UniRef50_Q67526 Outer capsid protein VP4 (Fragment) n=80 Tax=Ro...  153     5e-44
+  UniRef50_A7YCD5 Outer capsid protein VP4 (Fragment) n=19 Tax=Hu...  152     1e-43
+  UniRef50_Q9IVF6 Capsid protein (Fragment) n=2 Tax=Rotavirus A T...  145     7e-42
+  UniRef50_C0LK47 Outer capsid protein VP4 (Fragment) n=3 Tax=Hum...  144     8e-41
+  UniRef50_A0A286S7T5 Outer capsid protein VP4 (Fragment) n=14 Ta...  140     8e-40
+  UniRef50_W8DTF1 Outer capsid protein VP4 (Fragment) n=1 Tax=Rot...  140     2e-39
+  UniRef50_D0QTW3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rot...  141     3e-39
+  UniRef50_D3JPR3 Outer capsid protein VP4 (Fragment) n=6 Tax=Rot...  140     8e-39
+  UniRef50_Q7T6W5 Outer capsid protein VP4 (Fragment) n=43 Tax=Ro...  139     1e-38
+  UniRef50_B5AAV2 Outer capsid protein VP4 (Fragment) n=10 Tax=Ro...  139     3e-38
+  UniRef50_D3GCM5 Major outer capsid protein (Fragment) n=9 Tax=H...  137     5e-38
+  UniRef50_A0A1Q1N9W2 Outer capsid protein VP4 (Fragment) n=1 Tax...  128     7e-35
+  UniRef50_A0A222UAC4 Outer capsid protein VP4 (Fragment) n=3 Tax...  127     2e-34
+  UniRef50_Q9DLD1 Outer capsid protein VP4 (Fragment) n=18 Tax=Ro...  122     3e-32
+  UniRef50_A0A220XLW8 Outer capsid protein VP4 (Fragment) n=17 Ta...  124     2e-30
+  UniRef50_J9QNI6 Protease-sensitive outer capsid protein (Fragme...  110     6e-28
+  UniRef50_A0A291EVP4 Outer capsid protein VP4 (Fragment) n=1 Tax...  106     2e-26
+  UniRef50_A0A1I9ZJE5 Outer capsid protein VP4 (Fragment) n=2 Tax...  105     2e-26
+  UniRef50_J9QM10 Protease-sensitive outer capsid protein (Fragme...  103     4e-25
+  UniRef50_Q67534 VP4 (Fragment) n=2 Tax=Rotavirus A TaxID=28875 ...  100     3e-24
+  UniRef50_Q7T6W6 Outer capsid protein VP4 (Fragment) n=1 Tax=Equ...  95.4    2e-22
+  UniRef50_Q7T6W9 Viral protein 4 (Fragment) n=2 Tax=Rotavirus Ta...  94.6    2e-22
+  UniRef50_J9QN92 Outer capsid protein VP4 (Fragment) n=9 Tax=Rot...  94.6    1e-21
+  UniRef50_F8V183 Outer capsid protein VP4 (Fragment) n=2 Tax=Hum...  86.9    2e-19
+  UniRef50_Q1HM04 Outer capsid protein VP4 (Fragment) n=23 Tax=Ro...  70.4    8e-13
+  UniRef50_A0A0B4U754 Outer capsid protein VP4 (Fragment) n=2 Tax...  68.4    9e-12
+  UniRef50_A0A0G2SS85 Outer capsid protein VP4 (Fragment) n=2 Tax...  66.5    1e-11
+  UniRef50_A0A0B4U7V0 Outer capsid protein VP4 (Fragment) n=2 Tax...  66.5    2e-10
+  UniRef50_K9KAD1 Outer capsid protein (Fragment) n=8 Tax=Human r...  51.1    3e-06
+
+Sequences not found previously or not previously below threshold:
+
+  UniRef50_A0A1Z2YAE3 Outer capsid protein VP4 (Fragment) n=4 Tax...  45.3    0.001
+
+
+> UniRef50_Q5CD28 Outer capsid protein VP4 (Fragment) n=4 Tax=Rotavirus 
+A TaxID=28875 RepID=Q5CD28_9REOV
+Length=266
+
+ Score = 241 bits (615),  Expect = 6e-77, Method: Composition-based stats.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  +V   TN +  W+   LI PN    +    +  
+Sbjct  49   VLDGPYQPTSFKPPNDYWLLLNPTNQQIVLEGTNRTDVWVVILLIEPNVVSQSRQYVLFG  108
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F+ +++  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  109  ETKQITVENNSNKWKFFEMFRNNASAEFQHKRTLTSDTKLAGFLK-HGGRIWTFHGETPH  167
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  T  N        ++ +FYIIP SQ+ KC+EYI  GL
+Sbjct  168  ATTDYSTTSNLYD-IETMIHTEFYIIPRSQEAKCSEYINTGL  208
+
+
+> UniRef50_D5HMS2 Outer capsid protein VP4 (Fragment) n=514 Tax=Rotavirus 
+TaxID=10912 RepID=D5HMS2_9REOV
+Length=287
+
+ Score = 241 bits (615),  Expect = 9e-77, Method: Composition-based stats.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  +V   TN +  W+   L+ PN    N    +  
+Sbjct  64   VLDGPYQPTSFKPPNDYWILLNPTNQQIVLEGTNRTDVWIALLLVEPNVTNQNRQYTLFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F+ S++  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  124  ETKQITVENNTNKWKFYEMFRNSASVEFQHKRTLTSDTKLAGFLK-HGGRIWTFHGETPH  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  183  ATTDYSSTSN-LSEVETVIHTEFYIIPRSQESKCNEYINTGL  223
+
+
+> UniRef50_A0A2H4W7Z6 VP4 (Fragment) n=5 Tax=Rotavirus A TaxID=28875 
+RepID=A0A2H4W7Z6_9REOV
+Length=464
+
+ Score = 246 bits (628),  Expect = 1e-76, Method: Composition-based stats.
+ Identities = 55/163 (34%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L++P N GVV   TNNS  W+ T LI PN      T  +  
+Sbjct  64   ILDGPYQPTTFNPPVDYWMLLSPSNAGVVVEGTNNSNRWLATVLIEPNVQTETRTYTLFG  123
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                IS+ N   + ++F+D  KT+   ++ Q   ++++ +L    +  +G +  Y G + 
+Sbjct  124  VEEQISVSNDSLTKWKFIDLSKTTLNGTFTQHGPMLSDPKLYGVMK-HNGKLYTYNGETP  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N   +  +    DFYIIP SQ+  CTEYI  GL
+Sbjct  183  NATTGYYSTTN-YDSVNMTTFCDFYIIPRSQESICTEYINNGL  224
+
+
+> UniRef50_D0TZ86 Outer capsid protein VP4 (Fragment) n=54 Tax=Rotavirus 
+A TaxID=28875 RepID=D0TZ86_9REOV
+Length=207
+
+ Score = 237 bits (606),  Expect = 2e-76, Method: Composition-based stats.
+ Identities = 49/162 (30%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+NP N  VV   TN +  W+   L+ PN    +    +  
+Sbjct  44   VLDGPYQPTSFKPPNDYWILLNPTNQQVVLEGTNKTDAWVALLLVEPNVTNQSRQYTLFG  103
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            ET  I+++N+ + ++F + F++S +  ++ +  L ++ +L  + +   G I  + G + +
+Sbjct  104  ETKQITVENNTNKWKFFEMFRSSVSAEFQHKRTLTSDTKLSGFLK-HGGRIWTFHGETPH  162
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  163  ATTDYSSTSN-LSEVETVIHTEFYIIPRSQESKCNEYINTGL  203
+
+
+> UniRef50_A0A0S0VAT8 Outer capsid protein VP4 (Fragment) n=39 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0S0VAT8_9REOV
+Length=177
+
+ Score = 237 bits (604),  Expect = 2e-76, Method: Composition-based stats.
+ Identities = 61/163 (37%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P  YW L++P   GVV   TNN+  W+ T LI PN      T  +  
+Sbjct  1    VLDGPYQPTSFNPPVGYWMLLSPTAAGVVVEGTNNTDRWLATILIEPNVPSQQRTYTIFG  60
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+++N+  T +RFVD  KT+   SY Q   L++  +L A  +   G I  Y G + 
+Sbjct  61   VQEQITVENTSQTQWRFVDVSKTTQNGSYSQYGPLLSTPKLYAVMK-YGGRIHTYSGQTP  119
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N   +  +    DFYIIP S++ KCTEYI  GL
+Sbjct  120  NATTGYYSATN-YDSVNMTTFCDFYIIPRSEESKCTEYINNGL  161
+
+
+> UniRef50_P12473 Outer capsid protein VP4 n=1091 Tax=Rotavirus 
+TaxID=10912 RepID=VP4_ROTRH
+Length=776
+
+ Score = 251 bits (641),  Expect = 8e-76, Method: Composition-based stats.
+ Identities = 56/163 (34%), Positives = 80/163 (49%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P +YW L+ P   GVV   TNN+  W+ T L+ PN      +  +  
+Sbjct  64   VLDGPYQPTSFNPPVDYWMLLAPTAAGVVVEGTNNTDRWLATILVEPNVTSETRSYTLFG  123
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+I N+  T ++F+D  KT+   SY Q   L +  +L A  +  +G I  Y G + 
+Sbjct  124  TQEQITIANASQTQWKFIDVVKTTQNGSYSQYGPLQSTPKLYAVMK-HNGKIYTYNGETP  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                +  +  N   +  +    DFYIIP  ++  CTEYI  GL
+Sbjct  183  NVTTKYYSTTN-YDSVNMTAFCDFYIIPREEESTCTEYINNGL  224
+
+
+> UniRef50_A0A075W1Z3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A075W1Z3_9REOV
+Length=198
+
+ Score = 234 bits (597),  Expect = 3e-75, Method: Composition-based stats.
+ Identities = 48/158 (30%), Positives = 83/158 (53%), Gaps = 2/158 (1%)
+
+Query  7    PYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVN  66
+            PY P S   P++YW L++P N  V+   TN +  W+   LI PNT   +    +  ET  
+Sbjct  1    PYQPTSFKPPNDYWILLDPTNQKVILEGTNRTDVWVAILLIEPNTISQDRQYTLFGETKQ  60
+
+Query  67   ISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLR  126
+            I+I+N+ S ++F + F+ +++  ++ +  L ++ +L  + +   G +  + G +      
+Sbjct  61   ITIENNSSKWKFFEMFRNNASAEFQHKRTLTSDTKLAGFLK-HGGRVWTFHGETPNATTD  119
+
+Query  127  VGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              T  N + +    ++ DFYIIP SQ+ KC EYI  GL
+Sbjct  120  YSTTSN-LSDIETVIHTDFYIIPRSQESKCKEYINTGL  156
+
+
+> UniRef50_A0A0N7CDJ7 Outer capsid protein VP4 (Fragment) n=497 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0N7CDJ7_9REOV
+Length=244
+
+ Score = 235 bits (599),  Expect = 7e-75, Method: Composition-based stats.
+ Identities = 56/162 (35%), Positives = 85/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LI+   DGVV+  TNNS FW     + P+ +QTN    +  
+Sbjct  17   VLDGPYQPTTFKPPNDYWLLISSNTDGVVYESTNNSDFWTAVIAVEPHVSQTNRQYVLFG  76
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    +I+NS   ++F + FK SS   +  R  L + +RL    +   G +  + G +  
+Sbjct  77   ENKQFNIENSSDKWKFFEMFKGSSQSDFTNRRTLTSNNRLVGMLK-YGGRVWTFHGVTPR  135
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              +      + + N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  136  ATIDSSNTAD-LNNISIIIHSEFYIIPRSQESKCNEYINNGL  176
+
+
+> UniRef50_B7TAC3 Outer capsid protein VP4 (Fragment) n=2214 Tax=Rotavirus 
+TaxID=10912 RepID=B7TAC3_9REOV
+Length=278
+
+ Score = 235 bits (600),  Expect = 1e-74, Method: Composition-based stats.
+ Identities = 53/162 (33%), Positives = 81/162 (50%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +   NV  
+Sbjct  64   ILDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    ++ N  + ++F++ F+ SS   +  R  L ++ RL    +   G I  + G +  
+Sbjct  124  ENKQFNVRNDSNKWKFLEMFRGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGETPR  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +    I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  183  ATTDSSNTAN-LNGISITIHSEFYIIPRSQESKCNEYINNGL  223
+
+
+> UniRef50_Q90102 Outer capsid protein VP4 (Fragment) n=48 Tax=Rotavirus 
+A TaxID=28875 RepID=Q90102_9REOV
+Length=265
+
+ Score = 234 bits (596),  Expect = 4e-74, Method: Composition-based stats.
+ Identities = 56/163 (34%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L+ P N GVV   TNN+  W+ T LI PN      T  +  
+Sbjct  49   VLDGPYQPTTFNPPVSYWMLLAPTNAGVVVEGTNNTNRWLATILIEPNVQSVERTYTLFG  108
+
+Query  63   ETVNISID-NSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + V I++  +S + ++F D  K +   +Y Q   L++  +L    +   G I  Y G + 
+Sbjct  109  QQVQITVSLDSQTIWKFADVSKQTQDGNYSQHGLLLSTPKLYGVMK-HGGKIYTYNGETP  167
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              +    +  N   +  +    DFYIIP +Q+ KCTEYI  GL
+Sbjct  168  NANTGYYSTTN-YDSVNMTAYCDFYIIPLAQEAKCTEYINNGL  209
+
+
+> UniRef50_D4N5V0 Outer capsid protein VP4 (Fragment) n=254 Tax=Rotavirus 
+A TaxID=28875 RepID=D4N5V0_9REOV
+Length=275
+
+ Score = 233 bits (594),  Expect = 1e-73, Method: Composition-based stats.
+ Identities = 52/162 (32%), Positives = 80/162 (49%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +   NV  
+Sbjct  57   ILDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    ++ N    ++F++ F+ SS   +  R  L ++ +L    +   G I  + G +  
+Sbjct  117  ENKQFNVRNDSDKWKFLEMFRGSSQSDFYNRPPLTSDTKLVGILK-YGGRIWTFHGETPR  175
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +    I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  176  ATTDSSNTAN-LNGISITIHSEFYIIPRSQESKCNEYINNGL  216
+
+
+> UniRef50_P11193 Outer capsid protein VP4 n=4016 Tax=Rotavirus 
+TaxID=10912 RepID=VP4_ROTHW
+Length=775
+
+ Score = 244 bits (622),  Expect = 5e-73, Method: Composition-based stats.
+ Identities = 51/162 (31%), Positives = 83/162 (51%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     I P+    +    +  
+Sbjct  64   ILDGPYQPTTFTPPNDYWILINSNTNGVVYESTNNSDFWTAVVAIEPHVNPVDRQYTIFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E+   ++ N  + ++F++ F++SS   +  R  L ++ R     +   G +  + G +  
+Sbjct  124  ESKQFNVSNDSNKWKFLEMFRSSSQNEFYNRRTLTSDTRFVGILK-YGGRVWTFHGETPR  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  N + N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  183  ATTDSSSTAN-LNNISITIHSEFYIIPRSQESKCNEYINNGL  223
+
+
+> UniRef50_A0A1S5WJA6 Outer capsid protein VP4 (Fragment) n=17 
+Tax=Rotavirus A TaxID=28875 RepID=A0A1S5WJA6_9REOV
+Length=277
+
+ Score = 229 bits (585),  Expect = 2e-72, Method: Composition-based stats.
+ Identities = 50/162 (31%), Positives = 81/162 (50%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S   P++YW L+N  ++GVV   TNN+  W+    + PN    +   ++  
+Sbjct  57   VLDGPYQPVSFKPPNDYWILVNSSSNGVVLEGTNNTDVWVAIISVEPNVNSESRQYSLFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+                I++ N+ S ++F++ F+  S   ++ +  L +  RL    +   G +  Y G +  
+Sbjct  117  VNKQITVVNTSSKWKFMEMFRNDSNAEFQHKRTLTSSTRLVGVLK-HGGRLWTYRGETPN  175
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  T  N +    +   A+FYIIP SQ+ KCTEY+  GL
+Sbjct  176  ATTDYSTTSN-LNEISVTTYAEFYIIPRSQESKCTEYVNTGL  216
+
+
+> UniRef50_A0A077AZS1 Outer capsid protein VP4 (Fragment) n=6 Tax=Rotavirus 
+TaxID=10912 RepID=A0A077AZS1_9REOV
+Length=214
+
+ Score = 227 bits (578),  Expect = 4e-72, Method: Composition-based stats.
+ Identities = 51/163 (31%), Positives = 81/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P NYW L  P   GV+   TNN   W+   L+ P   QT     V  
+Sbjct  16   VLDGPYQPTTFNPPVNYWLLFAPSTQGVIAEGTNNINRWLAIILVEPGVTQTTREYTVFG  75
+
+Query  63   ETVNISIDNS-GSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            E + + ++N+  + ++F+D  + + + +Y Q   L+++ +L A  +   G I  Y G + 
+Sbjct  76   ERIQLQVENTHQTKWKFIDISRANQSDNYMQYGPLLSDTKLYAAMK-YGGLICTYEGETP  134
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N   +  + +  DFYIIP +Q+  CT+YI  GL
+Sbjct  135  NARTNWYSTTN-YSDVEMTIFCDFYIIPRAQENICTDYINNGL  176
+
+
+> UniRef50_V5UZH1 Outer capsid protein VP4 (Fragment) n=114 Tax=Rotavirus 
+A TaxID=28875 RepID=V5UZH1_9REOV
+Length=278
+
+ Score = 228 bits (581),  Expect = 8e-72, Method: Composition-based stats.
+ Identities = 46/162 (28%), Positives = 84/162 (52%), Gaps = 2/162 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P S N P +YW L+NP +  VV   TN +  W+   L+ PN    +    +  
+Sbjct  57   VLDGPYQPTSFNPPGDYWILLNPTDQQVVLESTNKTDIWIALLLVEPNVTNQSRQYTLFG  116
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E   I+I+N+ + ++F + F+ ++   ++ ++ L ++ +L  + +    ++  ++G + +
+Sbjct  117  EMRQITIENNTNKWKFFEVFRRTAGAEFQHKHTLTSDTKLAGFLKLY-NSVWTFYGETPH  175
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  176  ATTDYLLTSN-LSEVEAVIHVEFYIIPRSQESKCVEYINTGL  216
+
+
+> UniRef50_M9QW09 Outer capsid protein VP4 (Fragment) n=7 Tax=Rotavirus 
+TaxID=10912 RepID=M9QW09_9REOV
+Length=161
+
+ Score = 224 bits (570),  Expect = 1e-71, Method: Composition-based stats.
+ Identities = 63/163 (39%), Positives = 89/163 (55%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P++YW L+ P  +GVV   TNN   W+ T LI PN   TN   N+  
+Sbjct  1    LLDGPYQPTTFNPPTSYWILLAPTVEGVVIQGTNNIDRWLATILIEPNVQTTNRIYNLFG  60
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + V +S++N+  T ++F+D  KT+ T +Y Q   L +  +L A  +  SG I  Y G++ 
+Sbjct  61   QQVTLSVENTSQTQWKFIDVSKTTPTGNYTQHGSLFSTPKLYAVMK-FSGRIYTYNGTTP  119
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N      +    DFYIIP +Q+EKCTEYI  GL
+Sbjct  120  NATTGYYSTTN-YDTVNMTSFCDFYIIPRNQEEKCTEYINHGL  161
+
+
+> UniRef50_A0A1Z1W237 Outer capsid protein VP4 (Fragment) n=14 
+Tax=Rotavirus A TaxID=28875 RepID=A0A1Z1W237_9REOV
+Length=210
+
+ Score = 224 bits (571),  Expect = 4e-71, Method: Composition-based stats.
+ Identities = 54/164 (33%), Positives = 78/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P  YW L  P + GVV  +TNN   W+   LI PN  Q   T  +  
+Sbjct  11   VLDGPYQPTTFNPPVEYWTLFAPSDKGVVAELTNNIDMWLAIILIEPNVPQELRTYTIFG  70
+
+Query  63   ETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN+ ++N S + ++F D+ K S   +Y   + L ++ +LQA  +     +  + G++ 
+Sbjct  71   QQVNLVVENASQTKWKFADFRKRSQNDTYVLNDTLSSDTKLQAAMK-YGARLFTFTGNTP  129
+
+Query  122  Y-GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      I    DFYIIP   +E C  YI  GL
+Sbjct  130  DAAPQEYGYETNNYSAIEIRSFCDFYIIPRMPREVCRNYINHGL  173
+
+
+> UniRef50_A0A1S5YEY9 Outer capsid protein VP4 (Fragment) n=34 
+Tax=Rotavirus TaxID=10912 RepID=A0A1S5YEY9_9REOV
+Length=290
+
+ Score = 227 bits (578),  Expect = 4e-71, Method: Composition-based stats.
+ Identities = 50/164 (30%), Positives = 79/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P  YW L  P N G+V  +TNN+  W+   LI PN +    T  +  
+Sbjct  63   VLDGPYQPTTLNPPIEYWMLFAPNNKGMVAELTNNTDIWLAIILIEPNVSPEIRTYTIFG  122
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN++++N+  + ++F D+ + S   +Y     L+++ +LQA  +     +  + G + 
+Sbjct  123  QQVNLTVENTSQTKWKFFDFRRRSQHDTYILEGTLLSDTKLQAAMK-YGAKLFTFIGDTP  181
+
+Query  122  Y-GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      +    DFYIIP   +E C  YI  GL
+Sbjct  182  SAAPQEYGYETNNYSAIEVKSFCDFYIIPRLPREVCRNYINHGL  225
+
+
+> UniRef50_F1T2J6 Outer capsid protein VP4 (Fragment) n=4 Tax=Rotavirus 
+A TaxID=28875 RepID=F1T2J6_9REOV
+Length=260
+
+ Score = 225 bits (575),  Expect = 4e-71, Method: Composition-based stats.
+ Identities = 49/164 (30%), Positives = 78/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + + P  YW L  P + G+V  +TNN   W+   LI PN +    T  +  
+Sbjct  44   VLDGPYQPTTLDPPIEYWTLFAPNDKGIVAELTNNVDIWLAIILIEPNVSPEMRTYTMFG  103
+
+Query  63   ETVNISIDNSGS-TYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN++++N+    ++FVD+ + S   +Y     L+++ +LQA  +     +  + G + 
+Sbjct  104  QQVNLTVENTSQARWKFVDFRRRSQHDTYVIEGTLLSDTKLQAAMK-YGARLFTFIGDTP  162
+
+Query  122  Y-GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      +    DFYIIP   +E C  YI  GL
+Sbjct  163  NAAPQEYGYETNNYSAIEVKSFCDFYIIPRLPREVCRNYINHGL  206
+
+
+> UniRef50_A0A1Z1W220 Outer capsid protein VP4 (Fragment) n=12 
+Tax=Porcine rotavirus A TaxID=10967 RepID=A0A1Z1W220_9REOV
+Length=215
+
+ Score = 223 bits (568),  Expect = 1e-70, Method: Composition-based stats.
+ Identities = 54/164 (33%), Positives = 78/164 (48%), Gaps = 3/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P  YW L  P + GVV  +TNN   W+   LI PN  Q   T  +  
+Sbjct  14   VLDGPYQPTTFNPPIEYWTLFAPSDKGVVAELTNNIDMWLAIILIEPNVPQELKTYTIFG  73
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + VN+ I+N+  + ++F D+ K S   +Y   + L ++ +LQA  +     +  + G++ 
+Sbjct  74   QQVNLVIENTSQTKWKFADFRKRSQNDTYVLNDTLSSDTKLQAAMK-YGARLFTFTGNTP  132
+
+Query  122  Y-GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   G   N      I    DFYIIP   +E C  YI  GL
+Sbjct  133  NAAPQEYGYETNNYSAIEIRSFCDFYIIPRMPREVCRNYINHGL  176
+
+
+> UniRef50_A0A0D5Z7X7 Outer capsid protein VP4 (Fragment) n=78 
+Tax=Rotavirus A TaxID=28875 RepID=A0A0D5Z7X7_9REOV
+Length=435
+
+ Score = 229 bits (583),  Expect = 4e-70, Method: Composition-based stats.
+ Identities = 55/163 (34%), Positives = 83/163 (51%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P +YW L++P N GVV   TNNS  W+ T LI PN    + T  +  
+Sbjct  64   VLDGPYQPTTFNPPVSYWILLSPSNAGVVVEGTNNSDRWLATILIEPNVTSESRTYTLFG  123
+
+Query  63   ETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+                I+++N S + ++FVD  KT    ++ Q   L+++ +L    +  SG +  Y G + 
+Sbjct  124  RQEQITVENVSTTKWKFVDLAKTDINGTFTQHGPLLSDTKLYGVMK-FSGRLYTYNGETP  182
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   T         +  + DFYIIP +++  CT+YI  GL
+Sbjct  183  NATTGYYTTT-NYDTVNMISHCDFYIIPRAEENTCTDYINNGL  224
+
+
+> UniRef50_A0A0A0Q1V1 Outer capsid spike (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0A0Q1V1_9REOV
+Length=216
+
+ Score = 212 bits (541),  Expect = 1e-66, Method: Composition-based stats.
+ Identities = 53/162 (33%), Positives = 84/162 (52%), Gaps = 3/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  17   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNATDRWFACVLVEPNVQNTQRQYVLDGQ  76
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V +++ N  +T ++F+ + K +   +Y Q + L T H+L A+ + +   +  Y G++  
+Sbjct  77   NVQLNVSNDSNTSWKFILFIKLTPNGTYTQYSTLSTPHKLCAWMKRD-NRVYWYQGATPN  135
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N   N+ ++ +A+FY+IP SQ   CT+YI  GL
+Sbjct  136  ASESYYLTINN-DNSNVSSDAEFYLIPQSQTAMCTQYINNGL  176
+
+
+> UniRef50_A0A1V0FUL0 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1V0FUL0_9REOV
+Length=783
+
+ Score = 219 bits (558),  Expect = 5e-64, Method: Composition-based stats.
+ Identities = 54/162 (33%), Positives = 82/162 (51%), Gaps = 3/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P + N P   W ++ P  +G+V S TNN   W+F  L+ PNT     T  V   
+Sbjct  65   LDGPYQPTTFNPPIKNWIMLCPEQEGLVASGTNNVDRWLFLVLVAPNTQAEQRTYRVFGA  124
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V +S++NS +T ++F+D+ KT  T +Y     L++  ++ A  + E   +  Y GS+  
+Sbjct  125  DVQVSVENSDTTLWKFIDFAKTDRTNTYTAYGTLMSSTKIDAVLKFE-NKLYTYIGSTPD  183
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +  +   N  I    DFYII   Q+ +CT Y+  GL
+Sbjct  184  AQTGYYSTTD-YANVNITTYCDFYIIHRDQERQCTNYVNNGL  224
+
+
+> UniRef50_A0A068L7V3 Outer capsid protein VP4 (Fragment) n=164 
+Tax=Rotavirus TaxID=10912 RepID=A0A068L7V3_9REOV
+Length=273
+
+ Score = 207 bits (527),  Expect = 1e-63, Method: Composition-based stats.
+ Identities = 52/163 (32%), Positives = 82/163 (50%), Gaps = 3/163 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             L GPY P + N P+ YW  + PL    +    NN+   + T + L +   T+   N+  
+Sbjct  48   LLXGPYXPXTFNPPTKYWAPLAPLAQXKIXXCXNNTXKCLDTIVFLXDVQATSRIYNLFG  107
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            + V +S++N+  T ++F+D  +T+ T +Y Q   L +  +L A  +  SG I  Y G++ 
+Sbjct  108  QQVTLSVENTSQTQWKFIDVSRTTPTGNYTQHGLLFSTPKLYAVMK-FSGRIYTYNGTTP  166
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                   +  N      +    DFYIIP +Q+EKCTEYI  GL
+Sbjct  167  NATTGYYSTTN-YDTVNMTSFCDFYIIPRNQEEKCTEYINHGL  208
+
+
+> UniRef50_A0A1I9ZJD7 Outer capsid protein VP4 (Fragment) n=5 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJD7_9REOV
+Length=193
+
+ Score = 197 bits (502),  Expect = 5e-61, Method: Composition-based stats.
+ Identities = 54/148 (36%), Positives = 77/148 (52%), Gaps = 3/148 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P++YW L+ P  +GV+   TNN   W+ T LI PN   TN T N+  
+Sbjct  48   LLDGPYQPTTFNPPTSYWILLAPTVEGVIIQGTNNVDRWLATILIEPNVQTTNRTYNLFG  107
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+            +   +S++N+  T ++FVD  KT+ T SY Q   L +  +L A  +  SG I  Y G++ 
+Sbjct  108  QQETLSVENTSQTQWKFVDISKTTPTGSYTQHGPLFSTPKLYAVMK-FSGRIYTYNGTTP  166
+
+Query  122  YGDLRVGTYFNPVLNAVINLNADFYIIP  149
+                   +  N      +    DFYIIP
+Sbjct  167  NATTGYYSTTN-YDTVNMTSFCDFYIIP  193
+
+
+> UniRef50_A0A023UHQ5 VP4 (Fragment) n=3 Tax=Human rotavirus A 
+TaxID=10941 RepID=A0A023UHQ5_9REOV
+Length=137
+
+ Score = 190 bits (484),  Expect = 5e-59, Method: Composition-based stats.
+ Identities = 32/138 (23%), Positives = 68/138 (49%), Gaps = 2/138 (1%)
+
+Query  13   SNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNS  72
+               P++YW L+NP N  VV   TN +  W+   L+ PN    +    +  ET  I+++N+
+Sbjct  2    FKPPNDYWILLNPTNQQVVLEGTNRTDIWVALLLVEPNVINQSRQYTLFGETKQITVENN  61
+
+Query  73   GSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFN  132
+             S ++F + F++S +  ++ +  L ++ +L  + +    ++  + G + +      +  N
+Sbjct  62   TSKWKFFEMFRSSGSAEFQHKRTLTSDTKLAGFMKFY-NSVWTFHGETPHATTDYSSTSN  120
+
+Query  133  PVLNAVINLNADFYIIPD  150
+             +      ++ +FYIIP 
+Sbjct  121  -LSEVETVIHVEFYIIPR  137
+
+
+> UniRef50_UPI0006BB9A37 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=UPI0006BB9A37
+Length=164
+
+ Score = 191 bits (485),  Expect = 8e-59, Method: Composition-based stats.
+ Identities = 164/164 (100%), Positives = 164/164 (100%), Gaps = 0/164 (0%)
+
+Query  1    GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV  60
+            GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV
+Sbjct  1    GSALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNV  60
+
+Query  61   MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+            MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS
+Sbjct  61   MNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+
+Query  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL
+Sbjct  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+
+
+> UniRef50_M4PW48 Outer capsid protein VP4 (Fragment) n=31 Tax=Rotavirus 
+TaxID=10912 RepID=M4PW48_9REOV
+Length=200
+
+ Score = 192 bits (488),  Expect = 9e-59, Method: Composition-based stats.
+ Identities = 46/144 (32%), Positives = 70/144 (49%), Gaps = 3/144 (2%)
+
+Query  22   LINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDN-SGSTYRFVD  80
+            L++P N GVV   TNNS  W+ T LI PN      T  +  +   I+++N S + ++FVD
+Sbjct  1    LLSPSNAGVVVEGTNNSDRWLATILIEPNVISQTRTYTLFGQQEQITVENVSTTKWKFVD  60
+
+Query  81   YFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVIN  140
+              KT    +Y Q   L+++ +L    +  SG +  Y G++                  + 
+Sbjct  61   LAKTDINGTYTQHGPLLSDTKLYGVMK-FSGRLYTYNGATPNATTGY-YTTTNYDMVNMV  118
+
+Query  141  LNADFYIIPDSQQEKCTEYIKGGL  164
+             + DFYIIP S++  CT YI  GL
+Sbjct  119  SHCDFYIIPRSEESTCTNYINNGL  142
+
+
+> UniRef50_A8IJH8 Outer capsid protein VP4 (Fragment) n=84 Tax=Rotavirus 
+A TaxID=28875 RepID=A8IJH8_9REOV
+Length=315
+
+ Score = 192 bits (489),  Expect = 2e-57, Method: Composition-based stats.
+ Identities = 141/161 (88%), Positives = 148/161 (92%), Gaps = 0/161 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY PDSSNLPSNYWYL+NP NDGVVFSVT+NSTFWMFTYL+LPNTAQTNVTVNVMNE
+Sbjct  40   LDGPYAPDSSNLPSNYWYLVNPSNDGVVFSVTDNSTFWMFTYLVLPNTAQTNVTVNVMNE  99
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+            TVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HRLQAYRRD  GNISNYWG+ T G
+Sbjct  100  TVNISIDNSGSTYRFVDYIKTSSTQAYGSRNYLNTAHRLQAYRRDGDGNISNYWGADTQG  159
+
+Query  124  DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            DLRVGTY NPV NAVINLNADFY+IPDSQQEKCTEYI+GGL
+Sbjct  160  DLRVGTYSNPVPNAVINLNADFYVIPDSQQEKCTEYIRGGL  200
+
+
+> UniRef50_Q7T6W2 Outer capsid protein VP4 n=3 Tax=Rotavirus TaxID=10912 
+RepID=Q7T6W2_9REOV
+Length=149
+
+ Score = 186 bits (472),  Expect = 6e-57, Method: Composition-based stats.
+ Identities = 45/145 (31%), Positives = 73/145 (50%), Gaps = 3/145 (2%)
+
+Query  21   YLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSG-STYRFV  79
+             L++PLN GVV   TN+   W+ T L+ PN   T  T  +      IS++N+  + ++F+
+Sbjct  1    MLLSPLNAGVVVEGTNSIDRWLATVLVEPNVTTTVRTYTLFGVQEQISVENNSTTKWKFI  60
+
+Query  80   DYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVI  139
+            +  KT+ + S+   + L++E +L A  +   G +  Y G +           N   +  +
+Sbjct  61   NLIKTTLSGSFTLYSTLLSEPKLHAIMK-HGGQLWVYNGETPNATTTGYVTSN-YDSLTM  118
+
+Query  140  NLNADFYIIPDSQQEKCTEYIKGGL  164
+                DFYIIP +Q+  CTEYI  GL
+Sbjct  119  TSFCDFYIIPRNQESTCTEYINNGL  143
+
+
+> UniRef50_A7TUM4 VP4 (Fragment) n=3 Tax=Rotavirus A TaxID=28875 
+RepID=A7TUM4_9REOV
+Length=182
+
+ Score = 183 bits (465),  Expect = 1e-55, Method: Composition-based stats.
+ Identities = 138/161 (86%), Positives = 146/161 (91%), Gaps = 0/161 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY PDSSNLPSNYWYL+NP  DGVVFSVT+NSTFWMFTYL+LPNTAQTNVTVNVMNE
+Sbjct  11   LDGPYAPDSSNLPSNYWYLVNPSYDGVVFSVTDNSTFWMFTYLVLPNTAQTNVTVNVMNE  70
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG  123
+            TVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HRLQAYRRD  GNISNYWG+ T G
+Sbjct  71   TVNISIDNSGSTYRFVDYIKTSSTQTYGSRNYLNTAHRLQAYRRDGDGNISNYWGADTQG  130
+
+Query  124  DLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            DLRVGTY NPV + VINLNADFY+IPDSQQEKCTEYI+GGL
+Sbjct  131  DLRVGTYSNPVPDVVINLNADFYVIPDSQQEKCTEYIRGGL  171
+
+
+> UniRef50_A2THZ3 Outer capsid protein (Fragment) n=1 Tax=Human 
+rotavirus A TaxID=10941 RepID=A2THZ3_9REOV
+Length=172
+
+ Score = 180 bits (458),  Expect = 1e-54, Method: Composition-based stats.
+ Identities = 40/151 (26%), Positives = 77/151 (51%), Gaps = 3/151 (2%)
+
+Query  15   LPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGS  74
+            LP +YW +++P   G V   TN +  W    ++ PN +  +    +  +TV + +DN+ +
+Sbjct  1    LPVDYWMMMSPTQAGRVAEGTNGTDRWFACIIVEPNVSLQSRDYVLDGQTVQLQVDNTSN  60
+
+Query  75   T-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNP  133
+            T ++F+ + K + + +Y Q + L T H+L A+ + + G +  + G+            N 
+Sbjct  61   TMWKFILFIKLTKSGNYSQYSSLSTNHKLCAWIKRD-GRVYWFDGTVPNSSDNYYLTINN  119
+
+Query  134  VLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              +  ++ + DFY+IP +Q + C  YI  GL
+Sbjct  120  DNSI-VSSDVDFYLIPRTQTDSCRRYINNGL  149
+
+
+> UniRef50_G9HX95 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=G9HX95_9REOV
+Length=144
+
+ Score = 178 bits (453),  Expect = 3e-54, Method: Composition-based stats.
+ Identities = 34/142 (24%), Positives = 59/142 (42%), Gaps = 3/142 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   +LP   W L+ P   GVV   T+NS  W+   LI P       T  +  
+Sbjct  5    VLDGPYQPALFDLPVGNWMLLAPTGPGVVVEGTDNSGRWLSVILIEPGVTSETRTYTMFG  64
+
+Query  63   ETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSST  121
+             +  + + N S + ++FV+  KT+    Y +   L+++ +L    +     +  Y G + 
+Sbjct  65   SSKQVLVSNVSDTKWKFVEMMKTAVDGDYAEWGTLLSDTKLYGMMK-YGERLFIYEGETP  123
+
+Query  122  YGDLRVGTYFNPVLNAVINLNA  143
+                +     N   +  +   +
+Sbjct  124  NVTTKGYIVTN-YASVEVRPYS  144
+
+
+> UniRef50_Q68HJ4 Outer capsid protein VP4 (Fragment) n=14 Tax=Rotavirus 
+A TaxID=28875 RepID=Q68HJ4_9REOV
+Length=197
+
+ Score = 179 bits (455),  Expect = 8e-54, Method: Composition-based stats.
+ Identities = 30/133 (23%), Positives = 62/133 (47%), Gaps = 1/133 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW L+N  ++GVV   TNN+  W+    I PN    +   ++  
+Sbjct  64   VLDGPYQPVAFKPPNDYWILVNSNSNGVVLEGTNNTDVWVAIISIEPNVNSESRQYSLFG  123
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+                +++ N+ + ++F++  + ++   ++ +  L +  +L    +   G +  Y+G +  
+Sbjct  124  VNKQVTVVNTSNKWKFMEMVRNNNNAEFQHKRTLTSSTKLIGILK-HGGRLWTYYGETPN  182
+
+Query  123  GDLRVGTYFNPVL  135
+                  T  N   
+Sbjct  183  ATTDYSTTSNLNE  195
+
+
+> UniRef50_A0A222NXN9 Outer capsid protein (Fragment) n=1 Tax=Human 
+rotavirus A TaxID=10941 RepID=A0A222NXN9_9REOV
+Length=136
+
+ Score = 172 bits (437),  Expect = 6e-52, Method: Composition-based stats.
+ Identities = 31/123 (25%), Positives = 55/123 (45%), Gaps = 2/123 (2%)
+
+Query  42   MFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHR  101
+                 + P+    +   NV  E    ++  +   ++F++ F+ SS  ++  R  L ++ R
+Sbjct  1    TAVIAVEPHVDPVDRQYNVFGENKQFNVKKNSDKWKFLEMFRGSSQNAFYNRRTLTSDTR  60
+
+Query  102  LQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIK  161
+            L    +   G I  + G +           N +    I ++++FYIIP SQ+ KC EYI 
+Sbjct  61   LVGILK-YGGRIWTFHGETPRATTDSSNTVN-LNGISITIHSEFYIIPRSQESKCNEYIN  118
+
+Query  162  GGL  164
+             GL
+Sbjct  119  NGL  121
+
+
+> UniRef50_B5MGI6 Outer capsid protein VP4 (Fragment) n=1 Tax=Bovine 
+rotavirus A TaxID=35333 RepID=B5MGI6_9REOV
+Length=231
+
+ Score = 174 bits (442),  Expect = 2e-51, Method: Composition-based stats.
+ Identities = 49/164 (30%), Positives = 83/164 (51%), Gaps = 4/164 (2%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P      +  W L+ P   GV+ + T+N+  WM   +I PN +    T  + +
+Sbjct  34   VLDGPYQPIKFKPDNGNWLLLQPERPGVIMTGTDNANIWMAAIIIEPNLSAEQRTYRIYD  93
+
+Query  63   ETVNISIDNSG-STYRFVDYFKTSSTQSYRQRNYLI-TEHRLQAYRRDESGNISNYWGSS  120
+            E V + +DN+  + ++ VD +KT  +  Y ++N+ I T ++L   R  ++  + +Y G +
+Sbjct  94   EDVELLVDNASRTKWKIVDLYKTQQSGQYVRQNWRIYTAYKLYGIRIVDT-KLQSYGGET  152
+
+Query  121  TYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                +   T  N   N  I   ++F+II  +  EKCT Y+  GL
+Sbjct  153  PNLSMITTTVTN-YSNVEITTLSNFFIISSNNTEKCTTYMNQGL  195
+
+
+> UniRef50_J9QM11 Protease-sensitive outer capsid protein (Fragment) 
+n=18 Tax=Rotavirus A TaxID=28875 RepID=J9QM11_9REOV
+Length=165
+
+ Score = 171 bits (434),  Expect = 4e-51, Method: Composition-based stats.
+ Identities = 38/118 (32%), Positives = 57/118 (48%), Gaps = 1/118 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   PS+YW LIN   +GVV+  TNNS FW     + P+    +   NV  
+Sbjct  49   ILDGPYQPTTFTPPSDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYNVFG  108
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSS  120
+            E    ++ N    ++F++ F  SS   +  R  L ++ RL    +   G I  + G +
+Sbjct  109  ENKQFNVRNDSYKWKFLEMFIGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGET  165
+
+
+> UniRef50_B7ZGS2 Capsid protein (Fragment) n=7 Tax=Rotavirus A 
+isolates TaxID=161240 RepID=B7ZGS2_9REOV
+Length=154
+
+ Score = 167 bits (422),  Expect = 2e-49, Method: Composition-based stats.
+ Identities = 38/122 (31%), Positives = 61/122 (50%), Gaps = 2/122 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  34   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNTTDRWFACVLVEPNVQNTQRQYVLDGQ  93
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             V + + N  +T ++F+ + K +   +Y Q + L T H+L A+ + +   +  Y G++  
+Sbjct  94   NVQLHVSNDSNTSWKFILFIKLTPDGTYTQYSTLSTPHKLCAWMKRD-NRVYWYQGTTPN  152
+
+Query  123  GD  124
+              
+Sbjct  153  AS  154
+
+
+> UniRef50_A0A218KSJ7 Outer capsid protein VP4 (Fragment) n=19 
+Tax=Rotavirus A TaxID=28875 RepID=A0A218KSJ7_9REOV
+Length=262
+
+ Score = 162 bits (409),  Expect = 4e-46, Method: Composition-based stats.
+ Identities = 45/162 (28%), Positives = 79/162 (49%), Gaps = 5/162 (3%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY+  S  +   YW L+NP +  VV    +         ++ PNT +++    ++ +
+Sbjct  53   LDGPYSASSIVIQPQYWILVNPTSQEVVIEA-DAQNKKFACVMLPPNTPESDKQYMILGK  111
+
+Query  64   TVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+             + I + N+ +  Y+F D        +Y +   L+T HRL A+ + ++G +  Y G+   
+Sbjct  112  QITIRLGNTDAVNYKFCDLLSNDGI-TYTKSIELVTPHRLNAFMK-DAGKLYAYSGTVPI  169
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  T  N + N   N+  ++YI+P+SQ     EY+K GL
+Sbjct  170  IKREYHTLDN-IENVQTNITCEYYIVPNSQVSTLEEYLKNGL  210
+
+
+> UniRef50_J9QLU0 Outer capsid protein VP4 (Fragment) n=23 Tax=Rotavirus 
+A TaxID=28875 RepID=J9QLU0_9REOV
+Length=169
+
+ Score = 155 bits (393),  Expect = 7e-45, Method: Composition-based stats.
+ Identities = 30/114 (26%), Positives = 51/114 (45%), Gaps = 2/114 (2%)
+
+Query  51   TAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDES  110
+                +   NV  E    ++ N     +F++ F+ SS   +  R  L ++ +L    +   
+Sbjct  1    VDPVDRQYNVFGENKQFNVRNDSDKSKFLEMFRGSSQSDFYNRRTLTSDTKLVGILK-YG  59
+
+Query  111  GNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            G I  + G +           N + +  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  60   GRIWTFHGETPRATTDSSNTAN-LNDISITIHSEFYIIPRSQESKCNEYINNGL  112
+
+
+> UniRef50_A0A0P0YJV8 Outer capsid protein VP4 n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0P0YJV8_9REOV
+Length=749
+
+ Score = 165 bits (418),  Expect = 9e-45, Method: Composition-based stats.
+ Identities = 37/162 (23%), Positives = 74/162 (46%), Gaps = 3/162 (2%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P +       W+++ P   G V  +   S       L+ P     +    V  +
+Sbjct  65   LDGPYRPSTYKFFKGLWFILKPTQQGKVLELKTTSGICYALALVEPGFTG-DREYTVNGK  123
+
+Query  64   TVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGN-ISNYWGSSTY  122
+             V I+++N+G+ +++VD   +    S+     L T H + A +R ++ + +  Y G ++ 
+Sbjct  124  QVTITVNNTGTLWKYVDII-SYDGNSFNSSVSLTTPHMITAVKRAKTTDTLYTYSGDASS  182
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                  +         I+L + +YI+ + ++E CTE ++ G+
+Sbjct  183  PTFHPYSGVVIDDKTYIHLLSVYYIVAEDKEEYCTEIVRNGI  224
+
+
+> UniRef50_A0A1I9ZJT1 Outer capsid protein VP4 (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJT1_9REOV
+Length=153
+
+ Score = 154 bits (390),  Expect = 1e-44, Method: Composition-based stats.
+ Identities = 41/107 (38%), Positives = 60/107 (56%), Gaps = 1/107 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P + N P++YW L+ P  +GV+   TNN   W+ T LI PN   TN T N+  
+Sbjct  47   LLDGPYQPTTFNPPTSYWILLAPTVEGVIIQGTNNVDRWLATILIEPNVQTTNRTYNLFG  106
+
+Query  63   ETVNISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRD  108
+            +   +S++N+  T ++FVD  KT+ T SY Q   L +  +L    + 
+Sbjct  107  QQETLSVENTSQTQWKFVDISKTTPTGSYTQHGPLFSTPKLYPVMKF  153
+
+
+> UniRef50_Q67526 Outer capsid protein VP4 (Fragment) n=80 Tax=Rotavirus 
+A TaxID=28875 RepID=Q67526_9REOV
+Length=170
+
+ Score = 153 bits (388),  Expect = 5e-44, Method: Composition-based stats.
+ Identities = 24/115 (21%), Positives = 57/115 (50%), Gaps = 2/115 (2%)
+
+Query  50   NTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDE  109
+            N    +    +  ET  I+++N+ + ++F + F+ + +  ++ +  L ++ +L  + +  
+Sbjct  1    NVTTQSRQYTLFGETKQITVENNTNKWKFFEMFRGNVSAEFQHKRTLTSDTKLAGFMKFY  60
+
+Query  110  SGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              ++  + G + +      +  N +      ++ + YIIP SQ+ KC+EYI  GL
+Sbjct  61   -NSVWTFHGETPHATTDYSSTSN-LSEVETVIHVESYIIPRSQESKCSEYINTGL  113
+
+
+> UniRef50_A7YCD5 Outer capsid protein VP4 (Fragment) n=19 Tax=Human 
+rotavirus A TaxID=10941 RepID=A7YCD5_9REOV
+Length=159
+
+ Score = 152 bits (384),  Expect = 1e-43, Method: Composition-based stats.
+ Identities = 29/109 (27%), Positives = 51/109 (47%), Gaps = 2/109 (2%)
+
+Query  56   VTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISN  115
+                +  E    +++N+   ++F + FK SS   +  R  L + +RL    +   G +  
+Sbjct  1    RQYVLFGENKQFNVENNSDKWKFFEMFKGSSQSDFSNRRTLTSNNRLVGMLK-YGGRVWT  59
+
+Query  116  YWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            + G +           + + N  I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  60   FHGETPRATTDSSNTAD-LNNISIIIHSEFYIIPRSQESKCNEYINNGL  107
+
+
+> UniRef50_Q9IVF6 Capsid protein (Fragment) n=2 Tax=Rotavirus A 
+TaxID=28875 RepID=Q9IVF6_9REOV
+Length=104
+
+ Score = 145 bits (367),  Expect = 7e-42, Method: Composition-based stats.
+ Identities = 26/105 (25%), Positives = 49/105 (47%), Gaps = 1/105 (1%)
+
+Query  20   WYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFV  79
+            W LIN   +GVV+  TN+S FW     I P+    +    +  E+   ++ N  + ++F+
+Sbjct  1    WILINSNTNGVVYESTNSSDFWTAVVAIEPHVNPVDRQYTIFGESKQFNVSNDSNKWKFL  60
+
+Query  80   DYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGD  124
+            + F++SS   +  R  L ++ RL    +   G +  + G +    
+Sbjct  61   EMFRSSSQNEFYNRRTLTSDTRLVGILK-YGGRVWTFHGETPRAT  104
+
+
+> UniRef50_C0LK47 Outer capsid protein VP4 (Fragment) n=3 Tax=Human 
+rotavirus A TaxID=10941 RepID=C0LK47_9REOV
+Length=135
+
+ Score = 144 bits (363),  Expect = 8e-41, Method: Composition-based stats.
+ Identities = 29/102 (28%), Positives = 48/102 (47%), Gaps = 2/102 (2%)
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTY  122
+            E    ++ N    ++F++ F+ SS   +  R  L ++ RL    +   G I  + G +  
+Sbjct  1    ENKQFNVRNDSDKWKFLEMFRGSSQNDFYNRRTLTSDTRLVGILK-YGGRIWTFHGETPR  59
+
+Query  123  GDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                     N +    I ++++FYIIP SQ+ KC EYI  GL
+Sbjct  60   ATTDSSNTAN-LNGISITIHSEFYIIPRSQESKCNEYINNGL  100
+
+
+> UniRef50_A0A286S7T5 Outer capsid protein VP4 (Fragment) n=14 
+Tax=Rotavirus A TaxID=28875 RepID=A0A286S7T5_9REOV
+Length=105
+
+ Score = 140 bits (354),  Expect = 8e-40, Method: Composition-based stats.
+ Identities = 20/107 (19%), Positives = 43/107 (40%), Gaps = 2/107 (2%)
+
+Query  39   TFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLIT  98
+             FW     + P+    +   NV  E    ++ +    ++F++ F+ SS   +  R  L +
+Sbjct  1    DFWTAVIAVEPHVNPVDRQYNVFGENKQFNVRSDSDKWKFLEMFRGSSQNDFYNRRTLTS  60
+
+Query  99   EHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADF  145
+            + +L    +   G I  + G +           N + N  I ++++F
+Sbjct  61   DTKLVGILK-YGGRIWTFHGETPRATTDSSNTAN-LNNISITIHSEF  105
+
+
+> UniRef50_W8DTF1 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=W8DTF1_9REOV
+Length=106
+
+ Score = 140 bits (352),  Expect = 2e-39, Method: Composition-based stats.
+ Identities = 20/108 (19%), Positives = 51/108 (47%), Gaps = 2/108 (2%)
+
+Query  47   ILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYR  106
+            + PN    +    +  ET  I+++N+ + ++F + FK + +  ++ +  L +  +L  + 
+Sbjct  1    VEPNVTNQSRQYTLFGETKQITVENNTNKWKFFEMFKNNVSAEFQHKRTLTSXAKLAGFM  60
+
+Query  107  RDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQE  154
+            +    ++  + G + +      +  N +      ++ +FYIIP SQ+ 
+Sbjct  61   KFY-NSVWTFHGETPHATTDYSSTSN-LSEVETVIHVEFYIIPRSQES  106
+
+
+> UniRef50_D0QTW3 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+TaxID=10912 RepID=D0QTW3_9REOV
+Length=156
+
+ Score = 141 bits (355),  Expect = 3e-39, Method: Composition-based stats.
+ Identities = 36/107 (34%), Positives = 56/107 (52%), Gaps = 3/107 (3%)
+
+Query  59   NVMNETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYW  117
+             +  ET +IS+ N S S +RFVD  KT++  +Y Q   L+++ +L    +  +G +  Y 
+Sbjct  1    TLFGETASISVANPSQSKWRFVDVVKTTANGTYAQYGPLLSDTKLYGVMK-YNGKLYTYN  59
+
+Query  118  GSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            G +        +  N   +  +    DFYIIP +Q+ KCTEYI  GL
+Sbjct  60   GETPNATTNYYSITN-YDSVNMTSYCDFYIIPRTQESKCTEYINNGL  105
+
+
+> UniRef50_D3JPR3 Outer capsid protein VP4 (Fragment) n=6 Tax=Rotavirus 
+A TaxID=28875 RepID=D3JPR3_9REOV
+Length=167
+
+ Score = 140 bits (352),  Expect = 8e-39, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  55   NVTVNVMNETVNISIDN-SGSTYRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNI  113
+              T  +      + + N S + ++FV+  KT+    Y +   L+++ +L    +     +
+Sbjct  1    TRTYTMFGSNKQVLVSNVSDTKWKFVEMVKTAVDGDYAEWGTLLSDTKLYGMMK-YGERL  59
+
+Query  114  SNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              Y G +     +     N   +  +   +DFYII  SQ+  CTEYI  GL
+Sbjct  60   FIYEGETPNATTKGYIVTN-YASVEVRPYSDFYIISRSQESACTEYINNGL  109
+
+
+> UniRef50_Q7T6W5 Outer capsid protein VP4 (Fragment) n=43 Tax=Rotavirus 
+TaxID=10912 RepID=Q7T6W5_9REOV
+Length=149
+
+ Score = 139 bits (350),  Expect = 1e-38, Method: Composition-based stats.
+ Identities = 36/99 (36%), Positives = 55/99 (56%), Gaps = 1/99 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   N P NYW L++PLN GVV   TN+   W+ T L+ PN   T  T  +  
+Sbjct  48   VLDGPYQPTKFNPPVNYWMLLSPLNAGVVVEGTNSIDRWLATILVEPNVTTTARTYTLFG  107
+
+Query  63   ETVNISID-NSGSTYRFVDYFKTSSTQSYRQRNYLITEH  100
+                IS++ NS + ++F++  KT+ +  +   + L++E 
+Sbjct  108  VQEQISVETNSTTKWKFINLIKTTLSGRFTLYSTLLSEP  146
+
+
+> UniRef50_B5AAV2 Outer capsid protein VP4 (Fragment) n=10 Tax=Rotavirus 
+A TaxID=28875 RepID=B5AAV2_9REOV
+Length=190
+
+ Score = 139 bits (350),  Expect = 3e-38, Method: Composition-based stats.
+ Identities = 104/123 (85%), Positives = 109/123 (89%), Gaps = 0/123 (0%)
+
+Query  42   MFTYLILPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYFKTSSTQSYRQRNYLITEHR  101
+            MFTYL+LPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDY KTSSTQ+Y  RNYL T HR
+Sbjct  1    MFTYLVLPNTAQTNVTVNVMNETVNISIDNSGSTYRFVDYIKTSSTQAYGSRNYLNTAHR  60
+
+Query  102  LQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIK  161
+            LQAYRRD  GNISNYWG+ T  DL VGTY NPV NAVINLNADFY+IPDSQQE CTEYI+
+Sbjct  61   LQAYRRDGDGNISNYWGADTQDDLGVGTYSNPVPNAVINLNADFYVIPDSQQETCTEYIR  120
+
+Query  162  GGL  164
+            GGL
+Sbjct  121  GGL  123
+
+
+> UniRef50_D3GCM5 Major outer capsid protein (Fragment) n=9 Tax=Human 
+rotavirus A TaxID=10941 RepID=D3GCM5_9REOV
+Length=137
+
+ Score = 137 bits (345),  Expect = 5e-38, Method: Composition-based stats.
+ Identities = 32/85 (38%), Positives = 48/85 (56%), Gaps = 0/85 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LI+   DGVV+  TNNS FW     + P+ +QTN    +  
+Sbjct  53   VLDGPYQPTTFKPPNDYWLLISSNTDGVVYESTNNSDFWTAVIAVEPHVSQTNRQYVLFG  112
+
+Query  63   ETVNISIDNSGSTYRFVDYFKTSST  87
+            E    +++N+   ++F + FK SS 
+Sbjct  113  ENKQFNVENNSDKWKFFEMFKGSSQ  137
+
+
+> UniRef50_A0A1Q1N9W2 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1Q1N9W2_9REOV
+Length=116
+
+ Score = 128 bits (322),  Expect = 7e-35, Method: Composition-based stats.
+ Identities = 37/99 (37%), Positives = 53/99 (54%), Gaps = 3/99 (3%)
+
+Query  67   ISIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDL  125
+            +S++N+  T ++FVD  KT+ T SY Q   L +  +L A  +  SG I  Y G++     
+Sbjct  1    LSVENTSQTQWKFVDISKTTPTASYTQHGPLFSTPKLYAVMK-FSGRIYTYNGATPNATT  59
+
+Query  126  RVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+               +  N      +    DFYIIP +Q+EKCTEYI  GL
+Sbjct  60   GYYSTTN-YDTVNMTSFCDFYIIPRNQEEKCTEYINNGL  97
+
+
+> UniRef50_A0A222UAC4 Outer capsid protein VP4 (Fragment) n=3 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A222UAC4_9REOV
+Length=130
+
+ Score = 127 bits (320),  Expect = 2e-34, Method: Composition-based stats.
+ Identities = 25/79 (32%), Positives = 42/79 (53%), Gaps = 0/79 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P     P++YW L+NP N  +V   TN +  W+   L+ PN    +    +  
+Sbjct  52   VLDGPYQPTGFKPPNDYWLLLNPTNQQIVLEGTNRTDIWIAVLLVEPNVTNQSRQYVLFG  111
+
+Query  63   ETVNISIDNSGSTYRFVDY  81
+            ET  I+++N+ + ++F + 
+Sbjct  112  ETKQITVENNSNKWKFFEM  130
+
+
+> UniRef50_Q9DLD1 Outer capsid protein VP4 (Fragment) n=18 Tax=Rotavirus 
+TaxID=10912 RepID=Q9DLD1_9REOV
+Length=136
+
+ Score = 122 bits (306),  Expect = 3e-32, Method: Composition-based stats.
+ Identities = 27/81 (33%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P   +LP   W L+ P   GVV   T+NS  W+   LI P  A    T  +  
+Sbjct  56   VLDGPYQPAPFDLPVGNWMLLAPTRPGVVVEGTDNSGRWLSVILIEPGVASETRTYMMFG  115
+
+Query  63   ETVNISIDN-SGSTYRFVDYF  82
+             +  + + N S + ++FV+  
+Sbjct  116  SSKQVVVSNVSDTKWKFVEMV  136
+
+
+> UniRef50_A0A220XLW8 Outer capsid protein VP4 (Fragment) n=17 
+Tax=Rotavirus A TaxID=28875 RepID=A0A220XLW8_9REOV
+Length=562
+
+ Score = 124 bits (312),  Expect = 2e-30, Method: Composition-based stats.
+ Identities = 27/99 (27%), Positives = 46/99 (46%), Gaps = 3/99 (3%)
+
+Query  68   SIDNSGST-YRFVDYFKTSSTQSYRQRNYLITEHRLQAYRRDESGNISNYWGSSTYG-DL  125
+             ++N+  T ++F+D+ + S T +Y   N L+++ +LQA  +     +  + G +      
+Sbjct  1    VVENTSQTRWKFIDFHRRSQTDTYVLNNTLLSDTKLQAAMK-YGARLFTFIGDTPNAAPQ  59
+
+Query  126  RVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              G   +      I    DFYIIP   +E C  YI  GL
+Sbjct  60   EYGYETSNYSAIEIRSFCDFYIIPRIPREVCRSYINHGL  98
+
+
+> UniRef50_J9QNI6 Protease-sensitive outer capsid protein (Fragment) 
+n=17 Tax=Rotavirus A TaxID=28875 RepID=J9QNI6_9REOV
+Length=124
+
+ Score = 110 bits (276),  Expect = 6e-28, Method: Composition-based stats.
+ Identities = 25/71 (35%), Positives = 35/71 (49%), Gaps = 0/71 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P++YW LIN   +GVV+  TNNS FW     + P+    +    V  
+Sbjct  54   ILDGPYQPTTFTPPTDYWILINSNTNGVVYESTNNSDFWTAVIAVEPHVDPVDRQYKVFG  113
+
+Query  63   ETVNISIDNSG  73
+            E    ++ N  
+Sbjct  114  ENKQFNVRNDS  124
+
+
+> UniRef50_A0A291EVP4 Outer capsid protein VP4 (Fragment) n=1 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A291EVP4_9REOV
+Length=121
+
+ Score = 106 bits (265),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 24/74 (32%), Positives = 34/74 (46%), Gaps = 2/74 (3%)
+
+Query  91   RQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPD  150
+             Q   L++  +L A  +   G I  Y G +        +  N   +  +    DFYIIP 
+Sbjct  1    SQYGPLLSTPKLYAVMK-YGGRIHTYSGQTPNATTGYYSASN-YDSINMTTFCDFYIIPR  58
+
+Query  151  SQQEKCTEYIKGGL  164
+            S++ KCTEYI  GL
+Sbjct  59   SEESKCTEYINNGL  72
+
+
+> UniRef50_A0A1I9ZJE5 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1I9ZJE5_9REOV
+Length=85
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 35/66 (53%), Gaps = 0/66 (0%)
+
+Query  3   ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+            LDGPY P +   P++YW L+N  ++GVV   TNN+  W+    I PN    +   ++  
+Sbjct  20  VLDGPYQPXAFKPPNDYWILVNSNSNGVVLEGTNNTDVWVAIISIEPNVNSESRQYSLFG  79
+
+Query  63  ETVNIS  68
+           +   I+
+Sbjct  80  QHKQIT  85
+
+
+> UniRef50_J9QM10 Protease-sensitive outer capsid protein (Fragment) 
+n=2 Tax=Human rotavirus A TaxID=10941 RepID=J9QM10_9REOV
+Length=124
+
+ Score = 103 bits (257),  Expect = 4e-25, Method: Composition-based stats.
+ Identities = 23/71 (32%), Positives = 31/71 (44%), Gaps = 0/71 (0%)
+
+Query  3    ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMN  62
+             LDGPY P +   P+ YW LIN   +GVV+  TNN  F      + P+         V  
+Sbjct  54   ILDGPYQPTTFTPPTEYWILINSNTNGVVYKSTNNIDFCTAFIAVEPHVYPLYRQYKVFG  113
+
+Query  63   ETVNISIDNSG  73
+            E    ++ N  
+Sbjct  114  ENKQFNVRNDS  124
+
+
+> UniRef50_Q67534 VP4 (Fragment) n=2 Tax=Rotavirus A TaxID=28875 
+RepID=Q67534_9REOV
+Length=110
+
+ Score = 100 bits (250),  Expect = 3e-24, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 30/61 (49%), Gaps = 0/61 (0%)
+
+Query  4    LDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNE  63
+            LDGPY P S NLP +YW LI P  +G V   TN +  W    L+ PN   T     +  +
+Sbjct  50   LDGPYQPTSLNLPVDYWMLIAPTREGKVAEGTNTTDRWFACVLVEPNVQNTQRQYVLDGQ  109
+
+Query  64   T  64
+             
+Sbjct  110  N  110
+
+
+> UniRef50_Q7T6W6 Outer capsid protein VP4 (Fragment) n=1 Tax=Equine 
+rotavirus TaxID=10937 RepID=Q7T6W6_9REOV
+Length=85
+
+ Score = 95.4 bits (236),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 23/77 (30%), Positives = 38/77 (49%), Gaps = 1/77 (1%)
+
+Query  21  YLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNSG-STYRFV  79
+            L++PLN GVV   TN+   W+ T L+ PN   T  T  +      IS++NS  + ++F+
+Sbjct  1   MLLSPLNAGVVVEGTNSIDRWLATILVEPNVTTTARTYTLFGVQEQISVENSSTTKWKFI  60
+
+Query  80  DYFKTSSTQSYRQRNYL  96
+           +  +  S +       L
+Sbjct  61  NLIQNHSIRQVLHYILL  77
+
+
+> UniRef50_Q7T6W9 Viral protein 4 (Fragment) n=2 Tax=Rotavirus 
+TaxID=10912 RepID=Q7T6W9_9REOV
+Length=61
+
+ Score = 94.6 bits (234),  Expect = 2e-22, Method: Composition-based stats.
+ Identities = 24/61 (39%), Positives = 33/61 (54%), Gaps = 0/61 (0%)
+
+Query  13  SNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVTVNVMNETVNISIDNS  72
+            N P NYW L++PLN GVV   TN+   W+ T L+ PN   T  T  +      IS++N+
+Sbjct  1   FNPPVNYWMLLSPLNAGVVVEGTNSIDRWLATVLVEPNVTTTVRTYTLFGVHEQISVENN  60
+
+Query  73  G  73
+            
+Sbjct  61  S  61
+
+
+> UniRef50_J9QN92 Outer capsid protein VP4 (Fragment) n=9 Tax=Rotavirus 
+A TaxID=28875 RepID=J9QN92_9REOV
+Length=129
+
+ Score = 94.6 bits (234),  Expect = 1e-21, Method: Composition-based stats.
+ Identities = 19/74 (26%), Positives = 32/74 (43%), Gaps = 2/74 (3%)
+
+Query  91   RQRNYLITEHRLQAYRRDESGNISNYWGSSTYGDLRVGTYFNPVLNAVINLNADFYIIPD  150
+              R  L ++ RL    +   G +  + G +           N +    I +++++YII  
+Sbjct  1    YNRRTLTSDTRLVGILK-YGGRVWTFHGETPRATTDSSNTAN-LDGISITVHSEYYIITR  58
+
+Query  151  SQQEKCTEYIKGGL  164
+             Q+ KC EYI  GL
+Sbjct  59   YQEYKCNEYINNGL  72
+
+
+> UniRef50_F8V183 Outer capsid protein VP4 (Fragment) n=2 Tax=Human 
+rotavirus A TaxID=10941 RepID=F8V183_9REOV
+Length=68
+
+ Score = 86.9 bits (214),  Expect = 2e-19, Method: Composition-based stats.
+ Identities = 23/55 (42%), Positives = 30/55 (55%), Gaps = 0/55 (0%)
+
+Query  3   ALDGPYTPDSSNLPSNYWYLINPLNDGVVFSVTNNSTFWMFTYLILPNTAQTNVT  57
+            LDGPY P +   P++YW LIN   +GVV+  TNNS FW     I P+    +  
+Sbjct  12  ILDGPYQPTTFTPPNDYWILINSNTNGVVYESTNNSDFWTAVVAIEPHVNPVDRQ  66
+
+
+> UniRef50_Q1HM04 Outer capsid protein VP4 (Fragment) n=23 Tax=Rotavirus 
+TaxID=10912 RepID=Q1HM04_9REOV
+Length=111
+
+ Score = 70.4 bits (171),  Expect = 8e-13, Method: Composition-based stats.
+ Identities = 15/46 (33%), Positives = 22/46 (48%), Gaps = 1/46 (2%)
+
+Query  119  SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+             +        +  N +      ++ +FYIIP SQ+ KC EYI  GL
+Sbjct  1    ETPNATTDYSSTSN-LSEIETVIHTEFYIIPRSQESKCNEYINTGL  45
+
+
+> UniRef50_A0A0B4U754 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0B4U754_9REOV
+Length=189
+
+ Score = 68.4 bits (166),  Expect = 9e-12, Method: Composition-based stats.
+ Identities = 16/46 (35%), Positives = 22/46 (48%), Gaps = 1/46 (2%)
+
+Query  119  SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+             +        +  N +      ++ DFYIIP SQ+ KC EYI  GL
+Sbjct  1    ETPNATTDYSSTSNLLD-IETVIHTDFYIIPRSQESKCNEYINTGL  45
+
+
+> UniRef50_A0A0G2SS85 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0G2SS85_9REOV
+Length=88
+
+ Score = 66.5 bits (161),  Expect = 1e-11, Method: Composition-based stats.
+ Identities = 16/40 (40%), Positives = 22/40 (55%), Gaps = 1/40 (3%)
+
+Query  125  LRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+                +  N   +  +  + DFYIIP +Q+ KCTEYI  GL
+Sbjct  1    TGYYSTTN-YDSVNMTAHCDFYIIPRAQEAKCTEYINSGL  39
+
+
+> UniRef50_A0A0B4U7V0 Outer capsid protein VP4 (Fragment) n=2 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A0B4U7V0_9REOV
+Length=333
+
+ Score = 66.5 bits (161),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 18/46 (39%), Gaps = 0/46 (0%)
+
+Query  119  SSTYGDLRVGTYFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+            + +      G   N      +    DFYIIP   +E C  YI  GL
+Sbjct  2    TPSAVPQEFGYTTNNYSAIEVRSFCDFYIIPRIPREVCRNYINHGL  47
+
+
+> UniRef50_K9KAD1 Outer capsid protein (Fragment) n=8 Tax=Human 
+rotavirus A TaxID=10941 RepID=K9KAD1_9REOV
+Length=74
+
+ Score = 51.1 bits (121),  Expect = 3e-06, Method: Composition-based stats.
+ Identities = 14/26 (54%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  3   ALDGPYTPDSSNLPSNYWYLINPLND  28
+            LDGPY P     P+NYW L+NP N 
+Sbjct  49  VLDGPYQPTKFKPPNNYWILLNPTNQ  74
+
+
+> UniRef50_A0A1Z2YAE3 Outer capsid protein VP4 (Fragment) n=4 Tax=Rotavirus 
+A TaxID=28875 RepID=A0A1Z2YAE3_9REOV
+Length=141
+
+ Score = 45.3 bits (106),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 12/35 (34%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  130  YFNPVLNAVINLNADFYIIPDSQQEKCTEYIKGGL  164
+              + + N   N+  ++YI+P+SQ     EY+K GL
+Sbjct  1    TLDNIENVQTNITCEYYIVPNSQVSTLEEYLKNGL  35
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.146    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0452    0.140     1.90     42.6     43.6 
+
+Effective search space used: 235678564429
+
+
+  Database: uniref50.fasta
+    Posted date:  Mar 12, 2018 10:01 AM
+  Number of letters in database: 9,493,504,718
+  Number of sequences in database:  30,449,163
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
