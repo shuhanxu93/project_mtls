@@ -34,7 +34,7 @@ def main(dataset_file):
         X_train_encoded = encode_attributes(X_train_fragmented)
         clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
         df = pd.DataFrame(clf.cv_results_)
-        output_file = '../results/lin_none_' + str(window_size) + '.csv'
+        output_file = '../results/seq_linear/seq_linear_none_' + str(window_size) + '.csv'
         df.to_csv(output_file, sep='\t', encoding='utf-8')
 
 

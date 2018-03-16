@@ -41,7 +41,7 @@ def main(dataset_file):
         X_train_encoded, train_groups = encode_pssms(X_train, window_size)
         clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
         df = pd.DataFrame(clf.cv_results_)
-        output_file = '../results/fm_rbf_balanced_' + str(window_size) + '.csv'
+        output_file = '../results/fm_rbf/fm_rbf_balanced_' + str(window_size) + '.csv'
         df.to_csv(output_file, sep='\t', encoding='utf-8')
 
 

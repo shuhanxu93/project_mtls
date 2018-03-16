@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib import ticker, cm
 import pandas as pd
 
-df = pd.read_csv('../results/svm_rbf/rbf_none_15.csv', sep='\t', encoding='utf-8')
+df = pd.read_csv('../results/seq_rbf/seq_rbf_none_15.csv', sep='\t', encoding='utf-8')
 
 df2 = pd.pivot_table(df, values='mean_test_score', index='param_gamma', columns='param_C')
 

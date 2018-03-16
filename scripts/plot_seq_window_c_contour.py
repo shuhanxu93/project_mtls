@@ -8,7 +8,7 @@ x = np.power(2, np.linspace(-5, 15, 11))
 y = np.array([11, 13, 15, 17, 19, 21, 23])
 z = []
 for window_size in [11, 13, 15, 17, 19, 21, 23]:
-    filename = '../results/svm_linear/lin_balanced_' + str(window_size) + '.csv'
+    filename = '../results/seq_linear/seq_linear_balanced_' + str(window_size) + '.csv'
     df = pd.read_csv(filename, sep='\t', encoding='utf-8')
     z.append(df['mean_test_score'].values)
 
