@@ -44,6 +44,7 @@ def main(dataset_file):
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
        and return lists of headers, sequences and structures"""
+    
     headers = []
     sequences = []
     structures = []
