@@ -20,9 +20,9 @@ def main(dataset_file):
 
     y_train_encoded = encode_targets(y_train)
 
-    dtc = tree.DecisionTreeClassifier(random_state=0) # check
-    min_samples_split_range = [2, 3, 4, 5, 6, 7, 8, 9, 10] # check
-    parameters = {'min_samples_split':min_samples_split_range}
+    dtc = tree.DecisionTreeClassifier()
+    min_samples_split_range = [2, 4, 8, 16, 32, 64, 128]
+    parameters = {'min_samples_split':in_samples_split_range}
     group_kfold = GroupKFold(n_splits=5)
 
     clf = GridSearchCV(dtc, parameters, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
