@@ -19,7 +19,7 @@ def main(dataset_file):
     # fragment X_train into sliding windows and get group labels
     y_train_encoded = encode_targets(y_train)
 
-    clf = svm.SVC(cache_size=5000)
+    clf = svm.SVC(cache_size=5000, class_weight='balanced')
     group_kfold = GroupKFold(n_splits=5)
 
     results = {'window_size': [], 'dataset_0': [], 'dataset_1': [], 'dataset_2': [], 'dataset_3': [], 'dataset_4': []}
@@ -37,7 +37,7 @@ def main(dataset_file):
         results['dataset_4'].append(scores[4])
 
     df = pd.DataFrame(results)
-    df.to_csv('../results/window_none.csv', sep='\t', encoding='utf-8')
+    df.to_csv('../results/window_balanced.csv', sep='\t', encoding='utf-8')
 
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
