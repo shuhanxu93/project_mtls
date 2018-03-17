@@ -9,13 +9,13 @@ y2_mean = []
 y2_std = []
 
 for window_size in x:
-    filename = '../results/seq_rbf/seq_rbf_none_' + str(window_size) + '.csv'
+    filename = '../results/seq_rbf/seq_rbf_none_' + str(window_size) + '.csv' # change filename here
     df = pd.read_csv(filename, sep='\t', encoding='utf-8')
     y1_mean.append(df['mean_test_score'].values.max())
     y1_std.append(df['std_test_score'].values[df['mean_test_score'].values.argmax()])
 
 for window_size in x:
-    filename = '../results/seq_rbf/seq_rbf_balanced_' + str(window_size) + '.csv'
+    filename = '../results/seq_rbf/seq_rbf_balanced_' + str(window_size) + '.csv' # change filename here
     df = pd.read_csv(filename, sep='\t', encoding='utf-8')
     y2_mean.append(df['mean_test_score'].values.max())
     y2_std.append(df['std_test_score'].values[df['mean_test_score'].values.argmax()])
