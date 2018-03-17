@@ -28,7 +28,7 @@ def main(dataset_file):
 
     clf = GridSearchCV(rfc, parameters, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
-    test_windows = [15, 17, 19, 21, 23]
+    test_windows = [11, 13, 15, 17, 19, 21, 23]
 
     for window_size in test_windows:
         X_train_fragmented, train_groups = fragment(X_train, window_size)
