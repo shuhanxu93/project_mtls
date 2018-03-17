@@ -26,7 +26,7 @@ def main(dataset_file):
 
     y_train_encoded = encode_targets(y_train)
 
-    lin_svc = svm.LinearSVC()
+    lin_svc = svm.LinearSVC(class_weight='balanced')
     C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
     parameters = {'C':C_range}
     group_kfold = GroupKFold(n_splits=5)
@@ -39,7 +39,7 @@ def main(dataset_file):
         X_train_encoded, train_groups = encode_pssms(X_train, window_size)
         clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
         df = pd.DataFrame(clf.cv_results_)
-        output_file = '../results/fm_linear/fm_linear_none_' + str(window_size) + '.csv'
+        output_file = '../results/fm_linear/fm_linear_balanced_' + str(window_size) + '.csv'
         df.to_csv(output_file, sep='\t', encoding='utf-8')
 
 

@@ -1,5 +1,5 @@
 import numpy as np
-from sklearn import svm
+from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GroupKFold
 from sklearn.model_selection import GridSearchCV
@@ -14,7 +14,7 @@ def main(dataset_file):
     ids, seq, sec = parse(dataset_file)
 
     # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
-    X_train, X_test, y_train, y_test = train_test_split(ids, sec, test_size=0.3, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
 
     pssms = []
 
@@ -26,12 +26,12 @@ def main(dataset_file):
 
     y_train_encoded = encode_targets(y_train)
 
-    lin_svc = svm.LinearSVC()
-    C_range = np.power(2, np.linspace(-5, 15, 11)).tolist()
-    parameters = {'C':C_range}
+    dtc = tree.DecisionTreeClassifier(class_weight='balanced')
+    min_samples_split_range = [2, 4, 8, 16, 32, 64, 128]
+    parameters = {'min_samples_split':min_samples_split_range}
     group_kfold = GroupKFold(n_splits=5)
 
-    clf = GridSearchCV(lin_svc, parameters, n_jobs=-1, refit=False, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
+    clf = GridSearchCV(dtc, parameters, n_jobs=-1, cv=group_kfold, verbose=2, error_score=np.NaN, return_train_score=False)
 
     test_windows = [11, 13, 15, 17, 19, 21, 23]
 
@@ -39,8 +39,10 @@ def main(dataset_file):
         X_train_encoded, train_groups = encode_pssms(X_train, window_size)
         clf.fit(X_train_encoded, y_train_encoded, groups=np.array(train_groups))
         df = pd.DataFrame(clf.cv_results_)
-        output_file = '../results/fm_linear/fm_linear_none_' + str(window_size) + '.csv'
+        output_file = '../results/fm_dt/fm_dt_balanced_' + str(window_size) + '.csv'
         df.to_csv(output_file, sep='\t', encoding='utf-8')
+
+
 
 
 def parse(filename):
