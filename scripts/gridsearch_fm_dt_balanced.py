@@ -14,7 +14,7 @@ def main(dataset_file):
     ids, seq, sec = parse(dataset_file)
 
     # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
-    X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(ids, sec, test_size=0.3, random_state=0)
 
     pssms = []
 
