@@ -22,20 +22,19 @@ def main(dataset_file):
     clf = svm.SVC(cache_size=5000)
     group_kfold = GroupKFold(n_splits=5)
 
-    results = {'sliding_windows': [], 'dataset_0': [], 'dataset_1': [], 'dataset_2': [], 'dataset_3': [], 'dataset_4': [], 'dataset_average': []}
+    results = {'window_size': [], 'dataset_0': [], 'dataset_1': [], 'dataset_2': [], 'dataset_3': [], 'dataset_4': []}
     test_windows = [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
 
     for window_size in test_windows:
         X_train_fragmented, train_groups = fragment(X_train, window_size)
         X_train_encoded = encode_attributes(X_train_fragmented)
         scores = cross_val_score(clf, X_train_encoded, y_train_encoded, groups=np.array(train_groups), cv=group_kfold, n_jobs=-1, verbose=2)
-        results['sliding_windows'].append(window_size)
+        results['window_size'].append(window_size)
         results['dataset_0'].append(scores[0])
         results['dataset_1'].append(scores[1])
         results['dataset_2'].append(scores[2])
         results['dataset_3'].append(scores[3])
         results['dataset_4'].append(scores[4])
-        results['dataset_average'].append(np.mean(scores))
 
     df = pd.DataFrame(results)
     df.to_csv('../results/window_none.csv', sep='\t', encoding='utf-8')
@@ -43,6 +42,7 @@ def main(dataset_file):
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
        and return lists of headers, sequences and structures"""
+
     headers = []
     sequences = []
     structures = []
