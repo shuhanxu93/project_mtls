@@ -1,5 +1,6 @@
 import numpy as np
-from sklearn import svm
+from sklearn import tree
+from sklearn import ensemble
 from sklearn.model_selection import train_test_split
 from sklearn.externals import joblib
 
@@ -25,7 +26,7 @@ def main(dataset_file, window_size, model_name):
     X_train_encoded, train_groups = encode_pssms(X_train, window_size) # train_groups is not needed for this script
     y_train_encoded = encode_targets(y_train)
 
-    clf = svm.SVC(C=8.0, gamma=0.125000, cache_size=5000, class_weight='balanced') # modify the hyper-parameters here
+    clf = ensemble.RandomForestClassifier(n_estimators=250, min_samples_split=32, class_weight='balanced') # modify the hyper-parameters here
     clf.fit(X_train_encoded, y_train_encoded)
 
     data = {'model_name': model_name, 'window_size': window_size, 'clf': clf}
@@ -89,4 +90,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 15, 'test_fm_balanced') # modify window size and model name here (last 2 arguments)
+    main('../datasets/cas3.3line.txt', 13, 'FM_RF_balanced') # modify window size and model name here (last 2 arguments)

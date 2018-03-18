@@ -1,5 +1,6 @@
 import numpy as np
-from sklearn import svm
+from sklearn import tree
+from sklearn import ensemble
 from sklearn.model_selection import train_test_split
 from sklearn.externals import joblib
 
@@ -20,7 +21,7 @@ def main(dataset_file, window_size, model_name):
     X_train_encoded = encode_attributes(X_train_fragmented)
     y_train_encoded = encode_targets(y_train)
 
-    clf = svm.SVC(C=2.0, gamma=0.031250, cache_size=5000) # modify the hyper-parameters here
+    clf = ensemble.RandomForestClassifier(n_estimators=300, min_samples_split=8, class_weight='balanced') # modify the hyper-parameters here
     clf.fit(X_train_encoded, y_train_encoded)
 
     data = {'model_name': model_name, 'window_size': window_size, 'clf': clf}
@@ -32,7 +33,7 @@ def main(dataset_file, window_size, model_name):
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
        and return lists of headers, sequences and structures"""
-    
+
     headers = []
     sequences = []
     structures = []
@@ -128,4 +129,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', 17, 'test_none') # modify window size and model name here (last 2 arguments)
+    main('../datasets/cas3.3line.txt', 19, 'seq_RF_balanced') # modify window size and model name here (last 2 arguments)
