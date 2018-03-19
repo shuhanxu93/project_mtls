@@ -1,6 +1,6 @@
 ## project_mtls
 
-The final models are located in `./final_predictors/`. The models are designed for protein sequences longer than 25 residues. First, you need to move your own fasta and PSSM files into `./final_predictors/` to predict the secondary structures of your own proteins. Then use final_seq.py to predict from primary sequence or final_fm.py to predict from PSSM. Give the input filename and output filename in the terminal as arugments when running either of the scripts. The result is printed to the screen and saved to the output file in the same directory.
+The final models are located in `./final_predictors/`. The models are designed for protein sequences longer than 25 residues. First, you need to move your own fasta and PSSM files into `./final_predictors/` to predict the secondary structures of your own proteins. Then use final_seq.py to predict from primary sequence or final_fm.py to predict from PSSM. Give the input filename and output filename in the terminal as arguments when running either of the scripts. The result is printed to the screen and saved to the output file in the same directory.
 
 Here is a demonstration using the provided fasta file in the directory:
 ```
