@@ -3,7 +3,6 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.externals import joblib
 from sklearn.metrics import accuracy_score
-from sklearn.metrics import confusion_matrix
 from sklearn.metrics import recall_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import f1_score
@@ -16,12 +15,20 @@ np.set_printoptions(threshold=np.nan)
 
 def main(dataset_file, output_file):
 
-    model_list = ['test_none', 'test_balanced']
+    model_list = ['seq_SVCrbf_unbalanced', 'seq_SVCrbf_balanced',
+                  'seq_LinearSVC_unbalanced', 'seq_LinearSVC_balanced',
+                  'seq_DT_unbalanced', 'seq_DT_balanced',
+                  'seq_RF_unbalanced', 'seq_RF_balanced']
     accuracy_list = []
-    con_mat_list = []
-    recall_list = []
-    precision_list = []
-    f1_scores_list =[]
+    recall_H_list = []
+    recall_E_list = []
+    recall_C_list = []
+    precision_H_list = []
+    precision_E_list = []
+    precision_C_list = []
+    f1_score_H_list =[]
+    f1_score_E_list =[]
+    f1_score_C_list =[]
     f1_macro_list = []
     mcc_list = []
     q3_ave_list = []
@@ -37,9 +44,17 @@ def main(dataset_file, output_file):
         ids, seq, sec = parse(dataset_file)
 
         # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
+        X_train, X_test, y_train, y_test = train_test_split(ids, sec, test_size=0.3, random_state=0)
+
+        index = X_test.index('1wfbb-1-AUTO.1') # remove 1wfbb-1-AUTO.1 as it has no hit in psiblast
+
+        # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
         X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
 
-        # fragment X_train into sliding windows and get group labels
+        del X_test[index]
+        del y_test[index]
+
+        # fragment X_test into sliding windows
         X_test_fragmented, train_groups = fragment(X_test, window_size) # train_groups is not needed for this script
 
         X_test_encoded = encode_attributes(X_test_fragmented)
@@ -47,10 +62,18 @@ def main(dataset_file, output_file):
         y_predicted = clf.predict(X_test_encoded)
 
         accuracy_list.append(accuracy_score(y_test_encoded, y_predicted))
-        con_mat_list.append(confusion_matrix(y_test_encoded, y_predicted, labels=[0, 1, 2]))
-        recall_list.append(recall_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None))
-        precision_list.append(precision_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None))
-        f1_scores_list.append(f1_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None))
+        recall = recall_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None)
+        recall_H_list.append(recall[0])
+        recall_E_list.append(recall[1])
+        recall_C_list.append(recall[2])
+        precision = precision_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None)
+        precision_H_list.append(precision[0])
+        precision_E_list.append(precision[1])
+        precision_C_list.append(precision[2])
+        f1_scores = f1_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None)
+        f1_score_H_list.append(f1_scores[0])
+        f1_score_E_list.append(f1_scores[1])
+        f1_score_C_list.append(f1_scores[2])
         f1_macro_list.append(f1_score(y_test_encoded, y_predicted, average='macro'))
         mcc_list.append(matthews_corrcoef(y_test_encoded, y_predicted))
 
@@ -67,23 +90,28 @@ def main(dataset_file, output_file):
 
     evaluation_report = { 'model': model_list,
                           'accuracy': accuracy_list,
-                          'con_mat': con_mat_list,
-                          'recall': recall_list,
-                          'precision': precision_list,
-                          'f1_scores': f1_scores_list,
+                          'recall_H': recall_H_list,
+                          'recall_E': recall_E_list,
+                          'recall_C': recall_C_list,
+                          'precision_H': precision_H_list,
+                          'precision_E': precision_E_list,
+                          'precision_C': precision_C_list,
+                          'f1_score_H': f1_score_H_list,
+                          'f1_score_E': f1_score_E_list,
+                          'f1_score_C': f1_score_C_list,
                           'f1_macro': f1_macro_list,
                           'mcc': mcc_list,
                           'q3_ave': q3_ave_list}
 
     df = pd.DataFrame(evaluation_report)
-    df.to_csv(output_file, sep='\t', encoding='utf-8')
+    df.to_csv(output_file, sep='\t', encoding='utf-8', index=False)
 
 
 
 def parse(filename):
     """Parse though a protein sequence and secondary structure file
        and return lists of headers, sequences and structures"""
-    
+
     headers = []
     sequences = []
     structures = []
@@ -179,4 +207,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', '../results/reports/report1.csv') # modify model_file here (last 2 arguments)
+    main('../datasets/cas3.3line.txt', '../results/reports/report_seq.csv') # modify the report file here(last argument)

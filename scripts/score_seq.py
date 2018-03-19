@@ -26,9 +26,17 @@ def main(dataset_file, model_file):
     ids, seq, sec = parse(dataset_file)
 
     # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
+    X_train, X_test, y_train, y_test = train_test_split(ids, sec, test_size=0.3, random_state=0)
+
+    index = X_test.index('1wfbb-1-AUTO.1') # remove 1wfbb-1-AUTO.1 as it has no hit in psiblast
+
+    # shuffle(random_state=0) and split sequences and structures into training(70%) and test sets(30%)
     X_train, X_test, y_train, y_test = train_test_split(seq, sec, test_size=0.3, random_state=0)
 
-    # fragment X_train into sliding windows and get group labels
+    del X_test[index]
+    del y_test[index]
+
+    # fragment X_test into sliding windows
     X_test_fragmented, train_groups = fragment(X_test, window_size) # train_groups is not needed for this script
 
     X_test_encoded = encode_attributes(X_test_fragmented)

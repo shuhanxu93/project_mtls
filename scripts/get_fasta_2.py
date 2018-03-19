@@ -13,7 +13,7 @@ def main(dataset_file, output_file):
     ids, seq, sec = parse(dataset_file)
 
     writefile = open(output_file, 'w')
-    for index in range(len(ids)):        
+    for index in range(len(ids)):
         writefile.write('>' + ids[index] + '\n')
         writefile.write(seq[index] + '\n')
     writefile.close()
@@ -39,4 +39,4 @@ def parse(filename):
     return headers, sequences, structures
 
 if __name__ == '__main__':
-    main('../datasets/new_proteins.txt', '../datasets/new_proteins.fasta')
+    main('../datasets/new_proteins.txt', '../final_predictors/example.fasta')

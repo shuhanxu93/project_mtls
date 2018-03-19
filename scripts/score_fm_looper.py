@@ -3,7 +3,6 @@ from sklearn import svm
 from sklearn.model_selection import train_test_split
 from sklearn.externals import joblib
 from sklearn.metrics import accuracy_score
-from sklearn.metrics import confusion_matrix
 from sklearn.metrics import recall_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import f1_score
@@ -16,12 +15,20 @@ np.set_printoptions(threshold=np.nan)
 
 def main(dataset_file, output_file):
 
-    model_list = ['test_fm_none', 'test_fm_balanced']
+    model_list = ['FM_SVCrbf_unbalanced', 'FM_SVCrbf_balanced',
+                  'FM_LinearSVC_unbalanced', 'FM_LinearSVC_balanced',
+                  'FM_DT_unbalanced', 'FM_DT_balanced',
+                  'FM_RF_unbalanced', 'FM_RF_balanced']
     accuracy_list = []
-    con_mat_list = []
-    recall_list = []
-    precision_list = []
-    f1_scores_list =[]
+    recall_H_list = []
+    recall_E_list = []
+    recall_C_list = []
+    precision_H_list = []
+    precision_E_list = []
+    precision_C_list = []
+    f1_score_H_list =[]
+    f1_score_E_list =[]
+    f1_score_C_list =[]
     f1_macro_list = []
     mcc_list = []
     q3_ave_list = []
@@ -56,10 +63,18 @@ def main(dataset_file, output_file):
         y_predicted = clf.predict(X_test_encoded)
 
         accuracy_list.append(accuracy_score(y_test_encoded, y_predicted))
-        con_mat_list.append(confusion_matrix(y_test_encoded, y_predicted, labels=[0, 1, 2]))
-        recall_list.append(recall_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None))
-        precision_list.append(precision_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None))
-        f1_scores_list.append(f1_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None))
+        recall = recall_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None)
+        recall_H_list.append(recall[0])
+        recall_E_list.append(recall[1])
+        recall_C_list.append(recall[2])
+        precision = precision_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None)
+        precision_H_list.append(precision[0])
+        precision_E_list.append(precision[1])
+        precision_C_list.append(precision[2])
+        f1_scores = f1_score(y_test_encoded, y_predicted, labels=[0, 1, 2], average=None)
+        f1_score_H_list.append(f1_scores[0])
+        f1_score_E_list.append(f1_scores[1])
+        f1_score_C_list.append(f1_scores[2])
         f1_macro_list.append(f1_score(y_test_encoded, y_predicted, average='macro'))
         mcc_list.append(matthews_corrcoef(y_test_encoded, y_predicted))
 
@@ -75,16 +90,21 @@ def main(dataset_file, output_file):
 
     evaluation_report = { 'model': model_list,
                           'accuracy': accuracy_list,
-                          'con_mat': con_mat_list,
-                          'recall': recall_list,
-                          'precision': precision_list,
-                          'f1_scores': f1_scores_list,
+                          'recall_H': recall_H_list,
+                          'recall_E': recall_E_list,
+                          'recall_C': recall_C_list,
+                          'precision_H': precision_H_list,
+                          'precision_E': precision_E_list,
+                          'precision_C': precision_C_list,
+                          'f1_score_H': f1_score_H_list,
+                          'f1_score_E': f1_score_E_list,
+                          'f1_score_C': f1_score_C_list,
                           'f1_macro': f1_macro_list,
                           'mcc': mcc_list,
                           'q3_ave': q3_ave_list}
 
     df = pd.DataFrame(evaluation_report)
-    df.to_csv(output_file, sep='\t', encoding='utf-8')
+    df.to_csv(output_file, sep='\t', encoding='utf-8', index=False)
 
 
 
@@ -143,4 +163,4 @@ structure_name = np.array(['H', 'E', 'C'])
 
 
 if __name__ == '__main__':
-    main('../datasets/cas3.3line.txt', '../results/reports/report2.csv') # modify model_file here (last 2 arguments)
+    main('../datasets/cas3.3line.txt', '../results/reports/report_fm.csv') # modify the report file here(last argument)
