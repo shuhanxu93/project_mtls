@@ -16,7 +16,24 @@ python3 final_fm.py example.pssm output_pssm.txt
 
 To view my scripts for cross_validation, training and scoring, please go to `./scripts/`.
 
-Cross-validation scripts: 'gridsearch_#inputtype_#method_#classweight.py'
+Cross-validation scripts: `gridsearch_#inputtype_#method_#classweight.py`
+
+Training scripts: `train_#inputtype.py` (need to modify window size, model name and hyper-parameters)
+
+Scoring scripts: `score_#inputtype_looper.py` (for test set)
+                 `score_#inputtype_looper_newproteins.py` (for 50 new proteins)
+
+To view the results of cross_validation, please go to `./results/#inputtype_#method`. Each folder contains the cross-validation results for each type of model.
+
+To view the results of scoring, please go to `./results/reports/`.
+
+To view the dataset and 62 new proteins, please go to `./datasets/`.
+
+To view the bash scripts, please go to `./bash/`.
+
+Bash script for psiblast: `psi_blast.sh`.
+
+Bash script for DSSP annotation: `dssp.sh`.
 
 
 ### 20180316
