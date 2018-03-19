@@ -1,5 +1,20 @@
 ## project_mtls
 
+The final models are located in `./final_predictors/`. The predictors are designed for sequences longer than 25 residues. You need to first move your own fasta and PSSM files into `./final_predictors/` to predict the secondary structure of your own proteins.
+
+Here is a demonstration using the provide fasta file in the directory.
+```
+cd final_predictors
+python3 final_seq.py example.fasta output_fasta.txt
+```
+
+Here is a demonstration using the provide PSSM file in the directory.
+```
+cd final_predictors
+python3 final_fm.py example.pssm output_pssm.txt
+```
+
+
 ### 20180316
 
 Today was a pretty awesome day. I managed to figured out with my friends how to solve some of the problems that I was facing. One issue was reduction of 8 states to 3 states. The dataset that I was given contained only 'H', 'E' and 'C'. There was no information how the three states were defined. John and Marco also did not provide me with much information. Hence, I was not sure how to process the 8 states generated from DSSP. Maryia then told me that I could search the dataset on PDB to find out the original 8 states and then figure out the rule for states reduction. Basically, the rule used by my dataset was converting all classes that are not 'H' and 'E' to 'C'. Now I can make fair evaluation of my predictor using the new proteins. By the way, I realised that the first and last amino acids in my dataset may not be the N and C terminal amino acids. Because residues at the terminals are usually very floppy, 3-D structural determination methods may not be able to obtain the coordinates of the terminal residues correctly. Hence, the protein that we are given are most likely truncated. This makes me question the paddings we add to the ends. Before we add the paddings, should we enlongate the sequence to its true ends and appends 'C's to the secondary structure since the terminal residues are flexible?
