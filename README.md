@@ -14,8 +14,6 @@ cd final_predictors
 python3 final_fm.py example.pssm output_pssm.txt
 ```
 
-
-
 To view my scripts for cross_validation, training and scoring, please go to `./scripts/`.
 
 Cross-validation scripts: `gridsearch_#inputtype_#method_#classweight.py`
