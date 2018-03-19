@@ -27,7 +27,7 @@ To view the results of cross_validation, please go to `./results/#inputtype_#met
 
 To view the results of scoring, please go to `./results/reports/`.
 
-To view the dataset and 62 new proteins, please go to `./datasets/`.
+To view the dataset, psiblast, pssm, 60 new proteins, pdb and dssp files, please go to `./datasets/`.
 
 To view the bash scripts, please go to `./bash/`.
 
