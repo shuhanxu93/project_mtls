@@ -36,6 +36,7 @@ Bash script for psiblast: `psi_blast.sh`.
 
 Bash script for DSSP annotation: `dssp.sh`.
 
+The 16 models trained as mentioned in the report are not pushed into this repository as some of them are too big.
 
 ### 20180316
 
