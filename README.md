@@ -2,13 +2,13 @@
 
 The final models are located in `./final_predictors/`. The predictors are designed for sequences longer than 25 residues. You need to first move your own fasta and PSSM files into `./final_predictors/` to predict the secondary structure of your own proteins.
 
-Here is a demonstration using the provide fasta file in the directory.
+Here is a demonstration using the provide fasta file in the directory:
 ```
 cd final_predictors
 python3 final_seq.py example.fasta output_fasta.txt
 ```
 
-Here is a demonstration using the provide PSSM file in the directory.
+Here is a demonstration using the provide PSSM file in the directory:
 ```
 cd final_predictors
 python3 final_fm.py example.pssm output_pssm.txt
